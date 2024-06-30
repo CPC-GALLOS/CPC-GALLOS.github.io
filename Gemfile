@@ -6,4 +6,6 @@ gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
 
 group :test do
   gem "html-proofer", "~> 5.0"
+  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+  gem 'jekyll-compose', group: [:jekyll_plugins]
 end
