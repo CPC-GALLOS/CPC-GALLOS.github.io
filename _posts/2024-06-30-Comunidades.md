@@ -4,7 +4,7 @@ description: Lista de comunidades para aprender más
 date: 2024-06-30 21:40:00 +/-TTTT
 categories: [Recursos]
 author: ArielParra 
-tags: [recomendaciones]
+tags: [recomendaciones,comunidad]
 toc: false
 pin: false
 image:

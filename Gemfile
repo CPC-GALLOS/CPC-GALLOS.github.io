@@ -3,11 +3,11 @@
 source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
-gem "csv"
-gem "base64"
+gem 'csv', '~> 3.3'
+gem 'base64', '~> 0.2.0'
 
 group :jekyll_plugins do
-  gem 'jekyll-compose'
+  gem 'jekyll-compose', '~> 0.12.0'
 end
 
 group :test do

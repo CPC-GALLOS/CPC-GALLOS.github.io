@@ -4,13 +4,13 @@ description: Recursos relacionados con las matemáticas
 date: 2024-06-30 19:30:00 +/-TTTT
 categories: [Recursos]
 author: ArielParra 
-tags: [recomendaciones,libros]
+tags: [recomendaciones,matematicas]
 toc: false
 pin: false
 image:
 ---
 
-Para las competencias de programación competitiva no se ocupa un conocimiento avanzado de matemáticas, pero el conocimiento y dominio del álgebra, aritmética, combinatoria y teria de números puede ayudar al pensamiento logico matemático y en especial al problem solving. 
+Para las competencias de programación competitiva no se ocupa un conocimiento avanzado de matemáticas, pero el conocimiento y dominio del álgebra, aritmética, combinatoria y teoria de números puede ayudarte a desarrollar el pensamiento logico matemático y por consecuencia te puede ayudar a mejorar tu problem solving. 
 
 - [IOMath: Olympiad Training Materials](https://www.imomath.com/index.cgi?page=mathTexts)
 - [Yufei Zhao: Math Olympiad training handouts](https://yufeizhao.com/olympiad/)

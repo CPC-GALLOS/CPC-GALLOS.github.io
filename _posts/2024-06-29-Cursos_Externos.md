@@ -1,8 +1,8 @@
 ---
 title: Cursos Externos
-description: Presentaciones, videos con temas en orden
+description: Presentaciones, videos con temas en orden acerca de la Programación competiti
 date: 2024-06-29 19:01:00 +/-TTTT
-categories: [Recursos]
+categories: [Cursos]
 author: ArielParra 
 tags: [cursos]  
 toc: false
@@ -10,7 +10,8 @@ pin: true
 image:
 ---
 
-# Trayectorias a tomar
+# Trayectorias a tomar como programador competitivo
+
 - [Colin Galen: From Beginner to Grandmaster](https://www.youtube.com/watch?v=bSdp2WeyuJY)
 - [Mostafa: Enhanced Training roadmap for newcomers](https://codeforces.com/blog/entry/97858)
 - [Masataka Yoneda: A Way to Practice Competitive Programming](https://drive.google.com/file/d/1T-HqQgiB8HlIntpG3tgk2eHDhz5gImK9/view)

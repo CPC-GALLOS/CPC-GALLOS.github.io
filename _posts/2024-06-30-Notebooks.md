@@ -34,4 +34,4 @@ Las 3 únicas limitantes dadas por el ICPC para dichos documentos son:
 
 ## Referencia
 
-ICPC. (s.f.). On-site registration. Recuperado de [https://icpc.global/worldfinals/on-site-registration](https://icpc.global/worldfinals/on-site-registration)
+- ICPC. (s.f.). *On-site registration*. Recuperado de [https://icpc.global/worldfinals/on-site-registration](https://icpc.global/worldfinals/on-site-registration)
