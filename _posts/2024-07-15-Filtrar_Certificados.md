@@ -61,7 +61,12 @@ image:
     display: inline-block;
   }
   #filter-checks label {
+    display: inline-flex;
+    align-items: center;
     margin-right: 5px; 
+  }
+  #filter-checks label input {
+    margin-right: 5px;
   }
   @media screen and (max-width: 670px) {
     .custom_card {
