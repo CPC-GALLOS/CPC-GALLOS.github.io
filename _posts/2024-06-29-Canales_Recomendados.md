@@ -6,7 +6,7 @@ categories: [Recursos]
 author: ArielParra 
 tags: [recomendaciones]  
 toc: false
-pin: true
+pin: false
 image:
 ---
 
@@ -23,4 +23,4 @@ image:
 - [Michael Sambol](https://www.youtube.com/@michaelsambol)  Videos cortos acerca de estructura de datos y algoritmos.
 - [Back To Back SWE](https://www.youtube.com/@BackToBackSWE) Explicaciones de temas de programación y algoritmos.
 - [Colin Galen](https://www.youtube.com/@ColinGalen) Videos para desarrollarte como participante de competencias de programación competitiva.
-- [Mostafa Saad Ibrahim](https://www.youtube.com/@ArabicCompetitiveProgramming) Explicaciónes de algoritmos por un ex-medallista de competencias de programación competitiva.
+- [Mostafa Saad Ibrahim](https://www.youtube.com/@ArabicCompetitiveProgramming) Explicaciones de algoritmos por un ex-medallista de competencias de programación competitiva.

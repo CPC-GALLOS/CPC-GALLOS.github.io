@@ -2,84 +2,143 @@
 title: Certificaciones Gratuitas
 description: Certificaciones, cursos, becas y más
 date: 2024-07-02 08:00:00 +/-TTTT
-categories: [Recursos]
+categories: [Desarrollo_Profesional]
 author: ArielParra 
-tags: [recomendaciones,cursos]
+tags: [recomendaciones,cursos,egresados,estudiantes]
 toc: true
 pin: false
 image:
 ---
 
+Tener un título universitario no es suficiente en el campo laboral de la tecnología. Es necesario tener conocimientos en múltiples tecnologías y saber aplicarlas. Además, es fundamental validar esos conocimientos, y la mejor manera de hacerlo es obteniendo una certificación o un certificado que los respalde.
+
+**Certificaciones**: La principal diferencia entre certificaciones (certifications) y certificados (certificates) radica en el proceso y la validación. Las certificaciones generalmente implican un costo asociado a un voucher para realizar un examen protectorado (supervisado) a través de Pearson VUE, PSI u otros proveedores. Debido a este riguroso proceso, las certificaciones tienen un mayor peso y validez en el ámbito laboral.
+
+**Certificados**: Por otro lado, los certificados son diplomas, constancias o reconocimientos otorgados al completar un curso, bootcamp, proyecto, examen sin protectorado etc. Aunque valiosos, no tienen la misma validación rigurosa que las certificaciones.
+
+**Insignias**: Además, existen las medallas o insignias (badges), que son reconocimientos por completar cursos más breves y específicos. A veces, las certificaciones también se reflejan como insignias. La peculiaridad de las insignias es su forma circular o cuadrada que las diferencia de la forma rectangular de los certificados. Las insignias suelen ser distribuidas a través de plataformas como [credly](https://info.credly.com/).
+
+Si desea revisar los certificados por temas o por emisores revise este post para [Filtrar Certificados](https://cpc-gallos.github.io/blog/Filtrar_Certificados/).
+
 __Tabla de Contenidos:__
 * 
 {:toc} 
 
-Tener un titulo Universitario no es suficiente en el campo laboral de la tecnologia, ocupas tener conociemntos de multiples tecnologias y aplicaciones, el problema es que también debes validar dichos conocimentos, por lo que lo más recomendado es tener una certificación o certficicado que avale dicho conociemnto. 
-
-La principal diferencia entre certifaciones (certifications) y certificados (certificates) es que las **certifaciones** usualmente tienen un costo con el cual compras (o te regalan) un voucher para hacer un examen protectorado a travez de Person VUE, PSI u otro protectorador de examenes y por lo tanto tienen un mayor peso y validez laboral, en cambio los **certifcados** son diplomas, constancias o reconocimentos dados al terminar un curso, bootcamp, proyecto, etc. Y por ultimo existen las medallas o **insignias** (badges) las cuales son reconocimentos dados al terminar cursos de temas más cortos y concisos, aunque a veces las certifaciones se ven reflejadas una insignia, la gracia de las insignias es que tienen forma circular o cuadrada en lugar de rectangular como los certificados, estos usualmente son distribuidos a travez de [credly](https://info.credly.com/). 
 
 ## Certificaciones Gratuitas
 
-- [Oracle](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free) certificaciones de fundamentos en OCI (Oracle Cloud Infrastructure)
+Estas no están protectorados pero tienen el nombre y validación de certificación avalado por Oracle, a través de [Oracle University](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free). 
+- [Oracle Guided Learning Project Management Foundations Associate (Beta)](https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1)
+- [OCI Foundations Associate](https://education.oracle.com/oracle-cloud-infrastructure-2023-foundations-associate/pexam_1Z0-1085-24)
+- [OCI AI Foundations Associate](https://education.oracle.com/oracle-cloud-infrastructure-2023-ai-foundations-associate/pexam_1Z0-1122-23)
+- [Data Management Foundations Associate](https://education.oracle.com/oracle-cloud-data-management-2023-foundations-associate/pexam_1Z0-1105-23)
 
 ## Becas recurrentes con certificados 
 
-La diferencia principal de estas becas a los demás cursos, es que estos tienen horarios fijos para sus clases y en algunos tienes que enviar una solicitud y esperar confirmación de tu beca.
+> La principal diferencia de las **becas** en comparación con otros cursos, es que suelen contar con horarios fijos para sus clases. Además, en la mayoría de los casos, es necesario enviar una solicitud de beca y esperar la confirmación para acceder al curso.
+{: .prompt-info }
 
-- [Tecnolochicas PRO](https://tecnolochicas.mx/registro-tcpro/) son un conjunto de cursos desarrallados por la Fundacion Televisa en colaboración con Microsoft especialmente para estudiantes universitarios, el curso pro tiene dos cursos, un curso de diseño web y otro de Data Science tomados en horarios fijos.
+- [Oracle One](https://www.oracle.com/mx/education/oracle-next-education/) es un curso de 6 meses de duración donde puedes certificarte en front end (React y javascript) ó en backend (Java y Springboot), en cualquier caso tienes que entregar 3 proyectos. 
+- [Tecnolochicas PRO](https://tecnolochicas.mx/registro-tcpro/) son un conjunto de cursos desarrollados por la Fundación Televisa en colaboración con Microsoft especialmente para estudiantes universitarios, el curso pro tiene dos cursos, un curso de diseño web y otro de Data Science tomados en horarios fijos.
 - [Becas Santander](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=TECH&mode=ONLINE) tienen cursos muy variados como Full Stack, ciencia de datos, inteligencia artificial. En especial recomiendo los [cursos de inglés](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=LANGUAGE&mode=ONLINE).
-- [INROADS](https://inroads.org.mx/) es una organización latinoamericana aliada con Google, tiene dos programas principales: [Súbete a la Nube con Google Cloud](https://subetealanube.inroads.org.mx/) donde aprenderas de Infraestructura, Redes, Seguridad, Inteligencia Artificial, Data y Machine Learning. Y su otro programa es el de [Certificados de Carrera de Google](https://becas.inroads.org.mx/) donde podras certificarte sobre Fundamentos de IA, Ciberseguridad y Análisis de Datos.
-- [Blockmakers](https://blockmakers.mx/) cursos creados en colaboracion con el Instituo de Ciencia Y Tecnología de Aguascalientes (INCyTEA) para temas de Blockchain, Solidity, Ciencia de Datos e introducción a la Inteligencia Artificial.
-- [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen 3 tipos de bootcamps Motoko, Azle y ICP developer Javascript. 
+- [INROADS](https://inroads.org.mx/) es una organización latinoamericana aliada con Google, tiene dos programas principales: [Súbete a la Nube con Google Cloud](https://subetealanube.inroads.org.mx/) donde aprenderás de Infraestructura, Redes, Seguridad, Inteligencia Artificial, Data y Machine Learning. Y su otro programa es el de [Certificados de Carrera de Google](https://becas.inroads.org.mx/) donde podras certificarte sobre Fundamentos de IA, Ciberseguridad y Análisis de Datos.
+- [Blockmakers](https://blockmakers.mx/) cursos creados en colaboración con el Instituto de Ciencia Y Tecnología de Aguascalientes (INCyTEA) para temas de Blockchain, Solidity, Ciencia de Datos e introducción a la Inteligencia Artificial.
+- [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen 3 tipos de bootcamps Motoko, Azle y ICP developer Javascript. 
+
+## Exemenes de habilidades de Hackerrank con certificado
+
+[Hackerrank Skills](https://www.hackerrank.com/skills-verification) tiene múltiples exámenes con una duración aproximada de 1:30 horas para demostrar tu conocimiento en un área especifica
+
+> Las Skills de Problem Solving son las más importantes en cuestión de programación competitiva por lo que recomiendo ampliamente hacer estos exámenes.
+{: .prompt-tip }
+- [Problem Solving (Basic)](https://www.hackerrank.com/skills-verification/problem_solving_basic) y [Problem Solving (Intermediate)](https://www.hackerrank.com/skills-verification/problem_solving_intermediate) 
+- [C# (Basic)](https://www.hackerrank.com/skills-verification/c_sharp_basic)
+- [CSS (Basic)](https://www.hackerrank.com/skills-verification/css)
+- [JavaScript (Basic)](https://www.hackerrank.com/skills-verification/javascript_basic) y [JavaScript (Intermediate)](https://www.hackerrank.com/skills-verification/javascript_basic)
+- [Java (Basic)](https://www.hackerrank.com/skills-verification/java_basic)
+- [Python (Basic)](https://www.hackerrank.com/skills-verification/python_basic)
+- [R (Basic)](https://www.hackerrank.com/skills-verification/r_basic) y [R (Intermediate)](https://www.hackerrank.com/skills-verification/r_intermediate)
+- [SQL (Basic)](https://www.hackerrank.com/skills-verification/sql_basic), [SQL (Intermediate)](https://www.hackerrank.com/skills-verification/sql_intermediate) y [ SQL (Advanced)](https://www.hackerrank.com/skills-verification/sql_advanced)
+
 
 ## Cursos con certificados
 
-- [Capacitate Para el Empleo](https://capacitateparaelempleo.org/mostrar-diplomados) es una plataforma en español creada por la fundación Carlos Slim donde hay distintos diplomados de tecnologia como: Técnico en sistemas informáticos, Desarrollo de sitios web y aplicaciones móviles, Técnico en redes, Fundamentos de Full Stack, entre otros. 
-- [Hackerrank Skills](https://www.hackerrank.com/skills-verification) estos son examenes con una duracion aproximada de 1:30 horas para demostrar tu conocimiento en un área especifica como: Problem Solving, SQL, Software Engineer, Angular, C#, GO, Java, etc.
 - [Gitlab CI Fundamentals](https://university.gitlab.com/learn/learning-path/gitlab-ci-fundamentals) es un conjunto de pequeños curso acerca del DevOps en gitlab.
-- [Gitlab TeamOps Foundations](https://university.gitlab.com/courses/teamops) es un modelo operativo para el completo manejo de proyectos de software.
+- [Gitlab TeamOps Foundation](https://university.gitlab.com/courses/teamops) es un modelo operativo para el completo manejo de proyectos de software.
 - [Gitlab Remote Foundations Certification](https://university.gitlab.com/courses/remote-foundations) es un pequeño curso acerca del trabajo remoto.
 - [GitHub Professional Certificate](https://www.linkedin.com/learning/paths/career-essentials-in-github-professional-certificate) certificado profesional sacado por Linkedin en colaboración con Github.
-- [Certificado de C#](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/) desarrollado por freecodecamp en colaboración con Microsoft para el lenguaje C# junto con el framework de ".NET". 
-- [Oracle One](https://www.oracle.com/mx/education/oracle-next-education/) es un curso de 6 meses de duración donde puedes certificarte en front end (React y javascript) ó en backend (Java y Springboot), en cualquier caso tienes que entregar 3 proyectos. 
-- [OpenCV Bootcamp](https://opencv.org/university/free-opencv-course/) esta libreria de Python es muy utilizada en el mercado, es usada para reconocimiento y analisis de imagenes ya sean estaticas o en tiempo real con una camara.
-- [TensorFlow Bootcamp](https://opencv.org/university/free-tensorflow-keras-course) esta libreria de Python creada por google es indispensable para la creación de redes neuronales, las cuales son las bases de la inteligencia artificial.
-- [Kaggle](https://www.kaggle.com/learn) es una plataforma de aprendizaje donde tienen cursos de distitnas tecnologias como machine learning, bases de datos SQL y multiples librerias de python como pandas, tensorflow, etc.
-- [freecodecamp](https://www.freecodecamp.org/learn/) es una plataforma de aprendizaje gratuito, aunque algo despreciados en la industria por el solo echo de ser gratis y accesibles.
+- [OpenCV Bootcamp](https://opencv.org/university/free-opencv-course/) esta librería de Python es muy utilizada en el mercado, es usada para reconocimiento y análisis de imágenes ya sean estáticas o en tiempo real con una cámara.
+- [TensorFlow Bootcamp](https://opencv.org/university/free-tensorflow-keras-course) esta librería de Python creada por Google es indispensable para la creación de redes neuronales, las cuales son las bases de la inteligencia artificial.
 
-### Cursos de la Universidad de Hardvard 
+### Diplomados de Capacítate Para el Empleo 
+[Capacítate Para el Empleo](https://capacitateparaelempleo.org/mostrar-diplomados) es una plataforma en español creada por la fundación Carlos Slim donde hay distintos diplomados de tecnología.
 
-Cada [curso en Hardvard](https://pll.harvard.edu/catalog?topics%5B702%5D=702&price%5B1%5D=1&max_price=&start_date=&keywords=) tiene una longitud distinta, por ejemplo el CS50X dice que dura 10 semanas, pero puedes acabarlo hasta el 31 de diciembre del año donde lo empezaste, los cursos tienen una dificultad variable ya que casi siempre podras elegir entregar un problema facíl o dificil por cada tarea (estas tareas se entregan en un grupo de github). En cualquier curso debes entregar todas las tareas y un proyecto final, el cual es libre para poder obtener tu certificado.
+- [Desarrollo de sitios web y apps móviles](https://capacitateparaelempleo.org/interna-diplomado/26)
+- [Fundamentes de Full Stack](https://capacitateparaelempleo.org/interna-diplomado/62)
+- [Técnico en sistemas informáticos](https://capacitateparaelempleo.org/interna-diplomado/23)
+- [Técnico en redes](https://capacitateparaelempleo.org/interna-diplomado/23)
+- [Técnico de cómputo en la nube](https://capacitateparaelempleo.org/interna-diplomado/30)
+- [Integrador de servicios IoT](https://capacitateparaelempleo.org/interna-especialidad/4)
+- [Tratamiento de datos](https://capacitateparaelempleo.org/interna-especialidad/6)
+
+### Cursos de Kaggle
+[Kaggle](https://www.kaggle.com/learn) es una plataforma de aprendizaje donde hay cursos de distintas tecnologías como machine learning, bases de datos SQL y múltiples librerías de python como pandas, tensorflow, etc.
+
+- [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) e [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning) 
+- [Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)
+- [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql) y [Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
+- [Data Visualization](https://www.kaggle.com/learn/data-visualization)
+- [Python](https://www.kaggle.com/learn/python)
+- [Pandas](https://www.kaggle.com/learn/pandas)
+
+### Cursos de freecodecamp
+[freecodecamp](https://www.freecodecamp.org/learn/) es una plataforma de aprendizaje gratuito, aunque quizá sean ligeramente despreciados en la industria por el solo echo de ser gratis y accesibles.
+
+- [MS Foundational C#](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/) desarrollado por freecodecamp en colaboración con Microsoft para el lenguaje C# junto con el framework de ".NET".
+- [A2 English for Developers](https://www.freecodecamp.org/learn/a2-english-for-developers/)
+- [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
+- [Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/)
+- [Back End Development and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
+- [Relational Database](https://www.freecodecamp.org/learn/relational-database/)
+- [Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python/)
+- [Data Visualization](https://www.freecodecamp.org/learn/data-visualization/)
+- [Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/)
+- [Information Security Certification](https://www.freecodecamp.org/learn/information-security/)
 
 
-- [CS50X](https://cs50.harvard.edu/x/) introducción a la Computer Science, se ven multiples temás como algoritmos, estrucruras de datos, abstracción, encapsulmiento, encapsulation, cyberseguridad; tecnologias como C, SQL, Python, HTML, CSS, y JavaScript.
-- [CS50P](https://cs50.harvard.edu/python/) introducción a Python con temas como clases, objectos, metodos, etc.
-- [CS50R](https://cs50.harvard.edu/r/) introducción a la ciencia de datos y estadistica con R
+### Cursos de la Universidad de Harvard 
+
+Cada [curso en Harvard](https://pll.harvard.edu/catalog?topics%5B702%5D=702&price%5B1%5D=1&max_price=&start_date=&keywords=) tiene una longitud distinta, por ejemplo el CS50X dice que dura 10 semanas, pero puedes acabarlo hasta el 31 de diciembre del año donde lo empezaste, los cursos tienen una dificultad variable ya que casi siempre podrás elegir entregar un problema fácil o difícil por cada tarea (estas tareas se entregan en un grupo de github). En cualquier curso debes entregar todas las tareas y un proyecto final, el cual es libre para poder obtener tu certificado.
+
+
+- [CS50X](https://cs50.harvard.edu/x/) introducción a la Computer Science, se ven múltiples temas como algoritmos, estructuras de datos, abstracción, encapsulmiento, cyberseguridad; tecnologías como C, SQL, Python, HTML, CSS, y JavaScript.
+- [CS50P](https://cs50.harvard.edu/python/) introducción a Python con temas como clases, objectos, métodos, etc.
+- [CS50R](https://cs50.harvard.edu/r/) introducción a la ciencia de datos y estadística con R
 - [CS50AI](https://cs50.harvard.edu/ai/) introducción al machine learning e inteligencia artificial en Python 
 
-### Cursos de la Universisdad de Helsinki
+### Cursos de la Universidad de Helsinki
 
-La universidad de Helsinki en Finlandia, es la universidad que vio la creación de Linux, por lo que es una reconcida universidad a nivel mundial, esta universidad ofrece un amplio [catalogo de cursos](https://www.classcentral.com/university/helsinki) con certificado a travez de distintas páginas donde las tareas o actividades son entregadas en un moodle (como el aulavirtual de la UAA).
+La universidad de Helsinki en Finlandia, es la universidad que vio la creación de Linux, por lo que es una reconocida universidad a nivel mundial, esta universidad ofrece un amplio [catalogo de cursos](https://www.classcentral.com/university/helsinki) con certificado a través de distintas páginas donde las tareas o actividades son entregadas en un moodle (como el aulavirtual de la UAA).
 
 - [Python Programming MOOC 2024](https://programming-24.mooc.fi/) MOOC significa Massive Online Open Courses, en este caso es un curso anual de Python el cual puedes realizar a tu paso durante todo lo que reste del año.
-- [Java Programming MOOC](https://java-programming.mooc.fi/) es un buen curso de Java, aunque tambien recomendaria investigar más acerca de springboot o JAVAFX.
-- [DevOps with Docker](https://devopswithdocker.com/) y [DevOps with Kubernetes](https://devopswithkubernetes.com/) son cursos muy necesarios en el despliege de aplicaciones en la nube.
+- [Java Programming MOOC](https://java-programming.mooc.fi/) es un buen curso de Java, aunque también recomendaría investigar más acerca de springboot o JAVAFX.
+- [DevOps with Docker](https://devopswithdocker.com/) y [DevOps with Kubernetes](https://devopswithkubernetes.com/) son cursos muy necesarios en el despliegue de aplicaciones en la nube.
 - [Full Stack open](https://fullstackopen.com/en/) curso de full stack (front end y back end)
-- [Elements of AI](https://www.elementsofai.com/) introduccion a la Inteligencia Artificial.
+- [Elements of AI](https://www.elementsofai.com/) introducción a la Inteligencia Artificial.
 
 ### Cursos por Linux Foundation
 
-Recomiendo la mayoria cursos en el [Catalogo de cursos](https://training.linuxfoundation.org/resources/?_sft_content_type=free-course) 
-de la Linux Foundation, aunque la mayoria si son acerca de temás muy especializados, en general recomiendo estos cuatro cursos: 
+Recomiendo la mayoría cursos en el [Catalogo de cursos](https://training.linuxfoundation.org/resources/?_sft_content_type=free-course) 
+de la Linux Foundation, aunque la mayoría si son acerca de temas muy especializados, en general recomiendo estos cuatro cursos: 
 
-- [Git for Distributed Software Development](https://training.linuxfoundation.org/training/git-for-distributed-software-development-lfd109x/) git fue creado por el creador de linux, por lo que este curso tiene una muy buena validez.
-- [Introduction to Kubernetes](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) kubernetes es una de las herramientas más utilizadas para servidores en la nube sin importar que tipo de nube.
+- [Git for Distributed Software Development](https://training.linuxfoundation.org/training/git-for-distributed-software-development-lfd109x/) git fue creado por el creador de Linux, por lo que este curso tiene una muy buena validez.
+- [Introduction to Kubernetes](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) Kubernetes es una de las herramientas más utilizadas para servidores en la nube sin importar que tipo de nube.
 - [Cybersecurity Essentials](https://training.linuxfoundation.org/training/cybersecurity-essentials-lfc108/) si esperas especializarte en cyberseguridad, este es un buen lugar para comenzar.
-- [Introduction to Linux](https://training.linuxfoundation.org/training/introduction-to-linux/) saber linux no solo es bueno, es indispensable ya que la mayor parte de los servidores lo utilizan.
+- [Introduction to Linux](https://training.linuxfoundation.org/training/introduction-to-linux/) saber Linux no solo es bueno, es indispensable ya que la mayor parte de los servidores lo utilizan.
 
-### Cursos de Linkedin X Microsoft
+### Cursos de LinkedIn X Microsoft
 
-Multiples certificados sacados por Linkedin en colaboración con Microsoft para diferentes áreas, estos cursos estan disponibles en [inglés](https://opportunity.linkedin.com/en-us/skills-for-in-demand-jobs?lr=1) y en [español](https://opportunity.linkedin.com/es-es/skills-for-in-demand-jobs?lr=1) , recomiendo hacer los cursos en ambos idiomas a la vez.
+Múltiples certificados sacados por LinkedIn en colaboración con Microsoft para diferentes áreas, estos cursos están disponibles en [inglés](https://opportunity.linkedin.com/en-us/skills-for-in-demand-jobs?lr=1) y en [español](https://opportunity.linkedin.com/es-es/skills-for-in-demand-jobs?lr=1) , recomiendo hacer los cursos en ambos idiomas a la vez.
 
 - [Career Essentials in Software Developer](https://www.linkedin.com/learning/paths/career-essentials-in-software-development?src=re-other&veh=news.microsoft.com%7Cre-other&accountId=0&u=0&success=true&authUUID=gBnL71l2Q%2FiVqj4cdrcTig%3D%3D)
 - [Career Essentials in Data analyst](https://www.linkedin.com/learning/paths/career-essentials-in-data-analysis?src=re-other&veh=news.microsoft.com%7Cre-other&accountId=0&u=0&success=true&authUUID=BlVF0LZgQLaL66e%2FolKJ1g%3D%3D)
@@ -89,9 +148,11 @@ Multiples certificados sacados por Linkedin en colaboración con Microsoft para 
 
 ## Cursos en Coursera
 
-En si coursera no es gratis, pero la mayoria de cursos tienen la opción de auditar de manera gratuita sin poder obtener el certificado, pero también tienen la opción para [solicitar ayuda económica](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es) y obtener una beca de hasta el 100% para poder obtener tu certificado.
+En si coursera no es gratis, pero la mayoría de cursos tienen la opción de auditar de manera gratuita sin poder obtener el certificado, pero también tienen la opción para [solicitar ayuda económica](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es) y obtener una beca de hasta el 100% para poder obtener tu certificado.
 
-- [University of Standford: Algorithms](https://www.coursera.org/specializations/algorithms) esta es la certificación que más se relaciona con la programación competitiva, aunque si es algo larga ya que consta de 4 cursos.
+> El certificado de Algorithms de Standford es la que más se relaciona con la programación competitiva, aunque si es algo larga ya que consta de 4 cursos, pero si tienes la oportunidad certificate en este curso.
+{: .prompt-tip }
+- [University of Standford: Algorithms](https://www.coursera.org/specializations/algorithms)
 - [Amazon: Cloud Solutions Architect](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect)
 - [IBM: Machine Learning](https://www.coursera.org/professional-certificates/ibm-machine-learning)
 - [IBM: Dev Ops](https://www.coursera.org/professional-certificates/devops-and-software-engineering)
@@ -106,11 +167,15 @@ En si coursera no es gratis, pero la mayoria de cursos tienen la opción de audi
 
 ## Insignias
 
+### Insignia de Fortinet
+
+- [Fortinet Certified Fundamentals Cybersecurity](https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity) es una insignia dada por Fortinet para su introducción a la ciberseguridad.
+
 ### Insignias de Cisco
 
-Cisco es la empresa que tiene el monopolio de la Infraeestructura de las redes, sus cursos estan disponibles a travez de [netacad](https://www.netacad.com/courses/all-courses) ó [skillsforall](https://skillsforall.com/catalog?category=course). En ambos se deben realizar tareas y entregarlas en su plataforma de moodle.
+Cisco es la empresa que tiene el monopolio de la Infraestructura de las redes, sus cursos están disponibles a través de [netacad](https://www.netacad.com/courses/all-courses) ó [skillsforall](https://skillsforall.com/catalog?category=course). En ambos se deben realizar tareas y entregarlas en su plataforma de moodle.
 
-- [English for IT 1](https://skillsforall.com/course/english-for-it1?courseLang=en-US) y [English for IT 2](https://skillsforall.com/course/english-for-it2?courseLang=en-US) estos son cursos indispensables, ya que sin el inglés no se pueden hacer la mayoria de certificaciones, certificados, bootcamps, internships o poder acceder a casi cualquier recurso informatico avanzado.
+- [English for IT 1](https://skillsforall.com/course/english-for-it1?courseLang=en-US) y [English for IT 2](https://skillsforall.com/course/english-for-it2?courseLang=en-US) estos son cursos indispensables, ya que sin el inglés no se pueden hacer la mayoría de certificaciones, certificados, botamos, intensáis o poder acceder a casi cualquier recurso informático avanzado.
 - [NDG: linux essentials](https://www.netacad.com/courses/os-it/ndg-linux-essentials)
 - [CPA: Programming Essentials in C++](https://www.netacad.com/courses/programming/essentials-programming-c-plus-plus)
 - [PCAP: Programming Essentials in Python](https://www.netacad.com/courses/programming/pcap-programming-essentials-python)
@@ -146,6 +211,20 @@ IBM tiene más de [500 insignias gratuitas](https://www.ibm.com/training/search?
     - [Machine Learning for Data Science Projects](https://skills.yourlearning.ibm.com/activity/PLAN-D8E7C82C1D76?ngo-id=0302)
     - [Cybersecurity Fundamentals](https://skills.yourlearning.ibm.com/activity/PLAN-4FB8400F05FC?ngo-id=0302)
 
+### Insignias de Oracle
+
+Oracle ofrce distintas insignias relacionads a Oracle Cloud Infraestructure (OCI) a través de [Oracle University](https://mylearn.oracle.com/)
+
+- [OCI Kubernetes Engine Specialist](https://mylearn.oracle.com/ou/learning-path/become-an-oci-kubernetes-engine-specialist/134984)
+- [Oracle Linux: System Administration on OCI](https://mylearn.oracle.com/ou/learning-path/oracle-linux-system-administration-on-oci/110062)
+- [MySQL HeatWave foundations](https://mylearn.oracle.com/ou/learning-path/mysql-heatwave-implementation/101969)
+- [Oracle Database@Azure Specialist](https://mylearn.oracle.com/ou/learning-path/become-an-oracle-databaseazure-specialist/135857)
+- [MySQL Explorer](https://mylearn.oracle.com/ou/learning-path/mysql-explorer/79674)
+- [Oracle APEX + AI](https://mylearn.oracle.com/ou/learning-path/oracle-apex-empowering-low-code-apps-with-ai/138290)
+- [Exadata Database Service Cloud Administrator](https://mylearn.oracle.com/ou/learning-path/become-a-exadata-database-service-cloud-administrator/121071)
+- [Discover and Train in CyberSecurity](https://mylearn.oracle.com/ou/learning-path/discover-and-train-in-cybersecurity/100307)
+- [Oracle Cloud Overview](https://mylearn.oracle.com/ou/learning-path/oracle-cloud-overview/115954)
+
 ### Insignias de Microsoft
 
 Microsoft tiene más de 4500 cursos, modulos y rutas de aprendizaje en su plataforma [Microsoft Learn](https://learn.microsoft.com/en-us/training/browse/), aunque yo en especial recomiendo tomar las [rutas de aprendizaje](https://learn.microsoft.com/en-us/training/browse/?resource_type=learning%20path) ya que estas al ser un conjunto de cursos tienen un mejor valor curricular. Pero si de valor curricular hablamos las [Microsoft Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills) son las que más peso tienen, ya que estas son implentaciones de tecnlogias de Microsoft muy utiles para tu portafolio.
@@ -160,10 +239,11 @@ Microsoft tiene más de 4500 cursos, modulos y rutas de aprendizaje en su plataf
 - [Introduction to Kubernetes on Azure](https://learn.microsoft.com/en-us/training/paths/intro-to-kubernetes-on-azure/?tab=tab-learning-paths)
 - [Continuous integration with GitHub Actions](https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/)
 - [Build .NET applications with C#](https://learn.microsoft.com/en-us/training/paths/build-dotnet-applications-csharp/?tab=tab-learning-paths)
+- [Azure SQL fundamentals](https://learn.microsoft.com/en-us/training/paths/azure-sql-fundamentals/)
 
 ### Insignias de Huawei
 
-Huawei ofrece cursos gratuitos acerca de la nube e infraestructura de Huawei a travez de [ICT Academy](https://e.huawei.com/en/talent/learning/#/home)
+Huawei ofrece cursos gratuitos acerca de la nube e infraestructura de Huawei a través de [ICT Academy](https://e.huawei.com/en/talent/learning/#/home)
 
 - [Algorithm and Program Design](https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=GREVe60yM27kPS-6tXC2f2BRJaY)
 - [Cloud Advanced: Architecture and Technologies](https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=Se1I614YHgqqGiacs4WLZCkvGGM)

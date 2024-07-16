@@ -10,7 +10,7 @@ pin: false
 image:
 ---
 
-Para las competencias de programación competitiva no se ocupa un conocimiento avanzado de matemáticas, pero el conocimiento y dominio del álgebra, aritmética, combinatoria y teoria de números puede ayudarte a desarrollar el pensamiento logico matemático y por consecuencia te puede ayudar a mejorar tu problem solving. 
+Para las competencias de programación competitiva no se ocupa un conocimiento avanzado de matemáticas, pero el conocimiento y dominio del álgebra, aritmética, combinatoria y teoría de números puede ayudarte a desarrollar el pensamiento lógico matemático y por consecuencia te puede ayudar a mejorar tu problem solving. 
 
 - [IOMath: Olympiad Training Materials](https://www.imomath.com/index.cgi?page=mathTexts)
 - [Yufei Zhao: Math Olympiad training handouts](https://yufeizhao.com/olympiad/)

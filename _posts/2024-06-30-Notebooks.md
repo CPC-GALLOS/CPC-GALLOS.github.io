@@ -10,7 +10,7 @@ pin: false
 image:
 ---
 
-Los Notebooks, tambien conocidos como cheat sheets, se llaman oficialmente: Team Reference Document (TRD) por el ICPC, estos son documentos que pueden llevar los equipos a las competencias que pueden incluir, algorimos, teoria, referencias del lenguaje, partes de codigos, entre otras opciones. 
+Los Notebooks, también conocidos como cheat sheets, se llaman oficialmente: Team Reference Document (TRD) por el ICPC, estos son documentos que pueden llevar los equipos a las competencias que pueden incluir, algoritmos, teoría, referencias del lenguaje, partes de códigos, entre otras opciones. 
 
 Las 3 únicas limitantes dadas por el ICPC para dichos documentos son:
 

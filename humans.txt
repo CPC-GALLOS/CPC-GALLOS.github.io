@@ -1,0 +1,19 @@
+/* TEAM */
+  
+  Developer: Ariel Parra
+  Designer: Ariel Parra
+  Project Manager: Ariel Parra
+  
+/* THANKS */
+  
+  Special thanks to Cotes Chung for making the chirpy jekyll theme
+  And also special thanks to Jinchao Li's post for the post about exchanging the Homepage and About page. 
+
+
+/* SITE */
+  Last update: 2024-07-15
+  Standards: W3 HTML5, W3 CSS3
+  Software: VSCode, git, jekyll
+
+/* CONTACT */
+  
