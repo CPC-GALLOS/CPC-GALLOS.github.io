@@ -64,9 +64,9 @@ image:
     margin-right: 5px; 
   }
   @media screen and (max-width: 670px) {
-    #filter-checks {
-      display: flex !important; 
-      margin-right: 0px !important; 
+    .custom_card {
+      min-width: 8rem;
+      max-width: 8rem;
     }
   }
 </style>
@@ -216,11 +216,9 @@ Si desea ver una lista detallada acerca de los temas junto con becas revise este
 
   <!-- certifications -->
   <div class="custom_card center" data-tags="certification oracle pm">
-    <!-- <img loading="lazy" src="/assets/img/certs/Oracle_Guided_Learning_Project_Management_Foundations_Associate.png" alt=""> -->
     <a href="https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1">Oracle Project Management Foundations Associate (Beta)</a>
   </div>
   <div class="custom_card center" data-tags="certification oracle cloud">
-    <!-- <img loading="lazy" src="/assets/img/certs/Oracle_University_Generic_Badge.webp" alt="OCI Foundations Associate Badge"> -->
     <a href="https://education.oracle.com/es/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-24">OCI Foundations Associate (2024)</a>
   </div>
   <div class="custom_card center" data-tags="certification oracle cloud">

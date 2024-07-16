@@ -21,6 +21,7 @@ Las 3 únicas limitantes dadas por el ICPC para dichos documentos son:
 
 # Lista de Notebooks 
 
+- [Notebook de Γα=Ω5](https://github.com/CPC-GALLOS/Notebook) el notebook oficial de nuestro club Γα=Ω5 hecho con markdown y marp.
 - [Notebook de KACTL](https://github.com/kth-competitive-programming/kactl/blob/main/kactl.pdf) Notas del equipo KACTL del KTH Royal Institute of Technology, este es uno con el que se basan distintos Notebooks.
 - [Notebook de MnM](https://github.com/nalinbhardwaj/icpc-notebook/blob/master/kactl.pdf) Notebook de un equipo de la Universidad de California San Diego.
 - [Yidne cheat sheet](https://cheatography.com/yidne/cheat-sheets/icpc-compitative-programming-cheat-sheet/) notas tomadas del Competitive Programmer’s Handbook por Antti Laaksonen.
