@@ -291,28 +291,27 @@ Si desea ver una lista detallada acerca de los temas junto con becas revise este
   <div class="custom_card center" data-tags="certificate hackerrank database">
     <a href="https://www.hackerrank.com/skills-verification/sql_advanced">Hacker Rank SQL (Advanced)</a>
   </div>
-  <div class="custom_card center" data-tags="certificate carlosslim">
+  <div class="custom_card center" data-tags="certificate carlosslim programming">
     <a href="https://capacitateparaelempleo.org/interna-diplomado/26">Desarrollo de sitios web y apps móviles</a>
   </div>
-  <div class="custom_card center" data-tags="certificate carlosslim">
+  <div class="custom_card center" data-tags="certificate carlosslim programming fullstack">
     <a href="https://capacitateparaelempleo.org/interna-diplomado/62">Fundamentes de Full Stack</a>
   </div>
-  <div class="custom_card center" data-tags="certificate carlosslim">
+  <div class="custom_card center" data-tags="certificate carlosslim networks">
     <a href="https://capacitateparaelempleo.org/interna-diplomado/23">Técnico en sistemas informáticos</a>
   </div>
-  <div class="custom_card center" data-tags="certificate carlosslim">
+  <div class="custom_card center" data-tags="certificate carlosslim networks">
     <a href="https://capacitateparaelempleo.org/interna-diplomado/23">Técnico en redes</a>
   </div>
-  <div class="custom_card center" data-tags="certificate carlosslim">
+  <div class="custom_card center" data-tags="certificate carlosslim cloud">
     <a href="https://capacitateparaelempleo.org/interna-diplomado/30">Técnico de cómputo en la nube</a>
   </div>
-  <div class="custom_card center" data-tags="certificate carlosslim">
+  <div class="custom_card center" data-tags="certificate carlosslim programming">
     <a href="https://capacitateparaelempleo.org/interna-especialidad/4">Integrador de servicios IoT</a>
   </div>
-  <div class="custom_card center" data-tags="certificate carlosslim">
+  <div class="custom_card center" data-tags="certificate carlosslim datascience">
     <a href="https://capacitateparaelempleo.org/interna-especialidad/6">Tratamiento de datos</a>
   </div>
-
   <div class="custom_card center" data-tags="certificate kaggle ai">
     <a href="https://www.kaggle.com/learn/intro-to-machine-learning">Kaggle Intro to Machine Learning</a>
   </div> 
