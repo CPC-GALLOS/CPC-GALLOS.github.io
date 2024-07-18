@@ -409,19 +409,22 @@ Si desea ver una lista detallada acerca de los temas junto con becas revise este
     <a href="https://training.linuxfoundation.org/training/introduction-to-linux/">Linux: Introduction to Linux</a>
   </div>
   <div class="custom_card center" data-tags="certificate microsoft programming">
-    <a href="https://www.linkedin.com/learning/paths/career-essentials-in-software-development?src=re-other&veh=news.microsoft.com%7Cre-other&accountId=0&u=0&success=true&authUUID=gBnL71l2Q%2FiVqj4cdrcTig%3D%3D">MS Career Essentials in Software Developer</a>
+    <a href="https://www.linkedin.com/learning/paths/career-essentials-in-software-development-by-microsoft-and-linkedin">MS Career Essentials in Software Developer</a>
   </div>
   <div class="custom_card center" data-tags="certificate microsoft datascience">
-    <a href="https://www.linkedin.com/learning/paths/career-essentials-in-data-analysis?src=re-other&veh=news.microsoft.com%7Cre-other&accountId=0&u=0&success=true&authUUID=BlVF0LZgQLaL66e%2FolKJ1g%3D%3D">MS Career Essentials in Data analyst</a>
+    <a href="https://www.linkedin.com/learning/paths/career-essentials-in-data-analysis-by-microsoft-and-linkedin">MS Career Essentials in Data analyst</a>
   </div>
   <div class="custom_card center" data-tags="certificate microsoft servers">
-    <a href="https://www.linkedin.com/learning/career-essentials-in-system-administration/start-your-sysadmin-journey?u=0&src=re-other&veh=news.microsoft.com%7Cre-other">MS Career Essentials in Systems administrator</a>
+    <a href="https://www.linkedin.com/learning/career-essentials-in-system-administration-by-microsoft-and-linkedin">MS Career Essentials in Systems administrator</a>
   </div>
   <div class="custom_card center" data-tags="certificate microsoft pm">
-    <a href="https://www.linkedin.com/learning/career-essentials-in-system-administration/start-your-sysadmin-journey?u=0&src=re-other&veh=news.microsoft.com%7Cre-other">MS Career Essentials in Project Manager</a>
+    <a href="https://www.linkedin.com/learning/paths/career-essentials-in-project-management-by-microsoft-and-linkedin">MS Career Essentials in Project Manager</a>
   </div>
   <div class="custom_card center" data-tags="certificate microsoft cybersecurity">
-    <a href="https://www.linkedin.com/learning/paths/fundamentos-profesionales-en-ciberseguridad-por-microsoft-y-linkedin?src=re-other&veh=news.microsoft.com%7Cre-other">MS Career Essentials in Cybersecurity</a>
+    <a href="https://www.linkedin.com/learning/paths/career-essentials-in-cybersecurity-by-microsoft-and-linkedin">MS Career Essentials in Cybersecurity</a>
+  </div>
+  <div class="custom_card center" data-tags="certificate microsoft ai">
+    <a href="https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin">MS Career Essentials in Generative AI</a>
   </div>
   
   <!-- badges -->

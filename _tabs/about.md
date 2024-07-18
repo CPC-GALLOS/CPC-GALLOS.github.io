@@ -9,9 +9,9 @@ permalink: / # for exchanging the HomePage
 
 ## Bienvenido GALLO 🎉🐓👋
 
-Este es el Club de Programación Competitiva Γα=Ω5 (GALLOS) de la Universidad Autónoma de Aguascalientes, el club está conformado por estudiantes que buscan enseñar y reforzar los conocimientos del Análisis y Diseño de Algoritmos en el lenguaje de C++ con el objetivo de preparar y participar en torneos de programación competitiva a nivel local, nacional e internacional.
+Este es el Club de Programación Competitiva Γα=Ω5 (GALLOS) de la Universidad Autónoma de Aguascalientes, el club está conformado por estudiantes que buscan enseñar y reforzar los conocimientos del Análisis y Diseño de Algoritmos en el lenguaje de C++ con el objetivo de preparar y participar en torneos de programación competitiva a nivel local, nacional e internacional principalmente, pero no solo programamos en este club sino que también aspiramos a fortalecer tus habilidades y apoyarte en tu desarrollo profesional, proporcionando recursos y oportunidades para avanzar en tu carrera.
 
-Damos clases los días Lunes, miércoles y viernes a las "Horario pendiente", en el laboratorio de inteligencia artificial del 203 (también hay clases sabatinas por parte del [club Colmena](https://linktr.ee/colmena.oficial)). Donde nuestro plan de estudios se basa en clases teóricas y practicas donde aprenderás desde temas básicos hasta temas avanzados y cada quince días, los viernes, llevamos a cabo una competencia de programación con los integrantes del club. 
+Damos clases los días lunes, miércoles y viernes a las `Horario pendiente`, en el laboratorio de inteligencia artificial del [edificio 203](https://maps.app.goo.gl/A9i7rYa39DNT53NA8) (también hay clases sabatinas por parte del [club Colmena](https://linktr.ee/colmena.oficial)). Donde nuestro plan de estudios se basa en clases teóricas y practicas donde aprenderás desde temas básicos hasta temas avanzados y cada quince días, los viernes, llevamos a cabo una competencia de programación con los integrantes del club. 
 
 
 ## ¿Qué es la Programación Competitiva? 👨‍💻💡

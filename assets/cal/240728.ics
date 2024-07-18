@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CPC-GALLOS//Clases//ES
+BEGIN:VEVENT
+UID:240728@example.com
+DTSTAMP:20230701T120000Z
+DTSTART:20240728T000000Z
+DTEND:20240728T235900Z
+SUMMARY:Fin de la oferta de Fundamentos de la IA en AZURE por Operación Aleph
+DESCRIPTION:La oferta gratuita de Fundamentos de la IA en AZURE por Operación Aleph termina el 28 de julio de 2024.
+END:VEVENT
+END:VCALENDAR

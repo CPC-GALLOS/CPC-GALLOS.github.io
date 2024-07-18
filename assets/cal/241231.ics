@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CPC-GALLOS//Clases//ES
+BEGIN:VEVENT
+UID:241231@example.com
+DTSTAMP:20230701T120000Z
+DTSTART:20241231T000000Z
+DTEND:20241231T235900Z
+SUMMARY:Fin de la oferta de Google: Inteligencia Artificial y Productividad
+DESCRIPTION:La oferta gratuita de Google: Inteligencia Artificial y Productividad termina el 31 de diciembre de 2024.
+END:VEVENT
+END:VCALENDAR

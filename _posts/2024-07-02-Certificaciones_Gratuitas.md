@@ -42,7 +42,8 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Tecnolochicas PRO](https://tecnolochicas.mx/registro-tcpro/) son un conjunto de cursos desarrollados por la Fundación Televisa en colaboración con Microsoft especialmente para estudiantes universitarios, el curso pro tiene dos cursos, un curso de diseño web y otro de Data Science tomados en horarios fijos.
 - [Becas Santander](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=TECH&mode=ONLINE) tienen cursos muy variados como Full Stack, ciencia de datos, inteligencia artificial. En especial recomiendo los [cursos de inglés](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=LANGUAGE&mode=ONLINE).
 - [INROADS](https://inroads.org.mx/) es una organización latinoamericana aliada con Google, tiene dos programas principales: [Súbete a la Nube con Google Cloud](https://subetealanube.inroads.org.mx/) donde aprenderás de Infraestructura, Redes, Seguridad, Inteligencia Artificial, Data y Machine Learning. Y su otro programa es el de [Certificados de Carrera de Google](https://becas.inroads.org.mx/) donde podras certificarte sobre Fundamentos de IA, Ciberseguridad y Análisis de Datos.
-- [Blockmakers](https://blockmakers.mx/) cursos creados en colaboración con el Instituto de Ciencia Y Tecnología de Aguascalientes (INCyTEA) para temas de Blockchain, Solidity, Ciencia de Datos e introducción a la Inteligencia Artificial.
+- [INCyTEA](https://www.aguascalientes.gob.mx/incytea/) El Instituto de Ciencia Y Tecnología de Aguascalientes suele sacar varias becas a lo largo del año por lo que hay que estar al pendiente en sus páginas.
+- [Blockmakers](https://blockmakers.mx/) cursos creados en colaboración con el INCyTEA para temas de Blockchain, Solidity, Ciencia de Datos e introducción a la Inteligencia Artificial.
 - [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen 3 tipos de bootcamps Motoko, Azle y ICP developer Javascript. 
 
 ## Exemenes de habilidades de Hackerrank con certificado
@@ -140,11 +141,12 @@ de la Linux Foundation, aunque la mayoría si son acerca de temas muy especializ
 
 Múltiples certificados sacados por LinkedIn en colaboración con Microsoft para diferentes áreas, estos cursos están disponibles en [inglés](https://opportunity.linkedin.com/en-us/skills-for-in-demand-jobs?lr=1) y en [español](https://opportunity.linkedin.com/es-es/skills-for-in-demand-jobs?lr=1) , recomiendo hacer los cursos en ambos idiomas a la vez.
 
-- [Career Essentials in Software Developer](https://www.linkedin.com/learning/paths/career-essentials-in-software-development?src=re-other&veh=news.microsoft.com%7Cre-other&accountId=0&u=0&success=true&authUUID=gBnL71l2Q%2FiVqj4cdrcTig%3D%3D)
-- [Career Essentials in Data analyst](https://www.linkedin.com/learning/paths/career-essentials-in-data-analysis?src=re-other&veh=news.microsoft.com%7Cre-other&accountId=0&u=0&success=true&authUUID=BlVF0LZgQLaL66e%2FolKJ1g%3D%3D)
-- [Career Essentials in Systems administrator](https://www.linkedin.com/learning/career-essentials-in-system-administration/start-your-sysadmin-journey?u=0&src=re-other&veh=news.microsoft.com%7Cre-other)
-- [Career Essentials in Project Manager](https://www.linkedin.com/learning/career-essentials-in-system-administration/start-your-sysadmin-journey?u=0&src=re-other&veh=news.microsoft.com%7Cre-other)
-- [Career Essentials in Cybersecurity](https://www.linkedin.com/learning/paths/fundamentos-profesionales-en-ciberseguridad-por-microsoft-y-linkedin?src=re-other&veh=news.microsoft.com%7Cre-other)
+- [Career Essentials in Software Developer](https://www.linkedin.com/learning/paths/career-essentials-in-software-development-by-microsoft-and-linkedin)
+- [Career Essentials in Data analyst](https://www.linkedin.com/learning/paths/career-essentials-in-data-analysis-by-microsoft-and-linkedin)
+- [Career Essentials in Systems administrator](https://www.linkedin.com/learning/career-essentials-in-system-administration-by-microsoft-and-linkedin)
+- [Career Essentials in Project Manager](https://www.linkedin.com/learning/paths/career-essentials-in-project-management-by-microsoft-and-linkedin)
+- [Career Essentials in Cybersecurity](https://www.linkedin.com/learning/paths/career-essentials-in-cybersecurity-by-microsoft-and-linkedin)
+- [Career Essentials in Generative AI](https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin)
 
 ## Cursos en Coursera
 
@@ -227,7 +229,10 @@ Oracle ofrce distintas insignias relacionads a Oracle Cloud Infraestructure (OCI
 
 ### Insignias de Microsoft
 
-Microsoft tiene más de 4500 cursos, modulos y rutas de aprendizaje en su plataforma [Microsoft Learn](https://learn.microsoft.com/en-us/training/browse/), aunque yo en especial recomiendo tomar las [rutas de aprendizaje](https://learn.microsoft.com/en-us/training/browse/?resource_type=learning%20path) ya que estas al ser un conjunto de cursos tienen un mejor valor curricular. Pero si de valor curricular hablamos las [Microsoft Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills) son las que más peso tienen, ya que estas son implentaciones de tecnlogias de Microsoft muy utiles para tu portafolio.
+Microsoft tiene más de 4500 cursos, modulos y rutas de aprendizaje en su plataforma [Microsoft Learn](https://learn.microsoft.com/en-us/training/browse/), aunque yo en especial recomiendo tomar las [rutas de aprendizaje](https://learn.microsoft.com/en-us/training/browse/?resource_type=learning%20path) ya que estas al ser un conjunto de cursos tienen un mejor valor curricular. 
+
+> Si de valor curricular hablamos las [Microsoft Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills) son las que más peso tienen, ya que estas son implentaciones de tecnlogias de Microsoft muy utiles para tu portafolio profesional. 
+{: .prompt-tip }
 
 - [TensorFlow fundamentals](https://learn.microsoft.com/en-us/training/paths/tensorflow-fundamentals/)
 - [Introduction to version control with Git](https://learn.microsoft.com/en-us/training/paths/intro-to-vc-git/)
@@ -271,3 +276,4 @@ sean tan importantes como sus certificaciones de AWS, pero pueden servir como mo
 - Freelearninglist. (s.f). *The internet's best education resources*. Recuperado de [https://freelearninglist.org/](https://freelearninglist.org)
 - Google. (s.f). *Grow With Google*. Recuperado de [https://grow.google/intl/es/courses-and-tools/](https://grow.google/intl/es/courses-and-tools)
 - Indika_Wimalasuriya. (2023). *Free AWS Digital Badges - Boost Your Career and Job Prospects*.Recuperado de [https://dev.to/aws-builders/free-aws-digital-badges-boost-your-career-and-job-prospects-5e4h](https://dev.to/aws-builders/free-aws-digital-badges-boost-your-career-and-job-prospects-5e4h)
+- Munchy Bytes. (2024). *FREE Professional Certification Exams*. Recuperado de [https://github.com/munchy-bytes/FreeDevCertifications](https://github.com/munchy-bytes/FreeDevCertifications)

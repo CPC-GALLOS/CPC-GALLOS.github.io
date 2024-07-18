@@ -8,35 +8,42 @@
       <nav id="breadcrumb" aria-label="Breadcrumb">
         {% assign paths = page.url | split: '/' %}
   
-        {% if paths.size == 0 %}
-          <!-- home page -->
-          <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
-  
-        {% else %}
-          {% for item in paths %}
-            {% if forloop.first %}
-              <span>
-                <a href="{{ '/' | relative_url }}">
-                  {{- site.data.locales[include.lang].tabs.home | capitalize -}}
-                </a>
-              </span>
-  
-            {% elsif forloop.last %}
-              {% if page.collection == 'tabs' %}
-                <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
-              {% else %}
-                <span>{{ page.title }}</span>
-              {% endif %}
-  
-            {% elsif page.layout == 'category' or page.layout == 'tag' or page.layout == 'home' %}
-              <span>
-                <a href="{{ item | append: '/' | relative_url }}">
-                  {{- site.data.locales[include.lang].tabs[item] | default: page.title -}}
-                </a>
-              </span>
+      {% if paths.size == 0 %}
+        <!-- home page -->
+        <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
+      {% else %}
+        {% for item in paths %}
+          {% if forloop.first %}
+            <span>
+              <a href="{{ '/' | relative_url }}">
+                {{- site.data.locales[include.lang].tabs.home | capitalize -}}
+              </a>
+            </span>
+          {% elsif forloop.index == 2 and item == "blog" %}
+            {% if forloop.last %}
+              <span>{{ site.data.locales[include.lang].tabs.blog | capitalize }}</span>
+            {% else %}
+                <span>
+                    <a href="{{ '/blog/' | relative_url }}">
+                        {{- site.data.locales[include.lang].tabs.blog | capitalize -}}
+                    </a>
+                </span>
             {% endif %}
-          {% endfor %}
-        {% endif %}
+          {% elsif forloop.last %}
+            {% if item contains "page" and item | remove: "page" | plus: 0 %}
+              <span>{{ item | remove: "page" | plus: 0 }}</span>
+            {% else %}
+              <span>{{ page.title }}</span>
+            {% endif %}
+          {% else %}
+            <span>
+              <a href="{{ item | append: '/' | relative_url }}">
+                {{- site.data.locales[include.lang].tabs[item] | default: page.title -}}
+              </a>
+            </span>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
       </nav>
       <!-- endof #breadcrumb -->
   
