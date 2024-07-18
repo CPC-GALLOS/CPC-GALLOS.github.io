@@ -75,7 +75,7 @@ image:
     - 10% de descuento en [Compu Gadget](https://www.compugadget-shop.com.mx)
     - 20% de descuento en Las Trajineras de Xochimilco
     - 20% de descuento en el Mirador de la Torre Latino
-    - 20% de descuento en [Teotihuacán en bici]( http://www.teotihuacanenbici.com.mx)
+    - 20% de descuento en [Teotihuacán en bici](https://www.teotihuacanenbici.com.mx)
     - 9% de descuento en [expedia.mx](https://www.expedia.mx)
     - multiples descuentos en tours de [Mundo Joven](https://mundojoven.com)
     - Hasta $60 USD de descuento en tickets de [Walt Disney World® Resort Orlando](https://isic.memberperks.us/discounts/brands/disneyworldorlando)
