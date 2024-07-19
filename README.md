@@ -22,3 +22,5 @@
 - La Pagina principal se edita en `_tabs/about.md`
 - Las demás etiquetas también están en `_tabs/`
 - Se deben poner las imágenes en `assets/img/` creando una nueva carpeta por cada titulo.  (PRECAUCIÓN: No poner en `assets/img/favicons/`)
+- Para el formato del blog revisa este [ejemplo en markdown](https://github.com/cotes2020/jekyll-theme-chirpy/blob/b641b364809ea15c46d16ce1379a267d395d55d0/_posts/2019-08-08-text-and-typography.md?plain=1#L65)
+ y el [resultado del ejemplo](https://chirpy.cotes.page/posts/text-and-typography/)

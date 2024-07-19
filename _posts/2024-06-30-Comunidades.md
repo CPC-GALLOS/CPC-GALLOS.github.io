@@ -6,7 +6,7 @@ categories: [Recursos]
 author: ArielParra 
 tags: [recomendaciones,comunidad]
 toc: false
-pin: true
+pin: false
 image:
 ---
 

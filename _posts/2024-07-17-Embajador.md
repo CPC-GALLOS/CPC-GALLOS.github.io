@@ -28,13 +28,13 @@ Un embajador (ambassador) es una persona que representa, habla por o anuncia a u
     - Regalos y camisetas de la marca NVIDIA para los asistentes a los eventos
     - Oportunidad de Llevar a Cabo una Capacitación Pagada del DLI para la Industria
  - [AWS Educate Student Ambassadors](https://www.awseducate.com/registration#APP_TYPE) es un programa donde aprenderás de los servicios y tecnologías en la nube de AWS, donde tendrás beneficios en tu desarrollo profesional como la participación en múltiples eventos de AWS y créditos promocionales para AWS.
-- [Google Developer Students Clubs](https://developers.google.com/community/gdsc/leads?hl=es-419) (DSC) es un programa teórico-practico para las tecnologías de Google donde como beneficio tendrás la oportunidad de ser invitado a eventos de Google.
+- [Google Developer Students Clubs](https://developers.google.com/community/gdsc/leads?hl=es-419) (DSC) es un programa teórico-practico para las tecnologías de Google donde como beneficio tendrás la oportunidad de ser invitado a eventos de Google. Se recomienda estar a menos de dos años de graduarse.
 - [Google Women Techmakers Ambassadors](https://developers.google.com/womentechmakers/ambassadors?hl=es-419) este es un programa enfocado para personas identificadas como mujeres, donde como beneficio tendrás acceso exclusivo a las charlas y talleres de Google, y obtendrás el reconocimiento del equipo global de Women Techmakers por tus contribuciones.
 - [Intel Student Ambassador Program](https://devmesh.intel.com/member-programs/intel-student-ambassador-program) Es un programa enfocado al HPC (High-performance computing), ciencia de datos y a la IA. Usando libraries y toolkits de OneAPI junto con el DevCloud de Intel.
 - [HUAWEI STUDENT AMBASSADOR PROGRAM](https://developer.huawei.com/consumer/en/programs/hsd/ambassador) es un programa de Huawei donde aparte de acceder a una gran comunidad de estudiantes tendrás la oportunidad de asistir a eventos de Huawei. 
 - [OnePlus Student Ambassador Program](https://www.oneplus.in/campus) El programa tiene una duración de seis meses. 
 
 ## Referencias
-- Anil, A. (2020). *Top 5 Student Ambassador Programs for Students : Apply Here*.Recuperado de [https://medium.com/@anilavulaowk/top-5-student-ambassador-programs-for-students-apply-here-by-avulaanilkumar-6a297dc96c17](https://medium.com/@anilavulaowk/top-5-student-ambassador-programs-for-students-apply-here-by-avulaanilkumar-6a297dc96c17)
-- Cambridge. (s.f.). *Meaning of ambassador in English*. Recuperado de [https://dictionary.cambridge.org/us/dictionary/english/ambassador](https://dictionary.cambridge.org/us/dictionary/english/ambassador)
-- Saavedra, S. (2023). *¿Cómo aplicar al programa de embajadoras de Google Women Techmakers?*.[https://stephanie-saavedra-ayarde.medium.com/programa-google-women-techmakers-ambassador-37ce26c5186d](https://stephanie-saavedra-ayarde.medium.com/programa-google-women-techmakers-ambassador-37ce26c5186d)
+- Anil, A. (2020). *Top 5 Student Ambassador Programs for Students : Apply Here*. Recuperado de <https://medium.com/@anilavulaowk/top-5-student-ambassador-programs-for-students-apply-here-by-avulaanilkumar-6a297dc96c17>
+- Cambridge. (s.f.). *Meaning of ambassador in English*. Recuperado de <https://dictionary.cambridge.org/us/dictionary/english/ambassador>
+- Saavedra, S. (2023). *¿Cómo aplicar al programa de embajadoras de Google Women Techmakers?*.<https://stephanie-saavedra-ayarde.medium.com/programa-google-women-techmakers-ambassador-37ce26c5186d>

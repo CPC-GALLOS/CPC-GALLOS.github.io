@@ -1,16 +1,4 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//CPC-GALLOS//Clases//ES
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-BEGIN:VEVENT
-DTSTART;TZID=America/Mexico_City:20240715T110000
-DTEND;TZID=America/Mexico_City:20240715T120000
-RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR
-DTSTAMP:20240715T000000Z
-UID:unique-id@example.com
-SUMMARY:Evento Recurrente
-DESCRIPTION:Clases del club Γα=Ω5
-LOCATION: laboratorio de inteligencia artificial en el salón 203
-END:VEVENT
-END:VCALENDAR
+
+SUMMARY:Clases del club Γα=Ω5
+DESCRIPTION:Clases del club Γα=Ω5 lunes, miércoles y viernes en el laboratorio de inteligencia artificial del edificio 203
+LOCATION: https://maps.app.goo.gl/A9i7rYa39DNT53NA8

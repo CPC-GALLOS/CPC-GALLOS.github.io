@@ -37,6 +37,6 @@ También existe una Training Sheet enfocada al ICPC, tambien creada por Mostafa 
 
 ## Referencias
 
-- Mostafa Saad. (2021). *Enhanced Training roadmap for newcomers*. Recuperado de [https://codeforces.com/blog/entry/97858](https://codeforces.com/blog/entry/97858)
-- Mostafa Saad. (2021). *Junior Training Sheet (English)* [video]. [https://www.youtube.com/watch?v=4yt_PV3tflA](https://www.youtube.com/watch?v=4yt_PV3tflA)
-- Mostafa Saad. (2019). *Training roadmap for newcomers*. Recuperado de [https://codeforces.com/blog/entry/65133](https://codeforces.com/blog/entry/65133)
+- Mostafa Saad. (2021). *Enhanced Training roadmap for newcomers*. Recuperado de <https://codeforces.com/blog/entry/97858>
+- Mostafa Saad. (2021). *Junior Training Sheet (English)* [video]. <https://www.youtube.com/watch?v=4yt_PV3tflA>
+- Mostafa Saad. (2019). *Training roadmap for newcomers*. Recuperado de <https://codeforces.com/blog/entry/65133>

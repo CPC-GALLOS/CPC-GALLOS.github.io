@@ -271,9 +271,9 @@ sean tan importantes como sus certificaciones de AWS, pero pueden servir como mo
 
 ## Referencias
 
-- Classcentral. (2023). *1000+ Free Developer and IT Certifications*.[https://www.classcentral.com/report/free-developer-it-certifications/](https://www.classcentral.com/report/free-developer-it-certifications/)
-- Cloudcommunity. (2024). *Free Certifications*. Recuperado de [https://github.com/cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications)
-- Freelearninglist. (s.f). *The internet's best education resources*. Recuperado de [https://freelearninglist.org/](https://freelearninglist.org)
-- Google. (s.f). *Grow With Google*. Recuperado de [https://grow.google/intl/es/courses-and-tools/](https://grow.google/intl/es/courses-and-tools)
-- Indika_Wimalasuriya. (2023). *Free AWS Digital Badges - Boost Your Career and Job Prospects*.Recuperado de [https://dev.to/aws-builders/free-aws-digital-badges-boost-your-career-and-job-prospects-5e4h](https://dev.to/aws-builders/free-aws-digital-badges-boost-your-career-and-job-prospects-5e4h)
-- Munchy Bytes. (2024). *FREE Professional Certification Exams*. Recuperado de [https://github.com/munchy-bytes/FreeDevCertifications](https://github.com/munchy-bytes/FreeDevCertifications)
+- Classcentral. (2023). *1000+ Free Developer and IT Certifications*.<https://www.classcentral.com/report/free-developer-it-certifications/>
+- Cloudcommunity. (2024). *Free Certifications*. Recuperado de <https://github.com/cloudcommunity/Free-Certifications>
+- Freelearninglist. (s.f). *The internet's best education resources*. Recuperado de <https://freelearninglist.org>
+- Google. (s.f). *Grow With Google*. Recuperado de <https://grow.google/intl/es/courses-and-tools>
+- Indika_Wimalasuriya. (2023). *Free AWS Digital Badges - Boost Your Career and Job Prospects*. Recuperado de <https://dev.to/aws-builders/free-aws-digital-badges-boost-your-career-and-job-prospects-5e4h>
+- Munchy Bytes. (2024). *FREE Professional Certification Exams*. Recuperado de <https://github.com/munchy-bytes/FreeDevCertifications>
