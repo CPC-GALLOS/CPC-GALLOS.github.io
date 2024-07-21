@@ -1,0 +1,68 @@
+<!-- The comments switcher -->
+{% if page.comments and site.comments.provider %}
+  {% capture path %}comments/{{ site.comments.provider }}.html{% endcapture %}
+  {% include {{ path }} %}
+  <script src="https://giscus.app/client.js"
+    data-repo="CPC-GALLOS/CPC-GALLOS.github.io"
+    data-repo-id="R_kgDOMP4eWg"
+    data-category="Blog"
+    data-category-id="DIC_kwDOMP4eWs4ChCzC"
+    data-mapping="title"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="es"
+    crossorigin="anonymous"
+    async>
+  </script>
+  <div class="giscus-frame" style="margin-top: 24px">
+    <div class="giscus"></div>
+  </div>
+  <script>
+    function updateGiscusTheme() {
+      const dataMode = document.documentElement.getAttribute("data-mode");
+      const theme = dataMode
+        ? (dataMode === "dark" ? "dark_dimmed" : "light")
+        : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark_dimmed" : "light");
+      const giscusScript = document.querySelector('script[src="https://giscus.app/client.js"]');
+      if (giscusScript) {
+        giscusScript.setAttribute("data-theme", theme);
+      }
+      const giscusIframe = document.querySelector("iframe.giscus-frame");
+      if (giscusIframe) {
+        console.log("Found Giscus iframe:", giscusIframe);
+        giscusIframe.contentWindow.postMessage(
+          { giscus: { setConfig: { theme: theme } } },
+          "https://giscus.app"
+        );
+      }
+    }
+    function attemptUpdateGiscus() {
+      const interval = setInterval(() => {
+        const giscusScript = document.querySelector('script[src="https://giscus.app/client.js"]');
+        const giscusIframe = document.querySelector("iframe.giscus-frame");
+  
+        if (giscusScript && giscusIframe) {
+          clearInterval(interval);
+          updateGiscusTheme();
+        }
+      }, 100); 
+      setTimeout(() => clearInterval(interval), 5000); // evita bucle infinito
+    }
+    window.onload = function() {
+      updateGiscusTheme();
+      attemptUpdateGiscus();
+      const modeObserver = new MutationObserver(mutations => {
+        mutations.forEach(mutation => {
+          if (mutation.attributeName === "data-mode") {
+            updateGiscusTheme();
+          }
+        });
+      });
+      modeObserver.observe(document.documentElement, { attributes: true });
+    };
+  </script>
+  
+{% endif %}

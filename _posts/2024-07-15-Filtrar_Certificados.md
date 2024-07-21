@@ -7,6 +7,7 @@ author: ArielParra
 tags: [recomendaciones,cursos,egresados,estudiantes]
 pin: false
 mermaid: false
+comments: false # evitar problemas con los parametros de url
 image:
 ---
 
