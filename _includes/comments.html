@@ -32,7 +32,6 @@
       }
       const giscusIframe = document.querySelector("iframe.giscus-frame");
       if (giscusIframe) {
-        console.log("Found Giscus iframe:", giscusIframe);
         giscusIframe.contentWindow.postMessage(
           { giscus: { setConfig: { theme: theme } } },
           "https://giscus.app"
