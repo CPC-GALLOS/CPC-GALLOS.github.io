@@ -121,7 +121,7 @@ comments:
     repo_id: R_kgDOMP4eWg
     category: Blog
     category_id: DIC_kwDOMP4eWs4ChCzC
-    mapping: # optional, default to 'pathname'
+    mapping: title
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
