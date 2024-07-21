@@ -5,8 +5,8 @@ date: 2024-07-17 23:30:00 +/-TTTT
 categories: [Desarrollo_Profesional]
 author: ArielParra 
 tags: [recomendaciones,estudiantes]
-toc: false
 pin: false
+mermaid: false
 image:
 ---
 

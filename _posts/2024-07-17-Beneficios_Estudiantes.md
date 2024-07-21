@@ -5,8 +5,8 @@ date: 2024-07-17 23:00:00 +/-TTTT
 categories: [Recomendaciones]
 author: ArielParra 
 tags: [recomendaciones,estudiantes]
-toc: false
 pin: false
+mermaid: false
 image:
 ---
 

@@ -5,8 +5,8 @@ date: 2024-06-30 19:30:00 +/-TTTT
 categories: [Recursos]
 author: ArielParra 
 tags: [recomendaciones,matematicas]
-toc: false
 pin: false
+mermaid: false
 image:
 ---
 

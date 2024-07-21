@@ -5,8 +5,8 @@ date: 2024-07-15 08:00:00 +/-TTTT
 categories: [Desarrollo_Profesional]
 author: ArielParra 
 tags: [recomendaciones,cursos,egresados,estudiantes]
-toc: false
 pin: false
+mermaid: false
 image:
 ---
 
@@ -77,9 +77,6 @@ image:
 </style>
 
 <script>
-  /**
-  * @description Updates the URL based on the selected checkboxes and radio buttons.
-  */
   function updateURLfilters() {
     const checkboxes = document.querySelectorAll('#filter-checks input[type="checkbox"]:checked');
     const typeRadios = document.querySelectorAll('#filter-checks input[name="type"]:checked');
@@ -105,9 +102,6 @@ image:
     } 
     window.history.replaceState(null, '', url.toString());
   }
-  /**
-  * @description Sets filters based on the URL parameters and applies them on page load.
-  */
   function setFiltersFromURL() {
     const url = new URL(window.location);
     const tags = url.searchParams.get('tags');
@@ -136,9 +130,6 @@ image:
     }
     filterCards();
   }
-  /**
-  * @description Filters cards based on the selected checkboxes and radios within the custom_card with id "filter-checks".
-  */
   function filterCards() {
     const cards = document.querySelectorAll('.custom_card:not(#filter-checks)');
     const typeRadios = document.querySelectorAll('#filter-checks input[name="type"]:checked');
@@ -160,9 +151,6 @@ image:
     });
     updateURLfilters();
   }
-  /**
-  * @description Sets up event listeners and initializes filters based on the URL on page load.
-  */
   document.addEventListener('DOMContentLoaded', () => {
     setFiltersFromURL();
     const inputs = document.querySelectorAll('#filter-checks input');

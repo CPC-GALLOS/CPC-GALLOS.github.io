@@ -5,8 +5,8 @@ date: 2024-06-29 19:01:00 +/-TTTT
 categories: [Recursos]
 author: ArielParra 
 tags: [recomendaciones]  
-toc: false
 pin: false
+mermaid: false
 image:
 ---
 

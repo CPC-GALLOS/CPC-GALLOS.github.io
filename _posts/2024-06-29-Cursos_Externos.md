@@ -5,8 +5,8 @@ date: 2024-06-29 19:01:00 +/-TTTT
 categories: [Cursos]
 author: ArielParra 
 tags: [cursos]  
-toc: false
 pin: true
+mermaid: false
 image:
 ---
 
