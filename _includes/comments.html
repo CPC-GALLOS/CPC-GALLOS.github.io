@@ -26,10 +26,14 @@
       const theme = dataMode
         ? (dataMode === "dark" ? "dark_dimmed" : "light")
         : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark_dimmed" : "light");
+      
+      // Actualizar el tema del script de Giscus
       const giscusScript = document.querySelector('script[src="https://giscus.app/client.js"]');
       if (giscusScript) {
         giscusScript.setAttribute("data-theme", theme);
       }
+      
+      // Enviar mensaje al iframe de Giscus para actualizar el tema
       const giscusIframe = document.querySelector("iframe.giscus-frame");
       if (giscusIframe) {
         giscusIframe.contentWindow.postMessage(
@@ -38,21 +42,28 @@
         );
       }
     }
+
     function attemptUpdateGiscus() {
       const interval = setInterval(() => {
         const giscusScript = document.querySelector('script[src="https://giscus.app/client.js"]');
         const giscusIframe = document.querySelector("iframe.giscus-frame");
-  
+
         if (giscusScript && giscusIframe) {
           clearInterval(interval);
           updateGiscusTheme();
         }
-      }, 100); 
-      setTimeout(() => clearInterval(interval), 5000); // evita bucle infinito
+      }, 100);
+      
+      // Evitar bucle infinito
+      setTimeout(() => clearInterval(interval), 5000);
     }
-    window.onload = function() {
+
+    // Asegurarse de que la página esté completamente cargada
+    document.addEventListener("DOMContentLoaded", function() {
       updateGiscusTheme();
       attemptUpdateGiscus();
+
+      // Observa cambios en el atributo data-mode
       const modeObserver = new MutationObserver(mutations => {
         mutations.forEach(mutation => {
           if (mutation.attributeName === "data-mode") {
@@ -61,7 +72,6 @@
         });
       });
       modeObserver.observe(document.documentElement, { attributes: true });
-    };
+    });
   </script>
-  
 {% endif %}

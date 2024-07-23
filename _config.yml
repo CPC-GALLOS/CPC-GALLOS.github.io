@@ -160,8 +160,8 @@ jekyll_compose:
       categories: [] # carpeta del blog
       author:        # agrega tu id de autor al archivo _data/authors.yml 
       tags: []       # los tags deben ser en minusculas y separados por comas 
-      toc: false     # Table Of Content, ocupa un * seguido de un salto de linea y {:toc}  
       pin: false
+      mermaid: false
       image:
 
 

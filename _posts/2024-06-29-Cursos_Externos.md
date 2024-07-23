@@ -2,9 +2,9 @@
 title: Cursos Externos
 description: Presentaciones, videos con temas en orden acerca de la Programación competiti
 date: 2024-06-29 19:01:00 +/-TTTT
-categories: [Cursos]
+categories: [Recursos]
 author: ArielParra 
-tags: [cursos]  
+tags: [cursos,clases]  
 pin: true
 mermaid: false
 image:

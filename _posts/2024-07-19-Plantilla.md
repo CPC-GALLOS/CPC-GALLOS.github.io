@@ -84,7 +84,7 @@ En nuestra plantilla incluimos el `#pragma optimize("Ofast,unroll-loops")`, que 
         std::cout << i ;
     }
     ```
-    se convierte bajo el parámetro 'unroll-loops' en:
+    se podría convertir bajo el parámetro 'unroll-loops' en:
 
     ```c++
     int i = 0;
