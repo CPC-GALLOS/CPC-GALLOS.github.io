@@ -12,7 +12,6 @@ tabs:
   # format: <filename_without_extension>: <value>
   home: Pagina Principal
   blog: Blog
-  presentations: Presentaciones
   categories: Categorías
   tags: Etiquetas
   archives: Archivo
