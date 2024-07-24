@@ -4,13 +4,13 @@ description: Para la programación competitiva en C++
 date: 2024-07-23 7:00:00 +/-TTTT
 categories: [Club]
 author: ArielParra 
-tags: [recomendaciones,C++]
+tags: [recomendaciones,C++,compiladores]
 pin: false
 mermaid: false
 image:
 ---
 
-> En Android 12, suele haber el error ["Process completed (signal 9)"](https://github.com/termux/termux-app/issues/2366#issuecomment-1237468220) dentro de <i class="fa-solid fa-terminal"></i> termux. Para solucionarlo, favor de ir a este [blog por Andronix](https://docs.andronix.app/android-12/andronix-on-android-12-and-beyond#solutions)
+> En Android 12 y posteriores, suele haber el error ["Process completed (signal 9)"](https://github.com/termux/termux-app/issues/2366#issuecomment-1237468220) dentro de <i class="fa-solid fa-terminal"></i> termux. Para solucionarlo, favor de ir a este [blog por Andronix](https://docs.andronix.app/android-12/andronix-on-android-12-and-beyond#solutions)
 {: .prompt-danger}
 
 __Tabla de Contenidos:__
@@ -42,8 +42,8 @@ __Tabla de Contenidos:__
     ssh-keygen -A
     ```
 
-4. Si Windows no esta en la ultima versión, comprobamos que esta instalado el cliente de [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui).
-5. En una terminal creamos nuestro usuario local de git con los comandos:
+4. Si se esta en Windows, revisa qué este actualizado, si no  esta en la ultima versión, comprobamos que esta instalado el cliente de [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui).
+5. En una terminal creamos nuestro usuario local de git (es opcional que los datos sean iguales a los de GitHub) con los comandos:
 ``` bash
 git config --global user.name "Usuario"
 git config --global user.email "correo@ejemplo.com" 
@@ -100,6 +100,10 @@ La ventaja de usar un IDE en linea es la disponibilidad en cualquier dispositivo
 
 - [cs50.dev](https://cs50.dev/) es github codespaces gratuito y sin limite de tiempo, hosteado por la universidad de Harvard para el acompañamiento de sus [cursos](https://cpc-gallos.github.io/blog/Filtrar_Certificados/?issuer=harvard), este es el editor en la nube recomendado por el club. 
 
+![cs50.dev ejemplo](/assets/img/posts/Entorno_Desarrollo/cs50dev.png){: w="600" h="300"}
+
+> [cs50.dev](https://cs50.dev/) también es de mucha utilidad para correr otros IDEs en la nube como lo es el caso de Rstudio para R
+{: .prompt-info }
 
 ## VScode IDE 
 
@@ -123,7 +127,7 @@ brew install --cask visual-studio-code
     ```bash
     pkg update && pkg install tur-repo code-oss
     ```
-- En <i class="fa-brands fa-apple"></i> iOS/iPadOS no se puede amenos que se use un [escritorio emulado](https://cpc-gallos.github.io/Entorno_Desarrollo/#-escritorio-emulado)
+- En <i class="fa-brands fa-apple"></i> iOS/iPadOS no se puede amenos que se use un [escritorio emulado](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-escritorio-emulado)
 
 ### Extensiones para VScode
 
@@ -140,13 +144,16 @@ brew install --cask visual-studio-code
 
 ### Integrar Codeforces con VScode  
 
-- Primero en ![VScode logo](https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg){: w="15" h="15" } VScode tenemos que tener la extensión [Competitive Programming Helper](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper)
+- Primero en  VScode tenemos que tener la extensión [Competitive Programming Helper (CPH)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper)
+- Después cambiaremos el lenguaje por defecto a C++ y agregaremos la ruta (ubicación) de la [plantilla del club](https://cpc-gallos.github.io/blog/Plantilla/) a la configuración de la extensión Competitive Programming Helper (CPH) en VScode
+
+![cph setting imagen](/assets/img/posts/Entorno_Desarrollo/cph_settings.png){: w="400" h="200"}
+
 - Para <i class="fa-brands fa-firefox-browser"></i> firefox: Agrega las extensiones: [competitive companion](https://addons.mozilla.org/en-US/firefox/addon/competitive-companion/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) y [CPH Submit](https://addons.mozilla.org/en-US/firefox/addon/cph-submit/)
 
 - Para navegadores basados en <i class="fa-brands fa-chrome"></i> chromium (<i class="fa-brands fa-chrome"></i> Google Chrome, <i class="fa-brands fa-edge"></i> Microsft Edge, <i class="fa-brands fa-opera"></i> Opera, <i class="fa-brands fa-brave"></i> Brave, etc.): Agrega las extensiones: [competitive companion](https://chromewebstore.google.com/detail/competitive-companion/cjnmckjndlpiamhfimnnjmnckgghkjbl) y [CPH Submit](https://github.com/ArielParra/cph-submit-chromium)
 
 Para usarlas, ten tu sesión de codeforces activa y también ten abierto VScode, cuando abras un problema en codeforces haz click en la extensión de competitive companion (el circulo verde con una cruz), después cámbiate a VScode donde veras unas opciones donde eligieras cpp, y listo podrás pobrar y publicar tu código desde vscode. 
-
 
 ## Instalar el compilador en <i class="fa-brands fa-microsoft"></i> Windows 
 
@@ -225,6 +232,9 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 ## Entorno de desarrollo en <i class="fa-brands fa-android"></i> Android
 
+> Para un mejor desempeño al programar, recomiendo utilizar un teclado y/o mouse externo, ya sean por Bluetooth o por USB con un adaptador OTG o con un adpatador a USB C.
+{: .prompt-tip }
+
 ### <i class="fa-solid fa-terminal"></i>terminal nativa + <i class="fa-solid fa-laptop-code"></i> editor de código
 
 Termux es la terminal nativa de Android, esta disponible en la playstore, pero suele estar desactualizada por lo que recomiendo descargarlo [directamente en GitHub](https://github.com/termux/termux-app) o a través de la tienda open-source [fdroid](https://f-droid.org/en/packages/com.termux/)
@@ -255,6 +265,9 @@ Esto es recomendado para dispositivos de gama alta o dispositivos de más recien
 
 ## Entorno de desarrollo en <i class="fa-brands fa-apple"></i> iOS/iPadOS
 
+> Para un mejor desempeño al programar, recomiendo utilizar un teclado y/o mouse externo, ya sean por Bluetooth o por USB con un adaptador/dongle lighting o con un adpatador/dongle a USB C.
+{: .prompt-tip }
+
 ### <i class="fa-solid fa-terminal"></i>terminal emulada + <i class="fa-solid fa-laptop-code"></i> editor de código
 
 iOS no tiene una terminal nativa sin jailbreak, por lo qué la mejor opción es usar la terminal emulada:
@@ -278,7 +291,7 @@ Para el editor de código el club recomienda:
 
 - Esto se hace a traves de ![UTM logo](https://mac.getutm.app/siteicon.png){:  w="20" h="20" } [UTM SE](https://apps.apple.com/mx/app/utm-se-retro-pc-emulator/id1564628856) y es recomendado especialmente para iPads, ya que la aplicación corre algo lento debido a que es emulado, pero para un mejor rendimiento recomiendo usar [Debian 11 (LXDE)](https://mac.getutm.app/gallery/debian-11-ldxe) y para instalar VScode recomiendo seguir [esta guia oficial](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)
 
-> se puede llegar a un mejor rendimiento usando un tipo de para-virtualización con SPICE y JIT con TGC, pero ocupa [más pasos](https://docs.getutm.app/installation/ios/)
+> se puede llegar a un mejor rendimiento usando un tipo de para-virtualización con SPICE y JIT con TGC, pero ocupa un conociemiento más avanzada y en especial ocupa [más pasos](https://docs.getutm.app/installation/ios/)
 
 ## Referencias
 

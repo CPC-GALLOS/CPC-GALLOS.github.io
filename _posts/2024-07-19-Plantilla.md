@@ -84,7 +84,7 @@ En nuestra plantilla incluimos el `#pragma optimize("Ofast,unroll-loops")`, que 
         std::cout << i ;
     }
     ```
-    se podría convertir bajo el parámetro 'unroll-loops' en:
+    se podría convertir bajo el parámetro 'unroll-loops' en algo similar a esto:
 
     ```c++
     int i = 0;
@@ -97,7 +97,7 @@ En nuestra plantilla incluimos el `#pragma optimize("Ofast,unroll-loops")`, que 
 
 En nuestra plantilla también incluimos `#pragma GCC target("avx2")`, esto permite la vectorización y optimización de operaciones en vectores al decirle al compilador que genere el código utilizando estas instrucciones a procesadores que soportan el conjunto de instrucciones AVX2.
 
-Las instrucciones regulares (sin AVX) son ejecutadas por el procesador una a la vez, mientras que las instrucciones AVX usan registros especiales capaces de contener más bits que un registro normal. Por ejemplo, hay procesadores que admiten AVX-256pueden realizar operaciones (como cargar, almacenar, sumar, etc.) en 256 bitsque pueden contener 8 enteros de 32 bits, 4 números de punto flotante de 64 bits, o 2 enteros de 64 bits simultáneamente. Esto básicamente es un tipo de paralelismo a nivel de instrucción (SIMD), lo que significa que puedes realizar operaciones sobre múltiples datos alineados en paralelo.
+Las instrucciones regulares (sin AVX) son ejecutadas por el procesador una a la vez, mientras que las instrucciones AVX usan registros especiales capaces de contener más bits que un registro normal. Por ejemplo, hay procesadores que admiten AVX-256pueden realizar operaciones (como cargar, almacenar, sumar, etc.) en 256 bits que pueden contener 8 enteros de 32 bits, 4 números de punto flotante de 64 bits, o 2 enteros de 64 bits simultáneamente. Esto básicamente es un tipo de paralelismo a nivel de instrucción (SIMD), lo que significa que puedes realizar operaciones sobre múltiples datos alineados en paralelo.
 
 Esto llega a ser muy util, por ejemplo, cuando se trabaja con matrices, los bucles pueden tomar pasos más grandes y ejecutar operaciones en múltiples elementos simultáneamente, lo que puede resultar en una aceleración de hasta 2, 4 o incluso 8 veces más en comparación con el código sin estas optimizaciones.
 
@@ -114,9 +114,9 @@ La única desventaja de incluir esta librería aparte de no ser estándar, es qu
 
 ### Directiva using
 
-`using` es una directiva usada para definir apodos (alias) para un tipo de dato y a diferencia de la directiva `typedef`, `using` permite el uso en y de templates de la librería estándar.
+`using` es una directiva usada para definir apodos/sinónimos/alias para un tipo de dato y a diferencia de la directiva `typedef`, `using` permite el uso en y de containers (estrucutras de datos) de la librería estándar (STL).
 
-Algunos ejemplos de usos comunes seria para un tipo de dato entero matricial: `using imat = std::vector<std::vector<int>>;`o para ahorrar los parámetros del tipo de dato de un template, por ejemplo `using llvec = std::vector<ll>;`, `using iip = std::pair<int,int>;`, `using icp = std::pair<int,char>;`, etc. 
+Algunos ejemplos de usos comunes seria para un tipo de dato entero matricial: `using imat = std::vector<std::vector<int>>;` o para ahorrar los parámetros del tipo de dato de un container, por ejemplo `using llvec = std::vector<ll>;`, `using iip = std::pair<int,int>;`, `using icp = std::pair<int,char>;`, etc. 
 
 En nuestro caso uno de los tipos de datos más usados es el tipo de dato `long long` y `unsigned long long`, debido a que tienen capacidad de 8 bytes en procesadores de 64 bits.
 -  `long long`: Tiene un rango que va desde -9,223,372,036,854,775,808 hasta 9,223,372,036,854,775,807
@@ -127,7 +127,7 @@ En nuestro caso uno de los tipos de datos más usados es el tipo de dato `long l
 
 #### using namespace std
 
-En programación competitiva, utilizamos `using namespace std;` para evitar escribir `std::` antes de cada función o contendedor de la librería estándar repetidamente y ahorrar tiempo. Sin embargo, fuera de la programación competitiva, usar `using namespace std;` es una muy mala práctica. En un proyecto real, donde se importan varias librerías, pueden surgir conflictos de nombres. 
+En programación competitiva, utilizamos `using namespace std;` para evitar escribir `std::` antes de cada función o contendedor de la librería estándar (STL) repetidamente y ahorrar tiempo. Sin embargo, fuera de la programación competitiva, usar `using namespace std;` es una muy mala práctica. En un proyecto real, donde se importan varias librerías, pueden surgir conflictos de nombres. 
 
 Por ejemplo, considera que tu proyecto utiliza las funciones `std::static_cast` y `std::bind`, pero también incorpora múltiples funciones de la librería Boost, como `boost::lexical_cast` y `boost::bind`. No habrá problemas si se usa `static_cast` o `lexical_cast` sin los prefijos de las librerías, pero si se quisiera usar la función `bind`, el proyecto puede compilar correctamente pero no funcionaria como se esperaba, ya que todas las referencias a la función `bind` se asumirán como `std::bind` en lugar de `boost::bind`.
 
@@ -263,9 +263,9 @@ dbg(j);// imprime: `LINE(6)->[j]: [0]`
 {: .prompt-warning }
 
 
-#### defines para templates
+#### defines para Containers
 
-los defines restantes son usados para los templates, usamos `F`y `S` para acceder al primer `first` o segundo `second` elemento de un pair o map, y también usamos el atajo pb para ahorrarnos tiempo al escribir `push_back`.
+los defines restantes son usados para optmizar la escritura de los containers (estrucutras de datos) de la STL, usamos `F`y `S` para acceder al primer `first` o segundo `second` elemento de un pair o map, y también usamos el atajo pb para ahorrarnos tiempo al escribir `push_back`.
 
 Varias plantillas inclyen `eb` para `emplace_back`, esta funciona de manera similar a `push_back`, pero la principal diferencia tiene que ver con constructores implicitos contra constructores explicitos.
 
@@ -344,7 +344,7 @@ En nuestra plantilla tambien incluimos , esto le dice a `std::cin` que no debe e
 > Cuidado al usar esta función al debugear o usarla en códigos ajenos a la programación competitiva ya que cambia la secuencia lógica en la que se muestran los `std::cout`
 {: .prompt-warning }
 
-> En varias codigos también se puede encontrar el uso de `cout.tie(NULL)`, y esto literalmente no hace nada ya que `std::cout` ya está atado a `NULL` por defecto.
+> En varios codigos también se puede encontrar el uso de `cout.tie(NULL)`, y esto literalmente no hace nada ya que `std::cout` ya está atado a `NULL` por defecto.
 {: .prompt-info }
 
 También en nuestra plantilla incluimos `//freopen("in.txt", "r", stdin");`, que es útil para competencias reales donde no tenemos acceso para copiar y pegar múltiples casos en nuestros programas. Podemos descomentar esta línea y todos los `std::cin` en nuestro programa serán leídos desde un archivo llamado `in.txt`{: .filepath} en lugar de la terminal.
