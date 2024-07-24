@@ -114,7 +114,7 @@ winget install -e --id  Microsoft.VisualStudioCode --override '/SILENT /mergetas
 brew install --cask visual-studio-code
 ``` 
 - En <i class="fa-brands fa-android"></i> Android con la terminal <i class="fa-solid fa-terminal"></i> [termux](https://termux.dev/en/) hay dos opciones:
-    1.  Usar vscode-server (aplicación en linea similar a <https://vscode.dev/>, la cual tiene extensiones limitadas) que sera accesible en cualquier navegador del dispositivo en las urls [localhost:8080](localhost:8080) o [127.0.0.1:8080](127.0.0.1:8080), se instala con los comandos:
+    1.  Usar vscode-server (aplicación en linea similar a <https://vscode.dev/>, la cual tiene extensiones limitadas) que sera accesible en cualquier navegador del dispositivo en las urls [localhost:8080](https://localhost:8080) o [127.0.0.1:8080](https://127.0.0.1:8080), se instala con los comandos:
     ```bash
     pkg update && pkg install tur-repo code-server
     code-server # este es el comando para ejecutar el servidor de vscode
