@@ -116,6 +116,8 @@ Cada [curso en Harvard](https://pll.harvard.edu/catalog?topics%5B702%5D=702&pric
 - [CS50P](https://cs50.harvard.edu/python/) introducción a Python con temas como clases, objectos, métodos, etc.
 - [CS50R](https://cs50.harvard.edu/r/) introducción a la ciencia de datos y estadística con R
 - [CS50AI](https://cs50.harvard.edu/ai/) introducción al machine learning e inteligencia artificial en Python 
+- [CS50CS](https://cs50.harvard.edu/cybersecurity/) introducción a la Ciberseguridad 
+- [CS50SQL](https://cs50.harvard.edu/sql/) introducción al bases de datos relaciones con SQL 
 
 ### Cursos de la Universidad de Helsinki
 

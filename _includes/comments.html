@@ -22,6 +22,7 @@
   </div>
   <script>
     function updateGiscusTheme() {
+      console.log("updateGiscusTheme called"); // Debug: Verificar si la función se llama
       const dataMode = document.documentElement.getAttribute("data-mode");
       const theme = dataMode
         ? (dataMode === "dark" ? "dark_dimmed" : "light")
@@ -29,24 +30,35 @@
       
       // Actualizar el tema del script de Giscus
       const giscusScript = document.querySelector('script[src="https://giscus.app/client.js"]');
+      console.log("Giscus script element:", giscusScript); // Debug: Verificar si se encuentra el script
       if (giscusScript) {
         giscusScript.setAttribute("data-theme", theme);
       }
       
       // Enviar mensaje al iframe de Giscus para actualizar el tema
       const giscusIframe = document.querySelector("iframe.giscus-frame");
+      console.log("Giscus iframe element:", giscusIframe); // Debug: Verificar si se encuentra el iframe
       if (giscusIframe) {
-        giscusIframe.contentWindow.postMessage(
-          { giscus: { setConfig: { theme: theme } } },
-          "https://giscus.app"
-        );
+        try {
+          giscusIframe.contentWindow.postMessage(
+            { giscus: { setConfig: { theme: theme } } },
+            "https://giscus.app"
+          );
+          console.log("Message posted to Giscus iframe"); // Debug: Verificar si el mensaje se envía
+        } catch (error) {
+          console.error("Error posting message to Giscus iframe:", error); // Debug: Capturar errores de postMessage
+        }
       }
     }
 
     function attemptUpdateGiscus() {
       const interval = setInterval(() => {
+        console.log("Attempting to update Giscus theme"); // Debug: Verificar si se llama periódicamente
         const giscusScript = document.querySelector('script[src="https://giscus.app/client.js"]');
         const giscusIframe = document.querySelector("iframe.giscus-frame");
+
+        console.log("Giscus script found:", giscusScript); // Debug: Verificar si se encuentra el script en cada intento
+        console.log("Giscus iframe found:", giscusIframe); // Debug: Verificar si se encuentra el iframe en cada intento
 
         if (giscusScript && giscusIframe) {
           clearInterval(interval);
@@ -60,6 +72,7 @@
 
     // Asegurarse de que la página esté completamente cargada
     document.addEventListener("DOMContentLoaded", function() {
+      console.log("DOM fully loaded and parsed"); // Debug: Verificar si DOMContentLoaded se dispara
       updateGiscusTheme();
       attemptUpdateGiscus();
 
@@ -67,6 +80,7 @@
       const modeObserver = new MutationObserver(mutations => {
         mutations.forEach(mutation => {
           if (mutation.attributeName === "data-mode") {
+            console.log("data-mode attribute changed"); // Debug: Verificar si se detectan cambios en data-mode
             updateGiscusTheme();
           }
         });

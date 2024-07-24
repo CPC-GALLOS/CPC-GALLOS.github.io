@@ -37,8 +37,14 @@ Un gestor de paquetes es una colección de herramientas de software que automati
 
 ---
 
-<mark>Windows:</mark> [scoop](https://scoop.sh/), [winget](https://winget.run/), [MSYS2 (pacman)](https://packages.msys2.org/queue).
+<mark>Windows:</mark> [scoop](https://scoop.sh/), [winget](https://winget.run/), [MSYS2 (pacman)](https://packages.msys2.org/queue) [chocolatey](https://chocolatey.org/)
 <mark>MacOSX:</mark> [homebrew](https://brew.sh/).
 <mark>Linux:</mark> apt, pacman, etc.
 <mark>iOS:</mark> apk (ish).
 <mark>Android:</mark> pkg (termux).
+
+[nixos linux](https://nixos.org/download/#nix-install-linux)
+[nixos MacOS](https://nixos.org/download/#nix-install-macos)
+[nixos Windows (WSL2)](https://nixos.org/download/#nix-install-windows)
+[nixos docker](https://nixos.org/download/#nix-install-docker)
+[nixos termux (Android)](https://f-droid.org/es/packages/com.termux.nix/)

@@ -367,6 +367,12 @@ Si desea ver una lista detallada acerca de los temas junto con becas revise este
   <div class="custom_card center" data-tags="certificate harvard ai">
     <a href="https://cs50.harvard.edu/ai/">Harvard CS50 AI</a>
   </div> 
+  <div class="custom_card center" data-tags="certificate harvard cybersecurity">
+    <a href="https://cs50.harvard.edu/cybersecurity/">Harvard CS50 CS</a>
+  </div> 
+  <div class="custom_card center" data-tags="certificate harvard database">
+    <a href="https://cs50.harvard.edu/sql/">Harvard CS50 SQL</a>
+  </div> 
   <div class="custom_card center" data-tags="certificate helsinki programming">
     <a href="https://programming-24.mooc.fi/">Helsinki Python Programming MOOC 2024</a>
   </div>
