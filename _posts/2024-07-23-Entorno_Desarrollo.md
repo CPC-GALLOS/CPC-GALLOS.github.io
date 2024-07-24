@@ -108,7 +108,7 @@ No confundir con [Visual Studio](https://visualstudio.microsoft.com/) . VScode e
 - En <i class="fa-brands fa-microsoft"></i> Windows en ![powershell logo](https://nattia.com/wp-content/uploads/2024/04/Servicios-de-PowerShell.png){: w="15" h="15" } Powershell con el comando: 
 ```powershell
 winget install -e --id  Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
-```
+``` 
 - En <i class="fa-brands fa-apple"></i> MacOs con el gestor de paquetes ![homebrew logo](https://brew.sh/assets/img/homebrew.svg){: w="10" h="10" } [homebrew](https://brew.sh/):
 ```zsh
 brew install --cask visual-studio-code
@@ -119,7 +119,7 @@ brew install --cask visual-studio-code
     pkg update && pkg install tur-repo code-server
     code-server # este es el comando para ejecutar el servidor de vscode
     ```
-    2. con el [escritorio nativo](http://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-escritorio-nativo) con los comandos:
+    2. con el [escritorio nativo](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-escritorio-nativo) con los comandos:
     ```bash
     pkg update && pkg install tur-repo code-oss
     ```
