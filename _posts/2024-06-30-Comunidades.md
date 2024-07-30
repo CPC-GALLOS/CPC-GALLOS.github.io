@@ -17,3 +17,4 @@ image:
 - [Club de Algoritmia CUCEI](https://discord.com/invite/VmKrSgK5mQ) Discord oficial del Club de Algoritmia del Centro Universitario de Ciencias Exactas e Ingenierías de la UdeG.
 - [Club de Algoritmia ESFM](https://discord.gg/R7urzSYyVW) Discord oficial del Club de algoritmia de la Escuela Superior de Física y Matemáticas del Instituto Politécnico Nacional.
 - [Junior Training Sheet](https://discord.gg/BPXwwcBVZJ) Discord del finalista de ICPC, Mostafa Saad, para el acompañamiento de su Junior Training sheet exclusivamente.
+- [Omega UP](https://discord.com/invite/K3JFd9d3wk) Es una organización sin fines de lucro de América Latina para impulsar la tecnología a traves de la programación competitiva.

@@ -14,6 +14,6 @@ image:
   alt: image alternative text 
 ---
 
-[Comentario]: (tabla de contenido en codigo) 
+[Comentario]: (tabla de contenido en código) 
 * Asterisk needed for Table Of Contents
 {:toc} 

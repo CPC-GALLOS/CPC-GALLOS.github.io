@@ -1,11 +1,11 @@
----
+﻿---
 title: Entorno de Desarrollo
 description: Para la programación competitiva en C++
 date: 2024-07-23 7:00:00 +/-TTTT
 categories: [Club]
 author: ArielParra 
 tags: [recomendaciones,C++,compiladores]
-pin: false
+pin: true
 mermaid: false
 image:
 ---
@@ -20,7 +20,7 @@ __Tabla de Contenidos:__
 ##  Conectar <i class="fa-brands fa-git-alt"></i> Git con <i class="fa-brands fa-github"></i> GitHub
 
 
-1. Primero crearemos una cuenta de github <https://github.com/signup> 
+1. Primero crearemos una cuenta de GitHub <https://github.com/signup> 
 1. Después creamos un repositorio (proyecto) en  <https://github.com/new>
 1. Luego descargamos git desde la pagina oficial <https://git-scm.com/downloads> o con el gestor de paquetes de cada sistema operativo
     - En <i class="fa-brands fa-microsoft"></i> Windows en ![powershell logo](https://nattia.com/wp-content/uploads/2024/04/Servicios-de-PowerShell.png){: w="15" h="15" } Powershell con el comando: 
@@ -60,8 +60,8 @@ ssh-keygen -t ed25519 -C "correo@ejemplo.com"
 ```
 
 8. Copiamos los datos del archivo generado en Windows en la ruta: `C:\Users\%USERNAME%\.ssh\id_ed25519.pub`{: .filepath} (para windows tiene el icono de Microsoft publisher ![Microsoft publisher logo](https://upload.wikimedia.org/wikipedia/commons/f/fb/Microsoft_Office_Publisher_%282019-present%29.svg){: w="15" h="15" } y se puede abrir con el bloc de notas
-) , para los demás sistemas operativos suele estar en `~/.ssh/id_ed25519.pub`{: .filepath}  y lo conectamos con nuestra cuenta de github através de <https://github.com/settings/ssh/new>, dándole un nombre (puede ser el modelo de tu dispositivo) y pegando la los datos copiados (llave).
-9. Por último descargamos nuestro repositorio, en una terminal navega hacia tu carpeta de de destino, yo recomiendo la carpeta de Documentos (Documents) o Escritorio (Desktop).
+) , para los demás sistemas operativos suele estar en `~/.ssh/id_ed25519.pub`{: .filepath}  y lo conectamos con nuestra cuenta de GitHub a través de <https://github.com/settings/ssh/new>, dándole un nombre (puede ser el modelo de tu dispositivo) y pegando la los datos copiados (llave).
+9. Por último descargamos nuestro repositorio, en una terminal navega hacia tu carpeta de destino, yo recomiendo la carpeta de Documentos (Documents) o Escritorio (Desktop).
 
 > Mucho ojo 👁️ en Windows, estas carpetas suelen estar bajo `C:\Users\%USERNAME%\One Drive\`{: .filepath}
 {: .prompt-warning }
@@ -76,29 +76,29 @@ git push # pusheas los cambios junto con el commit hacia GitHub
 git pull # descargas los cambios actuales desde GitHub
 ```
 
-## <i class="fa-solid fa-globe"></i> Compiladores en linea (Online)
-La ventaja de usar un IDE en linea es la disponibilidad en cualquier dispositivo, la desventaja evidentemente es que al no tener conexión a internet no puedes utilizarlo aparte de que en algunos deberás guardar tus códigos manualmente en algún otro medio o plataforma.
+## <i class="fa-solid fa-globe"></i> Compiladores en línea (Online)
+La ventaja de usar un IDE en línea es la disponibilidad en cualquier dispositivo, la desventaja evidentemente es que al no tener conexión a internet no puedes utilizarlo aparte de que en algunos deberás guardar tus códigos manualmente en algún otro medio o plataforma.
 
-- [onlinegdb](https://www.onlinegdb.com/online_c++_compiler) este es el compilador en linea recomendado por el club, debido a que permite guardar los códigos al iniciar sesión junto con la compatibilidad completa con nuestra [plantilla de C++](https://cpc-gallos.github.io/blog/Plantilla/) 
-- [Programiz](https://www.programiz.com/cpp-programming/online-compiler/) es un compilador en linea para acompañar sus cursos de programación
-- [cpp.sh](https://cpp.sh/) la ventaja de este editor es poder comparar las diferencias entre distintos estándares de c++ y distintos niveles de optimización del compilador, lo único malo es que no permite directivas `#pragma` ni la libreria `<bits/stdc++.h>`
-- [pythontutor](https://pythontutor.com/cpp.html#mode=edit) este es un muy buen debuger en linea ya que contiene representaciones gráficas para visualizar nuestros códigos y también permite el uso de la libreria `<bits/stdc++.h>`, lo malo es que no tiene entrada de usuario (no permite `std::cin`), junto con otras [cosas incompatibles](https://docs.google.com/document/d/13_Bc-l2FKMgwPx4dZb0sv7eMfYMHhRVgBRShha8kgbU/edit)
+- [onlinegdb](https://www.onlinegdb.com/online_c++_compiler) este es el compilador en línea recomendado por el club, debido a que permite guardar los códigos al iniciar sesión junto con la compatibilidad completa con nuestra [plantilla de C++](https://cpc-gallos.github.io/blog/Plantilla/) 
+- [Programiz](https://www.programiz.com/cpp-programming/online-compiler/) es un compilador en línea para acompañar sus cursos de programación
+- [cpp.sh](https://cpp.sh/) la ventaja de este editor es poder comparar las diferencias entre distintos estándares de C++ y distintos niveles de optimización del compilador, lo único malo es que no permite directivas `#pragma` ni la librería `<bits/stdc++.h>`
+- [pythontutor](https://pythontutor.com/cpp.html#mode=edit) este es un muy buen debuger en línea ya que contiene representaciones gráficas para visualizar nuestros códigos y también permite el uso de la librería `<bits/stdc++.h>`, lo malo es que no tiene entrada de usuario (no permite `std::cin`), junto con otras [cosas incompatibles](https://docs.google.com/document/d/13_Bc-l2FKMgwPx4dZb0sv7eMfYMHhRVgBRShha8kgbU/edit)
 
 ## <i class="fa-solid fa-cloud"></i> IDEs en la nube (Cloud)
 
 - [Replit](https://replit.com/languages/cpp) es una plataforma para colaborar en tiempo real con código, la desventaja es que el plan gratuito solo te permite tener 3 proyectos públicos
-- [Google Colab](https://colab.research.google.com/) es un servició totalmente gratuito por parte de Google para usar [Jupyer Noteeboks](https://docs.jupyter.org/en/latest/#what-is-a-notebook), para ejecutar c++ tendremos que usar el comando `%%writefile` para escribir hacia archivos, como lo seria el archivo `in.txt` donde pondremos todas las entradas del programa (necesario para la función `freopen`) y el archivo `.cpp` el cual compilaremos con el comando `!g++` y ejecutaremos de esta manera `!./a.out` 
+- [Google Colab](https://colab.research.google.com/) es un servició totalmente gratuito por parte de Google para usar [Jupyer Noteeboks](https://docs.jupyter.org/en/latest/#what-is-a-notebook), para ejecutar C++ tendremos que usar el comando `%%writefile` para escribir hacia archivos, como lo seria el archivo `in.txt` donde pondremos todas las entradas del programa (necesario para la función `freopen`) y el archivo `.cpp` el cual compilaremos con el comando `!g++` y ejecutaremos de esta manera `!./a.out` 
 
 ![Google Colab ejemplo](/assets/img/posts/Entorno_Desarrollo/Google_Colab.png){: w="400" h="200"}
 
-- [Github codespaces](https://github.com/features/codespaces) es VScode dentro de un servidor de linux en la nube, compatible con todas las extensiones que desees.
+- [Github codespaces](https://github.com/features/codespaces) es VScode dentro de un servidor de Linux en la nube, compatible con todas las extensiones que desees.
     - GitHub Free 15 GB de espacio al mes con 120 horas
     - GitHub Pro  20 GB de espacio al mes con 180 horas
 
 > Recuerda que tienes acceso de forma gratuita a [GitHub Pro](https://education.github.com/discount_requests/application) por ser estudiante
 {: .prompt-tip }
 
-- [cs50.dev](https://cs50.dev/) es github codespaces gratuito y sin limite de tiempo, hosteado por la universidad de Harvard para el acompañamiento de sus [cursos](https://cpc-gallos.github.io/blog/Filtrar_Certificados/?issuer=harvard), este es el editor en la nube recomendado por el club. 
+- [cs50.dev](https://cs50.dev/) es GitHub codespaces gratuito y sin limite de tiempo, hosteado por la universidad de Harvard para el acompañamiento de sus [cursos](https://cpc-gallos.github.io/blog/Filtrar_Certificados/?issuer=harvard), este es el editor en la nube recomendado por el club. 
 
 ![cs50.dev ejemplo](/assets/img/posts/Entorno_Desarrollo/cs50dev.png){: w="600" h="300"}
 
@@ -107,7 +107,7 @@ La ventaja de usar un IDE en linea es la disponibilidad en cualquier dispositivo
 
 ## VScode IDE 
 
-No confundir con [Visual Studio](https://visualstudio.microsoft.com/) . VScode es el editor recomenado por el Club, esto debido principalmente por su amplio catalogo de extensiones. Para instalarlo podemos hacerlo desde su pagina web o usando el gestor de paquetes 
+No confundir con [Visual Studio](https://visualstudio.microsoft.com/). VScode es el editor recomendado por el Club, esto debido principalmente por su amplio catalogo de extensiones. Para instalarlo podemos hacerlo desde su pagina web o usando el gestor de paquetes 
 
 - En <i class="fa-brands fa-microsoft"></i> Windows en ![powershell logo](https://nattia.com/wp-content/uploads/2024/04/Servicios-de-PowerShell.png){: w="15" h="15" } Powershell con el comando: 
 ```powershell
@@ -118,7 +118,7 @@ winget install -e --id  Microsoft.VisualStudioCode --override '/SILENT /mergetas
 brew install --cask visual-studio-code
 ``` 
 - En <i class="fa-brands fa-android"></i> Android con la terminal <i class="fa-solid fa-terminal"></i> [termux](https://termux.dev/en/) hay dos opciones:
-    1.  Usar vscode-server (aplicación en linea similar a <https://vscode.dev/>, la cual tiene extensiones limitadas) que sera accesible en cualquier navegador del dispositivo en las urls [localhost:8080](https://localhost:8080) o [127.0.0.1:8080](https://127.0.0.1:8080), se instala con los comandos:
+    1.  Usar vscode-server (aplicación en línea similar a <https://vscode.dev/>, la cual tiene extensiones limitadas) que será accesible en cualquier navegador del dispositivo en las urls [localhost:8080](https://localhost:8080) o [127.0.0.1:8080](https://127.0.0.1:8080), se instala con los comandos:
     ```bash
     pkg update && pkg install tur-repo code-server
     code-server # este es el comando para ejecutar el servidor de vscode
@@ -171,7 +171,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 ![msys2 toolchain](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001-toolchain.png){: w="500" h="300" }
 
-- Ya terminada la instalación del compilador, procederemos a agregar el compilador al `path`. Para ello, buscamos alguna de estas palabras clave: "variables", "path", "variables del sistema" en el buscador de windows <i class="fa fa-magnifying-glass"></i> y abriremos la aplicación con icono de una computadora con una palomita ![computadora con una palomita](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001_icono_path.png){: w="15" h="15" }, allí abriremos las variables y editaremos el path agregando la dirección: `C:\msys64\ucrt64\bin`. 
+- Ya terminada la instalación del compilador, procederemos a agregar el compilador al `path`. Para ello, buscamos alguna de estas palabras clave: "variables", "path", "variables del sistema" en el buscador de Windows <i class="fa fa-magnifying-glass"></i> y abriremos la aplicación con icono de una computadora con una palomita ![computadora con una palomita](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001_icono_path.png){: w="15" h="15" }, allí abriremos las variables y editaremos el path agregando la dirección: `C:\msys64\ucrt64\bin`. 
 
 ![path de windows](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001_path.png){: w="500" h="300" }
 
@@ -183,7 +183,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
         
 ![imagen de settings.json](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001_cpp_settings_json.png){: w="500" h="300" }
 
-- Agregaremos estas lineas a los corchetes internos, teniendo cuidado de no borrar otras configuraciones. 
+- Agregaremos estas líneas a los corchetes internos, teniendo cuidado de no borrar otras configuraciones. 
     ```json
 
         "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin",
@@ -193,7 +193,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
         }
 
     ```
-- Con esto ya podremos compilar y ejecutar el codigo dentro de VScode dandole click al simbolo de repdroducir  <i class="fa fa-play"></i>  en la parte superior derecha del editor o con la extensión [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) presionando las teclas `ctrl + alt + N`.
+- Con esto ya podremos compilar y ejecutar el código dentro de VScode dándole click al símbolo de reproducir <i class="fa fa-play"></i>  en la parte superior derecha del editor o con la extensión [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) presionando las teclas `ctrl + alt + N`.
 
 ## Instalar el compilador en <i class="fa-brands fa-apple"></i> MacOS
 
@@ -219,32 +219,32 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
     xcode-select install
     ```
 
-- Clang no incluye la libreria `<bits/stdc++>`, necesaria para usar la [plantilla del club](https://cpc-gallos.github.io/blog/Plantilla/), por lo que tendremos que instalarla manualmente con los siguientes comandos:
+- Clang no incluye la librería `<bits/stdc++>`, necesaria para usar la [plantilla del club](https://cpc-gallos.github.io/blog/Plantilla/), por lo que tendremos que instalarla manualmente con los siguientes comandos:
     ```zsh
     mkdir /usr/local/include/bits
     echo '#define _GLIBCXX_HOSTED 1' > /usr/local/include/bits/stdc++.h
     curl -sS https://raw.githubusercontent.com/gcc-mirror/gcc/master/libstdc%2B%2B-v3/include/precompiled/stdc%2B%2B.h >> /usr/local/include/bits/stdc++.h
     ```
 
-> Recuerda **comentar** o **eliminar** las lineas `#pragma GCC optimize("Ofast,unroll-loops")` y `#pragma GCC target("avx2")` de la [plantilla de C++](https://cpc-gallos.github.io/blog/Plantilla/), debido a qué estas no son compatibles con Clang y daran un error de compilación!
+> Recuerda **comentar** o **eliminar** las líneas `#pragma GCC optimize("Ofast,unroll-loops")` y `#pragma GCC target("avx2")` de la [plantilla de C++](https://cpc-gallos.github.io/blog/Plantilla/), debido a qué estas no son compatibles con Clang y darán un error de compilación!
 {: .prompt-danger }
 
 
 ## Entorno de desarrollo en <i class="fa-brands fa-android"></i> Android
 
-> Para un mejor desempeño al programar, recomiendo utilizar un teclado y/o mouse externo, ya sean por Bluetooth o por USB con un adaptador OTG o con un adpatador a USB C.
+> Para un mejor desempeño al programar, recomiendo utilizar un teclado y/o mouse externo, ya sean por Bluetooth o por USB con un adaptador OTG o con un adaptador a USB C.
 {: .prompt-tip }
 
 ### <i class="fa-solid fa-terminal"></i>terminal nativa + <i class="fa-solid fa-laptop-code"></i> editor de código
 
-Termux es la terminal nativa de Android, esta disponible en la playstore, pero suele estar desactualizada por lo que recomiendo descargarlo [directamente en GitHub](https://github.com/termux/termux-app) o a través de la tienda open-source [fdroid](https://f-droid.org/en/packages/com.termux/)
+Termux es la terminal nativa de Android, esta disponible en la PlayStore, pero suele estar desactualizada por lo que recomiendo descargarlo [directamente en GitHub](https://github.com/termux/termux-app) o a través de la tienda open-source [fdroid](https://f-droid.org/en/packages/com.termux/)
 
 Dentro de la terminal para poder instalar el compilador ejecutamos los siguientes comandos:
 ```bash
 pkg update && pkg upgrade
 pkg install build-essential
 ``` 
-Para compilar un archivo de c++, primero navegamos a la carpeta donde este el archivo, recomiendo guardarlos en la capreta de descargas del dispositibo (downloads), despúes compilamos el archivo con la extension `.cpp` y para ejecutar el archivo resultante lo hacemos con `./a.out`:
+Para compilar un archivo de C++, primero navegamos a la carpeta donde este el archivo, recomiendo guardarlos en la carpeta de descargas del dispositivo (downloads), después compilamos el archivo con la extensión `.cpp` y para ejecutar el archivo resultante lo hacemos con `./a.out`:
 ```bash
 cd ~/storage/downloads/
 g++ archivo.cpp
@@ -253,19 +253,19 @@ g++ archivo.cpp
 
 Para los editores de código el club recomienda cualquiera de estas dos opciones: 
 
-1. ![Squircle CE logo](https://f-droid.org/repo/com.blacksquircle.ui/en-US/icon_FtV5qpmuJJ3IqYz5WwTDUqsxFK3kUeIONL3_hbDFlLg=.png){: w="15" h="15" } Squircle CE: disponible en la ![playstore logo](https://cdn-icons-png.flaticon.com/512/732/732208.png){: w="15" h="15" } [playstore](https://play.google.com/store/apps/details?id=com.blacksquircle.ui) o en ![fdroid logo](https://upload.wikimedia.org/wikipedia/commons/3/3c/F-Droid_Logo_4.svg){: w="15" h="15" } [fdroid](https://f-droid.org/es/packages/com.blacksquircle.ui/)
-1. ![Acode logo](https://f-droid.org/repo/com.foxdebug.acode/en-US/icon_ljuxslVt96jUyr6FANAPcSTfaLbw4C61GnouGefIK-Y=.png){: w="15" h="15" } Acode: disponible en la ![playstore logo](https://cdn-icons-png.flaticon.com/512/732/732208.png){: w="15" h="15" } [playstore](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree&hl=es_MX) o en ![fdroid logo](https://upload.wikimedia.org/wikipedia/commons/3/3c/F-Droid_Logo_4.svg){: w="15" h="15" } [fdroid](https://f-droid.org/es/packages/com.foxdebug.acode/)
+1. ![Squircle CE logo](https://f-droid.org/repo/com.blacksquircle.ui/en-US/icon_FtV5qpmuJJ3IqYz5WwTDUqsxFK3kUeIONL3_hbDFlLg=.png){: w="15" h="15" } Squircle CE: disponible en la ![PlayStore logo](https://cdn-icons-png.flaticon.com/512/732/732208.png){: w="15" h="15" } [PlayStore](https://play.google.com/store/apps/details?id=com.blacksquircle.ui) o en ![fdroid logo](https://upload.wikimedia.org/wikipedia/commons/3/3c/F-Droid_Logo_4.svg){: w="15" h="15" } [fdroid](https://f-droid.org/es/packages/com.blacksquircle.ui/)
+1. ![Acode logo](https://f-droid.org/repo/com.foxdebug.acode/en-US/icon_ljuxslVt96jUyr6FANAPcSTfaLbw4C61GnouGefIK-Y=.png){: w="15" h="15" } Acode: disponible en la ![PlayStore logo](https://cdn-icons-png.flaticon.com/512/732/732208.png){: w="15" h="15" } [PlayStore](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree&hl=es_MX) o en ![fdroid logo](https://upload.wikimedia.org/wikipedia/commons/3/3c/F-Droid_Logo_4.svg){: w="15" h="15" } [fdroid](https://f-droid.org/es/packages/com.foxdebug.acode/)
 
-También recomiendo usar el explorador de archivos por defecto en Android "files" ya que este te permite acceder facilmente a los archivos dentro de <i class="fa-solid fa-terminal"></i> termux, si no se tiene esta aplicación instalada se puede instalar esta versión similar: [files por marcapps](https://play.google.com/store/apps/details?id=com.marc.files&ref=apkcombo.com)
+También recomiendo usar el explorador de archivos por defecto en Android "files" ya que este te permite acceder fácilmente a los archivos dentro de <i class="fa-solid fa-terminal"></i> termux, si no se tiene esta aplicación instalada se puede instalar esta versión similar: [files por marcapps](https://play.google.com/store/apps/details?id=com.marc.files&ref=apkcombo.com)
 
 ### <i class="fa-solid fa-desktop"></i> escritorio nativo
 
-Esto es recomendado para dispositivos de gama alta o dispositivos de más reciente y para usuarios un poco más avanzados, se necesitara instalar [termux-x11](https://github.com/termux/termux-x11) y seguir la guia de instalación de su GitHub y para el escritorio se ocupa seguir [esta guia por DroidMaster](https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/Documentation/native/termux_native.md) aparte que tendras que instalar [extensiones manualmente](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix) para code-oss (VScode de termux).
+Esto es recomendado para dispositivos de gama alta o dispositivos de más reciente y para usuarios un poco más avanzados, se necesitara instalar [termux-x11](https://github.com/termux/termux-x11) y seguir la guía de instalación de su GitHub y para el escritorio se ocupa seguir [esta guía por DroidMaster](https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/Documentation/native/termux_native.md) aparte que tendrás que instalar [extensiones manualmente](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix) para code-oss (VScode de termux).
 
 
 ## Entorno de desarrollo en <i class="fa-brands fa-apple"></i> iOS/iPadOS
 
-> Para un mejor desempeño al programar, recomiendo utilizar un teclado y/o mouse externo, ya sean por Bluetooth o por USB con un adaptador/dongle lighting o con un adpatador/dongle a USB C.
+> Para un mejor desempeño al programar, recomiendo utilizar un teclado y/o mouse externo, ya sean por Bluetooth o por USB con un adaptador/dongle lighting o con un adaptador/dongle a USB C.
 {: .prompt-tip }
 
 ### <i class="fa-solid fa-terminal"></i>terminal emulada + <i class="fa-solid fa-laptop-code"></i> editor de código
@@ -289,7 +289,7 @@ Para el editor de código el club recomienda:
 
 ### <i class="fa-solid fa-desktop"></i> escritorio emulado
 
-- Esto se hace a traves de ![UTM logo](https://mac.getutm.app/siteicon.png){:  w="20" h="20" } [UTM SE](https://apps.apple.com/mx/app/utm-se-retro-pc-emulator/id1564628856) y es recomendado especialmente para iPads, ya que la aplicación corre algo lento debido a que es emulado, pero para un mejor rendimiento recomiendo usar [Debian 11 (LXDE)](https://mac.getutm.app/gallery/debian-11-ldxe) y para instalar VScode recomiendo seguir [esta guia oficial](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)
+- Esto se hace a través de ![UTM logo](https://mac.getutm.app/siteicon.png){:  w="20" h="20" } [UTM SE](https://apps.apple.com/mx/app/utm-se-retro-pc-emulator/id1564628856) y es recomendado especialmente para iPads, ya que la aplicación corre algo lento debido a que es emulado, pero para un mejor rendimiento recomiendo usar [Debian 11 (LXDE)](https://mac.getutm.app/gallery/debian-11-ldxe) y para instalar VScode recomiendo seguir [esta guía oficial](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)
 
 > se puede llegar a un mejor rendimiento usando un tipo de para-virtualización con SPICE y JIT con TGC, pero ocupa un conociemiento más avanzada y en especial ocupa [más pasos](https://docs.getutm.app/installation/ios/)
 

@@ -1,6 +1,6 @@
 # Γα=Ω5 site
 
-# Guia de instalacion de entorno para Jekyll:
+# Guía de instalación de entorno para Jekyll:
 
 - Teniendo los permisos y llaves necesarias, clonar la repo con `git clone git@github.com:CPC-GALLOS/CPC-GALLOS.github.io.git` 
 - Para windows instalar [scoop](https://scoop.sh/)
@@ -10,7 +10,7 @@
 - Para ver la pagina web de manera local ejecutar `bundle exec jekyll s` en la terminal
 - Ir a http://127.0.0.1:4000 ó http://localhost:4000/ en tu navegador de preferencia
 
-# Guia de edicion: 
+# Guía de edición: 
 
 - En la terminal dentro del proyecto en vscode
 - Agrega nuevos blogs ejecutando `bundle exec jekyll post "Titulo del blog"`

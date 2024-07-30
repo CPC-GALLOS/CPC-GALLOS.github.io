@@ -1,4 +1,4 @@
----
+﻿---
 title: Cursos Externos
 description: Presentaciones, videos con temas en orden acerca de la Programación competiti
 date: 2024-06-29 19:01:00 +/-TTTT
@@ -15,7 +15,7 @@ image:
 - [Colin Galen: From Beginner to Grandmaster](https://www.youtube.com/watch?v=bSdp2WeyuJY)
 - [Mostafa Saad: Enhanced Training roadmap for newcomers](https://codeforces.com/blog/entry/97858)
 - [Masataka Yoneda: A Way to Practice Competitive Programming](https://drive.google.com/file/d/1T-HqQgiB8HlIntpG3tgk2eHDhz5gImK9/view)
-- [Clubes de Programacíon Competitiva (CPC)](https://drive.google.com/drive/folders/1uH9U53T9ljT-ahlQNgeK83GcH9PzJSND)
+- [Clubes de Programación Competitiva (CPC)](https://drive.google.com/drive/folders/1uH9U53T9ljT-ahlQNgeK83GcH9PzJSND)
 - [IOI Syllabus](https://ioinformatics.org/page/syllabus/12)
 
 # Cursos de organizaciones

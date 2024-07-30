@@ -1,4 +1,4 @@
----
+﻿---
 title: Notebooks
 description: Notas de varios equipos competidores en el ICPC
 date: 2024-06-30 22:00:00 +/-TTTT
@@ -14,7 +14,7 @@ Los Notebooks, también conocidos como cheat sheets, se llaman oficialmente: Tea
 
 Las 3 únicas limitantes dadas por el ICPC para dichos documentos son:
 
-1. Deben tener máximo 25 Hojas (carta o A4) impresas de un solo lado, numeradas en las esquina superior derecha, junto con la universidad, nombre y equipo en la esquina superior izquierda.
+1. Deben tener máximo 25 Hojas (carta o A4) impresas de un solo lado, numeradas en la esquina superior derecha, junto con la universidad, nombre y equipo en la esquina superior izquierda.
 1. El texto y las ilustraciones deben ser visibles a una distancia de 50cm sin necesidad de acercamiento.  
 1. Puede incluir notas y correcciones solo en la parte impresa de la hoja. 
 

@@ -67,7 +67,7 @@ post:
     next: Nuevo
     previous: Anterior
     copy_code:
-      succeed: ¡Codigo Copiado!
+      succeed: ¡Código Copiado!
     share_link:
       title: Copiar enlace
       succeed: ¡Enlace copiado!

@@ -1,4 +1,4 @@
----
+﻿---
 title: Embajador
 description: Oportunidades para ser embajador de múltiples empresas
 date: 2024-07-17 23:30:00 +/-TTTT
@@ -13,10 +13,10 @@ image:
 Un embajador (ambassador) es una persona que representa, habla por o anuncia a una organización, grupo de personas, actividad o marca en particular. Estos reconocimientos son muy útiles si quieres aplicar para un trabajo en dicha empresa, ya que aparte de poder tener una red de socios expertos en los temas que te interesan, también te destaca como una persona interesada en su empresa y tecnologías. 
 
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com/) (MLS). Este es el programa de embajador que más recomiendo, se trata de especializarte en tecnologías de Microsoft, donde conectaras directamente con expertos y mentores de Microsoft. Los beneficios que ofrece el programa son: 
-    - 150 Dolares mensuales en créditos de Azure
+    - 150 Dólares mensuales en créditos de Azure
     - Visual Studio Enterprise
     - Tu propio dominio Student Ambassador.com
-    - voucher gratuito de la certificación Microsoft Certified Trainer (MCT)
+    - Voucher gratuito de la certificación Microsoft Certified Trainer (MCT)
     - Acceso al Summit de Embajadores
     - Oportunidades en programas de liderazgo
     - Posibilidad de ser invitado al programa MVP (Most Valuable Profesional)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Certificaciones Gratuitas
 description: Certificaciones, cursos, becas y más
 date: 2024-07-02 08:00:00 +/-TTTT
@@ -41,7 +41,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Oracle One](https://www.oracle.com/mx/education/oracle-next-education/) es un curso de 6 meses de duración donde puedes certificarte en front end (React y javascript) ó en backend (Java y Springboot), en cualquier caso tienes que entregar 3 proyectos. 
 - [Tecnolochicas PRO](https://tecnolochicas.mx/registro-tcpro/) son un conjunto de cursos desarrollados por la Fundación Televisa en colaboración con Microsoft especialmente para estudiantes universitarios, el curso pro tiene dos cursos, un curso de diseño web y otro de Data Science tomados en horarios fijos.
 - [Becas Santander](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=TECH&mode=ONLINE) tienen cursos muy variados como Full Stack, ciencia de datos, inteligencia artificial. En especial recomiendo los [cursos de inglés](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=LANGUAGE&mode=ONLINE).
-- [INROADS](https://inroads.org.mx/) es una organización latinoamericana aliada con Google, tiene dos programas principales: [Súbete a la Nube con Google Cloud](https://subetealanube.inroads.org.mx/) donde aprenderás de Infraestructura, Redes, Seguridad, Inteligencia Artificial, Data y Machine Learning. Y su otro programa es el de [Certificados de Carrera de Google](https://becas.inroads.org.mx/) donde podras certificarte sobre Fundamentos de IA, Ciberseguridad y Análisis de Datos.
+- [INROADS](https://inroads.org.mx/) es una organización latinoamericana aliada con Google, tiene dos programas principales: [Súbete a la Nube con Google Cloud](https://subetealanube.inroads.org.mx/) donde aprenderás de Infraestructura, Redes, Seguridad, Inteligencia Artificial, Data y Machine Learning. Y su otro programa es el de [Certificados de Carrera de Google](https://becas.inroads.org.mx/) donde podrás certificarte sobre Fundamentos de IA, Ciberseguridad y Análisis de Datos.
 - [INCyTEA](https://www.aguascalientes.gob.mx/incytea/) El Instituto de Ciencia Y Tecnología de Aguascalientes suele sacar varias becas a lo largo del año por lo que hay que estar al pendiente en sus páginas.
 - [Blockmakers](https://blockmakers.mx/) cursos creados en colaboración con el INCyTEA para temas de Blockchain, Solidity, Ciencia de Datos e introducción a la Inteligencia Artificial.
 - [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen 3 tipos de bootcamps Motoko, Azle y ICP developer Javascript. 
@@ -109,10 +109,10 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 
 ### Cursos de la Universidad de Harvard 
 
-Cada [curso en Harvard](https://pll.harvard.edu/catalog?topics%5B702%5D=702&price%5B1%5D=1&max_price=&start_date=&keywords=) tiene una longitud distinta, por ejemplo el CS50X dice que dura 10 semanas, pero puedes acabarlo hasta el 31 de diciembre del año donde lo empezaste, los cursos tienen una dificultad variable ya que casi siempre podrás elegir entregar un problema fácil o difícil por cada tarea (estas tareas se entregan en un grupo de github). En cualquier curso debes entregar todas las tareas y un proyecto final, el cual es libre para poder obtener tu certificado.
+Cada [curso en Harvard](https://pll.harvard.edu/catalog?topics%5B702%5D=702&price%5B1%5D=1&max_price=&start_date=&keywords=) tiene una longitud distinta, por ejemplo el CS50X dice que dura 10 semanas, pero puedes acabarlo hasta el 31 de diciembre del año donde lo empezaste, los cursos tienen una dificultad variable ya que casi siempre podrás elegir entregar un problema fácil o difícil por cada tarea (estas tareas se entregan en un grupo de GitHub). En cualquier curso debes entregar todas las tareas y un proyecto final, el cual es libre para poder obtener tu certificado.
 
 
-- [CS50X](https://cs50.harvard.edu/x/) introducción a la Computer Science, se ven múltiples temas como algoritmos, estructuras de datos, abstracción, encapsulmiento, cyberseguridad; tecnologías como C, SQL, Python, HTML, CSS, y JavaScript.
+- [CS50X](https://cs50.harvard.edu/x/) introducción a la Computer Science, se ven múltiples temas como algoritmos, estructuras de datos, abstracción, encapsulamiento, ciberseguridad; tecnologías como C, SQL, Python, HTML, CSS, y JavaScript.
 - [CS50P](https://cs50.harvard.edu/python/) introducción a Python con temas como clases, objectos, métodos, etc.
 - [CS50R](https://cs50.harvard.edu/r/) introducción a la ciencia de datos y estadística con R
 - [CS50AI](https://cs50.harvard.edu/ai/) introducción al machine learning e inteligencia artificial en Python 
@@ -121,7 +121,7 @@ Cada [curso en Harvard](https://pll.harvard.edu/catalog?topics%5B702%5D=702&pric
 
 ### Cursos de la Universidad de Helsinki
 
-La universidad de Helsinki en Finlandia, es la universidad que vio la creación de Linux, por lo que es una reconocida universidad a nivel mundial, esta universidad ofrece un amplio [catalogo de cursos](https://www.classcentral.com/university/helsinki) con certificado a través de distintas páginas donde las tareas o actividades son entregadas en un moodle (como el aulavirtual de la UAA).
+La universidad de Helsinki en Finlandia, es la universidad que vio la creación de Linux, por lo que es una reconocida universidad a nivel mundial, esta universidad ofrece un amplio [catalogo de cursos](https://www.classcentral.com/university/helsinki) con certificado a través de distintas páginas donde las tareas o actividades son entregadas en un moodle (como el aula virtual de la UAA).
 
 - [Python Programming MOOC 2024](https://programming-24.mooc.fi/) MOOC significa Massive Online Open Courses, en este caso es un curso anual de Python el cual puedes realizar a tu paso durante todo lo que reste del año.
 - [Java Programming MOOC](https://java-programming.mooc.fi/) es un buen curso de Java, aunque también recomendaría investigar más acerca de springboot o JAVAFX.
@@ -136,7 +136,7 @@ de la Linux Foundation, aunque la mayoría si son acerca de temas muy especializ
 
 - [Git for Distributed Software Development](https://training.linuxfoundation.org/training/git-for-distributed-software-development-lfd109x/) git fue creado por el creador de Linux, por lo que este curso tiene una muy buena validez.
 - [Introduction to Kubernetes](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) Kubernetes es una de las herramientas más utilizadas para servidores en la nube sin importar que tipo de nube.
-- [Cybersecurity Essentials](https://training.linuxfoundation.org/training/cybersecurity-essentials-lfc108/) si esperas especializarte en cyberseguridad, este es un buen lugar para comenzar.
+- [Cybersecurity Essentials](https://training.linuxfoundation.org/training/cybersecurity-essentials-lfc108/) si esperas especializarte en ciberseguridad, este es un buen lugar para comenzar.
 - [Introduction to Linux](https://training.linuxfoundation.org/training/introduction-to-linux/) saber Linux no solo es bueno, es indispensable ya que la mayor parte de los servidores lo utilizan.
 
 ### Cursos de LinkedIn X Microsoft
@@ -154,7 +154,7 @@ Múltiples certificados sacados por LinkedIn en colaboración con Microsoft para
 
 En si coursera no es gratis, pero la mayoría de cursos tienen la opción de auditar de manera gratuita sin poder obtener el certificado, pero también tienen la opción para [solicitar ayuda económica](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es) y obtener una beca de hasta el 100% para poder obtener tu certificado.
 
-> El certificado de Algorithms de Standford es la que más se relaciona con la programación competitiva, aunque si es algo larga ya que consta de 4 cursos, pero si tienes la oportunidad certificate en este curso.
+> El certificado de Algorithms de Standford es la que más se relaciona con la programación competitiva, aunque si es algo larga ya que consta de 4 cursos, pero si tienes la oportunidad certifícate en este curso.
 {: .prompt-tip }
 - [University of Standford: Algorithms](https://www.coursera.org/specializations/algorithms)
 - [Amazon: Cloud Solutions Architect](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect)
@@ -193,7 +193,7 @@ Cisco es la empresa que tiene el monopolio de la Infraestructura de las redes, s
 
 IBM tiene más de [500 insignias gratuitas](https://www.ibm.com/training/search?trainingType=Badge) repartidas en distintos sitios cubriendo distintos temas
 
-- [Zxplore](https://www.ibm.com/z/resources/zxplore) es el curso acerca de los Mainframes (super computadores/servidores) de IBM con el sistema operativo Z/OS. Hay pocos espialistas en esta área, por lo que es un buen tema para especializarse. Cualquier duda o informes sobre este tema pueden contactar con nuestro compañero de la UAA y embajador de IBM Z [Gustavo Richarte](https://www.linkedin.com/in/gustavoricharte/).
+- [Zxplore](https://www.ibm.com/z/resources/zxplore) es el curso acerca de los Mainframes (super computadores/servidores) de IBM con el sistema operativo Z/OS. Hay pocos especialistas en esta área, por lo que es un buen tema para especializarse. Cualquier duda o informes sobre este tema pueden contactar con nuestro compañero de la UAA y embajador de IBM Z [Gustavo Richarte](https://www.linkedin.com/in/gustavoricharte/).
 - [Cognitive Class](https://cognitiveclass.ai/courses?type%5B%5D=course&sort%5B%5D=most_popular)
     - [Python for Data Science](https://cognitiveclass.ai/courses/python-for-data-science)
     - [Machine Learning with Python](https://cognitiveclass.ai/courses/machine-learning-with-python)
@@ -217,7 +217,7 @@ IBM tiene más de [500 insignias gratuitas](https://www.ibm.com/training/search?
 
 ### Insignias de Oracle
 
-Oracle ofrce distintas insignias relacionads a Oracle Cloud Infraestructure (OCI) a través de [Oracle University](https://mylearn.oracle.com/)
+Oracle ofrece distintas insignias relacionadas a Oracle Cloud Infraestructure (OCI) a través de [Oracle University](https://mylearn.oracle.com/)
 
 - [OCI Kubernetes Engine Specialist](https://mylearn.oracle.com/ou/learning-path/become-an-oci-kubernetes-engine-specialist/134984)
 - [Oracle Linux: System Administration on OCI](https://mylearn.oracle.com/ou/learning-path/oracle-linux-system-administration-on-oci/110062)
@@ -233,7 +233,7 @@ Oracle ofrce distintas insignias relacionads a Oracle Cloud Infraestructure (OCI
 
 Microsoft tiene más de 4500 cursos, modulos y rutas de aprendizaje en su plataforma [Microsoft Learn](https://learn.microsoft.com/en-us/training/browse/), aunque yo en especial recomiendo tomar las [rutas de aprendizaje](https://learn.microsoft.com/en-us/training/browse/?resource_type=learning%20path) ya que estas al ser un conjunto de cursos tienen un mejor valor curricular. 
 
-> Si de valor curricular hablamos las [Microsoft Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills) son las que más peso tienen, ya que estas son implentaciones de tecnlogias de Microsoft muy utiles para tu portafolio profesional. 
+> Si de valor curricular hablamos las [Microsoft Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills) son las que más peso tienen, ya que estas son implementaciones de tecnologías de Microsoft muy útiles para tu portafolio profesional. 
 {: .prompt-tip }
 
 - [TensorFlow fundamentals](https://learn.microsoft.com/en-us/training/paths/tensorflow-fundamentals/)
@@ -262,7 +262,7 @@ Huawei ofrece cursos gratuitos acerca de la nube e infraestructura de Huawei a t
 
 ### Insignias de Amazon
 
-Amazon ofrece estas insignias como parte de su [entrenamiento gratuito de AWS](https://aws.amazon.com/es/training/badges/), quizas no 
+Amazon ofrece estas insignias como parte de su [entrenamiento gratuito de AWS](https://aws.amazon.com/es/training/badges/), quizás no 
 sean tan importantes como sus certificaciones de AWS, pero pueden servir como motivador para después conseguirlas.
 
 - [Migration Foundations](https://explore.skillbuilder.aws/learn/public/learning_plan/view/1991/migration-foundations-knowledge-badge-readiness-path?trk=e6934e10-170d-4c94-bf7b-b88f95ed0f47&sc_channel=el)

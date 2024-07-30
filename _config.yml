@@ -28,21 +28,23 @@ url: "https://CPC-GALLOS.github.io"
 github:
   username: CPC-GALLOS # change to your github username
 
-# twitter:
-  #username: twitter_username # change to your twitter username
+twitter:
+  username: CPCGallos # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: CPC-GALLOS
-  # email: #example@domain.com # change to your email address
+  email: cpc.gallos@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/CPC-GALLOS # change to your github homepage
+    - https://twitter.com/CPCGallos # change to your twitter homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.facebook.com/people/CPC-Gallos/61563419165843/
+    - https://www.instagram.com/cpc_gallos/
+    - https://www.linkedin.com/company/cpc-gallos
+    - https://www.youtube.com/@CPC-GALLOS
 
 # Site Verification Settings
 webmaster_verifications:
