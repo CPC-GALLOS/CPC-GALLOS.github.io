@@ -169,6 +169,10 @@ winget update ; winget install -e --id MSYS2.MSYS2
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 ``` 
 
+> La descarga puede fallar en la red institucional. Si ocurre un fallo, intenta de nuevo o prueba en otra red Wi-Fi.
+{: .prompt-info }
+
+
 ![msys2 toolchain](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001-toolchain.png){: w="500" h="300" }
 
 - Ya terminada la instalación del compilador, procederemos a agregar el compilador al `path`. Para ello, buscamos alguna de estas palabras clave: "variables", "path", "variables del sistema" en el buscador de Windows <i class="fa fa-magnifying-glass"></i> y abriremos la aplicación con icono de una computadora con una palomita ![computadora con una palomita](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001_icono_path.png){: w="15" h="15" }, allí abriremos las variables y editaremos el path agregando la dirección: `C:\msys64\ucrt64\bin`. 

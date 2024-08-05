@@ -30,6 +30,7 @@ image:
     - Deezer Student: 3 meses gratis Luego, $59 MXN al mes.
     - Kaspersky:  Descuento del 60% en cualquiera de las soluciones.
 - [sharp3d](https://www.shapr3d.com/education) licencia 100% gratuita para renovar anualmente. Shapr3D es un software CAD con el motor Siemens Parasolid®, disponible en Windows, MacOS y iPadOS.
+- [canva premium](https://canva.com/edu-signup) canva premium al presentar correo institucional. 
 - [Student Beans](https://www.studentbeans.com/mx) múltiples ofertas para estudiantes de diferentes marcas.
 - [UniDays](https://www.myunidays.com/ES/es-ES) múltiples ofertas para estudiantes de diferentes marcas.
 - [Apple](https://www.apple.com/mx-edu/store) descuentos en productos seleccionados de Apple a meses sin intereses. 
@@ -82,3 +83,6 @@ image:
     - Múltiples descuentos en tours de [Mundo Joven](https://mundojoven.com)
     - Hasta $60 USD de descuento en tickets de [Walt Disney World® Resort Orlando](https://isic.memberperks.us/discounts/brands/disneyworldorlando)
     - Hasta 58% de descuento en [HP USA](https://isic.memberperks.us/discounts/offer/1:40780).
+
+> También puedes obtener la tarjeta ISIC totalmente gratis a traves de una cuenta Westpac Choice siguiendo esta [guia](https://www.pointhacks.com.au/product-guide/westpac-isic-card-guide/)
+{: .prompt-tip }

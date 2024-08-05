@@ -19,3 +19,6 @@ Para las competencias de programación competitiva no se ocupa un conocimiento a
 - [OMMAGS: Aritmética](https://www.ommags.com/material/aritmetica.pdf)
 - [OMI: Apuntes](https://www.olimpiadadeinformatica.org.mx/OMI/OMI/Material/Apuntes.aspx)
 - [AoPS: Wiki](https://artofproblemsolving.com/wiki/)
+- [Summer of Math Exposition](https://some.3b1b.co/)
+- [3Blue1Brown](https://www.youtube.com/@3blue1brown)
+- [Numberphile](https://www.youtube.com/@numberphile)

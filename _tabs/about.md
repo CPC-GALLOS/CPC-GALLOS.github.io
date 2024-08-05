@@ -11,8 +11,10 @@ permalink: / # for exchanging the HomePage
 
 Este es el Club de Programación Competitiva Γα=Ω5 (GALLOS) de la Universidad Autónoma de Aguascalientes, el club está conformado por estudiantes que buscan enseñar y reforzar los conocimientos del Análisis y Diseño de Algoritmos en el lenguaje de C++ con el objetivo de preparar y participar en torneos de programación competitiva a nivel local, nacional e internacional principalmente, pero no solo programamos en este club sino que también aspiramos a fortalecer tus habilidades y apoyarte en tu desarrollo profesional, proporcionando recursos y oportunidades para avanzar en tu carrera.
 
+<style>.zoomable{ image-rendering: pixelated;}</style>
+
 - **¿Cuando?** Damos clases los días lunes, miércoles y viernes a las `Horario pendiente` (también hay clases sabatinas por parte del [club Colmena](https://linktr.ee/colmena.oficial)).
-- **¿Donde?** En el laboratorio de inteligencia artificial del [edificio 203](https://maps.app.goo.gl/A9i7rYa39DNT53NA8) ![mapa uaa](/assets/img/edificio203.png){: w="20" h="20"} 
+- **¿Donde?** En el laboratorio de inteligencia artificial del [edificio 203](https://maps.app.goo.gl/A9i7rYa39DNT53NA8) ![mapa uaa](/assets/img/edificio203.png){: w="20" h="20" } 
 
 Nuestro plan de estudios se basa en clases teóricas y practicas donde aprenderás desde temas básicos hasta temas avanzados y cada quince días, los viernes, llevamos a cabo una competencia de programación local.
 

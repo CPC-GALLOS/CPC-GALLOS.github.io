@@ -29,9 +29,10 @@ __Tabla de Contenidos:__
 
 Estas no están protectorados pero tienen el nombre y validación de certificación avalado por Oracle, a través de [Oracle University](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free). 
 - [Oracle Guided Learning Project Management Foundations Associate (Beta)](https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1)
-- [OCI Foundations Associate](https://education.oracle.com/oracle-cloud-infrastructure-2023-foundations-associate/pexam_1Z0-1085-24)
-- [OCI AI Foundations Associate](https://education.oracle.com/oracle-cloud-infrastructure-2023-ai-foundations-associate/pexam_1Z0-1122-23)
+- [OCI Foundations Associate](https://education.oracle.com/es/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-24)
+- [OCI AI Foundations Associate](https://education.oracle.com/es/ouexam-pexam_1z0-1122-24/pexam_1Z0-1122-24)
 - [Data Management Foundations Associate](https://education.oracle.com/oracle-cloud-data-management-2023-foundations-associate/pexam_1Z0-1105-23)
+- [OCI Data Foundations Associate](https://education.oracle.com/es/oracle-cloud-infrastructure-2024-data-foundation-associate/pexam_1Z0-1195-24)
 
 ## Becas recurrentes con certificados 
 
