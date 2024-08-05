@@ -6,10 +6,9 @@ categories: [] # carpeta del blog
 author:        # agrega tu id de autor al archivo _data/authors.yml 
 tags: []       # los tags deben ser en minusculas y separados por comas 
 toc: false     # Table Of Contents lateral (ocupa h2 ##)
-pin: false
-published: false
-sitemap: false
-image:
+pin: false     # Solo para temas de alta importancia
+mermaid: false # Para las graficas
+image:         # Para las imagenes del blog
   path: /path/to/image
   alt: image alternative text 
 ---
