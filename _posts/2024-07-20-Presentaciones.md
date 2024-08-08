@@ -12,7 +12,7 @@ image:
 
 <!-- Recordar actualizar https://github.com/CPC-GALLOS/Presentations/blob/main/index.md -->
 
-# Presentaciones 2024
+## Presentaciones 2024
 
 - [**Introducción al Curso**](https://cpc-gallos.github.io/Presentations/2024/0-Introduccion.html)
 
@@ -20,8 +20,8 @@ image:
     1. [Entorno de Desarrollo](https://cpc-gallos.github.io/Presentations/2024/1_001-Entorno_Desarrollo.html)
     1. [Tipos de Datos y Casting](https://cpc-gallos.github.io/Presentations/2024/1_002-Tipos_Datos_Casting.html)
     1. [Control de Flujo](https://cpc-gallos.github.io/Presentations/2024/1_003-Control_Flujo.html)
-    1. Strings y vectores en C
-    1. Numeros decimales y operadores aritmeticos
+    1. [Strings y vectores en C](https://cpc-gallos.github.io/Presentations/2024/1_004-Strings_Vectores_C.html)
+    1. [Numeros decimales y operadores](https://cpc-gallos.github.io/Presentations/2024/1_005-Decimales_Operadores.html)
     1. Punteros y Memoria
     1. STL containers
     1. Iteradores
@@ -36,6 +36,11 @@ image:
     1. Habilidades blandas/duras y trabajo en equipo
 1. **Temas Avanzados**
 
-# Presentaciones 2023
+> El repositorio de las presentaciones se encuentra en <https://github.com/CPC-GALLOS/Presentations>
+{: .prompt-tip }
+
+
+## Presentaciones 2023
 
 Accesibles a través del [antiguo repositorio](https://github.com/Chisrra/GALLOS)
+
