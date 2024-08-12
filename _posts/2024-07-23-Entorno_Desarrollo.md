@@ -295,7 +295,7 @@ Para el editor de código el club recomienda:
 
 - Esto se hace a través de ![UTM logo](https://mac.getutm.app/siteicon.png){:  w="20" h="20" } [UTM SE](https://apps.apple.com/mx/app/utm-se-retro-pc-emulator/id1564628856) y es recomendado especialmente para iPads, ya que la aplicación corre algo lento debido a que es emulado, pero para un mejor rendimiento recomiendo usar [Debian 11 (LXDE)](https://mac.getutm.app/gallery/debian-11-ldxe) y para instalar VScode recomiendo seguir [esta guía oficial](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)
 
-> se puede llegar a un mejor rendimiento usando un tipo de para-virtualización con SPICE y JIT con TGC, pero ocupa un conociemiento más avanzada y en especial ocupa [más pasos](https://docs.getutm.app/installation/ios/)
+> se puede llegar a un mejor rendimiento usando un tipo de para-virtualización con SPICE y JIT con TGC, pero ocupa un conociemiento más avanzado y en especial ocupa [más pasos](https://docs.getutm.app/installation/ios/)
 
 ## Referencias
 
