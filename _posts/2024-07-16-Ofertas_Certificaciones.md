@@ -10,13 +10,15 @@ mermaid: false
 image:
 ---
 
-# Ofertas temporales
+> Si deseas ver una lista detallada sobre los temas junto con becas, revisa este post: [Certificaciones Gratuitas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/). También revisa el [filtrado de certificados](https://cpc-gallos.github.io/blog/Filtrar_Certificados/). 
+{: .prompt-info }
 
+## Ofertas temporales
 
 - Certificación gratuita de [Google: Inteligencia Artificial y Productividad](https://www.santanderopenacademy.com/en/courses/google-artificial-intelligence-and-productivity.html), Oferta valida hasta el 31 de diciembre de 2024 [<i class="fa-brands fa-google"></i>](https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20241231%2F20241231&details=La%20oferta%20gratuita%20de%20Google%3A%20Inteligencia%20Artificial%20y%20Productividad%20termina%20el%2031%20de%20diciembre%20de%202024.%0A&location=&text=Fin%20de%20la%20oferta%20de%20OCI%20Generative%20AI) 📅 [<i class="fa-brands fa-apple"></i>](webcal://cpc-gallos.github.io/assets/cal/2401231.ics)
 
 
-# Ofertas en vouchers
+## Ofertas en vouchers
 
 En general para obtener vouchers gratis o descuentos en vouchers hay que estar atentos a las redes sociales de las compañías emisoras de estos, en general Microsoft es la que más oportunidades suele dar.
 
@@ -27,7 +29,7 @@ En general para obtener vouchers gratis o descuentos en vouchers hay que estar a
 - 20% de descuento usando los cupones `DCUBE20` y `SCRIPT20` para certificaciones por parte de [Linux Foundation](https://training.linuxfoundation.org/cloud-containers/?SSAID=746540&sscid=71k8_jjr26&utm_source=shareasale&utm_medium=affiliate&utm_campaign=affiliate).
 - [Red Por La Ciberseguridad](https://www.redporlaciberseguridad.org/producto/voucher-para-examen-de-certificacion-microsoft/) hasta 70% de descuento en vouchers de Microsoft, sujeto a disponibilidad.
 
-# Avisos de eventos próximos  
+## Avisos de eventos próximos  
 
 - [Red Por La Ciberseguridad](https://www.facebook.com/redporlaciberseguridad?locale=es_LA), esta es la página encargada de Operación Aleph, donde en sus cursos en colaboración con Microsoft suelen regalar vouchers gratis. 
 - [Código Facilito](https://www.facebook.com/codigofacilito) también suele tener cursos o bootcamps en colaboración con Microsoft donde regalan vouchers gratis.
@@ -40,4 +42,3 @@ En general para obtener vouchers gratis o descuentos en vouchers hay que estar a
 - MSFTHUB. (2024). *The Knowledge Hub for Microsoft Certifications*. Recuperado de <https://certs.msfthub.wiki/>
 - TechiesCamp. (2024). *Linux Foundation Coupons*. Recuperado de <https://github.com/techiescamp/linux-foundation-coupon>
 - kentrad. (2023). *Discounts on AWS Certification Exams*. Recuperado de <https://repost.aws/articles/ART7TtE3TwRx-TFa0DPGDv-Q/discounts-on-aws-certification-exams>
-

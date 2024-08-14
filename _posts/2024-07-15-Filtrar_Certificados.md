@@ -161,8 +161,8 @@ image:
   });
 </script>
 
-Si desea ver una lista detallada acerca de los temas junto con becas revise este post: [Certificaciones Gratuitas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/).
-
+> Si deseas ver una lista detallada sobre los temas junto con becas, revisa este post: [Certificaciones Gratuitas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/). Si buscas ofertas en certificaciónes con costo, revisa este post: [Ofertas en Certificaciones](https://cpc-gallos.github.io/blog/Ofertas_Certificaciones/)
+{: .prompt-info }
 
 <div class="custom_container max-width">
     <div class="custom_card max-width" id="filter-checks">

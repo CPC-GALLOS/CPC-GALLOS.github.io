@@ -1,4 +1,16 @@
-
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//GALLOS//club//ES
+BEGIN:VEVENT
+UID:cpc.gallos@gmail.com
+DTSTAMP:20240813T182307Z
 SUMMARY:Clases del club Γα=Ω5
-DESCRIPTION:Clases del club Γα=Ω5 lunes, miércoles y viernes en el laboratorio de inteligencia artificial del edificio 203
-LOCATION: https://maps.app.goo.gl/A9i7rYa39DNT53NA8
+DESCRIPTION:Clases del club Γα=Ω5 en el laboratorio de intel
+ igencia artificial del edificio 203
+LOCATION:https://maps.app.goo.gl/A9i7rYa39DNT53NA8
+CLASS:PUBLIC
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=MO,WE,FR
+DTSTART:20240819T200000Z
+DTEND:20241129T220000Z
+END:VEVENT
+END:VCALENDAR

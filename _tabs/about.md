@@ -9,7 +9,7 @@ permalink: / # for exchanging the HomePage
 
 ## Bienvenido GALLO 🎉🐓👋
 
-Este es el Club de Programación Competitiva Γα=Ω5 (GALLOS) de la Universidad Autónoma de Aguascalientes, el club está conformado por estudiantes que buscan enseñar y reforzar los conocimientos del Análisis y Diseño de Algoritmos en el lenguaje de C++ con el objetivo de preparar y participar en torneos de programación competitiva a nivel local, nacional e internacional principalmente, pero no solo programamos en este club sino que también aspiramos a fortalecer tus habilidades y apoyarte en tu desarrollo profesional, proporcionando recursos y oportunidades para avanzar en tu carrera.
+Este es el Club de Programación Competitiva Γα=Ω5 (GALLOS) de la Universidad Autónoma de Aguascalientes, el club está conformado por estudiantes certificados en problem-solving que buscan enseñar y reforzar los conocimientos del Análisis y Diseño de Algoritmos en el lenguaje de C++ con el objetivo de preparar y participar en torneos de programación competitiva a nivel local, nacional e internacional principalmente, pero no solo programamos en este club sino que también aspiramos a fortalecer tus habilidades y apoyarte en tu desarrollo profesional, proporcionando recursos y oportunidades para avanzar en tu carrera.
 
 <style>
 .zoomable { image-rendering: pixelated; }
@@ -18,7 +18,7 @@ Este es el Club de Programación Competitiva Γα=Ω5 (GALLOS) de la Universidad
 img[alt="mapa uaa"] { image-rendering: pixelated; }
 </style>
 
-- **¿Cuando?** Damos clases los días lunes, miércoles y viernes a las `Horario pendiente` (también hay clases sabatinas por parte del [club Colmena](https://linktr.ee/colmena.oficial)).
+- **¿Cuando?** Damos clases los días lunes, miércoles y viernes de <ins>**2:00 a 4:00 pm**</ins> [<i class="fa-brands fa-google"></i>](https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240819T200000Z%2F20241129T220000Z&details=Clases%20del%20club%20%CE%93%CE%B1%3D%CE%A95%20en%20el%20laboratorio%20de%20inteligencia%20artificial%20del%20edificio%20203&location=https%3A%2F%2Fmaps.app.goo.gl%2FA9i7rYa39DNT53NA8&recur=RRULE%3AFREQ%3DWEEKLY%3BINTERVAL%3D1%3BBYDAY%3DMO%2CWE%2CFR&text=Clases%20del%20club%20%CE%93%CE%B1%3D%CE%A95) 📅 [<i class="fa-brands fa-apple"></i>](webcal://cpc-gallos.github.io/assets/cal/horario_club.ics) (también hay clases sabatinas por parte del [club Colmena](https://linktr.ee/colmena.oficial)).
 - **¿Donde?** En el laboratorio de inteligencia artificial del [edificio 203](https://maps.app.goo.gl/A9i7rYa39DNT53NA8) ![mapa uaa](/assets/img/edificio203.png){: w="20" h="20" } 
 
 Nuestro plan de estudios se basa en clases teóricas y practicas donde aprenderás desde temas básicos hasta temas avanzados y cada quince días, los viernes, llevamos a cabo una competencia de programación local.
