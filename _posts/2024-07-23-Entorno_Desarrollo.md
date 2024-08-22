@@ -89,7 +89,7 @@ La ventaja de usar un IDE en línea es la disponibilidad en cualquier dispositiv
 - [Replit](https://replit.com/languages/cpp) es una plataforma para colaborar en tiempo real con código, la desventaja es que el plan gratuito solo te permite tener 3 proyectos públicos
 - [Google Colab](https://colab.research.google.com/) es un servició totalmente gratuito por parte de Google para usar [Jupyer Noteeboks](https://docs.jupyter.org/en/latest/#what-is-a-notebook), para ejecutar C++ tendremos que usar el comando `%%writefile` para escribir hacia archivos, como lo seria el archivo `in.txt` donde pondremos todas las entradas del programa (necesario para la función `freopen`) y el archivo `.cpp` el cual compilaremos con el comando `!g++` y ejecutaremos de esta manera `!./a.out` 
 
-![Google Colab ejemplo](https://raw.githubusercontent.com/CPC-GALLOS/CPC-GALLOS.github.io/main/assets/img/posts/Entorno_Desarrollo/Google_Colab.png){: w="400" h="200"}
+![Google Colab ejemplo](/assets/img/posts/Entorno_Desarrollo/Google_Colab.png){: w="400" h="200"}
 
 - [Github codespaces](https://github.com/features/codespaces) es VScode dentro de un servidor de Linux en la nube, compatible con todas las extensiones que desees.
     - GitHub Free 15 GB de espacio al mes con 120 horas
@@ -100,7 +100,7 @@ La ventaja de usar un IDE en línea es la disponibilidad en cualquier dispositiv
 
 - [cs50.dev](https://cs50.dev/) es GitHub codespaces gratuito y sin limite de tiempo, hosteado por la universidad de Harvard para el acompañamiento de sus [cursos](https://cpc-gallos.github.io/blog/Filtrar_Certificados/?issuer=harvard), este es el editor en la nube recomendado por el club. 
 
-![cs50.dev ejemplo](https://github.com/CPC-GALLOS/CPC-GALLOS.github.io/blob/main/assets/img/posts/Entorno_Desarrollo/cs50dev.png){: w="600" h="300"}
+![cs50.dev ejemplo](/assets/img/posts/Entorno_Desarrollo/cs50dev.png){: w="600" h="300"}
 
 > [cs50.dev](https://cs50.dev/) también es de mucha utilidad para correr otros IDEs en la nube como lo es el caso de Rstudio para R
 {: .prompt-info }
@@ -147,7 +147,7 @@ brew install --cask visual-studio-code
 - Primero en  VScode tenemos que tener la extensión [Competitive Programming Helper (CPH)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper)
 - Después cambiaremos el lenguaje por defecto a C++ y agregaremos la ruta (ubicación) de la [plantilla del club](https://cpc-gallos.github.io/blog/Plantilla/) a la configuración de la extensión Competitive Programming Helper (CPH) en VScode
 
-![cph setting imagen](https://raw.githubusercontent.com/CPC-GALLOS/CPC-GALLOS.github.io/main/assets/img/posts/Entorno_Desarrollo/cph_settings.png){: w="400" h="200"}
+![cph setting imagen](/assets/img/posts/Entorno_Desarrollo/cph_settings.png){: w="400" h="200"}
 
 - Para <i class="fa-brands fa-firefox-browser"></i> firefox: Agrega las extensiones: [competitive companion](https://addons.mozilla.org/en-US/firefox/addon/competitive-companion/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) y [CPH Submit](https://addons.mozilla.org/en-US/firefox/addon/cph-submit/)
 
@@ -173,19 +173,19 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 {: .prompt-info }
 
 
-![msys2 toolchain](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001-toolchain.png){: w="500" h="300" }
+![msys2 toolchain](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001-toolchain.png){: w="500" h="300" }
 
-- Ya terminada la instalación del compilador, procederemos a agregar el compilador al `path`. Para ello, buscamos alguna de estas palabras clave: "variables", "path", "variables del sistema" en el buscador de Windows <i class="fa fa-magnifying-glass"></i> y abriremos la aplicación con icono de una computadora con una palomita ![computadora con una palomita](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001_icono_path.png){: w="15" h="15" }, allí abriremos las variables y editaremos el path agregando la dirección: `C:\msys64\ucrt64\bin`. 
+- Ya terminada la instalación del compilador, procederemos a agregar el compilador al `path`. Para ello, buscamos alguna de estas palabras clave: "variables", "path", "variables del sistema" en el buscador de Windows <i class="fa fa-magnifying-glass"></i> y abriremos la aplicación con icono de una computadora con una palomita ![computadora con una palomita](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001_icono_path.png){: w="15" h="15" }, allí abriremos las variables y editaremos el path agregando la dirección: `C:\msys64\ucrt64\bin`. 
 
-![path de windows](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001_path.png){: w="500" h="300" }
+![path de windows](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001_path.png){: w="500" h="300" }
 
 - ya instalada la [extensión C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) en VScode iremos hacia las configuraciones de la extensión.
 
-![configuración de la extensión C/C++](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001_cpp_settings.png){: w="500" h="300" }
+![configuración de la extensión C/C++](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001_cpp_settings.png){: w="500" h="300" }
 
 - Ahi buscamos la opción que diga "compiler path", la cual nos mandara nos manda al archivo [`settings.json`](https://code.visualstudio.com/docs/getstarted/settings#_settingsjson):
         
-![imagen de settings.json](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/001_cpp_settings_json.png){: w="500" h="300" }
+![imagen de settings.json](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001_cpp_settings_json.png){: w="500" h="300" }
 
 - Agregaremos estas líneas a los corchetes internos, teniendo cuidado de no borrar otras configuraciones. 
     ```json
