@@ -22,17 +22,17 @@ image:
     1. [Control de Flujo](https://cpc-gallos.github.io/Presentations/2024/1_003-Control_Flujo.html)
     1. [Strings y vectores en C](https://cpc-gallos.github.io/Presentations/2024/1_004-Strings_Vectores_C.html)
     1. [Numeros decimales y operadores](https://cpc-gallos.github.io/Presentations/2024/1_005-Decimales_Operadores.html)
-    1. Punteros y Memoria
+    1. [Punteros y Memoria](https://cpc-gallos.github.io/Presentations/2024/1_006-Punteros_Memoria.html)
     1. STL containers
     1. Iteradores
     1. Errores Comunes
     1. Debug (Depuración) 
 1. **Algoritmos**
-    1. Big O
-    1. Tipos de Problemas
+    1. Big O (Complejidad de ALgoritmos)
+    1. Tipos de Problemas y Paradigmas
     1. Problem-solving
-    1. Ordenamiento (Sort) 
-    1. Busquedas (search)
+    1. Algoritmos de Ordenamiento (Sort) 
+    1. Algoritmos de Busquedas (search)
     1. Habilidades blandas/duras y trabajo en equipo
 1. **Temas Avanzados**
 

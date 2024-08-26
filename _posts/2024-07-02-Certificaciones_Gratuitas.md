@@ -49,7 +49,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [AWS re/Start por fondation forge](https://fondationforge.org/aws-regional/mx) es un programa de capacitación respaldado por Amazon de cuatro meses de duración para preparate en puestos de nivel básico en la nube.
 - [INCyTEA](https://www.aguascalientes.gob.mx/incytea/) El Instituto de Ciencia Y Tecnología de Aguascalientes suele sacar varias becas a lo largo del año por lo que hay que estar al pendiente en sus páginas.
 - [Blockmakers](https://blockmakers.mx/) cursos creados en colaboración con el INCyTEA para temas de Blockchain, Solidity, Ciencia de Datos e introducción a la Inteligencia Artificial.
-- [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen 3 tipos de bootcamps Motoko, Azle y ICP developer Javascript. 
+- [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen varios tipos de bootcamps Motoko, Azle, ICP developer Javascript y Frontend Developer. 
 
 ## Exemenes de habilidades de Hackerrank con certificado
 

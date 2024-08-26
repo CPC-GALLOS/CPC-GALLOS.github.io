@@ -16,7 +16,7 @@ image:
 ## Ofertas temporales
 
 - Certificación gratuita de [Google: Inteligencia Artificial y Productividad](https://www.santanderopenacademy.com/en/courses/google-artificial-intelligence-and-productivity.html), Oferta valida hasta el 31 de diciembre de 2024 [<i class="fa-brands fa-google"></i>](https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20241231%2F20241231&details=La%20oferta%20gratuita%20de%20Google%3A%20Inteligencia%20Artificial%20y%20Productividad%20termina%20el%2031%20de%20diciembre%20de%202024.%0A&location=&text=Fin%20de%20la%20oferta%20de%20OCI%20Generative%20AI) 📅 [<i class="fa-brands fa-apple"></i>](webcal://cpc-gallos.github.io/assets/cal/2401231.ics)
-
+- [AWS Certified: Associate Challenge](https://pages.awscloud.com/GLOBAL-ln-GC-Traincert-Associate-Certification-Challenge-Registration-2024.html?trk=1d696fd8-8f9d-437d-a235-263e41a73c4a&sc_channel=el) 50% de descuento en las certificaciones: AWS Certified Solutions Architect - Associate, AWS Certified Developer - Associate, AWS Certified SysOps Administrator - Associate y AWS Certified Data Engineer - Associate al terminar el challenge. Oferta valida hasta el 12 de diciembre de 2024 [<i class="fa-brands fa-google"></i>](https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20241212%2F20241212&details=Fin%20del%2050%25%20en%20certificaciones%20de%20AWS%2C%20con%20el%20AWS%20Certified%3A%20Associate%20Challenge&location=&text=AWS%20Certified%3A%20Associate%20Challenge) 📅 [<i class="fa-brands fa-apple"></i>](webcal://cpc-gallos.github.io/assets/cal/2401212.ics)
 
 ## Ofertas en vouchers
 
