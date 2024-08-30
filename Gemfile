@@ -6,6 +6,8 @@ gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
 gem 'csv', '~> 3.3'
 gem 'base64', '~> 0.2.0'
 gem 'tzinfo', '~> 2.0', '>= 2.0.6'
+gem 'sass-embedded', '~> 1.77.8'
+gem 'strscan', '3.1.0'
 
 group :jekyll_plugins do
   gem 'jekyll-compose', '~> 0.12.0'

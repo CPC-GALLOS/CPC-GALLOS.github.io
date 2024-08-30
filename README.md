@@ -19,10 +19,16 @@
 - Instalamos la extensión de [dev containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) en VScode
 - Por último en VScode abrimos la carpeta del proyecto y precionamos `f1` para ejecutar el comando `New Dev Container` y elegimos a `ruby`
 
+## Alternativa Avanzada: nix-shell
+
+- Descarga e instala Nix (the package manager) a travez de este [link](https://nixos.org/download/)
+- Ya instalado solo ejecuta nix-shell dentro de esta carpeta del proyecto y listo, continua los pasos
+
 # Despues de instalar:
 
 - Abrir la carpeta del proyecto en vscode 
 - Ejecutar `bundle` dentro de la carpeta del proyecto para descargar las dependencias de ruby (solo la primera vez)
+- Ejecutar `bundle update` dentro de la carpeta del proyecto para actualizar las dependencias de ruby 
 - Para ver la pagina web de manera local ejecutar `bundle exec jekyll s` en la terminal (cada ves que abras el proyecto)
 - Ir a http://127.0.0.1:4000 ó http://localhost:4000/ en tu navegador de preferencia
 

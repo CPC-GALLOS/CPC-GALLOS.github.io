@@ -11,7 +11,11 @@ image:
 ---
 [Mostafa Saad Ibrahim](https://sites.google.com/site/mostafasibrahim/home) es el creador del Junior Training Sheet. Mostafa Saad Ibrahim es un investigador en el campo de *Computer Vision* y actualmente trabaja en Huawei. Tiene un doctorado de la Universidad Simon Fraser (SFU). Además, cuenta con una destacada trayectoria en la programación competitiva y la ingeniería de software. Anteriormente, fue finalista en el ACM ICPC. También ha trabajado como ingeniero de software y como maestro en la Facultad de Informática y Ciencias de la Computación de la Universidad del Cairo (FCI-CU).
 
-El Junior Training Sheet es un documento de Google sheets (el excel de Google) creado por Mostafa Saad, accesible a través de este [link](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit?gid=84654839#gid=84654839), también existe un [Discord](https://discord.gg/BPXwwcBVZJ) para el acompañamiento del Junior Training sheet exclusivamente.
+El Junior Training Sheet es un documento de Google sheets (el excel de Google) creado por Mostafa Saad, accesible a través de este link:
+
+<https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit?gid=84654839#gid=84654839>. 
+
+También existe un [Discord](https://discord.gg/BPXwwcBVZJ) para el acompañamiento del Junior Training sheet exclusivamente.
 
 Para usarlo primero debemos descargar una copia hacia nuestra computadora, nube, repositorio, etc. Donde podamos editarlo y guardar los cambios, cada página tiene múltiples problemas con varias columnas, las primeras dos columnas son el nombre del problema y el link junto con el código del problema; la siguiente columna es el status del problema Accepted (AC), Checked System (CS), Runtime error (RE), Wrong Answer (WA), Time limit exceeded (TLE), Memory limit exceeded (MTE), Compilation error (CE), etc. Las siguientes columnas son donde deberás poner cuanto tiempo te tardaste en cada parte del proceso de solución. Y por último esta la solución por si te atoraste por demasiado tiempo.
 
