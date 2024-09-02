@@ -26,6 +26,7 @@ image:
 - [American Computer Science League (ACSL): Study Materials](https://www.acsl.org/get-started/study-materials) 
 - [ICPC: curriculum](https://u.icpc.global/curriculum/)
 - [Aprende Programación Competitiva](https://aprende.olimpiada-informatica.org/)
+- [Tim Roughgarden: Algorithms Illuminated playlist](https://www.youtube.com/playlist?list=PLEGCF-WLh2RLHqXx6-GZr_w7LgqKDXxN_)
 
 # Cursos de Universidades
 
