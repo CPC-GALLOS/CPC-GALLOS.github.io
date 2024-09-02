@@ -14,7 +14,7 @@ image:
 
 ## Presentaciones 2024
 
-- [**Introducción al Curso**](https://cpc-gallos.github.io/Presentations/2024/0-Introduccion.html), [pdf](0-Introduccion.pdf)
+- [**Introducción al Curso**](https://cpc-gallos.github.io/Presentations/2024/0-Introduccion.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/0-Introduccion.pdf)
 
 1. **Bases de C++**
     1. [Entorno de Desarrollo](https://cpc-gallos.github.io/Presentations/2024/1_001-Entorno_Desarrollo.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/1_001-Entorno_Desarrollo.pdf)
