@@ -13,14 +13,16 @@ image:
 ```c++
 // _autor_
 // link y/o nombre del programa
-#pragma GCC optimize("Ofast,unroll-loops")//-0.0+0.0=-0  
-#pragma GCC target("avx2")
+//#pragma GCC optimize("Ofast,unroll-loops")//-0.0+0.0=-0  
+//#pragma GCC target("avx2") // STL cointaner = std::allocator err
 #include <bits/stdc++.h>
 
 using ull = unsigned long long;
 using ll = long long;
 using namespace std;
 #define endl '\n'
+#define all(x) (x).begin(), (x).end() 
+#define yn(x) (cout << ((x) ? "YES" : "NO"))
 #define dbg(...) cerr<<"LINE("<<__LINE__<<")->["<<#__VA_ARGS__<<"]: ["<<(__VA_ARGS__)<<"]\n";   
 #define pb push_back 
 #define F first
@@ -54,6 +56,9 @@ __Tabla de contenidos__
 
 > Las directivas `#pragma` no son estándar y solo funcionan en los compiladores de GNU como gcc y g++. Es muy común que arroje un error al querer compilar en Xcode, ya que este usa el compilador Clang, al igual que en Visual Studio que usa el compilador MSVC.
 {: .prompt-warning }
+
+> Estos pueden solucionar ciertos `TLE` como en los problemas dentro de este [link](https://usaco.guide/adv/vectorization?lang=cpp#examples-from-cf), pero al usar el pragma `GCC target("avx2")` junto con containers del STL o iteradores o cualquier función de la STL que use internamente `std::allocator()` soltara un error, asi que descomentar los pragmas a discreción
+{: .prompt-danger}
 
 La vectorización es el desarrollo de un bucle combinado con la generación de instrucciones SIMD (Single Instruction, Multiple Data) empaquetadas por parte del compilador para los procesadores con arquitectura x86.
 
@@ -246,9 +251,31 @@ _GLOBAL__sub_I_doNewline():
 
 donde solo imprimir `\n` resulta en 16 líneas de ensamblador comparadas con las 45 líneas necesarias para `std::endl`, más líneas en ensamblador no necesariamente significa peor rendimiento, el problema es que como estas afectan directamente al búfer de salida, aquí si afecta la cantidad de líneas.
 
-#### #define dbg(...) 
+#### Macros
 
-Esto nos permite ejecutar de una manera simple nuestros códigos, solamente rodeamos alguna variable o función que devuelva valores y nos dirá en que línea esta, cual variable y su valor.
+##### #define all(x)
+Esta macro simplifica el uso de rangos en contenedores STL. En lugar de escribir `x.begin()`, `x.end()`, puedes usar `all(x)` para pasar el rango de iteradores a funciones como sort.
+
+```c++
+vector<int> v{3,4,1,2};
+sort( v.begin(),v.end() );
+sort( all(v) );
+```
+
+##### #define yn(x)
+
+Esta macro imprime "YES" si `x` es verdadero y "NO" si `x` es falso, proporcionando una forma rápida de mostrar resultados booleanos en la salida estándar.
+
+```c++
+bool flag = true;
+yn(flag);  // Imprime: YES
+flag = !flag;
+yn(flag); // Imprime: NO
+```
+
+##### #define dbg(...)
+
+La macro `dbg()` nos permite ejecutar de una manera simple nuestros códigos, solamente rodeamos alguna variable o función que devuelva valores y nos dirá en que línea esta, cual variable y su valor.
 
 ```c++
 int i=3;
@@ -463,6 +490,7 @@ En la plantilla tenemos `for(int i=0;i<n;++i)` en lugar de `for(int i=0;i<n;i++)
 - GNU. (s.f). *7 Pragmas*. Recuperado de <https://gcc.gnu.org/onlinedocs/cpp/Pragmas.html>
 - Gokhale, S. (2019). *Debugging in C++*. Recuperado de <https://codeforces.com/blog/entry/65543>
 - Gorbachev, E. (2021). *Ok, lets talk about cout.tie once and forever*. Recuperado de <https://codeforces.com/blog/entry/90775>
+- Golovanov, A.(2020). *C++ tips and tricks*. Recuperado de <https://codeforces.com/blog/entry/74684>
 - Govil, A. (2022). *<bits/stdc++.h> in C++*. Recuperado de <https://www.geeksforgeeks.org/bitsstdc-h-c/>
 - Hikikomorichka. (2021). *Useful C++ Tricks*. Recuperado de <https://codeforces.com/blog/entry/87283>
 - Intel. (s.f). *A guide to vectorization with Intel® C++ Compilers*. Recuperado de <https://www.intel.com/content/dam/develop/external/us/en/documents/31848-compilerautovectorizationguide.pdf>

@@ -50,6 +50,8 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [INCyTEA](https://www.aguascalientes.gob.mx/incytea/) El Instituto de Ciencia Y Tecnología de Aguascalientes suele sacar varias becas a lo largo del año por lo que hay que estar al pendiente en sus páginas.
 - [Blockmakers](https://blockmakers.mx/) cursos creados en colaboración con el INCyTEA para temas de Blockchain, Solidity, Ciencia de Datos e introducción a la Inteligencia Artificial.
 - [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen varios tipos de bootcamps Motoko, Azle, ICP developer Javascript y Frontend Developer. 
+- [Diplomado en Educación Financiera por la CONDUSEF](https://inscripcion-diplomado.condusef.gob.mx/) este diplomado dura 3 meses y esta realizado en colaboración de Banco de México (Banxico), Bolsa Institucional de Valores (BIVA), Instituto Nacional de la Economía Social (INAES), Better than Cash Alliance, Cetesdirecto, Comisión Nacional Bancaria y de Valores (CNBV), Policía Cibernética y Secretaría de Hacienda y Crédito Público (SHCP).
+
 
 ## Exemenes de habilidades de Hackerrank con certificado
 
@@ -75,6 +77,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [GitHub Professional Certificate](https://www.linkedin.com/learning/paths/career-essentials-in-github-professional-certificate) certificado profesional sacado por Linkedin en colaboración con Github.
 - [OpenCV Bootcamp](https://opencv.org/university/free-opencv-course/) esta librería de Python es muy utilizada en el mercado, es usada para reconocimiento y análisis de imágenes ya sean estáticas o en tiempo real con una cámara.
 - [TensorFlow Bootcamp](https://opencv.org/university/free-tensorflow-keras-course) esta librería de Python creada por Google es indispensable para la creación de redes neuronales, las cuales son las bases de la inteligencia artificial.
+- [Motoko Bootcamp](https://www.motokobootcamp.com/) La categoria de "Self-Study" te enseña las bases del lenguaje de programación Motoko usado para "smart contracts" (blockchain) por el ICP (Internet Computer) donde al final reciviras un diploma.
 
 ### Diplomados de Capacítate Para el Empleo 
 [Capacítate Para el Empleo](https://capacitateparaelempleo.org/mostrar-diplomados) es una plataforma en español creada por la fundación Carlos Slim donde hay distintos diplomados de tecnología.

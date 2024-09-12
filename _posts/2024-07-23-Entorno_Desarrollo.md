@@ -46,6 +46,8 @@ __Tabla de Contenidos:__
 5. En una terminal creamos nuestro usuario local de git (es opcional que los datos sean iguales a los de GitHub) con los comandos:
 ``` bash
 git config --global user.name "Usuario"
+```
+```bash
 git config --global user.email "correo@ejemplo.com" 
 ```
 
@@ -201,6 +203,12 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 ## Instalar el compilador en <i class="fa-brands fa-apple"></i> MacOS
 
+> Las Macs con chips M1,M2 o M3 usan la arquitectura ARM. Si ves el error `Bad CPU type in executable (os error 86)`, instala Rosetta con:
+    ```bash
+    softwareupdate --install-rosetta
+    ```
+{: .prompt-info }
+
 ### con gcc/g++
 
 1. Primero, si no lo tenemos instalado ya, procedemos a instalar el gestor de paquetes de la comunidad para MacOs ![homebrew logo](https://brew.sh/assets/img/homebrew.svg){: w="10" h="10" } [homebrew](https://brew.sh/) abriendo una terminal y ejecutando el comando, para después dar varios enters:
@@ -233,6 +241,13 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 > Recuerda **comentar** o **eliminar** las líneas `#pragma GCC optimize("Ofast,unroll-loops")` y `#pragma GCC target("avx2")` de la [plantilla de C++](https://cpc-gallos.github.io/blog/Plantilla/), debido a qué estas no son compatibles con Clang y darán un error de compilación!
 {: .prompt-danger }
 
+
+## Entorno de desarrollo en móviles <i class="fa-brands fa-android"></i> <i class="fa-brands fa-apple"></i> 
+
+> En ambos casos recomendamos más el uso de [IDEs en la nube](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-ides-en-la-nube-cloud) en especial el de la página <https://cs50.dev/>
+{: .prompt-tip }
+
+![cs50.dev ejemplo](/assets/img/posts/Entorno_Desarrollo/cs50dev.png){: w="600" h="300"}
 
 ## Entorno de desarrollo en <i class="fa-brands fa-android"></i> Android
 
@@ -267,6 +282,8 @@ También recomiendo usar el explorador de archivos por defecto en Android "files
 Esto es recomendado para dispositivos de gama alta o dispositivos de más reciente y para usuarios un poco más avanzados, se necesitara instalar [termux-x11](https://github.com/termux/termux-x11) y seguir la guía de instalación de su GitHub y para el escritorio se ocupa seguir [esta guía por DroidMaster](https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/Documentation/native/termux_native.md) aparte que tendrás que instalar [extensiones manualmente](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix) para code-oss (VScode de termux).
 
 
+![Android Desktop](https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/Documentation/images/preview_native.jpg)
+
 ## Entorno de desarrollo en <i class="fa-brands fa-apple"></i> iOS/iPadOS
 
 > Para un mejor desempeño al programar, recomiendo utilizar un teclado y/o mouse externo, ya sean por Bluetooth o por USB con un adaptador/dongle lighting o con un adaptador/dongle a USB C.
@@ -295,7 +312,9 @@ Para el editor de código el club recomienda:
 
 - Esto se hace a través de ![UTM logo](https://mac.getutm.app/siteicon.png){:  w="20" h="20" } [UTM SE](https://apps.apple.com/mx/app/utm-se-retro-pc-emulator/id1564628856) y es recomendado especialmente para iPads, ya que la aplicación corre algo lento debido a que es emulado, pero para un mejor rendimiento recomiendo usar [Debian 11 (LXDE)](https://mac.getutm.app/gallery/debian-11-ldxe) y para instalar VScode recomiendo seguir [esta guía oficial](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)
 
-> se puede llegar a un mejor rendimiento usando un tipo de para-virtualización con SPICE y JIT con TGC, pero ocupa un conociemiento más avanzado y en especial ocupa [más pasos](https://docs.getutm.app/installation/ios/)
+![Debian Desktop](https://mac.getutm.app/images/screens/debian-11-ldxe-arm64.png)
+
+> se puede llegar a un mejor rendimiento usando un tipo de para-virtualización con SPICE y JIT con TGC, pero ocupa un conociemiento más avanzado y en especial ocupa [más pasos](https://docs.getutm.app/installation/ios/).
 
 ## Referencias
 

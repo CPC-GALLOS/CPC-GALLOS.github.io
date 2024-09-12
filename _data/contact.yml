@@ -30,6 +30,9 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
+- type: link
+  icon: "fas fa-link"
+  url: "https://mtr.bio/cpc-gallos"
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

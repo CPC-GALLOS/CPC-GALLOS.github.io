@@ -30,6 +30,7 @@ image:
     - Deezer Student: 3 meses gratis Luego, $59 MXN al mes.
     - Kaspersky:  Descuento del 60% en cualquiera de las soluciones.
 - [sharp3d](https://www.shapr3d.com/education) licencia 100% gratuita para renovar anualmente. Shapr3D es un software CAD con el motor Siemens Parasolid®, disponible en Windows, MacOS y iPadOS.
+- [notion](https://www.notion.so/es/product/notion-for-education) plan Plus gratis al al presentar correo institucional.  
 - [canva premium](https://canva.com/edu-signup) canva premium al presentar correo institucional. 
 - [Student Beans](https://www.studentbeans.com/mx) múltiples ofertas para estudiantes de diferentes marcas.
 - [UniDays](https://www.myunidays.com/ES/es-ES) múltiples ofertas para estudiantes de diferentes marcas.

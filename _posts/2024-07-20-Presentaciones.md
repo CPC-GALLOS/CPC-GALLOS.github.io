@@ -30,22 +30,24 @@ image:
     1. [Debug (Depuración)](https://cpc-gallos.github.io/Presentations/2024/1_011-Debug.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/1_011-Debug.pdf)
 1. **Algoritmos**
     1. [Big O (Complejidad de ALgoritmos)](https://cpc-gallos.github.io/Presentations/2024/2_001-BigO.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_001-BigO.pdf)
-    1. Tipos de Problemas y Paradigmas
-    1. Problem-solving
+    1. [Tipos de Problemas y Paradigmas](https://cpc-gallos.github.io/Presentations/2024/2_002-Tipos_Problemas_Paradigmas.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_002-Tipos_Problemas_Paradigmas.pdf)
+    1. [Problem-solving](https://cpc-gallos.github.io/Presentations/2024/2_003-Problem_Solving.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_003-Problem_Solving.pdf) 
     1. Algoritmos de Ordenamiento (Sort) 
     1. Algoritmos de Busquedas (search)
-    1. Paradigma Greedy y problemas de dos punteros
+    1. Paradigma Greedy 
     1. Manejo de Binarios y Mascaras (Bitwise)
     1. Habilidades blandas/duras y teamwork
     1. Estrucutra de datos lineales
     1. Estrucutra de datos no lineales
+    1. Problemas de dos punteros
     1. Álgebra avanzada
 1. **Temas Avanzados**
     1. Programación Dinamica
     1. Arboles
     1. Grafos
     1. Binary Heap
-    1. Permutaciones y Combinatoria
+    1. Complete search y Permutaciones
+    1. Knapsack
     1. Teoria de Juego
     1. Geometria Computacional
 
