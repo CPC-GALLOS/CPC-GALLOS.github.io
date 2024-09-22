@@ -177,6 +177,9 @@ En si coursera no es gratis, pero la mayoría de cursos tienen la opción de aud
 - [Microsoft: Project Management](https://www.coursera.org/professional-certificates/microsoft-project-management)
 - [Microsoft: Cyber Security Analyst](https://www.coursera.org/professional-certificates/microsoft-cybersecurity-analyst)
 
+> Algunos cursos de Google en coursera son gratis con los [Certificados de Carrera de Google por INROADS](https://becas.inroads.org.mx/)
+{: .prompt-tip }
+
 ## Insignias
 
 ### Insignia de Fortinet

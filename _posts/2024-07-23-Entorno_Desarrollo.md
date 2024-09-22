@@ -81,6 +81,7 @@ git pull # descargas los cambios actuales desde GitHub
 ## <i class="fa-solid fa-globe"></i> Compiladores en línea (Online)
 La ventaja de usar un IDE en línea es la disponibilidad en cualquier dispositivo, la desventaja evidentemente es que al no tener conexión a internet no puedes utilizarlo aparte de que en algunos deberás guardar tus códigos manualmente en algún otro medio o plataforma.
 
+- [USACO IDE](https://ide.usaco.guide/) es un IDE de colaboración en tiempo real creado por el USA Computing Olympiad (USACO)
 - [onlinegdb](https://www.onlinegdb.com/online_c++_compiler) este es el compilador en línea recomendado por el club, debido a que permite guardar los códigos al iniciar sesión junto con la compatibilidad completa con nuestra [plantilla de C++](https://cpc-gallos.github.io/blog/Plantilla/) 
 - [Programiz](https://www.programiz.com/cpp-programming/online-compiler/) es un compilador en línea para acompañar sus cursos de programación
 - [cpp.sh](https://cpp.sh/) la ventaja de este editor es poder comparar las diferencias entre distintos estándares de C++ y distintos niveles de optimización del compilador, lo único malo es que no permite directivas `#pragma` ni la librería `<bits/stdc++.h>`
@@ -153,8 +154,11 @@ brew install --cask visual-studio-code
 
 - Para <i class="fa-brands fa-firefox-browser"></i> firefox: Agrega las extensiones: [competitive companion](https://addons.mozilla.org/en-US/firefox/addon/competitive-companion/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) y [CPH Submit](https://addons.mozilla.org/en-US/firefox/addon/cph-submit/)
 
-- Para navegadores basados en <i class="fa-brands fa-chrome"></i> chromium (<i class="fa-brands fa-chrome"></i> Google Chrome, <i class="fa-brands fa-edge"></i> Microsft Edge, <i class="fa-brands fa-opera"></i> Opera, <i class="fa-brands fa-brave"></i> Brave, etc.): Agrega las extensiones: [competitive companion](https://chromewebstore.google.com/detail/competitive-companion/cjnmckjndlpiamhfimnnjmnckgghkjbl) y [CPH Submit](https://chromewebstore.google.com/detail/cph-submit/ekplnobooikgpdbobcciehbhcmlklgnc)
+- Para navegadores basados en <i class="fa-brands fa-chrome"></i> chromium (<i class="fa-brands fa-chrome"></i> Google Chrome, <i class="fa-brands fa-edge"></i> Microsft Edge, <i class="fa-brands fa-opera"></i> Opera, <i class="fa-brands fa-brave"></i> Brave, etc.): Agrega las extensiones: [competitive companion](https://chromewebstore.google.com/detail/competitive-companion/cjnmckjndlpiamhfimnnjmnckgghkjbl) y [CPH Submit](https://chromewebstore.google.com/detail/cph-submit/ekplnobooikgpdbobcciehbhcmlklgnc) 
 
+> CPH Submit puede no funcionar del todo bien en navegadores basados en chromium, por lo que pueden intentar descargar una [version más antigua](https://github.com/ArielParra/cph-submit-chromium) o usar firefox.
+
+{: prompt-tip}
 Para usarlas, ten tu sesión de codeforces activa y también ten abierto VScode, cuando abras un problema en codeforces haz click en la extensión de competitive companion (el circulo verde con una cruz), después cámbiate a VScode donde veras unas opciones donde eligieras cpp, y listo podrás pobrar y publicar tu código desde vscode. 
 
 ## Instalar el compilador en <i class="fa-brands fa-microsoft"></i> Windows 

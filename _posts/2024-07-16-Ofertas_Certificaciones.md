@@ -27,6 +27,7 @@ En general para obtener vouchers gratis o descuentos en vouchers hay que estar a
 - 30% de descuento para Fundamentals y 45% para los Role Base Exams al [identificarte como estudiante](https://learn.microsoft.com/en-us/credentials/certifications/student-discounts#how-to-identify-yourself-as-student-in-profile) en Microsoft.
 - [Microsoft Virtual Training Days](https://www.microsoft.com/en-ca/sites/microsoft-training-days/?EventTitle=&index=0&RecordCount=12&OrderBy=Date%20(ascending)&ProductCategory=Azure_Dynamics+365_Microsoft+365_Power+Platform_Security&wt.mc_id=) 50% de descuentos en vouchers de Microsoft Foundations.
 - 20% de descuento usando los cupones `DCUBE20` y `SCRIPT20` para certificaciones por parte de [Linux Foundation](https://training.linuxfoundation.org/cloud-containers/?SSAID=746540&sscid=71k8_jjr26&utm_source=shareasale&utm_medium=affiliate&utm_campaign=affiliate).
+- [javascriptlandia](https://javascriptlandia.com/) es una subscripción anual de $25 USD, donde obtienes entrenamientos, descuentos en examenes y conferencias por parte de la fundación OpenJS (creadores de NodeJS, Electron y webpack).
 - [Red Por La Ciberseguridad](https://www.redporlaciberseguridad.org/producto/voucher-para-examen-de-certificacion-microsoft/) hasta 70% de descuento en vouchers de Microsoft, sujeto a disponibilidad.
 
 ## Avisos de eventos próximos  

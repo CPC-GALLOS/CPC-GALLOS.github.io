@@ -20,6 +20,8 @@ Las prácticas profesionales son un requisito de las universidades, aunque es co
 - [Meta University](https://www.metacareers.com/careerprograms/pathways/metauniversity) es un programa **con** remuneración con de diez semanas de duración desde mayo a agosto, es requisito ser estudiante en tus primeros dos años de universidad para poder aplicar.
 - [NVIDIA Ignite](https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/) es una programa sin remuneración de 12 semanas sobre el ecosistema de NVIDIA.
 - [Dell](https://jobs.dell.com/en/employment/remote-internships-jobs/375/24213/1000000000100/2) son trabajos remotos de nivel internship.
+- [LinkedIn](https://careers.linkedin.com/pathways-programs/internships) multiples oportunidades dentro de la empresa LinkedIn.
+- [Empresas en LinkedIn](https://www.linkedin.com/jobs/internship-empleos/?currentJobId=4009488617&originalSubdomain=mx) multiples empresas como Amazon, HEB, Google, Microsoft, etc lanzan convocatorias de internships en LinkedIn. 
 
 ## Referencia
 - Harvard. (s.f.). *Technology Internships for First Years and Sophomores*. Recuperado de <https://careerservices.fas.harvard.edu/resources/technology-internships-for-first-years-and-sophomores/>
