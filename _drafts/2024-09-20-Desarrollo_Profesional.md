@@ -71,13 +71,18 @@ en linea: la [UNAM SUAyED](https://cuaed.unam.mx/suayed/oferta-educativa.php#lic
 
 - **Participación en Hackatones**
 
-- **Concursos como ICPC**
+- **Participación en eventos**
+   digitales como los de Microsoft Insight, Github Universe 2024
+   o presenciales como el talent land
+
+- **Concursos como el ICPC**
 
 - **Creación de Contenido**
   - Blogs, página propia, plataformas como Medium o GeekForGeeks.
 
 - **Tutorias**
   - ser tutor par, dar clases, dar cursos, etc.
+
 
 ## Reconocimientos
 
