@@ -34,7 +34,6 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Oracle Guided Learning Project Management Foundations Associate (Beta)](https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1)
 - [OCI Foundations Associate](https://education.oracle.com/es/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-24)
 - [OCI AI Foundations Associate](https://education.oracle.com/es/ouexam-pexam_1z0-1122-24/pexam_1Z0-1122-24)
-- [Data Management Foundations Associate](https://education.oracle.com/oracle-cloud-data-management-2023-foundations-associate/pexam_1Z0-1105-23)
 - [OCI Data Foundations Associate](https://education.oracle.com/es/oracle-cloud-infrastructure-2024-data-foundation-associate/pexam_1Z0-1195-24)
 
 ## Becas recurrentes con certificados 
@@ -44,6 +43,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 
 - [Oracle One](https://www.oracle.com/mx/education/oracle-next-education/) es un curso de 6 meses de duración donde puedes certificarte en front end (React y javascript) ó en backend (Java y Springboot), en cualquier caso tienes que entregar 3 proyectos. 
 - [Tecnolochicas PRO](https://tecnolochicas.mx/registro-tcpro/) son un conjunto de cursos desarrollados por la Fundación Televisa en colaboración con Microsoft especialmente para estudiantes universitarios, el curso pro tiene dos cursos, un curso de diseño web y otro de Data Science tomados en horarios fijos.
+- [Bécalos Tech Challengue](https://techchallenge.becalos.mx/) es una beca desarrollada por la Fundación Televisa para aprender a programar e incursionarte en el desarrollo web.
 - [Becas Santander](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=TECH&mode=ONLINE) tienen cursos muy variados como Full Stack, ciencia de datos, inteligencia artificial. En especial recomiendo los [cursos de inglés](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=LANGUAGE&mode=ONLINE).
 - [INROADS](https://inroads.org.mx/) es una organización latinoamericana aliada con Google, tiene dos programas principales: [Súbete a la Nube con Google Cloud](https://subetealanube.inroads.org.mx/) donde aprenderás de Infraestructura, Redes, Seguridad, Inteligencia Artificial, Data y Machine Learning. Y su otro programa es el de [Certificados de Carrera de Google](https://becas.inroads.org.mx/) donde podrás certificarte sobre Fundamentos de IA, Ciberseguridad y Análisis de Datos.
 - [AWS re/Start por fondation forge](https://fondationforge.org/aws-regional/mx) es un programa de capacitación respaldado por Amazon de cuatro meses de duración para preparate en puestos de nivel básico en la nube.
@@ -104,7 +104,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 [freecodecamp](https://www.freecodecamp.org/learn/) es una plataforma de aprendizaje gratuito, aunque quizá sean ligeramente despreciados en la industria por el solo echo de ser gratis y accesibles.
 
 - [MS Foundational C#](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/) desarrollado por freecodecamp en colaboración con Microsoft para el lenguaje C# junto con el framework de ".NET".
-- [A2 English for Developers](https://www.freecodecamp.org/learn/a2-english-for-developers/)
+- [A2 English for Developers](https://www.freecodecamp.org/learn/a2-english-for-developers/) es un muy recomendado curso de inglés.
 - [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
 - [Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/)
 - [Back End Development and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis/)

@@ -10,7 +10,7 @@ mermaid: false
 image:
 ---
 
-El camino hacia el exito no es lineal, cada persona construye su propio camino, ya sea a través de la educación, la experiencia laboral o la constante actualización en diversas áreas del conocimiento. Este post está diseñado para guiar a estudiantes, egresados y profesionales que buscan crecer en sus carreras, ofreciendo una vista a los diferentes puntos de especialización para un buen desarrollo profesional.
+El camino hacia el exito no es lineal, cada persona construye su propio camino, ya sea a través de la educación, la experiencia laboral o la constante actualización en diversas áreas del conocimiento. Este post está diseñado para guiar a estudiantes, egresados y profesionales que buscan crecer en sus carreras, ofreciendo una vista a los diferentes puntos de especialización para un desarrollo profesional destacable.
 
 ## Educación
 
@@ -19,7 +19,9 @@ El camino hacia el exito no es lineal, cada persona construye su propio camino, 
    Tecnico en programación
    Tecnico en computación
 
-- **Licenciatura**
+- **Licenciatura / Ingenieria**
+
+https://jala.university/
 
 en linea: la [UNAM SUAyED](https://cuaed.unam.mx/suayed/oferta-educativa.php#licenciaturas) tiene licenciaturas en linea por si quieres una opción buena bonita y barata, ofreciendo licenciaturas en Economía, Contadurí, Informatica, etc.
 
@@ -49,14 +51,15 @@ en linea: la [UNAM SUAyED](https://cuaed.unam.mx/suayed/oferta-educativa.php#lic
 
 - **Doctorado**
    El doctorado implica investigación, desarrollo de tesis, y la posibilidad de contribuir con nuevos conocimientos en tu campo de especialización.
+
 ## Experiencia
 
-- **Trabajos**
+- **Trabajos** x
 
 - **Internships (Trabajos de Becario)**
   - Prácticas profesionales, empresas, objetivos logrados, conexiones.
 
-- **Proyectos Personales**
+- **Proyectos Personales** api apps (portafolio)
 
 - **Proyectos de Comunidad / Proyectos de código abierto**
    - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
@@ -71,9 +74,10 @@ en linea: la [UNAM SUAyED](https://cuaed.unam.mx/suayed/oferta-educativa.php#lic
 
 - **Participación en Hackatones**
 
-- **Participación en eventos**
+- **Participación en eventos fisicios**
    digitales como los de Microsoft Insight, Github Universe 2024
    o presenciales como el talent land
+   bootcamp
 
 - **Concursos como el ICPC**
 
@@ -105,7 +109,8 @@ Tambien recuerda que las Certificaciónes en inglés u otros idiomas son utiles 
 DevOps combina prácticas de desarrollo de software y operaciones de TI, enfocándose en la automatización y optimización del ciclo de vida de las aplicaciones mediante CI/CD.  
    - **Linux** (Kubernetes, Shell Scripting)  
    - **Automation and CI/CD**: Jenkins, GitLab CI, CircleCI, Travis CI  
-   - **Containers and Orchestration**: Docker, Kubernetes, OpenShift  
+   - **Containers and Orchestration**: Docker, Kubernetes, OpenShift 
+   tests 
    - **Monitoring and Logging**: Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana)  
    - **Infrastructure as Code (IaC)**: Terraform, Ansible, Chef, Puppet  
    - **Certificaciones**: Docker Certified Associate (DCA), Kubernetes Certified Administrator (CKA), HashiCorp Certified: Terraform Associate
@@ -150,7 +155,7 @@ La computación en la nube permite a las empresas acceder a recursos bajo demand
    - **SaaS Solutions**: Salesforce, Office 365, Google Workspace  
    - **Certificaciones**: AWS Certified Solutions Architect, Microsoft Certified: Azure Fundamentals, Google Cloud Certified: Professional Cloud Architect
 
-👨‍💻 **Programación**  
+👨‍💻 **Programación y Software Engineering (SWE)**  
 El desarrollo de software cubre desde aplicaciones móviles y web hasta videojuegos y soluciones basadas en IA, con múltiples lenguajes y frameworks.  
    - **Desarrollo de Videojuegos**: Game Enginges como Unity, Unreal Engine, Godot,Defold, etc. o frameworks como Raylib, SDL + OpenGL, etc. 
    - **Augmented Reality and Virtual Reality (AR/VR)**: ARCore, ARKit, Oculus SDK  
@@ -181,7 +186,7 @@ La IA busca replicar la inteligencia humana mediante algoritmos que permiten a l
    - **Reinforcement Learning**: OpenAI Gym, DQN  
    - **Certificaciones**: Microsoft Certified: Azure AI Engineer Associate, TensorFlow Developer Certificate, IBM AI Engineering Professional Certificate
 
-🔬 **Investigación y Computación Cuántica**  
+🔬 **Computación Cuántica**  
 La computación cuántica es un campo emergente que promete resolver problemas que hoy en día son intratables para los sistemas tradicionales.  
    - **Quantum Computing**: Qiskit, Quantum Algorithms, D-Wave, Q#  
    - **Quantum Cryptography**: Quantum Key Distribution, QKD  

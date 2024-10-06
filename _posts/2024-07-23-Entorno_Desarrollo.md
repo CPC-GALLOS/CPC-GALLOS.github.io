@@ -147,7 +147,7 @@ brew install --cask visual-studio-code
 
 ### Integrar Codeforces con VScode  
 
-- Primero en  VScode tenemos que tener la extensión [Competitive Programming Helper (CPH)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper)
+- Primero en  VScode tenemos que tener la extensión [Competitive Programming Helper (CPH)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) o la nueva extensión del club de la universidad de Purdue [Competitive Programmers Union (CPU)](https://marketplace.visualstudio.com/items?itemName=thomasqm.cpu)
 - Después cambiaremos el lenguaje por defecto a C++ y agregaremos la ruta (ubicación) de la [plantilla del club](https://cpc-gallos.github.io/blog/Plantilla/) a la configuración de la extensión Competitive Programming Helper (CPH) en VScode
 
 ![cph setting imagen](/assets/img/posts/Entorno_Desarrollo/cph_settings.png){: w="400" h="200"}

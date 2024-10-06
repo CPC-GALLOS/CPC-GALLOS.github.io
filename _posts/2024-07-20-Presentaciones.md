@@ -10,8 +10,6 @@ mermaid: false
 image:
 ---
 
-<!-- Recordar actualizar https://github.com/CPC-GALLOS/Presentations/blob/main/index.md -->
-
 ## Presentaciones 2024
 
 - [**Introducción al Curso**](https://cpc-gallos.github.io/Presentations/2024/0-Introduccion.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/0-Introduccion.pdf)
@@ -32,8 +30,8 @@ image:
     1. [Big O (Complejidad de ALgoritmos)](https://cpc-gallos.github.io/Presentations/2024/2_001-BigO.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_001-BigO.pdf)
     1. [Tipos de Problemas y Paradigmas](https://cpc-gallos.github.io/Presentations/2024/2_002-Tipos_Problemas_Paradigmas.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_002-Tipos_Problemas_Paradigmas.pdf)
     1. [Problem-solving](https://cpc-gallos.github.io/Presentations/2024/2_003-Problem_Solving.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_003-Problem_Solving.pdf) 
-    1. Algoritmos de Ordenamiento (Sort) 
-    1. Algoritmos de Busquedas (search)
+    1. [Algoritmos de Ordenamiento (Sort)](https://cpc-gallos.github.io/Presentations/2024/2_004-Algoritmos_Ordenamiento.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_004-Algoritmos_Ordenamiento.pdf)
+    1. [Algoritmos de Busquedas (search)](https://cpc-gallos.github.io/Presentations/2024/2_005-Algoritmos_Busqueda.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_005-Algoritmos_Busqueda.pdf)
     1. Paradigma Greedy 
     1. Manejo de Binarios y Mascaras (Bitwise)
     1. Habilidades blandas/duras y teamwork
@@ -51,11 +49,11 @@ image:
     1. Teoria de Juego
     1. Geometria Computacional
 
-> El repositorio de las presentaciones se encuentra en <https://github.com/CPC-GALLOS/Presentations>
+> El repositorio de estas presentaciones se encuentra en <https://github.com/CPC-GALLOS/Presentations>
 {: .prompt-tip }
 
 
 ## Presentaciones 2023
 
-- Accesibles a través del [antiguo repositorio](https://github.com/Chisrra/GALLOS) en los apartados G1 y G2
+- Accesibles a través del [antiguo repositorio](https://github.com/Chisrra/GALLOS) en los apartados G1 y G2.
 

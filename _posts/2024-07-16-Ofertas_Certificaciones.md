@@ -10,14 +10,69 @@ mermaid: false
 image:
 ---
 
+<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
+<style>
+add-to-calendar-button {
+    display: inline-flex !important;  
+    vertical-align: middle !important; 
+}
+</style>
 > Si deseas ver una lista detallada sobre los temas junto con becas, revisa este post: [Certificaciones Gratuitas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/). También revisa el [filtrado de certificados](https://cpc-gallos.github.io/blog/Filtrar_Certificados/). 
 {: .prompt-info }
 
 ## Ofertas temporales
 
-- Certificación gratuita de [Google: Inteligencia Artificial y Productividad](https://www.santanderopenacademy.com/en/courses/google-artificial-intelligence-and-productivity.html), Oferta valida hasta el 31 de diciembre de 2024 [<i class="fa-brands fa-google"></i>](https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20241231%2F20241231&details=La%20oferta%20gratuita%20de%20Google%3A%20Inteligencia%20Artificial%20y%20Productividad%20termina%20el%2031%20de%20diciembre%20de%202024.%0A&location=&text=Fin%20de%20la%20oferta%20de%20OCI%20Generative%20AI) 📅 [<i class="fa-brands fa-apple"></i>](webcal://cpc-gallos.github.io/assets/cal/2401231.ics)
-- [AWS Certified: Associate Challenge](https://pages.awscloud.com/GLOBAL-ln-GC-Traincert-Associate-Certification-Challenge-Registration-2024.html?trk=1d696fd8-8f9d-437d-a235-263e41a73c4a&sc_channel=el) 50% de descuento en las certificaciones: AWS Certified Solutions Architect - Associate, AWS Certified Developer - Associate, AWS Certified SysOps Administrator - Associate y AWS Certified Data Engineer - Associate al terminar el challenge. Oferta valida hasta el 12 de diciembre de 2024 [<i class="fa-brands fa-google"></i>](https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20241212%2F20241212&details=Fin%20del%2050%25%20en%20certificaciones%20de%20AWS%2C%20con%20el%20AWS%20Certified%3A%20Associate%20Challenge&location=&text=AWS%20Certified%3A%20Associate%20Challenge) 📅 [<i class="fa-brands fa-apple"></i>](webcal://cpc-gallos.github.io/assets/cal/2401212.ics)
-
+- Curso gratuito para obtener el certfificado de [Google Cloud Computing Foundations](https://rsvp.withgoogle.com/events/google-cloud-computing-foundations-academy-mx) inscripciones del 1 al 15 de octubre de 2024. <add-to-calendar-button 
+  name="Fin de la inscripción a Google Cloud Computing Foundations Academy"
+  description="Certificado gratuito y  en español de Google Cloud Computing Foundations"
+  startDate="2024-10-01"
+  endDate="2024-10-15"
+  timeZone="America/Mexico_City"
+  location="https://rsvp.withgoogle.com/events/google-cloud-computing-foundations-academy-mx"
+  organizer="CPC-GALLOS|cpc.gallos@gmail.com"
+  iCalFileName="Google_Cloud"
+  options="'Apple','Google','Outlook.com','Microsoft365'"
+  listStyle="overlay"
+  trigger="click"
+  hideBackground
+  size="1"
+  label="Agregar al calendario"
+  lightMode="bodyScheme"
+  pastDateHandling="hide"></add-to-calendar-button>
+- Certificado gratuito de [Google: Inteligencia Artificial y Productividad](https://www.santanderopenacademy.com/en/courses/google-artificial-intelligence-and-productivity.html), Oferta valida hasta el 31 de diciembre de 2024 <add-to-calendar-button 
+  name="Fin de la oferta de Google: Inteligencia Artificial y Productividad"
+  description="Certificado gratuito de Google: Inteligencia Artificial y Productividad termina el 31 de diciembre de 2024."
+  startDate="2024-10-10"
+  endDate="2024-12-31"
+  timeZone="America/Mexico_City"
+  location="https://www.santanderopenacademy.com/en/courses/google-artificial-intelligence-and-productivity.html"
+  organizer="CPC-GALLOS|cpc.gallos@gmail.com"
+  iCalFileName="Google_IA"
+  options="'Apple','Google','Outlook.com','Microsoft365'"
+  listStyle="overlay"
+  trigger="click"
+  hideBackground
+  size="1"
+  label="Agregar al calendario"
+  lightMode="bodyScheme"
+  pastDateHandling="hide"></add-to-calendar-button>
+- [AWS Certified: Associate Challenge](https://pages.awscloud.com/GLOBAL-ln-GC-Traincert-Associate-Certification-Challenge-Registration-2024.html?trk=1d696fd8-8f9d-437d-a235-263e41a73c4a&sc_channel=el) 50% de descuento en las certificaciones: AWS Certified Solutions Architect - Associate, AWS Certified Developer - Associate, AWS Certified SysOps Administrator - Associate y AWS Certified Data Engineer - Associate al terminar el challenge. Oferta valida hasta el 12 de diciembre de 2024. <add-to-calendar-button 
+  name="Fin de la oferta de AWS Associate Challenge"
+  description="Fin del 50% en certificaciones de AWS, con el AWS Certified: Associate Challenge"
+  startDate="2024-10-10"
+  endDate="2024-12-12"
+  timeZone="America/Mexico_City"
+  location="https://pages.awscloud.com/GLOBAL-ln-GC-Traincert-Associate-Certification-Challenge-Registration-2024.html"
+  organizer="CPC-GALLOS|cpc.gallos@gmail.com"
+  iCalFileName="AWS_Certified"
+  options="'Apple','Google','Outlook.com','Microsoft365'"
+  listStyle="overlay"
+  trigger="click"
+  hideBackground
+  size="1"
+  label="Agregar al calendario"
+  lightMode="bodyScheme"
+  pastDateHandling="hide"></add-to-calendar-button>
 ## Ofertas en vouchers
 
 En general para obtener vouchers gratis o descuentos en vouchers hay que estar atentos a las redes sociales de las compañías emisoras de estos, en general Microsoft es la que más oportunidades suele dar.
@@ -30,8 +85,12 @@ En general para obtener vouchers gratis o descuentos en vouchers hay que estar a
 - [javascriptlandia](https://javascriptlandia.com/) es una subscripción anual de $25 USD, donde obtienes entrenamientos, descuentos en examenes y conferencias por parte de la fundación OpenJS (creadores de NodeJS, Electron y webpack).
 - [Red Por La Ciberseguridad](https://www.redporlaciberseguridad.org/producto/voucher-para-examen-de-certificacion-microsoft/) hasta 70% de descuento en vouchers de Microsoft, sujeto a disponibilidad.
 
-## Avisos de eventos próximos  
+## Avisos de eventos y descuentos
 
+> Recomendamos estar atentos de las redes sociales y correos relacionados para ser los primeros en obtener los beneficios
+{: .prompt-tip }
+
+- [Cisco Certifications](https://www.facebook.com/learningatcisco/), esta es la página de facebook oficial de Cisco, en donde suelen promocionar ofertas, descuentos y giveaways
 - [Red Por La Ciberseguridad](https://www.facebook.com/redporlaciberseguridad?locale=es_LA), esta es la página encargada de Operación Aleph, donde en sus cursos en colaboración con Microsoft suelen regalar vouchers gratis. 
 - [Código Facilito](https://www.facebook.com/codigofacilito) también suele tener cursos o bootcamps en colaboración con Microsoft donde regalan vouchers gratis.
 - [IGPPeru](https://www.facebook.com/profile.php?id=100063938172864) suelen regalar becas al 100% en vouchers de certificaciones de Microsoft.
