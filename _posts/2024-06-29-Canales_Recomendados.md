@@ -14,8 +14,10 @@ image:
 
 - [Omega Up](https://www.youtube.com/@omegaUp1) Algoritmos y problemas de [omegaup.org](https://www.omegaup.org).
 - [Club de Algoritmia ESFM](https://www.youtube.com/@clubdealgoritmiaesfm3307) clases, sesiones y material de su club.
+- [Club de Algoritmia ESCOM](https://www.youtube.com/@algoritmiaESCOM)clases, sesiones y material de su club para distintos niveles.
 - [El Arte de Programar](https://www.youtube.com/@ArteProgramar) Temas de programación explicados con animaciones.
 - [Chio Code](https://www.youtube.com/@ChioCode) Explicaciones de temas de programación y algoritmos.
+- [Semillero de Programación EAFIT](https://www.youtube.com/@semilleroprogramacioneafit/) videos del Training Camp Medellín.
 
 # Inglés
 

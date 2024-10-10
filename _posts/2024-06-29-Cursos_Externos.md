@@ -21,9 +21,12 @@ __Tabla de Contenidos:__
 - [Masataka Yoneda: A Way to Practice Competitive Programming](https://drive.google.com/file/d/1T-HqQgiB8HlIntpG3tgk2eHDhz5gImK9/view)
 - [Clubes de Programación Competitiva (CPC)](https://drive.google.com/drive/folders/1uH9U53T9ljT-ahlQNgeK83GcH9PzJSND)
 - [IOI Syllabus](https://ioinformatics.org/page/syllabus/12)
+- [IOI Syllabus 2025 draft](https://algo.sk/ioi-syllabus/ioi-syllabus-2025-draft.pdf)
 - [Universidad Nacional de Asunción: Programación Competitiva](https://www.pol.una.py/wp-content/uploads/Electiva-I-Programacion-Competitiva-LCIK.pdf)
 - [Universidad Nacional de Asunción: Programación Competitiva](https://www.pol.una.py/wp-content/uploads/2020/10/Electiva-2-Programacion-Competitiva.pdf)
 - [Coding Club at IIT Delhi: ANCC Competitive Programming Guide](https://ancc-iitd.github.io/competitive-programming-resources/)
+- [Hector Florez: Fundamentos deprogramación competitiva (Tabla de contenido)](https://www.ecoeediciones.com/wp-content/uploads/2024/08/9789585082861_contenido.pdf)
+- [Lekhika: A Guide to Master Graph Algorithms for Competitive Programming ](https://www.naukri.com/code360/library/a-guide-to-master-graph-algorithms-for-competitive-programming)
 
 ## Cursos de organizaciones
 
@@ -39,14 +42,19 @@ __Tabla de Contenidos:__
 - [OMEGA UP: cursos](https://omegaup.com/course/) 
 - [OMI: Guía Entrenamiento - Nivel Bachillerato](https://www.olimpiadadeinformatica.org.mx/omi/omi/Material/Preparacion_OMI_DF_EdoMex_Bach.aspx)
 - [Codeforces: Courses](https://codeforces.com/edu/courses)
+- [Diapositivas de Asociación Argentina de Programación Competitiva:Training Camp](https://www.pc-arg.com/tc-arg/previous_editions)
 
 
 ## Training Camps
 
-- [Asociación Argentina de Programación Competitiva:Training Camp](https://www.pc-arg.com/tc-arg/)
-- [Club de Algoritmia ESCOM IPN: Verano de entrenamiento en Programación Competitiva](https://algoritmiaescom.eakdemy.com/)
-- [TCMX: Training Camp Mexico](https://tcmx.icpcmexico.org/)
+Los Training Camps son eventos organizados en diversas universidades, tanto nacionales como internacionales, que ofrecen opciones de asistencia presencial y en línea. Durante una semana, se llevan a cabo cursos intensivos de capacitación enfocados en la programación competitiva, como el ICPC. Estos campamentos proporcionan a los participantes herramientas y estrategias para mejorar sus habilidades, así como la oportunidad de interactuar con expertos y otros entusiastas del ámbito.
+
 - [ITESM acm student chapter: Spring Camp](https://acmmty.com/Trainings/)
+- [TCMX: Training Camp Mexico](https://tcmx.icpcmexico.org/)
+- [Club de Algoritmia ESCOM IPN: ntrenamiento en Programación Competitiva](https://algoritmiaescom.eakdemy.com/)
+- [Asociación Argentina de Programación Competitiva:Training Camp](https://www.pc-arg.com/tc-arg/)
+- [Training Camp Medillin](https://www.tcmedellin.com/)
+- [ICPC Global Training Camps](https://icpc.global/regionals/finder/ICPC-Camp)
 
 ## Presentaciones/Clases de otros clubes
 
@@ -59,7 +67,8 @@ __Tabla de Contenidos:__
 - [University of Calgary Competitive Programming Club](https://cpc.cpsc.ucalgary.ca/presentations/weekly-meetings/) Presentaciones algo antiguas pero útiles de programación competitiva.
 - [Hack Club STEM Egypt](https://stemegypt.hackclub.com/cp) Club para el EOI en Egipto.
 - [Competitive Programming Slides](https://github.com/sam571128/CP-Slides) Cursos de distintos clubes de China.
-
+- [Club de Programación competitiva de la UADY](https://sites.google.com/view/cpcfmat-uady/entrenamientos/iniciaci%C3%B3n)
+- [Club de la Universidad Rey Juan Carlos](https://github.com/isaaclo97/programacion-competitiva/tree/main/Cursos)
 ## Cursos de Universidades
 
 - [Curso-taller de la UASLP](https://icpcsanluis.github.io/curso/) curso-taller creado por la Universidad Autónoma de San luis Potosí.

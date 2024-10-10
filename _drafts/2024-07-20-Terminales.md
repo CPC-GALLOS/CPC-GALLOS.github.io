@@ -14,15 +14,15 @@ Un emulador de terminal permite al usuario acceder todas las  aplicaciones del s
 En nuestro caso es donde correremos el compilador y ejecutaremos nuestros algortimos.
 
 
-<mark>CMD/PowerShell:</mark> son las terminales ya incluidas con Windows.
-<mark>PowerShell v7:</mark> es la nueva version opensource de powershell. 
-<mark>git bash:</mark> es una capa de compatibilidad de la terminal de linux en Windows.
-<mark>MSYS2:</mark>es una coleccion de herramientas y librerias para Windows.
-<mark>WSL:</mark> es un ambiente completo de compatibilidad de linux para  Windows.
-<mark>Windows terminal:</mark> es una terminal con pestañas para Windows.
-<mark>Alacritty:</mark> es una terminal protable y configurable que usa acelaracion de hardware. 
-<mark>Termux:</mark> es una terminal con un ambiente de linux sin root para Android.
-<mark>ISH:</mark> es un emulador del sistema operativo alpine linux para dispositivos iOS.
+**CMD/PowerShell:** son las terminales ya incluidas con Windows.
+**PowerShell v7:** es la nueva version opensource de powershell. 
+**git bash:** es una capa de compatibilidad de la terminal de linux en Windows.
+**MSYS2:**es una coleccion de herramientas y librerias para Windows.
+**WSL:** es un ambiente completo de compatibilidad de linux para  Windows.
+**Windows terminal:** es una terminal con pestañas para Windows.
+**Alacritty:** es una terminal protable y configurable que usa acelaracion de hardware. 
+**Termux:** es una terminal con un ambiente de linux sin root para Android.
+**ISH:** es un emulador del sistema operativo alpine linux para dispositivos iOS.
 
 
 ## diferencias entre terminales CMD y UNIX/POSIX

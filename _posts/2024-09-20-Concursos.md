@@ -68,6 +68,14 @@ Anteriormente conocido como **Facebook Hacker Cup**, es una competencia de progr
 
 Más información en [facebook.com/codingcompetitions/hacker-cup](https://www.facebook.com/codingcompetitions/hacker-cup)
 
+## Concurso Nacional de Programación ANIEI
+
+La Asociación Nacional de Instituciones de Educación en Tecnologías de Información (ANIEI) realiza este concurso en alianza con ICPC México en el mes de octubre, teniendo lugar entre semena con la modalidad en linea y presencial, este concurso esta dirigido a estudiantes que esten cursando el nivel medio superior, técnico superior, universitario o licenciatura en instituciones educativas de la República Mexicana. 
+
+El registro se realiza a travez del ICPC y para participar hay una cuota de registro de MXN $ 100.00 pesos mexicanos
+
+Más información en [la convocatoria 2024](https://www.aniei.org.mx/eventos-aniei/congreso-nacional-e-internacional/concurso-de-programacion-2024/)
+
 ## Coderbloom
 
 **Coderbloom** tiene concursos mensuales **dirigido a mujeres**, las participantes se dividen en dos categorías: principiante y avanzada, lo que permite que tanto novatos como programadores experimentados compitan de manera justa.
@@ -106,14 +114,6 @@ Más información en [coderbloom.com](https://coderbloom.com).
 
 Más información en [ieeextreme.org](https://ieeextreme.org).
 
-## Concurso Nacional de Programación ANIEI
-
-La Asociación Nacional de Instituciones de Educación en Tecnologías de Información (ANIEI) realiza este concurso en alianza con ICPC México en el mes de octubre, teniendo lugar entre semena con la modalidad en linea y presencial, este concurso esta dirigido a estudiantes que esten cursando el nivel medio superior, técnico superior, universitario o licenciatura en instituciones educativas de la República Mexicana. 
-
-El registro se realiza a travez del ICPC y para participar hay una cuota de registro de MXN $ 100.00 pesos mexicanos
-
-Más información en [la convocatoria 2024](https://www.aniei.org.mx/eventos-aniei/congreso-nacional-e-internacional/concurso-de-programacion-2024/)
-
 ## Coding Cup Sinaloa
 
 El torneo estatal de programación Coding Cup Sinaloa es realizado por la comunidad académica del Estado de Sinaloa para estudiantes de nivel básico, medio, medio superior y superior, públicas y privadas y a programadores profesionales (profesionistas) el cual cuenta también con una modalidad virtual.
@@ -150,6 +150,12 @@ Para más información y convocatorias debes estar al pendiente de la [página d
 La Red de Programación Competitiva, son concursos enfocados a la comunidad de Latinoamérica, suelen tener espejos de otros concursos.RPC organiza eventos periódicos en forma presencial como virtual. Al año se realizan aproximadamente 10 eventos de entrenamiento, uno cada 4 semanas.
 
 Más información en el [facebook de RPC](https://www.facebook.com/RedProgramacionCompetitiva/)
+
+## Jujutsu Koding UADY
+
+En coordinación con el IS. Carlos Herrera Plata, profesor de la Facultad de Matemáticas, organiza la competencia Jujutsu Koding de la Universidad Autónoma De Yucatán. Este concurso usualmente realizado en septiembre consiste en 10 problemas a lo largo de 10 dias, donde al finalizar el primer lugar recibirá un monto de: 5,000 MXN. El segundo y tercer lugar recibirán: 2000 MXN y 1000 MXN respectivamente.
+
+Para participar es necesario unirse a su grupo de discord [Clearn Architecture](https://discord.com/invite/rxVhJMKPQD)
 
 ## Las 12 uvas
 

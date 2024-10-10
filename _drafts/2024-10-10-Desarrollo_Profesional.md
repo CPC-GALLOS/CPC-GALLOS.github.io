@@ -1,7 +1,7 @@
 ---
 title: Desarrollo_Profesional
 description: Desarrollo Profesional y areas de desarrollo
-date: 2024-09-20 9:00:00 +/-TTTT
+date: 2024-10-10 9:00:00 +/-TTTT
 categories: [Desarrollo_Profesional]
 author: ArielParra 
 tags: [recomendaciones,egresados,estudiantes]
@@ -79,13 +79,45 @@ en linea: la [UNAM SUAyED](https://cuaed.unam.mx/suayed/oferta-educativa.php#lic
    o presenciales como el talent land
    bootcamp
 
-- **Concursos como el ICPC**
+- [Concursos](https://cpc-gallos.github.io/blog/Concursos/) como el ICPC, Donald Knuth, y ANIEI.
 
 - **Creación de Contenido**
   - Blogs, página propia, plataformas como Medium o GeekForGeeks.
 
 - **Tutorias**
   - ser tutor par, dar clases, dar cursos, etc.
+
+
+## Networking
+
+> "El hombre es social por naturaleza" - Aristóteles.
+
+El networking es la habilidad de crear y mantener redes de contactos profesionales para fomentar oportunidades y crecimiento en la carrera laboral. Este proceso puede comenzar desde la etapa educativa, como en el bachillerato o la universidad, y es una actividad continua que se puede enriquecer asistiendo a eventos de tecnología y otros espacios donde se compartan intereses.
+
+### Objetivos del Networking
+
+1. **Conocer personas y organizaciones**  
+   Los espacios de networking, ya sean físicos o virtuales, permiten conocer a profesionales de distintos sectores, lo cual enriquece nuestra perspectiva al entender diferentes experiencias y enfoques.
+2. **Encontrar oportunidades laborales**  
+   El networking es una herramienta valiosa para descubrir vacantes y conectar con reclutadores, especialmente a través de redes como LinkedIn.
+3. **Promocionar productos y servicios**  
+   Estos eventos permiten presentar nuestra actividad profesional y destacar nuestros productos o servicios en un ambiente más cercano y personalizado.
+4. **Ampliar la cartera de contactos**  
+   El networking facilita la creación de relaciones con clientes, proveedores y otros interesados, fortaleciendo nuestra red y aumentando el alcance de nuestra propuesta de valor.
+5. **Entender el mercado**  
+   Conectar con profesionales del sector ayuda a mantenerse actualizado sobre tendencias y competidores, brindando información útil para la toma de decisiones.
+6. **Descubrir oportunidades de negocio**  
+   El diálogo y la colaboración con otros profesionales pueden revelar sinergias y nuevas oportunidades de negocio.
+
+### Facilitación de Networking
+
+- [Oracle University Networking](https://education.oracle.com/OASummitMexico): Accede a comunidades de Oracle.
+- [ONE - Oracle Next Education](https://www.oracle.com/mx/education/oracle-next-education/): Redes educativas para desarrolladores Java.
+- [INROADS](https://inroads.org.mx/): Plataforma para crecimiento profesional que facilita la creación de redes y acceso a una comunidad de networking.
+- [Comunidades en Discord](https://cpc-gallos.github.io/blog/Comunidades/): Encuentra grupos de programación competitiva y temas relacionados.
+- [Concursos](https://cpc-gallos.github.io/blog/Concursos/) como ICPC, Donald Knuth, y ANIEI.
+- **Eventos de Tecnología:** Participar en training camps, bootcamps, foros o conferencias puede ser clave para conectar con personas y ampliar tu red profesional.
+- [LinkedIn](https://www.linkedin.com): Una red social profesional ideal para conectar con reclutadores, empresas y otros profesionales de tu sector.
 
 
 ## Reconocimientos

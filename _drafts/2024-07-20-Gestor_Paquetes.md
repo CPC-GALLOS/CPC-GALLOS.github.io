@@ -22,7 +22,7 @@ Linux: apt (debian/ubuntu), pacman(arch), apk(alpine), nix (nixos), xbps-install
 freeBSD: pkg
 OpenBSD: pkg
 iOS: apk (ish), cydia, zilio 
-Android:</mark> pkg (termux), nix (nix on droid)
+Android: pkg (termux), nix (nix on droid)
 
 [nixos linux](https://nixos.org/download/#nix-install-linux)
 [nixos MacOS](https://nixos.org/download/#nix-install-macos)

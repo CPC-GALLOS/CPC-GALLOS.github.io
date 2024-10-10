@@ -12,6 +12,9 @@ image:
 
 <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
 <style>
+#atcb-reference {
+  display: none !important;
+}
 add-to-calendar-button {
     display: inline-flex !important;  
     vertical-align: middle !important; 

@@ -16,6 +16,8 @@ image:
 - [Club PU++](https://discord.com/invite/bAgCEr4) Discord oficial del Club de Programación Competitiva de la UNAM.
 - [Club de Algoritmia CUCEI](https://discord.com/invite/VmKrSgK5mQ) Discord oficial del Club de Algoritmia del Centro Universitario de Ciencias Exactas e Ingenierías de la UdeG.
 - [Club de Algoritmia ESFM](https://discord.gg/R7urzSYyVW) Discord oficial del Club de algoritmia de la Escuela Superior de Física y Matemáticas del Instituto Politécnico Nacional.
+- [RAMCPP](https://discord.gg/dhxmX6eVws) club de programación competitiva RAMCPP de la Universidad Tecnologica de Monterrey.
+- [Clearn Architecture](https://discord.com/invite/rxVhJMKPQD) Discord oficial del Club de Programación competitiva de la UADY.
 - [Omega UP](https://discord.com/invite/K3JFd9d3wk) Es una organización sin fines de lucro de América Latina para impulsar la tecnología a traves de la programación competitiva.
 - [CAUS](https://discord.com/invite/gEbbJrzEYZ) Club de Algoritmia de la Universidad de Sevilla en España.
 
