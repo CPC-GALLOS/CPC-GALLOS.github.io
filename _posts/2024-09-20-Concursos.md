@@ -114,6 +114,10 @@ Más información en [coderbloom.com](https://coderbloom.com).
 
 Más información en [ieeextreme.org](https://ieeextreme.org).
 
+## Yandex Cup
+
+Más información en [yandex.com/cup](https://yandex.com/cup/algorithm/)
+
 ## Coding Cup Sinaloa
 
 El torneo estatal de programación Coding Cup Sinaloa es realizado por la comunidad académica del Estado de Sinaloa para estudiantes de nivel básico, medio, medio superior y superior, públicas y privadas y a programadores profesionales (profesionistas) el cual cuenta también con una modalidad virtual.
@@ -157,6 +161,14 @@ En coordinación con el IS. Carlos Herrera Plata, profesor de la Facultad de Mat
 
 Para participar es necesario unirse a su grupo de discord [Clearn Architecture](https://discord.com/invite/rxVhJMKPQD)
 
+## Universal Cup
+
+La Universal Cup es una organización que ofrece recursos de entrenamiento para equipos de programación competitiva. La Universal Cup organiza competencias espejo de eventos de programación con formatos del ICPC.
+
+Para la temporada 2024-2025 (la tercera), la Universal Cup tiene planeadas al menos 20 competencias. Donde las competencias son cada fin de semana con una amplia ventana de tiempo de participación. Los equipos que completaron al menos tres competencias en la temporada anterior serán automáticamente inscritos en la nueva temporada.
+
+Más información en [ucup.ac](https://ucup.ac/about)
+
 ## Las 12 uvas
 
 El concurso **Las 12 uvas** es un concurso de programación en línea organizado por la Facultad de Informática de la Universidad Complutense de Madrid. Se celebra el **31 de diciembre  las 9:00 a.m**, utilizando el juez en línea de la UCM. El objetivo es resolver hasta 12 problemas de programación en menos de seis horas.
@@ -185,6 +197,7 @@ Más información en [ioinformatics.org](https://ioinformatics.org/)
 
 ### OMI 
 La Olimpiada Mexicana de Informática (OMI) es un concurso a nivel nacional para jóvenes (nivel básico y medio superior) con facilidad para resolver problemas prácticos mediante la lógica y el uso de computadoras. Busca promover el desarrollo tecnológico en México y seleccionar a los mejores programadores para la selección mexicana en las Olimpiadas Internacionales de Informática (IOI).
+
 Más información en [olimpiadadeinformatica.org.mx](https://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx), o la fase estatal en para Aguascalientes en [omiags.org](https://omiags.org/convocatorias)
 
 ### OFMI

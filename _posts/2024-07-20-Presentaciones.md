@@ -32,8 +32,8 @@ image:
     1. [Problem-solving](https://cpc-gallos.github.io/Presentations/2024/2_003-Problem_Solving.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_003-Problem_Solving.pdf) 
     1. [Algoritmos de Ordenamiento (Sort)](https://cpc-gallos.github.io/Presentations/2024/2_004-Algoritmos_Ordenamiento.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_004-Algoritmos_Ordenamiento.pdf)
     1. [Algoritmos de Busquedas (search)](https://cpc-gallos.github.io/Presentations/2024/2_005-Algoritmos_Busqueda.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_005-Algoritmos_Busqueda.pdf)
-    1. Paradigma Greedy 
-    1. Manejo de Binarios y Mascaras (Bitwise)
+    1. [Paradigma Greedy](https://cpc-gallos.github.io/Presentations/2024/2_006-Greedy.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_006-Greedy.html)
+    1. [Manejo de Binarios y Mascaras (Bitwise)](https://cpc-gallos.github.io/Presentations/2024/2_007-Binarios.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_007-Binarios.pdf)
     1. Habilidades blandas/duras y teamwork
     1. Estrucutra de datos lineales
     1. Estrucutra de datos no lineales

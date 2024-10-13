@@ -13,16 +13,6 @@ image:
 >  Si buscas ofertas en certificaciónes con costo, revisa este post: [Ofertas en Certificaciones](https://cpc-gallos.github.io/blog/Ofertas_Certificaciones/). También revisa el [filtrado de certificados](https://cpc-gallos.github.io/blog/Filtrar_Certificados/). 
 {: .prompt-info }
 
-Tener un título universitario no es suficiente en el campo laboral de la tecnología. Es necesario tener conocimientos en múltiples tecnologías y saber aplicarlas. Además, es fundamental validar esos conocimientos, y la mejor manera de hacerlo es obteniendo una certificación o un certificado que los respalde.
-
-**Certificaciones**: La principal diferencia entre certificaciones (certifications) y certificados (certificates) radica en el proceso y la validación. Las certificaciones generalmente implican un costo asociado a un voucher para realizar un examen protectorado (supervisado) a través de Pearson VUE, PSI u otros proveedores. Debido a este riguroso proceso, las certificaciones tienen un mayor peso y validez en el ámbito laboral.
-
-**Certificados**: Por otro lado, los certificados son diplomas, constancias o reconocimientos otorgados al completar un curso, bootcamp, proyecto, examen sin protectorado etc. Aunque valiosos, no tienen la misma validación rigurosa que las certificaciones.
-
-**Insignias**: Además, existen las medallas o insignias (badges), que son reconocimientos por completar cursos más breves y específicos. A veces, las certificaciones también se reflejan como insignias. La peculiaridad de las insignias es su forma circular o cuadrada que las diferencia de la forma rectangular de los certificados. Las insignias suelen ser distribuidas a través de plataformas como [credly](https://info.credly.com/).
-
-Si desea revisar los certificados por temas o por emisores revise este post para [Filtrar Certificados](https://cpc-gallos.github.io/blog/Filtrar_Certificados/).
-
 __Tabla de Contenidos:__
 * 
 {:toc} 

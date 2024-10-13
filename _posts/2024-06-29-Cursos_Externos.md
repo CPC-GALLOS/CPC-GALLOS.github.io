@@ -14,7 +14,7 @@ __Tabla de Contenidos:__
 * 
 {:toc} 
 
-## Temarios (syllabus) para la programación competitiva
+## Temarios, Tablas de contenido, Planes de estudios y syllabus para la programación competitiva
 
 - [Colin Galen: From Beginner to Grandmaster](https://www.youtube.com/watch?v=bSdp2WeyuJY)
 - [Mostafa Saad: Enhanced Training roadmap for newcomers](https://codeforces.com/blog/entry/97858)
@@ -27,6 +27,8 @@ __Tabla de Contenidos:__
 - [Coding Club at IIT Delhi: ANCC Competitive Programming Guide](https://ancc-iitd.github.io/competitive-programming-resources/)
 - [Hector Florez: Fundamentos deprogramación competitiva (Tabla de contenido)](https://www.ecoeediciones.com/wp-content/uploads/2024/08/9789585082861_contenido.pdf)
 - [Lekhika: A Guide to Master Graph Algorithms for Competitive Programming ](https://www.naukri.com/code360/library/a-guide-to-master-graph-algorithms-for-competitive-programming)
+- [UdG: Curso de algoritmia CUCEI](https://dcc.cucei.udg.mx/sites/default/files/i5884_algoritmia_1.pdf)
+
 
 ## Cursos de organizaciones
 
@@ -54,7 +56,7 @@ Los Training Camps son eventos organizados en diversas universidades, tanto naci
 - [Club de Algoritmia ESCOM IPN: ntrenamiento en Programación Competitiva](https://algoritmiaescom.eakdemy.com/)
 - [Asociación Argentina de Programación Competitiva:Training Camp](https://www.pc-arg.com/tc-arg/)
 - [Training Camp Medillin](https://www.tcmedellin.com/)
-- [ICPC Global Training Camps](https://icpc.global/regionals/finder/ICPC-Camp)
+- [ICPC Global Training Camps](https://icpc.global/regionals/finder/ICPC-Camp) & [ICPC Foundation Training Camps](https://u.icpc.global/camps/)
 
 ## Presentaciones/Clases de otros clubes
 

@@ -26,3 +26,4 @@ image:
 - [Back To Back SWE](https://www.youtube.com/@BackToBackSWE) Explicaciones de temas de programación y algoritmos.
 - [Colin Galen](https://www.youtube.com/@ColinGalen) Videos para desarrollarte como participante de competencias de programación competitiva por un GrandMaster de Codeforces.
 - [Mostafa Saad Ibrahim](https://www.youtube.com/@ArabicCompetitiveProgramming) Explicaciones de algoritmos por un exmedallista de competencias de programación competitiva.
+- [Errichto Algorithms](https://www.youtube.com/@Errichto) Es un ex-finalista de varios concursos de programación comptetitiva como ICPC, Facebook Hacker Cup and Google Code Jam. En su canal muestra distintos algoritmos y temas relacionados.
