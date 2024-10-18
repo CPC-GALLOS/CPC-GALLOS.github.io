@@ -25,23 +25,6 @@ add-to-calendar-button {
 
 ## Ofertas temporales
 
-- Curso gratuito para obtener el certfificado de [Google Cloud Computing Foundations](https://rsvp.withgoogle.com/events/google-cloud-computing-foundations-academy-mx) inscripciones del 1 al 15 de octubre de 2024. <add-to-calendar-button 
-  name="Fin de la inscripción a Google Cloud Computing Foundations Academy"
-  description="Certificado gratuito y  en español de Google Cloud Computing Foundations"
-  startDate="2024-10-01"
-  endDate="2024-10-15"
-  timeZone="America/Mexico_City"
-  location="https://rsvp.withgoogle.com/events/google-cloud-computing-foundations-academy-mx"
-  organizer="CPC-GALLOS|cpc.gallos@gmail.com"
-  iCalFileName="Google_Cloud"
-  options="'Apple','Google','Outlook.com','Microsoft365'"
-  listStyle="overlay"
-  trigger="click"
-  hideBackground
-  size="1"
-  label="Agregar al calendario"
-  lightMode="bodyScheme"
-  pastDateHandling="hide"></add-to-calendar-button>
 - Certificado gratuito de [Google: Inteligencia Artificial y Productividad](https://www.santanderopenacademy.com/en/courses/google-artificial-intelligence-and-productivity.html), Oferta valida hasta el 31 de diciembre de 2024 <add-to-calendar-button 
   name="Fin de la oferta de Google: Inteligencia Artificial y Productividad"
   description="Certificado gratuito de Google: Inteligencia Artificial y Productividad termina el 31 de diciembre de 2024."
@@ -76,6 +59,7 @@ add-to-calendar-button {
   label="Agregar al calendario"
   lightMode="bodyScheme"
   pastDateHandling="hide"></add-to-calendar-button>
+
 ## Ofertas en vouchers
 
 En general para obtener vouchers gratis o descuentos en vouchers hay que estar atentos a las redes sociales de las compañías emisoras de estos, en general Microsoft es la que más oportunidades suele dar.
@@ -87,6 +71,9 @@ En general para obtener vouchers gratis o descuentos en vouchers hay que estar a
 - 20% de descuento usando los cupones `DCUBE20` y `SCRIPT20` para certificaciones por parte de [Linux Foundation](https://training.linuxfoundation.org/cloud-containers/?SSAID=746540&sscid=71k8_jjr26&utm_source=shareasale&utm_medium=affiliate&utm_campaign=affiliate).
 - [javascriptlandia](https://javascriptlandia.com/) es una subscripción anual de $25 USD, donde obtienes entrenamientos, descuentos en examenes y conferencias por parte de la fundación OpenJS (creadores de NodeJS, Electron y webpack).
 - [Red Por La Ciberseguridad](https://www.redporlaciberseguridad.org/producto/voucher-para-examen-de-certificacion-microsoft/) hasta 70% de descuento en vouchers de Microsoft, sujeto a disponibilidad.
+- [Cisco](https://www.netacad.com/fr/resources/program-info/certification-discount-information) 70% de descuento para las certificaciones CCNA: Redes Empresariales, Seguridad y Automatización, CyberOps Associate (CBROPS) y DevNet (DEVASC):
+  - Obtener al menos un 70% en el primer intento del examen final del curso.
+  - Tener el curso marcado como "Completado" en el sistema de calificaciones de la plataforma de aprendizaje de la Academia de Redes de Cisco.
 
 ## Avisos de eventos y descuentos
 

@@ -172,6 +172,15 @@ En si coursera no es gratis, pero la mayoría de cursos tienen la opción de aud
 
 ## Insignias
 
+
+## Insignias de Google Cloud
+
+[Google Cloud Skills Boost](https://www.cloudskillsboost.google/paths)
+- [Google Cloud Computing Foundations Certificate](https://www.cloudskillsboost.google/paths/36)
+- [Beginner: Google Cloud Cybersecurity Certificate](https://www.cloudskillsboost.google/paths/419)
+- [Beginner: Google Cloud Data Analytics Certificate](https://www.cloudskillsboost.google/paths/420)
+
+
 ### Insignia de Fortinet
 
 - [Fortinet Certified Fundamentals Cybersecurity](https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity) es una insignia dada por Fortinet para su introducción a la ciberseguridad.

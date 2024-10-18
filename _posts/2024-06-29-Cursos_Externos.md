@@ -1,6 +1,6 @@
 ﻿---
 title: Cursos Externos
-description: Presentaciones, videos con temas en orden acerca de la Programación competiti
+description: Presentaciones, videos con temas en orden acerca de la Programación competitiva
 date: 2024-06-29 19:01:00 +/-TTTT
 categories: [Recursos]
 author: ArielParra 

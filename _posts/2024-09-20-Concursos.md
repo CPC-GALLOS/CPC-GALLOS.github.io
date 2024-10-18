@@ -116,6 +116,8 @@ Más información en [ieeextreme.org](https://ieeextreme.org).
 
 ## Yandex Cup
 
+Yandex es la empresa de tecnología más grande de Rusia. El concurso toma a lugar a mediados de octubre de manera online, esta abierto a todos los niveles y cuentan con menos de 20K participantes, los problemas pueden ser realizados en Java, Python, Kotlin, C#, С/C++, Go y Rust.
+
 Más información en [yandex.com/cup](https://yandex.com/cup/algorithm/)
 
 ## Coding Cup Sinaloa
@@ -206,11 +208,23 @@ OmegaUp convoca a estudiantes de nivel básico y medio superior que sean mujeres
 
 Más información en [ofmi.omegaup.com](https://ofmi.omegaup.com/)
 
-## Concurso Académico Alan Turing de la Universidad Anahuac
+### Concurso Académico Alan Turing de la Universidad Anahuac
 
 Es un examen presencial en Universidad Anáhuac México Campus Norte (CDMX) donde se debe ser estudiante de bachillerato de alguna institución pública o privada y contar con un máximo de 20 años a la fecha inicial del concurso. El concurso tiene cuatro fechas empezando en octubre.
 
 Donde el premio del primer lugar y segundo lugar son becas del 70% y del 50% para la licenciatura de Ingeniería en Sistemas y Tecnología de la Información en Campus Norte y Sur.
+
+### HPE CodeWars
+
+**HPE CodeWars** es una competencia de programación para estudiantes de secundaria y bachillerato, organizada por Hewlett Packard Enterprise (HPE) en colaboración con Codingal.
+
+Se trata de una competencia en línea donde estudiantes de grados 8 a 12 resolverán problemas de programación en tiempo real, con el objetivo de alcanzar los primeros puestos en el tablero de clasificación. Donde se pueden usar los lenguages de programación de: C, C++, Java y Python. A lo largo de 3 horas para resolver 26 problemas.
+
+### Fechas:
+- **Inicio de inscripciones**: Febrero.
+- **Fecha de la competencia**: Abril. y la competencia sera de 1:00 PM a 4:00 PM (US).
+
+Más información en  [HPECodewars.org](https://hpecodewars.org/)
 
 ## Concursos recurrentes en distintas plataformas
 
@@ -220,6 +234,7 @@ Donde el premio del primer lugar y segundo lugar son becas del 70% y del 50% par
 - [Encuerizas de Γα=Ω5 en Vjudge](https://vjudge.net/group/gallos#contests-anchor): Concursos quincenales los viernes de 2:00 a 4:00 pm.
 - [Codeforces](https://codeforces.com): Concursos semanales usualmente a las 8:30 am, recomendamos los de div4 o div3 para principiantes.
 - [LeetCode](https://leetcode.com/contest/): Concursos semanles o bisemanales usualmente a las 8:30 am/pm, contiene problemas similares a los de una entrevista de trabajo.
+- [Code Chef](https://www.codechef.com/contests): Concursos semanales usulamente en miercoles a las 8:30 am.
 - [HackerRank](https://www.hackerrank.com/contests): Diversos tipos de concursos, no tan recurrentes.
 - [HackerEarth](https://www.hackerearth.com/challenges/): Hackatones y concursos de código usualmente de varios dias de duración no necesariamente enfocados a la programación competitiva.
 - [AtCoder](https://atcoder.jp/contests/): Concursos regulares usualmente a las 4 o 6 am, estos son usualmente patrocinados por empresas japonesas como panasonic, TOYOTA, KEYENCE, etc.

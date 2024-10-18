@@ -37,7 +37,8 @@ Mostafa Saad recomienda entrenar de una de las siguientes maneras:
 - **Desventaja:** descubrir el algoritmo detrás del problema es una habilidad importante. Dado que conoces el tema, pierdes espacio para mejorar esta habilidad.
 - **Desventaja:** enfocarte en un algoritmo específico permite resolver muchos de ellos más fácilmente. Sin embargo, al resolver concursos reales, tu mente no está activa en el tema específico.
 
-También existe una Training Sheet enfocada al ICPC, también creada por Mostafa Saad llamada "Supervision Problems Lists" accesible a través de este [link](https://docs.google.com/spreadsheets/d/1-n9Fnvhsnvsqh-IerE_yyIshw5RUNer_7EjwF_GW-TA/edit?gid=0#gid=0).
+También existe una Training Sheet enfocada al ICPC, también creada por Mostafa Saad llamada "Supervision Problems Lists" accesible a través de este link:
+<https://docs.google.com/spreadsheets/d/1-n9Fnvhsnvsqh-IerE_yyIshw5RUNer_7EjwF_GW-TA/edit?gid=0#gid=0>
 
 ## Referencias
 

@@ -18,9 +18,24 @@ Internships
 proyecto uron
 
 
-que es FAANG que son los big 4
+que es FAANG que son los Big Five, Magnificent Seven
+https://en.wikipedia.org/wiki/Big_Tech
 
 link a entorno de desarrollo
 libros de entrevistas de trabajo
 leetcode
 videos de youtube
+
+
+libros:
+
+cracking coding interview
+
+youtubers
+[NeetCode](https://www.youtube.com/@NeetCode)
+[NeetCodeIO](https://www.youtube.com/@NeetCodeIO/videos)
+[Andrew Hu](https://www.youtube.com/@andrewhu7214)
+[freeCodeCamp.org: 10 Common Coding Interview Problems - Solved!](https://www.youtube.com/watch?v=Peq4GCPNC5c)
+
+
+https://interviewing.io/
