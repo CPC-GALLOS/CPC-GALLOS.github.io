@@ -69,7 +69,7 @@ Convertirnos en el club referente en programación competitiva con sede en el es
 
 ## Funciones de Miembros del Club
 
-- **Líderes**: Coordinar y motivar al equipo, guiando el desarrollo del club actuando de manera activa en la mayoria de ambitos del club.
+- **Líderes**: Coordinar y motivar al equipo, guiando el desarrollo del club, estar al tanto de fechas de concursos y actuando de manera activa en la mayoria de ambitos del club.
 - **Asistentes**: Brindar apoyo a los nuevos miembros como tutores personales, asegurándose de que comprendan bien los conceptos, desarrollo de presentaciones para el club, desarrollo de post para el blog del club, diseño de carteles para la publicidad del club.
 - **Community Manager**: Encargado de la presencia del club en redes sociales, promocionando actividades y logrando visibilidad.
 - **Miembros del club**: Fomentar el entusiasmo, tener una participación activa y el intercambio de conocimientos, con el objetivo de crear comunidad!

@@ -34,9 +34,9 @@ image:
     1. [Algoritmos de Busquedas (search)](https://cpc-gallos.github.io/Presentations/2024/2_005-Algoritmos_Busqueda.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_005-Algoritmos_Busqueda.pdf)
     1. [Paradigma Greedy](https://cpc-gallos.github.io/Presentations/2024/2_006-Greedy.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_006-Greedy.html)
     1. [Manejo de Binarios y Mascaras (Bitwise)](https://cpc-gallos.github.io/Presentations/2024/2_007-Binarios.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_007-Binarios.pdf)
-    1. Habilidades blandas/duras y teamwork
-    1. Estrucutra de datos lineales
-    1. Estrucutra de datos no lineales
+    1. [Habilidades blandas/duras y teamwork](https://cpc-gallos.github.io/Presentations/2024/2_008-Habilidades_Blandas_Duras.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_008-Habilidades_Blandas_Duras.pdf)
+    1. [Estrucutra de datos lineales](https://cpc-gallos.github.io/Presentations/2024/2_009-Estructuras_De_Datos_lineales.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_009-Estructuras_De_Datos_lineales.pdf)
+    1. [Estrucutra de datos no lineales](https://cpc-gallos.github.io/Presentations/2024/2_010-Estructuras_De_Datos_no_lineales.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_010-Estructuras_De_Datos_no_lineales.pdf)
     1. Problemas de dos punteros
     1. Álgebra avanzada
 1. **Temas Avanzados**

@@ -71,6 +71,7 @@ Los Training Camps son eventos organizados en diversas universidades, tanto naci
 - [Competitive Programming Slides](https://github.com/sam571128/CP-Slides) Cursos de distintos clubes de China.
 - [Club de Programación competitiva de la UADY](https://sites.google.com/view/cpcfmat-uady/entrenamientos/iniciaci%C3%B3n)
 - [Club de la Universidad Rey Juan Carlos](https://github.com/isaaclo97/programacion-competitiva/tree/main/Cursos)
+
 ## Cursos de Universidades
 
 - [Curso-taller de la UASLP](https://icpcsanluis.github.io/curso/) curso-taller creado por la Universidad Autónoma de San luis Potosí.

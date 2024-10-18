@@ -73,22 +73,6 @@ Las maestrías permiten desarrollar conocimientos avanzados y pueden ser una exc
 
 El doctorado implica un compromiso con la investigación, el desarrollo de una tesis, y la oportunidad de contribuir con nuevos conocimientos a tu campo de especialización. Además, los programas de doctorado en México también son apoyados por becas del CONACyT, lo cual puede ser un incentivo importante para quienes desean dedicarse a la academia o investigación a largo plazo.
 
-- **Trabajos**
-  - Roles, responsabilidades, logros, y habilidades adquiridas.
-
-- **Internships (Trabajos de Becario)**
-  - Prácticas profesionales en diversas empresas, destacando objetivos alcanzados y conexiones establecidas.
-
-- **Proyectos Personales**
-  - Desarrollo de aplicaciones y APIs, incluyendo un portafolio que muestre tus habilidades y creatividad.
-
-- **Proyectos de Comunidad / Proyectos de Código Abierto**
-  - Participación activa en iniciativas comunitarias y contribuciones a proyectos de código abierto:
-    - [Cómo Contribuir al Código Abierto](https://opensource.guide/how-to-contribute/)
-    - [Google Summer of Code](https://summerofcode.withgoogle.com/)
-    - [CodeTriage](https://www.codetriage.com/)
-
-
 ## Networking, Liderazgo y Soft Skills Acreditables
 
 > "El hombre es social por naturaleza." - Aristóteles
