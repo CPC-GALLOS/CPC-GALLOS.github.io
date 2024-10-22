@@ -44,14 +44,16 @@ Convertirnos en el club referente en programación competitiva con sede en el es
    - Organizar y asistir a training camps.
    - Organizar y asistir a conferencias, foros y eventos de tecnología.
    - Realizar distintas dinámicas, actividades  en nuestras redes sociales para fortalecer la comunidad y aumentar la visibilidad del club.
+   - Creacion de planes de publicidad para concretar la imagen del club.
+   - Grabar las sesiones del club para subirlas a la plataforma de Youtube.
 
 4. **Relaciones y Colaboraciones**
    - Crear relaciones con otras [comunidades](https://cpc-gallos.github.io/blog/Comunidades/), grupos estudiantiles y clubes como [Colmena](https://www.facebook.com/colmenaccademy) y con universidades de estados colindantes como la ITSUR, UASLP, UAZ, UdG, etc.
-   - Invitar a estudiantes de otras carreras para el apoyo del club, planeación, desarrollo, imagen del club, etc.
+   - Invitar a estudiantes de otras carreras para crear una comunidad interdisiplinaria para el apoyo del club en partes como planeación, desarrollo, imagen del club, etc.
    - Relacionarse con instituciones locales como el [INCyTEA](https://www.aguascalientes.gob.mx/incytea/), para el desarrollo de hackatones y otras competencias.
    - Establecer contacto con periódicos locales para dar visibilidad a nuestras actividades.
    - Crear conexiones con empresas de tecnologias locales para el patrocinio de premios para competencias de programación competitiva.
-   - Unirse o colaborar con organizaciones internacionales como la [Red de Programación Competitiva - RPC](https://redprogramacioncompetitiva.com/), [Omega Up](https://omegaup.com/), [Competitive Programming Initiative](https://joincpi.org/clubs) y el [ACM student chapter](https://www.acm.org/chapters/students).
+   - Unirse o colaborar con organizaciones internacionales como la [Red de Programación Competitiva - RPC](https://redprogramacioncompetitiva.com/), [Omega Up](https://omegaup.com/), [Competitive Programming Initiative](https://joincpi.org/clubs), [Coder Bloom](https://coderbloom.org/) y el [ACM student chapter](https://www.acm.org/chapters/students).
 
 5. **Involucración con la Universidad Autónoma de Aguascalientes (UAA)**
    - Acreditar horas de servicio social a lideres y asistentes del club.

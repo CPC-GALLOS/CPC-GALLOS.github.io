@@ -205,6 +205,10 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
     ```
 - Con esto ya podremos compilar y ejecutar el código dentro de VScode dándole click al símbolo de reproducir <i class="fa fa-play"></i>  en la parte superior derecha del editor o con la extensión [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) presionando las teclas `ctrl + alt + N`.
 
+> Aveces al abrir una carpeta o proyecto, el compilador no detectara la libreria de `<bits/stdc++.h>`, para solucionar esto, presionaremos `f1` para abrir el "command palette" y dentro de "C/C++: Edit Configurations (UI)" pondremos de nuevo el "Compiler Path", pero ahora incluyendo el compilador g++: `C:/msys64/ucrt64/bin/g++.exe`
+{: .prompt-tip }
+![C/C++ Config UI](assets/img/posts/Entorno_Desarrollo/C_Config_UI.png)
+
 ## Instalar el compilador en <i class="fa-brands fa-apple"></i> MacOS
 
 > Las Macs con chips M1,M2 o M3 usan la arquitectura ARM. Si ves el error `Bad CPU type in executable (os error 86)`, instala Rosetta con:

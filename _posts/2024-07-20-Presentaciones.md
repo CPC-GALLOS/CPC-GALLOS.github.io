@@ -37,10 +37,10 @@ image:
     1. [Habilidades blandas/duras y teamwork](https://cpc-gallos.github.io/Presentations/2024/2_008-Habilidades_Blandas_Duras.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_008-Habilidades_Blandas_Duras.pdf)
     1. [Estrucutra de datos lineales](https://cpc-gallos.github.io/Presentations/2024/2_009-Estructuras_De_Datos_lineales.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_009-Estructuras_De_Datos_lineales.pdf)
     1. [Estrucutra de datos no lineales](https://cpc-gallos.github.io/Presentations/2024/2_010-Estructuras_De_Datos_no_lineales.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_010-Estructuras_De_Datos_no_lineales.pdf)
-    1. Problemas de dos punteros
-    1. Álgebra avanzada
+    1. [Problemas de dos punteros](https://cpc-gallos.github.io/Presentations/2024/2_011-two_pointers.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_011-two_pointers.pdf)   
 1. **Temas Avanzados**
-    1. Programación Dinamica
+    1. [Programación Dinamica](https://cpc-gallos.github.io/Presentations/2024/3_001-Programacion_Dinamica.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_001-Programacion_Dinamica.pdf)
+    1. Álgebra avanzada
     1. Arboles
     1. Grafos
     1. Binary Heap
