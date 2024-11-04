@@ -163,6 +163,12 @@ En coordinación con el IS. Carlos Herrera Plata, profesor de la Facultad de Mat
 
 Para participar es necesario unirse a su grupo de discord [Clearn Architecture](https://discord.com/invite/rxVhJMKPQD)
 
+## Bubble Cup
+
+Es una competición de programación dirigida a estudiantes universitarios y de preparatoria. La cual inició el Centro de Desarrollo de Microsoft en Serbia en 2008. Desde la Bubble Cup 10 (2017), la Bubble Cup está coorganizada por la Fundación Petlja. La competición consta de dos partes: una ronda de clasificación en línea en primavera y una ronda final en Belgrado en septiembre.
+
+Más información en [bubblecup.org](https://bubblecup.org/)
+
 ## Universal Cup
 
 La Universal Cup es una organización que ofrece recursos de entrenamiento para equipos de programación competitiva. La Universal Cup organiza competencias espejo de eventos de programación con formatos del ICPC.

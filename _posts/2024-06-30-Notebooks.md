@@ -24,7 +24,7 @@ Las 3 únicas limitantes dadas por el ICPC para dichos documentos son:
 - [Notebook de Γα=Ω5](https://github.com/CPC-GALLOS/Notebook) el notebook oficial de nuestro club Γα=Ω5 hecho con markdown y marp.
 - [ACM-ICPC TRD](https://github.com/vstrimaitis/acm-icpc-trd/blob/master/vu-acm-icpc-trd.pdf) Notebook de un equipo de la universidad de Vilnius.
 - [ACM/ICPC CheatSheet](https://dl.icdst.org/pdfs/files3/f27f274cd4c7d0689d21673146af430c.pdf) cheat sheet sin aparente dueño encontrada en internet.
-- [Dossiers Ada Byron](https://discord.com/channels/1161757803086630983/1161757803547996250/1197856149261799435) algoritmos del equipo de la Universidad de Sevilla.
+- [Dossiers Ada Byron](https://drive.google.com/drive/folders/1gVbbBqoXZVdiHzKL-xVqC8kDMrckxZLl?usp=sharing) algoritmos del equipo de la Universidad de Sevilla.
 - [ICPC Team Notebook](https://cs.stanford.edu/group/acm/oldsite/SLPC/notebook.pdf) Notebook de la Universidad de Stanford para los años 2015-2016.
 - [icpc_notebook](https://github.com/abdullah768/icpc_notebook/blob/master/Trie_NP_Hard_Notebook.pdf) Notebook del equipo Trie_NP_Hard.
 - [icpc-notebook](https://github.com/GustavoMeza/icpc-notebook) Notas de nuestro ex competidor hidrocalido, Gustavo Meza.

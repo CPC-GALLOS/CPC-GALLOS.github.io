@@ -71,6 +71,7 @@ Los Training Camps son eventos organizados en diversas universidades, tanto naci
 - [Competitive Programming Slides](https://github.com/sam571128/CP-Slides) Cursos de distintos clubes de China.
 - [Club de Programación competitiva de la UADY](https://sites.google.com/view/cpcfmat-uady/entrenamientos/iniciaci%C3%B3n)
 - [Club de la Universidad Rey Juan Carlos](https://github.com/isaaclo97/programacion-competitiva/tree/main/Cursos)
+- [GPC-UNI](https://peon-pasado.github.io/competitive-programming-classes/web/index.html)
 
 ## Cursos de Universidades
 
@@ -85,3 +86,4 @@ Los Training Camps son eventos organizados en diversas universidades, tanto naci
 - [CMU School of Computer Science: Competition Programming and Problem Solving](https://contest.cs.cmu.edu/295/s24/)
 - [Stanford: Introduction to Programming Contests ](https://web.stanford.edu/class/cs97si/)
 - [Stony Brook University: Analysis of Algorithms](https://www3.cs.stonybrook.edu/~skiena/373/videos/)
+- [The École normale supérieure: Entraînement au concours ACM-ICPC](https://pierre.senellart.com/enseignement/2012-2013/acm_icpc/)
