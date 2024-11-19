@@ -28,7 +28,9 @@ __Tabla de Contenidos:__
 - [Hector Florez: Fundamentos deprogramación competitiva (Tabla de contenido)](https://www.ecoeediciones.com/wp-content/uploads/2024/08/9789585082861_contenido.pdf)
 - [Lekhika: A Guide to Master Graph Algorithms for Competitive Programming ](https://www.naukri.com/code360/library/a-guide-to-master-graph-algorithms-for-competitive-programming)
 - [UdG: Curso de algoritmia CUCEI](https://dcc.cucei.udg.mx/sites/default/files/i5884_algoritmia_1.pdf)
-
+- [Shahjalal Shohag: The Ultimate Topic List(with Tutorials, Problems, and Templates)](https://blog.shahjalalshohag.com/topic-list/)
+- [Programming Camp Syllabus](https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4/edit?tab=t.0)
+- [Triveni Mahatha: Getting Started with the Sport of Programming](https://sportprogramming.blogspot.com/2014/07/getting-started-with-sport-of.html)
 
 ## Cursos de organizaciones
 

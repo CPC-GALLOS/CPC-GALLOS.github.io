@@ -44,9 +44,11 @@ image:
     1. [Arboles](https://cpc-gallos.github.io/Presentations/2024/3_003-Arboles.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_003-Arboles.pdf)
     1. [Grafos](https://cpc-gallos.github.io/Presentations/2024/3_004-Grafos.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_004-Grafos.pdf)
     1. [Minimum Spanning Trees & FloodFill](https://cpc-gallos.github.io/Presentations/2024/3_005-MST-Floodfill.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_005-MST-Floodfill.pdf)
-    1. Complete search 
-    1. Teoria de Juego
-    1. Geometria Computacional
+    1. [Range Queries](https://cpc-gallos.github.io/Presentations/2024/3_006-Ranque_Queries.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_006-Ranque_Queries.pdf)
+    1. [Complete search](https://cpc-gallos.github.io/Presentations/2024/3_007-Complete_Search.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_007-Complete_Search.pdf)
+    1. [Combinatoria](https://cpc-gallos.github.io/Presentations/2024/3_008_Combinatoria.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_008_Combinatoria.html)
+    1. [Teoria de Juego](https://cpc-gallos.github.io/Presentations/2024/3_009-Teoria_De_Juego.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_009-Teoria_De_Juego.pdf)
+    1. [Geometria Computacional](https://cpc-gallos.github.io/Presentations/2024/3_010_Geometria_Computacional.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_010_Geometria_Computacional.pdf)
 
 > El repositorio de estas presentaciones se encuentra en <https://github.com/CPC-GALLOS/Presentations>
 {: .prompt-tip }

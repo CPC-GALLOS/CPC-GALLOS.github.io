@@ -94,7 +94,7 @@ Más información en [la convocatoria 2024](https://www.aniei.org.mx/eventos-ani
     - **2do lugar:** $50 USD
     - **3er lugar:** $25 USD
 
-Más información en [coderbloom.com](https://coderbloom.com).
+Más información en [coderbloom.org](https://coderbloom.org).
 
 ## IEEEXtreme
 
