@@ -40,7 +40,7 @@ image:
     1. [Problemas de dos punteros](https://cpc-gallos.github.io/Presentations/2024/2_011-two_pointers.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/2_011-two_pointers.pdf)   
 1. **Temas Avanzados**
     1. [Programación Dinamica](https://cpc-gallos.github.io/Presentations/2024/3_001-Programacion_Dinamica.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_001-Programacion_Dinamica.pdf)
-    1. Teoria de Numeros
+    1. [Teoria de Numeros](https://cpc-gallos.github.io/Presentations/2024/3_002-Teoria_Numeros.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_002-Teoria_Numeros.pdf)
     1. [Arboles](https://cpc-gallos.github.io/Presentations/2024/3_003-Arboles.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_003-Arboles.pdf)
     1. [Grafos](https://cpc-gallos.github.io/Presentations/2024/3_004-Grafos.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_004-Grafos.pdf)
     1. [Minimum Spanning Trees & FloodFill](https://cpc-gallos.github.io/Presentations/2024/3_005-MST-Floodfill.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_005-MST-Floodfill.pdf)
