@@ -99,9 +99,9 @@
   
     <!-- JavaScript -->
   
-    {% unless site.theme_mode %}
-      {% include mode-toggle.html %}
-    {% endunless %}
+    <script src="{{ '/assets/js/dist/theme.min.js' | relative_url }}"></script>
+
+    {% include js-selector.html lang=lang %}
   
     {% include metadata-hook.html %}
   </head>
