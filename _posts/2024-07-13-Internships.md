@@ -26,6 +26,7 @@ Las prácticas profesionales son un requisito de las universidades, aunque es co
 - [Internships de Google](https://www.google.com/about/careers/applications/jobs/results/?q=Internship&employment_type=INTERN) Recomendamos los [Google STEP Summer intern](https://www.google.com/about/careers/applications/jobs/results/122462543208686278-step-intern-first-year-bachelors-student-summer-2025) o los [Google SWE Summer intern](https://www.google.com/about/careers/applications/jobs/results/133334514184135366-software-engineering-intern-bs-summer-2025)
 - [Internships de Microsoft](https://jobs.careers.microsoft.com/global/en/search?q=internship&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true) Recomendamos los [Microsoft Explore Summer Intern](https://jobs.careers.microsoft.com/global/en/job/1773452/Explore-Program-Internship-Opportunities%3A-Second-Year-Students%2C-Redmond)
 - [Internships de Oracle Mexico](https://www.oracle.com/mx/careers/students-grads/development-engineering/)
-
+- [IBM skills build Internship Programmes](https://www.skillsbuildcsrbox.in/pages/internship.html)
 ## Referencia
 - Harvard. (s.f.). *Technology Internships for First Years and Sophomores*. Recuperado de <https://careerservices.fas.harvard.edu/resources/technology-internships-for-first-years-and-sophomores/>
+- UK GOV. (s.f.). *How to find an internship*. Recuperado de <https://nationalcareers.service.gov.uk/careers-advice/how-to-find-a-virtual-internships/>

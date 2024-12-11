@@ -201,7 +201,7 @@ Cisco es la empresa que tiene el monopolio de la Infraestructura de las redes, s
 
 ### Insignias de IBM
 
-IBM tiene más de [500 insignias gratuitas](https://www.ibm.com/training/search?trainingType=Badge) repartidas en distintos sitios cubriendo distintos temas
+IBM tiene más de [500 insignias gratuitas](https://www.ibm.com/training/search?trainingType=Badge) repartidas en distintos sitios cubriendo distintos temas:
 
 - [Zxplore](https://www.ibm.com/z/resources/zxplore) es el curso acerca de los Mainframes (super computadores/servidores) de IBM con el sistema operativo Z/OS. Hay pocos especialistas en esta área, por lo que es un buen tema para especializarse. Cualquier duda o informes sobre este tema pueden contactar con nuestro compañero de la UAA y embajador de IBM Z [Gustavo Richarte](https://www.linkedin.com/in/gustavoricharte/).
 - [Cognitive Class](https://cognitiveclass.ai/courses?type%5B%5D=course&sort%5B%5D=most_popular)

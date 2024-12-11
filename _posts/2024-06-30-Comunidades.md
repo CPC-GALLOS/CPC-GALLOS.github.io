@@ -27,6 +27,7 @@ image:
 - [M(IT)^2](https://discord.com/invite/huwxnwTZ8X) Es el discord oficial del MIT Informatics Tournament.
 - [Competitive Programming Initiative](https://discord.com/invite/VCxUzdYhzN) es el discord oficial del USA Computing Olympiad (USACO).
 - [CALICO](https://calico.cs.berkeley.edu/discord)Es el discord oficial del CALICO Informatics Competition de la Universidad de Berkeley en California.
+- [ICPC North America](https://t.co/QLSRWC9P83)
 - [Errichto Algorithms Server](https://discord.gg/YWb3Bmg)
 - [University of Adelaide Competitive Programming Club](https://discord.gg/9yBJs68Sj4)
 - [The University of Texas at Austin UTPC](https://discord.com/invite/hjQAveZ)

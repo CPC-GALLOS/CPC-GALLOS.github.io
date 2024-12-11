@@ -89,6 +89,7 @@ En general para obtener vouchers gratis o descuentos en vouchers hay que estar a
 
 ## Referencias
 - Chang, S. (2023). *How to get FREE Certification Exam Vouchers For AWS , Microsoft Azure, Google & Oracle (Latest Update)*. Recuperado de <https://medium.com/free-it-certifications-courses/how-to-get-free-certification-exam-vouchers-from-aws-microsoft-azure-google-oracle-cloud-577777fefa62>
-- MSFTHUB. (2024). *The Knowledge Hub for Microsoft Certifications*. Recuperado de <https://certs.msfthub.wiki/>
-- TechiesCamp. (2024). *Linux Foundation Coupons*. Recuperado de <https://github.com/techiescamp/linux-foundation-coupon>
 - kentrad. (2023). *Discounts on AWS Certification Exams*. Recuperado de <https://repost.aws/articles/ART7TtE3TwRx-TFa0DPGDv-Q/discounts-on-aws-certification-exams>
+- MSFTHUB. (2024). *The Knowledge Hub for Microsoft Certifications*. Recuperado de <https://certs.msfthub.wiki/>
+- Ruby_D05. (2024). *How to grab Microsoft certification discount in 2024?*. Recuperado de <https://trainingsupport.microsoft.com/en-us/mcp/forum/all/how-to-grab-microsoft-certification-discount-in/a48bfeca-58c4-4bb4-8a73-960879d2bb51>
+- TechiesCamp. (2024). *Linux Foundation Coupons*. Recuperado de <https://github.com/techiescamp/linux-foundation-coupon>

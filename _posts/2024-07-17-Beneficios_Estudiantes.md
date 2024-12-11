@@ -10,9 +10,10 @@ mermaid: false
 image:
 ---
 
-# Descuentos validando que eres estudiante
+## Descuentos validando que eres estudiante
 
-- [Certificaciones de Microsoft](https://learn.microsoft.com/en-us/training/student-hub/certifications) 30% de descuento para certificaciones Fundamentals y 45% para los Role Base Exams al [identificarte como estudiante](https://learn.microsoft.com/en-us/credentials/certifications/student-discounts#how-to-identify-yourself-as-student-in-profile) en Microsoft
+### Software
+
 - [GitHub Education](https://education.github.com/discount_requests/application)
     - GitHub Pro mientras seas un estudiante verificado. (Repositorios privados ilimitados, 2 GB Packages storage y 20 GB en Codespaces)
     - Suscripciones gratuitas de JetBrains IDEs: IntelliJ IDEA, PyCharm, CLion y más. 
@@ -22,6 +23,14 @@ image:
     - 1 año de un dominio personal ".me" en Namecheap.com
     - 1 año de un dominio personal ".tech" en get.tech
     - $100 USD en créditos de Azure.
+- [jetbrains](https://www.jetbrains.com/community/education/#students/) La licencia educativa gratuita de JetBrains ofrece acceso a todas las herramientas de desarrollo de JetBrains para uso personal, tanto en la escuela como en casa. Los beneficios incluyen:
+    - Acceso gratuito a todos los IDEs de JetBrains: IntelliJ IDEA, PyCharm, CLion y más
+    - Uso exclusivo para fines educativos no comerciales.
+    - Posibilidad de renovación gratuita mientras se sea estudiante o docente.
+    - No se puede usar para el desarrollo de productos o servicios comerciales.
+    - No es transferible a terceros.
+    - Descuento del 40% para graduados para comprar una suscripción personal de 1 año para cualquier producto de JetBrains.
+    - Acceso a versiones anteriores: Después de que la licencia educativa expire, los usuarios pueden seguir utilizando la última versión de la herramienta que tenían instalada gracias a la licencia perpetua de respaldo de JetBrains.
 - [FENIX](https://www.fenix.org.mx/beneficios-usuarios.html) la Federación Nacional de Identidades Mexicanas tiene de las ofertas más importantes en México
     - Springer Link: Acceso a millones de documentos científicos de revistas, libros, series, protocolos, obras de referencia, etc., para la comunidad académica y de investigación de las Instituciones de Educación Superior que han pagado una suscripción al servicio.
     - [Spotify](https://www.spotify.com/mx/student/) por solo $69 MXN al mes
@@ -31,7 +40,10 @@ image:
     - Kaspersky:  Descuento del 60% en cualquiera de las soluciones.
 - [sharp3d](https://www.shapr3d.com/education) licencia 100% gratuita para renovar anualmente. Shapr3D es un software CAD con el motor Siemens Parasolid®, disponible en Windows, MacOS y iPadOS.
 - [notion](https://www.notion.so/es/product/notion-for-education) plan Plus gratis al al presentar correo institucional.  
-- [canva premium](https://canva.com/edu-signup) canva premium al presentar correo institucional. 
+- [canva premium](https://canva.com/edu-signup) canva premium al presentar correo institucional.
+
+## Miscelaneos 
+
 - [Student Beans](https://www.studentbeans.com/mx) múltiples ofertas para estudiantes de diferentes marcas.
 - [UniDays](https://www.myunidays.com/ES/es-ES) múltiples ofertas para estudiantes de diferentes marcas.
 - [Apple](https://www.apple.com/mx-edu/store) descuentos en productos seleccionados de Apple a meses sin intereses. 
@@ -40,7 +52,7 @@ image:
 - [Lenovo](https://www.lenovo.com/mx/es/d/ofertas/descuentos-para-estudiantes/) hasta 50% de descuento en artículos seleccionados.
 - [ASUS](https://special-offers.asus.com/mx/edu/introduction/) descuentos especiales en productos de ASUS.
 
-# Tarjetas de estudiantes
+## Tarjetas de estudiantes
 
 - **Tarjeta Joven** disponible en la ![AppStore logo](https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg){: w="15" h="15" } [AppStore](https://apps.apple.com/mx/app/tarjeta-joven-aguascalientes/id6478975264) y en la  ![PlayStore logo](https://cdn-icons-png.flaticon.com/512/732/732208.png){: w="15" h="15" } [PlayStore](https://play.google.com/store/apps/details?id=gob.sigod.tarjetaiaju&hl=en_US). Es la tarjeta digital que permite disfrutar de los beneficios del IAJU y la tarjeta SOLUCIONES junto con múltiples descuentos y/o becas exclusivos sujetos a disponibilidad.
 - [Tarjeta Feuaa](https://feuaa.uaa.mx/index.php/tarjeta-feuaa/) (Solo para estudiantes de la UAA) Ofrece descuentos para Cinépolis, Partidos del Necaxa, Lumen y más. Puedes obtenerla en las oficinas de [FEUAA](https://maps.app.goo.gl/CJwnB2NweMsETbJD6)

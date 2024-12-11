@@ -192,7 +192,25 @@ public class Main {
 }
 ```
 
-#### más veloz con `BufferedReader` directo de `InputStream` 
+#### con `BufferedReader` y `BufferedOutputStream`
+
+```java
+import java.io.*;
+import java.util.*;
+public class Main {
+    public static void main(String[] args) throws Exception {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            BufferedOutputStream bos = new BufferedOutputStream(System.out);
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            int n = Integer.parseInt(st.nextToken());  // entrada de n
+            bos.write((n + "\n").getBytes());          // salida de n
+            bos.close();
+    }
+}
+
+```
+
+#### más veloz pero más código con `InputStream` 
 
 ```java
 import java.io.*;
@@ -269,7 +287,7 @@ fun main() {
 
 ### Python3
 
-```py
+```pyt
 import sys
 read = sys.stdin.readline
 write = sys.stdout.write
@@ -296,6 +314,7 @@ En resumen, la combinación de velocidad, amplia funcionalidad, y la capacidad d
 - akhaleqh. (2024). *Rust vs C++ – Will Rust Replace C++ in Future*. Recuperado de <https://www.geeksforgeeks.org/rust-vs-c/>
 - Back, G. (2021).  *Fast I/O in Rust*. Recuperado de <https://users.rust-lang.org/t/fast-i-o-in-rust/61714/4>
 - Behery, A. (2023). *Python VS C++ Time Complexity Analysis*. Recuperado de <https://www.freecodecamp.org/news/python-vs-c-plus-plus-time-complexity-analysis/>
+- CodingKnight. (2021). *Fast data input-output for competitive programming in Java 11*. Recuperado de <https://codeforces.com/blog/entry/97203>
 - conaticus. (2024). *Rust vs C++* [video]. Recuperado de <https://youtu.be/WBhTDoZxpCk?si=iBzTj5IK3P9aFYch>
 - Coursera. (2023). *Python vs. C++: Which to Learn and Where to Start*. Recuperado de <https://www.coursera.org/articles/python-vs-c>
 - Dave's Garage. (2021). *E01: What is the FASTEST Computer Language? 45 Languages Tested!* [video]. Recuperado de <https://youtu.be/tQtFdsEcK_s?si=LHBb6MYXniUwGGnB>
