@@ -41,6 +41,7 @@ image:
 - [sharp3d](https://www.shapr3d.com/education) licencia 100% gratuita para renovar anualmente. Shapr3D es un software CAD con el motor Siemens Parasolid®, disponible en Windows, MacOS y iPadOS.
 - [notion](https://www.notion.so/es/product/notion-for-education) plan Plus gratis al al presentar correo institucional.  
 - [canva premium](https://canva.com/edu-signup) canva premium al presentar correo institucional.
+- [QT](https://www.qt.io/qt-educational-license) licencia de 12 meses renovable al verificar que eres estudiante para sus softwares de Qt Design Studio Enterprise y Qt Device Creation Professional.
 
 ## Miscelaneos 
 
@@ -99,3 +100,5 @@ image:
 
 > También puedes obtener la tarjeta ISIC totalmente gratis a traves de una cuenta Westpac Choice siguiendo esta [guia](https://www.pointhacks.com.au/product-guide/westpac-isic-card-guide/)
 {: .prompt-tip }
+
+- [European Youth Card](https://eyca.org/) si tienes menos de 30 años, esta tarjeta proporciona 60 000 descuentos en Europa.

@@ -27,6 +27,9 @@ Las prácticas profesionales son un requisito de las universidades, aunque es co
 - [Internships de Microsoft](https://jobs.careers.microsoft.com/global/en/search?q=internship&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true) Recomendamos los [Microsoft Explore Summer Intern](https://jobs.careers.microsoft.com/global/en/job/1773452/Explore-Program-Internship-Opportunities%3A-Second-Year-Students%2C-Redmond)
 - [Internships de Oracle Mexico](https://www.oracle.com/mx/careers/students-grads/development-engineering/)
 - [IBM skills build Internship Programmes](https://www.skillsbuildcsrbox.in/pages/internship.html)
-## Referencia
+- [Outreachy](https://www.outreachy.org/) Outreachy ofrece pasantías open source y open science, pagado hasta $7,000 USD de forma remota con una duracion de solo 3 meses: las pasantías se realizan de mayo a agosto o de diciembre a marzo.
+
+## Referencias
+- code.org (s.f.). *Internships and apprenticeships*. Recuperado de <https://code.org/beyond/internships>
 - Harvard. (s.f.). *Technology Internships for First Years and Sophomores*. Recuperado de <https://careerservices.fas.harvard.edu/resources/technology-internships-for-first-years-and-sophomores/>
 - UK GOV. (s.f.). *How to find an internship*. Recuperado de <https://nationalcareers.service.gov.uk/careers-advice/how-to-find-a-virtual-internships/>

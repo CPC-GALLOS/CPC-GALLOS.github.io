@@ -20,7 +20,9 @@ __Tabla de Contenidos:__
 
 ## Certificaciones Gratuitas
 
-Estas no están protectorados pero tienen el nombre y validación de certificación avalado por Oracle, a través de [Oracle University](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free). 
+- [EF SET](https://www.efset.org/) Recomiendo el EF SET de 90 minutos, un test gratuito que certifica todas tus habilidades en inglés y te brinda un diagnóstico completo junto con un certificado.
+
+Estas no están protectorados pero tienen el nombre y validación de certificación avalado por Oracle, a través de [Oracle University](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free).
 - [Oracle Guided Learning Project Management Foundations Associate (Beta)](https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1)
 - [OCI Foundations Associate](https://education.oracle.com/es/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-24)
 - [OCI AI Foundations Associate](https://education.oracle.com/es/ouexam-pexam_1z0-1122-24/pexam_1Z0-1122-24)
@@ -35,7 +37,8 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Tecnolochicas PRO](https://tecnolochicas.mx/registro-tcpro/) son un conjunto de cursos desarrollados por la Fundación Televisa en colaboración con Microsoft especialmente para estudiantes universitarios, el curso pro tiene dos cursos, un curso de diseño web y otro de Data Science tomados en horarios fijos.
 - [Bécalos Tech Challengue](https://techchallenge.becalos.mx/) es una beca desarrollada por la Fundación Televisa para aprender a programar e incursionarte en el desarrollo web.
 - [Becas Santander](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=TECH&mode=ONLINE) tienen cursos muy variados como Full Stack, ciencia de datos, inteligencia artificial. En especial recomiendo los [cursos de inglés](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=LANGUAGE&mode=ONLINE).
-- [INROADS](https://inroads.org.mx/) es una organización latinoamericana aliada con Google, tiene dos programas principales: [Súbete a la Nube con Google Cloud](https://subetealanube.inroads.org.mx/) donde aprenderás de Infraestructura, Redes, Seguridad, Inteligencia Artificial, Data y Machine Learning. Y su otro programa es el de [Certificados de Carrera de Google](https://becas.inroads.org.mx/) donde podrás certificarte sobre Fundamentos de IA, Ciberseguridad y Análisis de Datos.
+- [INROADS](https://inroads.org.mx/) es una organización latinoamericana aliada con Google, tiene dos programas principales: [Súbete a la Nube con Google Cloud](https://subetealanube.inroads.org.mx/) donde aprenderás de Infraestructura, Redes, Seguridad, Inteligencia Artificial, Data y Machine Learning. Y su otro programa es el de [Certificados de Carrera de Google](https://becas.inroads.org.mx/) donde podrás certificarte sobre Fundamentos de IA, Ciberseguridad y Análisis de Datos de Google en coursera.
+- [FUNDAE](https://experienciafundae.es/beca-google) al igual que INROADS ofrecen los certificados de Fundamentos de IA, Ciberseguridad y Análisis de Datos en la plataforma de coursera.
 - [AWS re/Start por fondation forge](https://fondationforge.org/aws-regional/mx) es un programa de capacitación respaldado por Amazon de cuatro meses de duración para preparate en puestos de nivel básico en la nube.
 - [INCyTEA](https://www.aguascalientes.gob.mx/incytea/) El Instituto de Ciencia Y Tecnología de Aguascalientes suele sacar varias becas a lo largo del año por lo que hay que estar al pendiente en sus páginas.
 - [Blockmakers](https://blockmakers.mx/) cursos creados en colaboración con el INCyTEA para temas de Blockchain, Solidity, Ciencia de Datos e introducción a la Inteligencia Artificial.

@@ -61,7 +61,15 @@ Las maestrías permiten desarrollar conocimientos avanzados y pueden ser una exc
   - [CIMAT](https://pcc.cimat.mx/es)
 
 - **Internacional**:  
-  Aunque puede ser una opción costosa, existen programas de becas, como las Becas al Extranjero del [CONACyT](https://conahcyt.mx/becas_posgrados/becas-al-extranjero/), que pueden ayudar a cubrir los gastos. También hay recursos como [Europosgrados](https://www.europosgrados.org/), que publican oportunidades de becas para estudiar en Europa.
+  Aunque puede ser una opción costosa en especial por el hospedaje, existen distintos programas de becas como:
+   - las Becas al Extranjero [CONACyT](https://conahcyt.mx/becas_posgrados/becas-al-extranjero/) 
+   - El Fondo para el Desarrollo de Recursos Humanos [FIDERH](https://www.fiderh.org.mx/) es un fideicomiso federal, administrado por el Banco de México, cuyo objetivo es financiar estudios de posgrado a estudiantes mexicanos (Por parte del  CONAHCYT).
+   - [FUNED MX](https://www.funedmx.org/funed-maestrias/) ofrece becas que incluso subren distintos gastos.
+   - [Becas sin fronteras](https://becas-sin-fronteras.com/) ofrece becas a distintas universidades europeas.
+   - La Organización de los Estados Americanos [OEA](https://www.oas.org/es/becas/).
+   - [Fundación Carolina](https://www.fundacioncarolina.es/formacion/postgrado/) Las becas de postgrado están dirigidas a la formación en España de licenciados nacionales y residentes de un país de América Latina.
+   - [AMEXCID](https://www.gob.mx/amexcid/acciones-y-programas/oferta-para-mexicanos) La AMEXCID canaliza y difunde las convocatorias de becas que gobiernos extranjeros ofrecen a mexicanos.
+   - También hay recursos como [Europosgrados](https://www.europosgrados.org/), que publican oportunidades de becas para estudiar en Europa.
 
   - **Maestrías Internacionales en Línea**:  
    Estas maestrías cuentan con acreditación internacional y, en muchos casos, pueden ser más económicas que estudiar en una universidad privada nacional o cubrir los gastos asociados a vivir en otra ciudad o país. Si obtienes un título de maestría en el extranjero y deseas que tenga validez oficial en México, deberás realizar el trámite de [Revalidación/Homologación de Estudios](https://embamex.sre.gob.mx/espana/index.php/cooperacion-y-educacion/cooperacion-academica-y-educativa/revalidacion-homologacion-de-estudios).
@@ -106,6 +114,9 @@ El networking es la habilidad de crear y mantener redes de contactos profesional
 - **[Ser Embajador(a)](https://cpc-gallos.github.io/blog/Embajador/)**  
   Un embajador (ambassador) es una persona que representa, habla por o anuncia a una organización en particular, esta experiencia puede enriquecer tu carrera y red de contactos.
 
+- **Ser miembro del ACM y/o del IEEE** 
+   Ambas son organizaciones mundialmente reconocidas que ofrecen membresías accesibles. No solo obtendrás el estatus de ser miembro de estas prestigiosas entidades, sino que también accederás a múltiples beneficios, como oportunidades de internships, acceso gratuito a artículos de investigación y oportunidades laborales. Para más información, visita [ACM Membership](https://www.acm.org/membership/membership-benefits) y [IEEE Memberships](https://students.ieee.org/membership-benefits/ieee-benefits/).
+ 
 - **Eventos Físicos y Digitales**  
   Asiste a eventos ya sean en linea como el [GitHub Universe](https://githubuniverse.com/), así como conferencias presenciales como [Talent Land](https://www.talent-land.mx/). Estas experiencias son esenciales para construir conexiones significativas y ampliar tu red profesional.
    <!-- Agregar link al post de eventos de Tecnologia -->

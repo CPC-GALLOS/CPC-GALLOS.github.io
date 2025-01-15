@@ -5,7 +5,7 @@
 - Teniendo los permisos y llaves necesarias, clonar la repo con `git clone git@github.com:CPC-GALLOS/CPC-GALLOS.github.io.git` 
 - Para Windows instalar con [scoop](https://scoop.sh/) ejecutando `scoop install main/ruby` en la terminal (powershell)
 - para MacOS instalar con brew ejecutando `brew install --cask ruby`
-- Para linux depende de la distro, solo busca en google como instalar `ruby`
+- Para linux depende de la distro, solo busca en google como instalar `ruby` y `ruby-dev`/`ruby-devel`
 
 > [!WARNING]  
 > En Arch Linux ruby esta desactualizado, por lo que usar [Github Codespaces](https://github.com/features/codespaces), [cs50.dev](https://cs50.dev/),jruby o **containers de VScode**  son las unicas opciones, yo recomiendo los containers.

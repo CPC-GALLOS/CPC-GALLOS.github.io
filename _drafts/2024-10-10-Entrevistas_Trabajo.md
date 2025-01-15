@@ -39,3 +39,7 @@ youtubers
 
 
 https://interviewing.io/
+
+https://www.amazon.com.mx/Coding-Interview-Patterns-Nail-Your/dp/1736049135?ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b
+
+https://www.amazon.com.mx/Cracking-Coding-Interview-Programming-Questions/dp/0984782850?ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b

@@ -219,7 +219,7 @@ image:
     <a href="https://education.oracle.com/es/ouexam-pexam_1z0-1122-24/pexam_1Z0-1122-24">OCI AI Foundations Associate (2024)</a>
   </div>
   <div class="custom_card center" data-tags="certification oracle cloud datascience">
-    <a href="https://education.oracle.com/oracle-cloud-data-management-2023-foundations-associate/pexam_1Z0-1105-23">Oracle Cloud Data Management Foundations Associate (2023)</a>
+    <a href="https://education.oracle.com/oracle-cloud-infrastructure-2024-data-foundation-associate/pexam_1Z0-1195-24">Ora Oracle Cloud Infrastructure 2024 Data Foundations Associate (2024)</a>
   </div>
   <div class="custom_card center" data-tags="certification oracle cloud datascience">
     <a href="https://education.oracle.com/es/oracle-cloud-infrastructure-2024-data-foundation-associate/pexam_1Z0-1195-24">OCI Data Foundations Associate</a>

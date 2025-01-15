@@ -23,43 +23,6 @@ add-to-calendar-button {
 > Si deseas ver una lista detallada sobre los temas junto con becas, revisa este post: [Certificaciones Gratuitas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/). También revisa el [filtrado de certificados](https://cpc-gallos.github.io/blog/Filtrar_Certificados/). 
 {: .prompt-info }
 
-## Ofertas temporales
-
-- Certificado gratuito de [Google: Inteligencia Artificial y Productividad](https://www.santanderopenacademy.com/en/courses/google-artificial-intelligence-and-productivity.html), Oferta valida hasta el 31 de diciembre de 2024 <add-to-calendar-button 
-  name="Fin de la oferta de Google: Inteligencia Artificial y Productividad"
-  description="Certificado gratuito de Google: Inteligencia Artificial y Productividad termina el 31 de diciembre de 2024."
-  startDate="2024-10-10"
-  endDate="2024-12-31"
-  timeZone="America/Mexico_City"
-  location="https://www.santanderopenacademy.com/en/courses/google-artificial-intelligence-and-productivity.html"
-  organizer="CPC-GALLOS|cpc.gallos@gmail.com"
-  iCalFileName="Google_IA"
-  options="'Apple','Google','Outlook.com','Microsoft365'"
-  listStyle="overlay"
-  trigger="click"
-  hideBackground
-  size="1"
-  label="Agregar al calendario"
-  lightMode="bodyScheme"
-  pastDateHandling="hide"></add-to-calendar-button>
-- [AWS Certified: Associate Challenge](https://pages.awscloud.com/GLOBAL-ln-GC-Traincert-Associate-Certification-Challenge-Registration-2024.html?trk=1d696fd8-8f9d-437d-a235-263e41a73c4a&sc_channel=el) 50% de descuento en las certificaciones: AWS Certified Solutions Architect - Associate, AWS Certified Developer - Associate, AWS Certified SysOps Administrator - Associate y AWS Certified Data Engineer - Associate al terminar el challenge. Oferta valida hasta el 12 de diciembre de 2024. <add-to-calendar-button 
-  name="Fin de la oferta de AWS Associate Challenge"
-  description="Fin del 50% en certificaciones de AWS, con el AWS Certified: Associate Challenge"
-  startDate="2024-10-10"
-  endDate="2024-12-12"
-  timeZone="America/Mexico_City"
-  location="https://pages.awscloud.com/GLOBAL-ln-GC-Traincert-Associate-Certification-Challenge-Registration-2024.html"
-  organizer="CPC-GALLOS|cpc.gallos@gmail.com"
-  iCalFileName="AWS_Certified"
-  options="'Apple','Google','Outlook.com','Microsoft365'"
-  listStyle="overlay"
-  trigger="click"
-  hideBackground
-  size="1"
-  label="Agregar al calendario"
-  lightMode="bodyScheme"
-  pastDateHandling="hide"></add-to-calendar-button>
-
 ## Ofertas en vouchers
 
 En general para obtener vouchers gratis o descuentos en vouchers hay que estar atentos a las redes sociales de las compañías emisoras de estos, en general Microsoft es la que más oportunidades suele dar.
