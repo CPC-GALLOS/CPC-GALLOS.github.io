@@ -11,9 +11,9 @@ image:
 ---
 
 
-   Claro, aquí te divido los errores en categorías:
 
 ### Errores de Acceso a Memoria
+
 1. **Acceso Fuera de los Límites de un Arreglo**:
    - Acceder a elementos fuera del rango declarado de un arreglo puede resultar en valores basura.
    

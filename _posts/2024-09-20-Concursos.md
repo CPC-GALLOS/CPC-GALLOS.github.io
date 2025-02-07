@@ -4,7 +4,7 @@ description: Concursos de programación competitiva
 date: 2024-09-20 20:00:00 +/-TTTT
 categories: [Club]
 author: ArielParra 
-tags: [recomendaciones,concursos,C++,concursos]
+tags: [recomendaciones,concursos,C++]
 pin: true
 mermaid: false
 image:

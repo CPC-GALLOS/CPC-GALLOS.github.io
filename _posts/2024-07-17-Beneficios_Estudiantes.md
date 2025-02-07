@@ -55,6 +55,7 @@ image:
 
 ## Tarjetas de estudiantes
 
+- [European Youth Card](https://eyca.org/) si tienes menos de 30 años, esta tarjeta proporciona 60 000 descuentos en Europa.
 - **Tarjeta Joven** disponible en la ![AppStore logo](https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg){: w="15" h="15" } [AppStore](https://apps.apple.com/mx/app/tarjeta-joven-aguascalientes/id6478975264) y en la  ![PlayStore logo](https://cdn-icons-png.flaticon.com/512/732/732208.png){: w="15" h="15" } [PlayStore](https://play.google.com/store/apps/details?id=gob.sigod.tarjetaiaju&hl=en_US). Es la tarjeta digital que permite disfrutar de los beneficios del IAJU y la tarjeta SOLUCIONES junto con múltiples descuentos y/o becas exclusivos sujetos a disponibilidad.
 - [Tarjeta Feuaa](https://feuaa.uaa.mx/index.php/tarjeta-feuaa/) (Solo para estudiantes de la UAA) Ofrece descuentos para Cinépolis, Partidos del Necaxa, Lumen y más. Puedes obtenerla en las oficinas de [FEUAA](https://maps.app.goo.gl/CJwnB2NweMsETbJD6)
 - [Tarjeta Soluciones](https://soluciones.aguascalientes.gob.mx/negocios.html) es una tarjeta gratuita emitida por el gobierno de Aguascalientes, puedes obtenerla en el [IAJU](https://maps.app.goo.gl/1A8atnP7YCprompn9). Algunos de los beneficios son:
@@ -101,4 +102,3 @@ image:
 > También puedes obtener la tarjeta ISIC totalmente gratis a traves de una cuenta Westpac Choice siguiendo esta [guia](https://www.pointhacks.com.au/product-guide/westpac-isic-card-guide/)
 {: .prompt-tip }
 
-- [European Youth Card](https://eyca.org/) si tienes menos de 30 años, esta tarjeta proporciona 60 000 descuentos en Europa.
