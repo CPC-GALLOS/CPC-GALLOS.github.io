@@ -136,8 +136,7 @@ brew install --cask visual-studio-code
 
 - ![C/C++ logo](https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/cpptools/1.21.2/1721683708278/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" } [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) esta es la extensión necesaria para poder correr código de C++ dentro de VScode
 - ![Error lens logo](https://usernamehw.gallerycdn.vsassets.io/extensions/usernamehw/errorlens/3.20.0/1719044874383/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[Error lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) esta extensión nos muestra los errores que va dando el IDE o el compilador.
-- ![Prettier logo](https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/10.4.0/1711025051911/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) esta extensión le da formato a nuestro código al presionar la combinación de teclas `shift + alt + F`
-
+- ![Prettier logo](https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/10.4.0/1711025051911/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) esta extensión le da formato a nuestro código al presionar la combinación `shift + alt + F`
 - ![CPH logo](https://divyanshuagrawal.gallerycdn.vsassets.io/extensions/divyanshuagrawal/competitive-programming-helper/2024.7.1721655847/1721655861341/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[Competitive Programming Helper](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) esta es la extensión para poder, probar los códigos antes de publicar y también podremos subir directamente los códigos a codeforces de una manera muy rápida
 
 #### Temas recomendados para VScode: 
@@ -217,7 +216,10 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
     ```
 {: .prompt-info }
 
-### con gcc/g++
+### Con GNU gcc/g++
+
+> Si tu versión de MacOS es menor a la 13 (Ventura), al tratar de instalar gcc con `brew install gcc --force-bottle` saltara el mensaje `Error: --force-bottle passed but gcc has no bottle`, por lo que tus dos opciones son: compilar gcc manualmente con `brew install gcc` (esta opción no es recomendada porque tarda mucho tiempo), o instalar [MacPorts](https://www.macports.org/install.php) e instalar gcc14 con el comando `sudo port install gcc14` y continuar con el 3 paso.
+{: .prompt-warning}
 
 1. Primero, si no lo tenemos instalado ya, procedemos a instalar el gestor de paquetes de la comunidad para MacOs ![homebrew logo](https://brew.sh/assets/img/homebrew.svg){: w="10" h="10" } [homebrew](https://brew.sh/) abriendo una terminal y ejecutando el comando, para después dar varios enters:
     ```zsh
@@ -226,7 +228,11 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 1. después en instalamos el compilador gcc (el cual incluye g++ y la libreria `<bits/stdc++.h>`)
     ```zsh
     brew analytics off
-    brew update && brew install gcc
+    brew update
+    brew install gcc --force-bottle
+    ```
+1. luego quitamos el comilador g++ ligado a clang, para poder agregar el g++ ligado a GNU
+    ```zsh
     sudo rm /usr/local/bin/g++
     sudo ln -s $(ls /usr/local/bin/g++-*) /usr/local/bin/g++
     ```
