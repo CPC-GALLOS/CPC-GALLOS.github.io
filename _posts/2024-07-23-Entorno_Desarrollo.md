@@ -216,21 +216,25 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
     ```
 {: .prompt-info }
 
+{: .prompt-info }
+
 ### Con GNU gcc/g++
 
-> Si tu versión de MacOS es menor a la 13 (Ventura), al tratar de instalar gcc con `brew install gcc --force-bottle` saltara el mensaje `Error: --force-bottle passed but gcc has no bottle`, por lo que tus dos opciones son: compilar gcc manualmente con `brew install gcc` (esta opción no es recomendada porque tarda mucho tiempo), o instalar [MacPorts](https://www.macports.org/install.php) e instalar gcc14 con el comando `sudo port install gcc14` y continuar con el 3 paso.
-{: .prompt-warning}
+#### Opción 1 - Para MacOS >= 13 (Ventura), con Homebrew 
 
-1. Primero, si no lo tenemos instalado ya, procedemos a instalar el gestor de paquetes de la comunidad para MacOs ![homebrew logo](https://brew.sh/assets/img/homebrew.svg){: w="10" h="10" } [homebrew](https://brew.sh/) abriendo una terminal y ejecutando el comando, para después dar varios enters:
+1. Primero, si no lo tenemos ya instalado, procedemos a instalar el gestor de paquetes de la comunidad para MacOs ![homebrew logo](https://brew.sh/assets/img/homebrew.svg){: w="10" h="10" } [homebrew](https://brew.sh/) abriendo una terminal y ejecutando el comando, para después dar varios enters:
     ```zsh
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
-1. después en instalamos el compilador gcc (el cual incluye g++ y la libreria `<bits/stdc++.h>`)
+1. después actualizamos los repositorios e instalamos el compilador gcc (el cual incluye g++ y la libreria `<bits/stdc++.h>`)
     ```zsh
-    brew analytics off
+    brew analytics off # opcional, desactiva la telemetría
     brew update
     brew install gcc --force-bottle
     ```
+    > si sale el mensaje `Error: --force-bottle passed but gcc has no bottle` sigue la opción 2 con [Macports](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#opción-2---para-macos--13-monterey-y-anteriores-con-macports) 
+    {: .prompt-warning}
+
 1. luego quitamos el comilador g++ ligado a clang, para poder agregar el g++ ligado a GNU
     ```zsh
     sudo rm /usr/local/bin/g++
@@ -238,11 +242,32 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
     ```
 1. Al final tenemos que recargar la terminal y/o Vscode, para ver reflejados los cambios
 
+#### Opción 2 - Para MacOS < 13 (Monterey y anteriores), con MacPorts
+
+1. Primero, si no lo tenemos ya instalado, procedemos a instalar Herramientas para desarrolladores de Apple ejecutando el siguiente comando en una terminal:  
+    ```zsh
+    xcode-select --install
+    ```
+1. ahora instalamos el gestor de paquetes ![Macports logo](https://avatars.githubusercontent.com/u/4225322?s=280&v=4){: w="20" h="20" }
+ [MacPorts](https://www.macports.org/install.php) descargando el `.dmg` y siguiendo las indicaciones.
+1. después actualizamos los repositorios e instalamos el compilador gcc (el cual incluye g++ y la libreria `<bits/stdc++.h>`)
+    ```zsh
+    sudo port selfupdate
+    sudo port install gcc14
+    ```
+1. luego quitamos el comilador g++ ligado a clang, para poder agregar el g++ ligado a GNU
+    ```zsh
+    sudo rm /usr/local/bin/g++
+    sudo ln -s $(ls /opt/local/bin/g++-*) /usr/local/bin/g++
+    ```
+1. Al final tenemos que recargar la terminal y/o Vscode, para ver reflejados los cambios
+
+
 ### con Clang (Xcode)
 
 - Este es el compilador por defecto en ![Xcode logo](https://developer.apple.com/assets/elements/icons/xcode-12/xcode-12-96x96_2x.png){: w="15" h="15" } [Xcode](https://developer.apple.com/xcode/) y para instalar [Clang (LLVM)](https://clang.llvm.org/) ejecutaremos este comando en la ![MacOS terminal logo](https://help.apple.com/assets/63FFD63D71728623E706DB4F/63FFD63E71728623E706DB56/es_419/d94aa1c4979b25e9ffbda97fcbae219a.png){: w="15" h="15" } terminal:
     ```zsh
-    xcode-select install
+    xcode-select --install
     ```
 
 - Clang no incluye la librería `<bits/stdc++>`, necesaria para usar la [plantilla del club](https://cpc-gallos.github.io/blog/Plantilla/), por lo que tendremos que instalarla manualmente con los siguientes comandos:
