@@ -99,6 +99,8 @@ image:
     - Hasta $60 USD de descuento en tickets de [Walt Disney World® Resort Orlando](https://isic.memberperks.us/discounts/brands/disneyworldorlando)
     - Hasta 58% de descuento en [HP USA](https://isic.memberperks.us/discounts/offer/1:40780).
 
+- **tymo by ISIC France** es una aplicación en la [playstore](https://play.google.com/store/apps/details?id=fr.newxt.isicheck) y [appstore](https://apps.apple.com/us/app/tymo-by-isic-france/id989705485?l=es-MX) donde podras disfrutar de beneficios exclusivos para estudiantes de [2enjoy.fr](https://2enjoy.fr/) y de la tarjeta ISIC (Es necesario contar con la tarjeta [ISIC](https://www.isic.org/cards/get-your-card/) primero), estos beneficios son unicamente para el pais de Francia, pero tiene descuentos muy buenos como los descuentos en el parque de [Disneyland Paris](https://2enjoy.fr/selections/2enjoy-disneyland-paris). 
+
 > También puedes obtener la tarjeta ISIC totalmente gratis a traves de una cuenta Westpac Choice siguiendo esta [guia](https://www.pointhacks.com.au/product-guide/westpac-isic-card-guide/)
 {: .prompt-tip }
 

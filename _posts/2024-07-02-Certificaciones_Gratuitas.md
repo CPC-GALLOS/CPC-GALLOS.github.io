@@ -178,7 +178,7 @@ En si coursera no es gratis, pero la mayoría de cursos tienen la opción de aud
 ## Insignias
 
 
-## Insignias de Google Cloud
+### Insignias de Google Cloud
 
 [Google Cloud Skills Boost](https://www.cloudskillsboost.google/paths)
 - [Google Cloud Computing Foundations Certificate](https://www.cloudskillsboost.google/paths/36)
@@ -278,13 +278,22 @@ Huawei ofrece cursos gratuitos acerca de la nube e infraestructura de Huawei a t
 ### Insignias de Amazon
 
 Amazon ofrece estas insignias como parte de su [entrenamiento gratuito de AWS](https://aws.amazon.com/es/training/badges/), quizás no 
-sean tan importantes como sus certificaciones de AWS, pero pueden servir como motivador para después conseguirlas.
+sean tan importantes como sus certificaciones de AWS, pero pueden servir como motivador para después conseguirlas. También Amazon ofrece cursos gratuitos para estudiantes a travez de [AWS Educate](https://www.awseducate.com/registration/s/registration-detail?language=en_US);
 
 - [Migration Foundations](https://explore.skillbuilder.aws/learn/public/learning_plan/view/1991/migration-foundations-knowledge-badge-readiness-path?trk=e6934e10-170d-4c94-bf7b-b88f95ed0f47&sc_channel=el)
 - [Networking Core](https://explore.skillbuilder.aws/learn/public/learning_plan/view/1944/networking-core-knowledge-badge-readiness-path?trk=e6934e10-170d-4c94-bf7b-b88f95ed0f47&sc_channel=el)
 - [Cloud Essentials](https://explore.skillbuilder.aws/learn/public/learning_plan/view/82/cloud-essentials-learning-plan?trk=e6934e10-170d-4c94-bf7b-b88f95ed0f47&sc_channel=el)
 - [Serverless](https://explore.skillbuilder.aws/learn/public/learning_plan/view/92/serverless-learning-plan?trk=e6934e10-170d-4c94-bf7b-b88f95ed0f47&sc_channel=el)  
 - [Solutions Architect](https://explore.skillbuilder.aws/learn/public/learning_plan/view/1044/solutions-architect-learning-plan-earn-a-learning-badge?trk=8c13936a-6ba2-46cd-a416-69143c458b12&sc_channel=sm)
+
+
+### Insignias SASE de Cato Networks
+
+[Cato Networks](https://www.catonetworks.com/sase/sase-certification/) ofrece 3 tipos de certificaciones de SASE (Secure Access Service Edge) el cual es es un marco de servicios de seguridad de red en una plataforma global basada en la nube. 
+
+- **SASE Essentials**: [SASE Expert Level 1](https://www.catonetworks.com/sase/sase-certification/sase-expert-level-1/), [SASE Expert Level 2](https://www.catonetworks.com/sase/sase-certification/sase-expert-level-2/) y [SSE Expert](https://www.catonetworks.com/sase/sase-certification/sse-expert)
+- **SASE Advanced**: [Advanced Security](https://www.catonetworks.com/sase/sase-certification/advanced-security) y [SASE Deployment & Management](https://www.catonetworks.com/sase/sase-certification/deployment-and-management)
+- **SASE Executive**: [Business Impact & Strategy](https://www.catonetworks.com/sase/sase-certification/business-impact-and-strategy)
 
 ## Referencias
 

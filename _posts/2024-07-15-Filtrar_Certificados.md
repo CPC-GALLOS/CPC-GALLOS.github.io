@@ -190,6 +190,7 @@ image:
           <label><input type="radio" name="issuer" value="kaggle"       onchange="filterCards()"> Kaggle </label>
           <label><input type="radio" name="issuer" value="freecodecamp" onchange="filterCards()"> Free Code Camp </label>
           <label><input type="radio" name="issuer" value="carlosslim"   onchange="filterCards()"> Fundación Carlos Slim </label>
+          <label><input type="radio" name="issuer" value="cato"   onchange="filterCards()"> Cato Networks </label>
         <h4>Filtrado por tema</h4>
           <label><input type="checkbox" value="english"       onchange="filterCards()"> 📚 Inglés </label>
           <label><input type="checkbox" value="cybersecurity" onchange="filterCards()"> 🔒 Ciberseguridad </label>
@@ -603,5 +604,24 @@ image:
   <div class="custom_card center" data-tags="badge amazon cloud">
     <a href="https://explore.skillbuilder.aws/learn/public/learning_plan/view/1044/solutions-architect-learning-plan-earn-a-learning-badge?trk=8c13936a-6ba2-46cd-a416-69143c458b12&sc_channel=sm">AWS Solutions Architect</a>
   </div>
+  <div class="custom_card center" data-tags="badge cato cloud networks">
+    <a href="https://www.catonetworks.com/sase/sase-certification/sase-expert-level-1">CATO SASE Expert Level 1</a>
+  </div>
+  <div class="custom_card center" data-tags="badge cato cloud networks">
+    <a href="https://www.catonetworks.com/sase/sase-certification/sase-expert-level-2">CATO SASE Expert Level 2</a>
+  </div>
+  <div class="custom_card center" data-tags="badge cato cloud networks">
+    <a href="https://www.catonetworks.com/sase/sase-certification/sse-expert/">CATO SASE Expert</a>
+  </div>
+  <div class="custom_card center" data-tags="badge cato cloud networks cyberSecurity">
+    <a href="https://www.catonetworks.com/sase/sase-certification/advanced-security">CATO Advanced Security</a>
+  </div>
+  <div class="custom_card center" data-tags="badge cato cloud networks devops">
+    <a href="https://www.catonetworks.com/sase/sase-certification/advanced-security">CATO SASE Deployment & Management</a>
+  </div>
+  <div class="custom_card center" data-tags="badge cato cloud networks pm">
+    <a href="https://www.catonetworks.com/sase/sase-certification/business-impact-and-strategy">CATO Business Impact & Strategy</a>
+  </div>
+
 
 </div><!-- custom_container -->
