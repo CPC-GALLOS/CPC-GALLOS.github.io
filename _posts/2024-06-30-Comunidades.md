@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,comunidad]
 pin: false
 mermaid: false
-image:
+image: /assets/img/posts/Discord_ICPC.png
 ---
 
 ## Comunidades de Discord en Español

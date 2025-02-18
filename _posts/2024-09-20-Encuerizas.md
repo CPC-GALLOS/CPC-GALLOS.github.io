@@ -7,7 +7,7 @@ author: ArielParra
 tags: [historia,C++,concursos]
 pin: true
 mermaid: false
-image:
+image: /assets/img/posts/Encueriza.jpg
 ---
 
 ## ¿Qué es una Encueriza?
@@ -16,8 +16,11 @@ Las *Encuerizas* es el término con el que llamamos a nuestras competencias loca
 
 Nuestro término de la palabra *Encueriza* tiene un significado profundo; sus orígenes datan de la Antigua Grecia, donde el gimnasio era un lugar de desarrollo físico y espiritual, y los atletas competían desnudos, simbolizando pureza y dedicación. Siguiendo ese espíritu, en nuestras *Encuerizas*, los competidores se enfrentan a los retos de la **programación competitiva** despojados de distracciones, temores o dudas, mostrando su auténtico potencial al desnudar mente y alma con cada desafío. 
 
+
 ## Encuerizas 2024
 
+
+- [5_ENCUERIZA](https://vjudge.net/contest/668453) 
 - [4_ENCUERIZA](https://vjudge.net/contest/664920)
 - [3_ENCUERIZA](https://vjudge.net/contest/660006)
 - [2_ENCUERIZA](https://vjudge.net/contest/653728)

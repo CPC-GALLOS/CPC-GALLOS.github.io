@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,egresados,estudiantes]
 pin: false
 mermaid: false
-image:
+image: 
 ---
 
 El camino hacia el exito no es lineal, cada persona construye su propio camino, ya sea a través de la educación, la experiencia laboral o la constante actualización en diversas áreas del conocimiento. Este post está diseñado para guiar a estudiantes, egresados y profesionales que buscan crecer en sus carreras, ofreciendo una vista a los diferentes puntos de especialización para un desarrollo profesional destacable.
@@ -102,7 +102,7 @@ El doctorado implica un compromiso con la investigación, el desarrollo de una t
 
 ### ¿Qué es el Networking?
 
-El networking es la habilidad de crear y mantener redes de contactos profesionales que fomentan oportunidades y crecimiento en tu carrera laboral. Este proceso puede iniciarse en etapas educativas, como el bachillerato o la universidad, y debe considerarse una actividad continua, enriquecida al asistir a eventos de tecnología y otros espacios de interés compartido.
+El networking es la habilidad de crear y mantener redes de contactos profesionales que fomentan oportunidades y crecimiento en tu carrera laboral. Este proceso puede iniciarse en etapas educativas, como el bachillerato o la universidad, y debe considerarse una actividad continua, enriquecida al asistir a [eventos de tecnología](https://cpc-gallos.github.io/blog/Eventos_Tecnologia/) y otros espacios de interés compartido.
 
 ### Objetivos del Networking
 
@@ -157,7 +157,7 @@ El networking es la habilidad de crear y mantener redes de contactos profesional
 Tener un título universitario no es suficiente en el campo laboral de la tecnología. Es necesario tener conocimientos en múltiples tecnologías y saber aplicarlas. Además, es fundamental validar esos conocimientos, y la mejor manera de hacerlo es obteniendo una certificación o un certificado que los respalde.
 
 **Certificaciones**: La principal diferencia entre certificaciones (certifications) y certificados (certificates) radica en el proceso y la validación. Las certificaciones generalmente implican un costo asociado a un voucher para realizar un examen protectorado (supervisado) a través de Pearson VUE, PSI u otros proveedores. Debido a este riguroso proceso, las certificaciones tienen un mayor peso y validez en el ámbito laboral.
-Tambíen el obtener [certificaciones relaciónas a idiomas](https://cpc-gallos.github.io/blog/Idiomas) o en especifico al idioma inglés, como IELTS o TOEFL, son especialmente útil para acceder a empleos internacionales y validar tus habilidades comunicativas, ampliando así tus oportunidades laborales.
+Tambíen el obtener [certificaciones relaciónas a idiomas](https://cpc-gallos.github.io/blog/Idiomas) o en especifico al idioma inglés, como [IELTS](https://cpc-gallos.github.io/blog/Idiomas/#ielts) o [TOEFL](https://cpc-gallos.github.io/blog/Idiomas/#toefl-itp), son especialmente útil para acceder a empleos internacionales y validar tus habilidades comunicativas, ampliando así tus oportunidades laborales.
 
 **Certificados**: Por otro lado, los certificados son diplomas, constancias o reconocimientos otorgados al completar un curso, bootcamp, proyecto, examen sin protectorado etc. Aunque valiosos, no tienen la misma validación rigurosa que las certificaciones.
 
@@ -184,6 +184,12 @@ Tambíen el obtener [certificaciones relaciónas a idiomas](https://cpc-gallos.g
     - [Cómo Contribuir al Código Abierto](https://opensource.guide/how-to-contribute/)
     - [Google Summer of Code](https://summerofcode.withgoogle.com/)
     - [CodeTriage](https://www.codetriage.com/)
+
+<!-- ## Resume / Curriculum vitae (CV)
+
+> Recomiendo revisar el[subreddit de r/resumes](https://www.reddit.com/r/resumes/wiki/index/) para revisiones y más recomendaciones.
+{: .prompt-tip } -->
+
 
 ## Áreas de especialización y Profesiones
 

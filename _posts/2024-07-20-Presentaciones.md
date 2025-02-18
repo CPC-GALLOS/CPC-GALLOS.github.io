@@ -7,7 +7,7 @@ author: ArielParra
 tags: [presentaciones,clases,cursos]
 pin: true
 mermaid: false
-image:
+image: /assets/img/posts/Presentaciones.png
 ---
 
 ## Presentaciones 2024

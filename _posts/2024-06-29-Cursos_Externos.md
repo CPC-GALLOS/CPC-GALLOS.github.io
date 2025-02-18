@@ -7,7 +7,7 @@ author: ArielParra
 tags: [cursos,clases]  
 pin: true
 mermaid: false
-image:
+image: /assets/img/posts/USACO.png
 ---
 
 __Tabla de Contenidos:__

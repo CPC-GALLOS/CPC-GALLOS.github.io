@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,C++,compiladores]
 pin: true
 mermaid: false
-image:
+image: /assets/img/posts/Entorno_Desarrollo/cs50dev.png
 ---
 
 > En Android 12 y posteriores, suele haber el error ["Process completed (signal 9)"](https://github.com/termux/termux-app/issues/2366#issuecomment-1237468220) dentro de <i class="fa-solid fa-terminal"></i> termux. Para solucionarlo, favor de ir a este [blog por Andronix](https://docs.andronix.app/android-12/andronix-on-android-12-and-beyond#solutions)
@@ -22,7 +22,7 @@ __Tabla de Contenidos:__
 
 1. Primero crearemos una cuenta de GitHub <https://github.com/signup> 
 1. Después creamos un repositorio (proyecto) en  <https://github.com/new>
-1. Luego descargamos git desde la pagina oficial <https://git-scm.com/downloads> o con el gestor de paquetes de cada sistema operativo
+1. Luego descargamos git desde la página oficial <https://git-scm.com/downloads> o con el gestor de paquetes de cada sistema operativo
     - En <i class="fa-brands fa-microsoft"></i> Windows en ![powershell logo](https://nattia.com/wp-content/uploads/2024/04/Servicios-de-PowerShell.png){: w="15" h="15" } Powershell con el comando: 
     ```powershell
     winget update ; winget install -e --id Git.Git
@@ -110,7 +110,7 @@ La ventaja de usar un IDE en línea es la disponibilidad en cualquier dispositiv
 
 ## VScode IDE 
 
-No confundir con [Visual Studio](https://visualstudio.microsoft.com/). VScode es el editor recomendado por el Club, esto debido principalmente por su amplio catalogo de extensiones. Para instalarlo podemos hacerlo desde su pagina web o usando el gestor de paquetes 
+No confundir con [Visual Studio](https://visualstudio.microsoft.com/). VScode es el editor recomendado por el Club, esto debido principalmente por su amplio catalogo de extensiones. Para instalarlo podemos hacerlo desde su [página web](https://code.visualstudio.com/) o usando el gestor de paquetes 
 
 - En <i class="fa-brands fa-microsoft"></i> Windows en ![powershell logo](https://nattia.com/wp-content/uploads/2024/04/Servicios-de-PowerShell.png){: w="15" h="15" } Powershell con el comando: 
 ```powershell
@@ -135,9 +135,9 @@ brew install --cask visual-studio-code
 ### Extensiones para VScode
 
 - ![C/C++ logo](https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/cpptools/1.21.2/1721683708278/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" } [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) esta es la extensión necesaria para poder correr código de C++ dentro de VScode
-- ![code runner logo](https://formulahendry.gallerycdn.vsassets.io/extensions/formulahendry/code-runner/0.12.2/1712309175692/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) esta es una extensión opcional que acelera el proceso de compilación en VScode
 - ![Error lens logo](https://usernamehw.gallerycdn.vsassets.io/extensions/usernamehw/errorlens/3.20.0/1719044874383/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[Error lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) esta extensión nos muestra los errores que va dando el IDE o el compilador.
 - ![Prettier logo](https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/10.4.0/1711025051911/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) esta extensión le da formato a nuestro código al presionar la combinación de teclas `shift + alt + F`
+
 - ![CPH logo](https://divyanshuagrawal.gallerycdn.vsassets.io/extensions/divyanshuagrawal/competitive-programming-helper/2024.7.1721655847/1721655861341/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[Competitive Programming Helper](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) esta es la extensión para poder, probar los códigos antes de publicar y también podremos subir directamente los códigos a codeforces de una manera muy rápida
 
 #### Temas recomendados para VScode: 

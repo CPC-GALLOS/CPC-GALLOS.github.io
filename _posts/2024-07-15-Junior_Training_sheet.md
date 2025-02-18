@@ -7,7 +7,7 @@ author: ArielParra
 tags: [cursos]
 pin: false
 mermaid: false
-image:
+image: /assets/img/posts/JuniorTrainingSheet.png
 ---
 [Mostafa Saad Ibrahim](https://sites.google.com/site/mostafasibrahim/home) es el creador del Junior Training Sheet. Mostafa Saad Ibrahim es un investigador en el campo de *Computer Vision* y actualmente trabaja en Huawei. Tiene un doctorado de la Universidad Simon Fraser (SFU). Además, cuenta con una destacada trayectoria en la programación competitiva y la ingeniería de software. Anteriormente, fue finalista en el ACM ICPC. También ha trabajado como ingeniero de software y como maestro en la Facultad de Informática y Ciencias de la Computación de la Universidad del Cairo (FCI-CU).
 
