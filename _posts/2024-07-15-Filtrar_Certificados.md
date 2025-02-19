@@ -190,7 +190,8 @@ image:
           <label><input type="radio" name="issuer" value="kaggle"       onchange="filterCards()"> Kaggle </label>
           <label><input type="radio" name="issuer" value="freecodecamp" onchange="filterCards()"> Free Code Camp </label>
           <label><input type="radio" name="issuer" value="carlosslim"   onchange="filterCards()"> Fundación Carlos Slim </label>
-          <label><input type="radio" name="issuer" value="cato"   onchange="filterCards()"> Cato Networks </label>
+          <label><input type="radio" name="issuer" value="cato"         onchange="filterCards()"> Cato Networks </label>
+          <label><input type="radio" name="issuer" value="wolfram"      onchange="filterCards()"> Wolfram U </label>
         <h4>Filtrado por tema</h4>
           <label><input type="checkbox" value="english"       onchange="filterCards()"> 📚 Inglés </label>
           <label><input type="checkbox" value="cybersecurity" onchange="filterCards()"> 🔒 Ciberseguridad </label>
@@ -201,7 +202,7 @@ image:
           <label><input type="checkbox" value="programming"   onchange="filterCards()"> 👨‍💻 Programación </label>
           <label><input type="checkbox" value="fullstack"     onchange="filterCards()"> ⚙️ Full Stack </label>
           <label><input type="checkbox" value="datascience"   onchange="filterCards()"> 📊 Ciencia de Datos </label>
-          <label><input type="checkbox" value="ai"            onchange="filterCards()"> 🤖 IA </label>
+          <label><input type="checkbox" value="ai"            onchange="filterCards()"> 🤖 ML - AI </label>
           <label><input type="checkbox" value="database"      onchange="filterCards()"> 🗄️ Bases de datos </label>
           <label><input type="checkbox" value="pm"            onchange="filterCards()"> 📋 Administración de proyectos </label>
     </div><!--filters custom_card-->
@@ -210,6 +211,9 @@ image:
 <div class="custom_container grid">
 
   <!-- certifications -->
+  <div class="custom_card center" data-tags="certification english">
+    <a href="https://www.efset.org/">EF SET English certification test</a>
+  </div>
   <div class="custom_card center" data-tags="certification oracle pm">
     <a href="https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1">Oracle Project Management Foundations Associate (Beta)</a>
   </div>
@@ -395,6 +399,12 @@ image:
   <div class="custom_card center" data-tags="certificate helsinki ai">
     <a href="https://www.elementsofai.com/">Helsinki Elements of AI</a>
   </div>
+  <div class="custom_card center" data-tags="certificate helsinki ai">
+    <a href="https://buildingai.elementsofai.com/">Helsinki Building AI</a>
+  </div>
+  <div class="custom_card center" data-tags="certificate helsinki cybersecurity">
+    <a href="https://cybersecuritybase.mooc.fi/">Helsinki Cyber Security Base 2025</a>
+  </div>
   <div class="custom_card center" data-tags="certificate linux devops">
     <a href="https://training.linuxfoundation.org/training/git-for-distributed-software-development-lfd109x/">Linux Git for Distributed Software Development</a>
   </div>
@@ -424,6 +434,15 @@ image:
   </div>
   <div class="custom_card center" data-tags="certificate microsoft ai">
     <a href="https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin">MS Career Essentials in Generative AI</a>
+  </div>
+  <div class="custom_card center" data-tags="certificate wolfram ai">
+    <a href="https://www.wolfram.com/wolfram-u/courses/machine-learning/neural-networks-introduction-wolfram-language-ml202/">Wolfram Introduction to Neural Networks</a>
+  </div>
+  <div class="custom_card center" data-tags="certificate wolfram ai">
+    <a href="https://www.wolfram.com/wolfram-u/courses/machine-learning/introduction-to-machine-learning-ml201/">Wolfram Introduction to Machine Learning</a>
+  </div>
+  <div class="custom_card center" data-tags="certificate wolfram ai">
+    <a href="https://www.wolfram.com/wolfram-u/courses/machine-learning/wolfram-language-and-llms-ml215/">Wolfram Language and LLMs</a>
   </div>
   
   <!-- badges -->

@@ -20,7 +20,8 @@ image: /assets/img/posts/Discord_ICPC.png
 - [Clearn Architecture](https://discord.com/invite/rxVhJMKPQD) Discord oficial del Club de Programación competitiva de la UADY.
 - [Omega UP](https://discord.com/invite/K3JFd9d3wk) Es una organización sin fines de lucro de América Latina para impulsar la tecnología a traves de la programación competitiva.
 - [CAUS](https://discord.com/invite/gEbbJrzEYZ) Club de Algoritmia de la Universidad de Sevilla en España.
-
+- [ACM UPM](https://discord.com/invite/UvUyYWW) Discord del club ACM-ICPC de la Universidad Politécnica de Madrid
+- [CPC UTEC](https://discord.com/invite/AKbMzpWgRs)
 ## Comunidades de Discord en Inglés
 
 - [Junior Training Sheet](https://discord.gg/BPXwwcBVZJ) Discord del finalista de ICPC, Mostafa Saad, para el acompañamiento de su Junior Training sheet exclusivamente.

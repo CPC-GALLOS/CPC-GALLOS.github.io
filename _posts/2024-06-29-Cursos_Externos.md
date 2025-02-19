@@ -54,8 +54,8 @@ __Tabla de Contenidos:__
 Los Training Camps son eventos organizados en diversas universidades, tanto nacionales como internacionales, que ofrecen opciones de asistencia presencial y en línea. Durante una semana, se llevan a cabo cursos intensivos de capacitación enfocados en la programación competitiva, como el ICPC. Estos campamentos proporcionan a los participantes herramientas y estrategias para mejorar sus habilidades, así como la oportunidad de interactuar con expertos y otros entusiastas del ámbito.
 
 - [ITESM acm student chapter: Spring Camp](https://acmmty.com/Trainings/)
-- [TCMX: Training Camp Mexico](https://tcmx.icpcmexico.org/)
-- [Club de Algoritmia ESCOM IPN: ntrenamiento en Programación Competitiva](https://algoritmiaescom.eakdemy.com/)
+- [TCMX: Training Camp Mexico](https://tcmx.icpcmexico.org/) y [ACM MTY](https://www.acmmty.com/tcmx/)
+- [Club de Algoritmia ESCOM IPN: entrenamiento en Programación Competitiva](https://algoritmiaescom.eakdemy.com/) realizan eventos de Invierno(enero/febrero) y verano (agosto/septiembre) de entrenamiento en Programación Competitiva
 - [Asociación Argentina de Programación Competitiva:Training Camp](https://www.pc-arg.com/tc-arg/)
 - [Training Camp Medillin](https://www.tcmedellin.com/)
 - [ICPC Global Training Camps](https://icpc.global/regionals/finder/ICPC-Camp) & [ICPC Foundation Training Camps](https://u.icpc.global/camps/)
@@ -74,6 +74,7 @@ Los Training Camps son eventos organizados en diversas universidades, tanto naci
 - [Club de Programación competitiva de la UADY](https://sites.google.com/view/cpcfmat-uady/entrenamientos/iniciaci%C3%B3n)
 - [Club de la Universidad Rey Juan Carlos](https://github.com/isaaclo97/programacion-competitiva/tree/main/Cursos)
 - [GPC-UNI](https://peon-pasado.github.io/competitive-programming-classes/web/index.html)
+- [ACM UPM](https://github.com/acmfi/introduccion_programacion23/tree/main)
 
 ## Cursos de Universidades
 

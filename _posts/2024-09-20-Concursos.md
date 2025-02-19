@@ -254,6 +254,7 @@ Más información en  [HPECodewars.org](https://hpecodewars.org/)
 - Comunidad de Programación Competitiva del ITESO. (s.f.). *Blog ICPC ITESO*. Recuperado de <https://blogs.iteso.mx/acm/>
 - ICPC. (s.f.). *About ICPC*. Recuperado de<https://icpc.global/regionals/abouticpc>
 - Muhammad, S. *Compete, Code, Conquer: Your Ultimate Guide to the Meta Hacker Cup 2024*. Recuperado de <https://www.linkedin.com/pulse/compete-code-conquer-your-ultimate-guide-meta-hacker-cup-saqlain-k8wsf/>
+- UAM. (s.f.). *Concurso de Programación de la UAM "Luis Erick González Moreno"*. Recuperado de <https://academicos.azc.uam.mx/franz/acm/>
 - UAZ. (s.f.). *Olimpiadas estatales de tecnología*. Recuperado de <https://ingsoftware.uaz.edu.mx/olimpiadas-estatales-de-tecnologia/>
 - Wikipedia. (s.f.). *Competitive programming*. Recuperado de <https://en.wikipedia.org/wiki/Competitive_programming>
 - Wikipedia. (s.f.). *International Olympiad in Informatics*. Recuperado de <https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics>

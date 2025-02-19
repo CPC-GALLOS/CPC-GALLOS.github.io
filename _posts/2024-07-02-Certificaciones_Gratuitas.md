@@ -124,13 +124,14 @@ Cada [curso en Harvard](https://pll.harvard.edu/catalog?topics%5B702%5D=702&pric
 
 ### Cursos de la Universidad de Helsinki
 
-La universidad de Helsinki en Finlandia, es la universidad que vio la creación de Linux, por lo que es una reconocida universidad a nivel mundial, esta universidad ofrece un amplio [catalogo de cursos](https://www.classcentral.com/university/helsinki) con certificado a través de distintas páginas donde las tareas o actividades son entregadas en un moodle (como el aula virtual de la UAA).
+La universidad de Helsinki en Finlandia, es la universidad que vio la creación de Linux, por lo que es una reconocida universidad a nivel mundial, esta universidad ofrece un amplio [catalogo de cursos](https://www.mooc.fi/en/courses/?tag=en) con certificado a través de distintas páginas donde las tareas o actividades son entregadas en un moodle (como el aula virtual de la UAA).
 
 - [Python Programming MOOC 2024](https://programming-24.mooc.fi/) MOOC significa Massive Online Open Courses, en este caso es un curso anual de Python el cual puedes realizar a tu paso durante todo lo que reste del año.
 - [Java Programming MOOC](https://java-programming.mooc.fi/) es un buen curso de Java, aunque también recomendaría investigar más acerca de springboot o JAVAFX.
 - [DevOps with Docker](https://devopswithdocker.com/) y [DevOps with Kubernetes](https://devopswithkubernetes.com/) son cursos muy necesarios en el despliegue de aplicaciones en la nube.
 - [Full Stack open](https://fullstackopen.com/en/) curso de full stack (front end y back end)
-- [Elements of AI](https://www.elementsofai.com/) introducción a la Inteligencia Artificial.
+- [Elements of AI](https://www.elementsofai.com/) introducción a la Inteligencia Artificial y al terminar realiza el siguiente curso [Building AI](https://buildingai.elementsofai.com/).
+- [Cyber Security Base](https://cybersecuritybase.mooc.fi/) introducción a ciberseguridad.
 
 ### Cursos por Linux Foundation
 
@@ -152,6 +153,14 @@ Múltiples certificados sacados por LinkedIn en colaboración con Microsoft para
 - [Career Essentials in Project Manager](https://www.linkedin.com/learning/paths/career-essentials-in-project-management-by-microsoft-and-linkedin)
 - [Career Essentials in Cybersecurity](https://www.linkedin.com/learning/paths/career-essentials-in-cybersecurity-by-microsoft-and-linkedin)
 - [Career Essentials in Generative AI](https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin)
+
+### Cursos por Wolfram U
+
+[Wolfram U](https://www.wolfram.com/wolfram-u/certifications/) Tienen varios cursos y webinares gratuitos, personalmente recomiendo los de Machine Learning:
+- [Introduction to Neural Networks in Wolfram Language](https://www.wolfram.com/wolfram-u/courses/machine-learning/neural-networks-introduction-wolfram-language-ml202/)
+- [Introduction to Machine Learning in Wolfram Language](https://www.wolfram.com/wolfram-u/courses/machine-learning/introduction-to-machine-learning-ml201/)
+- [Wolfram Language and LLMs](https://www.wolfram.com/wolfram-u/courses/machine-learning/wolfram-language-and-llms-ml215/)
+
 
 ## Cursos en Coursera
 
@@ -180,11 +189,11 @@ En si coursera no es gratis, pero la mayoría de cursos tienen la opción de aud
 
 ### Insignias de Google Cloud
 
-[Google Cloud Skills Boost](https://www.cloudskillsboost.google/paths)
+- [Google Cloud The Arcade (qwiklabs)](https://go.qwiklabs.com/arcade)
+- [Google Cloud Skills Boost](https://www.cloudskillsboost.google/paths)
 - [Google Cloud Computing Foundations Certificate](https://www.cloudskillsboost.google/paths/36)
 - [Beginner: Google Cloud Cybersecurity Certificate](https://www.cloudskillsboost.google/paths/419)
 - [Beginner: Google Cloud Data Analytics Certificate](https://www.cloudskillsboost.google/paths/420)
-
 
 ### Insignia de Fortinet
 
