@@ -18,7 +18,7 @@ add-to-calendar-button {
     vertical-align: middle !important; 
 }
 </style>
-Este es el Club de Programación Competitiva Γα=Ω5 (GALLOS) en la Universidad Autónoma de Aguascalientes, el club está conformado por estudiantes certificados en problem-solving que buscan enseñar y reforzar los conocimientos del Análisis y Diseño de Algoritmos en el lenguaje de C++ con el objetivo de preparar y participar en torneos de programación competitiva a nivel local, nacional e internacional principalmente, pero no solo programamos en este club sino que también aspiramos a fortalecer tus habilidades y apoyarte en tu desarrollo profesional, proporcionando recursos y oportunidades para avanzar en tu carrera.
+Este es el Club de Programación Competitivae (GALLOS) en la Universidad Autónoma de Aguascalientes, el club está conformado por estudiantes certificados en problem-solving que buscan enseñar y reforzar los conocimientos del Análisis y Diseño de Algoritmos en el lenguaje de C++ con el objetivo de preparar y participar en torneos de programación competitiva a nivel local, nacional e internacional principalmente, pero no solo programamos en este club sino que también aspiramos a fortalecer tus habilidades y apoyarte en tu desarrollo profesional, proporcionando recursos y oportunidades para avanzar en tu carrera.
 - **¿Cuando?** Damos clases los días lunes, miércoles y viernes de <ins>**2:00 a 4:00 pm**</ins> <add-to-calendar-button 
   name="Clases del club Γα=Ω5"
   description="Clases del club Γα=Ω5 en el laboratorio de inteligencia artificial del edificio 203 CU de la UAA de 2:00 a 4:00 pm"
