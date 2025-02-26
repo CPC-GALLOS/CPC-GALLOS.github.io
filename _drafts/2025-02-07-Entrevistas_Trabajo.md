@@ -24,16 +24,6 @@ Algunas de las formas en las que se agrupan las empresas **Big Tech** son:
 Sin embargo, el uso de entrevistas técnicas con problemas de programación no es exclusivo de las **Big Tech**. Otras empresas, como **C3.ai**, también implementan este tipo de evaluaciones en sus procesos de selección.  
 
 
-## El proceso de la entrevista
-1. Recruiter/resume screen
-2. Preliminary interview(s)
-– Non-technical phone screen
-– 1-2 technical phone interviews
-– 1-2 technical on-campus interview
-– 1-2 online programming challenges
-3. On-site interview day(s)
-– 2-7 in-person technical interviews
-4. Follow-up technical phone/Skype interview(s
 
 ### Canales de Youtube para prepararse
 
@@ -43,7 +33,7 @@ Sin embargo, el uso de entrevistas técnicas con problemas de programación no e
 [freeCodeCamp.org: 10 Common Coding Interview Problems - Solved!](https://www.youtube.com/watch?v=Peq4GCPNC5c)
 
 
-### Plataformas con preguintas de entrevistas
+### Plataformas con preguntas de entrevistas
 
 [leetcode](https://leetcode.com/studyplan/)
 [hash.to](https://hashto.net/Resources)
@@ -55,7 +45,7 @@ Sin embargo, el uso de entrevistas técnicas con problemas de programación no e
 
 [Cracking the Coding Interview](https://archive.org/details/cracking-the-coding-interview-6th-edition-189-programming-questions-and-solutions_202312/page/590/mode/2up) este es el libro más popular para las entrevistas
 
-
+[Elements of Programming Interviews](https://github.com/qqqil/ebooks/blob/master/algorithms/Elements%20of%20Programming%20Interviews.pdf)
 [Coding Interview Patterns](https://www.amazon.com.mx/Coding-Interview-Patterns-Nail-Your/dp/1736049135/143-8196261-0490123?psc=1) Alex Xu
 [Beyond Cracking the Coding Interview](https://www.amazon.com.mx/Beyond-Cracking-Coding-Interview-Successfully/dp/195570600X?ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b)
 

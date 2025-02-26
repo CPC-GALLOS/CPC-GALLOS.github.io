@@ -34,8 +34,8 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 {: .prompt-info }
 
 - [Oracle One](https://www.oracle.com/mx/education/oracle-next-education/) es un curso de 6 meses de duración donde puedes certificarte en front end (React y javascript) ó en backend (Java y Springboot), en cualquier caso tienes que entregar 3 proyectos. 
-- [Tecnolochicas PRO](https://tecnolochicas.mx/registro-tcpro/) son un conjunto de cursos desarrollados por la Fundación Televisa en colaboración con Microsoft especialmente para estudiantes universitarios, el curso pro tiene dos cursos, un curso de diseño web y otro de Data Science tomados en horarios fijos.
 - [Bécalos Tech Challengue](https://techchallenge.becalos.mx/) es una beca desarrollada por la Fundación Televisa para aprender a programar e incursionarte en el desarrollo web.
+- [CPDA](https://cyberdialogueamericas.wordpress.com/youth-cyber-delegates/) el Cyber Policy Dialogue for the Americas (CPDA) ofrece su Programa de Delegados Jóvenes (Youth Delegate), que se enfoca en brindar recursos educativos integrales para 30 estudiantes universitarios mexicanos en el campo de temas cibernéticos y de tecnologías emergentes.
 - [SantanderX](https://www.santanderx.com/es/courses.html) cursos de varios temas mayomente enfocados a negocios y PYMES, pero hay cursos de tecnologia enfocados a la Ciberseguridad.
 - [Becas Santander](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=TECH&mode=ONLINE) tienen cursos muy variados como Full Stack, ciencia de datos, inteligencia artificial. En especial recomiendo los [cursos de inglés](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=LANGUAGE&mode=ONLINE).
 - [INROADS](https://inroads.org.mx/) es una organización latinoamericana aliada con Google, tiene dos programas principales: [Súbete a la Nube con Google Cloud](https://subetealanube.inroads.org.mx/) donde aprenderás de Infraestructura, Redes, Seguridad, Inteligencia Artificial, Data y Machine Learning. Y su otro programa es el de [Certificados de Carrera de Google](https://becas.inroads.org.mx/) donde podrás certificarte sobre Fundamentos de IA, Ciberseguridad y Análisis de Datos de Google en coursera.
@@ -46,6 +46,13 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Blockmakers](https://blockmakers.mx/) cursos creados en colaboración con el INCyTEA para temas de Blockchain, Solidity, Ciencia de Datos e introducción a la Inteligencia Artificial.
 - [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen varios tipos de bootcamps Motoko, Azle, ICP developer Javascript y Frontend Developer. 
 - [Diplomado en Educación Financiera por la CONDUSEF](https://inscripcion-diplomado.condusef.gob.mx/) este diplomado dura 3 meses y esta realizado en colaboración de Banco de México (Banxico), Bolsa Institucional de Valores (BIVA), Instituto Nacional de la Economía Social (INAES), Better than Cash Alliance, Cetesdirecto, Comisión Nacional Bancaria y de Valores (CNBV), Policía Cibernética y Secretaría de Hacienda y Crédito Público (SHCP).
+
+### Para Mujeres
+
+- [Tecnolochicas PRO](https://tecnolochicas.mx/registro-tcpro/) son un conjunto de cursos desarrollados por la Fundación Televisa en colaboración con Microsoft especialmente para estudiantes universitarios, el curso pro tiene dos cursos, un curso de diseño web y otro de Data Science tomados en horarios fijos.
+- [Conectadas by IYF](https://conectadasporti.com/) Conectadas by IYF de la International Youth Foundation & Google.Org, una iniciativa que busca aumentar la representación femenina en carreras de las TIC en México y con ello mejorar las oportunidades de empleabilidad para las mujeres de la región. 
+- [WOMCY](https://womcy.org/es/) Ofrecen cursos, eventos y becas de ciberseguridad principalmente para mujeres, contando con 3 programas: Educación, Corporativo y Desarrollo del Talento.
+- [FUNED Woman On Boards](https://www.funedmx.org/women-on-boards/) es un programa para promover un cambio radical en la composición de los Consejos de Administración en América Latina con oportunidades para viajar a los Estados Unidos junto con apoyo potencial de MSWoB en trámites de visa si es necesario.
 
 
 ## Exemenes de habilidades de Hackerrank con certificado
@@ -72,7 +79,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [GitHub Professional Certificate](https://www.linkedin.com/learning/paths/career-essentials-in-github-professional-certificate) certificado profesional sacado por Linkedin en colaboración con Github.
 - [OpenCV Bootcamp](https://opencv.org/university/free-opencv-course/) esta librería de Python es muy utilizada en el mercado, es usada para reconocimiento y análisis de imágenes ya sean estáticas o en tiempo real con una cámara.
 - [TensorFlow Bootcamp](https://opencv.org/university/free-tensorflow-keras-course) esta librería de Python creada por Google es indispensable para la creación de redes neuronales, las cuales son las bases de la inteligencia artificial.
-- [Motoko Bootcamp](https://www.motokobootcamp.com/) La categoria de "Self-Study" te enseña las bases del lenguaje de programación Motoko usado para "smart contracts" (blockchain) por el ICP (Internet Computer) donde al final reciviras un diploma.
+- [Motoko Bootcamp](https://www.motokobootcamp.com/) La categoria de "Self-Study" te enseña las bases del lenguaje de programación Motoko usado para "smart contracts" (blockchain) por el ICP (Internet Computer) donde al final recibiras un diploma.
 
 ### Diplomados de Capacítate Para el Empleo 
 [Capacítate Para el Empleo](https://capacitateparaelempleo.org/mostrar-diplomados) es una plataforma en español creada por la fundación Carlos Slim donde hay distintos diplomados de tecnología.
@@ -312,3 +319,4 @@ sean tan importantes como sus certificaciones de AWS, pero pueden servir como mo
 - Google. (s.f). *Grow With Google*. Recuperado de <https://grow.google/intl/es/courses-and-tools>
 - Indika_Wimalasuriya. (2023). *Free AWS Digital Badges - Boost Your Career and Job Prospects*. Recuperado de <https://dev.to/aws-builders/free-aws-digital-badges-boost-your-career-and-job-prospects-5e4h>
 - Munchy Bytes. (2024). *FREE Professional Certification Exams*. Recuperado de <https://github.com/munchy-bytes/FreeDevCertifications>
+- UADY. (2025). *STEM*. Recuperado de <https://uady.mx/stem/>

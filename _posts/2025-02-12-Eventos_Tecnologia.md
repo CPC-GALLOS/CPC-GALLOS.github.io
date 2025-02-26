@@ -53,6 +53,7 @@ Hackathon enfocado en la industria de la construcción. Temas clave:
 Eventos organizados por Internet Computer Protocol México en colaboración con el estado de Aguascalientes, centrados en blockchain.  
 - [NASA App Development Challenge](https://www.nasa.gov/learning-resources/app-development-challenge/) 
 Reto de programación para estudiantes de secundaria y preparatoria, donde NASA plantea problemas técnicos relacionados con la exploración espacial. Los participantes contribuyen a misiones como Artemis y futuras expediciones a Marte.  
+- [AWS DeepRacer](https://aws.amazon.com/es/deepracer/) y [AWS DeepRacer Student](https://aws.amazon.com/es/deepracer/student/?nc=sn&loc=4) Aprendaras los conceptos fundamentales del machine learning (ML) y aplicaras las técnicas de ML a través de carreras autónomas. .
 
 ## Referencias
 
