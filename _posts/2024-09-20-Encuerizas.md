@@ -17,8 +17,12 @@ Las *Encuerizas* es el término con el que llamamos a nuestras competencias loca
 Nuestro término de la palabra *Encueriza* tiene un significado profundo; sus orígenes datan de la Antigua Grecia, donde el gimnasio era un lugar de desarrollo físico y espiritual, y los atletas competían desnudos, simbolizando pureza y dedicación. Siguiendo ese espíritu, en nuestras *Encuerizas*, los competidores se enfrentan a los retos de la **programación competitiva** despojados de distracciones, temores o dudas, mostrando su auténtico potencial al desnudar mente y alma con cada desafío. 
 
 
-## Encuerizas 2024
+## Encuerizas 2025
 
+- [7_ENCUERIZA](https://vjudge.net/contest/697480)
+- [6_ENCUERIZA](https://vjudge.net/contest/695438)
+
+## Encuerizas 2024
 
 - [5_ENCUERIZA](https://vjudge.net/contest/668453) 
 - [4_ENCUERIZA](https://vjudge.net/contest/664920)

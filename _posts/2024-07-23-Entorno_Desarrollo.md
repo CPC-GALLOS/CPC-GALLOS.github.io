@@ -10,9 +10,6 @@ mermaid: false
 image: /assets/img/posts/Entorno_Desarrollo/cs50dev.png
 ---
 
-> En Android 12 y posteriores, suele haber el error ["Process completed (signal 9)"](https://github.com/termux/termux-app/issues/2366#issuecomment-1237468220) dentro de <i class="fa-solid fa-terminal"></i> termux. Para solucionarlo, favor de ir a este [blog por Andronix](https://docs.andronix.app/android-12/andronix-on-android-12-and-beyond#solutions)
-{: .prompt-danger}
-
 __Tabla de Contenidos:__
 * 
 {:toc} 
@@ -283,7 +280,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 ## Entorno de desarrollo en móviles <i class="fa-brands fa-android"></i> <i class="fa-brands fa-apple"></i> 
 
-> En ambos casos recomendamos más el uso de [IDEs en la nube](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-ides-en-la-nube-cloud) en especial el de la página <https://cs50.dev/>
+> En ambos casos recomendamos más el uso de [IDEs en la nube](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-ides-en-la-nube-cloud) en especial el de la página <https://cs50.dev/> el cual a travez de un navegador como safari, firefox o chromium puedes agregar un acceso directo a tus apliaciones.    
 {: .prompt-tip }
 
 ![cs50.dev ejemplo](/assets/img/posts/Entorno_Desarrollo/cs50dev.png){: w="600" h="300"}
@@ -294,6 +291,9 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 {: .prompt-tip }
 
 ### <i class="fa-solid fa-terminal"></i>terminal nativa + <i class="fa-solid fa-laptop-code"></i> editor de código
+> En Android 12 y posteriores, suele haber el error ["Process completed (signal 9)"](https://github.com/termux/termux-app/issues/2366#issuecomment-1237468220) dentro de <i class="fa-solid fa-terminal"></i> termux. Para solucionarlo, favor de ir a este [blog por Andronix](https://docs.andronix.app/android-12/andronix-on-android-12-and-beyond#solutions)
+{: .prompt-warning }
+
 
 Termux es la terminal nativa de Android, esta disponible en la PlayStore, pero suele estar desactualizada por lo que recomiendo descargarlo [directamente en GitHub](https://github.com/termux/termux-app) o a través de la tienda open-source [fdroid](https://f-droid.org/en/packages/com.termux/)
 
@@ -309,19 +309,25 @@ g++ archivo.cpp
 ./a.out
 ```
 
-Para los editores de código el club recomienda cualquiera de estas dos opciones: 
+Para los editores de código el club recomienda cualquiera de estas tres opciones: 
 
 1. ![Squircle CE logo](https://f-droid.org/repo/com.blacksquircle.ui/en-US/icon_FtV5qpmuJJ3IqYz5WwTDUqsxFK3kUeIONL3_hbDFlLg=.png){: w="15" h="15" } Squircle CE: disponible en la ![PlayStore logo](https://cdn-icons-png.flaticon.com/512/732/732208.png){: w="15" h="15" } [PlayStore](https://play.google.com/store/apps/details?id=com.blacksquircle.ui) o en ![fdroid logo](https://upload.wikimedia.org/wikipedia/commons/3/3c/F-Droid_Logo_4.svg){: w="15" h="15" } [fdroid](https://f-droid.org/es/packages/com.blacksquircle.ui/)
 1. ![Acode logo](https://f-droid.org/repo/com.foxdebug.acode/en-US/icon_ljuxslVt96jUyr6FANAPcSTfaLbw4C61GnouGefIK-Y=.png){: w="15" h="15" } Acode: disponible en la ![PlayStore logo](https://cdn-icons-png.flaticon.com/512/732/732208.png){: w="15" h="15" } [PlayStore](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree&hl=es_MX) o en ![fdroid logo](https://upload.wikimedia.org/wikipedia/commons/3/3c/F-Droid_Logo_4.svg){: w="15" h="15" } [fdroid](https://f-droid.org/es/packages/com.foxdebug.acode/)
+1. ![TermuC logo](https://f-droid.org/repo/cn.rbc.termuc/en-US/icon_WE_yAkj-9_v41rmYZUVU4WiZ8Zz_C-pasNnJGwBmOG0=.png){: w="15" h="15" } TermuC: disponible en ![fdroid logo](https://upload.wikimedia.org/wikipedia/commons/3/3c/F-Droid_Logo_4.svg){: w="15" h="15" } [fdroid](https://f-droid.org/packages/cn.rbc.termuc/)
 
 También recomiendo usar el explorador de archivos por defecto en Android "files" ya que este te permite acceder fácilmente a los archivos dentro de <i class="fa-solid fa-terminal"></i> termux, si no se tiene esta aplicación instalada se puede instalar esta versión similar: [files por marcapps](https://play.google.com/store/apps/details?id=com.marc.files&ref=apkcombo.com)
 
-### <i class="fa-solid fa-desktop"></i> escritorio nativo
+### <i class="fa-solid fa-desktop"></i> escritorios nativos
 
-Esto es recomendado para dispositivos de gama alta o dispositivos de más reciente y para usuarios un poco más avanzados, se necesitara instalar [termux-x11](https://github.com/termux/termux-x11) y seguir la guía de instalación de su GitHub y para el escritorio se ocupa seguir [esta guía por DroidMaster](https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/Documentation/native/termux_native.md) aparte que tendrás que instalar [extensiones manualmente](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix) para code-oss (VScode de termux).
+Estos metodos son recomendado para dispositivos de gama alta o dispositivos recientes, y  para usuarios un poco más avanzados, donde para [code-oss (VScode del tur-repo en termux)](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#vscode-ide) tendrás que instalar [extensiones manualmente](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix).
 
+- [farmerbb taskbar](https://github.com/farmerbb/Taskbar) similar a [samsung dex](https://www.samsung.com/es/apps/samsung-dex/) donde permite tener ventanas flotantes
+    ![taskbar Desktop](https://play-lh.googleusercontent.com/wGPml0clBKL27Ee0kL0rz3frMQtnUfh_uePsyO2f3-OAzp7dK_JX5DYUJYkKEXgIPl8=w5120-h2880)
+- [Smart Dock](https://github.com/axel358/smartdock) es un escritorio similar al que tiene chromeOS.
+    ![Smart Dock Desktop](https://github.com/axel358/smartdock/raw/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)
+- [DroidMaster](https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/Documentation/native/termux_native.md) usa escritorios de linux como xfce4, se ocupa instalar [termux-x11](https://github.com/termux/termux-x11) y seguir la guía de instalación desde su GitHub
+    ![DroidMaster Desktop](https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/Documentation/images/preview_native.jpg)
 
-![Android Desktop](https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/Documentation/images/preview_native.jpg)
 
 ## Entorno de desarrollo en <i class="fa-brands fa-apple"></i> iOS/iPadOS
 

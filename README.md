@@ -8,8 +8,8 @@
 - Para linux depende de la distro, solo busca en google como instalar `ruby` y `ruby-dev`/`ruby-devel`
 
 > [!WARNING]  
-> En Arch Linux ruby esta desactualizado, por lo que usar [Github Codespaces](https://github.com/features/codespaces), [cs50.dev](https://cs50.dev/),jruby o **containers de VScode**  son las unicas opciones, yo recomiendo los containers.
-
+> - En Arch Linux ruby esta desactualizado, por lo que usar [Github Codespaces](https://github.com/features/codespaces), [cs50.dev](https://cs50.dev/),jruby o **containers de VScode**  son las unicas opciones, yo recomiendo los containers.
+> - En fedora (redhat) ocupas descargar primero gcc, g++ y make, lo puedes hacer con el comando `sudo dnf group install "development-tools"`
 ## Alternativa: VScode dev containers con docker
 
 - Seguiendo esta [guia oficial](https://code.visualstudio.com/docs/devcontainers/tutorial)

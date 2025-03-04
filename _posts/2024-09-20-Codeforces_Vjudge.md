@@ -2,7 +2,7 @@
 title: Codeforces y Vjudge
 description: Explicación de las plataformas Codeforces y Vjudge
 date: 2024-09-20 17:00:00 +/-TTTT
-categories: [Club]
+categories: [Recursos]
 author: ArielParra 
 tags: [recomendaciones,C++,concursos]
 pin: false
