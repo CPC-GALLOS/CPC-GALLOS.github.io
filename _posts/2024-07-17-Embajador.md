@@ -12,6 +12,7 @@ image:
 
 Un embajador (ambassador) es una persona que representa, habla por o anuncia a una organización, grupo de personas, actividad o marca en particular. Estos reconocimientos son muy útiles si quieres aplicar para un trabajo en dicha empresa o empresas relacionadas, ya que aparte de poder tener una red de socios expertos en los temas de interes, también te destaca como una persona interesada en esa empresa y tecnologías. 
 
+- [IEEEXTREME](https://ieeextreme.org/ambassadors/) te permite ampliar tu conocimiento sobre IEEE, hacer networking global y desarrollar habilidades de liderazgo y organización. Como requisito, debes ser miembro estudiante o graduado de IEEE y ser el único embajador de tu rama estudiantil. Tus responsabilidades incluyen promover la competencia, organizar eventos y entrenamientos, ayudar a los equipos a encontrar proctors y asistir a webinars de capacitación. Las aplicaciones cierran el 22 de abril.
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com/) (MLS). Este es el programa de embajador que más recomiendo, se trata de especializarte en tecnologías de Microsoft, donde conectaras directamente con expertos y mentores de Microsoft. Los beneficios que ofrece el programa son: 
     - 150 Dólares mensuales en créditos de Azure
     - Visual Studio Enterprise
