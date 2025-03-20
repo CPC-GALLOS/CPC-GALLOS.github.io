@@ -53,7 +53,8 @@ Hackathon enfocado en la industria de la construcción. Temas clave:
 Eventos organizados por Internet Computer Protocol México en colaboración con el estado de Aguascalientes, centrados en blockchain.  
 - [NASA App Development Challenge](https://www.nasa.gov/learning-resources/app-development-challenge/) 
 Reto de programación para estudiantes de secundaria y preparatoria, donde NASA plantea problemas técnicos relacionados con la exploración espacial. Los participantes contribuyen a misiones como Artemis y futuras expediciones a Marte.  
-- [AWS DeepRacer](https://aws.amazon.com/es/deepracer/) y [AWS DeepRacer Student](https://aws.amazon.com/es/deepracer/student/?nc=sn&loc=4) Aprendaras los conceptos fundamentales del machine learning (ML) y aplicaras las técnicas de ML a través de carreras autónomas. .
+- [AWS DeepRacer](https://aws.amazon.com/es/deepracer/) y [AWS DeepRacer Student](https://aws.amazon.com/es/deepracer/student/?nc=sn&loc=4) Aprenderás los conceptos fundamentales del machine learning (ML) y aplicaras las técnicas de ML a través de carreras autónomas. .
+- [Huawei ICT Competition](https://e.huawei.com/en/talent/#/ict-academy/ict-competition/regional-competition?zoneCode=040593&zoneId=98269643&compId=85131998&divisionName=Latin%20America&type=C001&isCollectGender=N&enrollmentDeadline=2025-02-14%2023%3A59%3A59&compTotalApplicantCount=4091) es una competencia teórica donde tienes que dominar las tecnologías de huawei y al avanzar en la competencia ganas distintos premios
 
 ## Referencias
 

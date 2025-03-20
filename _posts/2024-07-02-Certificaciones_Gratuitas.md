@@ -10,7 +10,7 @@ mermaid: false
 image:
 ---
 
->  Si buscas ofertas en certificaciónes con costo, revisa este post: [Ofertas en Certificaciones](https://cpc-gallos.github.io/blog/Ofertas_Certificaciones/). También revisa el [filtrado de certificados](https://cpc-gallos.github.io/blog/Filtrar_Certificados/). 
+>  Si buscas ofertas en certificaciones con costo, revisa este post: [Ofertas en Certificaciones](https://cpc-gallos.github.io/blog/Ofertas_Certificaciones/). También revisa el [filtrado de certificados](https://cpc-gallos.github.io/blog/Filtrar_Certificados/). 
 {: .prompt-info }
 
 __Tabla de Contenidos:__
@@ -36,16 +36,20 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Oracle One](https://www.oracle.com/mx/education/oracle-next-education/) es un curso de 6 meses de duración donde puedes certificarte en front end (React y javascript) ó en backend (Java y Springboot), en cualquier caso tienes que entregar 3 proyectos. 
 - [Bécalos Tech Challengue](https://techchallenge.becalos.mx/) es una beca desarrollada por la Fundación Televisa para aprender a programar e incursionarte en el desarrollo web.
 - [CPDA](https://cyberdialogueamericas.wordpress.com/youth-cyber-delegates/) el Cyber Policy Dialogue for the Americas (CPDA) ofrece su Programa de Delegados Jóvenes (Youth Delegate), que se enfoca en brindar recursos educativos integrales para 30 estudiantes universitarios mexicanos en el campo de temas cibernéticos y de tecnologías emergentes.
-- [SantanderX](https://www.santanderx.com/es/courses.html) cursos de varios temas mayomente enfocados a negocios y PYMES, pero hay cursos de tecnologia enfocados a la Ciberseguridad.
+- [SantanderX](https://www.santanderx.com/es/courses.html) cursos de varios temas mayormente enfocados a negocios y PYMES, pero hay cursos de tecnologia enfocados a la Ciberseguridad.
 - [Becas Santander](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=TECH&mode=ONLINE) tienen cursos muy variados como Full Stack, ciencia de datos, inteligencia artificial. En especial recomiendo los [cursos de inglés](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_COURSE&resourceType=LMS_COURSE&category=LANGUAGE&mode=ONLINE).
 - [INROADS](https://inroads.org.mx/) es una organización latinoamericana aliada con Google, tiene dos programas principales: [Súbete a la Nube con Google Cloud](https://subetealanube.inroads.org.mx/) donde aprenderás de Infraestructura, Redes, Seguridad, Inteligencia Artificial, Data y Machine Learning. Y su otro programa es el de [Certificados de Carrera de Google](https://becas.inroads.org.mx/) donde podrás certificarte sobre Fundamentos de IA, Ciberseguridad y Análisis de Datos de Google en coursera.
 - [FUNDAE](https://experienciafundae.es/beca-google) al igual que INROADS ofrecen los certificados de Fundamentos de IA, Ciberseguridad y Análisis de Datos en la plataforma de coursera.
 - [AWS re/Start por fondation forge](https://fondationforge.org/aws-regional/mx) es un programa de capacitación respaldado por Amazon de cuatro meses de duración para preparate en puestos de nivel básico en la nube.
-- [INCyTEA](https://www.aguascalientes.gob.mx/incytea/) El Instituto de Ciencia Y Tecnología de Aguascalientes suele sacar varias becas a lo largo del año por lo que hay que estar al pendiente en sus páginas.
 - [Generation Mexico](https://mexico.generation.org/encuentra-una-carrera/) contiene varios programas de desarrollo en diferentes tecnologias como Unity o Java FullStack de forma gratuita en lina o de forma hibrida.
-- [Blockmakers](https://blockmakers.mx/) cursos creados en colaboración con el INCyTEA para temas de Blockchain, Solidity, Ciencia de Datos e introducción a la Inteligencia Artificial.
-- [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen varios tipos de bootcamps Motoko, Azle, ICP developer Javascript y Frontend Developer. 
 - [Diplomado en Educación Financiera por la CONDUSEF](https://inscripcion-diplomado.condusef.gob.mx/) este diplomado dura 3 meses y esta realizado en colaboración de Banco de México (Banxico), Bolsa Institucional de Valores (BIVA), Instituto Nacional de la Economía Social (INAES), Better than Cash Alliance, Cetesdirecto, Comisión Nacional Bancaria y de Valores (CNBV), Policía Cibernética y Secretaría de Hacienda y Crédito Público (SHCP).
+
+### En Aguascalientes
+
+- [UPA - capacitate en python](https://upa.edu.mx/capacitate_en_python/) Capacitación de python donde te dan acceso a un curso de Huawei ICT y después realizas un examen en sus instalaciones para decidir si te dan un voucher al examen PCEP del Python Institute, ya van dos convocatorias por lo que podría haber más en un futuro.
+- [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen varios tipos de bootcamps Motoko, Azle, ICP developer Javascript y Frontend Developer. 
+- [INCyTEA](https://www.aguascalientes.gob.mx/incytea/) El Instituto de Ciencia Y Tecnología de Aguascalientes suele sacar varias becas a lo largo del año por lo que hay que estar al pendiente en sus páginas.
+- [Inadaptados](https://inadaptados.mx/bootcamp/) suelen tener becas de bootcamps para aprender a programar en varias tecnologías.
 
 ### Para Mujeres
 
@@ -284,6 +288,7 @@ Microsoft tiene más de 4500 cursos, modulos y rutas de aprendizaje en su plataf
 Huawei ofrece cursos gratuitos acerca de la nube e infraestructura de Huawei a través de [ICT Academy](https://e.huawei.com/en/talent/learning/#/home)
 
 - [Algorithm and Program Design](https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=GREVe60yM27kPS-6tXC2f2BRJaY)
+- [Python Programming Basics](https://e.huawei.com/en/talent/outPage/#/sxz-course/home?&courseId=2SiNDCnvh3PTkmH28MZcQe2oDa8&)
 - [Cloud Advanced: Architecture and Technologies](https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=Se1I614YHgqqGiacs4WLZCkvGGM)
 - [HCIA-Datacom V1.0 Course](https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=tpDnx8BSoUVoUNyOKHI5UTQi-oc)
 - [HCIA-AI V3.5 Course](https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=LEr4w0UtMYfpbhkgY_Yd5QqFAO0)

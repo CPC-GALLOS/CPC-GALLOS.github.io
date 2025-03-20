@@ -590,6 +590,9 @@ image:
   <div class="custom_card center" data-tags="badge huawei programming">
     <a href="https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=GREVe60yM27kPS-6tXC2f2BRJaY">Huawei Algorithm and Program Design</a>
   </div>
+ <div class="custom_card center" data-tags="badge huawei programming">
+    <a href="https://e.huawei.com/en/talent/outPage/#/sxz-course/home?&courseId=2SiNDCnvh3PTkmH28MZcQe2oDa8&)">Huawei Python Programming Basics</a>
+  </div>
   <div class="custom_card center" data-tags="badge huawei cloud">
     <a href="https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=Se1I614YHgqqGiacs4WLZCkvGGM">Huawei Cloud Advanced: Architecture and Technologies</a>
   </div>

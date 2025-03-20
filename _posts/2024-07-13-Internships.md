@@ -13,9 +13,11 @@ image:
 Un “internship” es lo que en México conocemos como ser becario. En esta posición, serás auxiliar de la empresa, ya sea con una remuneración económica o ninguna.
 Las prácticas profesionales son un requisito de las universidades, aunque es complicado validar practicas ajenas a las recomendadas por la universidad, aun asi es muy recomendado haber cursado un puesto de "intern" antes de incursionar por completo al mundo laboral.
 
+- [ITA-CLIA](https://aguascalientes.tecnm.mx/clia/#) es el cluster industrial de Aguascalientes por parte del TECNM, este tiene un apartado de empresas donde te dan todos los contactos para aplicar a pasantías o practicas profesionales en varias empresas de interés en nuestro estado, como softtek, Nissan, etc.
 - [Proyecto Nutria](https://proyectonutria.com/) Es un proyecto comunitario por parte de ESCOM del IPN que busca ayudar a personas que buscan trabajar en Grandes Empresas Tecnológicas como Microsoft, Facebook, Google, etc (FAANG). Suelen dar información importante y actualizada acerca de internships, recomiendo entrar a su [discord](https://pronu.click/discord)
 - [C3.ai](https://c3.ai/careers/) tienen multiples oportuinidades de internships y puestos de trabajo en Guadalajara, recomiendo el programa de "Software Engineer - Intern".
 - [Santander Open Academy](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_GRANT&category=INTERNSHIP) múltiples oportunidades
+- [Oracle GO](https://www.oracle.com/lad/careers/generation-oracle/) Generation Oracle es más que un programa de pasantías: es un movimiento cultural. No es necesario ser un experto en tecnología, lo importante es tu pasión por la innovación y tus ganas de aprender.
 - [Cia de talentos](https://globe.ciadetalentos.com.br/applicant/#/opportunities?rc=https:%2F%2Fwww.ciadetalentos.com.br%2Fes&gct-site-key=ct-latam) Son una consultaría de RRHH y dan oportunidades de internships para empresas como BBVA con el programa de Becarios, Cocacola con su Programa Fresh Minds, Grupo Bimbo con el Programa Trainees e Ignite, el Programa de Interns de Aeroméxico.
 - [Uber Career Prep (UCP)](https://www.uber.com/mx/es/careers/careerprep/) es un programa sin remuneración (paga) de 6 meses para estudiantes de ingeniería con 5 Workshops y múltiples actividades a realizar en línea.
 - [UberSTAR](https://www.uber.com/us/en/careers/uberstar/?uclick_id=bd7b436b-e9d9-466d-bdee-56c8d2352960) es un programa **con** remuneración de 12 semanas.
@@ -28,7 +30,7 @@ Las prácticas profesionales son un requisito de las universidades, aunque es co
 - [Internships de Microsoft](https://jobs.careers.microsoft.com/global/en/search?q=internship&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true) Recomendamos los [Microsoft Explore Summer Intern](https://jobs.careers.microsoft.com/global/en/job/1773452/Explore-Program-Internship-Opportunities%3A-Second-Year-Students%2C-Redmond)
 - [Internships de Oracle Mexico](https://www.oracle.com/mx/careers/students-grads/development-engineering/)
 - [IBM skills build Internship Programmes](https://www.skillsbuildcsrbox.in/pages/internship.html)
-- [Outreachy](https://www.outreachy.org/) Outreachy ofrece pasantías open source y open science, pagado hasta $7,000 USD de forma remota con una duracion de solo 3 meses: las pasantías se realizan de mayo a agosto o de diciembre a marzo.
+- [Outreachy](https://www.outreachy.org/) Outreachy ofrece pasantías open source y open science, pagado hasta $7,000 USD de forma remota con una duración de solo 3 meses: las pasantías se realizan de mayo a agosto o de diciembre a marzo.
 
 ## Referencias
 - code.org (s.f.). *Internships and apprenticeships*. Recuperado de <https://code.org/beyond/internships>
