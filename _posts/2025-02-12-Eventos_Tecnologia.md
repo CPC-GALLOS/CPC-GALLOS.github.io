@@ -55,6 +55,8 @@ Eventos organizados por Internet Computer Protocol México en colaboración con 
 Reto de programación para estudiantes de secundaria y preparatoria, donde NASA plantea problemas técnicos relacionados con la exploración espacial. Los participantes contribuyen a misiones como Artemis y futuras expediciones a Marte.  
 - [AWS DeepRacer](https://aws.amazon.com/es/deepracer/) y [AWS DeepRacer Student](https://aws.amazon.com/es/deepracer/student/?nc=sn&loc=4) Aprenderás los conceptos fundamentales del machine learning (ML) y aplicaras las técnicas de ML a través de carreras autónomas. .
 - [Huawei ICT Competition](https://e.huawei.com/en/talent/#/ict-academy/ict-competition/regional-competition?zoneCode=040593&zoneId=98269643&compId=85131998&divisionName=Latin%20America&type=C001&isCollectGender=N&enrollmentDeadline=2025-02-14%2023%3A59%3A59&compTotalApplicantCount=4091) es una competencia teórica donde tienes que dominar las tecnologías de huawei y al avanzar en la competencia ganas distintos premios
+- [IBM call for code ](https://developer.ibm.com/callforcode/)  Crea soluciones tecnológicas para problemas sociales y ambientales usando AI, blockchain, y la nube. Compite globalmente y recibe recursos para desarrollar tu proyecto.
+- [Microsoft Imagine Cup](https://imaginecup.microsoft.com/en-us)  Competencia global que desafía a estudiantes a crear aplicaciones innovadoras para resolver problemas globales usando tecnología avanzada. Gana premios y conexiones profesionales.
 
 ## Referencias
 

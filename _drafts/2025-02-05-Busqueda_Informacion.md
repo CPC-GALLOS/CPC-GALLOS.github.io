@@ -13,6 +13,6 @@ image:
 cuando promptear y cuando buscar
 
 **Operadores de busqueda:**  [Joshua Hardwick](https://ahrefs.com/blog/google-advanced-search-operators/), [fireship](https://yewtu.be/watch?v=cEBkvm0-rg0), [Busqueda Avanzada por Google](https://support.google.com/websearch/answer/2466433?hl=es).
-**Múltiples buscadores(Metasearch):** [searxng](https://searx.space/), [Ariel Parra searxng](https://searx.arielparra.tech), [BigSearch extension](https://github.com/garywill/BigSearch).
+**Múltiples buscadores(Metasearch):** [searxng](https://searx.space/), [BigSearch extension](https://github.com/garywill/BigSearch).
 
 

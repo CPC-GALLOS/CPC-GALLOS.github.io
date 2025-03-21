@@ -15,7 +15,12 @@ __Tabla de Contenidos:__
 {:toc} 
 
 
+> Recuerda revisar el [calendario de concursos 2025](https://www.canva.com/design/DAGN3reyVnY/aH-ASCu4UzdHkF65tlX2vQ/edit?utm_content=DAGN3reyVnY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) por nuestro club CPC-GALLOS
+{: .prompt-info}
+
 ## ICPC
+
+![ICPC Logo](/assets/img/posts/Concursos/ICPC.png){: w="200" h="100"}
 
 El **International Collegiate Programming Contest (ICPC)** es el concurso de programación algorítmica anual más importante para estudiantes universitarios. Los equipos participantes deben estar conformados por **tres (3) integrantes**, todos de la misma institución educativa, y deberán contar con un coach, quien será un profesor de dicha institución.
 
@@ -44,9 +49,11 @@ El concurso de **Repechaje** es la última oportunidad para que 36 equipos clasi
 
 El registro para participar en el ICPC debe completarse a más tardar 7 días antes de la primera fecha del concurso en la página oficial del [ICPC](https://icpc.global/).
 
-Más detalles sobre las reglas y los puntajes de las fases se pueden consultar [en el blog del ICPC México a traves del ITESO](https://blogs.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremiomx2024/), si se busca una guia gráfica de como registrar un equipo en el ICPC, visita [esta nota por ANIEI](https://www.evernote.com/shard/s342/client/snv?isnewsnv=true&noteGuid=092545b4-ad68-4202-b973-7499a39fc4dd&noteKey=bddFGBx4Qx3N_4NFvkHsMRfEE5cE0fMg_poeW7BlKeUJoR5gDEYZV-_UJw&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs342%2Fsh%2F092545b4-ad68-4202-b973-7499a39fc4dd%2FbddFGBx4Qx3N_4NFvkHsMRfEE5cE0fMg_poeW7BlKeUJoR5gDEYZV-_UJw&title=ANIEI%2B-%2BPasos%2Bpara%2BREGISTRAR%2BSU%2BEQUIPO%2Ben%2Bel%2Bsite%2Bde%2BICPC%2B%2522Concurso%2Bde%2BProgramaci%25C3%25B3n%2BANIEI%2B2024%2522), aunque este sea para otro concurso, los pasos son simlares.
+Más detalles sobre las fechas, reglas y los puntajes de las fases se pueden consultar [en el blog del ICPC México a traves del ITESO](https://blogs.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremiomx2024/), si se busca una guia gráfica de como registrar un equipo en el ICPC, visita [esta nota por ANIEI](https://www.evernote.com/shard/s342/client/snv?isnewsnv=true&noteGuid=092545b4-ad68-4202-b973-7499a39fc4dd&noteKey=bddFGBx4Qx3N_4NFvkHsMRfEE5cE0fMg_poeW7BlKeUJoR5gDEYZV-_UJw&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs342%2Fsh%2F092545b4-ad68-4202-b973-7499a39fc4dd%2FbddFGBx4Qx3N_4NFvkHsMRfEE5cE0fMg_poeW7BlKeUJoR5gDEYZV-_UJw&title=ANIEI%2B-%2BPasos%2Bpara%2BREGISTRAR%2BSU%2BEQUIPO%2Ben%2Bel%2Bsite%2Bde%2BICPC%2B%2522Concurso%2Bde%2BProgramaci%25C3%25B3n%2BANIEI%2B2024%2522), aunque este sea para otro concurso, los pasos son simlares. Cualquier otro aviso o duda se puede resolver en el servidor de discord del [ICPC Región México](https://discord.gg/icpcmx)
 
 ## Meta Hacker Cup
+
+![Meta Hacker Cup Logo](/assets/img/posts/Concursos/Meta_Hacker_Cup.png){: w="200" h="100"}
 
 Anteriormente conocido como **Facebook Hacker Cup**, es una competencia de programación internacional organizada y administrada por Meta Platforms usualmente llevada a cabo en **octubre**. La competencia comenzó en 2011 y desde entonces este concurso atrae a miles de participantes de todo el mundo. Además de ofrecer una plataforma competitiva de alto nivel, los premios incluyen tanto efectivo como reconocimientos únicos.
 
@@ -70,6 +77,9 @@ Más información en [facebook.com/codingcompetitions/hacker-cup](https://www.fa
 
 ## Concurso Nacional de Programación ANIEI
 
+![ANIEI Logo](/assets/img/posts/Concursos/ANIEI.png){: w="200" h="100"}
+
+
 La Asociación Nacional de Instituciones de Educación en Tecnologías de Información (ANIEI) realiza este concurso en alianza con ICPC México en el mes de octubre, teniendo lugar entre semena con la modalidad en linea y presencial, este concurso esta dirigido a estudiantes que esten cursando el nivel medio superior, técnico superior, universitario o licenciatura en instituciones educativas de la República Mexicana. 
 
 El registro se realiza a travez del ICPC y para participar hay una cuota de registro de MXN $ 100.00 pesos mexicanos
@@ -77,6 +87,9 @@ El registro se realiza a travez del ICPC y para participar hay una cuota de regi
 Más información en [la convocatoria 2024](https://www.aniei.org.mx/eventos-aniei/congreso-nacional-e-internacional/concurso-de-programacion-2024/)
 
 ## Coderbloom
+
+![Coderbloom Logo](/assets/img/posts/Concursos/Coderbloom.png){: w="200" h="100"}
+
 
 **Coderbloom** tiene concursos mensuales **dirigido a mujeres**, las participantes se dividen en dos categorías: principiante y avanzada, lo que permite que tanto novatos como programadores experimentados compitan de manera justa.
 
@@ -98,6 +111,8 @@ Más información en [coderbloom.org](https://coderbloom.org).
 
 ## IEEEXtreme
 
+![IEEEXtreme Logo](/assets/img/posts/Concursos/IEEEXtreme.png){: w="200" h="100"}
+
 **IEEEXtreme** es una competencia global en la que estudiantes de todo el mundo compiten en un maratón de programación de 24 horas organizado por el IEEE usualmente llevada a cabo en **octubre**. Los ganadores obtienen recompensas excepcionales, que incluyen viajes internacionales y premios en efectivo.
 
 **Premios:**
@@ -116,13 +131,25 @@ Más información en [ieeextreme.org](https://ieeextreme.org).
 
 ## Yandex Cup
 
+![YANDEX_CUP Logo](/assets/img/posts/Concursos/YANDEX_CUP.png){: w="200" h="100"}
+
 Yandex es la empresa de tecnología más grande de Rusia. El concurso toma a lugar a mediados de octubre de manera online, esta abierto a todos los niveles y cuentan con menos de 20K participantes, los problemas pueden ser realizados en Java, Python, Kotlin, C#, С/C++, Go y Rust.
 
 Más información en [yandex.com/cup](https://yandex.com/cup/algorithm/)
 
+## Concurso de Programación del Congreso de Ciencias Exactas UAA
+
+![Congreso UAA Logo](/assets/img/posts/Concursos/Congreso_UAA.png){: w="200" h="100"}
+
+Este concurso es exclusivo para estudiantes de la UAA (por ahora), no esta limitado a ninguna carrera ni a ningún semestre. La XIX edición fue realizada por nuestro club y nuestro líder [{{ site.data.authors.ArielParra.name }}]({{ site.data.authors.ArielParra.url }}). Este concurso tiene reglas estilo ICPC, donde participan equipos conformados por tres estudiantes donde el objetivo es resolver problemas de algoritmia en dos horas, utilizando los lenguajes de programación como Python, Java y C++.
+ 
+Más información en el instagram del [congreso de sistemas](https://www.instagram.com/sistemas_uaa/), la página oficial [exactas.congresouaaccb.com](https://exactas.congresouaaccb.com/) o la página del centro de ciencias básicas [ccbas.uaa.mx](https://ccbas.uaa.mx/).
+
 ## Coding Cup Sinaloa
 
-El torneo estatal de programación Coding Cup Sinaloa es realizado por la comunidad académica del Estado de Sinaloa para estudiantes de nivel básico, medio, medio superior y superior, públicas y privadas y a programadores profesionales (profesionistas) el cual cuenta también con una modalidad virtual.
+![Coding Cup Sinaloa Logo](/assets/img/posts/Concursos/coding_cup_sinaloa.png){: w="200" h="100"}
+
+El torneo estatal de programación Coding Cup Sinaloa es realizado por la comunidad académica del Estado de Sinaloa para estudiantes de nivel básico, medio, medio superior y superior, públicas y privadas y a programadores profesionales (profesionistas) el cual cuenta también con una modalidad virtual (en línea).
 
 Del Formato del Concurso
 
@@ -136,16 +163,36 @@ Más información en [codingcupsinaloa.org](https://www.codingcupsinaloa.org/con
 
 ## Coding Cup TecNM/ITSUR
 
+![Coding Cup ITSUR Logo](/assets/img/posts/Concursos/coding_cup_itsur.png){: w="200" h="100"}
+
+
 El concurso Coding Cup del Tecnológico Nacional de México (TecNM) es un concurso de programación reconocido por ICPC México y por este motivo se utilizará la plataforma del ICPC para realizar el registro. Este concurso esta dirigido para estudiantes pertenecientes al TecNM en el estado de Guanajuato.
 
 Más información en el facebook de [Coding Cup ITSUR](https://www.facebook.com/CodingCupITSUR/) y en la [convocatoria 2024](https://surguanajuato.tecnm.mx/docs/noticias/Coding_Cup_TecNM_2024.pdf)
 
+## Code Rush (CAP)
+
+![Code Rush CAP Logo](/assets/img/posts/Concursos/code_rush_CAP.png){: w="200" h="100"}
+
+El concurso code rush es un concurso abierto a estudiantes de cualquier universidad, con un costo de inscripción de $500 pesos, el concurso es unicamente de manera presencial en el Tecnológico de Monterrey Campus Puebla. 
+
+Los concursos suelen ser en febrero o abril.
+
+Más información en el instagram del [Club de Algoritmia Puebla](https://www.instagram.com/cap_tecpuebla_official/)
+
 ## TCS Code Vita
+
+![TCS Code Vita Logo](/assets/img/posts/Concursos/tcs_codevita.png){: w="200" h="100"}
+
 Es un concurso en linea más grande del mundo realizado en octubre por la segunda empresa hindú más grande Tata Consultancy Services (TCS). Hecho para estudiantes universitarios de todo el mundo donde los 3 primeros lugares obtienen un premio de $20000 USD
+
+Solo puedes participar una vez en tu vida, las inscripciones y primer fase de la "season" son en septiembre y la final se realizan en marzo
 
 Más información en [codevita.tcsapps.com](https://codevita.tcsapps.com/)
 
-## Concurso de Programación del IPN "Donald Knuth"
+## Concurso de Programación del IPN "Donald Knuth" (ESCOM)
+
+![Donald Knuth Logo](/assets/img/posts/Concursos/Donald_Knuth.jpg){: w="200" h="100"}
 
 El Concurso Anual de Programación "Donald Knuth" es un concurso abierto para participantes de cualquier institución y en equipos con el formato de ICPC realizado por Club de Algoritmia ESCOM IPN.
 
@@ -153,23 +200,32 @@ Para más información y convocatorias debes estar al pendiente de la [página d
 
 ## RPC
 
+![RPC Logo](https://redprogramacioncompetitiva.com/images/lgo_rpc1.png){: w="200" h="100"}
+
 La Red de Programación Competitiva, son concursos enfocados a la comunidad de Latinoamérica, suelen tener espejos de otros concursos.RPC organiza eventos periódicos en forma presencial como virtual. Al año se realizan aproximadamente 10 eventos de entrenamiento, uno cada 4 semanas.
 
 Más información en el [facebook de RPC](https://www.facebook.com/RedProgramacionCompetitiva/)
 
 ## Jujutsu Koding UADY
 
+![Jujutsu Koding UADY Logo](/assets/img/posts/Concursos/jujutsu_koding_uady.png){: w="200" h="100"}
+
 En coordinación con el IS. Carlos Herrera Plata, profesor de la Facultad de Matemáticas, organiza la competencia Jujutsu Koding de la Universidad Autónoma De Yucatán. Este concurso usualmente realizado en septiembre consiste en 10 problemas a lo largo de 10 dias, donde al finalizar el primer lugar recibirá un monto de: 5,000 MXN. El segundo y tercer lugar recibirán: 2000 MXN y 1000 MXN respectivamente.
 
-Para participar es necesario unirse a su grupo de discord [Clearn Architecture](https://discord.com/invite/rxVhJMKPQD)
+
+Más información en [el sitio oficial del club de programación del UADY](https://sites.google.com/view/cpcfmat-uady/actividades/jujutsu-koding). Para participar es necesario unirse a su grupo de discord [Clearn Architecture](https://discord.com/invite/rxVhJMKPQD)
 
 ## Bubble Cup
+
+![Bubble Cup Logo](/assets/img/posts/Concursos/bubble_cup.png){: w="200" h="100"}
 
 Es una competición de programación dirigida a estudiantes universitarios y de preparatoria. La cual inició el Centro de Desarrollo de Microsoft en Serbia en 2008. Desde la Bubble Cup 10 (2017), la Bubble Cup está coorganizada por la Fundación Petlja. La competición consta de dos partes: una ronda de clasificación en línea en primavera y una ronda final en Belgrado en septiembre.
 
 Más información en [bubblecup.org](https://bubblecup.org/)
 
 ## Universal Cup
+
+![Universal Cup Logo](https://ucup.ac/assets/logos/ucup_square.png){: w="200" h="100"}
 
 La Universal Cup es una organización que ofrece recursos de entrenamiento para equipos de programación competitiva. La Universal Cup organiza competencias espejo de eventos de programación con formatos del ICPC.
 
@@ -179,6 +235,9 @@ Más información en [ucup.ac](https://ucup.ac/about)
 
 ## Las 12 uvas
 
+![UCM Logo](/assets/img/posts/Concursos/UCM.png){: w="200" h="100"}
+
+
 El concurso **Las 12 uvas** es un concurso de programación en línea organizado por la Facultad de Informática de la Universidad Complutense de Madrid. Se celebra el **31 de diciembre  las 9:00 a.m**, utilizando el juez en línea de la UCM. El objetivo es resolver hasta 12 problemas de programación en menos de seis horas.
 
 Si eres externo a España, podrás participar en la categoría **Amigos de las 12 uvas**. Sin embargo, por el momento no habrá premios a menos que residas en España.
@@ -186,6 +245,8 @@ Si eres externo a España, podrás participar en la categoría **Amigos de las 1
 Más información en [las12uvas.es](https://las12uvas.es/2023/#/quees)
 
 ## Advent of Code
+
+![Advent of Code Logo](/assets/img/posts/Concursos/advent_of_code.png){: w="200" h="100"}
 
 **Advent of Code** es un calendario de Adviento con pequeños retos de programación. Los problemas están diseñados para ser resueltos en cualquier lenguaje de programación, adaptándose a distintos niveles de habilidad. Se puede utilizar como práctica personal, preparación para entrevistas, formación corporativa, tareas universitarias, o simplemente por diversión.
 
@@ -198,29 +259,40 @@ Más información en [las12uvas.es](https://las12uvas.es/2023/#/quees)
 
 ### IOI
 
+![IOI Logo](https://upload.wikimedia.org/wikipedia/commons/b/bf/InternationalOlympiadInInformatics.png){: w="200" h="100"}
+
 La Olimpiada Internacional de Informática o por sus siglas en íngles The International Olympiad in Informatics (IOI) es una competencia anual de programación competitiva para estudiantes de nivel medio superior.
 
 Más información en [ioinformatics.org](https://ioinformatics.org/)
 
 
 ### OMI 
+![OMI Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01HY5vf5HqZBTHXPuwpcEpJToEfQUp2ptvA&s){: w="200" h="100"}
+
 La Olimpiada Mexicana de Informática (OMI) es un concurso a nivel nacional para jóvenes (nivel básico y medio superior) con facilidad para resolver problemas prácticos mediante la lógica y el uso de computadoras. Busca promover el desarrollo tecnológico en México y seleccionar a los mejores programadores para la selección mexicana en las Olimpiadas Internacionales de Informática (IOI).
 
 Más información en [olimpiadadeinformatica.org.mx](https://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx), o la fase estatal en para Aguascalientes en [omiags.org](https://omiags.org/convocatorias)
 
 ### OFMI
 
+![OFMI Logo](/assets/img/posts/Concursos/OFMI.png){: w="200" h="100"}
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN151H3T5OrAdsBndLjEznGNfjRNqfbR5LNA&s
 OmegaUp convoca a estudiantes de nivel básico y medio superior que sean mujeres o pertenezcan a un género minoritario para participar en la **Olimpiada Femenil Mexicana de Informática (OFMI)**.
 
-Más información en [ofmi.omegaup.com](https://ofmi.omegaup.com/)
+Más información en [ofmi.omegaup.com](https://ofmi.omegaup.com/) o en la [página de facebook](https://www.facebook.com/ofmi.omegaup/)
 
 ### Concurso Académico Alan Turing de la Universidad Anahuac
+
+![Alan Turing Logo](/assets/img/posts/Concursos/Alan_Turing.png){: w="200" h="100"}
 
 Es un examen presencial en Universidad Anáhuac México Campus Norte (CDMX) donde se debe ser estudiante de bachillerato de alguna institución pública o privada y contar con un máximo de 20 años a la fecha inicial del concurso. El concurso tiene cuatro fechas empezando en octubre.
 
 Donde el premio del primer lugar y segundo lugar son becas del 70% y del 50% para la licenciatura de Ingeniería en Sistemas y Tecnología de la Información en Campus Norte y Sur.
 
 ### HPE CodeWars
+
+![HPE Codewars Logo](https://hpecodewars.org/images/home.png){: w="200" h="100"}
 
 **HPE CodeWars** es una competencia de programación para estudiantes de secundaria y bachillerato, organizada por Hewlett Packard Enterprise (HPE) en colaboración con Codingal.
 
@@ -230,7 +302,16 @@ Se trata de una competencia en línea donde estudiantes de grados 8 a 12 resolve
 - **Inicio de inscripciones**: Febrero.
 - **Fecha de la competencia**: Abril. y la competencia sera de 1:00 PM a 4:00 PM (US).
 
-Más información en  [HPECodewars.org](https://hpecodewars.org/)
+Más información en [HPECodewars.org](https://hpecodewars.org/)
+
+## ITAM coding rush
+![ITAM coding rush Logo](https://codingrush.itam.mx/images/logo-coding-rush-2018.png){: w="200" h="100"}
+
+ITAM Coding Rush es una competencia donde se incentiva el desarrollo de los conocimientos de técnicas eficientes e inteligentes para resolver problemas con computadoras. A través de tres talleres aprenderás a acelerar tu ingenio y a resolver rápidamente problemas complicados. Después de cada taller habrá un Coding Rush, donde resolverás problemas en una cantidad limitada de tiempo. Para alumnos de cualquier semestre de preparatoria.
+
+Se suele realizar en marzo.
+
+Más información en [codingrush.itam.mx](https://codingrush.itam.mx/)
 
 ## Concursos recurrentes en distintas plataformas
 

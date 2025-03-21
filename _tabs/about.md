@@ -39,7 +39,7 @@ Este es el Club de Programación Competitiva Γα=Ω5 (GALLOS) en la Universidad
   size="1"
   label="Agregar al calendario"
   lightMode="bodyScheme"
-  pastDateHandling="hide"></add-to-calendar-button> (también hay clases sabatinas por parte del [club Colmena](https://linktr.ee/colmena.oficial)).
+  pastDateHandling="hide"></add-to-calendar-button>
 - **¿Donde?** En el laboratorio de inteligencia artificial del [edificio 203](https://maps.app.goo.gl/A9i7rYa39DNT53NA8), [imagen del mapa](/assets/img/edificio203.jpg): ![mapa uaa](/assets/img/edificio203.jpg){: w="20" h="20" }
 
 Nuestro plan de estudios se basa en clases teóricas y practicas donde aprenderás desde temas básicos hasta temas avanzados y cada quince días, los viernes, llevamos a cabo una competencia de programación local.

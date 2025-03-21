@@ -11,7 +11,7 @@
 
 
 /* SITE */
-  Last update: 2024-07-15
+  Last update: 2025-03-21
   Standards: W3 HTML5, W3 CSS3
   Software: VSCode, git, jekyll
 

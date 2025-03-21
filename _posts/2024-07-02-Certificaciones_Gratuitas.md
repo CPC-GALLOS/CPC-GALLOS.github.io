@@ -24,9 +24,9 @@ __Tabla de Contenidos:__
 
 Estas no están protectorados pero tienen el nombre y validación de certificación avalado por Oracle, a través de [Oracle University](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free).
 - [Oracle Guided Learning Project Management Foundations Associate (Beta)](https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1)
-- [OCI Foundations Associate](https://education.oracle.com/es/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-24)
-- [OCI AI Foundations Associate](https://education.oracle.com/es/ouexam-pexam_1z0-1122-24/pexam_1Z0-1122-24)
-- [OCI Data Foundations Associate](https://education.oracle.com/es/oracle-cloud-infrastructure-2024-data-foundation-associate/pexam_1Z0-1195-24)
+- [OCI Foundations Associate (2025)](https://education.oracle.com/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-25)
+- [OCI AI Foundations Associate (2025)](https://education.oracle.com/oracle-cloud-infrastructure-2024-ai-foundations-associate/pexam_1Z0-1122-25)
+- [OCI Data Platform Foundations Associate (2025)](https://education.oracle.com/oracle-cloud-infrastructure-2024-data-foundation-associate/pexam_1Z0-1195-25)
 
 ## Becas recurrentes con certificados 
 
@@ -57,7 +57,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Conectadas by IYF](https://conectadasporti.com/) Conectadas by IYF de la International Youth Foundation & Google.Org, una iniciativa que busca aumentar la representación femenina en carreras de las TIC en México y con ello mejorar las oportunidades de empleabilidad para las mujeres de la región. 
 - [WOMCY](https://womcy.org/es/) Ofrecen cursos, eventos y becas de ciberseguridad principalmente para mujeres, contando con 3 programas: Educación, Corporativo y Desarrollo del Talento.
 - [FUNED Woman On Boards](https://www.funedmx.org/women-on-boards/) es un programa para promover un cambio radical en la composición de los Consejos de Administración en América Latina con oportunidades para viajar a los Estados Unidos junto con apoyo potencial de MSWoB en trámites de visa si es necesario.
-
+- [BecALAS](https://becalas.becalos.mx/) BécALAS es un programa de Fundación Televisa y la Asociación de Bancos de México, dirigido a universitarias de instituciones públicas en México. Ofrece apoyo para su desarrollo integral, incluyendo habilidades socioemocionales, expresión, salud financiera y empleabilidad.
 
 ## Exemenes de habilidades de Hackerrank con certificado
 
@@ -137,7 +137,7 @@ Cada [curso en Harvard](https://pll.harvard.edu/catalog?topics%5B702%5D=702&pric
 
 La universidad de Helsinki en Finlandia, es la universidad que vio la creación de Linux, por lo que es una reconocida universidad a nivel mundial, esta universidad ofrece un amplio [catalogo de cursos](https://www.mooc.fi/en/courses/?tag=en) con certificado a través de distintas páginas donde las tareas o actividades son entregadas en un moodle (como el aula virtual de la UAA).
 
-- [Python Programming MOOC 2024](https://programming-24.mooc.fi/) MOOC significa Massive Online Open Courses, en este caso es un curso anual de Python el cual puedes realizar a tu paso durante todo lo que reste del año.
+- [Python Programming MOOC 2025](https://programming-25.mooc.fi/) MOOC significa Massive Online Open Courses, en este caso es un curso anual de Python el cual puedes realizar a tu paso durante todo lo que reste del año.
 - [Java Programming MOOC](https://java-programming.mooc.fi/) es un buen curso de Java, aunque también recomendaría investigar más acerca de springboot o JAVAFX.
 - [DevOps with Docker](https://devopswithdocker.com/) y [DevOps with Kubernetes](https://devopswithkubernetes.com/) son cursos muy necesarios en el despliegue de aplicaciones en la nube.
 - [Full Stack open](https://fullstackopen.com/en/) curso de full stack (front end y back end)

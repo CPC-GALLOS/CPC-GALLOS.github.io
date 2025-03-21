@@ -19,6 +19,8 @@ Nuestro término de la palabra *Encueriza* tiene un significado profundo; sus or
 
 ## Encuerizas 2025
 
+- [9_ENCUERIZA](https://vjudge.net/contest/701621)
+- [8_ENCUERIZA](https://vjudge.net/contest/699477)
 - [7_ENCUERIZA](https://vjudge.net/contest/697480)
 - [6_ENCUERIZA](https://vjudge.net/contest/695438)
 

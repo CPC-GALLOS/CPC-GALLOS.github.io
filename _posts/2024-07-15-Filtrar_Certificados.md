@@ -218,16 +218,13 @@ image:
     <a href="https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1">Oracle Project Management Foundations Associate (Beta)</a>
   </div>
   <div class="custom_card center" data-tags="certification oracle cloud">
-    <a href="https://education.oracle.com/es/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-24">OCI Foundations Associate (2024)</a>
+    <a href="https://education.oracle.com/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-25">OCI Foundations Associate (2025)</a>
   </div>
   <div class="custom_card center" data-tags="certification oracle cloud">
-    <a href="https://education.oracle.com/es/ouexam-pexam_1z0-1122-24/pexam_1Z0-1122-24">OCI AI Foundations Associate (2024)</a>
+    <a href="https://education.oracle.com/oracle-cloud-infrastructure-2024-ai-foundations-associate/pexam_1Z0-1122-25">OCI AI Foundations Associate (2025)</a>
   </div>
   <div class="custom_card center" data-tags="certification oracle cloud datascience">
-    <a href="https://education.oracle.com/oracle-cloud-infrastructure-2024-data-foundation-associate/pexam_1Z0-1195-24">Ora Oracle Cloud Infrastructure 2024 Data Foundations Associate (2024)</a>
-  </div>
-  <div class="custom_card center" data-tags="certification oracle cloud datascience">
-    <a href="https://education.oracle.com/es/oracle-cloud-infrastructure-2024-data-foundation-associate/pexam_1Z0-1195-24">OCI Data Foundations Associate</a>
+    <a href="https://education.oracle.com/oracle-cloud-infrastructure-2024-data-foundation-associate/pexam_1Z0-1195-25">OCI Data Platform Foundations Associate (2025)</a>
   </div>
 
   <!-- certificates -->
@@ -382,7 +379,7 @@ image:
     <a href="https://cs50.harvard.edu/sql/">Harvard CS50 SQL</a>
   </div> 
   <div class="custom_card center" data-tags="certificate helsinki programming">
-    <a href="https://programming-24.mooc.fi/">Helsinki Python Programming MOOC 2024</a>
+    <a href="https://programming-25.mooc.fi/">Helsinki Python Programming MOOC 2025</a>
   </div>
   <div class="custom_card center" data-tags="certificate helsinki programming">
     <a href="https://java-programming.mooc.fi/">Helsinki Java Programming MOOC</a>
