@@ -10,6 +10,12 @@ mermaid: false
 image: /assets/img/posts/Presentaciones.png
 ---
 
+## Presentaciones 2025
+
+### XIX Congreso de Ciencias Exactas de la UAA
+
+- [Entrevistas Técnicas de Trabajo](https://cpc-gallos.github.io/Presentations/2025/Entrevista_Trabajo.html)
+
 ## Presentaciones 2024
 
 - [**Introducción al Curso**](https://cpc-gallos.github.io/Presentations/2024/0-Introduccion.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/0-Introduccion.pdf)
@@ -50,7 +56,7 @@ image: /assets/img/posts/Presentaciones.png
     1. [Teoria de Juego](https://cpc-gallos.github.io/Presentations/2024/3_009-Teoria_De_Juego.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_009-Teoria_De_Juego.pdf)
     1. [Geometria Computacional](https://cpc-gallos.github.io/Presentations/2024/3_010-Geometria_Computacional.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_010-Geometria_Computacional.pdf)
 
--  [Presentacion de Cierre](https://cpc-gallos.github.io/Presentations/2024/4-Presentacion_Cierre.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/4-Presentacion_Cierre.pdf)
+-  [Presentación de Cierre](https://cpc-gallos.github.io/Presentations/2024/4-Presentacion_Cierre.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/4-Presentacion_Cierre.pdf)
 
 > El repositorio de estas presentaciones se encuentra en <https://github.com/CPC-GALLOS/Presentations>
 {: .prompt-tip }
