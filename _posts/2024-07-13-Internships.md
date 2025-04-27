@@ -31,6 +31,7 @@ Las prácticas profesionales son un requisito de las universidades, aunque es co
 - [Internships de Oracle Mexico](https://www.oracle.com/mx/careers/students-grads/development-engineering/)
 - [IBM skills build Internship Programmes](https://www.skillsbuildcsrbox.in/pages/internship.html)
 - [Outreachy](https://www.outreachy.org/) Outreachy ofrece pasantías open source y open science, pagado hasta $7,000 USD de forma remota con una duración de solo 3 meses: las pasantías se realizan de mayo a agosto o de diciembre a marzo.
+- [beVisioneers](https://bevisioneers.world/) The Mercedes-Benz Fellowship es un programa global diseñado para empoderar a jóvenes innovadores de entre 16 y 28 años que buscan desarrollar proyectos sostenibles. Implementado por The DO School Fellowships y financiado por Mercedes-Benz
 
 ## Referencias
 - code.org (s.f.). *Internships and apprenticeships*. Recuperado de <https://code.org/beyond/internships>

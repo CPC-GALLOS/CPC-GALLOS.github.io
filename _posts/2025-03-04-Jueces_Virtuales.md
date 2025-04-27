@@ -17,6 +17,7 @@ Los jueces virtuales (OJ, por sus siglas en inglés de Online Judge) son platafo
 
 - **[Codeforces](https://codeforces.com/)**: Una de las plataformas más populares para competencias de programación con problemas de diferentes niveles de dificultad. Es conocida por su comunidad activa y sus competiciones frecuentes.
 - **[Vjudge](https://vjudge.net/problem)**: Plataforma que permite competir en tiempo real en diferentes jueces online como Codeforces, AtCoder, CSES, y otros. Ideal para quienes buscan participar en concursos conjuntos de diversas plataformas.
+- **[OmegaUp](https://omegaup.com/)**: Plataforma de programación competitiva que promueve el talento latinoamericano. Es la creadora del OFMI (Olimpiada Femenil Mexicana de Informática) y en ella se realizan las selecciones regionales para la OMI (Olimpiada Mexicana de Informática). Ofrece problemas, concursos y estadísticas para entrenar de manera efectiva.
 - **[Leetcode](https://leetcode.com/problemset/)**: Famoso entre los programadores de software para practicar problemas técnicos que podrían aparecer en entrevistas laborales. Ofrece problemas que cubren una variedad de temas y técnicas de programación.
 - **[Atcoder](https://atcoder.jp/)**: Un sitio japonés que organiza competencias de programación de alta calidad y tiene problemas bien categorizados, desde principiantes hasta avanzados.
 - **[CSES](https://cses.fi/problemset/)**: Ofrece una lista extensa de problemas de algoritmos y estructuras de datos que ayudan a mejorar las habilidades de resolución de problemas.

@@ -409,7 +409,7 @@ image:
     <a href="https://training.linuxfoundation.org/training/introduction-to-kubernetes/">Linux Introduction to Kubernetes</a>
   </div>
   <div class="custom_card center" data-tags="certificate linux cybersecurity">
-    <a href="https://training.linuxfoundation.org/training/cybersecurity-essentials-lfc108/">Linux Cybersecurity Essentials</a>
+    <a href="https://training.linuxfoundation.org/training/cybersecurity-essentials-lfc108/">Linux cybersecurity Essentials</a>
   </div>
   <div class="custom_card center" data-tags="certificate linux servers">
     <a href="https://training.linuxfoundation.org/training/introduction-to-linux/">Linux: Introduction to Linux</a>
@@ -427,7 +427,7 @@ image:
     <a href="https://www.linkedin.com/learning/paths/career-essentials-in-project-management-by-microsoft-and-linkedin">MS Career Essentials in Project Manager</a>
   </div>
   <div class="custom_card center" data-tags="certificate microsoft cybersecurity">
-    <a href="https://www.linkedin.com/learning/paths/career-essentials-in-cybersecurity-by-microsoft-and-linkedin">MS Career Essentials in Cybersecurity</a>
+    <a href="https://www.linkedin.com/learning/paths/career-essentials-in-cybersecurity-by-microsoft-and-linkedin">MS Career Essentials in cybersecurity</a>
   </div>
   <div class="custom_card center" data-tags="certificate microsoft ai">
     <a href="https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin">MS Career Essentials in Generative AI</a>
@@ -444,13 +444,13 @@ image:
   
   <!-- badges -->
   <div class="custom_card center" data-tags="badge fortinet cybersecurity">
-    <a href="https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity">Fortinet Certified Fundamentals Cybersecurity</a>
+    <a href="https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity">Fortinet Certified Fundamentals cybersecurity</a>
   </div>
   <div class="custom_card center" data-tags="badge cisco cybersecurity">
-    <a href="https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials">Cisco Cybersecurity Essentials</a>
+    <a href="https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials">Cisco cybersecurity Essentials</a>
   </div>
   <div class="custom_card center" data-tags="badge cisco cybersecurity">
-    <a href="https://skillsforall.com/career-path/cybersecurity?courseLang=en-US">Cisco Junior Cybersecurity Analyst</a>
+    <a href="https://skillsforall.com/career-path/cybersecurity?courseLang=en-US">Cisco Junior cybersecurity Analyst</a>
   </div>
   <div class="custom_card center" data-tags="badge cisco networks">
     <a href="https://www.netacad.com/courses/networking/networking-essentials">Cisco Networking Essentials</a>
@@ -516,10 +516,10 @@ image:
     <a href="https://skills.yourlearning.ibm.com/activity/PLAN-D8E7C82C1D76?ngo-id=0302">IBM Machine Learning for Data Science Projects</a>
   </div>
   <div class="custom_card center" data-tags="badge ibm cybersecurity">
-    <a href="https://ibm.biz/Bdv38e">IBM Cybersecurity Fundamentals</a>
+    <a href="https://ibm.biz/Bdv38e">IBM cybersecurity Fundamentals</a>
   </div>
   <div class="custom_card center" data-tags="badge ibm cybersecurity">
-    <a href="https://skills.yourlearning.ibm.com/activity/PLAN-4FB8400F05FC?ngo-id=0302">IBM Cybersecurity Fundamentals</a>
+    <a href="https://skills.yourlearning.ibm.com/activity/PLAN-4FB8400F05FC?ngo-id=0302">IBM cybersecurity Fundamentals</a>
   </div>
   <div class="custom_card center" data-tags="badge ibm cloud">
     <a href="https://skills.yourlearning.ibm.com/activity/PLAN-2EC3A305F2C3?ngo-id=0302">IBM Cloud Computing Fundamentals</a>
@@ -545,7 +545,7 @@ image:
   <div class="custom_card center" data-tags="badge oracle cloud database">
     <a href="https://mylearn.oracle.com/ou/learning-path/become-a-exadata-database-service-cloud-administrator/121071">Oracle Exadata Database Service Cloud Administrator</a>
   </div>
-  <div class="custom_card center" data-tags="badge oracle cyberSecurity">
+  <div class="custom_card center" data-tags="badge oracle cybersecurity">
     <a href="https://mylearn.oracle.com/ou/learning-path/discover-and-train-in-cybersecurity/100307">Oracle Discover and Train in CyberSecurity</a>
   </div>
   <div class="custom_card center" data-tags="badge oracle cloud">
@@ -599,13 +599,13 @@ image:
   <div class="custom_card center" data-tags="badge huawei ai">
     <a href="https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=LEr4w0UtMYfpbhkgY_Yd5QqFAO0">Huawei HCIA-AI V3.5</a>
   </div>
-  <div class="custom_card center" data-tags="badge huawei Cybersecurity">
+  <div class="custom_card center" data-tags="badge huawei cybersecurity">
     <a href="https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=0z7mBkdgGnzXrU5PAiIdaA46Q5k">Huawei HCIA-Security V4.0</a>
   </div>
-  <div class="custom_card center" data-tags="badge huawei Cybersecurity">
+  <div class="custom_card center" data-tags="badge huawei cybersecurity">
     <a href="https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=QK6LXTniwwARwGticjMM3ElHboM">Huawei Next-Gen Cyber Security</a>
   </div>
-  <div class="custom_card center" data-tags="badge huawei Cybersecurity">
+  <div class="custom_card center" data-tags="badge huawei cybersecurity">
     <a href="https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=hfiCUOBrxyx41SlkIIGparn-Mas">Huawei Network Security</a>
   </div>
   <div class="custom_card center" data-tags="badge amazon networks">
@@ -623,6 +623,21 @@ image:
   <div class="custom_card center" data-tags="badge amazon cloud">
     <a href="https://explore.skillbuilder.aws/learn/public/learning_plan/view/1044/solutions-architect-learning-plan-earn-a-learning-badge?trk=8c13936a-6ba2-46cd-a416-69143c458b12&sc_channel=sm">AWS Solutions Architect</a>
   </div>
+  <div class="custom_card center" data-tags="badge amazon cloud ai">
+    <a href="https://awseducate.instructure.com/courses/1108">AWS Introduction to Generative AI</a>
+  </div>
+  <div class="custom_card center" data-tags="badge amazon cloud ai">
+    <a href="https://awseducate.instructure.com/courses/910">AWS Machine Learning Foundations</a>
+  </div>
+  <div class="custom_card center" data-tags="badge amazon cloud ai">
+    <a href="https://awseducate.instructure.com/courses/750">AWS Machine Learning - DeepRacer</a>
+  </div>
+  <div class="custom_card center" data-tags="badge amazon cloud cybersecurity">
+    <a href="https://awseducate.instructure.com/courses/890">AWS Getting Started with Security</a>
+  </div>
+  <div class="custom_card center" data-tags="badge amazon cloud">
+    <a href="https://www.aws.training/SessionSearch?pageNumber=1&courseId=152586&languageId=1">AWS Cloud Practitioner: Foundations</a>
+  </div>
   <div class="custom_card center" data-tags="badge cato cloud networks">
     <a href="https://www.catonetworks.com/sase/sase-certification/sase-expert-level-1">CATO SASE Expert Level 1</a>
   </div>
@@ -632,7 +647,7 @@ image:
   <div class="custom_card center" data-tags="badge cato cloud networks">
     <a href="https://www.catonetworks.com/sase/sase-certification/sse-expert/">CATO SASE Expert</a>
   </div>
-  <div class="custom_card center" data-tags="badge cato cloud networks cyberSecurity">
+  <div class="custom_card center" data-tags="badge cato cloud networks cybersecurity">
     <a href="https://www.catonetworks.com/sase/sase-certification/advanced-security">CATO Advanced Security</a>
   </div>
   <div class="custom_card center" data-tags="badge cato cloud networks devops">

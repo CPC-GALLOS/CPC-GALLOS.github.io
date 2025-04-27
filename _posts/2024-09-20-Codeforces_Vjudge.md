@@ -36,6 +36,12 @@ Codeforces clasifica a los participantes en cuatro divisiones (Divs) según su p
 
 Es importante destacar que el puntaje es recomendado y no obligatorio. Puedes participar en un concurso de la División 3 aunque tengas 0 de puntaje. Aunque esto no se recomienda ya que cada división ofrece problemas de diferentes niveles de dificultad, permitiendo a los participantes competir en un entorno adecuado a sus habilidades. Puedes encontrar nuevos concursos en [Codeforces Contests](https://codeforces.com/contests).
 
+> **Recomendación para la plataforma**: Descarga las extensiones de navegador para [integrar codeforces con vscode](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#integrar-codeforces-con-vscode)
+{: .prompt-tip}
+
+> **Recomendación para los contests**: Puedes previsualizar tu score con esta página <https://cfviz.netlify.app/virtual-rating-change>. Descarga [Coding Contest Reminder: CK](https://play.google.com/store/apps/details?id=com.shyptsolution.codingkaro) desde la Play Store para recibir recordatorios de concursos en cualquiera de estas plataformas. También puedes usar este calendario <https://competitiveprogramming.info/calendar> para ver todos los contest.
+{: .prompt-tip}
+
 ## ¿Qué es Vjudge?
 
 Vjudge es un juez en línea no convencional. A diferencia de otros jueces, Vjudge recupera problemas de otras plataformas de competencia y simula las presentaciones a estas. Su objetivo es facilitar la organización de concursos cuando los datos de prueba no están disponibles.

@@ -113,7 +113,7 @@ Más información en [coderbloom.org](https://coderbloom.org).
 
 ![IEEEXtreme Logo](/assets/img/posts/Concursos/IEEEXtreme.png){: w="200" h="100"}
 
-**IEEEXtreme** es una competencia global en la que estudiantes de todo el mundo compiten en un maratón de programación de 24 horas organizado por el IEEE usualmente llevada a cabo en **octubre**. Los ganadores obtienen recompensas excepcionales, que incluyen viajes internacionales y premios en efectivo.
+**IEEEXtreme** es una competencia global en la que estudiantes de todo el mundo compiten en un maratón de programación de 24 horas organizado por el IEEE usualmente llevada a cabo en **octubre**. Los ganadores obtienen recompensas excepcionales, que incluyen viajes internacionales y premios en efectivo. Para esto ocupas una licencia de estudiante del IEEE el cual tiene un costo con descuento para estudiantes de 7 dolares. 
 
 **Premios:**
 
@@ -143,7 +143,10 @@ Más información en [yandex.com/cup](https://yandex.com/cup/algorithm/)
 
 Este concurso es exclusivo para estudiantes de la UAA (por ahora), no esta limitado a ninguna carrera ni a ningún semestre. La XIX edición fue realizada por nuestro club y nuestro líder [{{ site.data.authors.ArielParra.name }}]({{ site.data.authors.ArielParra.url }}). Este concurso tiene reglas estilo ICPC, donde participan equipos conformados por tres estudiantes donde el objetivo es resolver problemas de algoritmia en dos horas, utilizando los lenguajes de programación como Python, Java y C++.
  
-Más información en el instagram del [congreso de sistemas](https://www.instagram.com/sistemas_uaa/), la página oficial [exactas.congresouaaccb.com](https://exactas.congresouaaccb.com/) o la página del centro de ciencias básicas [ccbas.uaa.mx](https://ccbas.uaa.mx/).
+Más información en el instagram del [congreso de sistemas](https://www.instagram.com/sistemas_uaa/), la página oficial [exactas.congresouaaccb.com](https://exactas.congresouaaccb.com/ISC).
+
+> Revisita el concurso realizado en codeforces en nuestro grupo: [CONCURSO_DE_PROGRAMACION_UAA_2025](https://codeforces.com/group/b3gKGxWtjA/contest/598108)
+
 
 ## Coding Cup Sinaloa
 
@@ -254,7 +257,6 @@ Más información en [las12uvas.es](https://las12uvas.es/2023/#/quees)
 
 [Descubre más sobre Advent of Code.](https://adventofcode.com/)
 
-
 ## Concursos de nivel medio superior (bachillerato)
 
 ### IOI
@@ -315,7 +317,7 @@ Más información en [codingrush.itam.mx](https://codingrush.itam.mx/)
 
 ## Concursos recurrentes en distintas plataformas
 
-> **Recomendación**: Descarga [Coding Contest Reminder: CK](https://play.google.com/store/apps/details?id=com.shyptsolution.codingkaro) desde la Play Store para recibir recordatorios de concursos en cualquiera de estas plataformas. Alternativamente, te sugiero suscribirte al newsletter de las plataformas que más te interesen.
+> **Recomendación**: Descarga [Coding Contest Reminder: CK](https://play.google.com/store/apps/details?id=com.shyptsolution.codingkaro) desde la Play Store para recibir recordatorios de concursos en cualquiera de estas plataformas. También puedes usar este calendario <https://competitiveprogramming.info/calendar>. Alternativamente, te sugiero suscribirte al newsletter de las plataformas que más te interesen.
 {: .prompt-tip}
 
 - [Encuerizas de Γα=Ω5 en Vjudge](https://vjudge.net/group/gallos#contests-anchor): Concursos quincenales los viernes de 2:00 a 4:00 pm.
