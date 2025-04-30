@@ -62,10 +62,28 @@ Los Training Camps son eventos organizados en diversas universidades, tanto naci
 
 ## Presentaciones/Clases de otros clubes
 
-- [Recursos del Club PU++](https://drive.google.com/drive/folders/102ieishfTjxw0nq-Q0vs3E3AITbA5oYZ) clases y recursos del club de la UNAM.
+### De México
+
+
+### Recursos de Clubes de Programación en México
+
+> Visita el [Mapa de clubes de programación competitiva y Algoritmia de México](https://cpc-gallos.github.io/blog/Comunidades/#mapa-de-clubes-de-programaci%C3%B3n-competitiva-y-algoritmia-de-m%C3%A9xico) para ver más información acerca de los clubes en México. Y también revisa los [Canales de Youtube Recomendados](https://cpc-gallos.github.io/blog/Canales_Recomendados/#canales-de-clubes-de-m%C3%A9xico).
+{: .prompt-info }
+
+- [Γα=Ω5 (CPC-GALLOS): presentaciones](https://cpc-gallos.github.io/blog/Presentaciones/)
+- [Club de algoritmia UPIIZ-IPN: Github](https://github.com/caupiiz/club-algoritmia-upiiz)
+- [PU++: google drive](https://drive.google.com/drive/folders/102ieishfTjxw0nq-Q0vs3E3AITbA5oYZ)
+- [CUCEI: google drive 2023](https://drive.google.com/drive/folders/19O2Cykuk5HtxvbHT1Ixf1uOR8H3QdS0_)
+- [CUCEI google drive 2024](https://drive.google.com/drive/folders/1iV_VFbMpodIqZWTOoqZYBhbsbimjyFtg)
+- [Club de Algoritmia ITESM CEM: google colab](https://colab.research.google.com/drive/1pn3HT0mUTx9d7QRAL4Pf_EtKeTzIHE_x?usp=sharing)
+- [Club de Algoritmia ITESM CEM: apuntes de notion](https://beautiful-crater-9c5.notion.site/85a03e53d77a46f3b92ea6f1fe160959?v=18c7be1bd75f4d758960a42bb2b8447d)
+- [ICPC San Luis Potosí: presentaciones](https://icpcsanluis.github.io/curso/)
+- [CPC UADY: presentaciones](https://sites.google.com/view/cpcfmat-uady/entrenamientos/iniciaci%C3%B3n)
+
+
+## Del Mundo
+
 - [Recursos del club de algoritmia US](https://drive.google.com/drive/folders/1HRhaTf-Dtha1T21ZTzjj7y-6WswkB9OP) Presentaciones y clases del club de algoritmia de la Universidad de Sevilla.
-- [Recursos del club de algoritmia CUCEI (2023)](https://drive.google.com/drive/folders/19O2Cykuk5HtxvbHT1Ixf1uOR8H3QdS0_) Presentaciones y clases del de Algoritmia del Centro Universitario de Ciencias Exactas e Ingenierías de la UdeG del 2023.
-- [Recursos del club de algoritmia CUCEI (2024)](https://drive.google.com/drive/folders/1iV_VFbMpodIqZWTOoqZYBhbsbimjyFtg) Presentaciones y clases de nivel básico del de Algoritmia del Centro Universitario de Ciencias Exactas e Ingenierías de la UdeG.
 - [Material del club de programación competitiva UFPS](https://programacioncompetitivaufps.github.io/) Material del club de la Universidad Francisco de Paula Santander.
 - [Training Center UFPS](https://trainingcenter.cloud.ufps.edu.co/material-publico) Material público de la Universidad Francisco de Paula Santander.
 - [University of Calgary Competitive Programming Club](https://cpc.cpsc.ucalgary.ca/presentations/weekly-meetings/) Presentaciones algo antiguas pero útiles de programación competitiva.

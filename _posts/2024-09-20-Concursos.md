@@ -201,6 +201,14 @@ El Concurso Anual de Programación "Donald Knuth" es un concurso abierto para pa
 
 Para más información y convocatorias debes estar al pendiente de la [página de facebook: Algoritmia ESCOM](https://www.facebook.com/algoritmiaescom)
 
+## Concurso de cinvestav TamCoder
+
+![TamCoder Logo](https://cinvestav.mx/Portals/0/EasyDNNNews/14005/images/TamCoder2024b-600-600-p-L-97.jpg){: w="200" h="100"}
+
+TamCoder es un concurso estatal de programación dirigido **exclusivamente** a estudiantes inscritos en instituciones de educación superior del estado de **Tamaulipas**. Es organizado por la Unidad Tamaulipas del Cinvestav-IPN, con el apoyo de la Subsecretaría de Educación Superior del estado. 
+
+Más información en el sitio de [Cinvestav](https://cinvestav.mx/Buscar/search/tamcoder)
+
 ## RPC
 
 ![RPC Logo](https://redprogramacioncompetitiva.com/images/lgo_rpc1.png){: w="200" h="100"}

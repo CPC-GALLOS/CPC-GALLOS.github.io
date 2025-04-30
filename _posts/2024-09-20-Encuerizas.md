@@ -18,12 +18,14 @@ Nuestras *Encuerizas* anteriores a marzo de 2025 se encuentran en el [grupo de V
 
 Nuestro término de la palabra *Encueriza* tiene un significado profundo; sus orígenes datan de la Antigua Grecia, donde el gimnasio era un lugar de desarrollo físico y espiritual, y los atletas competían desnudos, simbolizando pureza y dedicación. Siguiendo ese espíritu, en nuestras *Encuerizas*, los competidores se enfrentan a los retos de la **programación competitiva** despojados de distracciones, temores o dudas, mostrando su auténtico potencial al desnudar mente y alma con cada desafío. 
 
+## Concurso de Programación del Congreso de Ciencias Exactas UAA 
+
+- [CONCURSO_DE_PROGRAMACION_UAA_2025](https://codeforces.com/group/b3gKGxWtjA/contest/598108)
 
 ## Encuerizas 2025
 
 - [12_ENCUERIZA](https://codeforces.com/group/b3gKGxWtjA/contest/603031)
 - [11_ENCUERIZA](https://codeforces.com/gym/601370)
-- [CONCURSO_DE_PROGRAMACION_UAA_2025](https://codeforces.com/group/b3gKGxWtjA/contest/598108)
 - [10_ENCUERIZA](https://vjudge.net/contest/703740)
 - [9_ENCUERIZA](https://vjudge.net/contest/701621)
 - [8_ENCUERIZA](https://vjudge.net/contest/699477)

@@ -9,6 +9,9 @@ pin: true
 mermaid: false
 image: /assets/img/posts/Presentaciones.png
 ---
+ 
+> Recuerda visitar los post de [Recursos](https://cpc-gallos.github.io/blog/Recursos/) y [Cursos Externos](https://cpc-gallos.github.io/blog/Cursos_Externos/) para complementar tu aprendizaje
+{: .prompt-info }
 
 ## Presentaciones 2025
 
