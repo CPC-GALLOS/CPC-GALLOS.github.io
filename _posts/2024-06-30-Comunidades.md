@@ -12,9 +12,10 @@ image: /assets/img/posts/Discord_ICPC.png
 
 
 ## Mapa de clubes de programación competitiva y Algoritmia de México
+
 <div id="map-container">
-   <div id="tooltip"></div>
-   <object type="image/svg+xml" data="/assets/img/posts/Comunidades/mexico-map.svg" id="mexico-map"></object>
+<div id="tooltip"></div>
+<object type="image/svg+xml" data="/assets/img/posts/Comunidades/mexico-map.svg" id="mexico-map"></object>
 </div>
 
 <div id="info-box" class="hidden"></div>
@@ -69,13 +70,11 @@ image: /assets/img/posts/Discord_ICPC.png
       margin: 0 auto;
       overflow: hidden;
    }
-
    #map-container object {
       width: 100%;
       height: auto;
       display: block;
    }
-
    #info-box {
       position: relative;
       /* Change from absolute to relative */
@@ -89,15 +88,12 @@ image: /assets/img/posts/Discord_ICPC.png
       box-shadow: 0 2px 5px var(--sidebar-hover-bg);
       display: none;
    }
-
    #info-box.hidden {
       display: none;
    }
-
    #info-box:not(.hidden) {
       display: block;
    }
-
    #tooltip {
       position: fixed;
       background-color: rgba(0, 0, 0, 0.5);
@@ -106,7 +102,6 @@ image: /assets/img/posts/Discord_ICPC.png
       border-radius: 3px;
       font-size: 16px;
       pointer-events: none;
-      /* Prevent interfering mouse events */
       display: none;
    }
 </style>
@@ -399,7 +394,6 @@ image: /assets/img/posts/Discord_ICPC.png
                         contacto: [{ email: "mailto:clubpumasmas@gmail.com", discord: "https://discord.com/invite/bAgCEr4" }],
                         concurso: [{ concurso_de_la_facultad_de_ciencias: "https://sistemas.fciencias.unam.mx/~acm2014/concursos.html" }]
                   }
-
                ]
             },
             "path7327": { name: "Durango", clubs: null },
@@ -419,7 +413,6 @@ image: /assets/img/posts/Discord_ICPC.png
                               Coding_Cup_ITSUR: "https://www.facebook.com/CodingCupITSUR"
                            }
                         ]
-
                   }
                ]
             },
@@ -448,7 +441,6 @@ image: /assets/img/posts/Discord_ICPC.png
                               Campamento_de_Otoño: "https://www.facebook.com/ICBIUAEHOficial/photos/-el-club-de-programaci%C3%B3n-competitiva-te-invita-a-su-campamentolugar-sala-de-usos/1029207925675719/"
                            }
                         ]
-
                   },
                   {
                         club: "Algoritmia Avanzada Y Programación Competitiva (Algoritmia-Acatlan GUAPA)",
@@ -510,7 +502,6 @@ image: /assets/img/posts/Discord_ICPC.png
                               youtube: "https://www.youtube.com/@clubalgoritmiacuceicac6204",
                               google_drive_2023:"https://drive.google.com/drive/folders/19O2Cykuk5HtxvbHT1Ixf1uOR8H3QdS0_",
                               google_drive_2024:"https://drive.google.com/drive/folders/1iV_VFbMpodIqZWTOoqZYBhbsbimjyFtg"
-                           
                            }
                         ],
                         contacto: [
@@ -558,7 +549,6 @@ image: /assets/img/posts/Discord_ICPC.png
                         }
                   ],
                   contacto: [{ contactos_notion: "https://sheer-cloudberry-f14.notion.site/e3e3d13bfee74ef8b999077624cebfa3?v=2074c565fca24775adad8ef1ec4603fb" }]
-
                }]
             },
             "path7387": {
@@ -570,7 +560,6 @@ image: /assets/img/posts/Discord_ICPC.png
                         redes: [{ facebook: "https://www.facebook.com/ACMITLAC" }],
                         contacto: [{ email: "mailto:programacionmichoacan@gmail.com" }],
                         concurso: [{ Coding_Cup_Michoacán: "https://codingcupmichoacan.org/" }]
-
                   }
                ]
             },
@@ -658,7 +647,6 @@ image: /assets/img/posts/Discord_ICPC.png
                         estatus: "inactivo",
                         redes: [{ pagina: "https://fic.uas.edu.mx/?page_id=44218" }],
                         contacto: [{ email: "mailto:club.programacion@info.uas.edu.mx" }]
-
                   }
                ]
             },
@@ -731,7 +719,6 @@ image: /assets/img/posts/Discord_ICPC.png
                   if (state !== selectedState) {
                         state.style.fill = hoverColor;
                   }
-                  // Show the tooltip near the cursor
                   const stateInfo = stateData[state.id];
                   if (stateInfo) {
                         tooltip.textContent = stateInfo.name;
@@ -740,7 +727,6 @@ image: /assets/img/posts/Discord_ICPC.png
                });
                state.addEventListener("mousemove", (e) => {
                   const containerRect = document.getElementById("map-container").getBoundingClientRect();
-                  // Calculate the position relative to the container
                   const relativeX = e.clientX + containerRect.left;
                   const relativeY = e.clientY + containerRect.top;
                   tooltip.style.left = `${relativeX + tooltipXoffset}px`;
@@ -755,7 +741,6 @@ image: /assets/img/posts/Discord_ICPC.png
                         const selectedStateInfo = stateData[selectedState.id];
                         if (selectedStateInfo) {
                            let clubInfo = "";
-
                            if (selectedStateInfo.clubs && selectedStateInfo.clubs.length > 0) {
                               selectedStateInfo.clubs.forEach((club, index) => {
                                     let redesHTML = club.redes
@@ -764,35 +749,30 @@ image: /assets/img/posts/Discord_ICPC.png
                                                 `<a href="${v}" target="_blank">${k}</a>`).join(", ")
                                        ).join("<br>")}<br>`
                                        : "";
-
                                     let contactoHTML = club.contacto
                                        ? `<strong>Contacto:</strong> ${club.contacto.map(c =>
                                           Object.entries(c).map(([k, v]) =>
                                                 `<a href="${v}" target="_blank">${k}</a>`).join(", ")
                                        ).join("<br>")}<br>`
                                        : "";
-
                                     let recursosHTML = club.recursos
                                        ? `<strong>Recursos:</strong> ${club.recursos.map(r =>
                                           Object.entries(r).map(([k, v]) =>
                                                 `<a href="${v}" target="_blank">${k}</a>`).join(", ")
                                        ).join("<br>")}<br>`
                                        : "";
-
                                     let concursoHTML = club.concurso
                                        ? `<strong>Concurso:</strong> ${club.concurso.map(c =>
                                           Object.entries(c).map(([k, v]) =>
                                                 `<a href="${v}" target="_blank">${k}</a>`).join(", ")
                                        ).join("<br>")}<br>`
                                        : "";
-
                                     let trainingHTML = club.training_camp
                                        ? `<strong>Training Camp:</strong> ${club.training_camp.map(t =>
                                           Object.entries(t).map(([k, v]) =>
                                                 `<a href="${v}" target="_blank">${k}</a>`).join(", ")
                                        ).join("<br>")}<br>`
                                        : "";
-
                                     clubInfo += `
             <div style="margin-bottom: 1em; border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
                <strong>Club ${index + 1}:</strong> ${club.club}<br>
@@ -809,7 +789,6 @@ image: /assets/img/posts/Discord_ICPC.png
                            } else {
                               clubInfo = `<em>Sin clubes conocidos</em>`;
                            }
-
                            infoBox.innerHTML = `
    <strong>Estado:</strong> ${selectedStateInfo.name}<br><br>
    ${clubInfo}
@@ -829,7 +808,6 @@ image: /assets/img/posts/Discord_ICPC.png
                   const stateInfo = stateData[state.id];
                   if (stateInfo) {
                         let clubInfo = "";
-
                         if (stateInfo.clubs && stateInfo.clubs.length > 0) {
                            stateInfo.clubs.forEach((club, index) => {
                               let redesHTML = club.redes
@@ -838,35 +816,30 @@ image: /assets/img/posts/Discord_ICPC.png
                                           `<a href="${v}" target="_blank">${k}</a>`).join(", ")
                                     ).join("<br>")}<br>`
                                     : "";
-
                               let contactoHTML = club.contacto
                                     ? `<strong>Contacto:</strong> ${club.contacto.map(c =>
                                        Object.entries(c).map(([k, v]) =>
                                           `<a href="${v}" target="_blank">${k}</a>`).join(", ")
                                     ).join("<br>")}<br>`
                                     : "";
-
                               let recursosHTML = club.recursos
                                     ? `<strong>Recursos:</strong> ${club.recursos.map(r =>
                                        Object.entries(r).map(([k, v]) =>
                                           `<a href="${v}" target="_blank">${k}</a>`).join(", ")
                                     ).join("<br>")}<br>`
                                     : "";
-
                               let concursoHTML = club.concurso
                                     ? `<strong>Concurso:</strong> ${club.concurso.map(c =>
                                        Object.entries(c).map(([k, v]) =>
                                           `<a href="${v}" target="_blank">${k}</a>`).join(", ")
                                     ).join("<br>")}<br>`
                                     : "";
-
                               let trainingHTML = club.training_camp
                                     ? `<strong>Training Camp:</strong> ${club.training_camp.map(t =>
                                        Object.entries(t).map(([k, v]) =>
                                           `<a href="${v}" target="_blank">${k}</a>`).join(", ")
                                     ).join("<br>")}<br>`
                                     : "";
-
                               clubInfo += `
 <div style="margin-bottom: 1em; border: 1px solid #ddd; padding: 10px; border-radius: 8px;">
 <strong>Club ${index + 1}:</strong> ${club.club}<br>
@@ -883,13 +856,11 @@ ${trainingHTML}
                         } else {
                            clubInfo = `<em>Sin clubes conocidos</em>`;
                         }
-
                         infoBox.innerHTML = `
 <strong>Estado:</strong> ${stateInfo.name}<br><br>
 ${clubInfo}
 `;
                   }
-
                   infoBox.classList.add("clicked");
                   infoBox.classList.remove("hidden");
                });
@@ -897,18 +868,16 @@ ${clubInfo}
             document.addEventListener("click", (e) => {
                const mapContainer = document.getElementById("map-container");
                const infoBox = document.getElementById("info-box");
-
                if (!mapContainer.contains(e.target) && !infoBox.contains(e.target)) {
                   infoBox.classList.add("hidden");
                   infoBox.classList.remove("clicked");
-
                   if (selectedState) {
                         selectedState.style.fill = "#b9b9b9";
                         selectedState = null;
                   }
                }
             });
-
       });
    });
 </script>
+
