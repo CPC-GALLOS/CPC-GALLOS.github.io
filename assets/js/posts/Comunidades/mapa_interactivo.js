@@ -325,7 +325,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         }
                     ],
                     concurso: [{
-                        XPOCET: "ceca.uaeh.edu.mx/xpocet/"
+                        XPOCET: "https://www.google.com/search?q=ceca.uaeh.edu.mx%2Fxpocet&sclient=gws-wiz-serp"
                     }],
                     training_camp: [
                         {
@@ -576,7 +576,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     pagina: "https://sites.google.com/view/cpcfmat-uady"
                 }],
                 recursos: [{ presentaciones: "https://sites.google.com/view/cpcfmat-uady/entrenamientos/iniciaci%C3%B3n" }],
-                contacto: [{ discord: "https://discord.com/invite/rxVhJMKPQD" }],
+                contacto: [{ discord: "https://discord.gg/5QWvqerS" }],
                 concurso: [{ Jujutsu_Koding: "https://sites.google.com/view/cpcfmat-uady/actividades/jujutsu-koding" }]
             }]
         },

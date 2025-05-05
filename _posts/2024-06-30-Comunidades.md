@@ -11,6 +11,9 @@ image: /assets/img/posts/Discord_ICPC.png
 ---
 
 
+> Si el mapa se ve cortado o no es funcional, recarga la página
+{: .prompt-tip }
+
 ## Mapa de clubes de programación competitiva y Algoritmia de México
 
 <div id="map-container">
