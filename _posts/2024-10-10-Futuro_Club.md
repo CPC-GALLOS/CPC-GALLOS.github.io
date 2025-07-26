@@ -7,7 +7,7 @@ author: ArielParra
 tags: [historia]
 pin: false
 mermaid: false
-image:
+image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvYO8RSdnPNUE6gz-uPq26p8jG7bUqxfgeAaOAI0V4noTrkrt7DTeaOTGTHpqdXjAed4Pss63sDZIuTkXXI2Fl5Rz2f_zJAVSYiCsqRg8fKKvxaESvQKzFr940Z2qorDGti-cPsS_kU8Q/s1600/vives+en+el+futuro.jpg
 ---
 
 ## Misión

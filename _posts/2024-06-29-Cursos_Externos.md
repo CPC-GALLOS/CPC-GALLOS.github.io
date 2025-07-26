@@ -89,6 +89,7 @@ Los Training Camps son eventos organizados en diversas universidades, tanto naci
 - [University of Calgary Competitive Programming Club](https://cpc.cpsc.ucalgary.ca/presentations/weekly-meetings/) Presentaciones algo antiguas pero útiles de programación competitiva.
 - [Hack Club STEM Egypt](https://stemegypt.hackclub.com/cp) Club para el EOI en Egipto.
 - [Competitive Programming Slides](https://github.com/sam571128/CP-Slides) Cursos de distintos clubes de China.
+- [TCS Codificadas](https://tcscodificadas.com/recursos/) Recursos de Programación para el concurso de TCS codificadas
 - [Club de Programación competitiva de la UADY](https://sites.google.com/view/cpcfmat-uady/entrenamientos/iniciaci%C3%B3n)
 - [Club de la Universidad Rey Juan Carlos](https://github.com/isaaclo97/programacion-competitiva/tree/main/Cursos)
 - [GPC-UNI](https://peon-pasado.github.io/competitive-programming-classes/web/index.html)

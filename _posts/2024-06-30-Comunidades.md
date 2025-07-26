@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,comunidad]
 pin: false
 mermaid: false
-image: /assets/img/posts/Discord_ICPC.png
+image: /assets/img/posts/Comunidades/Mapa_Clubes.png
 ---
 
 

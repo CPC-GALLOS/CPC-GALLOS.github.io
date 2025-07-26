@@ -8,7 +8,7 @@ tags: [recomendaciones,cursos,egresados,estudiantes]
 pin: false
 mermaid: false
 comments: false # evitar problemas con los parametros de url
-image:
+image: /assets/img/posts/Filtrar_Certificados/Filtror_Certificados.png
 ---
 
 > Si deseas ver una lista detallada sobre los temas junto con becas, revisa este post: [Certificaciones Gratuitas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/). Si buscas ofertas en certificaciónes con costo, revisa este post: [Ofertas en Certificaciones](https://cpc-gallos.github.io/blog/Ofertas_Certificaciones/)

@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,C++,concursos]
 pin: false
 mermaid: false
-image:
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1678818644026/8a2d914f-342a-4833-b657-f4b80f68aff9.png
 ---
 
 > Recuerda revisar nuestro post de [Recursos](https://cpc-gallos.github.io/blog/Recursos/) y [Cursos Externos](https://cpc-gallos.github.io/blog/Cursos_Externos/) para complementar tu aprendizaje
@@ -20,7 +20,7 @@ Los jueces virtuales (OJ, por sus siglas en inglés de Online Judge) son platafo
 - **[OmegaUp](https://omegaup.com/)**: Plataforma de programación competitiva que promueve el talento latinoamericano. Es la creadora del OFMI (Olimpiada Femenil Mexicana de Informática) y en ella se realizan las selecciones regionales para la OMI (Olimpiada Mexicana de Informática). Ofrece problemas, concursos y estadísticas para entrenar de manera efectiva.
 - **[Leetcode](https://leetcode.com/problemset/)**: Famoso entre los programadores de software para practicar problemas técnicos que podrían aparecer en entrevistas laborales. Ofrece problemas que cubren una variedad de temas y técnicas de programación.
 - **[Atcoder](https://atcoder.jp/)**: Un sitio japonés que organiza competencias de programación de alta calidad y tiene problemas bien categorizados, desde principiantes hasta avanzados.
-- **[CSES](https://cses.fi/problemset/)**: Ofrece una lista extensa de problemas de algoritmos y estructuras de datos que ayudan a mejorar las habilidades de resolución de problemas.
+- **[CSES](https://cses.fi/problemset/)**: Ofrece una lista limitada pero de una alta calidad de problemas de algoritmos y estructuras de datos que ayudan a mejorar las habilidades de resolución de problemas.
 - **[USACO](https://www.usaco.org/index.php)**: El sitio oficial de la competencia de la Olimpiada de Computación de EE. UU., ideal para practicar problemas que simulan las pruebas reales.
 - **[DMOJ](https://dmoj.ca/)**: Una plataforma con una amplia gama de problemas que van desde nivel principiante hasta avanzado, ideal para quienes buscan retos en un entorno competitivo y bien organizado.
 - **[Open Kattis](https://open.kattis.com/)**: Plataforma que ofrece problemas de diversos niveles y áreas, ideal para mejorar las habilidades de resolución de problemas en entornos competitivos.
@@ -31,6 +31,9 @@ Los jueces virtuales (OJ, por sus siglas en inglés de Online Judge) son platafo
 - **[UVA](https://onlinejudge.org/)**: Una plataforma tradicionalmente conocida por su gran colección de problemas de algoritmos.
 - **[LibreOJ](https://loj.ac/)**: Juez de programación con una amplia variedad de problemas de diferentes niveles, enfocado en el aprendizaje y la competencia.
 - **[Openjudge](https://openjudge.cn/)**: Sitio chino que ofrece una gran cantidad de problemas, utilizado principalmente por la comunidad asiática.
+- **[codechef](https://www.codechef.com/)**: Plataforma india de programación competitiva que organiza concursos regulares como Long Challenge, Cook-Off y Lunchtime. 
+- **[topcoder](https://www.topcoder.com/)**: Una de las plataformas más veteranas en programación competitiva. Ofrece competencias como Single Round Matches (SRM)
+- **[hackerrank](https://www.hackerrank.com/)**: Ofrece ejercicios prácticos en algoritmos, estructuras de datos, matemáticas y más, además de permitir a empresas evaluar candidatos mediante retos personalizados.
 
 > Algunas plataformas incluyen competencias en distintos horarios y días, para conocer más visita nuestro blog [Concursos](https://cpc-gallos.github.io/blog/Concursos/#concursos-recurrentes-en-distintas-plataformas)  
 {: .prompt-tip}

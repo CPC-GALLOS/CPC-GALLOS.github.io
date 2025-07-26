@@ -7,10 +7,12 @@ author: ArielParra
 tags: [recomendaciones,estudiantes]
 pin: false
 mermaid: false
-image:
+image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-university-600nw-1150054505.jpg
 ---
 
 ## Descuentos validando que eres estudiante
+
+> En la mayoria de casos te preguntaran por un documento de la universidad y un correo institucional (los que incluyen edu), usualmente las universidad que son consideradas como validas estan en registradas en la base de datos del [WHED](https://www.whed.net/home.php).
 
 ### Software
 

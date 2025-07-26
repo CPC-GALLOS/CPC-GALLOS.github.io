@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,C++,concursos]
 pin: false
 mermaid: false
-image:
+image: https://repository-images.githubusercontent.com/390296311/0f6c1240-462e-47ff-870d-e2d0ebb181f1
 ---
 
 # ¿Qué es Codeforces?

@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,egresados,estudiantes]
 pin: false
 mermaid: false
-image: 
+image: https://www.upf.edu/documents/6764143/268343018/mar%C3%A7_10_crimi_contreras.png
 ---
 
 El camino hacia el exito no es lineal, cada persona construye su propio camino, ya sea a través de la educación, la experiencia laboral o la constante actualización en diversas áreas del conocimiento. Este post está diseñado para guiar a estudiantes, egresados y profesionales que buscan crecer en sus carreras, ofreciendo una vista a los diferentes puntos de especialización para un desarrollo profesional destacable.
@@ -33,11 +33,27 @@ Si bien muchas empresas extranjeras ya no requieren un título universitario par
 
 Si no puedes estudiar de manera presencial o si actualmente estás en una carrera no relacionada directamente con software o computación, es posible cursar una segunda carrera. Estudiar una licenciatura en línea es una opción recomendada para combinar estudios y trabajar hacia tus objetivos profesionales, aunque si cuentas con alguna beca, te recomendamos revisar los términos para asegurarte de que puedas cumplir con los requisitos y compatibilidades.
 
+- **Intercambio Academico y becas**
+   - [Lester B. Pearson](https://future.utoronto.ca/pearson-scholarships) oportunidad de estudiar en la universidad de Toronto si te es nominado por tu bachillerato
+
 - **Universidades en Línea**:
 
    - [UNAM SUAyED](https://cuaed.unam.mx/suayed/oferta-educativa.php#licenciaturas) Ofrece licenciaturas en áreas como Informática, Economía, Contaduría y más, a un costo accesible. Además, cuenta con el respaldo y prestigio de la UNAM.
    - [Jala University](https://jala.university/) ofrece una Ingeniería de Software 100% gratuita.
    - [Universidad Abierta y a Distancia de México](https://www.unadmexico.mx/) ofrece una Ingeniería en Desarrollo de Software sin costo.
+
+- **Titulo por examen (Acuerdo 286)**:
+
+Es un proceso de acreditación por [Acuerdo 286](https://ceneval.edu.mx/examenes-acreditacion-acuerdo_286/) de la SEP que permite a la persona sustentante obtener un título por conocimientos adquiridos de manera autodidacta o por experiencia laboral de varias licenciaturas e ingenierías. El proceso se realiza en dos etapas: Primera etapa EGAL (Examen escrito = $2,720) y Segunda etapa EXOAL (Examen Oral = $18,990), sumando un costo total de $21,710 MXN al menos en 2025.
+
+   - **Licenciaturas reguladas** (Requieren al menos 50% de créditos cursados o Currículum vita afin)
+      - Ingeniería Computacional
+      - Ingeniería de Software
+
+   - **Licenciaturas no reguladas** (No requieren un porcentaje de créditos cursados)
+      - Ciencias Computacionales
+      - Informática
+
 
 ### Posgrados
 
@@ -49,42 +65,14 @@ Las especialidades se enfocan en profundizar en un área particular de una disci
 
 - [UNAM](https://www.posgrado.unam.mx/programa/computo-de-alto-rendimiento-especializacion/): Ofrece una Especialización en Cómputo de Alto Rendimiento, en modalidad presencial conuna duración de 2 semestres .
 
-#### Maestría
+#### Maestrías
 
 Las maestrías permiten desarrollar conocimientos avanzados y pueden ser una excelente opción para quienes buscan especializarse aún más en su campo. En México, existen opciones nacionales e internacionales con oportunidades de financiamiento.
 
-- **Nacional**:  
-  Existen multiples becas nacionales para estudiar maestrias, por ejemplo las del [SECIHTI](https://secihti.mx/convocatorias/convocatorias-becas-nacionales/convocatorias-abiertas-becas-nacionales/) o la más importante es la del [CONACyT](https://conahcyt.mx/becas_posgrados/) ofrecen apoyo financiero de hasta 17,000 pesos mensuales para maestrías de calidad. Algunas universidades recomendadas son:
-  - [UNAM](https://www.pcic.unam.mx/#programas)
-  - [IPN](https://www.ipn.mx/oferta-educativa/posgrado/?input_filtro=&n=2&a=1&m=1&e=-1)
-  - [BUAP](https://viep.buap.mx/posgrados/content/oferta-acad%C3%A9mica-maestr%C3%ADas#ua6)
-  - [CIMAT](https://pcc.cimat.mx/es)
+  - **Becas para Maestrias**:  
 
-- **Internacional**:  
-  Aunque puede ser una opción costosa en especial por el hospedaje, existen distintos programas de becas como:
-   - Las becas más famosas y optimas para estudiar son las becas al Extranjero [CONACyT](https://conahcyt.mx/becas_posgrados/becas-al-extranjero/) y del [SECIHTI](https://secihti.mx/becas_posgrados/becas-al-extranjero/).
-   - [JICA](https://www.jica.go.jp/spanish/overseas/mexico/activities/becas.html) La Agencia Japonesa de Cooperación Internacional JICA ofrece el programa “Líderes globales para el logro de los ODS ”. Los candidatos presentan su solicitud a una de las 84 escuelas japonesas que firmaron el Memorando de Entendimiento con JICA. Con postulación por parte del CONACyT.
-   - [DAAD](https://www.daad.mx/es/buscador-de-becas/becas-de-pre-y-posgrado/) El Servicio Alemán de Intercambio Académico DAAD otorga becas a estudiantes excelentes de todo el mundo que quieran seguir una maestría o doctorado en una de las instituciones suscritas.
-   - [Becas KTH ](https://www.kth.se/en/studies)El Real Instituto de Tecnología Kungliga Tekniska Högskolan – KTH ofrece becas para especialización/maestría a candidatos de todo el mundo con excelencia en sus estudios previos y que quieran contribuir al logro de los objetivos de desarrollo sostenible (ODS) en Suecia.
-   - [Becas SBFI](https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html) Todos los años, la Confederación Suiza otorga Becas de Excelencia Gubernamental para promover el intercambio internacional y la cooperación entre Suiza y otros países como México.
-   - [Beca Radboud](https://www.ru.nl/en/education/scholarships/radboud-scholarship-programme) La beca Radboud está compuesta por un programa altamente selectivo que brinda apoyo a estudiantes internacionales que no pertenecen a la Unión Europea ni que forman parte del Espacio Económico Europeo, ofreciendo una excelente oportunidad dentro de las becas para estudiar en Países Bajos.
-   - [ICSP Scholarship](https://isss.uoregon.edu/icsp/application) La International Cultural Service Program (ICSP) Scholarship de la Universidad de Oregón está dirigida a estudiantes internacionales, incluyendo aquellos de México y América Latina.
-   - [AU Emerging Global Leader Scholarship](https://www.american.edu/admissions/international/au-egls-apply.cfm) La AU Emerging Global Leader Scholarship (AU EGLS) de la American University en Washington, D.C., está dirigida a estudiantes internacionales que buscan becas para estudiar en el extranjero mientras promueven el cambio social en sus comunidades de origen. 
-   - [Beca Great del British Council](https://www.britishcouncil.org.mx/estudiar-reino-unido/becas-financiacion/great-scholarships) Las becas GREAT ofrecen a estudiantes mexicanos la oportunidad de recibir £10,000 para sus estudios de posgrado en el año académico.
-   - [FIDERH](https://www.fiderh.org.mx/) El Fondo para el Desarrollo de Recursos Humanos es un fideicomiso federal, administrado por el Banco de México, cuyo objetivo es financiar estudios de posgrado a estudiantes mexicanos (Por parte del  CONAHCYT).
-   - [FUNED MX](https://www.funedmx.org/funed-maestrias/) ofrece becas que incluso subren distintos gastos.
-   - [FUNIBER](https://www.funiber.org/becas-maestria) La Fundación Universitaria Iberoamericana (FUNIBER) ofrece un programa de Becas internacional para estudiar Maestrías, Especializaciones, Doctorados y Licenciaturas a distancia (online) y presenciales con titulación universitaria.
-   - [Fundación Beca](https://fundacionbeca.net/) Becas de posgrado en distitntas Universidades.
-   - [Becas sin fronteras](https://becas-sin-fronteras.com/) ofrece becas a distintas universidades europeas.
-   - La Organización de los Estados Americanos [OEA](https://www.oas.org/es/becas/).
-   - [Fundación Carolina](https://www.fundacioncarolina.es/formacion/postgrado/) Las becas de postgrado están dirigidas a la formación en España de licenciados nacionales y residentes de un país de América Latina para poder estudiar un posgrado en España.
-   - [AMEXCID](https://www.gob.mx/amexcid/acciones-y-programas/oferta-para-mexicanos) La AMEXCID canaliza y difunde las convocatorias de becas que gobiernos extranjeros ofrecen a mexicanos.
-   - [Beca Fulbright-García Robles](https://www.comexus.org.mx/posgrado_eua.php) Oportunidad para estudiantes mexicanos de estudiar un posgrado (maestría/doctorado) en Estados Unidos. La Comisión buscará obtener una exención total o parcial de la colegiatura y apoyará a los becarios con hasta $25,000.00 dólares anuales.
-   - [Becas de RMIT Australia](https://www.rmit.edu.au/study-with-us/international-students/apply-to-rmit-international-students/fees-and-scholarships/scholarships) Becas para cursar maestrias y doctorados en Australia.
-   - [Becas canadiences](https://embamex.sre.gob.mx/canada/index.php/es/coopacad/estcanesp) Guia para estudiar posgrados en Canada por el gobierno de México.
-   - 
-   - También hay recursos como el [British Council](https://www.britishcouncil.org.mx/examen/ielts/estudiar-extranjero),[educations.com](https://www.educations.com/scholarships), [Europosgrados](https://www.europosgrados.org/) o varias paginas del [Gobierno De Mexico](https://embamex.sre.gob.mx/espana/index.php/cooperacion-y-educacion/cooperacion-academica-y-educativa/oferta-de-becas), publican oportunidades de becas para estudiar en Europa y/o Estados Unidos.
-
+> Revisa nuestro post de [Becas para Maestrias](https://cpc-gallos.github.io/blog/Becas_Maestrias)
+{: .prompt-tip }
 
   - **Maestrías Internacionales en Línea**:  
    Estas maestrías cuentan con acreditación internacional y, en muchos casos, pueden ser más económicas que estudiar en una universidad privada nacional o cubrir los gastos asociados a vivir en otra ciudad o país. Si obtienes un título de maestría en el extranjero y deseas que tenga validez oficial en México, deberás realizar el trámite de [Revalidación/Homologación de Estudios](https://embamex.sre.gob.mx/espana/index.php/cooperacion-y-educacion/cooperacion-academica-y-educativa/revalidacion-homologacion-de-estudios).

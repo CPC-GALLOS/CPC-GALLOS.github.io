@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,egresados,estudiantes]
 pin: false
 mermaid: false
-image:
+image: https://annhawkins.com/wp-content/uploads/2016/10/discount-special-offer.jpg
 ---
 
 <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
@@ -32,6 +32,8 @@ En general para obtener vouchers gratis o descuentos en vouchers hay que estar a
 
 - [AWS Get Certified Challenge](https://www.google.com/search?q=AWS%20Get%20Certified%20Challenge) **50% de descuento** en cualquier examen de nivel Foundational or Associate, con varios términos y condiciones.
 - [AWS Emerging Talent Community](https://www.reddit.com/r/AWSCertifications/comments/1iacrq2/earning_50_off_voucher_with_etc_detailed_post/) al registrarte en AWS Educate y conseguir ciertos puntos y pasar algunos examenes de prueba puedes obtener un descuento del **100% de descuento** en una certificación.
+- [AWS Educate](https://aws.amazon.com/education/awseducate/) ofrece vouchers con **100% de descuento** (gratuitos) para certificaciones Foundational (4,500 puntos) y Associate (5,200 puntos). Solo debes completar cursos para acumular puntos y canjear tu voucher.
+- [Benefits for AWS Certified](https://aws.amazon.com/certification/benefits/) Si pasas tu examen de certificación obtendras**50% de descuento** en tu segundo para recertificación u otro examen. 
 - [Microsoft 30 Days To Learn](https://developer.microsoft.com/offers/30-days-to-learn-it?WT.mc_id=studentamb_165290) **50% de descuento** en vouchers de Microsoft Foundations.
 - [Microsoft Power Up Program](https://powerup.microsoft.com/) **100% de descuento** en el examen de Microsoft Power Platform, 
 - **30%** de descuento para Fundamentals y **45%** para los Role Base Exams al [identificarte como estudiante](https://learn.microsoft.com/en-us/credentials/certifications/student-discounts#how-to-identify-yourself-as-student-in-profile) en Microsoft.
@@ -39,6 +41,7 @@ En general para obtener vouchers gratis o descuentos en vouchers hay que estar a
 - 20% de descuento usando los cupones `DCUBE20` y `SCRIPT20` para certificaciones por parte de [Linux Foundation](https://training.linuxfoundation.org/cloud-containers/?SSAID=746540&sscid=71k8_jjr26&utm_source=shareasale&utm_medium=affiliate&utm_campaign=affiliate).
 - [javascriptlandia](https://javascriptlandia.com/) es una suscripción anual de $25 USD, donde obtienes entrenamientos, descuentos en exámenes y conferencias por parte de la fundación OpenJS (creadores de NodeJS, Electron y webpack).
 - [Red Por La Ciberseguridad](https://www.redporlaciberseguridad.org/producto/voucher-para-examen-de-certificacion-microsoft/) hasta **70% de descuento** en vouchers de Microsoft, sujeto a disponibilidad.
+- **20% de descuento** en el examen de Python PCEP al terminal el curso de [Python Essentials 1](https://www.netacad.com/courses/python-essentials-1?courseLang=en-US) de Cisco Net Academy
 - [Cisco netcad](https://www.netacad.com/fr/resources/program-info/certification-discount-information) **70% de descuento** para las certificaciones CCNA: Redes Empresariales, Seguridad y Automatización, CyberOps Associate (CBROPS) y DevNet (DEVASC):
   - Obtener al menos un 70% en el primer intento del examen final del curso.
   - Tener el curso marcado como "Completado" en el sistema de calificaciones de la plataforma de aprendizaje de la Academia de Redes de Cisco.

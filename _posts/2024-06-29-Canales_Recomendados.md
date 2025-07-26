@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones]  
 pin: false
 mermaid: false
-image:
+image: https://1000marcas.net/wp-content/uploads/2020/02/YouTube-logo.png
 ---
 
 # Español

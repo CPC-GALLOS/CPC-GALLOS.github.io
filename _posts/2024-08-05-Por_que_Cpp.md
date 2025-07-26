@@ -7,7 +7,7 @@ author: ArielParra
 tags: [C++]
 pin: false
 mermaid: true
-image:
+image: /assets/img/posts/Por_que_Cpp/cpp.png
 ---
 
 __Tabla de Contenidos:__
@@ -287,7 +287,7 @@ fun main() {
 
 ### Python3
 
-```pyt
+```py
 import sys
 read = sys.stdin.readline
 write = sys.stdout.write

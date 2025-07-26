@@ -501,6 +501,23 @@ document.addEventListener("DOMContentLoaded", () => {
                         facebook: "https://www.facebook.com/people/Club-de-Algoritmia-BUAP/61558223310114/",
                         instagram: "https://www.instagram.com/cabuap.ig/"
                     }]
+                },
+                     {
+                    club: "Competitive Programming UPAEP (CPU)",
+                    universidad: "Universidad Popular Autonoma del Estado de Puebla",
+                    estatus: "activo",
+                    recursos: [{ youtube: "https://www.youtube.com/@cpuupaep9303" }],
+                    redes: [{
+                        facebook: "https://www.facebook.com/CPUpaep",
+                        instagram: "https://www.instagram.com/cpupaep//"
+                    }],
+                    contacto: [{ 
+                        discord: "https://discord.com/invite/SG8U3FnpSM",
+                        email: "mailto:cpu@upaep.mx"
+                    }],
+                    concurso: [{
+                        Maratón_de_programación_competitiva: "https://eventos.upaep.mx/evento/encuentro-de-ingenierias"
+                    }]
                 }
             ]
         },
@@ -513,7 +530,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     universidad: "Universidad Autónoma de San Luis Potosí",
                     estatus: "activo",
                     redes: [{ facebook: "https://www.facebook.com/icpcsanluis/" }],
-                    recursos: [{ presentaciones: "https://icpcsanluis.github.io/curso/", youtube: "https://icpcsanluis.github.io/curso/" }],
+                    recursos: [{ 
+                        presentaciones: "https://icpcsanluis.github.io/curso/",
+                        youtube: "https://icpcsanluis.github.io/curso/"
+                    }],
                     contacto: [{ email: "mailto:icpcsanluis@gmail.com" }]
                 }
             ]

@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,estudiantes]
 pin: false
 mermaid: false
-image:
+image: https://www.recruiter.com/recruiting/wp-content/uploads/2022/09/recruit-for-ambassador-program.jpg
 ---
 
 Un embajador (ambassador) es una persona que representa, habla por o anuncia a una organización, grupo de personas, actividad o marca en particular. Estos reconocimientos son muy útiles si quieres aplicar para un trabajo en dicha empresa o empresas relacionadas, ya que aparte de poder tener una red de socios expertos en los temas de interes, también te destaca como una persona interesada en esa empresa y tecnologías. 

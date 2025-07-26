@@ -189,9 +189,24 @@ Más información en el instagram del [Club de Algoritmia Puebla](https://www.in
 
 Es un concurso en linea más grande del mundo realizado en octubre por la segunda empresa hindú más grande Tata Consultancy Services (TCS). Hecho para estudiantes universitarios de todo el mundo donde los 3 primeros lugares obtienen un premio de $20000 USD
 
-Solo puedes participar una vez en tu vida, las inscripciones y primer fase de la "season" son en septiembre y la final se realizan en marzo
+Solo puedes participar **una sola vez** en tu vida, las inscripciones y primer fase de la "season" son en septiembre y la final se realizan en marzo
 
 Más información en [codevita.tcsapps.com](https://codevita.tcsapps.com/)
+
+## TCS Codificadas
+
+![TCS Codificadas Logo](https://cuti.org.uy/wp-content/uploads/2025/07/codificadas-1080x400.png){: w="200" h="100"}
+
+Es una competencia regional de programación competitiva **exclusiva para mujeres**, organizada por Tata Consultancy Services (TCS), una de las principales empresas de tecnología y consultoría a nivel mundial, con sede en India y presencia en más de 40 países.
+
+La competencia se desarrolla en rondas preliminares remotas (En linea) y culmina en una gran final presencial, utilizando la plataforma Codeforces. Busca desafiar a las participantes con problemas algorítmicos que requieren lógica, creatividad y dominio técnico.
+
+Está dividida en 3 categorías:
+- **JrCoder**: Estudiantes de secundaria (15 a 18 años), técnicas o autodidactas.
+- **UniCoder**: Universitarias de pregrado en carreras tecnológicas, que se gradúen en octubre 2025 o después.
+- **ProCoder**: Egresadas universitarias, técnicas, profesionales en activo o estudiantes de posgrado.
+
+Más información en [tcscodificadas.com](https://tcscodificadas.com/)
 
 ## Concurso de Programación del IPN "Donald Knuth" (ESCOM)
 

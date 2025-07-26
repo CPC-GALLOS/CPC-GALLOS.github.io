@@ -7,10 +7,10 @@ author: ArielParra
 tags: [recomendaciones,egresados,estudiantes]
 pin: false
 mermaid: false
-image:
+image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-university-600nw-1150054505.jpg
 ---
 
-Un “internship” es lo que en México conocemos como ser becario. En esta posición, serás auxiliar de la empresa, ya sea con una remuneración económica o ninguna.
+Un “internship” es muy similar a lo que en México conocemos como ser becario. En esta posición, serás auxiliar de la empresa, ya sea con una remuneración económica o ninguna.
 Las prácticas profesionales son un requisito de las universidades, aunque es complicado validar practicas ajenas a las recomendadas por la universidad, aun asi es muy recomendado haber cursado un puesto de "intern" antes de incursionar por completo al mundo laboral.
 
 - [ITA-CLIA](https://aguascalientes.tecnm.mx/clia/#) es el cluster industrial de Aguascalientes por parte del TECNM, este tiene un apartado de empresas donde te dan todos los contactos para aplicar a pasantías o practicas profesionales en varias empresas de interés en nuestro estado, como softtek, Nissan, etc.

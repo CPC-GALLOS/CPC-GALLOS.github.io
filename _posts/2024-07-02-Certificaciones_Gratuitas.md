@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,cursos,egresados,estudiantes]
 pin: false
 mermaid: false
-image:
+image: https://img.freepik.com/vector-premium/megafon-banner-promocion-gratuito-diseno-burbuja-voz-proyectos-publicitarios_1041213-6933.jpg
 ---
 
 >  Si buscas ofertas en certificaciones con costo, revisa este post: [Ofertas en Certificaciones](https://cpc-gallos.github.io/blog/Ofertas_Certificaciones/). También revisa el [filtrado de certificados](https://cpc-gallos.github.io/blog/Filtrar_Certificados/). 

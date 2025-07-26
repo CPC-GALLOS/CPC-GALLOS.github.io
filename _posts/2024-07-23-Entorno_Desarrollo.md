@@ -171,7 +171,7 @@ winget update ; winget install -e --id MSYS2.MSYS2
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 ``` 
 
-> La descarga puede fallar en la red institucional. Si ocurre un fallo, intenta de nuevo o prueba en otra red Wi-Fi.
+> La descarga puede fallar en la redes institucionales (RIUAA en el caso de la UAA). Si ocurre un fallo, intenta de nuevo o prueba en otra red Wi-Fi.
 {: .prompt-info }
 
 
@@ -269,9 +269,10 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 - Clang no incluye la librería `<bits/stdc++>`, necesaria para usar la [plantilla del club](https://cpc-gallos.github.io/blog/Plantilla/), por lo que tendremos que instalarla manualmente con los siguientes comandos:
     ```zsh
-    mkdir /usr/local/include/bits
-    echo '#define _GLIBCXX_HOSTED 1' > /usr/local/include/bits/stdc++.h
-    curl -sS https://raw.githubusercontent.com/gcc-mirror/gcc/master/libstdc%2B%2B-v3/include/precompiled/stdc%2B%2B.h >> /usr/local/include/bits/stdc++.h
+    sudo mkdir -p /usr/local/include/bits
+    sudo touch /usr/local/include/bits/stdc++.h
+    echo '#define _GLIBCXX_HOSTED 1' | sudo tee /usr/local/include/bits/stdc++.h > /dev/null
+    curl -sS https://raw.githubusercontent.com/gcc-mirror/gcc/master/libstdc%2B%2B-v3/include/precompiled/stdc%2B%2B.h | sudo tee -a /usr/local/include/bits/stdc++.h > /dev/null
     ```
 
 > Recuerda **comentar** o **eliminar** las líneas `#pragma GCC optimize("Ofast,unroll-loops")` y `#pragma GCC target("avx2")` de la [plantilla de C++](https://cpc-gallos.github.io/blog/Plantilla/), debido a qué estas no son compatibles con Clang y darán un error de compilación!
