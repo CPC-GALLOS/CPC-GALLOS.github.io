@@ -14,7 +14,8 @@ image: /assets/img/posts/Encueriza.jpg
 
 Las *Encuerizas* es el término con el que llamamos a nuestras competencias locales, que se llevan a cabo los viernes de cada quince días. Inspiradas en los concursos de plataformas como Codeforces, conocidos como gimnasios (*gyms*).
 
-Nuestras *Encuerizas* anteriores a marzo de 2025 se encuentran en el [grupo de Vjudge](https://vjudge.net/group/gallos#contests-anchor), pero debido al requerimiento de la [cookie de codeforces](https://vjudge.net/article/2790), de ahora en adelante haremos las *Encuerizas* en el [grupo de codeforces](https://codeforces.com/group/b3gKGxWtjA/)
+> Nuestras *Encuerizas* anteriores a marzo de 2025 se encuentran en el [grupo de Vjudge](https://vjudge.net/group/gallos#contests-anchor), pero debido al requerimiento de la [cookie de codeforces](https://vjudge.net/article/2790), de ahora en adelante haremos las *Encuerizas* en el [grupo de codeforces](https://codeforces.com/group/b3gKGxWtjA/)
+{: .prompt-info }
 
 Nuestro término de la palabra *Encueriza* tiene un significado profundo; sus orígenes datan de la Antigua Grecia, donde el gimnasio era un lugar de desarrollo físico y espiritual, y los atletas competían desnudos, simbolizando pureza y dedicación. Siguiendo ese espíritu, en nuestras *Encuerizas*, los competidores se enfrentan a los retos de la **programación competitiva** despojados de distracciones, temores o dudas, mostrando su auténtico potencial al desnudar mente y alma con cada desafío. 
 

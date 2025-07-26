@@ -343,7 +343,7 @@ Más información en [codingrush.itam.mx](https://codingrush.itam.mx/)
 > **Recomendación**: Descarga [Coding Contest Reminder: CK](https://play.google.com/store/apps/details?id=com.shyptsolution.codingkaro) desde la Play Store para recibir recordatorios de concursos en cualquiera de estas plataformas. También puedes usar este calendario <https://competitiveprogramming.info/calendar>. Alternativamente, te sugiero suscribirte al newsletter de las plataformas que más te interesen.
 {: .prompt-tip}
 
-- [Encuerizas de Γα=Ω5 en Vjudge](https://vjudge.net/group/gallos#contests-anchor): Concursos quincenales los viernes de 2:00 a 4:00 pm.
+- [Encuerizas de Γα=Ω5](https://cpc-gallos.github.io/blog/Encuerizas/): Concursos quincenales los viernes de 2:00 a 4:00 pm.
 - [Codeforces](https://codeforces.com): Concursos semanales usualmente a las 8:30 am, recomendamos los de div4 o div3 para principiantes.
 - [LeetCode](https://leetcode.com/contest/): Concursos semanles o bisemanales usualmente a las 8:30 am/pm, contiene problemas similares a los de una entrevista de trabajo.
 - [Code Chef](https://www.codechef.com/contests): Concursos semanales usulamente en miercoles a las 8:30 am.

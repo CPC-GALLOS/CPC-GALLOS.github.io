@@ -51,7 +51,10 @@ Esta herramienta ha sido utilizada desde los inicios de nuestro club, ya que per
 > La página tiene anuncios, por lo que si no quieres verlos recomiendo usar adblockers como [uBlock Origin](https://ublockorigin.com/es)
 {: .prompt-tip}
 
-Recuerda visitar nuestros concursos locales (Encuerizas) en [el grupo de Vjudge](https://vjudge.net/group/gallos#contests-anchor) o revisa una lista completa de nuestras encuerizas en [este post](https://cpc-gallos.github.io/blog/Encuerizas/).
+> Al día de hoy se requiere agregar [cookies de codeforces](https://vjudge.net/article/2790) para poder participar en concursos que incluyan problemas de esta plataforma 
+{: .prompt-info }
+
+Recuerda visitar nuestros concursos locales (Encuerizas) enrevisando [este post](https://cpc-gallos.github.io/blog/Encuerizas/).
 
 ## Referencias 
 
