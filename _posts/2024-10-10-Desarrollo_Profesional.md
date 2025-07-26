@@ -31,7 +31,7 @@ Si ya egresaste del bachillerato o piensas estudiar una licenciatura, quizás es
 
 Si bien muchas empresas extranjeras ya no requieren un título universitario para roles en desarrollo de software, las empresas nacionales todavía valoran estos títulos. La universidad que elijas puede no ser tan importante como las conexiones que formes con tus compañeros y el aprendizaje autónomo que desarrolles.
 
-Si ya te titulaste de tu licenciatura y deseas trabajar en los Estados Unidos, es recomendable validar tus estudios a travez de una asociación reconocida como la [NACES](http://www.naces.org) o la [AICE](https://aice-eval.org/).
+Si ya te titulaste de tu licenciatura y deseas trabajar en los Estados Unidos, es recomendable validar tus estudios a travez de una asociación reconocida como la [NACES](https://www.naces.org) o la [AICE](https://aice-eval.org/).
 
 Si no puedes estudiar de manera presencial o si actualmente estás en una carrera no relacionada directamente con software o computación, es posible cursar una segunda carrera. Estudiar una licenciatura en línea es una opción recomendada para combinar estudios y trabajar hacia tus objetivos profesionales, aunque si cuentas con alguna beca, te recomendamos revisar los términos para asegurarte de que puedas cumplir con los requisitos y compatibilidades.
 
