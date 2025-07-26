@@ -396,3 +396,4 @@ Para el editor de código el club recomienda:
 - GitHub. (s.f.). *About billing for GitHub Codespaces*. Recuperado de <https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces>
 - Moin, S. (2019). *How to include bits/stdc++.h header file on macOS*. Recuperado de <https://codeforces.com/blog/entry/70957>
 - Replit. (s.f). *Build, deploy, and scale at any stage of growth*. Recuperado de <https://replit.com/pricing>
+- Visual Studio Code. (s.f.). *Installing MinGW to build C++ Code on Windows*. Recuperado de <https://www.youtube.com/watch?v=oC69vlWofJQ>
