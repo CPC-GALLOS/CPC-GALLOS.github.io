@@ -181,7 +181,35 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 ![path de windows](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001_path.png){: w="500" h="300" }
 
-- ya instalada la [extensión C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) en VScode iremos hacia las configuraciones de la extensión.
+
+### Instalar el compilador en VScode de Windows (Opción 1)
+
+- Instalar la [extensión C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) en VScode.
+
+![Extención de C++](assets/img/posts/Entorno_Desarrollo/extencion_cpp.png)
+
+- Despues presionaremos `f1` para abrir el "command palette" y escribe "walk",   
+
+![Command Palette](assets/img/posts/Entorno_Desarrollo/command_palette.png)
+
+- Entonces al darle `enter` a la opción **"Welcome: Open Walkthrough..."**, nos apareceran varias opciones de las cuales eligiremos la opción que mencione C/C++
+
+![Get Started cpp](assets/img/posts/Entorno_Desarrollo/Get_Started_cpp.png)
+
+- Al darle `enter` a esa opción nos aparecera este pantalla donde en la sección que dice **"Setup your C++ Environment"** deberemos darle click al boton azul que dice **"Select My Default Compiler"**, esto despliegara un menu en el command Pallette donde de nuevo deberemos elegir la opción que dice "use g++.exe"
+
+![Setup C++](assets/img/posts/Entorno_Desarrollo/select_compiler.png)
+
+- Esto causara que se abra el explorador de archivos de Windows donde deveremos navegar hacia la ruta `C:/msys64/ucrt64/bin` y elegir el programa `g++.exe`
+
+![Explorador de archivos](assets/img/posts/Entorno_Desarrollo/file_explorer.png)
+
+- Y listo. Con esto ya podremos compilar y ejecutar el código dentro de VScode dándole click al símbolo de reproducir <i class="fa fa-play"></i>  en la parte superior derecha del editor, si hubiera algún problema intentar instalar el compilador con el [segundo metodo](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#instalar-el-compilador-en-vscode-de-windows-opción-2) aquí abajo.
+
+
+### Instalar el compilador en VScode de Windows (Opción 2) 
+
+- Ya instalada la [extensión C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) en VScode iremos hacia las configuraciones de la extensión.
 
 ![configuración de la extensión C/C++](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001_cpp_settings.png){: w="500" h="300" }
 
@@ -199,7 +227,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
         }
 
     ```
-- Con esto ya podremos compilar y ejecutar el código dentro de VScode dándole click al símbolo de reproducir <i class="fa fa-play"></i>  en la parte superior derecha del editor o con la extensión [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) presionando las teclas `ctrl + alt + N`.
+- Con esto ya podremos compilar y ejecutar el código dentro de VScode dándole click al símbolo de reproducir <i class="fa fa-play"></i>  en la parte superior derecha del editor
 
 > Aveces al abrir una carpeta o proyecto, el compilador no detectara la libreria de `<bits/stdc++.h>`, para solucionar esto, presionaremos `f1` para abrir el "command palette" y dentro de "C/C++: Edit Configurations (UI)" pondremos de nuevo el "Compiler Path", pero ahora incluyendo el compilador g++: `C:/msys64/ucrt64/bin/g++.exe`
 {: .prompt-tip }
