@@ -13,7 +13,14 @@ image: /assets/img/posts/Presentaciones.png
 > Recuerda visitar los post de [Recursos](https://cpc-gallos.github.io/blog/Recursos/) y [Cursos Externos](https://cpc-gallos.github.io/blog/Cursos_Externos/) para complementar tu aprendizaje
 {: .prompt-info }
 
-## Presentaciones 2025
+## Presentaciones 2025 (En inglés)
+
+- [**Introduction**](https://cpc-gallos.github.io/Presentations/2025/0-Introduction.html), [pdf](https://cpc-gallos.github.io/Presentations/2025/0-Introduction.pdf)
+
+1. **Bases**
+    1. [Syntax](https://cpc-gallos.github.io/Presentations/2025/1_001-Syntax.html), [pdf](https://cpc-gallos.github.io/Presentations/2025/1_001-Syntax.pdf)
+    1. [Data Types & Casting](https://cpc-gallos.github.io/Presentations/2025/1_002-Data_Types_Casting.html), [pdf](https://cpc-gallos.github.io/Presentations/2025/1_002-Data_Types_Casting.pdf)
+
 
 ### XIX Congreso de Ciencias Exactas de la UAA
 
