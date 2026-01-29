@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         {
                             pagina: "https://cpc-gallos.github.io/",
                             facebook: "https://www.facebook.com/people/CPC-Gallos/61563419165843/",
-                            instagram: "https://www.instagram.com/cpc_gallos",
+                            instagram: "https://www.instagram.com/cpc.gallos",
                             linkedin: "https://www.linkedin.com/company/cpc-gallos"
                         }
                     ],
@@ -444,6 +444,19 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         "path7387": {
             name: "Michoacán", clubs: [
+                {
+                club: "Algortmia ITM",
+                    universidad: "Instituto Tecnológico Nacional de México, Campus Morelia",
+                    estatus: "activo",
+                    redes: [{ 
+                        instagram: "https://www.instagram.com/algoritmiaitm",
+                        facebook: "https://www.facebook.com/people/Cap%C3%ADtulo-de-Algoritmia-y-Programaci%C3%B3n-Competitiva-del-ITM-Morelia/61575041050815/",
+                    }],
+                    contacto: [{
+                        telefono: "Phone:4434975076",
+                        email: "mailto:algoritmiaitm@gmail.com"
+                    }],
+                },
                 {
                     club: "Club de Algoritmia Crocoders",
                     universidad: "Instituto Tecnológico de Lázaro Cárdenas",

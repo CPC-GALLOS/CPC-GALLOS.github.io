@@ -17,12 +17,12 @@ Las compañías **Big Tech** son algunas de las más importantes de Estados Unid
 
 Algunas de las formas en las que se agrupan las empresas **Big Tech** son:  
 
-- **FAANG**: Facebook, Amazon, Apple, Netflix y Google.  
+- **MANGO**: Meta, Apple, Nvidia, Google, OpenAI. (Considerado el **nuevo** FAANG)
+- **FAANG**: Facebook, Amazon, Apple, Netflix y Google.
 - **Big Five**: Alphabet, Amazon, Apple, Meta y Microsoft.  
 - **Magnificent Seven**: Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia y Tesla.  
 
 Sin embargo, el uso de entrevistas técnicas con problemas de programación no es exclusivo de las **Big Tech**. Otras empresas, como **C3.ai**, también implementan este tipo de evaluaciones en sus procesos de selección.  
-
 
 
 ### Canales de Youtube para prepararse

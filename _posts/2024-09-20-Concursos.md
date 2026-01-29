@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,concursos,C++]
 pin: true
 mermaid: false
-image: https://2024icpcmexicofinals.org/gallery_gen/141955567b9663ae7f31ec1b32c5be9f_fit.jpg
+image: https://scontent.fntr4-1.fna.fbcdn.net/v/t39.30808-6/488472797_122148496916447305_6249667623734638425_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=G4JJh6fgfbYQ7kNvwHcVVv0&_nc_oc=AdkOhURDa-ALR0dX-zrOD7s5EjFI7my8sDynG5-bEv2bgFbRCUc9vZbJN6mAuIkVhK0&_nc_zt=23&_nc_ht=scontent.fntr4-1.fna&_nc_gid=Cu26eBC4pNVrAc1XrsJkWQ&oh=00_Afp7Bz6oIRcGBalDGLc2uRSXmT4qx2BLIfve0wzYYhisSQ&oe=698192CC
 ---
 
 __Tabla de Contenidos:__
