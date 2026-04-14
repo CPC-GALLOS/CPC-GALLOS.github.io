@@ -17,6 +17,8 @@ __Tabla de Contenidos:__
 * 
 {:toc} 
 
+> las certificaciones, certificados e insignias no son lo mismo, reafirma la diferencia de estas credenciales/reconocimientos en el post de [Desarrollo Profesional](https://cpc-gallos.github.io/blog/Desarrollo_Profesional/#reconocimientos)
+{: .prompt-warning }
 
 ## Certificaciones Gratuitas
 
@@ -85,6 +87,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [OpenCV Bootcamp](https://opencv.org/university/free-opencv-course/) esta librería de Python es muy utilizada en el mercado, es usada para reconocimiento y análisis de imágenes ya sean estáticas o en tiempo real con una cámara.
 - [TensorFlow Bootcamp](https://opencv.org/university/free-tensorflow-keras-course) esta librería de Python creada por Google es indispensable para la creación de redes neuronales, las cuales son las bases de la inteligencia artificial.
 - [Motoko Bootcamp](https://www.motokobootcamp.com/) La categoria de "Self-Study" te enseña las bases del lenguaje de programación Motoko usado para "smart contracts" (blockchain) por el ICP (Internet Computer) donde al final recibiras un diploma.
+- [Mendix](https://www.mendix.com/)
 
 ### Diplomados de Capacítate Para el Empleo 
 [Capacítate Para el Empleo](https://capacitateparaelempleo.org/mostrar-diplomados) es una plataforma en español creada por la fundación Carlos Slim donde hay distintos diplomados de tecnología.
@@ -121,6 +124,20 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/)
 - [Information Security Certification](https://www.freecodecamp.org/learn/information-security/)
 
+
+### Cursos de Anthropic
+
+- [Claude 101](https://anthropic.skilljar.com/claude-101)
+- [claude-code-101](https://anthropic.skilljar.com/claude-code-101)
+- [Introduction to Claude Cowork](https://anthropic.skilljar.com/introduction-to-claude-cowork)
+- [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action)
+- [AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations)
+- [Building with the Claude API](https://anthropic.skilljar.com/claude-with-the-anthropic-api)
+- [Introduction to Model Context Protocol](https://anthropic.skilljar.com/introduction-to-model-context-protocol)
+- [Model Context Protocol: Advanced Topics](https://anthropic.skilljar.com/model-context-protocol-advanced-topics)
+- [Claude with Amazon Bedrock](https://anthropic.skilljar.com/claude-in-amazon-bedrock)
+- [Claude with Google Cloud's Vertex AI](https://anthropic.skilljar.com/claude-with-google-vertex)
+- [Introduction to subagents](https://anthropic.skilljar.com/introduction-to-subagents)
 
 ### Cursos de la Universidad de Harvard 
 
@@ -329,6 +346,15 @@ Por úlitmo existe la opción de tomar una clase en vivo a travez de [AWS Traini
 - **SASE Advanced**: [Advanced Security](https://www.catonetworks.com/sase/sase-certification/advanced-security) y [SASE Deployment & Management](https://www.catonetworks.com/sase/sase-certification/deployment-and-management)
 - **SASE Executive**: [Business Impact & Strategy](https://www.catonetworks.com/sase/sase-certification/business-impact-and-strategy)
 
+### Insignias SAP
+
+- [Discovering SAP](https://learning.sap.com/learning-journeys/discovering-sap-1)
+- [Integrating SAP Sales Cloud and SAP Service Cloud with SAP S/4HANA](https://learning.sap.com/learning-journeys/integrate-sap-sales-cloud-and-sap-service-cloud-with-sap-s-4hana)
+- [Exploring Migration Paths from SAP BW to SAP BW/4HANA](https://learning.sap.com/learning-journeys/exploring-migration-paths-from-sap-bw-to-sap-bw-4hana)
+- [Developing with SAP Build – From Apps to Automation](https://learning.sap.com/learning-journeys/developing-with-sap-build-from-apps-to-automation)
+- [Developing SAPUI5 Applications](https://learning.sap.com/learning-journeys/developing-sapui5-applications)
+- [Developing with SAP Integration Suite](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite)
+
 ## Referencias
 
 - Classcentral. (2023). *1000+ Free Developer and IT Certifications*.<https://www.classcentral.com/report/free-developer-it-certifications/>
@@ -339,3 +365,4 @@ Por úlitmo existe la opción de tomar una clase en vivo a travez de [AWS Traini
 - Munchy Bytes. (2024). *FREE Professional Certification Exams*. Recuperado de <https://github.com/munchy-bytes/FreeDevCertifications>
 - UADY. (2025). *STEM*. Recuperado de <https://uady.mx/stem/>
 - Madrasi. (2025). *No payment options to learn AWS (with Digital Badges) for Beginners*. Recuperado de <https://www.reddit.com/r/AWSCertifications/comments/199nbun/no_payment_options_to_learn_aws_with_digital/>
+- KunalBansal. (2023). https://community.sap.com/t5/technology-blog-posts-by-members/earn-credly-badges-with-free-sap-learning-journey/ba-p/13549016

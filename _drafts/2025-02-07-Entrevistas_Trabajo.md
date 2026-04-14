@@ -1,5 +1,5 @@
 ---
-title: Entrevistas de Trabajo
+title: Entrevistas de Trabajo y CVs
 description: 
 date: 2025-02-07 19:00:00 +/-TTTT
 categories: [Desarrollo_Profesional]

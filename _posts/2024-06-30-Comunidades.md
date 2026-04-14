@@ -63,6 +63,9 @@ image: /assets/img/posts/Comunidades/Mapa_Clubes.png
 - [SFU Competitive Programming](https://discord.gg/wfch4Mk33Y)
 - [The University of Melbourne Competitive Programming Club](https://discord.gg/R68WZcgSVp)
 
+> Otros clubes de tecnologia de mexico pueden ser localizados a travez de la red de [comunidades de talent-land](https://talent-land.mx/comunidades)
+{: .prompt-tip }
+
 <style>
    #map-container {
       position: relative;

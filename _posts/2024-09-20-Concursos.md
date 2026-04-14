@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,concursos,C++]
 pin: true
 mermaid: false
-image: https://2024icpcmexicofinals.org/gallery_gen/141955567b9663ae7f31ec1b32c5be9f_fit.jpg
+image: https://i0.wp.com/cruce.iteso.mx/wp-content/uploads/2025/11/Final-Mexicana-ICPC-2025.jpg
 ---
 
 __Tabla de Contenidos:__

@@ -14,6 +14,9 @@ image: /assets/img/posts/talentland.webp
 
 Conferencias y encuentros tecnológicos donde puedes aprender, hacer networking y conocer tendencias en el mundo del desarrollo de software, la nube, la inteligencia artificial y más.
 
+> Para enterarte de hackatones revisa [eventbrite](https://www.eventbrite.es/d/mexico--mexico-city/hackathon/) y para eventos de tecnologia en general revisa [dev.events](https://dev.events/NA/MX)
+{: .prompt-tip }
+
 - [TalentLand](https://www.talent-land.mx/) El evento de innovación y tecnología más grande de Latinoamérica, realizado en Guadalajara. Reúne a programadores, emprendedores y expertos en diversas áreas tecnológicas.
 - [Github Universe](https://githubuniverse.com/) Conferencia oficial de GitHub sobre desarrollo, código abierto, DevOps y tendencias en colaboración para desarrolladores.
 - [Código Fest](https://codigofacilito.com/codigofest) Evento organizado por Código Facilito, enfocado en educación para programadores con charlas y talleres prácticos.
@@ -42,8 +45,12 @@ Más que competir por premios, estos eventos son oportunidades para hacer [netwo
 
 - [FINANHACK](https://solutions.lseg.com/FINANHACK2024) 
 Para estudiantes universitarios en Latinoamérica, enfocado en programación financiera con Python. Los equipos usan la plataforma LSEG Workspace y reciben cuatro sesiones de capacitación antes de entregar su código en Codebook (fecha límite: 20 de octubre de 2024).  
-- [Talent Hackathon](https://hackathon.talent-network.org/) 
+- [Genius Arena - Talent Land Hackathon](https://hackathon.talent-network.org/) 
 Parte del ecosistema Talent Land en Guadalajara, busca soluciones alineadas con los Objetivos de Desarrollo Sustentable (ODS) de la ONU. Participan industria, gobierno, academia y sociedad para reducir desigualdades y mejorar la calidad de vida.  
+- [hackathon404](https://www.hackathon404.com/) 3 días. 20 equipos
+- [startuplab]
+- [startglobal](https://www.startglobal.org/start-hack) hackaton donde puedes ir a europa
+- [Hakcaton 3B](https://www.instagram.com/p/DTlftVaDSWN/) cada año lo realizan en el primer semesttre del año en la CDMX
 - [hackthegoal](https://hackthegoal.cershi.org/) es un hackatón dirigido a estudiantes de licenciatura, maestría o doctorado de universidades en CDMX, Estado de México, Jalisco y Nuevo León, que busca soluciones innovadoras y aplicables para mejorar la movilidad. El evento ofrece un espacio creativo con apoyo de expertos, mentores y conferencistas para potenciar las propuestas.
 - [Hack Puebla](https://hackpue.com/) Programación y emprendimiento donde estudiantes, profesionales y entusiastas de la tecnología se unen para crear soluciones innovadoras a los problemas más urgentes de la actualidad.Por parte del MLH
 - [MLH](https://mlh.io/seasons/2025/events) Mayor league hacking (MLH) es una organización que apoya a estudiantes mediante hackatones presenciales y digitales, ofreciendo recursos y comunidad para aprender, crear y desarrollarse en tecnología.
@@ -70,3 +77,4 @@ Reto de programación para estudiantes de secundaria y preparatoria, donde NASA 
 - Microsoft. (2024). *Organizar hackatones*. Recuperado de <https://learn.microsoft.com/es-es/power-platform/guidance/adoption/hackathons#finding-your-ideas-and-use-cases>
 - Secretaría de Economía. (2026). *El Hackathon: un modelo colaborativo de innovación*. Recuperado de <https://www.gob.mx/se/articulos/el-hackathon-un-modelo-colaborativo-de-innovacion>
 - Wikipedia Editors. (2024). *Hackathon*. Recuperado de <https://en.wikipedia.org/wiki/Hackathon> 
+- https://github.com/gdscigdtuw/Open-Source-Projects-and-Hackathons

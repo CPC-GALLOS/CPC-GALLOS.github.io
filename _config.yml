@@ -214,6 +214,8 @@ defaults:
 
 sass:
   style: compressed
+  silence_deprecations:
+    - mixed_decls
 
 compress_html:
   clippings: all

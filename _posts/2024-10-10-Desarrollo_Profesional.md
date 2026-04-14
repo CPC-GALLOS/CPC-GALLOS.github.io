@@ -43,6 +43,7 @@ Si no puedes estudiar de manera presencial o si actualmente estás en una carrer
    - [UNAM SUAyED](https://cuaed.unam.mx/suayed/oferta-educativa.php#licenciaturas) Ofrece licenciaturas en áreas como Informática, Economía, Contaduría y más, a un costo accesible. Además, cuenta con el respaldo y prestigio de la UNAM.
    - [Jala University](https://jala.university/) ofrece una Ingeniería de Software 100% gratuita.
    - [Universidad Abierta y a Distancia de México](https://www.unadmexico.mx/) ofrece una Ingeniería en Desarrollo de Software sin costo.
+   - [UTEL](https://primerpaso.utel.edu.mx/collections/licenciaturas-ingenierias?page=2) tienen licenciaturas e ingenierias en linea e hibridas con un costo aproximado de $2,500 MXN por mes con una duracion de 2 años y 10 meses con validez oficial de `RVOE 20231337`
 
 - **Titulo por examen (Acuerdo 286)**:
 
