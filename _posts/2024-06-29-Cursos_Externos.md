@@ -16,6 +16,7 @@ __Tabla de Contenidos:__
 
 ## Temarios, Tablas de contenido, Planes de estudios y syllabus para la programación competitiva
 
+- [CAUS: Roadmap de temas](https://clubalgoritmiaus.es/resources/topics/)
 - [Colin Galen: From Beginner to Grandmaster](https://www.youtube.com/watch?v=bSdp2WeyuJY)
 - [Mostafa Saad: Enhanced Training roadmap for newcomers](https://codeforces.com/blog/entry/97858)
 - [Masataka Yoneda: A Way to Practice Competitive Programming](https://drive.google.com/file/d/1T-HqQgiB8HlIntpG3tgk2eHDhz5gImK9/view)
@@ -34,6 +35,9 @@ __Tabla de Contenidos:__
 
 ## Cursos de organizaciones
 
+- [France-IOI Progresser (ancien)](https://www.france-ioi.org/algo/chapters.php) Un curso completo que cubre la mayoria de temas en diferentes lenguajes de programacion, esta en frances pero pueden usar el [sitio bajo google traductor](https://www-france--ioi-org.translate.goog/algo/chapters.php?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=wapp) 
+- [Formación Olimpiada Informática Española](https://formacion.olimpiada-informatica.org/) La Olimpiada Informática Española pone a disposición un plan de formación en programación y algoritmia.
+- [SOI-Academy](https://soi.ch/wiki/) Curso teorico de algoritmia del Swiss Olympiad in Informatics.
 - [USACO Classes Live Online](https://joincpi.org/classes) clases sabados y domingos en linea.
 - [USACO training (clasico)](https://usaco.training/)
 - [USACO Guide (Moderno)](https://usaco.guide/)
