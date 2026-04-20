@@ -13,13 +13,19 @@ image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-univ
 Un “internship” es muy similar a lo que en México conocemos como ser becario. En esta posición, serás auxiliar de la empresa, ya sea con una remuneración económica o ninguna.
 Las prácticas profesionales son un requisito de las universidades, aunque es complicado validar practicas ajenas a las recomendadas por la universidad, aun asi es muy recomendado haber cursado un puesto de "intern" antes de incursionar por completo al mundo laboral.
 
+## Donde Encontrar Internships
+
 - [ITA-CLIA](https://aguascalientes.tecnm.mx/clia/#) es el cluster industrial de Aguascalientes por parte del TECNM, este tiene un apartado de empresas donde te dan todos los contactos para aplicar a pasantías o practicas profesionales en varias empresas de interés en nuestro estado, como softtek, Nissan, etc.
 - [Proyecto Nutria](https://proyectonutria.com/) Es un proyecto comunitario por parte de ESCOM del IPN que busca ayudar a personas que buscan trabajar en Grandes Empresas Tecnológicas como Microsoft, Facebook, Google, etc (FAANG). Suelen dar información importante y actualizada acerca de internships, recomiendo entrar a su [discord](https://pronu.click/discord)
+
+## Internships y programas similares
+
 - [C3.ai](https://c3.ai/careers/) tienen multiples oportuinidades de internships y puestos de trabajo en Guadalajara, recomiendo el programa de "Software Engineer - Intern".
 - [Santander Open Academy](https://app.santanderopenacademy.com/es/program/search?resourceType=SOA_GRANT&category=INTERNSHIP) múltiples oportunidades
 - [Oracle GO](https://www.oracle.com/lad/careers/generation-oracle/) Generation Oracle es más que un programa de pasantías: es un movimiento cultural. No es necesario ser un experto en tecnología, lo importante es tu pasión por la innovación y tus ganas de aprender.
 - [Cia de talentos](https://globe.ciadetalentos.com.br/applicant/#/opportunities?rc=https:%2F%2Fwww.ciadetalentos.com.br%2Fes&gct-site-key=ct-latam) Son una consultaría de RRHH y dan oportunidades de internships para empresas como BBVA con el programa de Becarios, Cocacola con su Programa Fresh Minds, Grupo Bimbo con el Programa Trainees e Ignite, el Programa de Interns de Aeroméxico.
 - [Uber Career Prep (UCP)](https://www.uber.com/mx/es/careers/careerprep/) es un programa sin remuneración (paga) de 6 meses para estudiantes de ingeniería con 5 Workshops y múltiples actividades a realizar en línea.
+- [EPAM NextGen University Program](https://campus.epam.com/en/training) programa en linea sin remuneración de 4 meses en Fundamentals Training que sirve como preparación para el EPAM Internship Program.
 - [UberSTAR](https://www.uber.com/us/en/careers/uberstar/?uclick_id=bd7b436b-e9d9-466d-bdee-56c8d2352960) es un programa **con** remuneración de 12 semanas.
 - [Meta University](https://www.metacareers.com/careerprograms/pathways/metauniversity) es un programa **con** remuneración con de diez semanas de duración desde mayo a agosto, es requisito ser estudiante en tus primeros dos años de universidad para poder aplicar.
 - [NVIDIA Ignite](https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/) es una programa sin remuneración de 12 semanas sobre el ecosistema de NVIDIA.
@@ -31,7 +37,8 @@ Las prácticas profesionales son un requisito de las universidades, aunque es co
 - [Internships de Oracle Mexico](https://www.oracle.com/mx/careers/students-grads/development-engineering/)
 - [IBM skills build Internship Programmes](https://www.skillsbuildcsrbox.in/pages/internship.html)
 - [Outreachy](https://www.outreachy.org/) Outreachy ofrece pasantías open source y open science, pagado hasta $7,000 USD de forma remota con una duración de solo 3 meses: las pasantías se realizan de mayo a agosto o de diciembre a marzo.
-- [beVisioneers](https://bevisioneers.world/) The Mercedes-Benz Fellowship es un programa global diseñado para empoderar a jóvenes innovadores de entre 16 y 28 años que buscan desarrollar proyectos sostenibles. Implementado por The DO School Fellowships y financiado por Mercedes-Benz
+- [Google Summer of code](https://summerofcode.withgoogle.com/) participa en proyectos open source con mentorias donde si tu rendimiento es bueno te pagan desde $750 hasta $6600 dependiendo del proyecto
+- [Anthropic Fellows Program](https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/) Investigación empírica durante 4 meses para publicar resultados (artículos científicos). Los becarios eligen proyectos propuestos por mentores de Anthropic y trabajan con ellos. Beneficios: Pago semanal: 3,850 USD, Cómputo: ~$15k USD al mes y mentorías directa con investigadores de Anthropic.
 
 ## Referencias
 - code.org (s.f.). *Internships and apprenticeships*. Recuperado de <https://code.org/beyond/internships>

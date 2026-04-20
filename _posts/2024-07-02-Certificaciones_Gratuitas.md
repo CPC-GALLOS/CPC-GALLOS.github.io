@@ -35,6 +35,11 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 > La principal diferencia de las **becas** en comparación con otros cursos, es que suelen contar con horarios fijos para sus clases. Además, en la mayoría de los casos, es necesario enviar una solicitud de beca y esperar la confirmación para acceder al curso.
 {: .prompt-info }
 
+- [EPAM NextGen University Program](https://campus.epam.com/en/training) programa en linea sin remuneración de 4 meses en Fundamentals Training que sirve como preparación para el EPAM Internship Program.
+- [Stanford Code in Place](https://codeinplace.stanford.edu/) Curso CS106A.de la universidad de Stanford, con mentarias, clases y una certificacion gratuita, lo hacen cada año en abril.
+- [Samsung Innovation Campus](https://www.sicvirtual.com/) capacitación a jóvenes entre los 20 a 25 años en tecnologías emergentes, como Python e Inteligencia Artificial, con mentorias, clases en vivo, experiencia practica y seguimiento continuo.
+- [AWS AI & ML Scholars](https://aws.amazon.com/about-aws/our-impact/scholars/) 100,000 a nivel mundial donde los que tengan mejor rendimiento tendran un Nanodegree de Udacity.
+- [DIO bootcamps](https://www.dio.me/en/bootcamp) bootcamps gratuitos (en portugués) en tecnologías como BackEnd, QA, Data Science, IA, Java, Python, Cloud y Ciberseguridad, desarrollados en alianza con empresas globales (Microsoft, Santander, Accenture) con vinculación laboral directa.
 - [Oracle One](https://www.oracle.com/mx/education/oracle-next-education/) es un curso de 6 meses de duración donde puedes certificarte en front end (React y javascript) ó en backend (Java y Springboot), en cualquier caso tienes que entregar 3 proyectos. 
 - [Bécalos Tech Challengue](https://techchallenge.becalos.mx/) es una beca desarrollada por la Fundación Televisa para aprender a programar e incursionarte en el desarrollo web.
 - [CPDA](https://cyberdialogueamericas.wordpress.com/youth-cyber-delegates/) el Cyber Policy Dialogue for the Americas (CPDA) ofrece su Programa de Delegados Jóvenes (Youth Delegate), que se enfoca en brindar recursos educativos integrales para 30 estudiantes universitarios mexicanos en el campo de temas cibernéticos y de tecnologías emergentes.
@@ -49,6 +54,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 ### En Aguascalientes
 
 - [UPA - capacitate en python](https://upa.edu.mx/capacitate_en_python/) Capacitación de python donde te dan acceso a un curso de Huawei ICT y después realizas un examen en sus instalaciones para decidir si te dan un voucher al examen PCEP del Python Institute, ya van dos convocatorias por lo que podría haber más en un futuro.
+- [IEA/UPA mendix](https://www.google.com/search?q=Instituto+de+Educaci%C3%B3n+de+Aguascalientes+mendix) certificacion en mendix de siemens
 - [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen varios tipos de bootcamps Motoko, Azle, ICP developer Javascript y Frontend Developer. 
 - [INCyTEA](https://www.aguascalientes.gob.mx/incytea/) El Instituto de Ciencia Y Tecnología de Aguascalientes suele sacar varias becas a lo largo del año por lo que hay que estar al pendiente en sus páginas.
 - [Inadaptados](https://inadaptados.mx/bootcamp/) suelen tener becas de bootcamps para aprender a programar en varias tecnologías.
@@ -58,10 +64,14 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Tecnolochicas PRO](https://tecnolochicas.mx/registro-tcpro/) son un conjunto de cursos desarrollados por la Fundación Televisa en colaboración con Microsoft especialmente para estudiantes universitarios, el curso pro tiene dos cursos, un curso de diseño web y otro de Data Science tomados en horarios fijos.
 - [Conectadas by IYF](https://conectadasporti.com/) Conectadas by IYF de la International Youth Foundation & Google.Org, una iniciativa que busca aumentar la representación femenina en carreras de las TIC en México y con ello mejorar las oportunidades de empleabilidad para las mujeres de la región. 
 - [WOMCY](https://womcy.org/es/) Ofrecen cursos, eventos y becas de ciberseguridad principalmente para mujeres, contando con 3 programas: Educación, Corporativo y Desarrollo del Talento.
+- [British Council Skills for Women in Tech](https://skillsfor.womenintech.mx/) programa dirigido exclusivamente a mujeres con el fin de que desarrollen sus habilidades digitales en desarrollo de software.
 - [FUNED Woman On Boards](https://www.funedmx.org/women-on-boards/) es un programa para promover un cambio radical en la composición de los Consejos de Administración en América Latina con oportunidades para viajar a los Estados Unidos junto con apoyo potencial de MSWoB en trámites de visa si es necesario.
 - [BecALAS](https://becalas.becalos.mx/) BécALAS es un programa de Fundación Televisa y la Asociación de Bancos de México, dirigido a universitarias de instituciones públicas en México. Ofrece apoyo para su desarrollo integral, incluyendo habilidades socioemocionales, expresión, salud financiera y empleabilidad.
 - [technovationchallenge](https://technovationchallenge.org/es/) Es una comunidad global de estudiantes, mentoras y mentores, embajadores, padres y jueces son personas curiosas y creativas que resuelven problemas, saben que la tecnología es una poderosa herramienta para el cambio y quieren utilizarla para el bien social. La mayoría se unen sin experiencia previa en tecnología, pero están dispuestos a aprender.
-
+- [Mais Mulheres em Tech](https://www.maismulheres.tech/) Cursos gratuitos y mentorias técnicas para mujeres (en portugués)
+- [Google Women Techmakers Ambassadors](https://developers.google.com/womentechmakers/ambassadors?hl=es-419) este es un programa enfocado para personas identificadas como mujeres, donde como beneficio tendrás acceso exclusivo a las charlas y talleres de Google, y obtendrás el reconocimiento del equipo global de Women Techmakers por tus contribuciones.
+- [MET](https://mujeresentecnologia.org/capacitate/) formación técnica en diferentes tecnologías y herramientas de gran demanda en el mercado laboral para mujeres.
+- [mujeresticslatam](https://mujeresticslatam.com/#camino) rutas de especialización en areas como IA.
 ## Exemenes de habilidades de Hackerrank con certificado
 
 [Hackerrank Skills](https://www.hackerrank.com/skills-verification) tiene múltiples exámenes con una duración aproximada de 1:30 horas para demostrar tu conocimiento en un área especifica
@@ -87,7 +97,8 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [OpenCV Bootcamp](https://opencv.org/university/free-opencv-course/) esta librería de Python es muy utilizada en el mercado, es usada para reconocimiento y análisis de imágenes ya sean estáticas o en tiempo real con una cámara.
 - [TensorFlow Bootcamp](https://opencv.org/university/free-tensorflow-keras-course) esta librería de Python creada por Google es indispensable para la creación de redes neuronales, las cuales son las bases de la inteligencia artificial.
 - [Motoko Bootcamp](https://www.motokobootcamp.com/) La categoria de "Self-Study" te enseña las bases del lenguaje de programación Motoko usado para "smart contracts" (blockchain) por el ICP (Internet Computer) donde al final recibiras un diploma.
-- [Mendix](https://www.mendix.com/)
+- [Mendix Rapid Developer Certification](https://academy.mendix.com/#/certifications) plataforma líder de desarrollo low-code (bajo código) y no-code (sin código) propiedad de Siemens.
+
 
 ### Diplomados de Capacítate Para el Empleo 
 [Capacítate Para el Empleo](https://capacitateparaelempleo.org/mostrar-diplomados) es una plataforma en español creada por la fundación Carlos Slim donde hay distintos diplomados de tecnología.
@@ -212,6 +223,25 @@ En si coursera no es gratis, pero la mayoría de cursos tienen la opción de aud
 
 > Algunos cursos de Google en coursera son gratis con los [Certificados de Carrera de Google por INROADS](https://becas.inroads.org.mx/)
 {: .prompt-tip }
+
+### The forge Job Simulations
+[Forage Job Simulations](https://www.theforage.com/simulations?industries=engineering.technology&qfilter=all) son simulaciones de trabajo real donde te dan un certificado al finalizarlo, estos tienen un buen valor ya que al no ser solo cursos sino trabajos practicos, las empresas pueden valorarlos más
+
+- [HP Software Engineering](https://www.theforage.com/simulations/hewlett-packard-enterprise/software-engineering-pcij)
+- [Quantium Data Analytics](https://www.theforage.com/simulations/quantium/data-analytics-rqkb)
+- [Quantium Software Engineering](https://www.theforage.com/simulations/quantium/software-engineering-j6ci)
+- [DATACOM Software Development](https://www.theforage.com/simulations/datacom/software-development-l47g)
+- [DATACOM Introduction to Cloud](https://www.theforage.com/simulations/datacom/intro-cloud-yfvk)
+- [DATACOM Cyber Security Operations](https://www.theforage.com/simulations/datacom/cybersecurity-zm6d)
+- [Electronic Arts Software Engineering](https://www.theforage.com/simulations/electronic-arts/software-engineering-awbf)
+- [Walmart Advanced Software Engineering Job Simulation](https://www.theforage.com/simulations/walmart/software-engineering-fceb)
+- [Mastercard Cybersecurity](https://www.theforage.com/simulations/mastercard/cybersecurity-t8ye)
+- [BCG X Data Science](https://www.theforage.com/simulations/bcg/data-science-ccdz)
+- [TATA Cybersecurity - IAM Developer](https://www.theforage.com/simulations/tata/cybersecurity-sbda)
+- [JPMorgan Software Engineering](https://www.theforage.com/simulations/jpmorgan/advanced-software-engineering-r0fm)
+- [Citi Technology Software Development](https://www.theforage.com/simulations/citi/software-development-dlxt)
+- [Deloitte Cyber](https://www.theforage.com/simulations/deloitte-au/cyber-c1e3)
+- [Skyscanner Software Engineering](https://www.theforage.com/simulations/skyscanner/software-engineering-cm01)
 
 ## Insignias
 
