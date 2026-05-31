@@ -39,6 +39,7 @@ Las prácticas profesionales son un requisito de las universidades, aunque es co
 - [Outreachy](https://www.outreachy.org/) Outreachy ofrece pasantías open source y open science, pagado hasta $7,000 USD de forma remota con una duración de solo 3 meses: las pasantías se realizan de mayo a agosto o de diciembre a marzo.
 - [Google Summer of code](https://summerofcode.withgoogle.com/) participa en proyectos open source con mentorias donde si tu rendimiento es bueno te pagan desde $750 hasta $6600 dependiendo del proyecto
 - [Anthropic Fellows Program](https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/) Investigación empírica durante 4 meses para publicar resultados (artículos científicos). Los becarios eligen proyectos propuestos por mentores de Anthropic y trabajan con ellos. Beneficios: Pago semanal: 3,850 USD, Cómputo: ~$15k USD al mes y mentorías directa con investigadores de Anthropic.
+- [CERN internships](https://careers.cern/programmes/short-term-internship/)
 
 ## Referencias
 - code.org (s.f.). *Internships and apprenticeships*. Recuperado de <https://code.org/beyond/internships>

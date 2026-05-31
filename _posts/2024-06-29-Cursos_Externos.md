@@ -23,6 +23,7 @@ __Tabla de Contenidos:__
 - [Clubes de Programación Competitiva (CPC)](https://drive.google.com/drive/folders/1uH9U53T9ljT-ahlQNgeK83GcH9PzJSND)
 - [IOI Syllabus](https://ioinformatics.org/page/syllabus/12)
 - [IOI Syllabus 2025 draft](https://algo.sk/ioi-syllabus/ioi-syllabus-2025-draft.pdf)
+- [What is the Competitive Programming Curriculum? by Antti LAAKSONEN](https://ioinformatics.org/journal/v16_2022_35_42.pdf)
 - [Universidad Nacional de Asunción: Programación Competitiva](https://www.pol.una.py/wp-content/uploads/Electiva-I-Programacion-Competitiva-LCIK.pdf)
 - [Universidad Nacional de Asunción: Programación Competitiva](https://www.pol.una.py/wp-content/uploads/2020/10/Electiva-2-Programacion-Competitiva.pdf)
 - [Coding Club at IIT Delhi: ANCC Competitive Programming Guide](https://ancc-iitd.github.io/competitive-programming-resources/)

@@ -36,6 +36,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 {: .prompt-info }
 
 - [EPAM NextGen University Program](https://campus.epam.com/en/training) programa en linea sin remuneración de 4 meses en Fundamentals Training que sirve como preparación para el EPAM Internship Program.
+- [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](https://www.google.com/search?q=AWS re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
 - [Stanford Code in Place](https://codeinplace.stanford.edu/) Curso CS106A.de la universidad de Stanford, con mentarias, clases y una certificacion gratuita, lo hacen cada año en abril.
 - [Samsung Innovation Campus](https://www.sicvirtual.com/) capacitación a jóvenes entre los 20 a 25 años en tecnologías emergentes, como Python e Inteligencia Artificial, con mentorias, clases en vivo, experiencia practica y seguimiento continuo.
 - [AWS AI & ML Scholars](https://aws.amazon.com/about-aws/our-impact/scholars/) 100,000 a nivel mundial donde los que tengan mejor rendimiento tendran un Nanodegree de Udacity.
@@ -50,6 +51,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [AWS re/Start por fondation forge](https://fondationforge.org/aws-regional/mx) es un programa de capacitación respaldado por Amazon de cuatro meses de duración para preparate en puestos de nivel básico en la nube.
 - [Generation Mexico](https://mexico.generation.org/encuentra-una-carrera/) contiene varios programas de desarrollo en diferentes tecnologias como Unity o Java FullStack de forma gratuita en lina o de forma hibrida.
 - [Diplomado en Educación Financiera por la CONDUSEF](https://inscripcion-diplomado.condusef.gob.mx/) este diplomado dura 3 meses y esta realizado en colaboración de Banco de México (Banxico), Bolsa Institucional de Valores (BIVA), Instituto Nacional de la Economía Social (INAES), Better than Cash Alliance, Cetesdirecto, Comisión Nacional Bancaria y de Valores (CNBV), Policía Cibernética y Secretaría de Hacienda y Crédito Público (SHCP).
+- [Deloitte Virtual Experience](https://www.deloitte.com/au/en/careers/students/virtual-experience.html) Serie de cursos en línea que simulan las tareas que realizarías en Deloitte. Es un programa a tu propio ritmo y gratuito, diseñado para estudiantes interesados ​​en carreras STEM (ciencia, tecnología, ingeniería y matemáticas).
 
 ### En Aguascalientes
 
@@ -98,7 +100,10 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [TensorFlow Bootcamp](https://opencv.org/university/free-tensorflow-keras-course) esta librería de Python creada por Google es indispensable para la creación de redes neuronales, las cuales son las bases de la inteligencia artificial.
 - [Motoko Bootcamp](https://www.motokobootcamp.com/) La categoria de "Self-Study" te enseña las bases del lenguaje de programación Motoko usado para "smart contracts" (blockchain) por el ICP (Internet Computer) donde al final recibiras un diploma.
 - [Mendix Rapid Developer Certification](https://academy.mendix.com/#/certifications) plataforma líder de desarrollo low-code (bajo código) y no-code (sin código) propiedad de Siemens.
-
+- [capacitacion laboral Peru](https://capacitacionlaboral.trabajo.gob.pe/)
+- [Qualcomm Academy](https://academy.qualcomm.com/)
+- [ITU Academy](https://academy.itu.int/training-courses/full-catalogue)
+- [Paloalto Networks ciberseguridad](https://www.paloaltonetworks.lat/cyberpedia/free-cybersecurity-education-courses) Cursos GRATUITOS de educación en ciberseguridad
 
 ### Diplomados de Capacítate Para el Empleo 
 [Capacítate Para el Empleo](https://capacitateparaelempleo.org/mostrar-diplomados) es una plataforma en español creada por la fundación Carlos Slim donde hay distintos diplomados de tecnología.

@@ -45,6 +45,7 @@ En general para obtener vouchers gratis o descuentos en vouchers hay que estar a
 - [Cisco netcad](https://www.netacad.com/fr/resources/program-info/certification-discount-information) **70% de descuento** para las certificaciones CCNA: Redes Empresariales, Seguridad y Automatización, CyberOps Associate (CBROPS) y DevNet (DEVASC):
   - Obtener al menos un 70% en el primer intento del examen final del curso.
   - Tener el curso marcado como "Completado" en el sistema de calificaciones de la plataforma de aprendizaje de la Academia de Redes de Cisco.
+- [IEEE Computer Society](https://www.computer.org/education/certifications) si eres miembro estudiante del IEEE te dan descuento $295 USD en lugar de $545 USD por el curso y examen. 
 
 ## Avisos de eventos y descuentos
 
