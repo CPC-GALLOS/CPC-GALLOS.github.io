@@ -10,12 +10,12 @@ mermaid: false
 image: https://img.freepik.com/vector-premium/megafon-banner-promocion-gratuito-diseno-burbuja-voz-proyectos-publicitarios_1041213-6933.jpg
 ---
 
->  Si buscas ofertas en certificaciones con costo, revisa este post: [Ofertas en Certificaciones](https://cpc-gallos.github.io/blog/Ofertas_Certificaciones/). También revisa el [filtrado de certificados](https://cpc-gallos.github.io/blog/Filtrar_Certificados/). 
+> Si buscas ofertas en certificaciones con costo, revisa este post: [Ofertas en Certificaciones](https://cpc-gallos.github.io/blog/Ofertas_Certificaciones/). También revisa el [filtrado de certificados](https://cpc-gallos.github.io/blog/Filtrar_Certificados/).
 {: .prompt-info }
 
 __Tabla de Contenidos:__
-* 
-{:toc} 
+*
+{:toc}
 
 > las certificaciones, certificados e insignias no son lo mismo, reafirma la diferencia de estas credenciales/reconocimientos en el post de [Desarrollo Profesional](https://cpc-gallos.github.io/blog/Desarrollo_Profesional/#reconocimientos)
 {: .prompt-warning }
@@ -25,23 +25,25 @@ __Tabla de Contenidos:__
 - [EF SET](https://www.efset.org/) Recomiendo el EF SET de 90 minutos, un test gratuito que certifica todas tus habilidades en inglés y te brinda un diagnóstico completo junto con un certificado.
 
 Estas no están protectorados pero tienen el nombre y validación de certificación avalado por Oracle, a través de [Oracle University](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free).
+
+- [free Scrum Fundamentals Certified (SFC)](https://www.scrumstudy.com/account/register)
 - [Oracle Guided Learning Project Management Foundations Associate (Beta)](https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1)
 - [OCI Foundations Associate (2025)](https://education.oracle.com/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-25)
 - [OCI AI Foundations Associate (2025)](https://education.oracle.com/oracle-cloud-infrastructure-2024-ai-foundations-associate/pexam_1Z0-1122-25)
 - [OCI Data Platform Foundations Associate (2025)](https://education.oracle.com/oracle-cloud-infrastructure-2024-data-foundation-associate/pexam_1Z0-1195-25)
 
-## Becas recurrentes con certificados 
+## Becas recurrentes con certificados
 
-> La principal diferencia de las **becas** en comparación con otros cursos, es que suelen contar con horarios fijos para sus clases. Además, en la mayoría de los casos, es necesario enviar una solicitud de beca y esperar la confirmación para acceder al curso.
+> La principal diferencia de las __becas__ en comparación con otros cursos, es que suelen contar con horarios fijos para sus clases. Además, en la mayoría de los casos, es necesario enviar una solicitud de beca y esperar la confirmación para acceder al curso.
 {: .prompt-info }
 
 - [EPAM NextGen University Program](https://campus.epam.com/en/training) programa en linea sin remuneración de 4 meses en Fundamentals Training que sirve como preparación para el EPAM Internship Program.
-- [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](https://www.google.com/search?q=AWS re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
+- [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](<https://www.google.com/search?q=AWS> re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
 - [Stanford Code in Place](https://codeinplace.stanford.edu/) Curso CS106A.de la universidad de Stanford, con mentarias, clases y una certificacion gratuita, lo hacen cada año en abril.
 - [Samsung Innovation Campus](https://www.sicvirtual.com/) capacitación a jóvenes entre los 20 a 25 años en tecnologías emergentes, como Python e Inteligencia Artificial, con mentorias, clases en vivo, experiencia practica y seguimiento continuo.
 - [AWS AI & ML Scholars](https://aws.amazon.com/about-aws/our-impact/scholars/) 100,000 a nivel mundial donde los que tengan mejor rendimiento tendran un Nanodegree de Udacity.
 - [DIO bootcamps](https://www.dio.me/en/bootcamp) bootcamps gratuitos (en portugués) en tecnologías como BackEnd, QA, Data Science, IA, Java, Python, Cloud y Ciberseguridad, desarrollados en alianza con empresas globales (Microsoft, Santander, Accenture) con vinculación laboral directa.
-- [Oracle One](https://www.oracle.com/mx/education/oracle-next-education/) es un curso de 6 meses de duración donde puedes certificarte en front end (React y javascript) ó en backend (Java y Springboot), en cualquier caso tienes que entregar 3 proyectos. 
+- [Oracle One](https://www.oracle.com/mx/education/oracle-next-education/) es un curso de 6 meses de duración donde puedes certificarte en front end (React y javascript) ó en backend (Java y Springboot), en cualquier caso tienes que entregar 3 proyectos.
 - [Bécalos Tech Challengue](https://techchallenge.becalos.mx/) es una beca desarrollada por la Fundación Televisa para aprender a programar e incursionarte en el desarrollo web.
 - [CPDA](https://cyberdialogueamericas.wordpress.com/youth-cyber-delegates/) el Cyber Policy Dialogue for the Americas (CPDA) ofrece su Programa de Delegados Jóvenes (Youth Delegate), que se enfoca en brindar recursos educativos integrales para 30 estudiantes universitarios mexicanos en el campo de temas cibernéticos y de tecnologías emergentes.
 - [SantanderX](https://www.santanderx.com/es/courses.html) cursos de varios temas mayormente enfocados a negocios y PYMES, pero hay cursos de tecnologia enfocados a la Ciberseguridad.
@@ -57,14 +59,14 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 
 - [UPA - capacitate en python](https://upa.edu.mx/capacitate_en_python/) Capacitación de python donde te dan acceso a un curso de Huawei ICT y después realizas un examen en sus instalaciones para decidir si te dan un voucher al examen PCEP del Python Institute, ya van dos convocatorias por lo que podría haber más en un futuro.
 - [IEA/UPA mendix](https://www.google.com/search?q=Instituto+de+Educaci%C3%B3n+de+Aguascalientes+mendix) certificacion en mendix de siemens
-- [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen varios tipos de bootcamps Motoko, Azle, ICP developer Javascript y Frontend Developer. 
+- [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen varios tipos de bootcamps Motoko, Azle, ICP developer Javascript y Frontend Developer.
 - [INCyTEA](https://www.aguascalientes.gob.mx/incytea/) El Instituto de Ciencia Y Tecnología de Aguascalientes suele sacar varias becas a lo largo del año por lo que hay que estar al pendiente en sus páginas.
 - [Inadaptados](https://inadaptados.mx/bootcamp/) suelen tener becas de bootcamps para aprender a programar en varias tecnologías.
 
 ### Para Mujeres
 
 - [Tecnolochicas PRO](https://tecnolochicas.mx/registro-tcpro/) son un conjunto de cursos desarrollados por la Fundación Televisa en colaboración con Microsoft especialmente para estudiantes universitarios, el curso pro tiene dos cursos, un curso de diseño web y otro de Data Science tomados en horarios fijos.
-- [Conectadas by IYF](https://conectadasporti.com/) Conectadas by IYF de la International Youth Foundation & Google.Org, una iniciativa que busca aumentar la representación femenina en carreras de las TIC en México y con ello mejorar las oportunidades de empleabilidad para las mujeres de la región. 
+- [Conectadas by IYF](https://conectadasporti.com/) Conectadas by IYF de la International Youth Foundation & Google.Org, una iniciativa que busca aumentar la representación femenina en carreras de las TIC en México y con ello mejorar las oportunidades de empleabilidad para las mujeres de la región.
 - [WOMCY](https://womcy.org/es/) Ofrecen cursos, eventos y becas de ciberseguridad principalmente para mujeres, contando con 3 programas: Educación, Corporativo y Desarrollo del Talento.
 - [British Council Skills for Women in Tech](https://skillsfor.womenintech.mx/) programa dirigido exclusivamente a mujeres con el fin de que desarrollen sus habilidades digitales en desarrollo de software.
 - [FUNED Woman On Boards](https://www.funedmx.org/women-on-boards/) es un programa para promover un cambio radical en la composición de los Consejos de Administración en América Latina con oportunidades para viajar a los Estados Unidos junto con apoyo potencial de MSWoB en trámites de visa si es necesario.
@@ -74,21 +76,22 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Google Women Techmakers Ambassadors](https://developers.google.com/womentechmakers/ambassadors?hl=es-419) este es un programa enfocado para personas identificadas como mujeres, donde como beneficio tendrás acceso exclusivo a las charlas y talleres de Google, y obtendrás el reconocimiento del equipo global de Women Techmakers por tus contribuciones.
 - [MET](https://mujeresentecnologia.org/capacitate/) formación técnica en diferentes tecnologías y herramientas de gran demanda en el mercado laboral para mujeres.
 - [mujeresticslatam](https://mujeresticslatam.com/#camino) rutas de especialización en areas como IA.
+
 ## Exemenes de habilidades de Hackerrank con certificado
 
 [Hackerrank Skills](https://www.hackerrank.com/skills-verification) tiene múltiples exámenes con una duración aproximada de 1:30 horas para demostrar tu conocimiento en un área especifica
 
 > Las Skills de Problem Solving son las más importantes en cuestión de programación competitiva por lo que recomiendo ampliamente hacer estos exámenes.
 {: .prompt-tip }
-- [Problem Solving (Basic)](https://www.hackerrank.com/skills-verification/problem_solving_basic) y [Problem Solving (Intermediate)](https://www.hackerrank.com/skills-verification/problem_solving_intermediate) 
+
+- [Problem Solving (Basic)](https://www.hackerrank.com/skills-verification/problem_solving_basic) y [Problem Solving (Intermediate)](https://www.hackerrank.com/skills-verification/problem_solving_intermediate)
 - [C# (Basic)](https://www.hackerrank.com/skills-verification/c_sharp_basic)
 - [CSS (Basic)](https://www.hackerrank.com/skills-verification/css)
 - [JavaScript (Basic)](https://www.hackerrank.com/skills-verification/javascript_basic) y [JavaScript (Intermediate)](https://www.hackerrank.com/skills-verification/javascript_basic)
 - [Java (Basic)](https://www.hackerrank.com/skills-verification/java_basic)
 - [Python (Basic)](https://www.hackerrank.com/skills-verification/python_basic)
 - [R (Basic)](https://www.hackerrank.com/skills-verification/r_basic) y [R (Intermediate)](https://www.hackerrank.com/skills-verification/r_intermediate)
-- [SQL (Basic)](https://www.hackerrank.com/skills-verification/sql_basic), [SQL (Intermediate)](https://www.hackerrank.com/skills-verification/sql_intermediate) y [ SQL (Advanced)](https://www.hackerrank.com/skills-verification/sql_advanced)
-
+- [SQL (Basic)](https://www.hackerrank.com/skills-verification/sql_basic), [SQL (Intermediate)](https://www.hackerrank.com/skills-verification/sql_intermediate) y [SQL (Advanced)](https://www.hackerrank.com/skills-verification/sql_advanced)
 
 ## Cursos con certificados
 
@@ -105,7 +108,8 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [ITU Academy](https://academy.itu.int/training-courses/full-catalogue)
 - [Paloalto Networks ciberseguridad](https://www.paloaltonetworks.lat/cyberpedia/free-cybersecurity-education-courses) Cursos GRATUITOS de educación en ciberseguridad
 
-### Diplomados de Capacítate Para el Empleo 
+### Diplomados de Capacítate Para el Empleo
+
 [Capacítate Para el Empleo](https://capacitateparaelempleo.org/mostrar-diplomados) es una plataforma en español creada por la fundación Carlos Slim donde hay distintos diplomados de tecnología.
 
 - [Desarrollo de sitios web y apps móviles](https://capacitateparaelempleo.org/interna-diplomado/26)
@@ -117,9 +121,10 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Tratamiento de datos](https://capacitateparaelempleo.org/interna-especialidad/6)
 
 ### Cursos de Kaggle
+
 [Kaggle](https://www.kaggle.com/learn) es una plataforma de aprendizaje donde hay cursos de distintas tecnologías como machine learning, bases de datos SQL y múltiples librerías de python como pandas, tensorflow, etc.
 
-- [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) e [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning) 
+- [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) e [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning)
 - [Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)
 - [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql) y [Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
 - [Data Visualization](https://www.kaggle.com/learn/data-visualization)
@@ -127,6 +132,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Pandas](https://www.kaggle.com/learn/pandas)
 
 ### Cursos de freecodecamp
+
 [freecodecamp](https://www.freecodecamp.org/learn/) es una plataforma de aprendizaje gratuito, aunque quizá sean ligeramente despreciados en la industria por el solo echo de ser gratis y accesibles.
 
 - [MS Foundational C#](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/) desarrollado por freecodecamp en colaboración con Microsoft para el lenguaje C# junto con el framework de ".NET".
@@ -139,7 +145,6 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Data Visualization](https://www.freecodecamp.org/learn/data-visualization/)
 - [Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/)
 - [Information Security Certification](https://www.freecodecamp.org/learn/information-security/)
-
 
 ### Cursos de Anthropic
 
@@ -155,17 +160,16 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Claude with Google Cloud's Vertex AI](https://anthropic.skilljar.com/claude-with-google-vertex)
 - [Introduction to subagents](https://anthropic.skilljar.com/introduction-to-subagents)
 
-### Cursos de la Universidad de Harvard 
+### Cursos de la Universidad de Harvard
 
 Cada [curso en Harvard](https://pll.harvard.edu/catalog?topics%5B702%5D=702&price%5B1%5D=1&max_price=&start_date=&keywords=) tiene una longitud distinta, por ejemplo el CS50X dice que dura 10 semanas, pero puedes acabarlo hasta el 31 de diciembre del año donde lo empezaste, los cursos tienen una dificultad variable ya que casi siempre podrás elegir entregar un problema fácil o difícil por cada tarea (estas tareas se entregan en un grupo de GitHub). En cualquier curso debes entregar todas las tareas y un proyecto final, el cual es libre para poder obtener tu certificado.
-
 
 - [CS50X](https://cs50.harvard.edu/x/) introducción a la Computer Science, se ven múltiples temas como algoritmos, estructuras de datos, abstracción, encapsulamiento, ciberseguridad; tecnologías como C, SQL, Python, HTML, CSS, y JavaScript.
 - [CS50P](https://cs50.harvard.edu/python/) introducción a Python con temas como clases, objectos, métodos, etc.
 - [CS50R](https://cs50.harvard.edu/r/) introducción a la ciencia de datos y estadística con R
-- [CS50AI](https://cs50.harvard.edu/ai/) introducción al machine learning e inteligencia artificial en Python 
-- [CS50CS](https://cs50.harvard.edu/cybersecurity/) introducción a la Ciberseguridad 
-- [CS50SQL](https://cs50.harvard.edu/sql/) introducción al bases de datos relaciones con SQL 
+- [CS50AI](https://cs50.harvard.edu/ai/) introducción al machine learning e inteligencia artificial en Python
+- [CS50CS](https://cs50.harvard.edu/cybersecurity/) introducción a la Ciberseguridad
+- [CS50SQL](https://cs50.harvard.edu/sql/) introducción al bases de datos relaciones con SQL
 
 ### Cursos de la Universidad de Helsinki
 
@@ -180,8 +184,8 @@ La universidad de Helsinki en Finlandia, es la universidad que vio la creación 
 
 ### Cursos por Linux Foundation
 
-Recomiendo la mayoría cursos en el [Catalogo de cursos](https://training.linuxfoundation.org/resources/?_sft_content_type=free-course) 
-de la Linux Foundation, aunque la mayoría si son acerca de temas muy especializados, en general recomiendo estos cuatro cursos: 
+Recomiendo la mayoría cursos en el [Catalogo de cursos](https://training.linuxfoundation.org/resources/?_sft_content_type=free-course)
+de la Linux Foundation, aunque la mayoría si son acerca de temas muy especializados, en general recomiendo estos cuatro cursos:
 
 - [Git for Distributed Software Development](https://training.linuxfoundation.org/training/git-for-distributed-software-development-lfd109x/) git fue creado por el creador de Linux, por lo que este curso tiene una muy buena validez.
 - [Introduction to Kubernetes](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) Kubernetes es una de las herramientas más utilizadas para servidores en la nube sin importar que tipo de nube.
@@ -202,10 +206,10 @@ Múltiples certificados sacados por LinkedIn en colaboración con Microsoft para
 ### Cursos por Wolfram U
 
 [Wolfram U](https://www.wolfram.com/wolfram-u/certifications/) Tienen varios cursos y webinares gratuitos, personalmente recomiendo los de Machine Learning:
+
 - [Introduction to Neural Networks in Wolfram Language](https://www.wolfram.com/wolfram-u/courses/machine-learning/neural-networks-introduction-wolfram-language-ml202/)
 - [Introduction to Machine Learning in Wolfram Language](https://www.wolfram.com/wolfram-u/courses/machine-learning/introduction-to-machine-learning-ml201/)
 - [Wolfram Language and LLMs](https://www.wolfram.com/wolfram-u/courses/machine-learning/wolfram-language-and-llms-ml215/)
-
 
 ## Cursos en Coursera
 
@@ -213,6 +217,7 @@ En si coursera no es gratis, pero la mayoría de cursos tienen la opción de aud
 
 > El certificado de Algorithms de Standford es la que más se relaciona con la programación competitiva, aunque si es algo larga ya que consta de 4 cursos, pero si tienes la oportunidad certifícate en este curso.
 {: .prompt-tip }
+
 - [University of Standford: Algorithms](https://www.coursera.org/specializations/algorithms)
 - [Amazon: Cloud Solutions Architect](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect)
 - [IBM: Machine Learning](https://www.coursera.org/professional-certificates/ibm-machine-learning)
@@ -230,6 +235,7 @@ En si coursera no es gratis, pero la mayoría de cursos tienen la opción de aud
 {: .prompt-tip }
 
 ### The forge Job Simulations
+
 [Forage Job Simulations](https://www.theforage.com/simulations?industries=engineering.technology&qfilter=all) son simulaciones de trabajo real donde te dan un certificado al finalizarlo, estos tienen un buen valor ya que al no ser solo cursos sino trabajos practicos, las empresas pueden valorarlos más
 
 - [HP Software Engineering](https://www.theforage.com/simulations/hewlett-packard-enterprise/software-engineering-pcij)
@@ -249,7 +255,6 @@ En si coursera no es gratis, pero la mayoría de cursos tienen la opción de aud
 - [Skyscanner Software Engineering](https://www.theforage.com/simulations/skyscanner/software-engineering-cm01)
 
 ## Insignias
-
 
 ### Insignias de Google Cloud
 
@@ -276,32 +281,31 @@ Cisco es la empresa que tiene el monopolio de la Infraestructura de las redes, s
 - [Networking Essentials](https://www.netacad.com/courses/networking/networking-essentials)
 - [Network Technician](https://skillsforall.com/career-path/network-technician?courseLang=en-US)
 
-
 ### Insignias de IBM
 
 IBM tiene más de [500 insignias gratuitas](https://www.ibm.com/training/search?trainingType=Badge) repartidas en distintos sitios cubriendo distintos temas:
 
 - [Zxplore](https://www.ibm.com/z/resources/zxplore) es el curso acerca de los Mainframes (super computadores/servidores) de IBM con el sistema operativo Z/OS. Hay pocos especialistas en esta área, por lo que es un buen tema para especializarse. Cualquier duda o informes sobre este tema pueden contactar con nuestro compañero de la UAA y embajador de IBM Z [Gustavo Richarte](https://www.linkedin.com/in/gustavoricharte/).
 - [Cognitive Class](https://cognitiveclass.ai/courses?type%5B%5D=course&sort%5B%5D=most_popular)
-    - [Python for Data Science](https://cognitiveclass.ai/courses/python-for-data-science)
-    - [Machine Learning with Python](https://cognitiveclass.ai/courses/machine-learning-with-python)
-    - [Docker Essentials: A Developer Introduction](https://cognitiveclass.ai/courses/docker-essentials)
-    - [Introduction to Containers, Kubernetes, and OpenShift V2](https://cognitiveclass.ai/courses/kubernetes-course)
+  - [Python for Data Science](https://cognitiveclass.ai/courses/python-for-data-science)
+  - [Machine Learning with Python](https://cognitiveclass.ai/courses/machine-learning-with-python)
+  - [Docker Essentials: A Developer Introduction](https://cognitiveclass.ai/courses/docker-essentials)
+  - [Introduction to Containers, Kubernetes, and OpenShift V2](https://cognitiveclass.ai/courses/kubernetes-course)
 - [Developer IBM](https://developer.ibm.com/badges/)
-    - [MQ Developer Essentials](https://developer.ibm.com/badges/mq-essentials/)
-    - [Event Streams Developer Essentials](https://developer.ibm.com/badges/event-streams-developer-essentials/)
-    - [Best Practices for Building Container Images](https://developer.ibm.com/badges/best-practices-building-container-images/)
+  - [MQ Developer Essentials](https://developer.ibm.com/badges/mq-essentials/)
+  - [Event Streams Developer Essentials](https://developer.ibm.com/badges/event-streams-developer-essentials/)
+  - [Best Practices for Building Container Images](https://developer.ibm.com/badges/best-practices-building-container-images/)
 - [Skillsbuild Students](https://skillsbuild.org/students/digital-credentials)
-    - [AI Foundations: A Collaboration of ISTE and IBM](https://students.yourlearning.ibm.com/activity/PLAN-B2125F145F0E)
-    - [Artificial Intelligence Fundamentals](https://students.yourlearning.ibm.com/activity/PLAN-CC702B39D429)
-    - [Cybersecurity Fundamentals](https://ibm.biz/Bdv38e)
-    - [Data Fundamentals](https://students.yourlearning.ibm.com/activity/PLAN-0EC2BCEA3C39)
+  - [AI Foundations: A Collaboration of ISTE and IBM](https://students.yourlearning.ibm.com/activity/PLAN-B2125F145F0E)
+  - [Artificial Intelligence Fundamentals](https://students.yourlearning.ibm.com/activity/PLAN-CC702B39D429)
+  - [Cybersecurity Fundamentals](https://ibm.biz/Bdv38e)
+  - [Data Fundamentals](https://students.yourlearning.ibm.com/activity/PLAN-0EC2BCEA3C39)
 - [Skillsbuild Collage Students](https://skillsbuild.org/college-students/digital-credentials)
-    - [Building AI Solutions Using Advanced Algorithms and Open Source Frameworks](https://skills.yourlearning.ibm.com/activity/PLAN-3C28E1067B08?ngo-id=0302)
-    - [Generative AI in Action](https://skills.yourlearning.ibm.com/activity/PLAN-9E14CB5C4540?ngo-id=0302)
-    - [Cloud Computing Fundamentals](https://skills.yourlearning.ibm.com/activity/PLAN-2EC3A305F2C3?ngo-id=0302)
-    - [Machine Learning for Data Science Projects](https://skills.yourlearning.ibm.com/activity/PLAN-D8E7C82C1D76?ngo-id=0302)
-    - [Cybersecurity Fundamentals](https://skills.yourlearning.ibm.com/activity/PLAN-4FB8400F05FC?ngo-id=0302)
+  - [Building AI Solutions Using Advanced Algorithms and Open Source Frameworks](https://skills.yourlearning.ibm.com/activity/PLAN-3C28E1067B08?ngo-id=0302)
+  - [Generative AI in Action](https://skills.yourlearning.ibm.com/activity/PLAN-9E14CB5C4540?ngo-id=0302)
+  - [Cloud Computing Fundamentals](https://skills.yourlearning.ibm.com/activity/PLAN-2EC3A305F2C3?ngo-id=0302)
+  - [Machine Learning for Data Science Projects](https://skills.yourlearning.ibm.com/activity/PLAN-D8E7C82C1D76?ngo-id=0302)
+  - [Cybersecurity Fundamentals](https://skills.yourlearning.ibm.com/activity/PLAN-4FB8400F05FC?ngo-id=0302)
 
 ### Insignias de Oracle
 
@@ -319,9 +323,9 @@ Oracle ofrece distintas insignias relacionadas a Oracle Cloud Infraestructure (O
 
 ### Insignias de Microsoft
 
-Microsoft tiene más de 4500 cursos, modulos y rutas de aprendizaje en su plataforma [Microsoft Learn](https://learn.microsoft.com/en-us/training/browse/), aunque yo en especial recomiendo tomar las [rutas de aprendizaje](https://learn.microsoft.com/en-us/training/browse/?resource_type=learning%20path) ya que estas al ser un conjunto de cursos tienen un mejor valor curricular. 
+Microsoft tiene más de 4500 cursos, modulos y rutas de aprendizaje en su plataforma [Microsoft Learn](https://learn.microsoft.com/en-us/training/browse/), aunque yo en especial recomiendo tomar las [rutas de aprendizaje](https://learn.microsoft.com/en-us/training/browse/?resource_type=learning%20path) ya que estas al ser un conjunto de cursos tienen un mejor valor curricular.
 
-> Si de valor curricular hablamos las [Microsoft Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills) son las que más peso tienen, ya que estas son implementaciones de tecnologías de Microsoft muy útiles para tu portafolio profesional. 
+> Si de valor curricular hablamos las [Microsoft Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills) son las que más peso tienen, ya que estas son implementaciones de tecnologías de Microsoft muy útiles para tu portafolio profesional.
 {: .prompt-tip }
 
 - [TensorFlow fundamentals](https://learn.microsoft.com/en-us/training/paths/tensorflow-fundamentals/)
@@ -351,9 +355,9 @@ Huawei ofrece cursos gratuitos acerca de la nube e infraestructura de Huawei a t
 
 ### Insignias de Amazon (AWS)
 
-Amazon ofrece estas insignias como parte de su entrenamiento gratuito de AWS con [AWS SkillBuilder learning paths](https://explore.skillbuilder.aws/learn/public/catalog/view/5), quizás no sean tan importantes como sus certificaciones de AWS, pero pueden servir como motivador para después conseguirlas o para demostrar el dominio de una habilidad en especifico. 
+Amazon ofrece estas insignias como parte de su entrenamiento gratuito de AWS con [AWS SkillBuilder learning paths](https://explore.skillbuilder.aws/learn/public/catalog/view/5), quizás no sean tan importantes como sus certificaciones de AWS, pero pueden servir como motivador para después conseguirlas o para demostrar el dominio de una habilidad en especifico.
 
-Puedes conseguir hasta **14 insignias** a travez de [AWS Technology badges on credly](https://www.credly.com/organizations/amazon-web-services/collections/customer-learning-programs/badge_templates) algunas de las más importante son:
+Puedes conseguir hasta __14 insignias__ a travez de [AWS Technology badges on credly](https://www.credly.com/organizations/amazon-web-services/collections/customer-learning-programs/badge_templates) algunas de las más importante son:
 
 - [Migration Foundations](https://explore.skillbuilder.aws/learn/public/learning_plan/view/1991/migration-foundations-knowledge-badge-readiness-path?trk=e6934e10-170d-4c94-bf7b-b88f95ed0f47&sc_channel=el)
 - [Networking Core](https://explore.skillbuilder.aws/learn/public/learning_plan/view/1944/networking-core-knowledge-badge-readiness-path?trk=e6934e10-170d-4c94-bf7b-b88f95ed0f47&sc_channel=el)
@@ -361,7 +365,7 @@ Puedes conseguir hasta **14 insignias** a travez de [AWS Technology badges on cr
 - [Serverless](https://explore.skillbuilder.aws/learn/public/learning_plan/view/92/serverless-learning-plan?trk=e6934e10-170d-4c94-bf7b-b88f95ed0f47&sc_channel=el)  
 - [Solutions Architect](https://explore.skillbuilder.aws/learn/public/learning_plan/view/1044/solutions-architect-learning-plan-earn-a-learning-badge?trk=8c13936a-6ba2-46cd-a416-69143c458b12&sc_channel=sm)
 
-También Amazon ofrece cursos gratuitos para estudiantes a travez de [AWS Educate](https://www.awseducate.com/registration/s/registration-detail?language=en_US) donde puedes conseguir hasta **12 insignias** a travez de [AWS Educate badges on credly](https://www.credly.com/organizations/amazon-web-services/collections/aws-educate-program/badge_templates)
+También Amazon ofrece cursos gratuitos para estudiantes a travez de [AWS Educate](https://www.awseducate.com/registration/s/registration-detail?language=en_US) donde puedes conseguir hasta __12 insignias__ a travez de [AWS Educate badges on credly](https://www.credly.com/organizations/amazon-web-services/collections/aws-educate-program/badge_templates)
 
 - [AWS Educate Introduction to Generative AI](https://awseducate.instructure.com/courses/1108)
 - [AWS Educate Machine Learning Foundations](https://awseducate.instructure.com/courses/910/)
@@ -372,14 +376,13 @@ Por úlitmo existe la opción de tomar una clase en vivo a travez de [AWS Traini
 
 - [AWS Skills Center - Cloud Practitioner: Foundations](https://www.aws.training/SessionSearch?pageNumber=1&courseId=152586&languageId=1)
 
-
 ### Insignias SASE de Cato Networks
 
-[Cato Networks](https://www.catonetworks.com/sase/sase-certification/) ofrece 3 tipos de certificaciones de SASE (Secure Access Service Edge) el cual es es un marco de servicios de seguridad de red en una plataforma global basada en la nube. 
+[Cato Networks](https://www.catonetworks.com/sase/sase-certification/) ofrece 3 tipos de certificaciones de SASE (Secure Access Service Edge) el cual es es un marco de servicios de seguridad de red en una plataforma global basada en la nube.
 
-- **SASE Essentials**: [SASE Expert Level 1](https://www.catonetworks.com/sase/sase-certification/sase-expert-level-1/), [SASE Expert Level 2](https://www.catonetworks.com/sase/sase-certification/sase-expert-level-2/) y [SSE Expert](https://www.catonetworks.com/sase/sase-certification/sse-expert)
-- **SASE Advanced**: [Advanced Security](https://www.catonetworks.com/sase/sase-certification/advanced-security) y [SASE Deployment & Management](https://www.catonetworks.com/sase/sase-certification/deployment-and-management)
-- **SASE Executive**: [Business Impact & Strategy](https://www.catonetworks.com/sase/sase-certification/business-impact-and-strategy)
+- __SASE Essentials__: [SASE Expert Level 1](https://www.catonetworks.com/sase/sase-certification/sase-expert-level-1/), [SASE Expert Level 2](https://www.catonetworks.com/sase/sase-certification/sase-expert-level-2/) y [SSE Expert](https://www.catonetworks.com/sase/sase-certification/sse-expert)
+- __SASE Advanced__: [Advanced Security](https://www.catonetworks.com/sase/sase-certification/advanced-security) y [SASE Deployment & Management](https://www.catonetworks.com/sase/sase-certification/deployment-and-management)
+- __SASE Executive__: [Business Impact & Strategy](https://www.catonetworks.com/sase/sase-certification/business-impact-and-strategy)
 
 ### Insignias SAP
 
@@ -400,4 +403,4 @@ Por úlitmo existe la opción de tomar una clase en vivo a travez de [AWS Traini
 - Munchy Bytes. (2024). *FREE Professional Certification Exams*. Recuperado de <https://github.com/munchy-bytes/FreeDevCertifications>
 - UADY. (2025). *STEM*. Recuperado de <https://uady.mx/stem/>
 - Madrasi. (2025). *No payment options to learn AWS (with Digital Badges) for Beginners*. Recuperado de <https://www.reddit.com/r/AWSCertifications/comments/199nbun/no_payment_options_to_learn_aws_with_digital/>
-- KunalBansal. (2023). https://community.sap.com/t5/technology-blog-posts-by-members/earn-credly-badges-with-free-sap-learning-journey/ba-p/13549016
+- KunalBansal. (2023). <https://community.sap.com/t5/technology-blog-posts-by-members/earn-credly-badges-with-free-sap-learning-journey/ba-p/13549016>
