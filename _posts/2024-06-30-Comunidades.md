@@ -30,6 +30,8 @@ image: /assets/img/posts/Comunidades/Mapa_Clubes.png
 
 ## Comunidades de Discord en Español
 
+> Esto deberia quitarse ya que el mapa de mexico y el api este bien echo o asi supongo xd
+
 - [ICPC México](https://discord.gg/icpcmx)  Discord oficial del club de la comunidad de ICPC México junto a la universidad ITESO. 
 - [Club de Algoritmia CUCEI](https://discord.com/invite/VmKrSgK5mQ) Discord oficial del Club de Algoritmia del Centro Universitario de Ciencias Exactas e Ingenierías de la UdeG.
 - [Club de Algoritmia ESFM](https://discord.gg/R7urzSYyVW) Discord oficial del Club de algoritmia de la Escuela Superior de Física y Matemáticas del Instituto Politécnico Nacional.
