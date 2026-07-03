@@ -25,6 +25,8 @@ image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-univ
     - 1 año de un dominio personal ".me" en Namecheap.com
     - 1 año de un dominio personal ".tech" en get.tech
     - $100 USD en créditos de Azure.
+    - [GitHub Foundations Certification Exam o el Copilot Foundations ](https://education.github.com/experiences/foundations_certificate) gratis a travez de [Github Education Student pack](https://education.github.com/pack/join), si no estan disponlibles quizas sea [porque se acabaron para este periodo (enero/septiembre)](https://github.com/orgs/community/discussions/184439#discussioncomment-15625511) o si cambiaron algo revisa el [faq](https://learn.github.com/credentials)
+
 - [jetbrains](https://www.jetbrains.com/community/education/#students/) La licencia educativa gratuita de JetBrains ofrece acceso a todas las herramientas de desarrollo de JetBrains para uso personal, tanto en la escuela como en casa. Los beneficios incluyen:
     - Acceso gratuito a todos los IDEs de JetBrains: IntelliJ IDEA, PyCharm, CLion y más
     - Uso exclusivo para fines educativos no comerciales.
@@ -106,3 +108,8 @@ image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-univ
 > También puedes obtener la tarjeta ISIC totalmente **gratis** al  mandar un referido que compre un seguro de viaje a traves de [assistcard](https://www.assistcard.com/), para más información contactar con un asesor.
 {: .prompt-tip }
 
+
+
+https://freeforstudents.org/row
+https://github.com/OpenGenus/Best-student-discount-services
+hay que hacer algo asi xd ----->>>>> https://www.studentoffers.co/

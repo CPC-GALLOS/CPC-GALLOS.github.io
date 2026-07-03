@@ -319,6 +319,11 @@ document.addEventListener("DOMContentLoaded", () => {
                             facebook: "https://www.facebook.com/ICBIUAEHOficial"
                         }
                     ],
+                    recursos: [
+                        {
+                            juez: "https://cpcjudge.com/"
+                        }
+                    ],
                     contacto: [
                         {
                             whatsapp: "https://chat.whatsapp.com/DgptAaNmpwoCO6INsFIPR7"

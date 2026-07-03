@@ -20,7 +20,7 @@ Un embajador (ambassador) es una persona que representa, habla por o anuncia a u
   - Voucher gratuito de la certificación Microsoft Certified Trainer (MCT)
   - Acceso al Summit de Embajadores
   - Oportunidades en programas de liderazgo
-  - Posibilidad de ser invitado al programa MVP (Most Valuable Profesional)
+  - Posibilidad de ser invitado al programa MVP (Most Valuable Profesional)... [Mas info](https://learn.microsoft.com/es-mx/training/student-hub/become-a-student-ambassador)
 - [GitHub Campus Expert](https://education.github.com/campus_experts) es un programa para apoyar a los estudiantes que están construyendo comunidades en sus universidad con el objetivo es proporcionar a estos líderes las herramientas, la capacitación y el apoyo que necesitan para crear comunidades que ayuden a cerrar la brecha entre la industria y el mundo académico.
 - [IBM Z Student Ambassador](https://www.yourbigyear.com/ibm-zsystems-ambassador-program) es un programa teórico-practico para una de las habilidades menos conocidas que son los mainframes en especial los de IBM con el sistema operativo Z/OS, donde aprenderás sobre varias tecnologías como unix, redes, COBOL y más.
 - [IBM SkillsBuild Campus Ambassador](https://www.skillsbuildcsrbox.in/pages/campusemb.html) al hacer eventos y actividades de IBM SkillsBuild en tu campus recibiras una Carta de Recomendación (LOR) y un Certificado de Finalización de la pasantía. Además, proporciona exposición a problemas reales y experiencia práctica en gestión de programas, datos y equipos. Los embajadores tienen acceso a webinars mensuales con expertos en habilidades profesionales clave como liderazgo, comunicación, pensamiento crítico, y gestión de proyectos.
@@ -50,6 +50,12 @@ Un embajador (ambassador) es una persona que representa, habla por o anuncia a u
 - [Claude Community Ambassadors](https://claude.com/community/ambassadors)
 - [Arm Developer Program](https://developer.arm.com/arm-developer-program/ambassadors)
 - [INTEL® Student Ambassador Program](https://intel.kreativdistrikt.com/)
+- [Wolfram Student Ambassador Initiative](https://www.wolfram.com/company/careers/ambassador/?source=nav)
+- [GeeksforGeeks Campus Ambassador](https://www.geeksforgeeks.org/blogs/become-leader-of-coding-era-geeksforgeeks-campus-ambassador-program/)
+- [HackerEarth Campus Ambassador](https://www.hackerearth.com/campus-ambassador-program/)
+- [hackerrank Campus Crew](https://www.hackerrank.com/campuscrew)
+- [MLH fellowship](https://fellowship.mlh.io/) te pagan
+- [LFX Mentorship](https://lfx.linuxfoundation.org/tools/mentorship/) te pagan por ser mentoriado
 
 ## Referencias
 
@@ -64,3 +70,6 @@ Un embajador (ambassador) es una persona que representa, habla por o anuncia a u
 - Universidad Europea. (s.f.). *What do brand ambassadors do?*. Recuperado de <https://universidadeuropea.com/en/blog/what-do-brand-ambassadors-do/>
 - [The Ultimate Guide to Campus Ambassador Programs for BTech Students](https://www.linkedin.com/pulse/ultimate-guide-campus-ambassador-programs-btech-students-amaan-ahmad-0426c/)
 - [Developer Ambassador Programs](https://github.com/geshan/developer-ambassador-programs)
+- [indeed Campus Ambassador Programmes](https://in.indeed.com/career-advice/career-development/campus-ambassador-programs)
+- [Sophia Top campus ambassador programs](https://sophiasun.substack.com/p/campus-ambassador-programs-application)
+- [Campus Leadership Opportunities](https://github.com/Vikranth3140/Campus-Leadership-Opportunities)

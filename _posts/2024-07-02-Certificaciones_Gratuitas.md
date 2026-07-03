@@ -26,7 +26,7 @@ __Tabla de Contenidos:__
 
 Estas no están protectorados pero tienen el nombre y validación de certificación avalado por Oracle, a través de [Oracle University](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free).
 
-- [free Scrum Fundamentals Certified (SFC)](https://www.scrumstudy.com/account/register)
+- [GitHub Foundations Certification Exam o el Copilot Foundations ](https://education.github.com/experiences/foundations_certificate) gratis a travez de [Github Education Student pack](https://education.github.com/pack/join), si no estan disponlibles quizas sea [porque se acabaron para este periodo (enero/septiembre)](https://github.com/orgs/community/discussions/184439#discussioncomment-15625511) o si cambiaron algo revisa el [faq](https://learn.github.com/credentials)
 - [Oracle Guided Learning Project Management Foundations Associate (Beta)](https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1)
 - [OCI Foundations Associate (2025)](https://education.oracle.com/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-25)
 - [OCI AI Foundations Associate (2025)](https://education.oracle.com/oracle-cloud-infrastructure-2024-ai-foundations-associate/pexam_1Z0-1122-25)
@@ -38,6 +38,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 {: .prompt-info }
 
 - [EPAM NextGen University Program](https://campus.epam.com/en/training) programa en linea sin remuneración de 4 meses en Fundamentals Training que sirve como preparación para el EPAM Internship Program.
+- [mexia](https://www.mexia.gob.mx) Cursos de diferentes tecnologias avalados por varias empresas importantes y el gobierno de mexico
 - [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](<https://www.google.com/search?q=AWS> re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
 - [Stanford Code in Place](https://codeinplace.stanford.edu/) Curso CS106A.de la universidad de Stanford, con mentarias, clases y una certificacion gratuita, lo hacen cada año en abril.
 - [Samsung Innovation Campus](https://www.sicvirtual.com/) capacitación a jóvenes entre los 20 a 25 años en tecnologías emergentes, como Python e Inteligencia Artificial, con mentorias, clases en vivo, experiencia practica y seguimiento continuo.
@@ -76,6 +77,11 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Google Women Techmakers Ambassadors](https://developers.google.com/womentechmakers/ambassadors?hl=es-419) este es un programa enfocado para personas identificadas como mujeres, donde como beneficio tendrás acceso exclusivo a las charlas y talleres de Google, y obtendrás el reconocimiento del equipo global de Women Techmakers por tus contribuciones.
 - [MET](https://mujeresentecnologia.org/capacitate/) formación técnica en diferentes tecnologías y herramientas de gran demanda en el mercado laboral para mujeres.
 - [mujeresticslatam](https://mujeresticslatam.com/#camino) rutas de especialización en areas como IA.
+
+## Soft skills o skills no tecnicas
+
+- [edutin lean six sigma](https://edutin.com/curso-de-lean-six-sigma) edutin tambien tiene cursos de idioma gratis y asi es como udemy pero gratisy mas limitado
+- [free Scrum Fundamentals Certified (SFC)](https://www.scrumstudy.com/account/register)
 
 ## Exemenes de habilidades de Hackerrank con certificado
 
@@ -211,6 +217,53 @@ Múltiples certificados sacados por LinkedIn en colaboración con Microsoft para
 - [Introduction to Machine Learning in Wolfram Language](https://www.wolfram.com/wolfram-u/courses/machine-learning/introduction-to-machine-learning-ml201/)
 - [Wolfram Language and LLMs](https://www.wolfram.com/wolfram-u/courses/machine-learning/wolfram-language-and-llms-ml215/)
 
+### Accenture Learning to Earning
+
+https://www.l2eportal.accenture.com/cursos/tecnicos?p=12360&locale=en-GB&content-lang=en-US
+
+tienen de  Digital knowledge,Soft skills, Technical knowledge, Employability,
+y de Technical knowledge tienen Programming, Customer service and sales,Cybersecurity,Graphic design,Data analytics,Your business,
+ auqnue no se si no estan disponibles pq solo salen los de Cybersecurity
+
+ pero si buscas en google si salen otros como este de [intro a sql](https://www.l2eportal.accenture.com/curso/introduccion-sql?content-lang=en-US) sino en linkedin tambien busquen
+
+### Learn EPAM
+
+https://learn.epam.com/
+pues tienen muchos xd
+
+### The Forage Job Simulations
+
+[Forage Job Simulations](https://www.theforage.com/simulations?industries=engineering.technology&qfilter=all) son simulaciones de trabajo real donde te dan un certificado al finalizarlo, estos tienen un buen valor ya que al no ser solo cursos sino trabajos practicos, las empresas pueden valorarlos más
+
+- [HP Software Engineering](https://www.theforage.com/simulations/hewlett-packard-enterprise/software-engineering-pcij)
+- [Quantium Data Analytics](https://www.theforage.com/simulations/quantium/data-analytics-rqkb)
+- [Quantium Software Engineering](https://www.theforage.com/simulations/quantium/software-engineering-j6ci)
+- [DATACOM Software Development](https://www.theforage.com/simulations/datacom/software-development-l47g)
+- [DATACOM Introduction to Cloud](https://www.theforage.com/simulations/datacom/intro-cloud-yfvk)
+- [DATACOM Cyber Security Operations](https://www.theforage.com/simulations/datacom/cybersecurity-zm6d)
+- [Electronic Arts Software Engineering](https://www.theforage.com/simulations/electronic-arts/software-engineering-awbf)
+- [Walmart Advanced Software Engineering Job Simulation](https://www.theforage.com/simulations/walmart/software-engineering-fceb)
+- [Mastercard Cybersecurity](https://www.theforage.com/simulations/mastercard/cybersecurity-t8ye)
+- [BCG X Data Science](https://www.theforage.com/simulations/bcg/data-science-ccdz)
+- [TATA Cybersecurity - IAM Developer](https://www.theforage.com/simulations/tata/cybersecurity-sbda)
+- [JPMorgan Software Engineering](https://www.theforage.com/simulations/jpmorgan/advanced-software-engineering-r0fm)
+- [Citi Technology Software Development](https://www.theforage.com/simulations/citi/software-development-dlxt)
+- [Deloitte Cyber](https://www.theforage.com/simulations/deloitte-au/cyber-c1e3)
+- [Skyscanner Software Engineering](https://www.theforage.com/simulations/skyscanner/software-engineering-cm01)
+
+### IBM Skills Build Learning Plans Certificates
+
+es diferente el certificado (certificate) de completar un path que el de un curso, ya que obvio el del path tiene varios cursos chicos (insignias)
+
+los mas importantes son: 
+
+- [Data analytics certificate](https://skillsbuild.org/adult-learners/explore-learning/data-analyst)
+- [Cybersecurity Certificate](https://skillsbuild.org/adult-learners/explore-learning/cybersecurity-analyst)
+- [Software Engineering for Web Developers Certificate](https://skillsbuild.org/adult-learners/explore-learning/web-developer)
+- [IBM SkillsBuild User Experience Designer Certificate](https://skillsbuild.org/adult-learners/explore-learning/cybersecurity-analyst)
+
+
 ## Cursos en Coursera
 
 En si coursera no es gratis, pero la mayoría de cursos tienen la opción de auditar de manera gratuita sin poder obtener el certificado, pero también tienen la opción para [solicitar ayuda económica](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es) y obtener una beca de hasta el 100% para poder obtener tu certificado.
@@ -234,25 +287,6 @@ En si coursera no es gratis, pero la mayoría de cursos tienen la opción de aud
 > Algunos cursos de Google en coursera son gratis con los [Certificados de Carrera de Google por INROADS](https://becas.inroads.org.mx/)
 {: .prompt-tip }
 
-### The forge Job Simulations
-
-[Forage Job Simulations](https://www.theforage.com/simulations?industries=engineering.technology&qfilter=all) son simulaciones de trabajo real donde te dan un certificado al finalizarlo, estos tienen un buen valor ya que al no ser solo cursos sino trabajos practicos, las empresas pueden valorarlos más
-
-- [HP Software Engineering](https://www.theforage.com/simulations/hewlett-packard-enterprise/software-engineering-pcij)
-- [Quantium Data Analytics](https://www.theforage.com/simulations/quantium/data-analytics-rqkb)
-- [Quantium Software Engineering](https://www.theforage.com/simulations/quantium/software-engineering-j6ci)
-- [DATACOM Software Development](https://www.theforage.com/simulations/datacom/software-development-l47g)
-- [DATACOM Introduction to Cloud](https://www.theforage.com/simulations/datacom/intro-cloud-yfvk)
-- [DATACOM Cyber Security Operations](https://www.theforage.com/simulations/datacom/cybersecurity-zm6d)
-- [Electronic Arts Software Engineering](https://www.theforage.com/simulations/electronic-arts/software-engineering-awbf)
-- [Walmart Advanced Software Engineering Job Simulation](https://www.theforage.com/simulations/walmart/software-engineering-fceb)
-- [Mastercard Cybersecurity](https://www.theforage.com/simulations/mastercard/cybersecurity-t8ye)
-- [BCG X Data Science](https://www.theforage.com/simulations/bcg/data-science-ccdz)
-- [TATA Cybersecurity - IAM Developer](https://www.theforage.com/simulations/tata/cybersecurity-sbda)
-- [JPMorgan Software Engineering](https://www.theforage.com/simulations/jpmorgan/advanced-software-engineering-r0fm)
-- [Citi Technology Software Development](https://www.theforage.com/simulations/citi/software-development-dlxt)
-- [Deloitte Cyber](https://www.theforage.com/simulations/deloitte-au/cyber-c1e3)
-- [Skyscanner Software Engineering](https://www.theforage.com/simulations/skyscanner/software-engineering-cm01)
 
 ## Insignias
 
@@ -286,6 +320,7 @@ Cisco es la empresa que tiene el monopolio de la Infraestructura de las redes, s
 IBM tiene más de [500 insignias gratuitas](https://www.ibm.com/training/search?trainingType=Badge) repartidas en distintos sitios cubriendo distintos temas:
 
 - [Zxplore](https://www.ibm.com/z/resources/zxplore) es el curso acerca de los Mainframes (super computadores/servidores) de IBM con el sistema operativo Z/OS. Hay pocos especialistas en esta área, por lo que es un buen tema para especializarse. Cualquier duda o informes sobre este tema pueden contactar con nuestro compañero de la UAA y embajador de IBM Z [Gustavo Richarte](https://www.linkedin.com/in/gustavoricharte/).
+- [IBM skillsbuild College course catalog](https://skillsbuild.org/college-students/course-catalog) cursos de varios temas 
 - [Cognitive Class](https://cognitiveclass.ai/courses?type%5B%5D=course&sort%5B%5D=most_popular)
   - [Python for Data Science](https://cognitiveclass.ai/courses/python-for-data-science)
   - [Machine Learning with Python](https://cognitiveclass.ai/courses/machine-learning-with-python)

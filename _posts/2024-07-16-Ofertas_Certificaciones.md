@@ -29,7 +29,8 @@ add-to-calendar-button {
 {: .prompt-tip }
 
 En general para obtener vouchers gratis o descuentos en vouchers hay que estar atentos a las redes sociales de las compañías emisoras de estos, en general Microsoft es la que más oportunidades suele dar.
-
+- [GitHub Foundations Certification Exam o el Copilot Foundations ](https://education.github.com/experiences/foundations_certificate) gratis a travez de [Github Education Student pack](https://education.github.com/pack/join), si no estan disponlibles quizas sea [porque se acabaron para este periodo (enero/septiembre)](https://github.com/orgs/community/discussions/184439#discussioncomment-15625511) o si cambiaron algo revisa el [faq](https://learn.github.com/credentials)
+- [Get AWS AI and Cloud Certified with 50% off](https://www.pearsonvue.com/us/en/aws/aif2cloud.html) Use the promo code to get **50% off AWS Certified AI Practitioner**. Pass the AWS Certified AI Practitioner exam by September 30, and you’ll qualify for a **free** AWS **Certified Cloud Practitioner** exam any time before November 30, 2026. This is a limited time offer!
 - [AWS Get Certified Challenge](https://www.google.com/search?q=AWS%20Get%20Certified%20Challenge) **50% de descuento** en cualquier examen de nivel Foundational or Associate, con varios términos y condiciones.
 - [AWS Emerging Talent Community](https://www.reddit.com/r/AWSCertifications/comments/1iacrq2/earning_50_off_voucher_with_etc_detailed_post/) al registrarte en AWS Educate y conseguir ciertos puntos y pasar algunos examenes de prueba puedes obtener un descuento del **100% de descuento** en una certificación.
 - [AWS Educate](https://aws.amazon.com/education/awseducate/) ofrece vouchers con **100% de descuento** (gratuitos) para certificaciones Foundational (4,500 puntos) y Associate (5,200 puntos). Solo debes completar cursos para acumular puntos y canjear tu voucher.
@@ -67,3 +68,4 @@ En general para obtener vouchers gratis o descuentos en vouchers hay que estar a
 - Ruby_D05. (2024). *How to grab Microsoft certification discount in 2024?*. Recuperado de <https://trainingsupport.microsoft.com/en-us/mcp/forum/all/how-to-grab-microsoft-certification-discount-in/a48bfeca-58c4-4bb4-8a73-960879d2bb51>
 - TechiesCamp. (2024). *Linux Foundation Coupons*. Recuperado de <https://github.com/techiescamp/linux-foundation-coupon>
 - Madrasi. (2025). *2025 : AWS Vouchers / Exam Discounts / Coupons / Other Certification related promotions*. Recuperado de <https://www.reddit.com/r/AWSCertifications/comments/1hlhj0k/2025_aws_vouchers_exam_discounts_coupons_other/>
+
