@@ -56,6 +56,7 @@ Un embajador (ambassador) es una persona que representa, habla por o anuncia a u
 - [hackerrank Campus Crew](https://www.hackerrank.com/campuscrew)
 - [MLH fellowship](https://fellowship.mlh.io/) te pagan
 - [LFX Mentorship](https://lfx.linuxfoundation.org/tools/mentorship/) te pagan por ser mentoriado
+- [Cerebras Ambassadors](https://www.cerebras.ai/ambassadors)
 
 ## Referencias
 

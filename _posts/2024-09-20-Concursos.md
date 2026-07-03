@@ -365,3 +365,4 @@ Más información en [codingrush.itam.mx](https://codingrush.itam.mx/)
 - Wikipedia. (s.f.). *Competitive programming*. Recuperado de <https://en.wikipedia.org/wiki/Competitive_programming>
 - Wikipedia. (s.f.). *International Olympiad in Informatics*. Recuperado de <https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics>
 - Wikipedia. (s.f.). *Meta Hacker Cup*. Recuperado de <https://en.wikipedia.org/wiki/Facebook_Hacker_Cup>
+<https://uchile.progcomp.cl/recursos/recursos/competencias_importantes/>

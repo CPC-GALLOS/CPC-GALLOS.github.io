@@ -16,6 +16,7 @@ __Tabla de Contenidos:__
 
 ## Temarios, Tablas de contenido, Planes de estudios y syllabus para la programación competitiva
 
+- [Daniel Teniente: Guía para programación competitiva ](https://github.com/danielTeniente/guia_de_competencia)
 - [CAUS: Roadmap de temas](https://clubalgoritmiaus.es/resources/topics/)
 - [Colin Galen: From Beginner to Grandmaster](https://www.youtube.com/watch?v=bSdp2WeyuJY)
 - [Mostafa Saad: Enhanced Training roadmap for newcomers](https://codeforces.com/blog/entry/97858)
@@ -75,6 +76,7 @@ Los Training Camps son eventos organizados en diversas universidades, tanto naci
 > Visita el [Mapa de clubes de programación competitiva y Algoritmia de México](https://cpc-gallos.github.io/blog/Comunidades/#mapa-de-clubes-de-programaci%C3%B3n-competitiva-y-algoritmia-de-m%C3%A9xico) para ver más información acerca de los clubes en México. Y también revisa los [Canales de Youtube Recomendados](https://cpc-gallos.github.io/blog/Canales_Recomendados/#canales-de-clubes-de-m%C3%A9xico).
 {: .prompt-info }
 
+
 - [Γα=Ω5 (CPC-GALLOS): presentaciones](https://cpc-gallos.github.io/blog/Presentaciones/)
 - [Club de algoritmia UPIIZ-IPN: Github](https://github.com/caupiiz/club-algoritmia-upiiz)
 - [PU++: google drive](https://drive.google.com/drive/folders/102ieishfTjxw0nq-Q0vs3E3AITbA5oYZ)
@@ -88,6 +90,8 @@ Los Training Camps son eventos organizados en diversas universidades, tanto naci
 
 ## Del Mundo
 
+- [AC Programacion competitiva UChile](https://uchile.progcomp.cl/apunte/prologo/introduccion/)
+- [Universidad Politécnica de Madrid codeboost](https://blogs.upm.es/codeboost/entrenamiento/)
 - [Recursos del club de algoritmia US](https://drive.google.com/drive/folders/1HRhaTf-Dtha1T21ZTzjj7y-6WswkB9OP) Presentaciones y clases del club de algoritmia de la Universidad de Sevilla.
 - [Material del club de programación competitiva UFPS](https://programacioncompetitivaufps.github.io/) Material del club de la Universidad Francisco de Paula Santander.
 - [Training Center UFPS](https://trainingcenter.cloud.ufps.edu.co/material-publico) Material público de la Universidad Francisco de Paula Santander.

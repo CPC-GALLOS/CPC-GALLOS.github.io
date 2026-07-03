@@ -110,6 +110,6 @@ image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-univ
 
 
 
-https://freeforstudents.org/row
-https://github.com/OpenGenus/Best-student-discount-services
-hay que hacer algo asi xd ----->>>>> https://www.studentoffers.co/
+<https://freeforstudents.org/>
+<https://github.com/OpenGenus/Best-student-discount-services>
+hay que hacer algo asi xd ----->>>>> <https://www.studentoffers.co/>

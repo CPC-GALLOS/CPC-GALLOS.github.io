@@ -43,7 +43,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Stanford Code in Place](https://codeinplace.stanford.edu/) Curso CS106A.de la universidad de Stanford, con mentarias, clases y una certificacion gratuita, lo hacen cada año en abril.
 - [Samsung Innovation Campus](https://www.sicvirtual.com/) capacitación a jóvenes entre los 20 a 25 años en tecnologías emergentes, como Python e Inteligencia Artificial, con mentorias, clases en vivo, experiencia practica y seguimiento continuo.
 - [AWS AI & ML Scholars](https://aws.amazon.com/about-aws/our-impact/scholars/) 100,000 a nivel mundial donde los que tengan mejor rendimiento tendran un Nanodegree de Udacity.
-- [DIO bootcamps](https://www.dio.me/en/bootcamp) bootcamps gratuitos (en portugués) en tecnologías como BackEnd, QA, Data Science, IA, Java, Python, Cloud y Ciberseguridad, desarrollados en alianza con empresas globales (Microsoft, Santander, Accenture) con vinculación laboral directa.
+- [DIO bootcamps](https://www.dio.me/en/bootcamp) bootcamps gratuitos en tecnologías como BackEnd, QA, Data Science, IA, Java, Python, Cloud y Ciberseguridad, desarrollados en alianza con empresas globales (Microsoft, Santander, Accenture) con vinculación laboral directa.
 - [Oracle One](https://www.oracle.com/mx/education/oracle-next-education/) es un curso de 6 meses de duración donde puedes certificarte en front end (React y javascript) ó en backend (Java y Springboot), en cualquier caso tienes que entregar 3 proyectos.
 - [Bécalos Tech Challengue](https://techchallenge.becalos.mx/) es una beca desarrollada por la Fundación Televisa para aprender a programar e incursionarte en el desarrollo web.
 - [CPDA](https://cyberdialogueamericas.wordpress.com/youth-cyber-delegates/) el Cyber Policy Dialogue for the Americas (CPDA) ofrece su Programa de Delegados Jóvenes (Youth Delegate), que se enfoca en brindar recursos educativos integrales para 30 estudiantes universitarios mexicanos en el campo de temas cibernéticos y de tecnologías emergentes.
@@ -78,8 +78,9 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [MET](https://mujeresentecnologia.org/capacitate/) formación técnica en diferentes tecnologías y herramientas de gran demanda en el mercado laboral para mujeres.
 - [mujeresticslatam](https://mujeresticslatam.com/#camino) rutas de especialización en areas como IA.
 
-## Soft skills o skills no tecnicas
+## Softskills o skills no tecnicas
 
+- [HP life](https://www.life-global.org/)
 - [edutin lean six sigma](https://edutin.com/curso-de-lean-six-sigma) edutin tambien tiene cursos de idioma gratis y asi es como udemy pero gratisy mas limitado
 - [free Scrum Fundamentals Certified (SFC)](https://www.scrumstudy.com/account/register)
 
@@ -113,6 +114,8 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [Qualcomm Academy](https://academy.qualcomm.com/)
 - [ITU Academy](https://academy.itu.int/training-courses/full-catalogue)
 - [Paloalto Networks ciberseguridad](https://www.paloaltonetworks.lat/cyberpedia/free-cybersecurity-education-courses) Cursos GRATUITOS de educación en ciberseguridad
+- [Accenture Learning to Earning](https://www.l2eportal.accenture.com/cursos/tecnicos?p=12360&locale=en-GB&content-lang=en-US)
+- [Learn EPAM](https://learn.epam.com/)
 
 ### Diplomados de Capacítate Para el Empleo
 
@@ -217,20 +220,6 @@ Múltiples certificados sacados por LinkedIn en colaboración con Microsoft para
 - [Introduction to Machine Learning in Wolfram Language](https://www.wolfram.com/wolfram-u/courses/machine-learning/introduction-to-machine-learning-ml201/)
 - [Wolfram Language and LLMs](https://www.wolfram.com/wolfram-u/courses/machine-learning/wolfram-language-and-llms-ml215/)
 
-### Accenture Learning to Earning
-
-https://www.l2eportal.accenture.com/cursos/tecnicos?p=12360&locale=en-GB&content-lang=en-US
-
-tienen de  Digital knowledge,Soft skills, Technical knowledge, Employability,
-y de Technical knowledge tienen Programming, Customer service and sales,Cybersecurity,Graphic design,Data analytics,Your business,
- auqnue no se si no estan disponibles pq solo salen los de Cybersecurity
-
- pero si buscas en google si salen otros como este de [intro a sql](https://www.l2eportal.accenture.com/curso/introduccion-sql?content-lang=en-US) sino en linkedin tambien busquen
-
-### Learn EPAM
-
-https://learn.epam.com/
-pues tienen muchos xd
 
 ### The Forage Job Simulations
 
@@ -242,7 +231,7 @@ pues tienen muchos xd
 - [DATACOM Software Development](https://www.theforage.com/simulations/datacom/software-development-l47g)
 - [DATACOM Introduction to Cloud](https://www.theforage.com/simulations/datacom/intro-cloud-yfvk)
 - [DATACOM Cyber Security Operations](https://www.theforage.com/simulations/datacom/cybersecurity-zm6d)
-- [Electronic Arts Software Engineering](https://www.theforage.com/simulations/electronic-arts/software-engineering-awbf)
+- [Electronic Arts Software Engineering](https://www.theforage.com/simulations/electronic-arts/software-engineering-awbf) **YA no esta disponible a julio 2026, quizas despues regrese**
 - [Walmart Advanced Software Engineering Job Simulation](https://www.theforage.com/simulations/walmart/software-engineering-fceb)
 - [Mastercard Cybersecurity](https://www.theforage.com/simulations/mastercard/cybersecurity-t8ye)
 - [BCG X Data Science](https://www.theforage.com/simulations/bcg/data-science-ccdz)
@@ -251,6 +240,8 @@ pues tienen muchos xd
 - [Citi Technology Software Development](https://www.theforage.com/simulations/citi/software-development-dlxt)
 - [Deloitte Cyber](https://www.theforage.com/simulations/deloitte-au/cyber-c1e3)
 - [Skyscanner Software Engineering](https://www.theforage.com/simulations/skyscanner/software-engineering-cm01)
+
+alguno de estos job simulations puede no esten disponibles 
 
 ### IBM Skills Build Learning Plans Certificates
 
@@ -439,3 +430,4 @@ Por úlitmo existe la opción de tomar una clase en vivo a travez de [AWS Traini
 - UADY. (2025). *STEM*. Recuperado de <https://uady.mx/stem/>
 - Madrasi. (2025). *No payment options to learn AWS (with Digital Badges) for Beginners*. Recuperado de <https://www.reddit.com/r/AWSCertifications/comments/199nbun/no_payment_options_to_learn_aws_with_digital/>
 - KunalBansal. (2023). <https://community.sap.com/t5/technology-blog-posts-by-members/earn-credly-badges-with-free-sap-learning-journey/ba-p/13549016>
+- <https://github.com/PanXProject/awesome-certificates> <-- checar este para buscar mas luego

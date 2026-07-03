@@ -17,6 +17,7 @@ Los jueces virtuales (OJ, por sus siglas en inglés de Online Judge) son platafo
 
 - **[Codeforces](https://codeforces.com/)**: Una de las plataformas más populares para competencias de programación con problemas de diferentes niveles de dificultad. Es conocida por su comunidad activa y sus competiciones frecuentes.
 - **[Vjudge](https://vjudge.net/problem)**: Plataforma que permite competir en tiempo real en diferentes jueces online como Codeforces, AtCoder, CSES, y otros. Ideal para quienes buscan participar en concursos conjuntos de diversas plataformas.
+- **[cpcjudge](https://cpcjudge.com/)** el juez echo con [DMOJ](https://github.com/DMOJ/online-judge) para el CPC-UAEH  
 - **[OmegaUp](https://omegaup.com/)**: Plataforma de programación competitiva que promueve el talento latinoamericano. Es la creadora del OFMI (Olimpiada Femenil Mexicana de Informática) y en ella se realizan las selecciones regionales para la OMI (Olimpiada Mexicana de Informática). Ofrece problemas, concursos y estadísticas para entrenar de manera efectiva.
 - **[Leetcode](https://leetcode.com/problemset/)**: Famoso entre los programadores de software para practicar problemas técnicos que podrían aparecer en entrevistas laborales. Ofrece problemas que cubren una variedad de temas y técnicas de programación.
 - **[Atcoder](https://atcoder.jp/)**: Un sitio japonés que organiza competencias de programación de alta calidad y tiene problemas bien categorizados, desde principiantes hasta avanzados.
@@ -45,3 +46,4 @@ Los jueces virtuales (OJ, por sus siglas en inglés de Online Judge) son platafo
 - kothariji. (s.f.). *Platform to practice Competitive Programming 🔭🔭*. Recuperado de <https://github.com/kothariji/competitive-programming>
 - UW. (s.f). *Resources*. Recuperado de <https://uw-programming.netlify.app/resources/>
 - Xu Han. (2024). *vjudge*. Recuperado de <https://vjudge.net/>
+<uchile.progcomp.cl/recursos/recursos/como_practicar/>
