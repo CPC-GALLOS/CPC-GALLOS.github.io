@@ -30,7 +30,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mapa_pol%C3%ADt
 
 ## Comunidades de Discord en Español
 
-> Esto deberia quitarse ya que el mapa de mexico y el api este bien echo o asi supongo xd
+> TODO: Esto deberia quitarse ya que el mapa de mexico y el api este bien echo o asi supongo xd
 
 - [ICPC México](https://discord.gg/icpcmx)  Discord oficial del club de la comunidad de ICPC México junto a la universidad ITESO. 
 - [Club de Algoritmia CUCEI](https://discord.com/invite/VmKrSgK5mQ) Discord oficial del Club de Algoritmia del Centro Universitario de Ciencias Exactas e Ingenierías de la UdeG.

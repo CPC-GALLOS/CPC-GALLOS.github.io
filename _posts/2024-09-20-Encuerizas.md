@@ -28,7 +28,7 @@ Nuestro término de la palabra *Encueriza* tiene un significado profundo; sus or
 ## Encuerizas 2026
 
 ### Semestre Agosto-Diciembre
-Aun no empieza xd 
+> TODO: Aun no empieza xd 
 
 ### Semestre Enero-Julio
 

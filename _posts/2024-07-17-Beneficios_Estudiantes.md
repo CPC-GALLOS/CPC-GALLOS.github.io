@@ -12,11 +12,8 @@ image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-univ
 
 ## Descuentos validando que eres estudiante
 
-> En la mayoria de casos te preguntaran por un documento de la universidad y un correo institucional (los que incluyen edu), usualmente las universidad que son consideradas como validas estan en registradas en la base de datos del [WHED](https://www.whed.net/home.php).
-
-Perfecto, ahora sí en el formato que quieres (lista simple + links incrustados + sin inventar cosas):
-
----
+> En la mayoria de casos te preguntaran por un documento de la universidad y un correo institucional (los que incluyen edu), usualmente las universidad que son consideradas como validas estan en registradas en la base de datos del [WHED](https://www.whed.net/home.php). Tambíen recomiendo revisar este listado <https://www.studentoffers.co/>
+{: .prompt-tip }
 
 ### UAA
 
@@ -270,4 +267,4 @@ No es exclusivo para estudiantes. Puedes crear una cuenta gratuita. Para aprovec
 
 <https://freeforstudents.org/>
 <https://github.com/OpenGenus/Best-student-discount-services>
-hay que hacer algo asi xd ----->>>>> <https://www.studentoffers.co/>
+> TODO: hay que hacer algo asi xd ----->>>>> <https://www.studentoffers.co/>
