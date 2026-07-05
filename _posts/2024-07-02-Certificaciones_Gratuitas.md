@@ -93,6 +93,19 @@ En general, las certificaciones de nivel **Foundations Associate** y muchas de n
 - [Diplomado en Educación Financiera por la CONDUSEF](https://inscripcion-diplomado.condusef.gob.mx/) este diplomado dura 3 meses y esta realizado en colaboración de Banco de México (Banxico), Bolsa Institucional de Valores (BIVA), Instituto Nacional de la Economía Social (INAES), Better than Cash Alliance, Cetesdirecto, Comisión Nacional Bancaria y de Valores (CNBV), Policía Cibernética y Secretaría de Hacienda y Crédito Público (SHCP).
 - [free Scrum Fundamentals Certified (SFC)](https://www.scrumstudy.com/account/register)
 - [bancoazteca educación financiera](https://www.bancoazteca.com.mx/edu-fin.html)
+- [Capacitate para el empleo (Fundación carlos slim)](https://capacitateparaelempleo.org/mostrar-rutas)
+
+## MOOCs
+
+Los MOOCs (Massive Open Online Courses) son cursos en línea abiertos al público, ofrecidos por universidades, instituciones educativas y otras organizaciones. Principalmente cursos enfocados en soft skills. Algunos tienen fechas de inicio o periodos de disponibilidad específicos, y que muchos pueden estar en otros idiomas (usen Google Traductor xd). La mayoría de los cursos son gratuitos, pero algunos pueden cobrar por el acceso al certificado o por el curso completo. Además, no todos ofrecen badges o certificados, por lo que es recomendable verificar esta información antes de comenzar cualquier curso.
+
+- [European MOOC Consortium (EMC)](https://emc.eadtu.eu/partners) 
+  - [France Université Numérique (FUN)](https://www.fun-mooc.fr/en/courses/?limit=21&offset=0&types=8889)
+  - [iMooX](https://imoox.at/mooc/)
+- [The Open University - Open learn](https://www.open.edu/openlearn/badged-courses)
+- [Politecnico Milano Open Knowledge (POK)](https://www.pok.polimi.it/?redirect=0)
+- [Escolavirtual Gov Brasil](https://www.escolavirtual.gov.br/programas)
+- [Aprenda Mais Gov Brasil](https://aprendamais.mec.gov.br/?redirect=0)
 
 ## Exemenes de habilidades de Hackerrank con certificado
 
