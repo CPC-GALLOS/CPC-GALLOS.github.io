@@ -65,10 +65,11 @@ Los posgrados son estudios avanzados que permiten especializarse en un área de 
 #### Especialidades
 
 Las especialidades se enfocan en profundizar en un área particular de una disciplina y suelen tener una duración más corta que las maestrías y doctorados. Por ejemplo:
-#### Diplomados  
-Un diplomado es un programa de educación continua de corta o mediana duración (aproximadamente de 80 a 150 horas), diseñado para actualizar, especializar o desarrollar habilidades prácticas en un área específica. A diferencia de una maestría, no otorga un grado académico, pero puede fortalecer el perfil profesional ante reclutadores.  Los **diplomas** suelen ser otorgados por universidades o empresas y, por lo general, tienen un costo. Personalmente, no los recomendaría a menos que tengan un valor reconocido en la industria o en la institución que los imparte, ya que en muchos casos son similares a ciertos certificados, sin aportar una ventaja significativa adicional.
 
 - [UNAM](https://www.posgrado.unam.mx/programa/computo-de-alto-rendimiento-especializacion/): Ofrece una Especialización en Cómputo de Alto Rendimiento, en modalidad presencial conuna duración de 2 semestres .
+
+#### Diplomados  
+Un diplomado es un programa de educación continua de corta o mediana duración (aproximadamente de 80 a 150 horas), diseñado para actualizar, especializar o desarrollar habilidades prácticas en un área específica. A diferencia de una maestría, no otorga un grado académico, pero puede fortalecer el perfil profesional ante reclutadores.  Los **diplomas** suelen ser otorgados por universidades o empresas y, por lo general, tienen un costo. Personalmente, no los recomendaría a menos que tengan un valor reconocido en la industria o en la institución que los imparte, ya que en muchos casos son similares a ciertos certificados, sin aportar una ventaja significativa adicional.
 
 #### Maestrías
 

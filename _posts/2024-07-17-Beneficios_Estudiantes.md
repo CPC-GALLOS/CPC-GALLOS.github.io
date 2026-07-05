@@ -14,6 +14,164 @@ image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-univ
 
 > En la mayoria de casos te preguntaran por un documento de la universidad y un correo institucional (los que incluyen edu), usualmente las universidad que son consideradas como validas estan en registradas en la base de datos del [WHED](https://www.whed.net/home.php).
 
+Perfecto, ahora sí en el formato que quieres (lista simple + links incrustados + sin inventar cosas):
+
+---
+
+### UAA
+
+* 🏋️ En la UAA tienes acceso al gimnasio universitario, el cual puedes cursar **gratis** como parte de los programas de **Formación Humanista**, o inscribirte como servicio deportivo con costo. Los interesados deben registrarse durante los primeros cinco días de cada mes. El servicio tiene un costo de **$121 MXN anuales** y, una vez dados de alta, la mensualidad es de **$215 MXN**. El gimnasio brinda servicio de lunes a viernes en un horario de 6:30 a 20:00 horas y los sábados de 8:00 a 14:00 horas. Más información en [UAA Clubes Deportivos](https://www.uaa.mx/portal/alumnos/clubes-deportivos/).
+* 🏊 La alberca universitaria tiene un costo de inscripción de **$230 MXN** y cuotas mensuales aproximadas de **$320 MXN (2 sesiones por semana)** o **$430 MXN (3 sesiones por semana)** para estudiantes UAA. Más información en el [Facebook de GALLOS UAA](https://www.facebook.com/GALLOS.UAA/) o en su [Instagram oficial](https://www.instagram.com/gallosuaa_oficial/). El horario de servicio es de lunes a viernes de 06:00 a 20:00 horas y los sábados de 09:00 a 13:00 horas.
+* 🗣️ Los clubes de conversación del [CAADI](https://www.facebook.com/UAACAADI) tienen una cuota preferencial para estudiantes de **$131 MXN**, en lugar de **$608 MXN** para externos.
+* 💻 El correo institucional incluye acceso a [Microsoft 365](https://www.microsoft.com/microsoft-365) (Word, Excel, PowerPoint, Teams y 100 GB de almacenamiento en OneDrive).
+* 🌍 La UAA ofrece [cursos de idiomas](https://cursos.uaa.mx/index.php?m=l), incluyendo francés, inglés, alemán, japonés y coreano. Son **gratuitos para estudiantes de la UAA** que ya hayan acreditado el requisito de inglés. Para externos, el costo es de **$3,080 MXN por semestre**. Más información de idiomas y certificacioens de ellos, revisa el blog de idiomas: [Idiomas UAA](https://cpc-gallos.github.io/blog/Idiomas/).
+### Cloud
+
+- [Oracle Cloud (modo gratuito)](https://www.oracle.com/latam/cloud/free/) No es solo para estudiantes. Solo necesitas una tarjeta de débito o crédito para verificar tu identidad (no te cobran por el plan gratuito).
+
+**Incluye el plan Always Free:**
+- 💻 2 máquinas virtuales AMD.
+- ⚡ Hasta 4 instancias ARM Ampere A1 (24 GB de RAM compartidos y 3,000 horas OCPU/mes).
+- 🗄️ 2 bases de datos Oracle Autonomous (20 GB cada una) con Oracle APEX y SQL Developer.
+- 📦 200 GB de almacenamiento en bloques + almacenamiento de objetos y archivos.
+- 🌐 Balanceador de carga, VCN, VPN y hasta **10 TB de transferencia de datos salientes al mes**.
+- 📊 Herramientas de monitoreo, logs y observabilidad.
+- 📧 Envío de hasta **3,000 correos electrónicos al mes**.
+
+🎁 **Además**, al crear una cuenta obtienes una **prueba gratuita de 30 días** con **USD $300 en créditos** para probar más de 100 servicios de Oracle Cloud, incluyendo Kubernetes, IA, bases de datos, analítica y hasta **5 TB de almacenamiento**.
+
+* [Google Cloud Free Program](https://cloud.google.com/free)
+
+No es exclusivo para estudiantes. Solo necesitas una cuenta de Google y, en la mayoría de los países, una tarjeta para verificar la identidad (no se cobra mientras permanezcas en el nivel gratuito).
+
+**Incluye el plan Always Free:**
+
+* 💻 1 instancia **e2-micro** de Compute Engine (regiones elegibles).
+* 🗄️ **Firestore** en modo nativo con cuota gratuita diaria.
+* 🗃️ **Cloud Storage** con 5 GB de almacenamiento.
+* ⚙️ **Cloud Functions**, **Cloud Run** y **Cloud Build** con cuotas gratuitas mensuales.
+* 🌐 Balanceador de carga, redes VPC y monitoreo con cuotas gratuitas.
+* 📊 **BigQuery** con 10 GB de almacenamiento y hasta 1 TB de consultas al mes.
+* 🤖 Acceso gratuito limitado a varias APIs de IA (Gemini, Vision, Speech, Translation, entre otras, según la cuota vigente).
+
+🎁 **Además**, las cuentas nuevas reciben **USD $300 en créditos durante 90 días** para probar prácticamente todos los servicios de Google Cloud.
+
+* [Google Colab](https://colab.google/)
+
+No requiere tarjeta de crédito. Solo necesitas una cuenta de Google.
+
+**Incluye el plan gratuito:**
+
+* 📓 Notebooks de Jupyter en la nube.
+* ⚡ Acceso gratuito a GPU y TPU (disponibilidad variable).
+* 💾 Integración con Google Drive.
+* 🐍 Python con cientos de librerías preinstaladas para IA, ciencia de datos y aprendizaje automático.
+* 🤝 Compartir notebooks en tiempo real como Google Docs.
+* 🔗 Integración con GitHub y Kaggle.
+
+
+* [Firebase Spark Plan](https://firebase.google.com/pricing)
+
+No requiere tarjeta para comenzar con la mayoría de los servicios.
+
+**Incluye el plan gratuito:**
+
+* 🔥 **Cloud Firestore** con cuotas gratuitas diarias.
+* 🔐 Firebase Authentication.
+* 🌐 Firebase Hosting.
+* 📱 Cloud Messaging (FCM) ilimitado.
+* 📊 Analytics de Google.
+* ⚙️ Cloud Functions con cuota gratuita.
+* 📈 Crashlytics y Performance Monitoring.
+
+* [AWS Free Tier](https://aws.amazon.com/free/)
+
+No es exclusivo para estudiantes. Requiere una tarjeta de crédito para verificar la cuenta.
+
+**Incluye el Free Tier:**
+
+* 💻 750 horas/mes de una instancia **EC2** elegible durante 12 meses.
+* 🗄️ 5 GB en Amazon S3.
+* 🛢️ 750 horas de Amazon RDS (bases de datos).
+* ⚙️ AWS Lambda con 1 millón de ejecuciones gratuitas al mes (Always Free).
+* 📬 Amazon SNS y Amazon SQS con cuotas gratuitas.
+* 🔍 Amazon CloudWatch con métricas y logs gratuitos.
+* 🤖 Amazon Bedrock y otros servicios de IA con pruebas o cuotas gratuitas (según el servicio).
+
+🎁 AWS combina servicios con **12 meses gratuitos**, servicios **Always Free** y pruebas gratuitas temporales para diferentes productos.
+
+* [Microsoft Azure Free Account](https://azure.microsoft.com/free/)
+
+No es exclusivo para estudiantes. Requiere una tarjeta para verificar la identidad.
+
+**Incluye:**
+
+* 🎁 USD $200 en créditos durante los primeros 30 días.
+* 💻 Más de 20 servicios gratuitos durante 12 meses.
+* ♾️ Más de 65 servicios con cuota Always Free.
+* 🗄️ Azure SQL Database.
+* 📦 Azure Blob Storage.
+* ⚙️ Azure Functions.
+* 🤖 Azure AI con cuotas gratuitas para algunos servicios.
+* 📊 Azure Monitor.
+
+
+* [Azure for Students](https://azure.microsoft.com/free/students/)
+
+Exclusivo para estudiantes con correo institucional. **No requiere tarjeta de crédito.**
+
+**Incluye:**
+
+* 🎁 USD $100 en créditos renovables (según elegibilidad).
+* 💻 Máquinas virtuales.
+* 🗄️ Bases de datos SQL y NoSQL.
+* 🌐 Azure App Service.
+* ⚙️ Azure Functions.
+* 🤖 Servicios de Azure AI.
+* 📦 Azure Storage.
+* 🔐 Azure Active Directory.
+* ☸️ Azure Kubernetes Service (AKS) dentro de los créditos disponibles.
+
+Puedes agregarlo con el mismo formato:
+
+---
+
+* [Cloudflare Free Plan](https://www.cloudflare.com/plans/free/)
+
+No es exclusivo para estudiantes. Puedes crear una cuenta gratuita. Para aprovechar funciones como **Zero Trust** con tu propio dominio solo necesitas un dominio (que puedes obtener **gratis durante un año** mediante el **GitHub Student Developer Pack** con algunos proveedores participantes) y una tarjeta.
+
+**Incluye el plan gratuito:**
+
+* 🌐 CDN global y caché para acelerar sitios web.
+* 🛡️ Protección contra ataques DDoS.
+* 🔒 Certificados SSL/TLS gratuitos.
+* 🚀 Optimización automática del rendimiento.
+* 🌍 DNS autoritativo de alta velocidad.
+* 🔥 Reglas básicas del Firewall (WAF).
+* 📊 Analíticas de tráfico y seguridad.
+
+**Cloudflare Zero Trust (Free):**
+
+* 🔐 **Zero Trust Network Access (ZTNA)** para proteger aplicaciones internas sin necesidad de una VPN tradicional.
+* 👤 SSO: Inicio de sesión mediante Google, Microsoft, GitHub, Okta y otros proveedores de identidad.
+* 🖥️ Acceso remoto seguro a servidores, paneles de administración y aplicaciones web.
+* 🔑 Políticas de acceso basadas en identidad, grupos, ubicación y dispositivo.
+* 🌍 Publicación segura de servicios privados mediante **Cloudflare Tunnel**, sin abrir puertos en el router.
+
+> 💡 Si ya cuentas con un dominio propio, puedes montar un entorno Zero Trust prácticamente sin costo. Si aún no tienes uno, el **GitHub Student Developer Pack** suele incluir un dominio gratuito por un año con algunos registradores participantes.
+
+**Además incluye herramientas gratuitas para desarrolladores:**
+
+* ⚡ **Cloudflare Workers** para ejecutar funciones serverless en el Edge.
+* 🗄️ **Workers KV** para almacenamiento clave-valor distribuido.
+* 🧩 **Durable Objects** para aplicaciones con estado.
+* 🗃️ **D1** (base de datos SQLite serverless).
+* 📦 **R2 Object Storage** (almacenamiento de objetos con cuota gratuita y sin costo por egreso hacia Internet).
+* ⚙️ **Queues** para procesamiento asíncrono de mensajes.
+* 🌐 **Pages** para desplegar sitios estáticos y aplicaciones web modernas.
+* 🤖 Integración con modelos de IA mediante **Workers AI** (con cuota gratuita).
+
+
 ### Software
 
 - [GitHub Education](https://education.github.com/discount_requests/application)
