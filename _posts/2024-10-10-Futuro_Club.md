@@ -49,6 +49,7 @@ Convertirnos en el club referente en programación competitiva con sede en el es
 
 4. **Relaciones y Colaboraciones**
    - Crear relaciones con otras [comunidades](https://cpc-gallos.github.io/blog/Comunidades/), grupos estudiantiles y clubes como [Colmena](https://www.facebook.com/colmenaccademy) y con universidades de estados colindantes como la ITSUR, UASLP, UAZ, UdG, etc.
+   - Unificar los clubs de la UAA ([colmena](https://www.instagram.com/colmena.oficial/), [Rama IEEE](https://www.instagram.com/ieee_uaa.ags/), [Clubes Bachuaa](https://www.instagram.com/clubs_bachuaa/),[Club de Programacion creativa 2026](https://www.carduitech.com/creative-programming-club/), etc.) en una sola pagina web y con reuniones de todos los clubes para apoyo mutuo. Por ejemplo tener una pagina como: <https://assos.utc.fr/> donde los estudiantes puedan ver los clubes, las empresas y parthners sean visibles y en un futuro podamos compartir recursos economicos.
    - Invitar a estudiantes de otras carreras para crear una comunidad interdisiplinaria para el apoyo del club en partes como planeación, desarrollo, imagen del club, etc.
    - Relacionarse con instituciones locales como el [INCyTEA](https://www.aguascalientes.gob.mx/incytea/) o el [IAJU](https://www.aguascalientes.gob.mx/iaju/), para el desarrollo de hackatones y otras competencias.
    - Establecer contacto con periódicos locales para dar visibilidad a nuestras actividades.
@@ -57,10 +58,11 @@ Convertirnos en el club referente en programación competitiva con sede en el es
 
 5. **Involucración con la Universidad Autónoma de Aguascalientes (UAA)**
    - Acreditar horas de servicio social a lideres y asistentes del club.
+   - Acreditar horas de formación humanista a los participantes de primeros semestres (Y los de Bachuaa)
    - Otorgar constancias de participación a los miembros club.
    - Participación en la semana del Centro de Ciencias Basicas con conferencias y talleres.
    - Presencia en un estand en la feria Universitaria.
-   - Patrocinio en la compra de libros de programación competitiva para la biblioteca universitaria.
+   - Patrocinio en la compra de libros de programación competitiva para la biblioteca universitaria o privada del departamento.
    - Patrocinio económico en la inscripción a concursos con cuota de recuperación como el concurso de programación nacional ANIEI.
    - Patrocinio económico en viajes a training camp y eventos relacionadas en otros estados.
    - Publicar artículos en alguna revista de la UAA.
@@ -68,6 +70,8 @@ Convertirnos en el club referente en programación competitiva con sede en el es
    - Capacitar a profesores interesados en ser couch de algun equipo.
    - Expandir el club al bachillerato de la UAA y preparación para el IOI.
    - Creacion de un curso curricular con créditos humanísticos para lograr un maximo alcance de alumnos similar al de [CUCEI](https://dcc.cucei.udg.mx/sites/default/files/i5884_algoritmia_1.pdf)
+   - [Microsoft Learn for Educators (MSLE)](https://learn.microsoft.com/en-ca/answers/questions/5920028/how-to-get-free-azure-certification-student-vouche) para que nos den vouchers de certificacion de azure gratis, ya esta el depto de electronica de la UAA inscrito en el de amazon pero el de azure es mas valioso. tambien este se ve bien: [IBM Digital credentials for college students](https://skillsbuild.org/college-students/college-certificates)
+
 
 ## Funciones de Miembros del Club
 
@@ -78,10 +82,8 @@ Convertirnos en el club referente en programación competitiva con sede en el es
 
 ## Proyectos posibles a futuro
 
-- [Microsoft Learn for Educators (MSLE)](https://learn.microsoft.com/en-ca/answers/questions/5920028/how-to-get-free-azure-certification-student-vouche) para que nos den vouchers de certificacion de azure gratis, ya esta el depto de electronica de la UAA inscrito en el de amazon pero el de azure es mas valioso. tambien este se ve bien: [IBM Digital credentials for college students](https://skillsbuild.org/college-students/college-certificates)
-- Desarrollo de una extensión para Visual Studio Code que facilite el análisis de algoritmos atracez de la notación Big O.
 - Fork de vscodium para Competitive programming con CPH y sin acceso a AI (implementarlo en HuronOS?)
-- Diseño e implementación de una plataforma de evaluación de código (Juez Virtual/Online Judge) para competencias de programación competitiva a nivel Universitario, estatal y/o nacional.  Partiendo de proyectos como [Juez GUAPA, Club de Algoritmia Acatlan](https://github.com/Club-de-Algoritmia-Acatlan-GUAPA/juezGUAPA),[nubskr-codespace](https://github.com/nubskr/codespace), [DMOJ: Modern Online Judge](https://github.com/DMOJ/online-judge) por ejemplo el juez de CPC-UAEH esta echo con DMOJ: [cpcjudge](https://cpcjudge.com/) y siguiendo documentos como [Castellanos, M. & Plazas, J.: DISEÑO DE INFRAESTRUCTURA PARA LA IMPLEMENTACIÓN DE UN JUEZ ONLINE PARA LOS ENTRENAMIENTOS DEL GRUPO DE MARATONES DE PROGRAMACIÓN DE LA UNIVERSIDAD ECCI](https://repositorio.ecci.edu.co/bitstream/handle/001/2099/Trabajo%20de%20grado.pdf?sequence=1&isAllowed=y) o como [Chaparro, R: DISEÑO E IMPLEMENTACIÓN DE UN JUEZ EN LÍNEA PARA EL DESARROLLO DE COMPETENCIAS ALGORÍTMICAS EN LA UNIVERSIDAD LIBRE](https://repository.unilibre.edu.co/bitstream/handle/10901/8420/Proyecto2014%20-v1-0-1.pdf?sequence=1)
+- Diseño e implementación de una plataforma de evaluación de código (Juez Virtual/Online Judge) para competencias de programación competitiva a nivel Universitario, estatal y/o nacional en infraestructura propia de la UAA.  Partiendo de proyectos como [Juez GUAPA, Club de Algoritmia Acatlan](https://github.com/Club-de-Algoritmia-Acatlan-GUAPA/juezGUAPA),[nubskr-codespace](https://github.com/nubskr/codespace), [DMOJ: Modern Online Judge](https://github.com/DMOJ/online-judge) por ejemplo el juez de CPC-UAEH esta echo con DMOJ: [cpcjudge](https://cpcjudge.com/) y siguiendo documentos como [Castellanos, M. & Plazas, J.: DISEÑO DE INFRAESTRUCTURA PARA LA IMPLEMENTACIÓN DE UN JUEZ ONLINE PARA LOS ENTRENAMIENTOS DEL GRUPO DE MARATONES DE PROGRAMACIÓN DE LA UNIVERSIDAD ECCI](https://repositorio.ecci.edu.co/bitstream/handle/001/2099/Trabajo%20de%20grado.pdf?sequence=1&isAllowed=y) o como [Chaparro, R: DISEÑO E IMPLEMENTACIÓN DE UN JUEZ EN LÍNEA PARA EL DESARROLLO DE COMPETENCIAS ALGORÍTMICAS EN LA UNIVERSIDAD LIBRE](https://repository.unilibre.edu.co/bitstream/handle/10901/8420/Proyecto2014%20-v1-0-1.pdf?sequence=1)
 - Implementación de un sistema operativo basado en linux para la programación competitiva como [Maratona-Linux](https://github.com/maratona-linux/maratona-linux) o [huronOS](https://huronos.org/) para su uso en las competencias celebradas en los laboratorios de cómputo del Campus.
 - Publicación de un libro relacionado con la programación competitiva para la [editorial de la UAA](https://editorial.uaa.mx/).
 - Apoyo a estudiantes interesados en escribir tesis o tesinas relacionadas con algoritmos, algoritmia y/o la programación competitiva.

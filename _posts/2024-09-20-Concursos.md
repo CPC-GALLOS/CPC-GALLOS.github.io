@@ -141,11 +141,11 @@ Más información en [yandex.com/cup](https://yandex.com/cup/algorithm/)
 
 ![Congreso UAA Logo](/assets/img/posts/Concursos/Congreso_UAA.png){: w="200" h="100"}
 
-Este concurso es exclusivo para estudiantes de la UAA (por ahora), no esta limitado a ninguna carrera ni a ningún semestre. La XIX edición fue realizada por nuestro club y nuestro líder [{{ site.data.authors.ArielParra.name }}]({{ site.data.authors.ArielParra.url }}). Este concurso tiene reglas estilo ICPC, donde participan equipos conformados por tres estudiantes donde el objetivo es resolver problemas de algoritmia en dos horas, utilizando los lenguajes de programación como Python, Java y C++.
+Este concurso es exclusivo para estudiantes de la UAA (por ahora), no esta limitado a ninguna carrera ni a ningún semestre. La XIX y XX edición fueron realizada por [{{ site.data.authors.ArielParra.name }}]({{ site.data.authors.ArielParra.url }}) representando a nuestro club. Este concurso tiene reglas estilo ICPC, donde participan equipos conformados por tres estudiantes donde el objetivo es resolver problemas de algoritmia en dos horas, utilizando los lenguajes de programación como Python, Java y C++.
  
-Más información en el instagram del [congreso de sistemas](https://www.instagram.com/sistemas_uaa/), la página oficial [exactas.congresouaaccb.com](https://exactas.congresouaaccb.com/ISC).
+Más información en el instagram del [congreso de sistemas](https://www.instagram.com/sistemas_uaa/)
 
-> Revisita el concurso realizado en codeforces en nuestro grupo: [CONCURSO_DE_PROGRAMACION_UAA_2025](https://codeforces.com/group/b3gKGxWtjA/contest/598108)
+> Revisita el concurso realizado en nuestro grupo de codeforces, los links estan en nuestro post de [encuerizas](https://cpc-gallos.github.io/blog/Encuerizas/#concurso-de-programaci%C3%B3n-del-congreso-de-ciencias-exactas-uaa)
 
 
 ## Coding Cup Sinaloa

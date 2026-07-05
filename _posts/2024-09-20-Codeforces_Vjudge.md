@@ -12,7 +12,7 @@ image: https://repository-images.githubusercontent.com/390296311/0f6c1240-462e-4
 
 # ¿Qué es Codeforces?
 
-Codeforces es una plataforma de programación competitiva que ofrece una variedad de problemas,concursos y competencias pasadas para programadores de todos los niveles. Es patrocinada por la empresa rusa TON (Telegram Open Network) y es mantenida por un grupo de programadores de la Universidad ITMO, liderados por Mike Mirzayanov. Los concursos en codeforces se dividen en diferentes categorías según el nivel de dificultad y la experiencia de los participantes.
+Codeforces es una plataforma de programación competitiva (un [juez virtual/online](https://cpc-gallos.github.io/blog/Jueces_Virtuales/)) que ofrece una variedad de problemas,concursos y competencias pasadas para programadores de todos los niveles. Es patrocinada por la empresa rusa TON (Telegram Open Network) y es mantenida por un grupo de programadores de la Universidad ITMO, liderados por Mike Mirzayanov. Los concursos en codeforces se dividen en diferentes categorías según el nivel de dificultad y la experiencia de los participantes.
 
 ## Divisiones de Codeforces
 

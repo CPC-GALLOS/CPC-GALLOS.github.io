@@ -17,7 +17,7 @@ Las compañías **Big Tech** son algunas de las más importantes de Estados Unid
 
 Algunas de las formas en las que se agrupan las empresas **Big Tech** son:  
 
-- **MANGO**: Meta, Apple, Nvidia, Google, OpenAI. (Considerado el **nuevo** FAANG)
+- **MANGO**: Meta, Apple, Nvidia, Google, OpenAI. (Considerado el **nuevo** FAANG en la era de la IA)
 - **FAANG**: Facebook, Amazon, Apple, Netflix y Google.
 - **Big Five**: Alphabet, Amazon, Apple, Meta y Microsoft.
 - **WITCH**: Wipro, Infosys, Tata Consultancy Services, Cognizant, HCLTech. (India Big Tech)
@@ -43,7 +43,6 @@ Sin embargo, el uso de entrevistas técnicas con problemas de programación no e
 ### Libros Recomendados
 
 [Cracking the Coding Interview](https://archive.org/details/cracking-the-coding-interview-6th-edition-189-programming-questions-and-solutions_202312/page/590/mode/2up) este es el libro más popular para las entrevistas
-
 [Elements of Programming Interviews](https://github.com/qqqil/ebooks/blob/master/algorithms/Elements%20of%20Programming%20Interviews.pdf)
 [Coding Interview Patterns](https://www.amazon.com.mx/Coding-Interview-Patterns-Nail-Your/dp/1736049135/143-8196261-0490123?psc=1) Alex Xu
 [Beyond Cracking the Coding Interview](https://www.amazon.com.mx/Beyond-Cracking-Coding-Interview-Successfully/dp/195570600X?ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b)

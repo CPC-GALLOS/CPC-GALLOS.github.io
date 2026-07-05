@@ -10,6 +10,25 @@ mermaid: false
 image: /assets/img/posts/Plantilla.png
 ---
 
+# Plantilla Corta
+
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+void solve(){
+    return;
+}
+int main(){
+ios::sync_with_stdio(0);cin.tie(0);
+    int tc=1;
+    //cin>>tc;
+    while(t--) solve();
+return 0;
+}
+``` 
+
+# Plantilla Larga
+
 ```c++
 // _autor_
 // link y/o nombre del programa
@@ -44,11 +63,13 @@ return 0;
 }
 ``` 
 
+> Disponible en <https://github.com/CPC-GALLOS/Plantilla>, recuerda agregar tus modificaciones a traves de un PR
+
 __Tabla de contenidos__
 * 
 {:toc} 
 
-# Explicación y justificación de la plantilla
+# Explicación y justificación de la plantilla larga
 
 ## La cabecera (header)
 

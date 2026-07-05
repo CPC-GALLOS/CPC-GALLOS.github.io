@@ -1,6 +1,6 @@
 ﻿---
 title: Embajador
-description: Oportunidades para ser embajador de múltiples empresas
+description: Oportunidades para ser embajador de múltiples empresas, clubes, chapters, etc.
 date: 2024-07-17 23:30:00 +/-TTTT
 categories: [Desarrollo_Profesional]
 author: ArielParra 
@@ -57,6 +57,9 @@ Un embajador (ambassador) es una persona que representa, habla por o anuncia a u
 - [MLH fellowship](https://fellowship.mlh.io/) te pagan
 - [LFX Mentorship](https://lfx.linuxfoundation.org/tools/mentorship/) te pagan por ser mentoriado
 - [Cerebras Ambassadors](https://www.cerebras.ai/ambassadors)
+- [AWS Student Builder Groups](https://builder.aws.com/community/student-builder-groups)
+
+> TODO: agregar descripciones o algo asi xd
 
 ## Referencias
 

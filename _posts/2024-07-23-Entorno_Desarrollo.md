@@ -143,7 +143,8 @@ brew install --cask visual-studio-code
 
 ### Integrar Codeforces con VScode  
 
-- Primero en  VScode tenemos que tener la extensión [Competitive Programming Helper (CPH)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) o la nueva extensión del club de la universidad de Purdue [Competitive Programmers Union (CPU)](https://marketplace.visualstudio.com/items?itemName=thomasqm.cpu)
+- Primero en  VScode tenemos que tener la extensión [Competitive Programming Helper (CPH)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) o la nueva extensión del club de la universidad de Purdue [Competitive Programmers Union (CPU)](https://marketplace.visualstudio.com/items?itemName=thomasqm.cpu)o tambien el [ICIE (with g++ in Linux)](https://marketplace.visualstudio.com/items?itemName=mikaelmello.icie)
+- Tambien recomendamos alguna de estas extensiones para facilitar el analisis de BigO [LiveComplexity: Real-time Big-O Analysis](https://marketplace.visualstudio.com/items?itemName=livecomplexity.livecomplexity) o [BigO-me - Code Complexity Analyzer](https://marketplace.visualstudio.com/items?itemName=BigO-me.code-complexity-analyzer)
 - Después cambiaremos el lenguaje por defecto a C++ y agregaremos la ruta (ubicación) de la [plantilla del club](https://cpc-gallos.github.io/blog/Plantilla/) a la configuración de la extensión Competitive Programming Helper (CPH) en VScode
 
 ![cph setting imagen](/assets/img/posts/Entorno_Desarrollo/cph_settings.png){: w="400" h="200"}

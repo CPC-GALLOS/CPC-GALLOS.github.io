@@ -311,7 +311,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "path7365": {
             name: "Hidalgo", clubs: [
                 {
-                    club: "CPC ICBI",
+                    club: "CPC ICBI/UAEH",
                     universidad: "Universidad Autónoma del Estado de Hidalgo",
                     estatus: "activo",
                     redes: [

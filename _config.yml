@@ -35,11 +35,11 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: CPC-GALLOS
-  email: cpc.gallos@gmail.com # change to your email address
+  email: cpc.gallos@gmail.com
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/CPC-GALLOS # change to your github homepage
-    - https://twitter.com/CPCGallos # change to your twitter homepage
+    - https://x.com/CPCGallos # change to your twitter homepage
     # Uncomment below to add more social links
     - https://www.facebook.com/people/CPC-Gallos/61563419165843/
     - https://www.instagram.com/cpc.gallos/

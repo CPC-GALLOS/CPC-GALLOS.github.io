@@ -23,14 +23,21 @@ __Tabla de Contenidos:__
 ## Certificaciones Gratuitas
 
 - [EF SET](https://www.efset.org/) Recomiendo el EF SET de 90 minutos, un test gratuito que certifica todas tus habilidades en inglés y te brinda un diagnóstico completo junto con un certificado.
-
-Estas no están protectorados pero tienen el nombre y validación de certificación avalado por Oracle, a través de [Oracle University](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free).
-
 - [GitHub Foundations Certification Exam o el Copilot Foundations ](https://education.github.com/experiences/foundations_certificate) gratis a travez de [Github Education Student pack](https://education.github.com/pack/join), si no estan disponlibles quizas sea [porque se acabaron para este periodo (enero/septiembre)](https://github.com/orgs/community/discussions/184439#discussioncomment-15625511) o si cambiaron algo revisa el [faq](https://learn.github.com/credentials)
-- [Oracle Guided Learning Project Management Foundations Associate (Beta)](https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1)
-- [OCI Foundations Associate (2025)](https://education.oracle.com/oracle-cloud-infrastructure-2024-foundations-associate/pexam_1Z0-1085-25)
-- [OCI AI Foundations Associate (2025)](https://education.oracle.com/oracle-cloud-infrastructure-2024-ai-foundations-associate/pexam_1Z0-1122-25)
-- [OCI Data Platform Foundations Associate (2025)](https://education.oracle.com/oracle-cloud-infrastructure-2024-data-foundation-associate/pexam_1Z0-1195-25)
+
+### Oracle (OCI) Associate Certifications
+
+Aunque estas certificaciones no forman parte del programa de certificaciones profesionales de pago, **sí son certificaciones oficiales emitidas y respaldadas por Oracle**, puedes buscar la que te guste en [Oracle University](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free) y en [Oracle Education](https://www.oracle.com/education/certification/)
+
+En general, las certificaciones de nivel **Foundations Associate** y muchas de nivel **Associate** son **gratuitas**, mientras que las certificaciones de nivel **Professional** suelen requerir el pago de un examen (el cual esta protecterado, osea que te bloquean la computadora y hacen una videollamada para que no hagas trampa).
+
+> **Nota:** Oracle actualiza los nombres, versiones y códigos de examen cada año. Si encuentras información desactualizada, por favor **haz un PR** a este post: <https://github.com/CPC-GALLOS/CPC-GALLOS.github.io/blob/main/_posts/2024-07-02-Certificaciones_Gratuitas.md>
+
+- [OCI Foundations Associate (1Z0-1085-26)](https://education.oracle.com/oracle-cloud-infrastructure-2026-foundations-associate/pexam_1Z0-1085-26)
+- [Oracle Cloud Infrastructure AI Foundations Associate (1Z0-1122-26)](https://education.oracle.com/oracle-cloud-infrastructure-ai-foundations-associate/pexam_1Z0-1122-26)
+- [Oracle Agentic AI Foundations Associate (1Z0-1157-26)](https://learn.oracle.com/ols/learning-path/oracle-agentic-ai-foundations-associate/)
+- [Oracle AI Database Foundations Associate (1Z0-1195-26)](https://education.oracle.com/oracle-data-platform-2026-foundations-associate/pexam_1Z0-1195-26)
+- [Oracle Guided Learning Project Management Foundations Associate – Rel 1 (1Z0-1126-1)](https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1)
 
 ## Becas recurrentes con certificados
 
@@ -39,7 +46,7 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 
 - [EPAM NextGen University Program](https://campus.epam.com/en/training) programa en linea sin remuneración de 4 meses en Fundamentals Training que sirve como preparación para el EPAM Internship Program.
 - [mexia](https://www.mexia.gob.mx) Cursos de diferentes tecnologias avalados por varias empresas importantes y el gobierno de mexico
-- [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](<https://www.google.com/search?q=AWS> re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
+- [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](<https://www.google.com/search?q=AWS> re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/) o [fondationforge inefop](https://www.fondationforge.org/inefop/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
 - [Stanford Code in Place](https://codeinplace.stanford.edu/) Curso CS106A.de la universidad de Stanford, con mentarias, clases y una certificacion gratuita, lo hacen cada año en abril.
 - [Samsung Innovation Campus](https://www.sicvirtual.com/) capacitación a jóvenes entre los 20 a 25 años en tecnologías emergentes, como Python e Inteligencia Artificial, con mentorias, clases en vivo, experiencia practica y seguimiento continuo.
 - [AWS AI & ML Scholars](https://aws.amazon.com/about-aws/our-impact/scholars/) 100,000 a nivel mundial donde los que tengan mejor rendimiento tendran un Nanodegree de Udacity.
@@ -78,8 +85,10 @@ Estas no están protectorados pero tienen el nombre y validación de certificaci
 - [MET](https://mujeresentecnologia.org/capacitate/) formación técnica en diferentes tecnologías y herramientas de gran demanda en el mercado laboral para mujeres.
 - [mujeresticslatam](https://mujeresticslatam.com/#camino) rutas de especialización en areas como IA.
 
-## Softskills o skills no tecnicas
+## Softskills, habilidades blandas o skills no tecnicas
 
+- [Programa Tu Futuro de fundación forge](https://fforge.org/programs/mx-tu-futuro) diseñada para jóvenes de 18 a 24 años que buscan su primer empleo. El proceso dura varios meses, combinando orientación laboral, desarrollo de habilidades socioemocionales, creación de CV y mentoría con empresas aliadas. Donde puedes obtener los siguientes [certificados](https://www.credly.com/organizations/fundacion-forge/badges) Liderazgo personal, Trabajo en equipo, Orientación al logro, Compromiso con el aprendizaje, Certificación Forge (programa TU FUTURO).
+- [atlassian](https://community.atlassian.com/learning/certifications/)atlassian son los mismos de JIRAy los certificados fundamentals son gratis: Rovo Fundamentals,Forge Fundamentals, Loom Fundamentals, Jira Service Management with AI Fundamentals
 - [HP life](https://www.life-global.org/)
 - [edutin lean six sigma](https://edutin.com/curso-de-lean-six-sigma) edutin tambien tiene cursos de idioma gratis y asi es como udemy pero gratisy mas limitado
 - [free Scrum Fundamentals Certified (SFC)](https://www.scrumstudy.com/account/register)
@@ -200,6 +209,7 @@ de la Linux Foundation, aunque la mayoría si son acerca de temas muy especializ
 - [Introduction to Kubernetes](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) Kubernetes es una de las herramientas más utilizadas para servidores en la nube sin importar que tipo de nube.
 - [Cybersecurity Essentials](https://training.linuxfoundation.org/training/cybersecurity-essentials-lfc108/) si esperas especializarte en ciberseguridad, este es un buen lugar para comenzar.
 - [Introduction to Linux](https://training.linuxfoundation.org/training/introduction-to-linux/) saber Linux no solo es bueno, es indispensable ya que la mayor parte de los servidores lo utilizan.
+- [Introduction to DevOps and Site Reliability Engineering](https://training.linuxfoundation.org/training/introduction-to-devops-and-site-reliability-engineering-lfs162/)
 
 ### Cursos de LinkedIn X Microsoft
 
@@ -254,6 +264,34 @@ los mas importantes son:
 - [Software Engineering for Web Developers Certificate](https://skillsbuild.org/adult-learners/explore-learning/web-developer)
 - [IBM SkillsBuild User Experience Designer Certificate](https://skillsbuild.org/adult-learners/explore-learning/cybersecurity-analyst)
 
+### Trailhead Salesforce
+
+- **[Trails](https://trailhead.salesforce.com/en/content/learn/trails)**: hay 43 con el rol de developer
+  - [Apply .NET Skills to Salesforce](https://trailhead.salesforce.com/en/content/learn/trails/microsoft_dotnet)
+  - [Apply Visualforce Skills to Lightning Components](https://trailhead.salesforce.com/en/content/learn/trails/lex_dev_lc_vf)
+  - [AWS Cloud for Technical ProfessionalsProfessionals](https://trailhead.salesforce.com/en/content/learn/trails/aws-cloud-for-technical-professionals)
+  - [Develop Apps with Heroku](https://trailhead.salesforce.com/en/content/learn/trails/heroku_enterprise)
+  - [Design Solutions with Salesforce APIs](https://trailhead.salesforce.com/en/content/learn/trails/architect-solutions-with-the-right-api)
+  - [Developer Beginner](https://trailhead.salesforce.com/en/content/learn/trails/force_com_dev_beginner)
+  - [Developer Intermediate](https://trailhead.salesforce.com/en/content/learn/trails/force_com_dev_intermediate)
+  - [Developer Advanced](https://trailhead.salesforce.com/en/content/learn/trails/force_com_dev_advanced)
+
+- **[Superbadges](https://trailhead.salesforce.com/content/learn/superbadges)**:hay 35 en total
+  - [Superbadge: Apex Web Services](https://trailhead.salesforce.com/content/learn/superbadges/superbadge-custom-api-sbu)
+  - [Superbadge: Apex Callouts](https://trailhead.salesforce.com/content/learn/superbadges/superbadge-apex-callouts-sbu)
+  - [Superbadge: Apex for Agentforce](https://trailhead.salesforce.com/content/learn/superbadges/superbadge-apex-for-agentforce)
+  - [Superbadge: Object Relationships](https://trailhead.salesforce.com/content/learn/superbadges/superbadge-object-relationships-sbu)
+  - [Superbadge: Data Quality and Validation](https://trailhead.salesforce.com/content/learn/superbadges/superbadge-data-quality-and-validation)
+  - [Superbadge: Formulas](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_formulas_sbu)
+  - [Superbadge: Flow Fundamentals](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_flow_basics_sbu)
+
+- **[Trailshead Journey](https://trailhead.salesforce.com/trailhead-journeys)**: son 6 en total
+  - [Agentforce Revenue Management](https://trailhead.salesforce.com/en/content/learn/trailhead-journey/agentforce-revenue-management)  
+  - [Agentforce Sales](https://trailhead.salesforce.com/en/content/learn/trailhead-journey/agentforce-sales)
+  - [Data 360](https://trailhead.salesforce.com/en/content/learn/trailhead-journey/data-360)
+  - [Omnistudio](https://trailhead.salesforce.com/en/content/learn/trailhead-journey/omnistudio)
+  - [Slack](https://trailhead.salesforce.com/en/content/learn/trailhead-journey/slack)
+  - [Tableau](https://trailhead.salesforce.com/en/content/learn/trailhead-journey/tableau)
 
 ## Cursos en Coursera
 
@@ -279,7 +317,7 @@ En si coursera no es gratis, pero la mayoría de cursos tienen la opción de aud
 {: .prompt-tip }
 
 
-## Insignias
+## Insignias / Micro Credenciales
 
 ### Insignias de Google Cloud
 
@@ -412,12 +450,30 @@ Por úlitmo existe la opción de tomar una clase en vivo a travez de [AWS Traini
 
 ### Insignias SAP
 
-- [Discovering SAP](https://learning.sap.com/learning-journeys/discovering-sap-1)
+Hay 20 Learning Journeys del rol de developer en la plataforma de [learning SAP](https://learning.sap.com/learning-journeys?roles=developer), recordando que el lenguaje de programacion de SAP es ABAP
+
 - [Integrating SAP Sales Cloud and SAP Service Cloud with SAP S/4HANA](https://learning.sap.com/learning-journeys/integrate-sap-sales-cloud-and-sap-service-cloud-with-sap-s-4hana)
-- [Exploring Migration Paths from SAP BW to SAP BW/4HANA](https://learning.sap.com/learning-journeys/exploring-migration-paths-from-sap-bw-to-sap-bw-4hana)
-- [Developing with SAP Build – From Apps to Automation](https://learning.sap.com/learning-journeys/developing-with-sap-build-from-apps-to-automation)
-- [Developing SAPUI5 Applications](https://learning.sap.com/learning-journeys/developing-sapui5-applications)
-- [Developing with SAP Integration Suite](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite)
+- [Exploring Migration Paths from SAP BW to SAP BW/4HANA](https://learning.sap.com/learning-journeys/exploring-migration-paths-from-sap-bw-to-sap-bw-4hana) Preparacion para SAP Certified - SAP BW/4HANA Delta
+- [Developing with SAP Build – From Apps to Automation](https://learning.sap.com/learning-journeys/developing-with-sap-build-from-apps-to-automation)Preparacion para SAP Certified - SAP Build Developer
+- [Developing SAPUI5 Applications](https://learning.sap.com/learning-journeys/developing-sapui5-applications) Preparacion para SAP Certified - SAP Fiori Application Developer
+- [Developing with SAP Integration Suite](https://learning.sap.com/learning-journeys/developing-with-sap-integration-suite) Preparacion para SAP Certified - Integration Developer
+- [Acquiring Core ABAP Skills learning-journeys](https://learning.sap.com/learning-journeys/acquiring-core-abap-skills?searchId=e73881c8-6f66-425c-868f-2d5c35df222c&listPosition=12) Preparacion para SAP Certified - Backend Developer - ABAP Cloud
+
+### Insignias salesforce
+
+hay 220 insignias del topic de developer en la plataforma de [trailhead](https://trailhead.salesforce.com/badges?products=products-&sort=RELEVANCE) recordando que el lenguaje de programacion de salesforce es Apex.
+
+- [Visualforce Basics](https://trailhead.salesforce.com/en/content/learn/modules/visualforce_fundamentals)
+- [Developer Console Basics](https://trailhead.salesforce.com/en/content/learn/modules/developer_console)
+- [Apex Basics & Database](https://trailhead.salesforce.com/content/learn/modules/apex_database)
+- [Apex Fundamentals for Developers](https://trailhead.salesforce.com/en/content/learn/modules/apex-fundamentals)
+- [Database & .NET Basics](https://trailhead.salesforce.com/en/content/learn/modules/database_basics_dotnet)
+- [Asynchronous Apex](https://trailhead.salesforce.com/en/content/learn/modules/asynchronous_apex)
+- [Apex Testing](https://trailhead.salesforce.com/en/content/learn/modules/apex_testing)
+- [Advanced Apex Testing](https://trailhead.salesforce.com/en/content/learn/modules/unit-testing-on-the-lightning-platform)
+- [Quick Start: Apex](https://trailhead.salesforce.com/en/content/learn/projects/quickstart-apex)
+- [Apex Integration Services](https://trailhead.salesforce.com/en/content/learn/modules/apex_integration_services)
+- [360 Platform API Basics](https://trailhead.salesforce.com/en/content/learn/modules/api_basics)
 
 ## Referencias
 

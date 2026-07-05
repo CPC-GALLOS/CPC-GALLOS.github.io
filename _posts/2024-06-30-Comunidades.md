@@ -7,7 +7,7 @@ author: ArielParra
 tags: [recomendaciones,comunidad]
 pin: false
 mermaid: false
-image: /assets/img/posts/Comunidades/Mapa_Clubes.png
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mapa_pol%C3%ADtico_de_M%C3%A9xico_a_color_%28nombres_de_estados_y_capitales%29.png/3840px-Mapa_pol%C3%ADtico_de_M%C3%A9xico_a_color_%28nombres_de_estados_y_capitales%29.png
 ---
 
 

@@ -29,6 +29,7 @@
 
 - type: twitter
   icon: "fa-brands fa-x-twitter"
+  url: "https://x.com/CPCGallos"
 
 - type: link
   icon: "fas fa-link"

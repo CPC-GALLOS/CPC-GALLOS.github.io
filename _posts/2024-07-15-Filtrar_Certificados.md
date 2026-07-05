@@ -8,11 +8,13 @@ tags: [recomendaciones,cursos,egresados,estudiantes]
 pin: false
 mermaid: false
 comments: false # evitar problemas con los parametros de url
-image: /assets/img/posts/Filtrar_Certificados/Filtror_Certificados.png
+image: https://www.justinmind.com/wp-content/uploads/2025/02/header.png
 ---
 
 > Si deseas ver una lista detallada sobre los temas junto con becas, revisa este post: [Certificaciones Gratuitas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/). Si buscas ofertas en certificaciónes con costo, revisa este post: [Ofertas en Certificaciones](https://cpc-gallos.github.io/blog/Ofertas_Certificaciones/)
 {: .prompt-info }
+
+> Es inviable seguir actualizando esta lista, asi que ambos post deberian estar basados en un mismo api, que debera crearse y resolverse siguiendo el [ISSUE en GH Projects](https://github.com/orgs/CPC-GALLOS/projects/1?pane=issue&itemId=205944751&issue=CPC-GALLOS%7CCPC-GALLOS.github.io%7C4)
 
 <div class="custom_container max-width">
     <div class="custom_card max-width" id="filter-checks">
