@@ -12,7 +12,7 @@ image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvYO8RSdnPNUE6
 
 ## Misión
 
-Club de Programación Competitiva Γα=Ω5 (GALLOS) en la Universidad Autónoma de Aguascalientes surge en un contexto donde estados vecinos como Guanajuato[^fn-nth-1], San Luis Potosí[^fn-nth-2], Zacatecas[^fn-nth-3] y Jalisco[^fn-nth-4] ya cuentan con clubes formalmente integrados a sus universidades. Consideramos esencial la existencia de un club de Programación Competitiva en Aguascalientes, un estado que se enorgullece de ser líder en ciencias y tecnología. 
+Club de Programación Competitiva Γα=Ω5 (GALLOS) en la Universidad Autónoma de Aguascalientes surge en un contexto donde estados vecinos del bajío como Guanajuato[^fn-nth-1], San Luis Potosí[^fn-nth-2], Zacatecas[^fn-nth-3] y Jalisco[^fn-nth-4] ya cuentan con clubes formalmente integrados a sus universidades. Consideramos esencial la existencia de un club de Programación Competitiva en Aguascalientes, un estado que se enorgullece de ser líder en ciencias y tecnología. 
 
 Los estudiantes integrantes de nuestro club nos enfocamos en preparar y participar en torneos de programación competitiva a nivel local, nacional e internacional. Sin embargo, nuestra misión va más allá de la competencia: aspiramos a fortalecer las habilidades de nuestros miembros y apoyar su desarrollo profesional, ofreciendo recursos y oportunidades que les permitan avanzar en sus carreras. Nuestro compromiso es brindar la mejor preparación en programación competitiva, fomentando el aprendizaje de algoritmos y técnicas avanzadas en un ambiente colaborativo que promueve el crecimiento académico y profesional.
 
@@ -62,7 +62,7 @@ Convertirnos en el club referente en programación competitiva con sede en el es
    - Otorgar constancias de participación a los miembros club.
    - Participación en la semana del Centro de Ciencias Basicas con conferencias y talleres.
    - Presencia en un estand en la feria Universitaria.
-   - Patrocinio en la compra de libros de programación competitiva para la biblioteca universitaria o privada del departamento.
+   - Patrocinio en la compra de  [libros de programación competitiva y algoritmia](https://cpc-gallos.github.io/blog/Recursos/#libros-de-programaci%C3%B3n-competitiva-y-algoritmia) para la biblioteca universitaria o privada del departamento, e Incluso libros de otras áreas; por ejemplo, los de [O'Reilly](https://www.oreilly.com/search/skills/?rows=100), que proporcionan [copias digitales gratuitas para docentes](https://www.oreilly.com/academic) cuando sus libros ya han sido adoptados como parte de un plan de estudios.
    - Patrocinio económico en la inscripción a concursos con cuota de recuperación como el concurso de programación nacional ANIEI.
    - Patrocinio económico en viajes a training camp y eventos relacionadas en otros estados.
    - Publicar artículos en alguna revista de la UAA.
@@ -70,7 +70,7 @@ Convertirnos en el club referente en programación competitiva con sede en el es
    - Capacitar a profesores interesados en ser couch de algun equipo.
    - Expandir el club al bachillerato de la UAA y preparación para el IOI.
    - Creacion de un curso curricular con créditos humanísticos para lograr un maximo alcance de alumnos similar al de [CUCEI](https://dcc.cucei.udg.mx/sites/default/files/i5884_algoritmia_1.pdf)
-   - [Microsoft Learn for Educators (MSLE)](https://learn.microsoft.com/en-ca/answers/questions/5920028/how-to-get-free-azure-certification-student-vouche) para que nos den vouchers de certificacion de azure gratis, ya esta el depto de electronica de la UAA inscrito en el de amazon pero el de azure es mas valioso. tambien este se ve bien: [IBM Digital credentials for college students](https://skillsbuild.org/college-students/college-certificates)
+   - Que se implementen programas de empresas para Universidades como [Microsoft Learn for Educators (MSLE)](https://learn.microsoft.com/en-ca/answers/questions/5920028/how-to-get-free-azure-certification-student-vouche) para que nos den vouchers de certificacion de azure gratis, ya esta el depto de electronica de la UAA inscrito en el de [AWS academy](https://aws.amazon.com/training/awsacademy/) pero nunca esta de más tener opciones. Tambien considerar estos: [IBM Digital credentials for college students](https://skillsbuild.org/college-students/college-certificates), [Google AI for Education Accelerator](https://grow.google/certificates-academic-institutions/).
 
 
 ## Funciones de Miembros del Club

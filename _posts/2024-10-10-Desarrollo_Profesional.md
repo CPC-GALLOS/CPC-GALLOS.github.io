@@ -184,9 +184,9 @@ Tambíen el obtener [certificaciones relaciónas a idiomas](https://cpc-gallos.g
 > Recomiendo revisar el[subreddit de r/resumes](https://www.reddit.com/r/resumes/wiki/index/) para revisiones y más recomendaciones.
 {: .prompt-tip } -->
 
-## Áreas de especialización y Profesiones
+## Áreas de especialización, Profesiones y Roles
 
-> Estaria padre justificar toda esta seccion xd, asi como con una base de datos de puestos de trabajo solicitado en linkedin y en empresas con presencia en mexico, poner rango salarial y esas cosas interesantes, de momento pues solo son profesiones que se me ocurrieron a mi y al buen ChatGTP. También si buscas roadmaps de alguna de estas áreas te recomiendo checar: [roadmap.sh](https://roadmap.sh/), [learn-anything.xyz](https://learn-anything.xyz/), [Open Source Society University](https://cs.ossu.dev/), [Coding Interview University](https://github.com/jwasham/coding-interview-university),[sindresorhus - awesome](https://github.com/sindresorhus/awesome)
+> Estaria padre justificar toda esta seccion xd, asi como con una base de datos de puestos de trabajo solicitado en linkedin y en empresas con presencia en mexico, surveys, roles por empresas, poner rango salarial, links a las certificaciones gratuitas o basar los filtros de las certs en estas areas y roles, y cualquier cosa interesante que se le ocurra a ti o al chat. De momento pues solo son profesiones que se me ocurrieron a mi y al buen ChatGTP de lo que iba encontrando en internet. También si buscas roadmaps de alguna de estas áreas te recomiendo checar: [roadmap.sh](https://roadmap.sh/), [learn-anything.xyz](https://learn-anything.xyz/), [Open Source Society University](https://cs.ossu.dev/), [Coding Interview University](https://github.com/jwasham/coding-interview-university),[sindresorhus - awesome](https://github.com/sindresorhus/awesome) y [mindmaps](https://mindmapai.app/mind-mapping/computer-science-career-paths-core-areas)
 {: .prompt-tip } 
 
 🛠️ **DevOps (Development & Operations)**  
@@ -288,8 +288,10 @@ La computación en la nube permite a las empresas acceder a recursos bajo demand
 👨‍💻 **Programación y Software Engineering (SWE / SDE)**  
 El desarrollo de software cubre desde aplicaciones móviles y web hasta videojuegos y soluciones basadas en IA, con múltiples lenguajes y frameworks. **SWE (Software Engineer/Engineering)** es el término genérico de la disciplina; **SDE (Software Development Engineer)** es el título de puesto específico que usan empresas como Amazon para el mismo rol.  
    - **Desarrollo de Videojuegos (Game Development)**: Game Engines como Unity, Unreal Engine, Godot, Defold, etc. o frameworks como Raylib, SDL + OpenGL, etc.  
-   - **Augmented Reality and Virtual Reality (AR/VR)**: ARCore, ARKit, Oculus SDK  
-   - **Mobile Development**: iOS (Swift), Android (Kotlin), Flutter, React Native  
+   - **Augmented Reality and Virtual Reality (AR/VR)**: ARCore, ARKit, Oculus SDK — puesto común: AR/VR Developer  
+   - **Mobile Development**: iOS (Swift), Android (Kotlin), Flutter, React Native, .NET MAUI (multiplataforma de Microsoft, sucesor de Xamarin), Xamarin (legado, aún en mantenimiento empresarial)  
+   - **Desktop Development**: WPF (Windows Presentation Foundation), Windows Forms, Electron, Qt, JavaFX — desarrollo de aplicaciones de escritorio, muy usado en software empresarial (ERP, punto de venta, sistemas administrativos)  
+   - **Ecosistema .NET / C#**: **C#** y **.NET** (.NET 8/9), muy demandado en puestos de desarrollo empresarial en México y LATAM — ASP.NET Core (backend), Blazor (frontend en C#), WPF/WinForms (escritorio), .NET MAUI (móvil), Entity Framework Core (ORM)  
    - **Web Development**  
       ⚙️ **Full Stack Development**: Desarrollo completo de aplicaciones web  
       - **Frontend**: HTML5, CSS3, JavaScript/TypeScript, React, Angular, Vue.js, Svelte, Next.js, Nuxt.js, Astro  
@@ -301,7 +303,7 @@ El desarrollo de software cubre desde aplicaciones móviles y web hasta videojue
    - **Scripting & Automation**: Python, Bash, PowerShell, AutoHotkey  
    - **System-level Software**: C/C++, Rust, Go, arquitectura de sistemas distribuidos  
    - **Certificaciones**: Microsoft Certified: Azure Developer Associate, Oracle Certified Professional: Java SE, Google Associate Android Developer, CPE, CLA  
-   - **Puestos comunes**: Software Development Engineer (SDE I/II/III), Backend Developer, Frontend Developer, Full Stack Developer, Mobile Developer, Game Developer, Server-Side Game Developer, Embedded Systems Engineer, Software Architect, Solutions Architect, Forward Deployed Engineer (rol híbrido de ingeniería + implementación directa en el cliente, popularizado por empresas como Palantir), Engineering Manager (siguiente escalón de carrera desde IC hacia liderazgo de equipo)
+   - **Puestos comunes**: Software Development Engineer (SDE I/II/III), Backend Developer, Frontend Developer, Full Stack Developer, .NET Developer / C# Developer, Mobile Developer, Desktop Application Developer, Game Developer, Server-Side Game Developer, Embedded Systems Engineer, Software Architect, Solutions Architect, Forward Deployed Engineer (rol híbrido de ingeniería + implementación directa en el cliente, popularizado por empresas como Palantir), Engineering Manager (siguiente escalón de carrera desde IC hacia liderazgo de equipo)
 
 🧪 **QA y Testing (Quality Assurance / Testing)**  
 El aseguramiento de calidad garantiza que el software funcione correctamente, cumpla los requisitos y esté libre de defectos antes de llegar a producción, combinando pruebas manuales y automatizadas.  
@@ -404,6 +406,23 @@ El diseño de experiencia e interfaz de usuario asegura que los productos digita
    - **Certificaciones**: Google UX Design Professional Certificate, Nielsen Norman Group UX Certification  
    - **Puestos comunes**: UX Designer, UI Designer, Product Designer, UX Researcher, Interaction Designer
 
+🔌 **Sistemas Embebidos, IoT y Robótica (Embedded Systems, IoT & Robotics)**  
+Los sistemas embebidos y la robótica combinan software de bajo nivel con hardware físico, siendo la base de dispositivos IoT, automatización industrial, automotriz y robótica autónoma.  
+   - **Embedded Programming**: C, C++, Rust, Embedded Linux, RTOS (Real-Time Operating Systems)  
+   - **Microcontroladores**: Arduino, ESP32, STM32, Raspberry Pi (más para prototipado/edge que embebido puro)  
+   - **Hardware Digital**: FPGA (Field Programmable Gate Array), VHDL, Verilog  
+   - **IoT (Internet of Things)**: IoT Edge Computing, protocolos MQTT/CoAP, plataformas AWS IoT/Azure IoT Hub  
+   - **Robótica**: ROS (Robot Operating System), Computer Vision aplicada a robótica, control de motores/sensores  
+   - **Automotriz**: CAN bus, AUTOSAR  
+   - **Certificaciones**: Certified Embedded Systems Engineer, AWS IoT certifications, ROS Developer certifications (The Construct)  
+   - **Puestos comunes**: Embedded Systems Engineer, Firmware Engineer, IoT Engineer, AI Edge Engineer (IA ejecutándose directamente en el dispositivo, sin depender de la nube — rol reconocido explícitamente por Microsoft Learn), Robotics Engineer, Robotics Software Engineer, FPGA Engineer, Hardware-Software Integration Engineer
+
+🧩 **Desarrollo Low-Code/No-Code (Low-Code/No-Code Development)**  
+Permite crear aplicaciones funcionales con mínima o nula programación tradicional, democratizando el desarrollo hacia usuarios de negocio ("citizen developers") — Microsoft Learn reconoce explícitamente el rol de **App Maker** como perfil propio, distinto del Developer tradicional.  
+   - **Plataformas**: Microsoft Power Platform (Power Apps, Power Automate, Power Pages), Salesforce Lightning/Flow, OutSystems, Mendix, Oracle APEX (Application Express — plataforma low-code de Oracle sobre su propia base de datos, muy usada en entornos empresariales), Appian, ServiceNow App Engine, Google AppSheet, Zoho Creator, Retool (más orientado a herramientas internas), Bubble, Airtable, Quickbase  
+   - **Certificaciones**: PL-100: Microsoft Power Platform App Maker, PL-200: Microsoft Power Platform Functional Consultant, Oracle APEX Cloud Developer Certified Professional, OutSystems Certified Professional  
+   - **Puestos comunes**: App Maker / Citizen Developer, Low-Code Developer, Power Platform Developer, Oracle APEX Developer, RPA Developer (Robotic Process Automation — UiPath, Automation Anywhere)
+
 📦 **Gestión de Producto (Product Management)**  
 La gestión de producto define la visión, estrategia y roadmap de un producto digital, alineando negocio, tecnología y experiencia de usuario.  
    - **Product Strategy**: Roadmapping, OKRs, priorización (RICE, MoSCoW)  
@@ -434,14 +453,14 @@ El análisis de negocio traduce necesidades organizacionales en requisitos y sol
    - **Process Modeling**: BPMN, UML  
    - **Data-driven Decision Making**: SQL básico, Excel avanzado, dashboards  
    - **Certificaciones**: Certified Business Analysis Professional (CBAP), PMI Professional in Business Analysis (PMI-PBA)  
-   - **Puestos comunes**: Business Analyst, Systems Analyst, Business Intelligence Analyst
+   - **Puestos comunes**: Business Analyst, Systems Analyst, Business Intelligence Analyst, Technology Consultant, Technology Manager, Service Adoption Specialist (adopción y change management de nuevas plataformas, rol reconocido por Microsoft Learn)
 
 🔗 **Blockchain / Web3**  
 El desarrollo blockchain construye aplicaciones descentralizadas y contratos inteligentes sobre redes distribuidas.  
    - **Smart Contracts**: Solidity, Vyper, Rust (Solana)  
    - **Plataformas**: Ethereum, Solana, Polygon, Hyperledger  
    - **Cardano**: blockchain de prueba de participación (Proof-of-Stake) con enfoque académico y revisión por pares, construida en Haskell; usa **Plutus** (lenguaje de contratos inteligentes basado en Haskell) y **Marlowe** (lenguaje específico para contratos financieros, sin necesidad de programar)  
-   - **Otras plataformas Proof-of-Stake similares**: Avalanche, Polkadot (con su modelo de parachains), Cosmos (SDK para blockchains interoperables)  
+   - **Otras plataformas Proof-of-Stake similares**: Avalanche, Polkadot (con su modelo de parachains), Cosmos (SDK para blockchains interoperables), Hedera Hashgraph (basada en tecnología hashgraph, no blockchain tradicional, gobernada por un consejo de grandes empresas)  
    - **Internet Computer (ICP)**: blockchain de DFINITY que permite alojar aplicaciones web completas (frontend + backend) directamente on-chain, usando **canisters** (contenedores de código y estado) en lugar de contratos inteligentes tradicionales  
    - **Motoko**: lenguaje de programación nativo de Internet Computer, diseñado específicamente para escribir canisters de forma segura y con sintaxis moderna (orientado a actores, similar en legibilidad a TypeScript/Swift)  
    - **DeFi & NFTs**: Protocolos de finanzas descentralizadas, estándares de tokens (ERC-20, ERC-721)  
@@ -456,7 +475,7 @@ La gestión de proyectos busca planificar, ejecutar y cerrar proyectos de manera
    - **Risk Management**: PRINCE2, PMP  
    - **Stakeholder Management**: RACI, Communication Plans  
    - **Lean Six Sigma**: Metodología de mejora continua y reducción de variación/defectos en procesos, combinando Lean (eliminación de desperdicio) y Six Sigma (control estadístico de calidad); niveles de certificación tipo "cinturones" (White, Yellow, Green, Black, Master Black Belt)  
-   - **Certificaciones**: Project Management Professional (PMP), PRINCE2, PMI Agile Certified Practitioner (PMI-ACP), Certified ScrumMaster (CSM), CompTIA Project+, Lean Six Sigma Green Belt / Black Belt (ASQ, IASSC)  
+   - **Certificaciones**: Project Management Professional (PMP), PRINCE2, PMI Agile Certified Practitioner (PMI-ACP), Certified ScrumMaster (CSM), CompTIA Project+, Lean Six Sigma Green Belt / Black Belt (ASQ, IASSC), ITIL 4 Foundation (Information Technology Infrastructure Library, el marco de referencia estándar para gestión de servicios de TI)  
    - **Puestos comunes**: Project Manager, Scrum Master, Product Owner, Program Manager, Agile Coach, Process Improvement Manager, Lean Six Sigma Black Belt, Continuous Improvement Specialist
 
 🔬 **Investigación (Research)**  
@@ -466,7 +485,7 @@ La investigación abarca tanto la investigación académica (universidades, inst
    - **Áreas comunes de investigación técnica**: IA/ML Research, Quantum Computing Research, Bioinformática, Ciberseguridad ofensiva/defensiva, Sistemas distribuidos  
    - **Herramientas y prácticas**: LaTeX, Jupyter Notebooks, gestión de datasets, reproducibilidad (papers with code), arXiv  
    - **Certificaciones/Credenciales**: Doctorado (PhD) o Maestría en la especialidad, publicaciones indexadas (Scopus, Web of Science), becas Fulbright/CONAHCYT y similares  
-   - **Puestos comunes**: Research Scientist, Research Engineer, Postdoctoral Researcher (Postdoc), R&D Engineer, R&D Manager, Applied Scientist, Professor/Investigador Académico
+   - **Puestos comunes**: Research Scientist, Research Engineer, Research Software Engineer (RSE — ingeniería de software aplicada a proyectos de investigación científica, reconocido como carrera propia por IEEE Computer Society), Postdoctoral Researcher (Postdoc), R&D Engineer, R&D Manager, Applied Scientist, Professor/Investigador Académico
 
 🎓 **Educación (Education)**  
 La educación es una de las profesiones más nobles y fundamentales para adquirir y validar habilidades. Juega un papel esencial en el desarrollo personal y profesional de los individuos, y existen diversas certificaciones y programas que pueden potenciar tu perfil profesional.  
@@ -475,6 +494,25 @@ La educación es una de las profesiones más nobles y fundamentales para adquiri
    - **Educación Personalizada**: Análisis de datos, adaptación al estudiante  
    - **Certificaciones**: Google Educator, Microsoft Certified Educator, cursos MOOC (Coursera, edX), bootcamps de programación, y cursos técnicos especializados  
    - **Puestos comunes**: Instructor/Docente de Tecnología, Instructional Designer, EdTech Specialist, Coordinador de Bootcamp
+
+> 📌 Nota sobre las fuentes de esta lista
+>
+>Esta lista **no se basa en una sola fuente de verdad**, sino en la síntesis de múltiples taxonomías de la industria, cada una con su propio criterio de clasificación:
+>- **roadmap.sh** (roadmaps por rol y por skill)
+>- **learn-anything.xyz**, **Open Source Society University (cs.ossu.dev)** y **Coding Interview University** (github.com/jwasham/coding-interview-university) — currículos académicos/fundamentos de CS
+>- **sindresorhus/awesome** (github.com) — meta-índice de herramientas por dominio
+>- **O'Reilly** (taxonomía de skills de su plataforma de cursos/libros)
+>- **Microsoft Learn** (roles reconocidos oficialmente por Microsoft: Administrator, App Maker, Solution Architect, etc.)
+>- **Stack Overflow Developer Survey** (encuesta anual de roles auto-reportados por desarrolladores)
+>- **AWS Skill Builder** (roles por ruta de aprendizaje de AWS)
+>- **LinkedIn — Empleos en auge 2025 México** (roles con mayor crecimiento de contratación)
+>- **MindMapsAI** (síntesis divulgativa de carreras en ciencias de la computación)
+>- **IEEE Computer Society** (campos profesionales reconocidos por la organización profesional de ingeniería más grande del mundo en este ámbito)
+>- **Schiller International University** (tabla de salarios promedio por rol, imagen proporcionada por el usuario)
+>- Y otras que no me acuerdo pero salieron en google y sino se las invento el chat xd
+>
+>**Por qué esto importa**: no existe una taxonomía única y objetiva de "profesiones de tecnología". Cada fuente clasifica según su propio propósito — Microsoft agrupa por cómo sus productos sirven a cada rol, Stack Overflow por cómo la gente se auto-identifica en una encuesta, roadmap.sh por rutas de aprendizaje, IEEE por campos profesionales formales. Esto genera solapamientos inevitables (ej. "Solutions Architect" aparece con alcances ligeramente distintos en AWS, Microsoft y LinkedIn) y zonas grises (ej. si "Platform Engineer" es su propia profesión o una especialización de DevOps depende de a quién le preguntes). Este listado intenta reconciliar esas diferencias con un criterio de jerarquía padre-hijo consistente.
+{: .prompt-warning }
 
 > TODO: hacer un grafo aca chido que se vean las areas y sus relaciones
 

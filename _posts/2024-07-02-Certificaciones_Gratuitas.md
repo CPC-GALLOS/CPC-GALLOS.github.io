@@ -46,7 +46,7 @@ En general, las certificaciones de nivel **Foundations Associate** y muchas de n
 
 - [EPAM NextGen University Program](https://campus.epam.com/en/training) programa en linea sin remuneración de 4 meses en Fundamentals Training que sirve como preparación para el EPAM Internship Program.
 - [mexia](https://www.mexia.gob.mx) Cursos de diferentes tecnologias avalados por varias empresas importantes y el gobierno de mexico
-- [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](<https://www.google.com/search?q=AWS> re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/) o [fondationforge inefop](https://www.fondationforge.org/inefop/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
+- [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](https://www.google.com/search?q=AWS re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/) o [fondationforge inefop](https://www.fondationforge.org/inefop/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
 - [Stanford Code in Place](https://codeinplace.stanford.edu/) Curso CS106A.de la universidad de Stanford, con mentarias, clases y una certificacion gratuita, lo hacen cada año en abril.
 - [Samsung Innovation Campus](https://www.sicvirtual.com/) capacitación a jóvenes entre los 20 a 25 años en tecnologías emergentes, como Python e Inteligencia Artificial, con mentorias, clases en vivo, experiencia practica y seguimiento continuo.
 - [AWS AI & ML Scholars](https://aws.amazon.com/about-aws/our-impact/scholars/) 100,000 a nivel mundial donde los que tengan mejor rendimiento tendran un Nanodegree de Udacity.
@@ -60,7 +60,6 @@ En general, las certificaciones de nivel **Foundations Associate** y muchas de n
 - [FUNDAE](https://experienciafundae.es/beca-google) al igual que INROADS ofrecen los certificados de Fundamentos de IA, Ciberseguridad y Análisis de Datos en la plataforma de coursera.
 - [AWS re/Start por fondation forge](https://fondationforge.org/aws-regional/mx) es un programa de capacitación respaldado por Amazon de cuatro meses de duración para preparate en puestos de nivel básico en la nube.
 - [Generation Mexico](https://mexico.generation.org/encuentra-una-carrera/) contiene varios programas de desarrollo en diferentes tecnologias como Unity o Java FullStack de forma gratuita en lina o de forma hibrida.
-- [Diplomado en Educación Financiera por la CONDUSEF](https://inscripcion-diplomado.condusef.gob.mx/) este diplomado dura 3 meses y esta realizado en colaboración de Banco de México (Banxico), Bolsa Institucional de Valores (BIVA), Instituto Nacional de la Economía Social (INAES), Better than Cash Alliance, Cetesdirecto, Comisión Nacional Bancaria y de Valores (CNBV), Policía Cibernética y Secretaría de Hacienda y Crédito Público (SHCP).
 - [Deloitte Virtual Experience](https://www.deloitte.com/au/en/careers/students/virtual-experience.html) Serie de cursos en línea que simulan las tareas que realizarías en Deloitte. Es un programa a tu propio ritmo y gratuito, diseñado para estudiantes interesados ​​en carreras STEM (ciencia, tecnología, ingeniería y matemáticas).
 
 ### En Aguascalientes
@@ -80,18 +79,20 @@ En general, las certificaciones de nivel **Foundations Associate** y muchas de n
 - [FUNED Woman On Boards](https://www.funedmx.org/women-on-boards/) es un programa para promover un cambio radical en la composición de los Consejos de Administración en América Latina con oportunidades para viajar a los Estados Unidos junto con apoyo potencial de MSWoB en trámites de visa si es necesario.
 - [BecALAS](https://becalas.becalos.mx/) BécALAS es un programa de Fundación Televisa y la Asociación de Bancos de México, dirigido a universitarias de instituciones públicas en México. Ofrece apoyo para su desarrollo integral, incluyendo habilidades socioemocionales, expresión, salud financiera y empleabilidad.
 - [technovationchallenge](https://technovationchallenge.org/es/) Es una comunidad global de estudiantes, mentoras y mentores, embajadores, padres y jueces son personas curiosas y creativas que resuelven problemas, saben que la tecnología es una poderosa herramienta para el cambio y quieren utilizarla para el bien social. La mayoría se unen sin experiencia previa en tecnología, pero están dispuestos a aprender.
-- [Mais Mulheres em Tech](https://www.maismulheres.tech/) Cursos gratuitos y mentorias técnicas para mujeres (en portugués)
+- [Mais Mulheres em Tech](https://www.maismulheres.tech/) Cursos gratuitos y mentorias técnicas para mujeres (en portugués, puedes usar google traductor xd)
 - [Google Women Techmakers Ambassadors](https://developers.google.com/womentechmakers/ambassadors?hl=es-419) este es un programa enfocado para personas identificadas como mujeres, donde como beneficio tendrás acceso exclusivo a las charlas y talleres de Google, y obtendrás el reconocimiento del equipo global de Women Techmakers por tus contribuciones.
 - [MET](https://mujeresentecnologia.org/capacitate/) formación técnica en diferentes tecnologías y herramientas de gran demanda en el mercado laboral para mujeres.
 - [mujeresticslatam](https://mujeresticslatam.com/#camino) rutas de especialización en areas como IA.
 
 ## Softskills, habilidades blandas o skills no tecnicas
-
+- [Grow with google](https://grow.google/certificates/) reivsa la sección de este post de [coursera](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/#cursos-en-coursera), los que son skills no tecnicas serian: Project Management y Digital Marketing & E-commerce. Al finalizar cualquiera de estas certificaciones, obtendrás acceso a [CareerCircle](https://www.careercircle.com/), una plataforma que ofrece sesiones de mentoría personalizadas (1 a 1), apoyo para entrevistas y desarrollo profesional, además de una bolsa de trabajo que te conecta directamente con empleadores, incluyendo más de 150 empresas que forman parte del Google Career Certificates Employer Consortium.
 - [Programa Tu Futuro de fundación forge](https://fforge.org/programs/mx-tu-futuro) diseñada para jóvenes de 18 a 24 años que buscan su primer empleo. El proceso dura varios meses, combinando orientación laboral, desarrollo de habilidades socioemocionales, creación de CV y mentoría con empresas aliadas. Donde puedes obtener los siguientes [certificados](https://www.credly.com/organizations/fundacion-forge/badges) Liderazgo personal, Trabajo en equipo, Orientación al logro, Compromiso con el aprendizaje, Certificación Forge (programa TU FUTURO).
 - [atlassian](https://community.atlassian.com/learning/certifications/)atlassian son los mismos de JIRAy los certificados fundamentals son gratis: Rovo Fundamentals,Forge Fundamentals, Loom Fundamentals, Jira Service Management with AI Fundamentals
 - [HP life](https://www.life-global.org/)
 - [edutin lean six sigma](https://edutin.com/curso-de-lean-six-sigma) edutin tambien tiene cursos de idioma gratis y asi es como udemy pero gratisy mas limitado
+- [Diplomado en Educación Financiera por la CONDUSEF](https://inscripcion-diplomado.condusef.gob.mx/) este diplomado dura 3 meses y esta realizado en colaboración de Banco de México (Banxico), Bolsa Institucional de Valores (BIVA), Instituto Nacional de la Economía Social (INAES), Better than Cash Alliance, Cetesdirecto, Comisión Nacional Bancaria y de Valores (CNBV), Policía Cibernética y Secretaría de Hacienda y Crédito Público (SHCP).
 - [free Scrum Fundamentals Certified (SFC)](https://www.scrumstudy.com/account/register)
+- [bancoazteca educación financiera](https://www.bancoazteca.com.mx/edu-fin.html)
 
 ## Exemenes de habilidades de Hackerrank con certificado
 
@@ -295,7 +296,7 @@ los mas importantes son:
 
 ## Cursos en Coursera
 
-En si coursera no es gratis, pero la mayoría de cursos tienen la opción de auditar de manera gratuita sin poder obtener el certificado, pero también tienen la opción para [solicitar ayuda económica](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es) y obtener una beca de hasta el 100% para poder obtener tu certificado.
+En si los certificados de coursera **no son gratis**, pero la mayoría de cursos tienen la opción de auditar de manera gratuita sin poder obtener el certificado, pero también tienen la opción para [solicitar ayuda económica](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es) y obtener una beca de hasta el 100% para poder obtener tu certificado.
 
 > El certificado de Algorithms de Standford es la que más se relaciona con la programación competitiva, aunque si es algo larga ya que consta de 4 cursos, pero si tienes la oportunidad certifícate en este curso.
 {: .prompt-tip }
@@ -307,14 +308,33 @@ En si coursera no es gratis, pero la mayoría de cursos tienen la opción de aud
 - [IBM: FullStack](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer)
 - [IBM: Data Science](https://www.coursera.org/professional-certificates/ibm-data-science)
 - [IBM: Cyber Security Analyst](https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst)
-- [Google: Cybersecurity](https://www.coursera.org/professional-certificates/google-cybersecurity)
-- [Google: Data Analytics](https://www.coursera.org/professigonal-certificates/google-data-analytics)
-- [Google: Project Management](https://www.coursera.org/google-certificates/project-management-certificate)
 - [Microsoft: Project Management](https://www.coursera.org/professional-certificates/microsoft-project-management)
 - [Microsoft: Cyber Security Analyst](https://www.coursera.org/professional-certificates/microsoft-cybersecurity-analyst)
+ - y muchos otros de universidades y empresas destacadas.
 
-> Algunos cursos de Google en coursera son gratis con los [Certificados de Carrera de Google por INROADS](https://becas.inroads.org.mx/)
-{: .prompt-tip }
+### Grow with Google
+
+[Grow with Google](https://grow.google/certificates/) es un programa de Google que ofrece certificaciones profesionales a través de Coursera en áreas con alta demanda laboral, entre ellas:
+
+- [Cybersecurity](https://grow.google/certificates/cybersecurity/)
+- [IT Support](https://grow.google/certificates/it-support/)
+- [IT Automation with Python](https://grow.google/certificates/it-automation-python/)
+- [UX Design](https://grow.google/certificates/ux-design/)
+- [Data Analytics](https://grow.google/certificates/data-analytics/)
+- [Advanced Data Analytics](https://grow.google/certificates/advanced-data-analytics/)
+- [Business Intelligence](https://grow.google/certificates/business-intelligence/)
+- Además de opciones [no técnicas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/#softskills-habilidades-blandas-o-skills-no-tecnicas) como **Digital Marketing & E-commerce** y **Project Management**.
+
+Una de las mayores ventajas de estos certificados es que, al completarlos, obtienes acceso **gratuito** a [CareerCircle](https://www.careercircle.com/), una plataforma de desarrollo profesional que ofrece:
+
+- Mentorías personalizadas (1 a 1).
+- Preparación para entrevistas.
+- Orientación para la búsqueda de empleo.
+- Una bolsa de trabajo con acceso a oportunidades en más de **150 empresas** que forman parte del **Google Career Certificates Employer Consortium**.
+
+> Si no obtienes la [ayuda económica de Coursera](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es), una excelente alternativa son las becas de **INROADS**, que periódicamente ofrece acceso gratuito a los [Certificados de Carrera de Google por INROADS](https://becas.inroads.org.mx/).
+> {: .prompt-tip }
+
 
 
 ## Insignias / Micro Credenciales
