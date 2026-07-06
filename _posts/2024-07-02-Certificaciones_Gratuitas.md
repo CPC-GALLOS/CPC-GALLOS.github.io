@@ -45,7 +45,7 @@ En general, las certificaciones de nivel **Foundations Associate** y muchas de n
 {: .prompt-info }
 
 - [EPAM NextGen University Program](https://campus.epam.com/en/training) programa en linea sin remuneración de 4 meses en Fundamentals Training que sirve como preparación para el EPAM Internship Program.
-- [mexia](https://www.mexia.gob.mx) Cursos de diferentes tecnologias avalados por varias empresas importantes y el gobierno de mexico
+- [mexia](https://www.mexia.gob.mx) programas de diferentes tecnologias avalados por el gobierno de mexico y empresas importantes como Intel, Meta, Oracle, TCS, Salesforce, Axity, Accenture,Nvidia, Google, AWS, IBM, Cisco, Kyndryl, e INFOTEC (Gob de México)
 - [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](https://www.google.com/search?q=AWS re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/) o [fondationforge inefop](https://www.fondationforge.org/inefop/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
 - [Stanford Code in Place](https://codeinplace.stanford.edu/) Curso CS106A.de la universidad de Stanford, con mentarias, clases y una certificacion gratuita, lo hacen cada año en abril.
 - [Samsung Innovation Campus](https://www.sicvirtual.com/) capacitación a jóvenes entre los 20 a 25 años en tecnologías emergentes, como Python e Inteligencia Artificial, con mentorias, clases en vivo, experiencia practica y seguimiento continuo.
@@ -97,15 +97,28 @@ En general, las certificaciones de nivel **Foundations Associate** y muchas de n
 
 ## MOOCs
 
-Los MOOCs (Massive Open Online Courses) son cursos en línea abiertos al público, ofrecidos por universidades, instituciones educativas y otras organizaciones. Principalmente cursos enfocados en soft skills. Algunos tienen fechas de inicio o periodos de disponibilidad específicos, y que muchos pueden estar en otros idiomas (usen Google Traductor xd). La mayoría de los cursos son gratuitos, pero algunos pueden cobrar por el acceso al certificado o por el curso completo. Además, no todos ofrecen badges o certificados, por lo que es recomendable verificar esta información antes de comenzar cualquier curso.
+Los MOOCs (Massive Open Online Courses) son cursos en línea abiertos al público, ofrecidos por universidades, instituciones educativas y otras organizaciones. Principalmente cursos enfocados en **soft skills**, aunque si llegan haber de tecnologia. Algunos tienen fechas de inicio o periodos de disponibilidad específicos, y que muchos pueden estar en otros idiomas (usen Google Traductor xd). La mayoría de los cursos son gratuitos, pero algunos pueden cobrar por el acceso al certificado o por el curso completo. Además, no todos ofrecen badges o certificados, por lo que es recomendable verificar esta información antes de comenzar cualquier curso.
+
+### Del Gobierno de Mexico
+
+Estas son por parte de [INFOTEC](https://www.infotec.mx/) que son los mismos del curso de [mexia](https://www.mexia.gob.mx/)
+- [Escuela Pública de Código](https://www.epc.gob.mx/formacion/publico-general/) estos si son más cursos del gobierno solamente, pero tienen por el momento uno de certificado profesional en IA en colaboración con google
+- [SaberesMX Universidad para toda la vida](https://saberes.gob.mx/cms/index.php/cfia) recomiendo applicar el filtro de certificaciones, donde hay cursos patrocinados por empresas como Accenture, TCS, IBM, Salesforce, Microsoft, Nvidia,Cisco, Meta, Google, AWS, Ericcson, Intel y Oracle
+
+### Del Mundo
 
 - [European MOOC Consortium (EMC)](https://emc.eadtu.eu/partners) 
   - [France Université Numérique (FUN)](https://www.fun-mooc.fr/en/courses/?limit=21&offset=0&types=8889)
   - [iMooX](https://imoox.at/mooc/)
 - [The Open University - Open learn](https://www.open.edu/openlearn/badged-courses)
 - [Politecnico Milano Open Knowledge (POK)](https://www.pok.polimi.it/?redirect=0)
+- [mooc.fi - Finland](https://www.mooc.fi/en/courses/)
+- [eduopen](https://learn.eduopen.org/eduopenv2/pathway/index.php?)
+- [europeanmoocs.eu](https://platform.europeanmoocs.eu/)
 - [Escolavirtual Gov Brasil](https://www.escolavirtual.gov.br/programas)
 - [Aprenda Mais Gov Brasil](https://aprendamais.mec.gov.br/?redirect=0)
+- [SENA Colombia](https://ejecucionformacion.sena.edu.co/cursos-cortos) tambien tienen de íngles
+- [Portal Educativo de las Américas](https://portal.educoas.org/en) algunos incluso en colaboración con microsoft
 
 ## Exemenes de habilidades de Hackerrank con certificado
 
