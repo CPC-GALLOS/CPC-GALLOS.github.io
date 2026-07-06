@@ -532,4 +532,4 @@ hay 220 insignias del topic de developer en la plataforma de [trailhead](https:/
 - UADY. (2025). *STEM*. Recuperado de <https://uady.mx/stem/>
 - Madrasi. (2025). *No payment options to learn AWS (with Digital Badges) for Beginners*. Recuperado de <https://www.reddit.com/r/AWSCertifications/comments/199nbun/no_payment_options_to_learn_aws_with_digital/>
 - KunalBansal. (2023). <https://community.sap.com/t5/technology-blog-posts-by-members/earn-credly-badges-with-free-sap-learning-journey/ba-p/13549016>
-- <https://github.com/PanXProject/awesome-certificates> <-- checar este para buscar mas luego
+- <https://github.com/PanXProject/awesome-certificates> <-- checar este para buscar más luego

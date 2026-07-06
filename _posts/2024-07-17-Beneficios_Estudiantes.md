@@ -12,7 +12,7 @@ image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-univ
 
 ## Descuentos validando que eres estudiante
 
-> En la mayoria de casos te preguntaran por un documento de la universidad y un correo institucional (los que incluyen edu), usualmente las universidad que son consideradas como validas estan en registradas en la base de datos del [WHED](https://www.whed.net/home.php). Tambíen recomiendo revisar este listado <https://www.studentoffers.co/>
+> En la mayoria de casos te preguntaran por un documento de la universidad y un correo institucional (los que incluyen edu), usualmente las universidad que son consideradas como validas estan en registradas en la base de datos del [WHED](https://www.whed.net/home.php). Tambíen recomiendo revisar este listado <https://www.studentoffers.co/> y los descuentos que haya en [promodescuentos](https://www.promodescuentos.com/search?q=estudiante&hide_expired=true).
 {: .prompt-tip }
 
 ### UAA
