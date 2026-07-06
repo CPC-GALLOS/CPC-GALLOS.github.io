@@ -15,6 +15,9 @@ image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-univ
 > En la mayoria de casos te preguntaran por un documento de la universidad y un correo institucional (los que incluyen edu), usualmente las universidad que son consideradas como validas estan en registradas en la base de datos del [WHED](https://www.whed.net/home.php). Tambíen recomiendo revisar este listado <https://www.studentoffers.co/> y los descuentos que haya en [promodescuentos](https://www.promodescuentos.com/search?q=estudiante&hide_expired=true).
 {: .prompt-tip }
 
+> Si dejas de ser estudiante podrias intentar con alguno de los muchos servicios que ofrecen correos edu en internet, o podrias inscribirte a la [Universidad Abierta y a Distancia de México (UnADM)](https://www.unadmexico.mx/convocatoria2023/descargables/beneficioParaLosEstudiantes.pdf) que te da una Una cuenta de correo electrónico institucional ([whed](https://whed.net/institutions/IAU-017449)), Licencia de paquetería Office 365 y [**seguro de salud para estudiantes**](https://www.unadmexico.mx/tramites-y-servicios/seguro-facultativo-para-estudiantes) (esto es un gran beneficio si eres emprendedor, consultor o desempleado) o si solo es por el correo puedes intentar en [University of the People](https://www.uopeople.edu/) ([whed](https://whed.net/institutions/IAU-022095))
+{: .prompt-tip }
+
 ### UAA
 
 * 🏋️ En la UAA tienes acceso al gimnasio universitario, el cual puedes cursar **gratis** como parte de los programas de **Formación Humanista**, o inscribirte como servicio deportivo con costo. Los interesados deben registrarse durante los primeros cinco días de cada mes. El servicio tiene un costo de **$121 MXN anuales** y, una vez dados de alta, la mensualidad es de **$215 MXN**. El gimnasio brinda servicio de lunes a viernes en un horario de 6:30 a 20:00 horas y los sábados de 8:00 a 14:00 horas. Más información en [UAA Clubes Deportivos](https://www.uaa.mx/portal/alumnos/clubes-deportivos/).
@@ -201,6 +204,8 @@ No es exclusivo para estudiantes. Puedes crear una cuenta gratuita. Para aprovec
 - [notion](https://www.notion.so/es/product/notion-for-education) plan Plus gratis al al presentar correo institucional.  
 - [canva premium](https://canva.com/edu-signup) canva premium al presentar correo institucional.
 - [QT](https://www.qt.io/qt-educational-license) licencia de 12 meses renovable al verificar que eres estudiante para sus softwares de Qt Design Studio Enterprise y Qt Device Creation Professional.
+- [lovable](https://lovable.dev/es/students) descuento del 50%
+- [Claude Student Builder](https://claude.com/contact-sales/education-plan) sujeto a disponibilidad, te dan creditos de claude
 
 ## Miscelaneos 
 

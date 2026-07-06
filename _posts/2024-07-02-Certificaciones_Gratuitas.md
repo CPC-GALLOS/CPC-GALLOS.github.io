@@ -99,11 +99,14 @@ En general, las certificaciones de nivel **Foundations Associate** y muchas de n
 
 Los MOOCs (Massive Open Online Courses) son cursos en línea abiertos al público, ofrecidos por universidades, instituciones educativas y otras organizaciones. Principalmente cursos enfocados en **soft skills**, aunque si llegan haber de tecnologia. Algunos tienen fechas de inicio o periodos de disponibilidad específicos, y que muchos pueden estar en otros idiomas (usen Google Traductor xd). La mayoría de los cursos son gratuitos, pero algunos pueden cobrar por el acceso al certificado o por el curso completo. Además, no todos ofrecen badges o certificados, por lo que es recomendable verificar esta información antes de comenzar cualquier curso.
 
-### Del Gobierno de Mexico
+### De México
 
-Estas son por parte de [INFOTEC](https://www.infotec.mx/) que son los mismos del curso de [mexia](https://www.mexia.gob.mx/)
+Estas son por parte de [INFOTEC](https://www.infotec.mx/) (gobierno) que son los mismos del curso de [mexia](https://www.mexia.gob.mx/)
 - [Escuela Pública de Código](https://www.epc.gob.mx/formacion/publico-general/) estos si son más cursos del gobierno solamente, pero tienen por el momento uno de certificado profesional en IA en colaboración con google
 - [SaberesMX Universidad para toda la vida](https://saberes.gob.mx/cms/index.php/cfia) recomiendo applicar el filtro de certificaciones, donde hay cursos patrocinados por empresas como Accenture, TCS, IBM, Salesforce, Microsoft, Nvidia,Cisco, Meta, Google, AWS, Ericcson, Intel y Oracle
+- [MOOC UNAM](https://mooc.unam.mx/)
+- [Aprendo más + de la UNAM](https://aprendomasplus.cuaed.unam.mx/)
+- [@prende.mx (Antiguo México X)](https://cursos.aprende.gob.mx/)
 
 ### Del Mundo
 
@@ -116,6 +119,7 @@ Estas son por parte de [INFOTEC](https://www.infotec.mx/) que son los mismos del
 - [eduopen](https://learn.eduopen.org/eduopenv2/pathway/index.php?)
 - [europeanmoocs.eu](https://platform.europeanmoocs.eu/)
 - [Escolavirtual Gov Brasil](https://www.escolavirtual.gov.br/programas)
+- [UFPR Aberta Brasil](https://ufpraberta.ufpr.br/course/index.php)
 - [Aprenda Mais Gov Brasil](https://aprendamais.mec.gov.br/?redirect=0)
 - [SENA Colombia](https://ejecucionformacion.sena.edu.co/cursos-cortos) tambien tienen de íngles
 - [Portal Educativo de las Américas](https://portal.educoas.org/en) algunos incluso en colaboración con microsoft
