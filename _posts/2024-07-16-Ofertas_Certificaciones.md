@@ -47,6 +47,7 @@ En general para obtener vouchers gratis o descuentos en vouchers hay que estar a
   - Obtener al menos un 70% en el primer intento del examen final del curso.
   - Tener el curso marcado como "Completado" en el sistema de calificaciones de la plataforma de aprendizaje de la Academia de Redes de Cisco.
 - [IEEE Computer Society](https://www.computer.org/education/certifications) si eres miembro estudiante del IEEE te dan descuento $295 USD en lugar de $545 USD por el curso y examen. 
+- **50%** de descuento en examenes de nivel Associate Developer certification de MongoDB al acabar algun [learning path](https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D)
 
 ## Avisos de eventos y descuentos
 

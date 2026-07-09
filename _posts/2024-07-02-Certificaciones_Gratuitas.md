@@ -39,16 +39,18 @@ En general, las certificaciones de nivel **Foundations Associate** y muchas de n
 - [Oracle AI Database Foundations Associate (1Z0-1195-26)](https://education.oracle.com/oracle-data-platform-2026-foundations-associate/pexam_1Z0-1195-26)
 - [Oracle Guided Learning Project Management Foundations Associate – Rel 1 (1Z0-1126-1)](https://education.oracle.com/oracle-guided-learning-project-management-foundations-associate-rel-1-beta/pexam_1Z0-1126-1)
 
-## Becas recurrentes con certificados
+## Becas y Programas recurrentes con certificados
 
 > La principal diferencia de las __becas__ en comparación con otros cursos, es que suelen contar con horarios fijos para sus clases. Además, en la mayoría de los casos, es necesario enviar una solicitud de beca y esperar la confirmación para acceder al curso.
 {: .prompt-info }
 
+- [becas iberotech](https://becas.iberotech.org/) tienen varias junto con santander algunas puedes hasta viajar
+- [IBM qiskit summer school](https://www.google.com/search?q=BM+qiskit+summer+school)  
 - [EPAM NextGen University Program](https://campus.epam.com/en/training) programa en linea sin remuneración de 4 meses en Fundamentals Training que sirve como preparación para el EPAM Internship Program.
 - [mexia](https://www.mexia.gob.mx) programas de diferentes tecnologias avalados por el gobierno de mexico y empresas importantes como Intel, Meta, Oracle, TCS, Salesforce, Axity, Accenture,Nvidia, Google, AWS, IBM, Cisco, Kyndryl, e INFOTEC (Gob de México)
 - [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](https://www.google.com/search?q=AWS re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/) o [fondationforge inefop](https://www.fondationforge.org/inefop/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
 - [Stanford Code in Place](https://codeinplace.stanford.edu/) Curso CS106A.de la universidad de Stanford, con mentarias, clases y una certificacion gratuita, lo hacen cada año en abril.
-- [Samsung Innovation Campus](https://www.sicvirtual.com/) capacitación a jóvenes entre los 20 a 25 años en tecnologías emergentes, como Python e Inteligencia Artificial, con mentorias, clases en vivo, experiencia practica y seguimiento continuo.
+- [Samsung Innovation Campus](https://samsunginnovationcampus.udem.edu.mx/) capacitación a jóvenes entre los 20 a 25 años en tecnologías emergentes, como Python e Inteligencia Artificial, con mentorias, clases en vivo, experiencia practica y seguimiento continuo.
 - [AWS AI & ML Scholars](https://aws.amazon.com/about-aws/our-impact/scholars/) 100,000 a nivel mundial donde los que tengan mejor rendimiento tendran un Nanodegree de Udacity.
 - [DIO bootcamps](https://www.dio.me/en/bootcamp) bootcamps gratuitos en tecnologías como BackEnd, QA, Data Science, IA, Java, Python, Cloud y Ciberseguridad, desarrollados en alianza con empresas globales (Microsoft, Santander, Accenture) con vinculación laboral directa.
 - [Oracle One](https://www.oracle.com/mx/education/oracle-next-education/) es un curso de 6 meses de duración donde puedes certificarte en front end (React y javascript) ó en backend (Java y Springboot), en cualquier caso tienes que entregar 3 proyectos.
@@ -117,9 +119,11 @@ Estas son por parte de [INFOTEC](https://www.infotec.mx/) (gobierno) que son los
 - [Politecnico Milano Open Knowledge (POK)](https://www.pok.polimi.it/?redirect=0)
 - [mooc.fi - Finland](https://www.mooc.fi/en/courses/)
 - [eduopen](https://learn.eduopen.org/eduopenv2/pathway/index.php?)
+- [futurelearn UK](https://www.futurelearn.com/courses?filter_category=open&filter_course_type=unlimited&filter_availability=started) vi uno de AWS
 - [europeanmoocs.eu](https://platform.europeanmoocs.eu/)
 - [Escolavirtual Gov Brasil](https://www.escolavirtual.gov.br/programas)
 - [UFPR Aberta Brasil](https://ufpraberta.ufpr.br/course/index.php)
+- [MOOCs UniCamp Brasil](https://moocs.ggte.unicamp.br)
 - [Aprenda Mais Gov Brasil](https://aprendamais.mec.gov.br/?redirect=0)
 - [SENA Colombia](https://ejecucionformacion.sena.edu.co/cursos-cortos) tambien tienen de íngles
 - [Portal Educativo de las Américas](https://portal.educoas.org/en) algunos incluso en colaboración con microsoft
@@ -156,7 +160,9 @@ Estas son por parte de [INFOTEC](https://www.infotec.mx/) (gobierno) que son los
 - [Paloalto Networks ciberseguridad](https://www.paloaltonetworks.lat/cyberpedia/free-cybersecurity-education-courses) Cursos GRATUITOS de educación en ciberseguridad
 - [Accenture Learning to Earning](https://www.l2eportal.accenture.com/cursos/tecnicos?p=12360&locale=en-GB&content-lang=en-US)
 - [Learn EPAM](https://learn.epam.com/)
-
+- MongoDB [learning paths](https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D) & [skills badges](https://learn.mongodb.com/skills) son 29 skills en total
+- [Databricks learn](https://www.databricks.com/learn/training/certification#accreditations)
+- [sophos learn](https://www.sophos.com/en-us/partner-news/earn-your-sophos-sales-professional-badge-no-cost-no-barriers)
 ### Diplomados de Capacítate Para el Empleo
 
 [Capacítate Para el Empleo](https://capacitateparaelempleo.org/mostrar-diplomados) es una plataforma en español creada por la fundación Carlos Slim donde hay distintos diplomados de tecnología.
@@ -537,3 +543,4 @@ hay 220 insignias del topic de developer en la plataforma de [trailhead](https:/
 - Madrasi. (2025). *No payment options to learn AWS (with Digital Badges) for Beginners*. Recuperado de <https://www.reddit.com/r/AWSCertifications/comments/199nbun/no_payment_options_to_learn_aws_with_digital/>
 - KunalBansal. (2023). <https://community.sap.com/t5/technology-blog-posts-by-members/earn-credly-badges-with-free-sap-learning-journey/ba-p/13549016>
 - <https://github.com/PanXProject/awesome-certificates> <-- checar este para buscar más luego
+- <https://github.com/wesleyscholl/credly-badge>
