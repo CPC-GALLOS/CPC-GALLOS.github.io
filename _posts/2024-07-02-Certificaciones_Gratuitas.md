@@ -146,7 +146,7 @@ es diferente el certificado (certificate) de completar un path que el de un curs
 
 los mas importantes son:
 
-<ul class="api-list" data-provider="IBM"></ul>
+<ul class="api-list" data-provider="IBM" data-tag="skillsbuild-learning-plans"></ul>
 
 ### Trailhead Salesforce
 
@@ -199,15 +199,14 @@ Cisco es la empresa que tiene el monopolio de la Infraestructura de las redes, s
 
 IBM tiene más de [500 insignias gratuitas](https://www.ibm.com/training/search?trainingType=Badge) repartidas en distintos sitios cubriendo distintos temas:
 
-<ul class="api-list" data-provider="IBM"></ul>
 - [Cognitive Class](https://cognitiveclass.ai/courses?type%5B%5D=course&sort%5B%5D=most_popular)
-<ul class="api-list" data-provider="IBM"></ul>
+<ul class="api-list" data-provider="IBM" data-tag="cognitive-class"></ul>
 - [Developer IBM](https://developer.ibm.com/badges/)
-<ul class="api-list" data-provider="IBM"></ul>
+<ul class="api-list" data-provider="IBM" data-tag="ibm-developer"></ul>
 - [Skillsbuild Students](https://skillsbuild.org/students/digital-credentials)
-<ul class="api-list" data-provider="IBM"></ul>
-- [Skillsbuild Collage Students](https://skillsbuild.org/college-students/digital-credentials)
-<ul class="api-list" data-provider="IBM"></ul>
+<ul class="api-list" data-provider="IBM" data-tag="skillsbuild-students"></ul>
+- [Skillsbuild College Students](https://skillsbuild.org/college-students/digital-credentials)
+<ul class="api-list" data-provider="IBM" data-tag="skillsbuild-college-students"></ul>
 
 ### Insignias de Oracle
 
