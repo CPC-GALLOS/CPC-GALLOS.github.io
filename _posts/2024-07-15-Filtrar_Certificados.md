@@ -14,79 +14,81 @@ image: https://www.justinmind.com/wp-content/uploads/2025/02/header.png
 > Si deseas ver una lista detallada sobre los temas junto con becas, revisa este post: [Certificaciones Gratuitas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/). Si buscas ofertas en certificaciónes con costo, revisa este post: [Ofertas en Certificaciones](https://cpc-gallos.github.io/blog/Ofertas_Certificaciones/)
 {: .prompt-info }
 
-> Es inviable seguir actualizando esta lista, asi que ambos post deberian estar basados en un mismo api, que debera crearse y resolverse siguiendo el [ISSUE en GH Projects](https://github.com/orgs/CPC-GALLOS/projects/1?pane=issue&itemId=205944751&issue=CPC-GALLOS%7CCPC-GALLOS.github.io%7C4)
+> Estamos actualizando esta lista a travez de nuestro [api](https://cpc-gallos.github.io/api/), TODO: falta hacer verificación manual de cada uno, adapatar las descripciones, agregar tags donde sea necesario, y ponerles imagenes representativas
 
 <div class="custom_container max-width">
-    <div class="custom_card max-width" id="filter-checks">
-        <h4>Filtrado por tipo</h4>
-          <label><input type="radio" name="type" value="all1" checked  onchange="filterCards()"> Todos </label>
-          <label><input type="radio" name="type" value="certification" onchange="filterCards()"> Certificaciones </label>
-          <label><input type="radio" name="type" value="certificate"   onchange="filterCards()"> Certificados </label>
-          <label><input type="radio" name="type" value="badge"         onchange="filterCards()"> Insignias </label>
-        <h4>Filtrado por emisor</h4>
-          <label><input type="radio" name="issuer" value="all2" checked onchange="filterCards()"> Todos </label>
-          <label><input type="radio" name="issuer" value="microsoft"    onchange="filterCards()"> Microsoft </label>
-          <label><input type="radio" name="issuer" value="amazon"       onchange="filterCards()"> Amazon </label>
-          <label><input type="radio" name="issuer" value="huawei"       onchange="filterCards()"> Huawei </label>
-          <label><input type="radio" name="issuer" value="ibm"          onchange="filterCards()"> IBM </label>
-          <label><input type="radio" name="issuer" value="oracle"       onchange="filterCards()"> Oracle </label>
-          <label><input type="radio" name="issuer" value="github"       onchange="filterCards()"> GitHub </label>
-          <label><input type="radio" name="issuer" value="gitlab"       onchange="filterCards()"> GitLab   </label>
-          <label><input type="radio" name="issuer" value="cisco"        onchange="filterCards()"> Cisco </label>
-          <label><input type="radio" name="issuer" value="fortinet"     onchange="filterCards()"> Fortinet </label>
-          <label><input type="radio" name="issuer" value="linux"        onchange="filterCards()"> Linux Foundation </label>
-          <label><input type="radio" name="issuer" value="harvard"      onchange="filterCards()"> Harvard </label>
-          <label><input type="radio" name="issuer" value="helsinki"     onchange="filterCards()"> Helsinki </label>
-          <label><input type="radio" name="issuer" value="opencv"       onchange="filterCards()"> OpenCV </label>
-          <label><input type="radio" name="issuer" value="hackerrank"   onchange="filterCards()"> Hacker Rank </label>
-          <label><input type="radio" name="issuer" value="kaggle"       onchange="filterCards()"> Kaggle </label>
-          <label><input type="radio" name="issuer" value="freecodecamp" onchange="filterCards()"> Free Code Camp </label>
-          <label><input type="radio" name="issuer" value="carlosslim"   onchange="filterCards()"> Fundación Carlos Slim </label>
-          <label><input type="radio" name="issuer" value="cato"         onchange="filterCards()"> Cato Networks </label>
-          <label><input type="radio" name="issuer" value="wolfram"      onchange="filterCards()"> Wolfram U </label>
-        <h4>Filtrado por tema</h4>
-          <label><input type="checkbox" value="english"       onchange="filterCards()"> 📚 Inglés </label>
-          <label><input type="checkbox" value="cybersecurity" onchange="filterCards()"> 🔒 Ciberseguridad </label>
-          <label><input type="checkbox" value="devOps"        onchange="filterCards()"> 🛠️ Dev Ops </label>
-          <label><input type="checkbox" value="networks"      onchange="filterCards()"> 🌐 Redes </label>
-          <label><input type="checkbox" value="servers"       onchange="filterCards()"> 🖥 Servidores </label>
-          <label><input type="checkbox" value="cloud"         onchange="filterCards()"> ☁️ Nube </label>
-          <label><input type="checkbox" value="programming"   onchange="filterCards()"> 👨‍💻 Programación </label>
-          <label><input type="checkbox" value="fullstack"     onchange="filterCards()"> ⚙️ Full Stack </label>
-          <label><input type="checkbox" value="datascience"   onchange="filterCards()"> 📊 Ciencia de Datos </label>
-          <label><input type="checkbox" value="ai"            onchange="filterCards()"> 🤖 ML - AI </label>
-          <label><input type="checkbox" value="database"      onchange="filterCards()"> 🗄️ Bases de datos </label>
-          <label><input type="checkbox" value="pm"            onchange="filterCards()"> 📋 Administración de proyectos </label>
+    <div class="custom_card max-width" id="filter-checks" style="padding: 20px;">
+        <!-- Search bar -->
+        <div style="margin-bottom: 15px;">
+            <label style="display:block; font-family: var(--font-family-monospace); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 5px; color: var(--link-color);">Buscar</label>
+            <input type="text" id="f-search" placeholder="Nombre o descripción..." style="width:100%; padding: 10px; border-radius: 5px; border: 1px solid var(--mask-bg); background: var(--main-bg); color: var(--text-color);">
+        </div>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 15px;">
+            <div style="flex: 1; min-width: 150px;">
+                <label style="display:block; font-family: var(--font-family-monospace); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 5px; color: #7c3aed;">Tipo</label>
+                <select id="f-type" style="width:100%; padding: 10px; border-radius: 5px; border: 1px solid var(--mask-bg); background: var(--main-bg); color: var(--text-color);"><option value="">Todos</option></select>
+            </div>
+            <div style="flex: 1; min-width: 150px;">
+                <label style="display:block; font-family: var(--font-family-monospace); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 5px; color: #0284c7;">Dominio</label>
+                <select id="f-domain" style="width:100%; padding: 10px; border-radius: 5px; border: 1px solid var(--mask-bg); background: var(--main-bg); color: var(--text-color);"><option value="">Todos</option></select>
+            </div>
+            <div style="flex: 1; min-width: 150px;">
+                <label style="display:block; font-family: var(--font-family-monospace); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 5px; color: #0369a1;">Categoría</label>
+                <select id="f-category" disabled style="width:100%; padding: 10px; border-radius: 5px; border: 1px solid var(--mask-bg); background: var(--main-bg); color: var(--text-color);"><option value="">Todas</option></select>
+            </div>
+        </div>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 15px;">
+            <div style="flex: 1; min-width: 150px;">
+                <label style="display:block; font-family: var(--font-family-monospace); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 5px; color: #d97706;">Grupo de proveedor</label>
+                <select id="f-provider-group" style="width:100%; padding: 10px; border-radius: 5px; border: 1px solid var(--mask-bg); background: var(--main-bg); color: var(--text-color);"><option value="">Todos</option></select>
+            </div>
+            <div style="flex: 1; min-width: 150px;">
+                <label style="display:block; font-family: var(--font-family-monospace); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 5px; color: #b45309;">Proveedor</label>
+                <select id="f-provider" disabled style="width:100%; padding: 10px; border-radius: 5px; border: 1px solid var(--mask-bg); background: var(--main-bg); color: var(--text-color);"><option value="">Todos</option></select>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label style="display:block; font-family: var(--font-family-monospace); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 5px; color: #059669;">Tags</label>
+            <input type="text" id="f-tags" placeholder="" style="width:100%; padding: 10px; border-radius: 5px; border: 1px solid var(--mask-bg); background: var(--main-bg); color: var(--text-color);">
+            <div id="selected-tags" style="display:flex; flex-wrap:wrap; gap:5px; margin-top:8px;"></div>
+            <div id="tag-suggestions" style="display:flex; flex-wrap:wrap; gap:5px; margin-top:8px;"></div>
+            <div style="margin-top: 8px; font-size: 0.75rem; color: var(--text-muted-color);">Escribe para buscar un tag y selecciónalo. Puedes quitarlo después con un clic.</div>
+        </div>
+
+        <button id="reset-btn" style="width:100%; padding: 10px; border-radius: 5px; border: 1px solid var(--mask-bg); background: var(--sidebar-bg); color: var(--text-color); font-weight:bold; cursor:pointer; margin-top: 5px; transition: background-color 0.2s;">↺ Limpiar filtros</button>
+        
+        <div style="margin-top: 20px; font-family: var(--font-family-monospace); text-align: center;">
+            <span id="count" style="color: var(--link-color); font-weight:bold;">0</span> resultados
+        </div>
     </div><!--filters custom_card-->
 </div><!--filters custom_container-->
 
-<div class="custom_container grid">
-
-  <!-- certifications -->
-  <div class="custom_card center" data-tags="certification english">
-    <a href="https://www.efset.org/">EF SET English certification test</a>
-  </div>
+<div class="custom_container grid" id="grid">
 </div><!-- custom_container -->
 
 <style>
-  .grid>.custom_card{
-    /*Fixes text alignent with images on cards*/  
-    display: grid;
-  }
   .custom_card {
-    text-align: justify;
+    text-align: left;
     background-color: var(--sidebar-bg);
     box-shadow: 4px 4px 2px 1px var(--sidebar-hover-bg);
     color: var(--text-color) !important;  
-    padding: 10px;
+    padding: 12px;
     margin: 10px;
     border-radius: 5px;
-    min-width: 10rem;
-    max-width: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1 1 200px;
+    min-width: 180px;
+    max-width: 100%;
   }
   .max-width{
     min-width: calc(100%)!important;
     max-width: calc(100%) !important;
+    flex-basis: 100%;
   }
   .custom_container{
     display: flex;
@@ -94,43 +96,77 @@ image: https://www.justinmind.com/wp-content/uploads/2025/02/header.png
     justify-content: center;
     margin: 0 auto;
   }
-  input {
-    appearance: none;
-    vertical-align: middle;
-    outline: none;
-    width: 1rem;
-    height: 1rem;
-    border: 2px solid var(--mask-bg);
-    border-color:  var(--mask-bg);
-    border-radius: 4px;
-    transition: background-color 0.3s, border-color 0.3s;
-  }
-  input[type="radio"] {
-    border-radius: 50%;
-  }
-  input:checked {
-    background-color: var(--mask-bg);
-  }
-  .center{
-    margin-top: auto;
-    text-align: center;
-  }
   #filter-checks {
-    display: inline-block;
+    display: block;
+    box-sizing: border-box;
   }
-  #filter-checks label {
+  .chip {
     display: inline-flex;
     align-items: center;
-    margin-right: 5px;
+    justify-content: center;
+    font-family: var(--font-family-monospace);
+    font-size: 0.75rem;
+    line-height: 1.2;
+    padding: 3px 8px;
+    border-radius: 12px;
+    background: var(--mask-bg);
+    color: var(--text-color);
+    border: 1px solid var(--sidebar-hover-bg);
+    white-space: nowrap;
+    width: max-content;
+    height: auto;
+    aspect-ratio: auto;
+    margin: 0;
   }
-  #filter-checks label input {
-    margin-right: 5px;
+  .chip.domain-chip { color: #fff; border-color: transparent; background: #0284c7; }
+  .chip.cat-chip { color: #fff; border-color: transparent; background: #0369a1; }
+  .chip.type-chip { color: #fff; border-color: transparent; background: #7c3aed; }
+  .chip.group-chip { color: #fff; border-color: transparent; background: #d97706; }
+  .chip.prov-chip { color: #fff; border-color: transparent; background: #b45309; }
+  .chip.tag-chip {
+    color: #fff;
+    border-color: transparent;
+    background: #059669;
   }
-  @media screen and (max-width: 670px) {
-    .custom_card {
-      min-width: 8rem;
-      max-width: 8rem;
-    }
+  .tag-pill {
+    background: #059669;
+    border: 1px solid transparent;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-family: var(--font-family-monospace);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .tag-pill:hover {
+    filter: brightness(1.2);
+    color: #fff;
+  }
+  .tag-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #059669;
+    border: 1px solid transparent;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-family: var(--font-family-monospace);
+  }
+  .tag-chip-remove {
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.8;
+  }
+  .tag-chip-remove:hover {
+    opacity: 1;
+  }
+  select:disabled, input[type="text"]:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 </style>
 
