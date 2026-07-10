@@ -62,7 +62,7 @@ __Tabla de Contenidos:__
       background-color: var(--main-bg) !important;
       color-scheme: light;
       max-width: 100%;
-      width: fit-content;
+      width: 100%;
       margin: 0 auto;
       overflow: hidden;
    }
