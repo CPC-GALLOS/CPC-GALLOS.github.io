@@ -1,9 +1,11 @@
 # AGENTS.md — CPC-GALLOS Jekyll Site
 
 ## Stack
+
 Jekyll static site using the **jekyll-theme-chirpy** theme (~7.0). Content is in Spanish.
 
 ## Commands
+
 - **Serve locally:** `bundle exec jekyll serve`
 - **Build:** `bundle exec jekyll build`
 - **Build (production):** `JEKYLL_ENV=production bundle exec jekyll b -d _site`
@@ -11,6 +13,7 @@ Jekyll static site using the **jekyll-theme-chirpy** theme (~7.0). Content is in
 - **Install deps:** `bundle install`
 
 ## Post Conventions (`_posts/`)
+
 - Filename format: `YYYY-MM-DD-Title_With_Underscores.md`
 - Required front matter fields: `title`, `description`, `date`, `categories`, `author`, `tags`, `pin`, `mermaid`, `image`
 - `author` must match an entry in `_data/authors.yml`
@@ -19,9 +22,15 @@ Jekyll static site using the **jekyll-theme-chirpy** theme (~7.0). Content is in
 - `image` path: `/assets/img/posts/<filename>`
 
 ## Formatting
+
 - Indent: 2 spaces (see `.editorconfig`)
 - Charset: UTF-8, LF line endings, final newline required
 - JS/CSS/SCSS: single quotes; YAML: double quotes
 - Markdown: trailing whitespace allowed (not trimmed)
 - Links: MUST use `https://` (using `http://` will cause CI/build failures)
 - Content language: Spanish; code samples may be in English/C++
+
+## API
+
+- The API comes from the separate `CPC-GALLOS/api` repository, which serves JSON data (e.g., for credentials, communities, and future datasets) at `https://cpc-gallos.github.io/api/<dataset>/data.json`.
+- The `https://cpc-gallos.github.io/api/index.json` file provides the available endpoints.

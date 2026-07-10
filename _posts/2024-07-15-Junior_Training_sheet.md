@@ -13,7 +13,7 @@ image: /assets/img/posts/JuniorTrainingSheet.png
 
 El Junior Training Sheet es un documento de Google sheets (el excel de Google) creado por Mostafa Saad, accesible a través de este link:
 
-<https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit?gid=84654839#gid=84654839>. 
+<https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit?gid=84654839#gid=84654839>.
 
 También existe un [Discord](https://discord.gg/BPXwwcBVZJ) para el acompañamiento del Junior Training sheet exclusivamente.
 
@@ -21,14 +21,14 @@ Para usarlo primero debemos descargar una copia hacia nuestra computadora, nube,
 
 Mostafa Saad recomienda entrenar de una de las siguientes maneras:
 
-# A) Método de entrenamiento de orden ciego
+## A) Método de entrenamiento de orden ciego
 
 - Los problemas están distribuidos en hojas CF-A, CF-B, CF-C1, ....CF-D3
 - Su objetivo es aprender los conocimientos/habilidades de forma coherente y equilibrada.
 - Cada página de la hoja es, en promedio, más difícil que la página de la hoja anterior.
 - Esta es la forma recomendada de Mostafa Saad, aunque la mayoría de los enfoques de entrenamiento no utilizan este método.
 
-# B) Método de formación basado en temas
+## B) Método de formación basado en temas
 
 - Consulte la página de la hoja (Topics1). Tiene las mismas hojas de problemas (CF-A a CF-D3) ordenados por categoría y nivel, son alrededor de 950 problemas.
 - Columna Calidad de ideas: P5 (importante), P4 (muy interesante), P3 (interesante), P2 (mejor), P1 (bien), Vacío (normal)
