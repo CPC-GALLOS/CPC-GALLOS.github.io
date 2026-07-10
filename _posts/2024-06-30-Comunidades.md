@@ -11,7 +11,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mapa_pol%C3%ADt
 ---
 
 __Tabla de Contenidos:__
-*
+* TOC
 {:toc}
 
 > Otros clubes de tecnologia de mexico pueden ser localizados a travez de la red de [comunidades de talent-land](https://talent-land.mx/comunidades)
@@ -29,6 +29,13 @@ __Tabla de Contenidos:__
 > Datos Recabados por [{{ site.data.authors.ArielParra.name }}]({{ site.data.authors.ArielParra.url }}), mapa interactivo de México modificado de [Interactive_Mexico_Map](https://github.com/ArielParra/Interactive_Mexico_Map)
 
 > [`mexico-map.svg`](/assets/img/posts/Comunidades/mexico-map.svg) hecho por Allstrak, Licencia: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Origen: [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/2/23/Mexico_Map.svg).
+
+### Mapa Interactivo con Leaflet
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<div id="leaflet-map" style="height: 500px; border-radius: 8px; margin-bottom: 2em; z-index: 1;"></div>
+<script src="/assets/js/posts/Comunidades/leaflet_map.js"></script>
 
 ## Comunidades de Discord en Español
 

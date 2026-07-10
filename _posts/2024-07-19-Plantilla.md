@@ -66,7 +66,7 @@ return 0;
 > Disponible en <https://github.com/CPC-GALLOS/Plantilla>, recuerda agregar tus modificaciones a traves de un PR
 
 __Tabla de contenidos__
-* 
+* TOC
 {:toc} 
 
 # Explicación y justificación de la plantilla larga

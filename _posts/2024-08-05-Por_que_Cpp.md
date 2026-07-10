@@ -11,7 +11,7 @@ image: /assets/img/posts/Por_que_Cpp/cpp.png
 ---
 
 __Tabla de Contenidos:__
-* 
+* TOC
 {:toc} 
 
 ## ¿Qué es C++?

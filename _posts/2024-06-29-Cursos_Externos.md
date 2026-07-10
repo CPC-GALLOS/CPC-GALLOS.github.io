@@ -11,7 +11,7 @@ image: /assets/img/posts/USACO.png
 ---
 
 __Tabla de Contenidos:__
-* 
+* TOC
 {:toc} 
 
 ## Temarios, Tablas de contenido, Planes de estudios y syllabus para la programación competitiva

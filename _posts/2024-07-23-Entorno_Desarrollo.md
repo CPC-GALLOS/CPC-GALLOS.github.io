@@ -11,7 +11,7 @@ image: /assets/img/posts/Entorno_Desarrollo/cs50dev.png
 ---
 
 __Tabla de Contenidos:__
-* 
+* TOC
 {:toc} 
 
 ##  Conectar <i class="fa-brands fa-git-alt"></i> Git con <i class="fa-brands fa-github"></i> GitHub

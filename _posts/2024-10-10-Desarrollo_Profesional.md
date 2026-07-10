@@ -13,7 +13,7 @@ image: https://www.upf.edu/documents/6764143/268343018/mar%C3%A7_10_crimi_contre
 El camino hacia el exito no es lineal, cada persona construye su propio camino, ya sea a través de la educación, la experiencia laboral o la constante actualización en diversas áreas del conocimiento. Este post está diseñado para guiar a estudiantes, egresados y profesionales que buscan crecer en sus carreras, ofreciendo una vista a los diferentes puntos de especialización para un desarrollo profesional destacable.
 
 __Tabla de Contenidos__
-* Asterisk needed for Table Of Contents
+* TOC
 {:toc} 
 
 

@@ -11,7 +11,7 @@ image: https://i0.wp.com/cruce.iteso.mx/wp-content/uploads/2025/11/Final-Mexican
 ---
 
 __Tabla de Contenidos:__
-* 
+* TOC
 {:toc} 
 
 

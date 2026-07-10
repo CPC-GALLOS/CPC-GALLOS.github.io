@@ -14,7 +14,7 @@ image: https://img.freepik.com/vector-premium/megafon-banner-promocion-gratuito-
 {: .prompt-info }
 
 __Tabla de Contenidos:__
-*
+* TOC
 {:toc}
 
 > Estamos en proceso de migrar los datos de certificaciones a nuestro [api](https://github.com/CPC-GALLOS/api), si gustas ayudar aqui esta nuestro [roadmap](https://github.com/orgs/CPC-GALLOS/projects/1)
