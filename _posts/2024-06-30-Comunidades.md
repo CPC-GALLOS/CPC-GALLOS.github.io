@@ -10,8 +10,11 @@ mermaid: false
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mapa_pol%C3%ADtico_de_M%C3%A9xico_a_color_%28nombres_de_estados_y_capitales%29.png/3840px-Mapa_pol%C3%ADtico_de_M%C3%A9xico_a_color_%28nombres_de_estados_y_capitales%29.png
 ---
 
+__Tabla de Contenidos:__
+*
+{:toc}
 
-> Si el mapa se ve cortado o no es funcional, recarga la página
+> Otros clubes de tecnologia de mexico pueden ser localizados a travez de la red de [comunidades de talent-land](https://talent-land.mx/comunidades)
 {: .prompt-tip }
 
 ## Mapa de clubes de programación competitiva y Algoritmia de México
@@ -25,48 +28,25 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mapa_pol%C3%ADt
 
 > Datos Recabados por [{{ site.data.authors.ArielParra.name }}]({{ site.data.authors.ArielParra.url }}), mapa interactivo de México modificado de [Interactive_Mexico_Map](https://github.com/ArielParra/Interactive_Mexico_Map)
 
->  [`mexico-map.svg`](/assets/img/posts/Comunidades/mexico-map.svg) hecho por Allstrak, Licencia: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Origen: [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/2/23/Mexico_Map.svg). 
-
+> [`mexico-map.svg`](/assets/img/posts/Comunidades/mexico-map.svg) hecho por Allstrak, Licencia: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Origen: [Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/2/23/Mexico_Map.svg).
 
 ## Comunidades de Discord en Español
 
-> TODO: Esto deberia quitarse ya que el mapa de mexico y el api este bien echo o asi supongo xd
+### De Mexico
 
-- [ICPC México](https://discord.gg/icpcmx)  Discord oficial del club de la comunidad de ICPC México junto a la universidad ITESO. 
-- [Club de Algoritmia CUCEI](https://discord.com/invite/VmKrSgK5mQ) Discord oficial del Club de Algoritmia del Centro Universitario de Ciencias Exactas e Ingenierías de la UdeG.
-- [Club de Algoritmia ESFM](https://discord.gg/R7urzSYyVW) Discord oficial del Club de algoritmia de la Escuela Superior de Física y Matemáticas del Instituto Politécnico Nacional.
-- [RAMCPP](https://discord.gg/dhxmX6eVws) club de programación competitiva RAMCPP de la Universidad Tecnologica de Monterrey.
+> Esta lista esta siendo alimentada por los datos de nuestra [api](https://github.com/CPC-GALLOS/api)
+
+<div id="mexico-communities-list">Cargando comunidades de México...</div>
+
+### Del mundo
+
+> TODO: Esta no xd
+
 - [Clearn Architecture](https://discord.com/invite/rxVhJMKPQD) Discord oficial del Club de Programación competitiva de la UADY.
 - [Omega UP](https://discord.com/invite/K3JFd9d3wk) Es una organización sin fines de lucro de América Latina para impulsar la tecnología a traves de la programación competitiva.
 - [CAUS](https://discord.com/invite/gEbbJrzEYZ) Club de Algoritmia de la Universidad de Sevilla en España.
 - [ACM UPM](https://discord.com/invite/UvUyYWW) Discord del club ACM-ICPC de la Universidad Politécnica de Madrid
 - [CPC UTEC](https://discord.com/invite/AKbMzpWgRs) Discord del club de programación competitva de la Universidad de Ingeniería y Tecnología (UTEC) de Peru.
-
-## Comunidades de Discord en Inglés
-
-- [Junior Training Sheet](https://discord.gg/BPXwwcBVZJ) Discord del finalista de ICPC, Mostafa Saad, para el acompañamiento de su Junior Training sheet exclusivamente.
-- [M(IT)^2](https://discord.com/invite/huwxnwTZ8X) Es el discord oficial del MIT Informatics Tournament.
-- [Competitive Programming Initiative](https://discord.com/invite/VCxUzdYhzN) es el discord oficial del USA Computing Olympiad (USACO).
-- [CALICO](https://calico.cs.berkeley.edu/discord)Es el discord oficial del CALICO Informatics Competition de la Universidad de Berkeley en California.
-- [ICPC North America](https://t.co/QLSRWC9P83)
-- [Errichto Algorithms Server](https://discord.gg/YWb3Bmg)
-- [University of Adelaide Competitive Programming Club](https://discord.gg/9yBJs68Sj4)
-- [The University of Texas at Austin UTPC](https://discord.com/invite/hjQAveZ)
-- [University of Calgary Competitive Programming Club](https://discord.gg/kRUusMDyVp)
-- [BYU Competitive Programming Association](https://discord.gg/zB3wvFKMhx)
-- [Competitive Programming Club at The Ohio State University](https://www.go.osu.edu/cpcdiscord)
-- [University of Washington Competitive Programming Club](https://discord.gg/uPBgaKWDJf)
-- [Davis Competitive Programming Club](https://discord.gg/JCRXygT2CW) y [Aggie Competitive Programming Contest](https://discord.com/invite/fWx7Pd6XTe)
-- [University of Minnesota Twin Cities Competitive Programming Club](https://discord.gg/6Cyr7K9Sfk)
-- [Rutgers Competitive Programming](https://discord.gg/44YRA5P)
-- [Competitive Programming Club at Stony Brook University](https://discord.gg/v7u5PnGkkR)
-- [The Competitive Programmers Union](https://discord.gg/dmzgQ5r)
-- [Competitive Programming Club @Liberty University](https://discord.gg/dneShg4YYv)
-- [SFU Competitive Programming](https://discord.gg/wfch4Mk33Y)
-- [The University of Melbourne Competitive Programming Club](https://discord.gg/R68WZcgSVp)
-
-> Otros clubes de tecnologia de mexico pueden ser localizados a travez de la red de [comunidades de talent-land](https://talent-land.mx/comunidades)
-{: .prompt-tip }
 
 <style>
    #map-container {
@@ -115,3 +95,28 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mapa_pol%C3%ADt
 </style>
 
 <script src="/assets/js/posts/Comunidades/mapa_interactivo.js"></script>
+
+## Comunidades de Discord en Inglés
+
+> TODO: aun __no estan__ en el api, pero quizas sea hacer un api global si a eso nos vamos 0.o
+
+- [Junior Training Sheet](https://discord.gg/BPXwwcBVZJ) Discord del finalista de ICPC, Mostafa Saad, para el acompañamiento de su Junior Training sheet exclusivamente.
+- [M(IT)^2](https://discord.com/invite/huwxnwTZ8X) Es el discord oficial del MIT Informatics Tournament.
+- [Competitive Programming Initiative](https://discord.com/invite/VCxUzdYhzN) es el discord oficial del USA Computing Olympiad (USACO).
+- [CALICO](https://calico.cs.berkeley.edu/discord)Es el discord oficial del CALICO Informatics Competition de la Universidad de Berkeley en California.
+- [ICPC North America](https://t.co/QLSRWC9P83)
+- [Errichto Algorithms Server](https://discord.gg/YWb3Bmg)
+- [University of Adelaide Competitive Programming Club](https://discord.gg/9yBJs68Sj4)
+- [The University of Texas at Austin UTPC](https://discord.com/invite/hjQAveZ)
+- [University of Calgary Competitive Programming Club](https://discord.gg/kRUusMDyVp)
+- [BYU Competitive Programming Association](https://discord.gg/zB3wvFKMhx)
+- [Competitive Programming Club at The Ohio State University](https://www.go.osu.edu/cpcdiscord)
+- [University of Washington Competitive Programming Club](https://discord.gg/uPBgaKWDJf)
+- [Davis Competitive Programming Club](https://discord.gg/JCRXygT2CW) y [Aggie Competitive Programming Contest](https://discord.com/invite/fWx7Pd6XTe)
+- [University of Minnesota Twin Cities Competitive Programming Club](https://discord.gg/6Cyr7K9Sfk)
+- [Rutgers Competitive Programming](https://discord.gg/44YRA5P)
+- [Competitive Programming Club at Stony Brook University](https://discord.gg/v7u5PnGkkR)
+- [The Competitive Programmers Union](https://discord.gg/dmzgQ5r)
+- [Competitive Programming Club @Liberty University](https://discord.gg/dneShg4YYv)
+- [SFU Competitive Programming](https://discord.gg/wfch4Mk33Y)
+- [The University of Melbourne Competitive Programming Club](https://discord.gg/R68WZcgSVp)

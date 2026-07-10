@@ -5,7 +5,7 @@ date: 2024-07-02 08:00:00 +/-TTTT
 categories: [Desarrollo_Profesional]
 author: ArielParra 
 tags: [recomendaciones,cursos,egresados,estudiantes]
-pin: false
+pin: true
 mermaid: false
 image: https://img.freepik.com/vector-premium/megafon-banner-promocion-gratuito-diseno-burbuja-voz-proyectos-publicitarios_1041213-6933.jpg
 ---
@@ -17,21 +17,23 @@ __Tabla de Contenidos:__
 *
 {:toc}
 
+> Estamos en proceso de migrar los datos de certificaciones a nuestro [api](https://github.com/CPC-GALLOS/api), si gustas ayudar aqui esta nuestro [roadmap](https://github.com/orgs/CPC-GALLOS/projects/1)
+{: .prompt-danger }
 > las certificaciones, certificados e insignias no son lo mismo, reafirma la diferencia de estas credenciales/reconocimientos en el post de [Desarrollo Profesional](https://cpc-gallos.github.io/blog/Desarrollo_Profesional/#reconocimientos)
 {: .prompt-warning }
 
 ## Certificaciones Gratuitas
 
 - [EF SET](https://www.efset.org/) Recomiendo el EF SET de 90 minutos, un test gratuito que certifica todas tus habilidades en inglés y te brinda un diagnóstico completo junto con un certificado.
-- [GitHub Foundations Certification Exam o el Copilot Foundations ](https://education.github.com/experiences/foundations_certificate) gratis a travez de [Github Education Student pack](https://education.github.com/pack/join), si no estan disponlibles quizas sea [porque se acabaron para este periodo (enero/septiembre)](https://github.com/orgs/community/discussions/184439#discussioncomment-15625511) o si cambiaron algo revisa el [faq](https://learn.github.com/credentials)
+- [GitHub Foundations Certification Exam o el Copilot Foundations](https://education.github.com/experiences/foundations_certificate) gratis a travez de [Github Education Student pack](https://education.github.com/pack/join), si no estan disponlibles quizas sea [porque se acabaron para este periodo (enero/septiembre)](https://github.com/orgs/community/discussions/184439#discussioncomment-15625511) o si cambiaron algo revisa el [faq](https://learn.github.com/credentials)
 
 ### Oracle (OCI) Associate Certifications
 
-Aunque estas certificaciones no forman parte del programa de certificaciones profesionales de pago, **sí son certificaciones oficiales emitidas y respaldadas por Oracle**, puedes buscar la que te guste en [Oracle University](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free) y en [Oracle Education](https://www.oracle.com/education/certification/)
+Aunque estas certificaciones no forman parte del programa de certificaciones profesionales de pago, __sí son certificaciones oficiales emitidas y respaldadas por Oracle__, puedes buscar la que te guste en [Oracle University](https://mylearn.oracle.com/ou/search/?filters=Type-certification&filters=Type-free) y en [Oracle Education](https://www.oracle.com/education/certification/)
 
-En general, las certificaciones de nivel **Foundations Associate** y muchas de nivel **Associate** son **gratuitas**, mientras que las certificaciones de nivel **Professional** suelen requerir el pago de un examen (el cual esta protecterado, osea que te bloquean la computadora y hacen una videollamada para que no hagas trampa).
+En general, las certificaciones de nivel __Foundations Associate__ y muchas de nivel __Associate__ son __gratuitas__, mientras que las certificaciones de nivel __Professional__ suelen requerir el pago de un examen (el cual esta protecterado, osea que te bloquean la computadora y hacen una videollamada para que no hagas trampa).
 
-> **Nota:** Oracle actualiza los nombres, versiones y códigos de examen cada año. Si encuentras información desactualizada, por favor **haz un PR** a este post: <https://github.com/CPC-GALLOS/CPC-GALLOS.github.io/blob/main/_posts/2024-07-02-Certificaciones_Gratuitas.md>
+> __Nota:__ Oracle actualiza los nombres, versiones y códigos de examen cada año. Si encuentras información desactualizada, por favor __haz un PR__ a este post: <https://github.com/CPC-GALLOS/CPC-GALLOS.github.io/blob/main/_posts/2024-07-02-Certificaciones_Gratuitas.md>
 
 - [OCI Foundations Associate (1Z0-1085-26)](https://education.oracle.com/oracle-cloud-infrastructure-2026-foundations-associate/pexam_1Z0-1085-26)
 - [Oracle Cloud Infrastructure AI Foundations Associate (1Z0-1122-26)](https://education.oracle.com/oracle-cloud-infrastructure-ai-foundations-associate/pexam_1Z0-1122-26)
@@ -48,7 +50,7 @@ En general, las certificaciones de nivel **Foundations Associate** y muchas de n
 - [IBM qiskit summer school](https://www.google.com/search?q=BM+qiskit+summer+school)  
 - [EPAM NextGen University Program](https://campus.epam.com/en/training) programa en linea sin remuneración de 4 meses en Fundamentals Training que sirve como preparación para el EPAM Internship Program.
 - [mexia](https://www.mexia.gob.mx) programas de diferentes tecnologias avalados por el gobierno de mexico y empresas importantes como Intel, Meta, Oracle, TCS, Salesforce, Axity, Accenture,Nvidia, Google, AWS, IBM, Cisco, Kyndryl, e INFOTEC (Gob de México)
-- [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](https://www.google.com/search?q=AWS re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/) o [fondationforge inefop](https://www.fondationforge.org/inefop/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
+- [AWS re/Start](https://aws.amazon.com/es/training/restart/) Formación gratuita en AWS [ENCORA](<https://www.google.com/search?q=AWS> re/Start encora), [Generation Mexico](https://mexico.generation.org/programs/aws-cloud/), [fondation forge](https://www.fondationforge.org/aws/) o [fondationforge inefop](https://www.fondationforge.org/inefop/), en google puedes encontrar otras empresas y organizaciones que lo ofrezcan.
 - [Stanford Code in Place](https://codeinplace.stanford.edu/) Curso CS106A.de la universidad de Stanford, con mentarias, clases y una certificacion gratuita, lo hacen cada año en abril.
 - [Samsung Innovation Campus](https://samsunginnovationcampus.udem.edu.mx/) capacitación a jóvenes entre los 20 a 25 años en tecnologías emergentes, como Python e Inteligencia Artificial, con mentorias, clases en vivo, experiencia practica y seguimiento continuo.
 - [AWS AI & ML Scholars](https://aws.amazon.com/about-aws/our-impact/scholars/) 100,000 a nivel mundial donde los que tengan mejor rendimiento tendran un Nanodegree de Udacity.
@@ -87,6 +89,7 @@ En general, las certificaciones de nivel **Foundations Associate** y muchas de n
 - [mujeresticslatam](https://mujeresticslatam.com/#camino) rutas de especialización en areas como IA.
 
 ## Softskills, habilidades blandas o skills no tecnicas
+
 - [Grow with google](https://grow.google/certificates/) reivsa la sección de este post de [coursera](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/#cursos-en-coursera), los que son skills no tecnicas serian: Project Management y Digital Marketing & E-commerce. Al finalizar cualquiera de estas certificaciones, obtendrás acceso a [CareerCircle](https://www.careercircle.com/), una plataforma que ofrece sesiones de mentoría personalizadas (1 a 1), apoyo para entrevistas y desarrollo profesional, además de una bolsa de trabajo que te conecta directamente con empleadores, incluyendo más de 150 empresas que forman parte del Google Career Certificates Employer Consortium.
 - [Programa Tu Futuro de fundación forge](https://fforge.org/programs/mx-tu-futuro) diseñada para jóvenes de 18 a 24 años que buscan su primer empleo. El proceso dura varios meses, combinando orientación laboral, desarrollo de habilidades socioemocionales, creación de CV y mentoría con empresas aliadas. Donde puedes obtener los siguientes [certificados](https://www.credly.com/organizations/fundacion-forge/badges) Liderazgo personal, Trabajo en equipo, Orientación al logro, Compromiso con el aprendizaje, Certificación Forge (programa TU FUTURO).
 - [atlassian](https://community.atlassian.com/learning/certifications/)atlassian son los mismos de JIRAy los certificados fundamentals son gratis: Rovo Fundamentals,Forge Fundamentals, Loom Fundamentals, Jira Service Management with AI Fundamentals
@@ -99,11 +102,12 @@ En general, las certificaciones de nivel **Foundations Associate** y muchas de n
 
 ## MOOCs
 
-Los MOOCs (Massive Open Online Courses) son cursos en línea abiertos al público, ofrecidos por universidades, instituciones educativas y otras organizaciones. Principalmente cursos enfocados en **soft skills**, aunque si llegan haber de tecnologia. Algunos tienen fechas de inicio o periodos de disponibilidad específicos, y que muchos pueden estar en otros idiomas (usen Google Traductor xd). La mayoría de los cursos son gratuitos, pero algunos pueden cobrar por el acceso al certificado o por el curso completo. Además, no todos ofrecen badges o certificados, por lo que es recomendable verificar esta información antes de comenzar cualquier curso.
+Los MOOCs (Massive Open Online Courses) son cursos en línea abiertos al público, ofrecidos por universidades, instituciones educativas y otras organizaciones. Principalmente cursos enfocados en __soft skills__, aunque si llegan haber de tecnologia. Algunos tienen fechas de inicio o periodos de disponibilidad específicos, y que muchos pueden estar en otros idiomas (usen Google Traductor xd). La mayoría de los cursos son gratuitos, pero algunos pueden cobrar por el acceso al certificado o por el curso completo. Además, no todos ofrecen badges o certificados, por lo que es recomendable verificar esta información antes de comenzar cualquier curso.
 
 ### De México
 
 Estas son por parte de [INFOTEC](https://www.infotec.mx/) (gobierno) que son los mismos del curso de [mexia](https://www.mexia.gob.mx/)
+
 - [Escuela Pública de Código](https://www.epc.gob.mx/formacion/publico-general/) estos si son más cursos del gobierno solamente, pero tienen por el momento uno de certificado profesional en IA en colaboración con google
 - [SaberesMX Universidad para toda la vida](https://saberes.gob.mx/cms/index.php/cfia) recomiendo applicar el filtro de certificaciones, donde hay cursos patrocinados por empresas como Accenture, TCS, IBM, Salesforce, Microsoft, Nvidia,Cisco, Meta, Google, AWS, Ericcson, Intel y Oracle
 - [MOOC UNAM](https://mooc.unam.mx/)
@@ -112,7 +116,7 @@ Estas son por parte de [INFOTEC](https://www.infotec.mx/) (gobierno) que son los
 
 ### Del Mundo
 
-- [European MOOC Consortium (EMC)](https://emc.eadtu.eu/partners) 
+- [European MOOC Consortium (EMC)](https://emc.eadtu.eu/partners)
   - [France Université Numérique (FUN)](https://www.fun-mooc.fr/en/courses/?limit=21&offset=0&types=8889)
   - [iMooX](https://imoox.at/mooc/)
 - [The Open University - Open learn](https://www.open.edu/openlearn/badged-courses)
@@ -163,6 +167,7 @@ Estas son por parte de [INFOTEC](https://www.infotec.mx/) (gobierno) que son los
 - MongoDB [learning paths](https://learn.mongodb.com/catalog?labels=%5B%22Free%2FPaid%22%5D&values=%5B%22Free%22%5D) & [skills badges](https://learn.mongodb.com/skills) son 29 skills en total
 - [Databricks learn](https://www.databricks.com/learn/training/certification#accreditations)
 - [sophos learn](https://www.sophos.com/en-us/partner-news/earn-your-sophos-sales-professional-badge-no-cost-no-barriers)
+
 ### Diplomados de Capacítate Para el Empleo
 
 [Capacítate Para el Empleo](https://capacitateparaelempleo.org/mostrar-diplomados) es una plataforma en español creada por la fundación Carlos Slim donde hay distintos diplomados de tecnología.
@@ -267,7 +272,6 @@ Múltiples certificados sacados por LinkedIn en colaboración con Microsoft para
 - [Introduction to Machine Learning in Wolfram Language](https://www.wolfram.com/wolfram-u/courses/machine-learning/introduction-to-machine-learning-ml201/)
 - [Wolfram Language and LLMs](https://www.wolfram.com/wolfram-u/courses/machine-learning/wolfram-language-and-llms-ml215/)
 
-
 ### The Forage Job Simulations
 
 [Forage Job Simulations](https://www.theforage.com/simulations?industries=engineering.technology&qfilter=all) son simulaciones de trabajo real donde te dan un certificado al finalizarlo, estos tienen un buen valor ya que al no ser solo cursos sino trabajos practicos, las empresas pueden valorarlos más
@@ -278,7 +282,7 @@ Múltiples certificados sacados por LinkedIn en colaboración con Microsoft para
 - [DATACOM Software Development](https://www.theforage.com/simulations/datacom/software-development-l47g)
 - [DATACOM Introduction to Cloud](https://www.theforage.com/simulations/datacom/intro-cloud-yfvk)
 - [DATACOM Cyber Security Operations](https://www.theforage.com/simulations/datacom/cybersecurity-zm6d)
-- [Electronic Arts Software Engineering](https://www.theforage.com/simulations/electronic-arts/software-engineering-awbf) **YA no esta disponible a julio 2026, quizas despues regrese**
+- [Electronic Arts Software Engineering](https://www.theforage.com/simulations/electronic-arts/software-engineering-awbf) __YA no esta disponible a julio 2026, quizas despues regrese__
 - [Walmart Advanced Software Engineering Job Simulation](https://www.theforage.com/simulations/walmart/software-engineering-fceb)
 - [Mastercard Cybersecurity](https://www.theforage.com/simulations/mastercard/cybersecurity-t8ye)
 - [BCG X Data Science](https://www.theforage.com/simulations/bcg/data-science-ccdz)
@@ -288,13 +292,13 @@ Múltiples certificados sacados por LinkedIn en colaboración con Microsoft para
 - [Deloitte Cyber](https://www.theforage.com/simulations/deloitte-au/cyber-c1e3)
 - [Skyscanner Software Engineering](https://www.theforage.com/simulations/skyscanner/software-engineering-cm01)
 
-alguno de estos job simulations puede no esten disponibles 
+alguno de estos job simulations puede no esten disponibles
 
 ### IBM Skills Build Learning Plans Certificates
 
 es diferente el certificado (certificate) de completar un path que el de un curso, ya que obvio el del path tiene varios cursos chicos (insignias)
 
-los mas importantes son: 
+los mas importantes son:
 
 - [Data analytics certificate](https://skillsbuild.org/adult-learners/explore-learning/data-analyst)
 - [Cybersecurity Certificate](https://skillsbuild.org/adult-learners/explore-learning/cybersecurity-analyst)
@@ -303,7 +307,7 @@ los mas importantes son:
 
 ### Trailhead Salesforce
 
-- **[Trails](https://trailhead.salesforce.com/en/content/learn/trails)**: hay 43 con el rol de developer
+- __[Trails](https://trailhead.salesforce.com/en/content/learn/trails)__: hay 43 con el rol de developer
   - [Apply .NET Skills to Salesforce](https://trailhead.salesforce.com/en/content/learn/trails/microsoft_dotnet)
   - [Apply Visualforce Skills to Lightning Components](https://trailhead.salesforce.com/en/content/learn/trails/lex_dev_lc_vf)
   - [AWS Cloud for Technical ProfessionalsProfessionals](https://trailhead.salesforce.com/en/content/learn/trails/aws-cloud-for-technical-professionals)
@@ -313,7 +317,7 @@ los mas importantes son:
   - [Developer Intermediate](https://trailhead.salesforce.com/en/content/learn/trails/force_com_dev_intermediate)
   - [Developer Advanced](https://trailhead.salesforce.com/en/content/learn/trails/force_com_dev_advanced)
 
-- **[Superbadges](https://trailhead.salesforce.com/content/learn/superbadges)**:hay 35 en total
+- __[Superbadges](https://trailhead.salesforce.com/content/learn/superbadges)__:hay 35 en total
   - [Superbadge: Apex Web Services](https://trailhead.salesforce.com/content/learn/superbadges/superbadge-custom-api-sbu)
   - [Superbadge: Apex Callouts](https://trailhead.salesforce.com/content/learn/superbadges/superbadge-apex-callouts-sbu)
   - [Superbadge: Apex for Agentforce](https://trailhead.salesforce.com/content/learn/superbadges/superbadge-apex-for-agentforce)
@@ -322,7 +326,7 @@ los mas importantes son:
   - [Superbadge: Formulas](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_formulas_sbu)
   - [Superbadge: Flow Fundamentals](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_flow_basics_sbu)
 
-- **[Trailshead Journey](https://trailhead.salesforce.com/trailhead-journeys)**: son 6 en total
+- __[Trailshead Journey](https://trailhead.salesforce.com/trailhead-journeys)__: son 6 en total
   - [Agentforce Revenue Management](https://trailhead.salesforce.com/en/content/learn/trailhead-journey/agentforce-revenue-management)  
   - [Agentforce Sales](https://trailhead.salesforce.com/en/content/learn/trailhead-journey/agentforce-sales)
   - [Data 360](https://trailhead.salesforce.com/en/content/learn/trailhead-journey/data-360)
@@ -332,7 +336,7 @@ los mas importantes son:
 
 ## Cursos en Coursera
 
-En si los certificados de coursera **no son gratis**, pero la mayoría de cursos tienen la opción de auditar de manera gratuita sin poder obtener el certificado, pero también tienen la opción para [solicitar ayuda económica](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es) y obtener una beca de hasta el 100% para poder obtener tu certificado.
+En si los certificados de coursera __no son gratis__, pero la mayoría de cursos tienen la opción de auditar de manera gratuita sin poder obtener el certificado, pero también tienen la opción para [solicitar ayuda económica](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es) y obtener una beca de hasta el 100% para poder obtener tu certificado.
 
 > El certificado de Algorithms de Standford es la que más se relaciona con la programación competitiva, aunque si es algo larga ya que consta de 4 cursos, pero si tienes la oportunidad certifícate en este curso.
 {: .prompt-tip }
@@ -346,7 +350,7 @@ En si los certificados de coursera **no son gratis**, pero la mayoría de cursos
 - [IBM: Cyber Security Analyst](https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst)
 - [Microsoft: Project Management](https://www.coursera.org/professional-certificates/microsoft-project-management)
 - [Microsoft: Cyber Security Analyst](https://www.coursera.org/professional-certificates/microsoft-cybersecurity-analyst)
- - y muchos otros de universidades y empresas destacadas.
+- y muchos otros de universidades y empresas destacadas.
 
 ### Grow with Google
 
@@ -359,19 +363,17 @@ En si los certificados de coursera **no son gratis**, pero la mayoría de cursos
 - [Data Analytics](https://grow.google/certificates/data-analytics/)
 - [Advanced Data Analytics](https://grow.google/certificates/advanced-data-analytics/)
 - [Business Intelligence](https://grow.google/certificates/business-intelligence/)
-- Además de opciones [no técnicas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/#softskills-habilidades-blandas-o-skills-no-tecnicas) como **Digital Marketing & E-commerce** y **Project Management**.
+- Además de opciones [no técnicas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/#softskills-habilidades-blandas-o-skills-no-tecnicas) como __Digital Marketing & E-commerce__ y __Project Management__.
 
-Una de las mayores ventajas de estos certificados es que, al completarlos, obtienes acceso **gratuito** a [CareerCircle](https://www.careercircle.com/), una plataforma de desarrollo profesional que ofrece:
+Una de las mayores ventajas de estos certificados es que, al completarlos, obtienes acceso __gratuito__ a [CareerCircle](https://www.careercircle.com/), una plataforma de desarrollo profesional que ofrece:
 
 - Mentorías personalizadas (1 a 1).
 - Preparación para entrevistas.
 - Orientación para la búsqueda de empleo.
-- Una bolsa de trabajo con acceso a oportunidades en más de **150 empresas** que forman parte del **Google Career Certificates Employer Consortium**.
+- Una bolsa de trabajo con acceso a oportunidades en más de __150 empresas__ que forman parte del __Google Career Certificates Employer Consortium__.
 
-> Si no obtienes la [ayuda económica de Coursera](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es), una excelente alternativa son las becas de **INROADS**, que periódicamente ofrece acceso gratuito a los [Certificados de Carrera de Google por INROADS](https://becas.inroads.org.mx/).
+> Si no obtienes la [ayuda económica de Coursera](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es), una excelente alternativa son las becas de __INROADS__, que periódicamente ofrece acceso gratuito a los [Certificados de Carrera de Google por INROADS](https://becas.inroads.org.mx/).
 > {: .prompt-tip }
-
-
 
 ## Insignias / Micro Credenciales
 
@@ -405,7 +407,7 @@ Cisco es la empresa que tiene el monopolio de la Infraestructura de las redes, s
 IBM tiene más de [500 insignias gratuitas](https://www.ibm.com/training/search?trainingType=Badge) repartidas en distintos sitios cubriendo distintos temas:
 
 - [Zxplore](https://www.ibm.com/z/resources/zxplore) es el curso acerca de los Mainframes (super computadores/servidores) de IBM con el sistema operativo Z/OS. Hay pocos especialistas en esta área, por lo que es un buen tema para especializarse. Cualquier duda o informes sobre este tema pueden contactar con nuestro compañero de la UAA y embajador de IBM Z [Gustavo Richarte](https://www.linkedin.com/in/gustavoricharte/).
-- [IBM skillsbuild College course catalog](https://skillsbuild.org/college-students/course-catalog) cursos de varios temas 
+- [IBM skillsbuild College course catalog](https://skillsbuild.org/college-students/course-catalog) cursos de varios temas
 - [Cognitive Class](https://cognitiveclass.ai/courses?type%5B%5D=course&sort%5B%5D=most_popular)
   - [Python for Data Science](https://cognitiveclass.ai/courses/python-for-data-science)
   - [Machine Learning with Python](https://cognitiveclass.ai/courses/machine-learning-with-python)
