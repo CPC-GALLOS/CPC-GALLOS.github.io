@@ -21,6 +21,17 @@ Este es el Club de Programación Competitiva Γα=Ω5 (GALLOS) en la Universidad
 
 Nuestro plan de estudios se basa en clases teóricas y practicas donde aprenderás desde temas básicos hasta temas avanzados y los viernes, llevamos a cabo una competencia de programación local, las [encuerizas](https://cpc-gallos.github.io/blog/Encuerizas/).
 
+## Calendario de Actividades 📅
+
+Consulta las fechas de clases, talleres, competencias y eventos especiales del club:
+
+<div style="position: relative; width: 100%; height: 600px; max-height: 80vh; margin: 1.5rem 0; border-radius: 10px; overflow: hidden; border: 1px solid rgba(0, 0, 0, 0.1); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+  <iframe src="https://calendar.google.com/calendar/embed?src=b1f0fdbd57a17e5f4363591b8385a6492896b39a037cc21e140aba1f7b5ff713%40group.calendar.google.com&ctz=America%2FMexico_City&hl=es" style="border: 0; width: 100%; height: 100%;" frameborder="0" scrolling="no"></iframe>
+</div>
+
+> 💡 **Tip:** Puedes [agregar este calendario a tu Google Calendar](https://calendar.google.com/calendar/u/0?cid=YjFmMGZkYmQ1N2ExN2U1ZjQzNjM1OTFiODM4NWE2NDkyODk2YjM5YTAzN2NjMjFlMTQwYWJhMWY3YjVmZjcxM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target="_blank"} para sincronizar automáticamente las sesiones y avisos.
+{: .prompt-tip }
+
 ## ¿Qué es la Programación Competitiva? 👨‍💻💡
 
 La programación competitiva son competencias que desafían a los programadores a resolver problemas complejos con una limitación de tiempo, por lo que el manejo del tiempo, la resolución de problemas y el trabajo en equipo son fundamentales para poder ganar.

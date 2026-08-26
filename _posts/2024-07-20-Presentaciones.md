@@ -13,6 +13,83 @@ image: /assets/img/posts/Presentaciones.png
 > Recuerda visitar los post de [Recursos](https://cpc-gallos.github.io/blog/Recursos/) y [Cursos Externos](https://cpc-gallos.github.io/blog/Cursos_Externos/) para complementar tu aprendizaje
 {: .prompt-info }
 
+
+## Presentaciones y Temas 2026
+
+*Semestre Agosto - Diciembre*
+
+**Semana 1**
+- Martes: Invitar a grupos al primer día
+- Jueves: Invitar a grupos al primer día
+
+**Semana 2**
+- Martes: [Introducción](https://canva.link/u2q82kbtgtvrg4t)
+- Jueves: [Curso de OmegaUp: Introducción a C++](https://omegaup.com/course/introduccion_cpp/); [Tipos de datos en C++](https://canva.link/0up25adj71rp24j)
+
+**Semana 3**
+- Martes: [Operaciones básicas](https://canva.link/sc67zbqv1cl9v2y)
+- Jueves: Condicionales
+
+**Semana 4**
+- Martes: Ciclos y arreglos
+- Jueves: Funciones
+
+**Semana 5**
+- Martes: Arreglos — Vector, String, Bitset, Funciones
+- Jueves: Big - O
+
+**Semana 6**
+- Martes: Teoría de números I — divisibilidad, congruencia de módulo
+- Jueves: Combinatoria
+
+**Semana 7**
+- Martes: VS Code, Codeforces, Dudas
+- Jueves: Geometría I
+
+**Semana 8**
+- Martes: Recursividad
+- Jueves: Sorting (con funciones lambda)
+
+**Semana 9**
+- Martes: Búsqueda Binaria
+- Jueves: Teoría de números II — cambio de base, Bits
+
+**Semana 10**
+- Martes: Memorización prefix
+- Jueves: Two pointers, Sliding window
+
+**Semana 11**
+- Martes: Map
+- Jueves: Set y Multiset
+
+**Semana 12**
+- Martes: Motivación
+- Jueves: Geometría II
+
+**Semana 13**
+- Martes: Teoría de números III — T.F.A, G.C.D, CRIBA
+- Jueves: Stack y Queue
+
+**Semana 14**
+- Martes: Grafos (DFS y BFS)
+- Jueves: Heap
+
+**Semana 15**
+- Martes: Exponenciación binaria
+- Jueves: Teorema de Fermat (Bonus)
+
+**Semana 16**
+- Martes: Motivación
+- Jueves: Despedida
+
+### Enlaces y Recursos 2026
+
+- [**Presentación / Introducción**](https://canva.link/u2q82kbtgtvrg4t)
+- [**Curso OmegaUp: Introducción a C++**](https://omegaup.com/course/introduccion_cpp/)
+- [**Data Types in C++**](https://canva.link/0up25adj71rp24j)
+- [**Operaciones Básicas**](https://canva.link/sc67zbqv1cl9v2y)
+
+
 ## Presentaciones 2025 (En inglés)
 
 - [**Introduction**](https://cpc-gallos.github.io/Presentations/2025/0-Introduction.html), [pdf](https://cpc-gallos.github.io/Presentations/2025/0-Introduction.pdf)
@@ -75,4 +152,3 @@ image: /assets/img/posts/Presentaciones.png
 ## Presentaciones 2023
 
 - Accesibles a través del [antiguo repositorio](https://github.com/Chisrra/GALLOS) en los apartados G1 y G2.
-
