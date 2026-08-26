@@ -1,0 +1,391 @@
+<!--
+  Jekyll Simple Search loader (Enhanced for CPC-GALLOS)
+  Features:
+  - Full support for Titles, Descriptions, Content, Categories, and Tags
+  - Dynamic snippet extraction around matched search keywords in description and content
+  - Diacritic & accent-agnostic keyword highlighting in Title, Snippet, Categories, and Tags
+  - Highlight persistence inside post when clicked (?highlight=...)
+  - Light & dark mode styling for search highlights
+-->
+
+{% capture result_elem %}
+  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">
+    <header>
+      <h2><a href="{url}">{title}</a></h2>
+      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">
+        {categories}
+        {tags}
+      </div>
+    </header>
+    <p>{content}</p>
+  </article>
+{% endcapture %}
+
+{% capture not_found %}<p class="mt-5">{{ site.data.locales[include.lang].search.no_results }}</p>{% endcapture %}
+
+<style>
+  mark.search-highlight {
+    background-color: #ffe066;
+    color: #212529;
+    padding: 0.12em 0.3em;
+    border-radius: 4px;
+    font-weight: 600;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  [data-mode="dark"] mark.search-highlight,
+  html[data-mode="dark"] mark.search-highlight {
+    background-color: #fcc419;
+    color: #121212;
+    border: 1px solid rgba(255, 214, 0, 0.45);
+  }
+
+  .search-highlight-bar {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1050;
+    background-color: var(--main-bg, #ffffff);
+    color: var(--text-color, #212529);
+    border: 1px solid var(--border-color, #dee2e6);
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    animation: fadeInSlideUp 0.3s ease-out;
+  }
+
+  [data-mode="dark"] .search-highlight-bar,
+  html[data-mode="dark"] .search-highlight-bar {
+    background-color: #25262b;
+    border-color: #373a40;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+  }
+
+  @keyframes fadeInSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<script>
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str)
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#039;');
+  }
+
+  function unescapeHtml(str) {
+    if (!str) return '';
+    return String(str)
+      .replaceAll('&lt;', '<')
+      .replaceAll('&gt;', '>')
+      .replaceAll('&amp;', '&')
+      .replaceAll('&quot;', '"')
+      .replaceAll('&#039;', "'")
+      .replaceAll(/\s+/g, ' ')
+      .trim();
+  }
+
+  function escapeRegExp(string) {
+    return string.replaceAll(/[.*+?^${}()|[\]\\]/g, (char) => `\\${char}`);
+  }
+
+  function termToRegexPattern(term) {
+    const accentMap = {
+      a: '[aáàäâãå]',
+      e: '[eéèëê]',
+      i: '[iíìïî]',
+      o: '[oóòöôõ]',
+      u: '[uúùüû]',
+      n: '[nñ]',
+      c: '[cç]'
+    };
+    let pattern = '';
+    const normalized = term.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    for (const char of normalized) {
+      pattern += accentMap[char] || escapeRegExp(char);
+    }
+    return pattern;
+  }
+
+  function buildHighlightRegex(query) {
+    if (!query || !query.trim()) return null;
+    const rawTerms = query.trim().split(/\s+/).filter(Boolean);
+    if (rawTerms.length === 0) return null;
+    rawTerms.sort((a, b) => b.length - a.length);
+    const patterns = rawTerms.map((t) => termToRegexPattern(t)).filter(Boolean);
+    if (patterns.length === 0) return null;
+    return new RegExp('(' + patterns.join('|') + ')', 'gi');
+  }
+
+  function highlightText(text, queryRegex) {
+    if (!text) return '';
+    const escaped = escapeHtml(text);
+    if (!queryRegex) return escaped;
+    queryRegex.lastIndex = 0;
+    return escaped.replaceAll(queryRegex, '<mark class="search-highlight">$1</mark>');
+  }
+
+  function calculateSnippetBounds(text, matchIndex, maxLen) {
+    const halfLen = Math.floor(maxLen / 2);
+    let start = Math.max(0, matchIndex - halfLen);
+    let end = Math.min(text.length, start + maxLen);
+
+    if (end - start < maxLen) {
+      start = Math.max(0, end - maxLen);
+    }
+
+    if (start > 0) {
+      const spaceIdx = text.indexOf(' ', start);
+      if (spaceIdx !== -1 && spaceIdx < matchIndex) {
+        start = spaceIdx + 1;
+      }
+    }
+
+    if (end < text.length) {
+      const spaceIdx = text.lastIndexOf(' ', end);
+      if (spaceIdx !== -1 && spaceIdx > start + 50) {
+        end = spaceIdx;
+      }
+    }
+
+    return { start, end };
+  }
+
+  function extractSnippet(content, query, maxLen = 220) {
+    if (!content) return '';
+    const cleanContent = unescapeHtml(content);
+
+    if (!query || !query.trim()) {
+      return cleanContent.length <= maxLen
+        ? escapeHtml(cleanContent)
+        : escapeHtml(cleanContent.slice(0, maxLen)) + '...';
+    }
+
+    const queryRegex = buildHighlightRegex(query);
+    if (!queryRegex) {
+      return cleanContent.length <= maxLen
+        ? escapeHtml(cleanContent)
+        : escapeHtml(cleanContent.slice(0, maxLen)) + '...';
+    }
+
+    const match = queryRegex.exec(cleanContent);
+    if (!match) {
+      const baseText = cleanContent.length <= maxLen
+        ? cleanContent
+        : cleanContent.slice(0, maxLen) + '...';
+      return highlightText(baseText, queryRegex);
+    }
+
+    const { start, end } = calculateSnippetBounds(cleanContent, match.index, maxLen);
+    const snippet = cleanContent.slice(start, end).trim();
+    const prefix = start > 0 ? '... ' : '';
+    const suffix = end < cleanContent.length ? ' ...' : '';
+
+    return prefix + highlightText(snippet, queryRegex) + suffix;
+  }
+
+  function templateMiddleware(prop, value) {
+    const searchInput = document.getElementById('search-input');
+    const query = searchInput ? searchInput.value : '';
+    const queryRegex = buildHighlightRegex(query);
+
+    switch (prop) {
+      case 'title':
+        return highlightText(value, queryRegex);
+      case 'url': {
+        if (!query || !query.trim()) return value;
+        const separator = value.includes('?') ? '&' : '?';
+        return value + separator + 'highlight=' + encodeURIComponent(query.trim());
+      }
+      case 'categories': {
+        if (!value) return '';
+        const highlighted = highlightText(value, queryRegex);
+        return '<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>' + highlighted + '</div>';
+      }
+      case 'tags': {
+        if (!value) return '';
+        const highlighted = highlightText(value, queryRegex);
+        return '<div><i class="fa fa-tag fa-fw"></i>' + highlighted + '</div>';
+      }
+      case 'content':
+      case 'snippet':
+      case 'description':
+        return extractSnippet(value, query, 220);
+      default:
+        return value;
+    }
+  }
+
+  function initSearch() {
+    const searchUrl = '{{ "/assets/js/data/search.json" | relative_url }}';
+
+    fetch(searchUrl)
+      .then((res) => res.json())
+      .then((posts) => {
+        posts.forEach((item) => {
+          if (item.description && item.description.trim()) {
+            const desc = item.description.trim();
+            if (!item.content || !item.content.includes(desc)) {
+              item.content = desc + ' — ' + (item.content || '');
+            }
+          }
+          const fullText = (item.title || '') + ' ' + (item.description || '') + ' ' + (item.tags || '') + ' ' + (item.categories || '') + ' ' + (item.content || '');
+          item.search_normalized = fullText
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .toLowerCase();
+        });
+
+        SimpleJekyllSearch({
+          searchInput: document.getElementById('search-input'),
+          resultsContainer: document.getElementById('search-results'),
+          json: posts,
+          searchResultTemplate: '{{ result_elem | strip_newlines }}',
+          noResultsText: '{{ not_found }}',
+          templateMiddleware: templateMiddleware
+        });
+      })
+      .catch((err) => {
+        console.error('CPC-GALLOS Search load error:', err);
+      });
+  }
+
+  function highlightInTextNode(node, queryRegex) {
+    const text = node.nodeValue;
+    if (!text || !queryRegex.test(text)) return { count: 0, firstEl: null };
+
+    queryRegex.lastIndex = 0;
+    const fragment = document.createDocumentFragment();
+    let lastIndex = 0;
+    let match;
+    let count = 0;
+    let firstEl = null;
+
+    while ((match = queryRegex.exec(text)) !== null) {
+      if (match.index > lastIndex) {
+        fragment.appendChild(document.createTextNode(text.substring(lastIndex, match.index)));
+      }
+      const mark = document.createElement('mark');
+      mark.className = 'search-highlight search-highlight-inpost';
+      mark.textContent = match[0];
+      fragment.appendChild(mark);
+      if (!firstEl) firstEl = mark;
+      lastIndex = match.index + match[0].length;
+      count++;
+    }
+
+    if (lastIndex < text.length) {
+      fragment.appendChild(document.createTextNode(text.substring(lastIndex)));
+    }
+
+    if (node.parentNode) {
+      node.parentNode.replaceChild(fragment, node);
+    }
+
+    return { count, firstEl };
+  }
+
+  function createHighlightBanner(query, matchCount) {
+    const banner = document.createElement('div');
+    banner.id = 'search-highlight-bar';
+    banner.className = 'search-highlight-bar d-flex align-items-center';
+    banner.innerHTML = '<span class="me-2"><i class="fas fa-search me-1"></i> Resaltando: <strong>' +
+      escapeHtml(query) + '</strong> (' + matchCount + ' coincidencias)</span>' +
+      '<button type="button" class="btn-close btn-close-sm ms-2" aria-label="Cerrar"></button>';
+
+    banner.querySelector('.btn-close').addEventListener('click', () => {
+      document.querySelectorAll('mark.search-highlight-inpost').forEach((el) => {
+        const parent = el.parentNode;
+        if (parent) {
+          parent.replaceChild(document.createTextNode(el.textContent), el);
+          parent.normalize();
+        }
+      });
+      banner.remove();
+      const cleanUrl = window.location.pathname + window.location.hash;
+      window.history.replaceState({}, document.title, cleanUrl);
+    });
+
+    document.body.appendChild(banner);
+  }
+
+  function initInPostHighlight() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const highlightQuery = params.get('highlight');
+      if (!highlightQuery || !highlightQuery.trim()) return;
+
+      const contentContainer = document.querySelector('article.px-1') ||
+                               document.querySelector('article.px-md-4') ||
+                               document.querySelector('main .content') ||
+                               document.querySelector('#main-wrapper main') ||
+                               document.querySelector('.post-content');
+      if (!contentContainer) return;
+
+      const queryRegex = buildHighlightRegex(highlightQuery);
+      if (!queryRegex) return;
+
+      const skippedTags = new Set(['SCRIPT', 'STYLE', 'PRE', 'CODE', 'NOSCRIPT', 'TEXTAREA', 'SVG', 'BUTTON', 'INPUT', 'SELECT']);
+      const walker = document.createTreeWalker(
+        contentContainer,
+        NodeFilter.SHOW_TEXT,
+        {
+          acceptNode(node) {
+            let parent = node.parentElement;
+            while (parent && parent !== contentContainer) {
+              if (skippedTags.has(parent.tagName) || (parent.classList && parent.classList.contains('search-highlight'))) {
+                return NodeFilter.FILTER_REJECT;
+              }
+              parent = parent.parentElement;
+            }
+            return NodeFilter.FILTER_ACCEPT;
+          }
+        }
+      );
+
+      const textNodes = [];
+      let currentNode;
+      while ((currentNode = walker.nextNode())) {
+        textNodes.push(currentNode);
+      }
+
+      let totalMatches = 0;
+      let firstMatchEl = null;
+
+      for (const node of textNodes) {
+        const { count, firstEl } = highlightInTextNode(node, queryRegex);
+        totalMatches += count;
+        if (!firstMatchEl && firstEl) {
+          firstMatchEl = firstEl;
+        }
+      }
+
+      if (totalMatches > 0) {
+        if (firstMatchEl) {
+          setTimeout(() => {
+            firstMatchEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 350);
+        }
+        createHighlightBanner(highlightQuery, totalMatches);
+      }
+    } catch (e) {
+      console.error('In-post highlighter error:', e);
+    }
+  }
+
+  initSearch();
+  initInPostHighlight();
+</script>

@@ -19,7 +19,7 @@ title: CPC GALLOS # the main title
 tagline: Aplicando la ley de kidlin  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
- Club de Programación competitiva GALLOS de la Universidad Autonoma de Aguascalientes 
+ Club de Programación competitiva GALLOS de la Universidad Autonoma de Aguascalientes
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -39,7 +39,6 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/CPC-GALLOS # change to your github homepage
-    - https://x.com/CPCGallos # change to your twitter homepage
     # Uncomment below to add more social links
     - https://www.facebook.com/people/CPC-Gallos/61563419165843/
     - https://www.instagram.com/cpc.gallos/
@@ -157,11 +156,11 @@ baseurl: ""
 jekyll_compose:
   default_front_matter:
     posts:
-      title: 
-      description:   
+      title:
+      description:
       categories: [] # carpeta del blog
-      author:        # agrega tu id de autor al archivo _data/authors.yml 
-      tags: []       # los tags deben ser en minusculas y separados por comas 
+      author:        # agrega tu id de autor al archivo _data/authors.yml
+      tags: []       # los tags deben ser en minusculas y separados por comas
       pin: false
       mermaid: false
       image:
@@ -214,8 +213,6 @@ defaults:
 
 sass:
   style: compressed
-  silence_deprecations:
-    - mixed_decls
 
 compress_html:
   clippings: all

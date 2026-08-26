@@ -27,10 +27,6 @@
   icon: "fab fa-youtube"
   url: "https://www.youtube.com/@CPC-GALLOS"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-  url: "https://x.com/CPCGallos"
-
 - type: link
   icon: "fas fa-link"
   url: "https://mtr.bio/cpc-gallos"
