@@ -12,13 +12,14 @@ permalink: / # for exchanging the HomePage
 > Varios blogs están desactualizados. Por favor, revisa las fechas y, si algo no es correcto, abre un [PR](https://github.com/CPC-GALLOS/CPC-GALLOS.github.io/pulls) o envía un mensaje a `cpc.gallos@gmail.com`. ¡Se buscan maintainers!
 {: .prompt-warning }
 
-
 Este es el Club de Programación Competitiva Γα=Ω5 (GALLOS) en la Universidad Autónoma de Aguascalientes, el club está conformado por estudiantes certificados en problem-solving que buscan enseñar y reforzar los conocimientos del Análisis y Diseño de Algoritmos en el lenguaje de C++ con el objetivo de preparar y participar en torneos de programación competitiva a nivel local, nacional e internacional principalmente, pero no solo programamos en este club sino que también aspiramos a fortalecer tus habilidades y apoyarte en tu desarrollo profesional, proporcionando recursos y oportunidades para avanzar en tu carrera.
+
 - **¿Cuando?** Damos clases los días martes, jueves y viernes de **2:00 a 4:00 pm**
-- **¿Donde?** En el Laboratorio del 61 - Aula Satelital, [imagen del mapa](/assets/img/LAB61-CAMPUS-CENTRAL-UAA.jpg): ![mapa uaa](/assets/img/LAB61-CAMPUS-CENTRAL-UAA.jpg){: w="20" h="20" }
+- **¿Donde?** Debido al gran éxito y crecimiento del club, este semestre contamos con dos laboratorios:
+  - Laboratorio de Inteligencia Artificial en el [edificio 203](https://maps.app.goo.gl/A9i7rYa39DNT53NA8), [imagen del mapa](/assets/img/edificio203.jpg): ![mapa edificio 203](/assets/img/edificio203.jpg){: w="20" h="20" }
+  - Laboratorio del 61 - Aula Satelital, [imagen del mapa](/assets/img/LAB61-CAMPUS-CENTRAL-UAA.jpg): ![mapa lab 61](/assets/img/LAB61-CAMPUS-CENTRAL-UAA.jpg){: w="20" h="20" }
 
 Nuestro plan de estudios se basa en clases teóricas y practicas donde aprenderás desde temas básicos hasta temas avanzados y los viernes, llevamos a cabo una competencia de programación local, las [encuerizas](https://cpc-gallos.github.io/blog/Encuerizas/).
-
 
 ## ¿Qué es la Programación Competitiva? 👨‍💻💡
 
@@ -48,8 +49,3 @@ La competencia más importante es el ICPC (International Collegiate Programming 
 - 📖 Fortalecimiento del nivel de lectura y comprensión del inglés técnico.
 - 💼 Mejores oportunidades laborales y de internados con empresas como Google, Facebook, Microsoft y más.
 - ✈️ Viajes y muchas experiencias.
-
-
-
-
-

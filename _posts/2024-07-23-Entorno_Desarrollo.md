@@ -248,6 +248,9 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 #### Opción 1 - Para MacOS >= 13 (Ventura), con Homebrew 
 
+> [Video sin editar de los pasos a seguir](https://drive.google.com/file/d/1YwOvbWDNxFexcKIrqpuZVMbcLrZKQPYf/view?usp=sharing)
+{: .prompt-info }
+
 1. Primero, si no lo tenemos ya instalado, procedemos a instalar el gestor de paquetes de la comunidad para MacOs ![homebrew logo](https://brew.sh/assets/img/homebrew.svg){: w="10" h="10" } [homebrew](https://brew.sh/) abriendo una terminal y ejecutando el comando, para después dar varios enters:
     ```zsh
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -269,6 +272,9 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 1. Al final tenemos que recargar la terminal y/o Vscode, para ver reflejados los cambios
 
 #### Opción 2 - Para MacOS < 13 (Monterey y anteriores), con MacPorts
+
+> [Video sin editar de los pasos a seguir](https://drive.google.com/file/d/1fGpOjI09CBFQ-xxtkUhfZU2aq9kyYEAW/view?usp=sharing)
+{: .prompt-info }
 
 1. Primero, si no lo tenemos ya instalado, procedemos a instalar Herramientas para desarrolladores de Apple ejecutando el siguiente comando en una terminal:  
     ```zsh
