@@ -1,492 +1,360 @@
-﻿---
+---
 title: Plantilla
-description: Plantilla del club Γα=Ω5 para su uso en la programación competitiva en C++
+description: Plantilla oficial del club Γα=Ω5 para programación competitiva en C++, alineada con el Notebook TRD e ICPC.
 date: 2024-07-19 9:00:00 +/-TTTT
 categories: [Club]
 author: ArielParra 
-tags: [recomendaciones,C++]
+tags: [recomendaciones, C++]
 pin: true
 mermaid: false
 image: /assets/img/posts/Plantilla.png
 ---
 
-# Plantilla Corta
-
-```c++
-#include <bits/stdc++.h>
-using namespace std;
-void solve(){
-    return;
-}
-int main(){
-ios::sync_with_stdio(0);cin.tie(0);
-    int tc=1;
-    //cin>>tc;
-    while(t--) solve();
-return 0;
-}
-``` 
-
-# Plantilla Larga
-
-```c++
-// _autor_
-// link y/o nombre del programa
-//#pragma GCC optimize("Ofast,unroll-loops")//-0.0+0.0=-0  
-//#pragma GCC target("avx2") // STL cointaner = std::allocator err
-#include <bits/stdc++.h>
-
-using ull = unsigned long long;
-using ll = long long;
-using namespace std;
-#define endl '\n'
-#define all(x) (x).begin(), (x).end() 
-#define yn(x) (cout << ((x) ? "YES" : "NO"))
-#define dbg(...) cerr<<"LINE("<<__LINE__<<")->["<<#__VA_ARGS__<<"]: ["<<(__VA_ARGS__)<<"]\n";   
-#define pb push_back 
-#define F first
-#define S second
-
-int main(){
-ios::sync_with_stdio(0);cin.tie(0);
-//freopen("in.txt", "r", stdin);
-    int tc=1;
-    //cin>>tc;
-    int n;
-    while(tc--){
-        cin>>n;
-        for(int i=0;i<n;++i){
-            //code
-        }
-    }
-return 0;
-}
-``` 
-
-> Disponible en <https://github.com/CPC-GALLOS/Plantilla>, recuerda agregar tus modificaciones a traves de un PR
-
-__Tabla de contenidos__
+__Tabla de Contenidos:__
 * TOC
 {:toc} 
 
-# Explicación y justificación de la plantilla larga
+# Plantilla Corta
 
-## La cabecera (header)
+Para problemas sencillos, rondas rápidas o cuando se busca la mínima cantidad de líneas sin macros ni librerías adicionales:
 
-### Directivas #pragma para la vectorización
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
 
-> Las directivas `#pragma` no son estándar y solo funcionan en los compiladores de GNU como gcc y g++. Es muy común que arroje un error al querer compilar en Xcode, ya que este usa el compilador Clang, al igual que en Visual Studio que usa el compilador MSVC.
-{: .prompt-warning }
-
-> Estos pueden solucionar ciertos `TLE` como en los problemas dentro de este [link](https://usaco.guide/adv/vectorization?lang=cpp#examples-from-cf), pero al usar el pragma `GCC target("avx2")` junto con containers del STL o iteradores o cualquier función de la STL que use internamente `std::allocator()` soltara un error, asi que descomentar los pragmas a discreción
-{: .prompt-danger}
-
-La vectorización es el desarrollo de un bucle combinado con la generación de instrucciones SIMD (Single Instruction, Multiple Data) empaquetadas por parte del compilador para los procesadores con arquitectura x86.
-
-Los juzgados virtuales son los que compilan nuestros códigos, por lo que no podemos aplicar parámetros al compilador directamente como lo haríamos en nuestra terminal, por ejemplo en este caso se aplica la optimización O2 (la optimización por defecto) al compilador g++: `g++ -O2 code.cpp`. Y no habría problema en no poder editar los parámetros de compilación si no se haya visto ya en múltiples ocasiones que no usarlos puede ocasionar un Time limit exceeded, como en el problema [855F Nagini](https://codeforces.com/contest/855/problem/F), donde paso que cuando [no se usaron los pragmas](https://codeforces.com/contest/855/submission/89815214) lanzo un `TLE` y cuando [si se usaron pragmas](https://codeforces.com/contest/855/submission/72962508) se pudo reducir el tiempo hasta en un 61.4%.  
-
-En nuestra plantilla incluimos el `#pragma optimize("Ofast,unroll-loops")`, que seria similar a ejecutar `g++ -Ofast -funroll-loops code.cpp`
-
-- El parámetro 'Ofast' aplica todas las optimizaciones agresivas de 'O3' junto con otras optimizaciones que rompen algunos de los estándares de C++, ya que también incluye el parámetro `-ffast-math` el cual trae problemas con números de punto flotante, por lo que se recomienda cambiar a 'O3' para problemas geométricos o que usen números decimales.
-
-- El parámetro 'fast-math' asume que la aritmética de punto flotante es asociativa por lo que puede dar resultados
-, también redondea números 'denormals' a 0.0 ya que el manejarlos es costoso para el procesador y por ultimo puede dar errores de signo como lo es en el caso de las sumas con signo de cero. Una manera de mitigar ligeramente los efectos es usar `double` en lugar de `float`, pero aun así existirán errores.
-
-    Esto se puede ver reflejado en este fragmento de código:
-
-    ```c++
-    float a = 1.0f, b = 1e10f, c = -1e10f;
-    float sum = a + (b + c);        // difiere de: (a + b) + c resultando en 1 envés de 0
-    float denormal = 1e-45f - 0.0f; // se redondea a 0.0 en lugar de 1.42857e+09 
-    float zero = -0.0f + 0.0f;      // Resulta en -0.0 en lugar de 0.0
-    ```
-
-- El parámetro 'unroll-loops' permite un desarrollo agresivo del bucle convirtiendo los bucles con longitud determinable en múltiples instrucciones, lo que reduce el número de ramas (branches) y optimiza el cálculo en paralelo, pero esto aumenta el tamaño del código y puede provocar errores en la caché de instrucciones.
-
-    Por ejemplo, este bucle:
-
-    ```c++
-    for (int i = 0; i < 5; ++i){
-        std::cout << i ;
-    }
-    ```
-    se podría convertir bajo el parámetro 'unroll-loops' en algo similar a esto:
-
-    ```c++
-    int i = 0;
-    if (i < 5) { std::cout << i; ++i; }
-    if (i < 5) { std::cout << i; ++i; }
-    if (i < 5) { std::cout << i; ++i; }
-    if (i < 5) { std::cout << i; ++i; }
-    if (i < 5) { std::cout << i; ++i; }
-    ```
-
-En nuestra plantilla también incluimos `#pragma GCC target("avx2")`, esto permite la vectorización y optimización de operaciones en vectores al decirle al compilador que genere el código utilizando estas instrucciones a procesadores que soportan el conjunto de instrucciones AVX2.
-
-Las instrucciones regulares (sin AVX) son ejecutadas por el procesador una a la vez, mientras que las instrucciones AVX usan registros especiales capaces de contener más bits que un registro normal. Por ejemplo, hay procesadores que admiten AVX-256pueden realizar operaciones (como cargar, almacenar, sumar, etc.) en 256 bits que pueden contener 8 enteros de 32 bits, 4 números de punto flotante de 64 bits, o 2 enteros de 64 bits simultáneamente. Esto básicamente es un tipo de paralelismo a nivel de instrucción (SIMD), lo que significa que puedes realizar operaciones sobre múltiples datos alineados en paralelo.
-
-Esto llega a ser muy útil, por ejemplo, cuando se trabaja con matrices, los bucles pueden tomar pasos más grandes y ejecutar operaciones en múltiples elementos simultáneamente, lo que puede resultar en una aceleración de hasta 2, 4 o incluso 8 veces más en comparación con el código sin estas optimizaciones.
-
-### Directiva #include <bits/stdc++.h>
-
-> La librería `<bits/stdc++.h>` no es estándar y solo funciona en los compiladores de GNU como gcc y g++. Es muy común que arroje un error al querer compilar en Xcode, ya que este usa el compilador Clang, al igual que en Visual Studio que usa el compilador MSVC.
-{: .prompt-warning }
-
-En nuestra plantilla usamos `#include<bits/stdc++.h>` ya que [esta librería](https://github.com/gcc-mirror/gcc/blob/master/libstdc%2B%2B-v3/include/precompiled/stdc%2B%2B.h) incluye todas las librerías de la STL que podríamos utilizar en nuestros algoritmos como lo son: `<algorithm>`, `<bitset>`, `<iostream>`, `<iterator>`, `<limits>`, `<map>`, `<queue>`, `<set>`, `<stack>`, `<vector>`, entre otras librerías.
-
-La única desventaja de incluir esta librería aparte de no ser estándar, es que incrementa el tiempo de compilación, pero como el tiempo de compilación no afecta al resultado del juez virtual, entonces el incluirla nos ahorra el tiempo que tardaríamos en memorizar e incluir cada librería a mano.  
-
-## Definiciones globales (Global definitions)
-
-### Directiva using
-
-`using` es una directiva usada para definir apodos/sinónimos/alias para un tipo de dato y a diferencia de la directiva `typedef`, `using` permite el uso en y de containers (estructuras de datos) de la librería estándar (STL).
-
-Algunos ejemplos de usos comunes seria para un tipo de dato entero matricial: `using imat = std::vector<std::vector<int>>;` o para ahorrar los parámetros del tipo de dato de un container, por ejemplo `using llvec = std::vector<ll>;`, `using iip = std::pair<int,int>;`, `using icp = std::pair<int,char>;`, etc. 
-
-En nuestro caso uno de los tipos de datos más usados es el tipo de dato `long long` y `unsigned long long`, debido a que tienen capacidad de 8 bytes en procesadores de 64 bits.
--  `long long`: Tiene un rango que va desde -9,223,372,036,854,775,808 hasta 9,223,372,036,854,775,807
-- `unsigned long long`: Tiene un rango que va desde 0 hasta 18,446,744,073,709,551,615
-
-> Mucho cuidado de no confundir `long long` con `long`, ya que el tipo de dato `long` es un sinónimo de `int` teniendo ambas una capacidad de 4 bytes.
-{: .prompt-warning }
-
-#### using namespace std
-
-En programación competitiva, utilizamos `using namespace std;` para evitar escribir `std::` antes de cada función o contendedor de la librería estándar (STL) repetidamente y ahorrar tiempo. Sin embargo, fuera de la programación competitiva, usar `using namespace std;` es una muy mala práctica. En un proyecto real, donde se importan varias librerías, pueden surgir conflictos de nombres. 
-
-Por ejemplo, considera que tu proyecto utiliza las funciones `std::static_cast` y `std::bind`, pero también incorpora múltiples funciones de la librería Boost, como `boost::lexical_cast` y `boost::bind`. No habrá problemas si se usa `static_cast` o `lexical_cast` sin los prefijos de las librerías, pero si se quisiera usar la función `bind`, el proyecto puede compilar correctamente pero no funcionaria como se esperaba, ya que todas las referencias a la función `bind` se asumirán como `std::bind` en lugar de `boost::bind`.
-
-La alternativa a usar `using namespace std;` es emplear declaraciones específicas para los elementos que se necesiten, como `using std::cin;`, `using std::cout;`, `using std::cerr;`, etc.
-
-### Directivas #define
-
-Las directivas `#define` en C y C++ funcionan de manera similar a las macros y la directiva `equ` en ensamblador, ya que ambas permiten la sustitución directa de código cuando son referenciadas.
-
-Por ejemplo en C:
-
-```c
-#define TAM_MAX 50
-#define sum(a, b) ((a) + (b))
-```
-En el ensamblador (NASM) seria:
-
-```nasm
-TAM_MAX equ 50
-%macro sum 2
-    %1 + %2
-%endmacro
-```
-
-#### #define endl '\n'
-
-`std::endl` es una de las maneras más comunes de insertar un salto de línea en C++, pero no solo inserta una nueva línea `\n` sino que también hace un 'flush' al flujo de salida estándar `stdout`, en pocas palabras es similar a ejecutar la función `std::ostream::.put('\n')` o `std::basic_ostream::put(std::basic_ios::widen('\n'))` y luego hacer `std::basic_ostream::flush`.
-
-Por esto en nuestra plantilla definimos cualquier llamada a `endl` hacia al carácter `\n`, para que podamos seguir usando esa función sin miedo a ralentizar el programa.
-
-Pero aun así en muchas implementaciones de C++, escribir `\n` provoca un 'flush' de todos modos, a menos que se haya ejecutado `std::ios::sync_with_stdio(false)` anteriormente como es el caso de nuestra plantilla, por lo que usar directamente `std::endl` es malo ya que en el caso del compilador GCC, este ejecuta tres pasos antes de ejecutar la función:
-
-
-1. Conversión del Carácter:
-    `__os.widen('\n')`: Convierte el carácter `\n` al tipo de carácter 'wide' según la configuración regional del flujo obtenida por el parámetro `_Traits`.
-1. Inserción del Carácter:
-    `__os.put(__os.widen('\n'))`: Inserta el carácter convertido en el flujo de salida. Esta operación agrega el carácter `\n` al búfer del flujo a través de la función `put`
-1. Flush del búfer :
-    `flush(__os.put(__os.widen('\n')))` llama a `flush()`, que a su vez llama a `__os.flush()` para asegurar que todos los datos en el búfer del flujo se escriban inmediatamente en la salida estándar (stdout).
-
-Dado estos pasos, la función `std::endl` se implementa así en el [compilador GCC](https://github.com/gcc-mirror/gcc/blob/9116490c1b03dac18f10e42df03731a3aed0b4e9/libstdc%2B%2B-v3/include/std/ostream#L731):
-
-```c++
-  template<typename _CharT, typename _Traits>
-    inline basic_ostream<_CharT, _Traits>&
-    endl(basic_ostream<_CharT, _Traits>& __os)
-    { return flush(__os.put(__os.widen('\n'))); }
-```
-
-en ensamblador la función `std::endl` se veria de esta manera:
-
-```nasm
-doEndl():
-        push    rbx
-        mov     edx, 12
-        mov     esi, OFFSET FLAT:.LC0
-        mov     edi, OFFSET FLAT:std::cout
-        call    std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-        mov     rax, QWORD PTR std::cout[rip]
-        mov     rax, QWORD PTR [rax-24]
-        mov     rbx, QWORD PTR std::cout[rax+240]
-        test    rbx, rbx
-        je      .L10
-        cmp     BYTE PTR [rbx+56], 0
-        je      .L5
-        movsx   esi, BYTE PTR [rbx+67]
-.L6:
-        mov     edi, OFFSET FLAT:std::cout
-        call    std::basic_ostream<char, std::char_traits<char> >::put(char)
-        pop     rbx
-        mov     rdi, rax
-        jmp     std::basic_ostream<char, std::char_traits<char> >::flush()
-.L5:
-        mov     rdi, rbx
-        call    std::ctype<char>::_M_widen_init() const
-        mov     rax, QWORD PTR [rbx]
-        mov     esi, 10
-        mov     rax, QWORD PTR [rax+48]
-        cmp     rax, OFFSET FLAT:_ZNKSt5ctypeIcE8do_widenEc
-        je      .L6
-        mov     rdi, rbx
-        call    rax
-        movsx   esi, al
-        jmp     .L6
-.L10:
-        call    std::__throw_bad_cast()
-_GLOBAL__sub_I_doEndl():
-        sub     rsp, 8
-        mov     edi, OFFSET FLAT:_ZStL8__ioinit
-        call    std::ios_base::Init::Init() [complete object constructor]
-        mov     edx, OFFSET FLAT:__dso_handle
-        mov     esi, OFFSET FLAT:_ZStL8__ioinit
-        mov     edi, OFFSET FLAT:_ZNSt8ios_base4InitD1Ev
-        add     rsp, 8
-        jmp     __cxa_atexit
-```
-
-A diferencia de solo imprimir el caracter `\n`: 
-
-```nasm
-doNewline():
-        mov     edx, 13
-        mov     esi, OFFSET FLAT:.LC0
-        mov     edi, OFFSET FLAT:_ZSt4cout
-        jmp     std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-_GLOBAL__sub_I_doNewline():
-        sub     rsp, 8
-        mov     edi, OFFSET FLAT:_ZStL8__ioinit
-        call    std::ios_base::Init::Init() [complete object constructor]
-        mov     edx, OFFSET FLAT:__dso_handle
-        mov     esi, OFFSET FLAT:_ZStL8__ioinit
-        mov     edi, OFFSET FLAT:_ZNSt8ios_base4InitD1Ev
-        add     rsp, 8
-        jmp     __cxa_atexit
-```
-
-donde solo imprimir `\n` resulta en 16 líneas de ensamblador comparadas con las 45 líneas necesarias para `std::endl`, más líneas en ensamblador no necesariamente significa peor rendimiento, el problema es que como estas afectan directamente al búfer de salida, aquí si afecta la cantidad de líneas.
-
-#### Macros
-
-##### #define all(x)
-Esta macro simplifica el uso de rangos en contenedores STL. En lugar de escribir `x.begin()`, `x.end()`, puedes usar `all(x)` para pasar el rango de iteradores a funciones como sort.
-
-```c++
-vector<int> v{3,4,1,2};
-sort( v.begin(),v.end() );
-sort( all(v) );
-```
-
-##### #define yn(x)
-
-Esta macro imprime "YES" si `x` es verdadero y "NO" si `x` es falso, proporcionando una forma rápida de mostrar resultados booleanos en la salida estándar.
-
-```c++
-bool flag = true;
-yn(flag);  // Imprime: YES
-flag = !flag;
-yn(flag); // Imprime: NO
-```
-
-##### #define dbg(...)
-
-La macro `dbg()` nos permite ejecutar de una manera simple nuestros códigos, solamente rodeamos alguna variable o función que devuelva valores y nos dirá en que línea esta, cual variable y su valor.
-
-```c++
-int i=3;
-while(--i){
-    dbg(i);/* imprime: `LINE(3)->[i]: [2]` y `LINE(3)->[i]: [1]` */
+void solve() {
+    return;
 }
-int j = i;
-dbg(j);// imprime: `LINE(6)->[j]: [0]`
-```
 
-> dejar múltiples `dbg()` incluidos puede causar un TLE al subir el problema.
-{: .prompt-warning }
-
-
-#### defines para Containers
-
-los defines restantes son usados para optimizar la escritura de los containers (estrucutras de datos) de la STL, usamos `F`y `S` para acceder al primer `first` o segundo `second` elemento de un pair o map, y también usamos el atajo pb para ahorrarnos tiempo al escribir `push_back`.
-
-Varias plantillas incluyen `eb` para `emplace_back`, esta funciona de manera similar a `push_back`, pero la principal diferencia tiene que ver con constructores implícitos contra constructores explícitos.
-
-- `emplace_back` construye el nuevo elemento en su lugar utilizando los argumentos proporcionados como argumentos para su constructor.
-
-```c++
-void emplace_back(Args&&... args) {
-    if (size == capacity) {
-        // redimension del vector
-        reserve(capacity == 0 ? 1 : 2 * capacity);
-    }
-    // Coloca el nuevo elemento en el lugar apropiado usando `new`
-    new(&data[size]) T(std::forward<Args>(args)...);
-    ++size;
+int main() {
+    ios::sync_with_stdio(0); cin.tie(0);
+    int tc = 1;
+    // cin >> tc;
+    while (tc--) solve();
+    return 0;
 }
 ```
 
-- `push_back` construye un elemento copia en un espacio auxiliar, para después moverlo al final del container.
+---
 
-```c++
-void push_back(const T& value) {
-    if (size == capacity) {
-        // redimension del vector
-        reserve(capacity == 0 ? 1 : 2 * capacity);
-    }
-    // Copia el valor en el lugar apropiado
-    data[size] = value;
-    ++size;
+# Plantilla Larga (Oficial de Competencia)
+
+A continuación presentamos la plantilla estándar y completa del club, la cual se encuentra disponible y versionada en el repositorio de GitHub [CPC-GALLOS/Plantilla](https://github.com/CPC-GALLOS/Plantilla). Está diseñada para maximizar la velocidad de escritura, evitar errores de compilación comunes y proporcionar estructuras de alto rendimiento alineadas con nuestro [ICPC Team Reference Document (Notebook TRD)](https://github.com/CPC-GALLOS/Notebook):
+
+```cpp
+// _autor_
+// link y/o nombre del problema
+#include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp> // PBDS: estructuras de datos basadas en políticas
+#include <ext/pb_ds/tree_policy.hpp>     // Requerido para estadísticas de orden (ordered_set)
+using namespace std;
+using namespace __gnu_pbds; // PBDS: ordered_set & gp_hash_table
+
+/* TLE Pragmas & Advertencias (descomentar con cuidado):
+#pragma GCC optimize("O3,unroll-loops")          // O3 optimiza sin fast-math (que rompe signos en floats: -0.0+0.0=-0)
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt") // SIMD + operaciones de bits en HW (bmi/lzcnt/popcnt)
+*/
+
+using ll = long long; using ull = unsigned long long; using ld = long double;
+using pii = pair<int, int>; using pll = pair<ll, ll>;
+
+// --- PBDS Policy-Based Data Structures ---
+// 1. ordered_set: find_by_order(k) (k-ésimo menor, 0-idx) & order_of_key(x) (cnt < x) en O(log N)
+template <typename T>
+using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+// Truco para ordered_multiset (duplicados permitidos): usar pair<T, int> con ID único
+
+// 2. gp_hash_table: Tabla hash de direccionamiento abierto 3x-5x más rápida que unordered_map
+// gp_hash_table<int, int> fast_map;
+
+#define endl '\n'
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
+#define gs(n) ((n * (n + 1)) >> 1)
+#define pb push_back   // Seguro con llaves {a, b}; evita llamadas a constructores explícitos
+#define eb emplace_back // Construcción in-place v.eb(a, b) sin copias temporales
+#define F first
+#define S second
+#define sz(x) (int)(x).size()
+#define yn(x) (cout << ((x) ? "YES\n" : "NO\n"))
+#define dbg(...) cerr<<"LINE("<<__LINE__<<")->["<<#__VA_ARGS__<<"]: ["<<(__VA_ARGS__)<<"]\n";
+
+// Temporizador de ejecución (para benchmarking local):
+// auto start_time = chrono::high_resolution_clock::now();
+// auto duration = chrono::duration_cast<chrono::milliseconds>(chrono::high_resolution_clock::now() - start_time).count();
+
+void solve() {
+    return; // Lógica de solución para cada caso de prueba
+}
+
+int main() {
+    ios::sync_with_stdio(0); cin.tie(0);
+    // freopen("in.txt", "r", stdin); freopen("out.txt", "w", stdout);
+    int tc = 1;
+    // cin >> tc;
+    while (tc--) solve();
+    return 0;
 }
 ```
 
-Pero hay que tener cuidado, ya que se ha visto en varias ocasiones que usar `emplace_back` produce errores como en este [post](https://codeforces.com/blog/entry/69360?locale=en), o en un ejemplo más simple:
+> La plantilla está disponible en el repositorio [CPC-GALLOS/Plantilla](https://github.com/CPC-GALLOS/Plantilla). ¡Recuerda sugerir tus mejoras a través de un Pull Request!
 
-```c++
-std::vector<std::unique_ptr<T>> v;
-T a;
-v.emplace_back(std::addressof(a)); // compila
-v.push_back(std::addressof(a)); // no compila
-``` 
+---
 
-Esto sucede ya que `std::unique_ptr<T>` tiene un constructor explícito de `T *`. Debido a que `emplace_back` puede usar constructores explícitos, pasar un puntero que no es propietario si compilara. Sin embargo, cuando `v` sale del alcance (scope), el destructor intentará eliminar ese puntero, que no fue asignado por `new` porque es solo un objeto de la pila (stack). Esto lleva a comportamientos indefinidos. 
+# Explicación y Justificación de la Plantilla Larga
 
-En conclusión recomendamos usar `push_back` para evitar errores en la programación competitiva, pero si se quisiera usar ambas funciones recomendamos usar `push_back` solamente cuando quieras mover un objeto ya existente hacia un container y usar `emplace_back` cuando los elementos en si son containers ya que esto en sí, si será más rápido.
+Cada línea de nuestra plantilla ha sido cuidadosamente seleccionada con base en análisis de ensamblador, benchmarks en jueces virtuales como [Codeforces](https://codeforces.com/) y reglamentos del [ICPC](https://icpc.global/worldfinals/rules). A continuación se desglosa el propósito y la mecánica interna de cada componente.
 
-Algunos ejemplos donde `emplace_back` es más rápido:
+---
 
-```c++
-vector<pair<int,int>> vpii;
-vpii.push_back(make_pair(1, 2)); 
-vpii.emplace_back(make_pair(1, 2)); // misma velocidad que `push_back`
-vpii.emplace_back(1, 2); // misma velocidad pero sintaxis simplificada
-```
+## 1. La Cabecera y Directivas del Compilador
 
-```c++
-vector<vector<int>> imat;
-imat.push_back(vector<int>{1, 2, 3}); /* usa el constructor vector<int> 
-                                         y luego lo mueve al container externo*/
-imat.emplace_back(vector<int>{1, 2, 3}); // realiza lo mismo
-imat.emplace_back(initializer_list<int>{1, 2, 3}); // más rápido, mueve los datos al constructor
-```
+### Inclusión Universal: `#include <bits/stdc++.h>`
 
-## Código principal (Driver code)
+La cabecera `<bits/stdc++.h>` es un encabezado precompilado de GNU GCC que incluye todas las bibliotecas de la STL de C++ ([GNU stdc++.h](https://gcc.gnu.org/onlinedocs/gcc-4.8.0/libstdc++/api/a01541_source.html)): `<iostream>`, `<vector>`, `<algorithm>`, `<numeric>`, `<cmath>`, `<string>`, `<queue>`, `<stack>`, `<set>`, `<map>`, `<bitset>`, entre otras ([Govil, 2022](https://www.geeksforgeeks.org/bitsstdc-h-c/)).
 
-### E/S rápida (Fast I/O)
-
-La función `ios::sync_with_stdio(0)` desactiva la sincronización entre los flujos estándar de C y C++. De forma predeterminada, todos los flujos estándar están sincronizados, lo que en la práctica le permite combinar E/S con estilos de C y C++ y obtener resultados predecibles. Si se desactiva la sincronización, entonces los flujos de C++ pueden tener sus propios buffers independientes, lo que hace más eficiente la entrada y salida de datos con `std::cin` y `std::cout`.
-
-En múltiples plantillas esta incluido el uso de `std::ios_base::sync_with_stdio(false)` en nuestro caso al usar `using namespace std;` ahorramos la parte de escribir `std::`, también en lugar de `false` solo colocamos un `0` que tendrán el mismo valor, por ultimo usamos `ios` solamente en lugar de `ios_base` para ahorrarnos el escribir esos 5 caracteres extra, ya que [`basic_ios` hereda de `ios_base`](https://github.com/gcc-mirror/gcc/blob/6d811c15e622572749a2e84d3884cb5ce3296578/libstdc%2B%2B-v3/include/bits/basic_ios.h#L67) e [`ios` es un alias de `basic_io`](https://github.com/gcc-mirror/gcc/blob/6d811c15e622572749a2e84d3884cb5ce3296578/libstdc%2B%2B-v3/include/std/iosfwd#L134)
-
-
-> Recordar que esta función elimina la compatibilidad de interfaces entre C (`<stdio.h>`) y C++ (`<iostream>`), por lo que se recomienda evitar el uso simultáneo de funciones `printf` y `scanf` de C junto con las de C++ `std::cin` y `std::cout`. 
-{: .prompt-warning }
-
-En nuestra plantilla también incluimos, esto le dice a `std::cin` que no debe esperar a que se vacíe el búfer de salida estándar (stdout) dado por `std::cout`, antes de poder realizar sus operaciones. Esto se debe a que por defecto [`std::cin` esta atado a `std::cout`](https://github.com/gcc-mirror/gcc/blob/6d811c15e622572749a2e84d3884cb5ce3296578/libstdc%2B%2B-v3/src/c%2B%2B98/ios_init.cc#L95) y debe esperar a que se vacíe dicho búfer.
-
-> Cuidado al usar esta función al debugear o usarla en códigos ajenos a la programación competitiva ya que cambia la secuencia lógica en la que se muestran los `std::cout`
-{: .prompt-warning }
-
-> En varios códigos también se puede encontrar el uso de `cout.tie(NULL)`, y esto literalmente no hace nada ya que `std::cout` ya está atado a `NULL` por defecto.
+> `<bits/stdc++.h>` es un archivo específico de la implementación de GCC y Clang. No forma parte del estándar ISO C++, por lo que en entornos que usan MSVC (Visual Studio tradicional) o Xcode sin GCC puede requerir configuración adicional. En todos los jueces virtuales oficiales (ICPC, Codeforces, AtCoder, CSES) GCC/Clang está soportado y es la opción recomendada.
 {: .prompt-info }
 
-También en nuestra plantilla incluimos `//freopen("in.txt", "r", stdin");`, que es útil para competencias reales donde no tenemos acceso para copiar y pegar múltiples casos en nuestros programas. Podemos descomentar esta línea y todos los `std::cin` en nuestro programa serán leídos desde un archivo llamado `in.txt`{: .filepath} en lugar de la terminal.
+Su ventaja en competencia es inmensa: ahorra el tiempo de memorizar e incluir manualmente decenas de encabezados y previene errores de compilación por librerías faltantes. El leve incremento en el tiempo de compilación no afecta en absoluto el tiempo de ejecución en el juez virtual.
 
+---
 
-### while test cases
+### Policy-Based Data Structures (PBDS)
 
-La variable `tc` significa en este caso 'test cases' (casos base), y esta variable se usa cuando un problema te pide repetir el mismo algoritmo múltiples veces. 
+La plantilla incorpora las bibliotecas de extensiones avanzadas de GCC:
 
-> al no afectar al tamaño de entrada, esta variable no afecta a la complejidad de tiempo del código
+```cpp
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+```
+
+#### 1. `ordered_set` (Árbol Rojo-Negro Aumentado)
+La STL tradicional (`std::set`) no permite saber qué elemento ocupa la posición $k$ ni cuántos elementos son menores a un valor $x$ en tiempo sublineal. Con PBDS definimos:
+
+```cpp
+template <typename T>
+using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+```
+
+Esto habilita dos operaciones fundamentales en **$O(\log N)$** ([adamant, 2014](https://codeforces.com/blog/entry/11080)):
+- **`s.find_by_order(k)`**: Retorna un iterador al $k$-ésimo elemento más pequeño (indexado en base 0). Si $k \ge s.\text{size}()$, retorna `s.end()`.
+- **`s.order_of_key(x)`**: Retorna la cantidad de elementos estrictamente menores que $x$.
+
+> **Truco para Multiconjuntos (`ordered_multiset`):** Si necesitas elementos duplicados, no uses `less_equal<T>` (ya que rompe la función `erase`), sino un par ordenado `ordered_set<pair<T, int>>` donde el segundo valor almacena un identificador único incremental.
+{: .prompt-tip }
+
+#### 2. `gp_hash_table` (Tabla Hash de Alto Rendimiento)
+`gp_hash_table` es una tabla hash de direccionamiento abierto (*open addressing with probe sequence*) provista por PBDS que suele ser de **3 a 5 veces más rápida** que `std::unordered_map` (la cual utiliza encadenamiento separado / *separate chaining*).
+
+---
+
+### Directivas `#pragma` para Vectorización SIMD y TLE
+
+Las directivas `#pragma` instruyen al optimizador de GCC para generar código vectorial y aprovechar instrucciones del procesador que no siempre se activan por defecto ([Nor, 2021](https://codeforces.com/blog/entry/96344); [Slotin, 2022](https://en.algorithmica.org/hpc/compilation/flags/)):
+
+```cpp
+/*
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
+*/
+```
+
+1. **`optimize("O3,unroll-loops")`**:
+   - **`O3`**: Aplica vectorización automática y optimizaciones agresivas sin romper los estándares IEEE 754 de punto flotante. A diferencia de `Ofast` (que activa `-ffast-math` y puede producir errores como `-0.0 + 0.0 = -0.0` o alteraciones en asociatividad de números flotantes), `O3` es seguro para problemas matemáticos y geométricos ([Ponml, 2011](https://stackoverflow.com/questions/7420665/what-does-gccs-ffast-math-actually-do); [Walfridsson, 2021](https://kristerw.github.io/2021/10/19/fast-math/)).
+   - **`unroll-loops`**: Desenrolla bucles de longitud determinable, reduciendo el costo de saltos condicionales (*branch overhead*) y facilitando el pipeline de instrucciones en la CPU.
+
+2. **`target("avx2,bmi,bmi2,lzcnt,popcnt")`**:
+   - **`avx2`**: Permite al compilador utilizar registros AVX2 de 256 bits para procesar hasta 8 enteros de 32 bits simultáneamente en una sola instrucción ([Intel Guide to Vectorization](https://www.intel.com/content/dam/develop/external/us/en/documents/31848-compilerautovectorizationguide.pdf); [Wikipedia AVX](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions)).
+   - **`bmi, bmi2, lzcnt, popcnt`**: Habilita instrucciones de manipulación de bits a nivel de hardware, acelerando operaciones sobre máscaras binarias.
+
+> Al usar `target("avx2")` junto con contenedores o asignadores de memoria de la STL en ciertas versiones antiguas de GCC puede generarse un error de alineación con `std::allocator`. Por ello, en nuestra plantilla se mantienen comentados para activarlos a discreción cuando un problema intensivo esté al borde del TLE ([USACO Vectorization Guide](https://usaco.guide/adv/vectorization?lang=cpp)).
+{: .prompt-danger }
+
+---
+
+## 2. Tipos de Datos y Aliases (`using`)
+
+```cpp
+using ll = long long; 
+using ull = unsigned long long; 
+using ld = long double;
+using pii = pair<int, int>; 
+using pll = pair<ll, ll>;
+```
+
+### ¿Por qué `using` en lugar de `typedef` o `#define`?
+
+- `using` es más legible y moderno (estándar C++11 en adelante).
+- A diferencia de `typedef`, `using` soporta plantillas con parámetros (*template aliases*), como vimos con `ordered_set` ([Qualified, 2020](https://codeforces.com/blog/entry/77799)).
+- Nunca se debe usar `#define ll long long` porque es una simple sustitución textual del preprocesador que puede causar errores sintácticos con modificadores (`unsigned ll` o punteros `ll* a, b`).
+
+### Rangos de Tipos Primitivos (Arquitectura x64)
+
+- **`int`** (32 bits): $[-2.14 \times 10^9, 2.14 \times 10^9]$.
+- **`ll` (`long long`, 64 bits)**: $[-9.22 \times 10^{18}, 9.22 \times 10^{18}]$. Obligatorio cuando una suma o producto acumulado supera $2 \times 10^9$ ([Microsoft Data Type Ranges](https://learn.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-170)).
+- **`ull` (`unsigned long long`, 64 bits sin signo)**: $[0, 1.84 \times 10^{19}]$.
+- **`ld` (`long double`, 80/128 bits)**: Proporciona entre 18 y 19 dígitos significativos de precisión decimal, crucial en problemas de geometría computacional donde `double` (15 dígitos) sufre de errores de redondeo.
+
+### `using namespace std;`
+
+En programación competitiva se adopta universalmente para evitar anteponer `std::` a cada llamada (`cin`, `cout`, `vector`, `sort`), ahorrando tiempo y reduciendo la longitud visual del código ([Biggs, 2009](https://stackoverflow.com/questions/1452721/whats-the-problem-with-using-namespace-std)).
+
+---
+
+## 3. Macros Esenciales (`#define`)
+
+### Salto de Línea Rápido: `#define endl '\n'`
+
+En C++, `std::endl` no solo inserta el carácter de nueva línea `\n`, sino que además ejecuta una llamada forzada a `flush()` en el flujo de salida `std::cout` ([cppreference endl](https://en.cppreference.com/w/cpp/io/manip/endl); [Langholtz, 2023](https://gist.github.com/louis-langholtz/9959fbc735a23b631e7d795d4eb0839f)).
+
+La implementación interna de `std::endl` en libstdc++ ([GNU ostream](https://github.com/gcc-mirror/gcc/blob/master/libstdc%2B%2B-v3/include/std/ostream)) demuestra este comportamiento:
+
+```cpp
+template<typename _CharT, typename _Traits>
+inline basic_ostream<_CharT, _Traits>&
+endl(basic_ostream<_CharT, _Traits>& __os) {
+    return flush(__os.put(__os.widen('\n')));
+}
+```
+
+En ensamblador x86-64, una llamada a `std::endl` genera más de 45 instrucciones incluyendo llamadas a `widen`, `put` y `flush`, mientras que imprimir directamente `'\n'` requiere únicamente 16 instrucciones y no vacía el búfer del sistema operativo innecesariamente. Con `#define endl '\n'`, podemos seguir usando la sintaxis habitual de `cout << x << endl;` sin riesgo de TLE.
+
+---
+
+### Macros de Rango y Colecciones: `all(x)` y `rall(x)`
+
+```cpp
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
+```
+
+- **`all(x)`**: Simplifica llamadas a algoritmos de `<algorithm>` como `sort(all(v))`, `reverse(all(v))` o `min_element(all(v))` ([Golovanov, 2020](https://codeforces.com/blog/entry/74684)).
+- **`rall(x)`**: Permite ordenar colecciones en orden descendente directo con `sort(rall(v))` sin necesidad de pasar `greater<T>()` como comparador.
+
+---
+
+### Suma de Gauss: `#define gs(n) ((n * (n + 1)) >> 1)`
+
+Calcula la sumatoria de los primeros $n$ números naturales $\sum_{i=1}^n i = \frac{n(n+1)}{2}$ en tiempo $O(1)$. El operador bitshift derecho `>> 1` realiza una división entera entre 2 a nivel de bits.
+
+---
+
+### Tamaño Seguro: `#define sz(x) (int)(x).size()`
+
+El método `.size()` de los contenedores STL retorna un tipo sin signo (`size_t` / `unsigned long`). Si se realizan operaciones aritméticas como `v.size() - 1` cuando el vector está vacío (`size() == 0`), se produce un subdesbordamiento (*underflow*) que resulta en $18446744073709551615$, provocando bucles infinitos y fallos de segmentación. Al convertirlo explícitamente a `int` con `sz(x)`, este peligro queda eliminado.
+
+---
+
+### Salida Booleana Rápida: `#define yn(x) (cout << ((x) ? "YES\n" : "NO\n"))`
+
+Muchos problemas en Codeforces, AtCoder y concursos ICPC solicitan responder `"YES"` o `"NO"`. Esta macro evalúa cualquier expresión booleana y emite la respuesta con su salto de línea de forma instantánea.
+
+---
+
+### Macro de Depuración: `#define dbg(...)`
+
+```cpp
+#define dbg(...) cerr<<"LINE("<<__LINE__<<")->["<<#__VA_ARGS__<<"]: ["<<(__VA_ARGS__)<<"]\n";
+```
+
+Permite inspeccionar variables durante la prueba local imprimiendo la línea exacta del código fuente, el nombre de la variable y su valor a través de `stderr` (`std::cerr`) ([angelbeats, 2020](https://codeforces.com/blog/entry/85544); [Gokhale, 2019](https://codeforces.com/blog/entry/65543); [Qi et al., Basic Debugging](https://usaco.guide/general/basic-debugging?lang=cpp)):
+
+```cpp
+int ans = 42;
+dbg(ans); // Salida en consola: LINE(35)->[ans]: [42]
+```
+
+> La salida de `std::cerr` no interfiere con la salida estándar `std::cout` calificada por los jueces virtuales, pero dejar múltiples llamadas `dbg()` activas dentro de bucles de $10^6$ iteraciones puede causar TLE.
+{: .prompt-warning }
+
+---
+
+### `push_back` vs `emplace_back` y Acceso a Pares
+
+```cpp
+#define pb push_back
+#define eb emplace_back
+#define F first
+#define S second
+```
+
+- **`F` y `S`**: Abreviaciones clásicas para acceder a los miembros de `std::pair` (`p.F` y `p.S`).
+- **`pb` vs `eb`**:
+  - `emplace_back` construye el elemento directamente en la memoria del vector usando *perfect forwarding* (`std::forward`), lo cual es muy eficiente al insertar tipos compuestos ([cppreference emplace_back](https://en.cppreference.com/w/cpp/container/vector/emplace_back); [Fertig, 2023](https://andreasfertig.blog/2023/04/push_back-vs-emplace_back-when-to-use-what/); [Stone, 2012](https://stackoverflow.com/questions/10890653/why-would-i-ever-use-push-back-instead-of-emplace-back/36919571#36919571)).
+  - En C++ moderno (C++11 en adelante), `push_back` combinado con inicialización por llaves (*brace-initialization* `v.pb({x, y})`) es igualmente óptimo y previene llamadas accidentales a constructores explícitos no deseados ([HosseinYousefi, Codeforces #15643](https://codeforces.com/blog/entry/15643)).
+
+---
+
+## 4. Código Principal (*Driver Code*) y Fast I/O
+
+```cpp
+void solve() {
+    return; // Lógica del problema
+}
+
+int main() {
+    ios::sync_with_stdio(0); cin.tie(0);
+    // freopen("in.txt", "r", stdin); freopen("out.txt", "w", stdout);
+    int tc = 1;
+    // cin >> tc;
+    while (tc--) solve();
+    return 0;
+}
+```
+
+### Mecánica de Fast I/O: `ios::sync_with_stdio(0); cin.tie(0);`
+
+1. **`ios::sync_with_stdio(0)`**: Desactiva la sincronización obligatoria entre los flujos estándar de C (`stdio`) y los de C++ (`iostream`). Al desactivarla, los flujos de C++ operan con búferes independientes mucho más grandes y eficientes ([cplusplus sync_with_stdio](https://cplusplus.com/reference/ios/ios_base/sync_with_stdio/); [yak_ex, 2011](https://codeforces.com/blog/entry/925)).
+   > Tras desactivar la sincronización, **no se deben mezclar** funciones de C (`printf`, `scanf`, `getchar`) con `std::cin` y `std::cout` en el mismo programa.
+   {: .prompt-danger }
+
+2. **`cin.tie(0)`**: Por defecto, `std::cin` está atado (*tied*) a `std::cout`, lo que significa que antes de cada operación de lectura `cin` vacía forzosamente el búfer de `cout`. Al pasarle `0` (o `nullptr`), se desacoplan ambos flujos y las lecturas masivas ocurren a la máxima velocidad posible ([Gorbachev, 2021](https://codeforces.com/blog/entry/90775); [Qi & Chen, Fast I/O](https://usaco.guide/general/fast-io?lang=cpp)).
+
+---
+
+### Estructura Modular: `void solve()` y Casos de Prueba (`while (tc--)`)
+
+En lugar de concentrar toda la solución dentro de la función `main`, nuestra plantilla delega cada caso de prueba a la función `void solve()`:
+
+1. **Facilita la salida temprana:** Permite usar `return;` en cualquier momento dentro de `solve()` al detectar un caso base o responder una consulta, sin detener la ejecución de los siguientes casos de prueba.
+2. **Ciclo `while (tc--)`:** En ensamblador, un bucle decremental comparando contra 0 genera menos instrucciones de salto condicional que un bucle `for (int i = 0; i < tc; i++)`.
+3. **Control de Estado:** En problemas multi-testcase (`cin >> tc`), es fundamental recordar reiniciar todas las variables globales y estructuras de datos (`vector.clear()`, `memset`) al inicio de cada llamada a `solve()`.
+
+---
+
+### Redirección de Archivos: `freopen`
+
+Para competencias presenciales o pruebas locales con archivos de prueba grandes, basta con descomentar:
+
+```cpp
+freopen("in.txt", "r", stdin);
+freopen("out.txt", "w", stdout);
+```
+
+Todas las lecturas de `cin` provendrán del archivo `in.txt`{: .filepath} y las salidas se escribirán automáticamente en `out.txt`{: .filepath}.
+
+---
+
+## 5. Configuración en VS Code
+
+Para utilizar esta plantilla de forma automática al abrir cualquier problema, recomendamos la extensión oficial [Competitive Programming Helper (CPH)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) para Visual Studio Code:
+
+1. Abre los ajustes de VS Code (`Ctrl + ,` / `Cmd + ,`).
+2. Busca `cph.general.defaultLanguageTemplateFileLocation`.
+3. Selecciona la ruta absoluta hacia tu archivo `Plantilla.cpp`{: .filepath}.
+
+![Configuración de plantilla en CPH](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/cph_settings.png)
+
+> Para más detalles sobre cómo armar tu entorno completo de desarrollo con GCC, VS Code y snippets, consulta nuestro artículo sobre [Entorno de Desarrollo](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/).
 {: .prompt-info }
 
-```c++
-int tc = 10;
-// Decrementa tc y repite el bucle si tc no es cero
-while(tc--) { 
-  // código a ejecutar: cin >> n; ...  
-}
-```
+---
 
-```nasm
-mov ecx, 10
-while:
-    ; código a ejecutar
-    loop while ; Decrementa ecx y salta a "while" si ecx no es cero
-```
+## Referencias
 
-esto es un poco más eficiente que:
-
-```c++
-for (int tc = 10; tc > 0 ; tc--) {
-  // código a ejecutar   
-}
-```
-
-```nasm
-for_loop:
-    cmp ecx, 0         ; Compara ecx con 0
-    jle end_loop       ; Si ecx <= 0, salta al final del bucle
-    ; código a ejecutar
-    dec ecx            ; Decrementa ecx (equivalente a tc--)
-    jmp for_loop       ; Salta de nuevo al inicio del bucle
-end_loop:
-```
-
-quizá no parezca mucho pero esto llega a optimizar el uso de líneas de ensamblador en un 75%
-
-
-### ++i en lugar de i++
-
-La diferencia entre el operador prefijo `++i` y el operador postfijo `i++` radica en el momento en que la variable es incrementada.
-
-- Para el operador prefijo `++i`, la variable se incrementa antes de que se use:
-
-```c++
-Foo& Foo::operator++() {
-  this->data += 1;
-  return *this;
-}
-```
-- Para el operador postfijo `i++`, la variable se usa y luego se incrementa:
-
-```c++
-Foo Foo::operator++(int ignored_value) { 
-  Foo tmp(*this);   /* la variable "tmp" no puede 
-                    ser optimizada por el compilador */
-  ++(*this);
-  return tmp;
-}  
-```
-
-Esto se ve más claro en los siguientes ejemplos:
-
-```c++
-int i,j,k,l; i = j = k = l = 0;
-std::cout << (i=i+1); // mostrara 1
-std::cout << (j+=1);  // mostrara 1
-std::cout << (++k);   // mostrara 1
-std::cout << (l++);   // mostrara 0
-```
-
-```c++
-int i = 10, j = 10;
-while (--j) { // se ejecutara 9 veces
-  // código a ejecutar 
-}
-while (j--) { // se ejecutara 10 veces
- // código a ejecutar 
-}
-```
-En la plantilla tenemos `for(int i=0;i<n;++i)` en lugar de `for(int i=0;i<n;i++)` ya que aunque el `for` ejecute el incremento al final en ambos casos, usar el operador prefijo optimiza un poco la complejidad en el espacio, ahorrándonos la creación de un objeto temporal por cada iteración de los ciclos.
-
-## Referencias 
-
+- adamant. (2014). *C++ STL: Policy based data structures*. Recuperado de <https://codeforces.com/blog/entry/11080>
 - angelbeats. (2020). *Macros for debugging*. Recuperado de <https://codeforces.com/blog/entry/85544>
 - Biggs, A. (2009). *What's the problem with "using namespace std;"?*. Recuperado de <https://stackoverflow.com/questions/1452721/whats-the-problem-with-using-namespace-std>
 - cplusplus. (s.f.). *std::basic_ostream::flush*. Recuperado de <https://cplusplus.com/reference/ostream/basic_ostream/flush>
@@ -494,6 +362,8 @@ En la plantilla tenemos `for(int i=0;i<n;++i)` en lugar de `for(int i=0;i<n;i++)
 - cplusplus. (s.f.). *std::ios_base::sync_with_stdio*. Recuperado de <https://cplusplus.com/reference/ios/ios_base/sync_with_stdio/>
 - cplusplus. (s.f.). *std::vector::emplace_back*. Recuperado de <https://cplusplus.com/reference/vector/vector/emplace_back/>
 - cplusplus. (s.f.). *std::vector::push_back*. Recuperado de <https://cplusplus.com/reference/vector/vector/push_back/>
+- CPC Gallos. (2024). *CPC Gallos Notebook - Team Reference Document (TRD)*. Recuperado de <https://github.com/CPC-GALLOS/Notebook>
+- CPC Gallos. (2024). *Plantilla Oficial de Competencia*. Recuperado de <https://github.com/CPC-GALLOS/Plantilla>
 - cppreference. (s.f.). *std::basic_ostream<CharT,Traits>::flush*. Recuperado de <https://en.cppreference.com/w/cpp/io/basic_ostream/flush>
 - cppreference. (s.f.). *std::endl*. Recuperado de <https://en.cppreference.com/w/cpp/io/manip/endl>
 - cppreference. (s.f.). *std::ios_base::sync_with_stdio*. Recuperado de <https://en.cppreference.com/w/cpp/io/ios_base/sync_with_stdio>
@@ -505,31 +375,32 @@ En la plantilla tenemos `for(int i=0;i<n;++i)` en lugar de `for(int i=0;i<n;i++)
 - GNU. (2024). *ostream-inst.cc*. Recuperado de <https://github.com/gcc-mirror/gcc/blob/master/libstdc%2B%2B-v3/src/c%2B%2B11/ostream-inst.cc>
 - GNU. (2024). *ostream*. Recuperado de <https://github.com/gcc-mirror/gcc/blob/master/libstdc%2B%2B-v3/include/std/ostream>
 - GNU. (2024). *stdc++.h*. Recuperado de <https://gcc.gnu.org/onlinedocs/gcc-4.8.0/libstdc++/api/a01541_source.html>
-- GNU. (s.f.). *Stream Buffers Chapter 13.  Input and Output*. Recuperado de <https://gcc.gnu.org/onlinedocs/libstdc++/manual/streambufs.html#io.streambuf.buffering>
-- GNU. (s.f). *3.11 Options That Control Optimization*. Recuperado de <https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html>
-- GNU. (s.f). *6.66.15 Function Specific Option Pragmas*. Recuperado de <https://gcc.gnu.org/onlinedocs/gcc/Function-Specific-Option-Pragmas.html>
-- GNU. (s.f). *7 Pragmas*. Recuperado de <https://gcc.gnu.org/onlinedocs/cpp/Pragmas.html>
+- GNU. (s.f.). *Stream Buffers Chapter 13. Input and Output*. Recuperado de <https://gcc.gnu.org/onlinedocs/libstdc++/manual/streambufs.html#io.streambuf.buffering>
+- GNU. (s.f.). *3.11 Options That Control Optimization*. Recuperado de <https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html>
+- GNU. (s.f.). *6.66.15 Function Specific Option Pragmas*. Recuperado de <https://gcc.gnu.org/onlinedocs/gcc/Function-Specific-Option-Pragmas.html>
+- GNU. (s.f.). *7 Pragmas*. Recuperado de <https://gcc.gnu.org/onlinedocs/cpp/Pragmas.html>
 - Gokhale, S. (2019). *Debugging in C++*. Recuperado de <https://codeforces.com/blog/entry/65543>
 - Gorbachev, E. (2021). *Ok, lets talk about cout.tie once and forever*. Recuperado de <https://codeforces.com/blog/entry/90775>
-- Golovanov, A.(2020). *C++ tips and tricks*. Recuperado de <https://codeforces.com/blog/entry/74684>
+- Golovanov, A. (2020). *C++ tips and tricks*. Recuperado de <https://codeforces.com/blog/entry/74684>
 - Govil, A. (2022). *<bits/stdc++.h> in C++*. Recuperado de <https://www.geeksforgeeks.org/bitsstdc-h-c/>
 - Hikikomorichka. (2021). *Useful C++ Tricks*. Recuperado de <https://codeforces.com/blog/entry/87283>
-- Intel. (s.f). *A guide to vectorization with Intel® C++ Compilers*. Recuperado de <https://www.intel.com/content/dam/develop/external/us/en/documents/31848-compilerautovectorizationguide.pdf>
+- HosseinYousefi. (2015). *C++ Tricks*. Recuperado de <https://codeforces.com/blog/entry/15643>
+- ICPC. (2024). *2024 ICPC World Finals Rules - Astana*. Recuperado de <https://icpc.global/worldfinals/rules>
+- Intel. (s.f.). *A guide to vectorization with Intel® C++ Compilers*. Recuperado de <https://www.intel.com/content/dam/develop/external/us/en/documents/31848-compilerautovectorizationguide.pdf>
 - Langholtz, L. (2023). *C++: More Reasons To Avoid std::endl*. Recuperado de <https://gist.github.com/louis-langholtz/9959fbc735a23b631e7d795d4eb0839f>
 - Microsoft. (2024). *Data Type Ranges*. Recuperado de <https://learn.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-170>
 - Monowar, T. (2023). *++i vs i++ which one is faster and why?*. Recuperado de <https://codeforces.com/blog/entry/115877>
 - Morton, A. (2023). *Effectiveness of sync_with_stdio in C++ io streams*. Recuperado de <https://copyprogramming.com/howto/c-io-streams-sync-with-stdio-no-difference>
-- NASM. (s.f.). *Chapter 4: The NASM Preprocessor*. Recuperado de <https://www.nasm.us/xdoc/2.10rc8/html/nasmdoc4.html>
 - Nor. (2021). *[Tutorial] GCC Optimization Pragmas*. Recuperado de <https://codeforces.com/blog/entry/96344>
-- Nor. (2021). *GCC Optimization Pragmas*. Recuperado de <https://nor-blog.codeberg.page/posts/2021-10-26-gcc-optimization-pragmas/>
 - Ponml. (2011). *What does gcc's ffast-math actually do?*. Recuperado de <https://stackoverflow.com/questions/7420665/what-does-gccs-ffast-math-actually-do>
-- Qi, B. & Chen, N. (s.f.). *Fast Input & Output*. Recuperado de <https://usaco.guide/general/fast-io?lang=cpp>
-- Qi, B. & Shrivastava, A. (s.f.). *Vectorization in C++*. Recuperado de <https://usaco.guide/adv/vectorization?lang=cpp>
-- Qi, B. et al. (s.f). *Basic Debugging*. Recuperado de <https://usaco.guide/general/basic-debugging?lang=cpp>
+- Qi, B. & Chen, N. (s.f.). *Fast Input & Output*. USACO Guide. Recuperado de <https://usaco.guide/general/fast-io?lang=cpp>
+- Qi, B. & Shrivastava, A. (s.f.). *Vectorization in C++*. USACO Guide. Recuperado de <https://usaco.guide/adv/vectorization?lang=cpp>
+- Qi, B. et al. (s.f.). *Basic Debugging*. USACO Guide. Recuperado de <https://usaco.guide/general/basic-debugging?lang=cpp>
 - Qualified. (2020). *Should I use "#define ll long long" or "typedef long long ll"*. Recuperado de <https://codeforces.com/blog/entry/77799>
-- Slotin, s. (2022).*Flags and Targets*. Recuperado de <https://en.algorithmica.org/hpc/compilation/flags/>
-- Slotin, s. (2022).*Situational Optimizations*. Recuperado de <https://en.algorithmica.org/hpc/compilation/situational/>
+- Slotin, S. (2022). *Flags and Targets*. Algorithmica. Recuperado de <https://en.algorithmica.org/hpc/compilation/flags/>
+- Slotin, S. (2022). *Situational Optimizations*. Algorithmica. Recuperado de <https://en.algorithmica.org/hpc/compilation/situational/>
 - Stone, D. (2012). *Why would I ever use push_back instead of emplace_back?*. Recuperado de <https://stackoverflow.com/questions/10890653/why-would-i-ever-use-push-back-instead-of-emplace-back/36919571#36919571>
 - Walfridsson, K. (2021). *Optimizations enabled by -ffast-math*. Recuperado de <https://kristerw.github.io/2021/10/19/fast-math/>
-- wikipedia. (2023). *Advanced Vector Extensions*. Recuperado de <https://en.wikipedia.org/wiki/Advanced_Vector_Extensions>
-- Yawar, M. (2024). *emplace_back() vs push_back() in C++ Vectors*.Recuperado de <https://www.naukri.com/code360/library/vector-push_back-vs-emplace_back>
+- Wikipedia Editors. (2023). *Advanced Vector Extensions*. Recuperado de <https://en.wikipedia.org/wiki/Advanced_Vector_Extensions>
+- yak_ex. (2011). *Fast I/O for Competitive Programming*. Recuperado de <https://codeforces.com/blog/entry/925>
+- Yawar, M. (2024). *emplace_back() vs push_back() in C++ Vectors*. Recuperado de <https://www.naukri.com/code360/library/vector-push_back-vs-emplace_back>

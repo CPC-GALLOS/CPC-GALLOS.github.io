@@ -16,335 +16,408 @@ __Tabla de Contenidos:__
 
 ## ¿Qué es C++?
 
-C++ es un lenguaje compilado de alto nivel inventado por Bjarne Stroustrup en 1979 para extender la funcionalidad de C, incorporando el paradigma de la programación orientada a objetos a través de clases. Su ventaja sobre otros lenguajes radica en su velocidad y en la amplia funcionalidad gracias a funciones y algoritmos integrados en la librería estandard STL . Está entre en los 3 lenguajes más populares según [TIOBE](https://www.tiobe.com/tiobe-index/) 
+C++ es un lenguaje de programación compilado de propósito general y alto rendimiento creado por [Bjarne Stroustrup](https://www.stroustrup.com/) en 1979 como una extensión de C para incorporar el paradigma orientado a objetos. Su enorme ventaja en el ámbito del desarrollo de sistemas y la programación competitiva radica en su velocidad de ejecución cercana al metal, su modelo de memoria determinista sin recolección de basura (*Garbage Collector*) y la inmensa versatilidad de su biblioteca estándar ([STL](https://en.cppreference.com/w/cpp)). Es uno de los lenguajes más utilizados y populares a nivel mundial según índices como [TIOBE](https://www.tiobe.com/tiobe-index/).
 
+En el club [CPC Gallos](https://github.com/CPC-GALLOS), así como en nuestro [Team Reference Document (TRD / Notebook)](https://github.com/CPC-GALLOS/Notebook), utilizamos C++ de forma exclusiva. En este artículo profundizamos en las razones técnicas, empíricas y prácticas detrás de esta elección.
+
+---
 
 ## ¿Qué buscamos de un lenguaje de programación?
 
-1. Presencia en plataformas y competencias
-1. Velocidad de ejecución 
-1. Funciones, algoritmos, estructuras de datos en la librería estándar
-1. Sintaxis y velocidad de Entrada/Salida (I/O)
+En la programación competitiva (ICPC, IOI, Codeforces, AtCoder, CSES) y en sistemas de alto rendimiento, un lenguaje ideal debe cumplir con criterios fundamentales:
+
+1. **Presencia universal en plataformas y competencias oficiales**.
+2. **Velocidad de ejecución nativa y sobrecarga mínima de memoria (*Zero GC/VM Overhead*)**.
+3. **Biblioteca estándar rica (STL) y extensiones avanzadas del compilador (PBDS)**.
+4. **Sintaxis concisa y velocidad extrema de Entrada/Salida (Fast I/O)**.
+5. **Acceso a operaciones de bajo nivel: Intrínsecos de bits en hardware y tipos de 128 bits (`__int128`)**.
+6. **Previsibilidad en el presupuesto de tiempo y memoria ($1.0\text{s} \approx 10^8\text{ ops} \mid 256\text{MB}$)**.
+
+---
 
 ## 1. Presencia en plataformas y competencias
 
-- Lenguajes permitidos en Codeforces
+El soporte de un lenguaje varía entre diferentes jueces en línea y competencias presenciales:
 
-    - C, C++, C#, D, Go, Haskell, Java, Kotlin, OCaml, Delphi, Pascal, Perl, PHP, Python, Ruby, Rust, Scala, JavaScript y Node.js
+- **Lenguajes permitidos en [Codeforces](https://codeforces.com/):**
+  - C, C++, C#, D, Go, Haskell, Java, Kotlin, OCaml, Delphi, Pascal, Perl, PHP, Python, Ruby, Rust, Scala, JavaScript y Node.js.
+- **Lenguajes permitidos en el [ICPC](https://icpc.global/worldfinals/rules):**
+  - C, C++, Java, Kotlin y Python.
 
-- Lenguajes permitidos en el ICPC
-    - C, C++, Java, Kotlin y Python
+A pesar de que plataformas online aceptan decenas de opciones, en competencias oficiales como el ICPC y la IOI el catálogo se reduce drásticamente. C++ es el único lenguaje que cuenta con soporte garantizado y de primera clase en el 100% de los entornos competitivos mundiales.
 
-### Comparación de Lenguajes permitidos
+### Comparación de Lenguajes Permitidos
 
-| Lenguaje | Ventajas | Desventajas |
-| -------- | -------- | ----------- |
-| **Java** | - Gestión de memoria automática <br> - Gran cantidad de librerías | - Consumo alto de memoria  <br> - E/S lenta <br> - Sintaxis extensa y por clases |
-| **Kotlin** | - Sintaxis moderna y concisa <br> - Interoperabilidad con Java | - Comunidad y recursos más limitados <br> |
-| **Python3** | - Sintaxis simple y legible <br> - Gran cantidad de librerías | - Lento en la ejecución <br> - Gestión de memoria no tan eficiente |
-| **C** | - Muy rápido y eficiente en términos de rendimiento <br> - Soporta el uso de Macros y Alias | - Manejo de memoria manual <br> - Sin varias estructuras de datos |
-| **C++** | - Muy rápido y eficiente <br> - Amplia biblioteca estándar STL <br> - Interoperabilidad con C | - Complejidad en la gestión de memoria <br> - Curva de aprendizaje pronunciada <br> |
+| Lenguaje     | Ventajas                                                                                                                                                                               | Desventajas                                                                                                                                            |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Java**     | - Gestión automática de memoria.<br>- Amplia biblioteca de clases.                                                                                                                     | - Alto consumo de memoria (sobrecarga de objetos).<br>- I/O por defecto lento.<br>- Pausas imprevistas por *Garbage Collector*.<br>- Sintaxis verbosa. |
+| **Kotlin**   | - Sintaxis concisa y moderna.<br>- Interoperabilidad total con la JVM.                                                                                                                 | - Comparte la sobrecarga de memoria de la JVM.<br>- Comunidad y recursos más reducidos en CP.                                                          |
+| **Python 3** | - Sintaxis simple, rápida de tipear y muy legible.<br>- Soporte nativo para enteros de precisión arbitraria (`BigInt`).                                                                | - Ejecución sumamente lenta ($\approx 70\times$ más lento que C++).<br>- Alto riesgo de TLE en problemas con $N \ge 10^5$.                             |
+| **C**        | - Extremadamente rápido y bajo nivel.<br>- Sin sobrecarga de abstracciones.                                                                                                            | - Carece de estructuras de datos estándar (no tiene `vector`, `set`, `map`, `sort` genérico).<br>- Requiere implementar todo desde cero.               |
+| **Rust**     | - Rendimiento equivalente a C++.<br>- Seguridad de memoria en tiempo de compilación.                                                                                                   | - No admitido en el ICPC ni IOI.<br>- Curva de aprendizaje y sintaxis estricta para código rápido en competencias.                                     |
+| **C++**      | - Rendimiento nativo máximo.<br>- Enorme biblioteca STL y extensiones GCC ([PBDS](https://codeforces.com/blog/entry/11080)).<br>- Tipos nativos de 128 bits e intrínsecos de hardware. | - Gestión manual de memoria.<br>- Mensajes de error del compilador complejos.                                                                          |
 
-## 2. Velocidad de ejecución 
+---
 
-### Resultados normalizados de velocidad y consumo por lenguaje
-- por Pereiraa, R. et al.
+## 2. Velocidad de ejecución y consumo de memoria (Zero GC / VM Overhead)
+
+Una de las mayores ventajas de C++ es que compila directamente a código máquina nativo para la arquitectura destino (x86-64 o ARM), sin la intervención de máquinas virtuales (como la JVM de Java y Kotlin) ni de intérpretes (como CPython).
+
+### Cero Pausas de Recolección de Basura (*Garbage Collector*)
+
+En lenguajes con recolección de basura (Java, Kotlin, Python), el *Garbage Collector* puede activarse de forma impredecible durante la ejecución de un algoritmo intensivo, generando pausas que transforman un veredicto aceptado (**AC**) en un tiempo límite excedido (**TLE**). 
+
+Además, en Java y Kotlin cada objeto instanciado (como los nodos de un árbol, entradas de mapas o pares) acarrea una cabecera de objeto (*object header*) de 16 a 24 bytes. Esto significa que una estructura de datos con $4 \times 10^6$ elementos puede consumir más de 200MB en la JVM, rozando el límite estándar de 256MB. En contraste, en C++ los arreglos y `std::vector` almacenan tipos primitivos de forma contigua en memoria sin sobrecarga oculta, lo que garantiza una óptima **localidad espacial en la memoria caché del procesador** (*cache locality*).
+
+### Resultados empíricos de velocidad y consumo por lenguaje
+
+De acuerdo con el estudio de [Pereira et al. (2017)](https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf) y [Pereira et al. (2021)](https://www.smallake.kr/wp-content/uploads/2022/09/scp21.pdf), C y C++ lideran consistentemente los benchmarks de tiempo de ejecución y eficiencia energética:
 
 ```mermaid
 xychart-beta
-    title "Velocidad por Lenguaje"
+    title "Velocidad por Lenguaje (Normalizado a C = 1.00)"
     x-axis ["C", "C++", "Rust", "Java", "Python"]
-    y-axis "Tiempo (ms)"
-    bar [1.00, 1.56 , 1.04, 1.89, 71.90]
-    line [1.00, 1.56 , 1.04, 1.89, 71.90]
+    y-axis "Tiempo relativo"
+    bar [1.00, 1.56, 1.04, 1.89, 71.90]
+    line [1.00, 1.56, 1.04, 1.89, 71.90]
 ```
+
 ```mermaid
 xychart-beta
-    title "Consumo Energético por Lenguaje"
+    title "Consumo Energético por Lenguaje (Normalizado a C = 1.00)"
     x-axis ["C", "C++", "Rust", "Java", "Python"]
-    y-axis "Consumo Energético (J)"
+    y-axis "Energía relativa (J)"
     bar [1.00, 1.34, 1.03, 1.98, 75.88]
-    line[1.00, 1.34, 1.03, 1.98, 75.88]
+    line [1.00, 1.34, 1.03, 1.98, 75.88]
 ```
 
 ```mermaid
 xychart-beta
-    title "Consumo de Memoria por Lenguaje"
+    title "Consumo de Memoria por Lenguaje (Normalizado a C = 1.00)"
     x-axis ["C", "C++", "Rust", "Java", "Python"]
-    y-axis "Memory (Mb)"
+    y-axis "Memoria relativa"
     bar [1.17, 1.34, 1.54, 6.01, 2.80]
 ```
 
 ---
 
-### Ranking de velocidad por lenguaje ejecutando el algoritmo de la criba de Eratóstenes
-- por Plummer, D.
+### Benchmark: Criba de Eratóstenes
+
+En el benchmark de [Dave Plummer (2021)](https://youtu.be/tQtFdsEcK_s) sobre la implementación de la criba de Eratóstenes en más de 45 lenguajes ([Dave's Garage Report](https://plummerssoftwarellc.github.io/PrimeView/report?id=5740&hi=False&hf=False&hp=False&fi=&fp=&fa=&ff=&fb=&tp=False&sc=pp&sd=True)), C++ se ubicó en la cima absoluta de velocidad de cálculo:
 
 ```mermaid
 xychart-beta
-    title "Criba de Eratóstenes"
-    x-axis ["C", "C++", "Rust", "Java", "Kotlin", "Python"]
-    y-axis "Aparición en R  anking"
-    bar [3, 1, 2, 4, 5, 6]
+    title "Ranking en Algoritmo de Criba de Eratóstenes (Menor es Mejor)"
+    x-axis ["C++", "Rust", "C", "Java", "Kotlin", "Python"]
+    y-axis "Posición en Ranking"
+    bar [1, 2, 3, 4, 5, 6]
 ```
 
-## 3. Funciones, algoritmos, estructuras de datos en la librería estándar
+---
 
-- **C**
-  - **Estructuras de datos**: Arreglos (vectores) y cadenas. No incluye estructuras de datos avanzadas.
-  - **Algoritmos**: No incluye algoritmos, la implementación de cada uno es manual.
+## 3. Biblioteca Estándar (STL) y Extensiones GCC (PBDS)
 
-- **C++**
-  - **Estructuras de datos**: `vector`, `list`, `map`, `set`, `stack`, `queue`, etc.
-  - **Algoritmos**: `sort`, `find`, `binary_search`, entre otros.
+La riqueza de estructuras de datos listas para usar en tiempo de concurso es decisiva. Mientras que en C no existen estructuras dinámicas integradas y en Java algunas interfaces requieren escribir excesivo código repetitivo (*boilerplate*), C++ ofrece la [Standard Template Library (STL)](https://en.cppreference.com/w/cpp/container).
 
-- **Rust**
-  - **Estructuras de datos**: `Vec`, `LinkedList`, `HashMap`, `BTreeMap`, `HashSet`, `BTreeSet`. No tiene `stack` ni `queue` específicos, pero se pueden implementar.
-  - **Algoritmos**: `sort`, `iter`, `filter`, `map`, entre otros.
+### Estructuras y Algoritmos en la STL
 
-- **Java**
-  - **Estructuras de datos**: `ArrayList`, `LinkedList`, `HashMap`, `TreeMap`, `HashSet`, `TreeSet`, `Stack`, `PriorityQueue`.
-  - **Algoritmos**: `sort`, `binarySearch`, `shuffle`, entre otros.
+- **Contenedores lineales y adaptadores:** `std::vector`, `std::deque`, `std::stack`, `std::queue`, `std::priority_queue` (montículo binario de acceso $O(1)$ al elemento óptimo).
+- **Contenedores asociativos:** `std::set`, `std::multiset`, `std::map` (implementados internamente como árboles rojo-negro autobalanceados con operaciones en $O(\log N)$) y sus variantes hash `std::unordered_set`, `std::unordered_map`.
+- **Manejo eficiente de bits:** `std::bitset` para operaciones a nivel de bit vectorizadas ($64\times$ más rápido que un arreglo booleano tradicional).
+- **Algoritmos integrados (`<algorithm>` y `<numeric>`):** `std::sort` ([Introsort](https://en.wikipedia.org/wiki/Introsort) en $O(N \log N)$), `std::lower_bound` / `std::upper_bound` (búsqueda binaria sobre rangos), `std::next_permutation`, `std::nth_element` (selección en $O(N)$), `std::gcd` / `std::lcm` e `std::iota`.
 
-- **Kotlin**
-  - **Estructuras de datos**: `List`, `MutableList`, `Map`, `MutableMap`, `Set`, `MutableSet`. No tiene `stack` ni `queue` específicos, pero se pueden implementar.
-  - **Algoritmos**: `sort`, `filter`, `map`, `reduce`, entre otros.
+### Extensiones de GCC: Policy-Based Data Structures (PBDS)
 
-- **Python3**
-  - **Estructuras de datos**: `list`, `tuple`, `dict`, `set`, `frozenset`, `deque` (para `stack` y `queue`).
-  - **Algoritmos**: `sorted`, `map`, `filter`, `reduce`, `heapq`, `bisect`, entre otros.
+Uno de los secretos mejor guardados y más potentes del compilador GCC en C++ son las [Policy-Based Data Structures (PBDS)](https://codeforces.com/blog/entry/11080).
 
-## 4. Sintaxis y velocidad de Entrada/Salida (I/O)
+Mediante la cabecera `<ext/pb_ds/assoc_container.hpp>`, C++ permite instanciar un **`ordered_set`** (árbol binario de búsqueda balanceado aumentado):
 
-### C
+```cpp
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
 
-```c
-#include <stdio.h>
-int main() {
-    int n;
-    scanf("%i", &n); // Entrada de n
-    printf("%i",n);  // Salida de n
-    return 0;
-}
-
+template <typename T>
+using ordered_set = tree<T, null_type, std::less<T>, rb_tree_tag, tree_order_statistics_node_update>;
 ```
 
-#### con buffers
+Esto otorga dos funciones cruciales en $O(\log N)$:
+1. `find_by_order(k)`: Retorna un iterador al $k$-ésimo elemento más pequeño (indexado en 0).
+2. `order_of_key(x)`: Retorna la cantidad de elementos estrictamente menores que $x$.
 
-```c
-#include <stdio.h>
-int main() {
-    char buffer[1000];
-    int n;
-    snprintf(buffer, sizeof(buffer), "%d\n", n); // entrada de n
-    fputs(buffer, stdout);                       // Salida de n
-    return 0;
-}
+En lenguajes como Java o Python, resolver problemas que requieren estas operaciones obliga a programar manualmente estructuras complejas como un *Treap*, *AVL* o *Fenwick Tree coordinado*, consumiendo valiosos minutos de competencia.
 
+### Tablas Hash Seguras (`custom_hash` Anti-Hacking)
+
+En plataformas como [Codeforces](https://codeforces.com/), las tablas hash por defecto (`std::unordered_map`) pueden ser blanco de ataques (*hacks*) mediante casos de prueba diseñados para forzar colisiones masivas, degradando la complejidad de búsqueda de $O(1)$ promedio a $O(N)$ por consulta ($O(N^2)$ total).
+
+Como demostró [neal (2018) en su célebre artículo de Codeforces](https://codeforces.com/blog/entry/62393), en C++ es muy sencillo protegerse implementando un functor `custom_hash` con el algoritmo de mezcla de bits **splitmix64**:
+
+```cpp
+struct custom_hash {
+    static uint64_t splitmix64(uint64_t x) {
+        x += 0x9e3779b97f4a7c15;
+        x = (x ^ (x >> 30)) * 0xbf58476d1ce4e5b9;
+        x = (x ^ (x >> 27)) * 0x94d049bb133111eb;
+        return x ^ (x >> 31);
+    }
+    size_t operator()(uint64_t x) const {
+        static const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count();
+        return splitmix64(x + FIXED_RANDOM);
+    }
+};
+
+// Uso seguro e inhackeable:
+unordered_map<long long, int, custom_hash> safe_map;
 ```
+
+---
+
+## 4. Sintaxis y velocidad de Entrada/Salida (Fast I/O)
+
+Cuando un problema contiene entradas de más de $10^5$ o $10^6$ números, la velocidad de Entrada/Salida (I/O) determina directamente si el código pasa o recibe un veredicto de **Time Limit Exceeded (TLE)**.
+
+Por defecto, los flujos estándar de C++ (`std::cin` y `std::cout`) están sincronizados con las funciones de C (`scanf`/`printf`) y vacían el búfer en cada operación. Sin embargo, con solo dos instrucciones al inicio del `main`, C++ se convierte en uno de los lenguajes con I/O más rápido del mundo ([yak_ex, 2011](https://codeforces.com/blog/entry/925); [USACO Guide - Fast I/O](https://usaco.guide/general/fast-io?lang=cpp)):
+
+```cpp
+ios::sync_with_stdio(false);
+cin.tie(nullptr);
+```
+
+> **Consejo:** Usar siempre `'\n'` en lugar de `std::endl`, ya que `std::endl` fuerza una llamada a `flush()` en el búfer de salida, ralentizando drásticamente la ejecución.
+
+A continuación comparamos la sintaxis y patrones de Fast I/O entre lenguajes:
 
 ### C++
-```c++
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
-int main(){
-    ios::sync_with_stdio(0); cin.tie(0);
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    
     int n; 
-    cin >> n;  // entrada de n
-    cout << n; // Salida de n
+    cin >> n;         // Entrada rápida
+    cout << n << '\n'; // Salida rápida
     return 0;
 }
+```
 
+### C
+```c
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Entrada
+    printf("%d\n", n); // Salida
+    return 0;
+}
 ```
 
 ### Rust
-
 ```rust
 use std::io::{self, BufRead, Write, BufWriter};
+
 fn main() -> io::Result<()> {
     let stdin = io::stdin();
     let stdout = io::stdout();
     let mut stdout = BufWriter::new(stdout.lock());
     let mut input = String::new();
     stdin.lock().read_line(&mut input).unwrap();
-    let n: i32 = input.trim().parse().unwrap(); // entrada de n
-    writeln!(stdout, "{}", n)?;         // salida de n
+    let n: i32 = input.trim().parse().unwrap();
+    writeln!(stdout, "{}", n)?;
     Ok(())
 }
 ```
 
-
 ### Java
-#### con `BufferedReader` y `PrintWriter`
+En Java, `Scanner` y `System.out.println` son notoriamente lentos. Para competir es indispensable utilizar `BufferedReader`, `StringTokenizer` y `PrintWriter` ([CodingKnight, 2021](https://codeforces.com/blog/entry/97203); [Mahrsee, 2022](https://www.geeksforgeeks.org/fast-io-in-java-in-competitive-programming/)):
 
 ```java
 import java.io.*;
 import java.util.*;
-public class Main {
-	public static void main(String[] args) throws Exception {
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            PrintWriter pw = new PrintWriter(System.out);
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            int n = Integer.parseInt(st.nextToken());  // entrada de n
-            pw.println(n);                             // salida de n
-            pw.close();
-	}
-}
-```
 
-#### con `BufferedReader` y `BufferedOutputStream`
-
-```java
-import java.io.*;
-import java.util.*;
 public class Main {
     public static void main(String[] args) throws Exception {
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            BufferedOutputStream bos = new BufferedOutputStream(System.out);
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            int n = Integer.parseInt(st.nextToken());  // entrada de n
-            bos.write((n + "\n").getBytes());          // salida de n
-            bos.close();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        PrintWriter pw = new PrintWriter(System.out);
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        pw.println(n);
+        pw.close();
     }
-}
-
-```
-
-#### más veloz pero más código con `InputStream` 
-
-```java
-import java.io.*;
-import java.util.*;
-class FastIO extends PrintWriter {
-	private InputStream stream;
-	private byte[] buf = new byte[1 << 16];
-	private int curChar;
-	private int numChars;
-	public FastIO() { this(System.in, System.out); }
-	public FastIO(InputStream i, OutputStream o) { super(o); stream = i; }
-	public FastIO(String i, String o) throws IOException { 
-        super(new FileWriter(o)); stream = new FileInputStream(i); }
-	private int nextByte() { 
-		if (numChars == -1) { throw new InputMismatchException(); }
-		if (curChar >= numChars) { curChar = 0;
-			try { numChars = stream.read(buf); }
-            catch (IOException e) { throw new InputMismatchException(); }
-			if (numChars == -1) { return -1; } }
-		return buf[curChar++]; }
-	public String next() { int c; 
-		do { c = nextByte(); } while (c <= ' ');
-		StringBuilder res = new StringBuilder();
-		do {
-			res.appendCodePoint(c);
-			c = nextByte();
-		} while (c > ' ');
-		return res.toString();
-	}
-	public int nextInt() {  
-		int c;
-		do { c = nextByte(); } while (c <= ' ');
-		int sgn = 1;
-		if (c == '-') { sgn = -1; c = nextByte(); }
-		int res = 0;
-		do { 
-			if (c < '0' || c > '9') { throw new InputMismatchException(); }
-			res = 10 * res + c - '0'; c = nextByte();
-		} while (c > ' ');
-		return res * sgn;
-	}
-	public double nextDouble() { return Double.parseDouble(next()); }
-}
-public class Main {
-	public static void main(String[] args) throws Exception {
-            FastIO io = new FastIO();
-            int n = io.nextInt(); // entrada de n
-            io.println(n);        // salida de n 
-            io.close();
-	}
 }
 ```
 
 ### Kotlin
-
 ```kotlin
 import java.io.*
 import java.util.*
+
 @JvmField val writer = PrintWriter(System.out)
 @JvmField val reader = BufferedReader(InputStreamReader(System.`in`))
 @JvmField var tokenizer = StringTokenizer("")
+
 private fun read(): String {
     while (!tokenizer.hasMoreTokens()) {
         tokenizer = StringTokenizer(reader.readLine())
     }
     return tokenizer.nextToken()
 }
+
 fun main() { 
-    var n = read().toInt() // entrada de n
-    writer.println(n)       // salida de n
-    writer.flush()          
-}  
-````
+    val n = read().toInt()
+    writer.println(n)
+    writer.flush()
+}
+```
 
-### Python3
+### Python 3
+En Python se debe sustituir `input()` y `print()` por `sys.stdin.readline` y `sys.stdout.write` ([Ghosh, 2020](https://codeforces.com/blog/entry/83441)):
 
-```py
+```python
 import sys
 read = sys.stdin.readline
 write = sys.stdout.write
+
 def main():
-    n = int(read()) # entrada de n
-    write(f"{n}\n") # salida de n
+    n = int(read())
+    write(f"{n}\n")
 
 if __name__ == "__main__":
     main()
 ```
 
+---
+
+## 5. Operaciones de Bajo Nivel, Intrínsecos de Bits y Tipos de 128 Bits
+
+C++ destaca de manera sobresaliente cuando se requieren optimizaciones a nivel de hardware, manipulación de bits y operaciones aritméticas de alta precisión.
+
+### Hardware Bit Intrinsics (Instrucciones Directas de CPU)
+
+El compilador GCC proporciona funciones intrínsecas ([GCC Built-in Functions](https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html)) que se traducen directamente a una sola instrucción de máquina en procesadores modernos ($O(1)$), fundamentales para algoritmos de máscaras de bits (*Bitmask DP*) y subconjuntos ([Warren, 2012 - Hacker's Delight](https://en.wikipedia.org/wiki/Hacker%27s_Delight); [Laaksonen, 2017](https://cses.fi/book/book.pdf)):
+
+- **`__builtin_popcount(x)` / `__builtin_popcountll(x)`:** Cuenta el número de bits encendidos (`1`s) usando la instrucción de hardware `POPCNT`.
+- **`__builtin_clz(x)` / `__builtin_clzll(x)`:** Cuenta los ceros a la izquierda (*Count Leading Zeros*), útil para calcular $\lfloor \log_2(x) \rfloor$ en $O(1)$.
+- **`__builtin_ctz(x)` / `__builtin_ctzll(x)`:** Cuenta los ceros a la derecha (*Count Trailing Zeros*), equivalente a encontrar el bit menos significativo activo.
+
+### Enteros de 128 Bits (`__int128`)
+
+En plataformas de 64 bits, GCC y Clang ofrecen el tipo nativo [`__int128` y `__int128_t`](https://gcc.gnu.org/onlinedocs/gcc/128-bit-Integers.html), con un rango de $[-2^{127}, 2^{127}-1] \approx \pm 3.4 \times 10^{38}$ ([KACTL](https://github.com/kth-competitive-programming/kactl)).
+
+Esto permite realizar multiplicaciones intermedias $(a \times b) \pmod m$ cuando $a, b \approx 10^{18}$ o cálculos de geometría computacional (productos cruzados 2D/3D con coordenadas grandes) sin sufrir desbordamiento aritmético (*overflow*) y sin la inmensa penalización de rendimiento que causan las clases `BigInteger` en Java o Python.
+
+```cpp
+// Multiplicación modular segura sin overflow:
+long long mulmod(long long a, long long b, long long m) {
+    return (long long)((__int128)a * b % m);
+}
+```
+
+### Directivas de Optimización (*Pragmas*)
+
+En problemas con restricciones de tiempo sumamente justas, GCC permite instruir al optimizador para vectorizar bucles y habilitar instrucciones SIMD avanzadas como AVX2 ([Slotin - Algorithmica](https://algorithmica.org/en/); [GCC Pragmas](https://gcc.gnu.org/onlinedocs/gcc/Function-Specific-Option-Pragmas.html)):
+
+```cpp
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
+```
+
+---
+
+## 6. Reglas de Complejidad y Presupuesto de Recursos ($1.0\text{s} \approx 10^8\text{ ops} \mid 256\text{MB}$)
+
+En los problemas de programación competitiva (especialmente en el ICPC), los límites de tiempo están estandarizados típicamente en **$1.0$ segundo** (equivalente a $\approx 10^8$ operaciones básicas en C++) y **$256\text{ MB}$ de memoria**.
+
+La siguiente tabla, documentada en nuestro [Team Reference Document (TRD)](https://github.com/CPC-GALLOS/Notebook) y basada en el [*Competitive Programmer’s Handbook* de Antti Laaksonen](https://cses.fi/book/book.pdf), resume la complejidad máxima admisible según el tamaño de entrada $N$:
+
+| Tamaño de Entrada ($N$)                | Complejidad Máxima Viable                          | Paradigmas y Algoritmos Típicos                                                                           |
+| :------------------------------------- | :------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
+| **$N \le 11$**                         | $O(N!) \text{ o } O(N^2 \cdot 2^N)$                | Fuerza bruta exhaustiva (`next_permutation`), TSP exacto.                                                 |
+| **$N \le 18\text{--}22$**              | $O(2^N) \text{ o } O(N \cdot 2^N)$                 | Programación Dinámica con Bitmask, Meet-in-the-middle, Submáscaras $O(3^N)$.                              |
+| **$N \le 400\text{--}500$**            | $O(N^3)$                                           | Floyd-Warshall, Multiplicación de Matrices, DP de Intervalos.                                             |
+| **$N \le 2\,000\text{--}5\,000$**      | $O(N^2)$                                           | DP 2D ($N \times W$), Comparaciones cuadráticas par a par.                                                |
+| **$N \le 10^5\text{--}2 \times 10^5$** | $O(N \sqrt{N}) \text{ o } O(N \log^2 N)$           | Algoritmo de Mo, Descomposición Sqrt, Segment Tree anidado.                                               |
+| **$N \le 5 \times 10^5\text{--}10^6$** | $O(N \log N) \text{ o } O(N)$                      | Ordenamiento, Segment Tree, Fenwick (BIT), DSU, Dijkstra.                                                 |
+| **$N \le 10^7\text{--}10^8$**          | $O(N)$                                             | Criba Lineal (SPF), Two Pointers, Ventana Deslizante, Kadane.                                             |
+| **$N \ge 10^9$**                       | $O(\sqrt{N}) \text{ o } O(\log N) \text{ o } O(1)$ | Factorización por división de prueba, Búsqueda binaria sobre la respuesta, Fórmulas matemáticas cerradas. |
+
+### Reglas de Presupuesto de Memoria ($256\text{MB}$)
+
+- Arreglo de enteros de 32 bits (`int`): $\le 5.0 \times 10^7$ elementos.
+- Arreglo de enteros de 64 bits (`long long`): $\le 2.5 \times 10^7$ elementos.
+- Matriz bidimensional 2D `int[5000][5000]`: Ocupa exactamente $\approx 100\text{MB}$ (entra con seguridad en el límite).
+- Contenedores basados en nodos (`std::set` / `std::map`): $\le 4.0 \times 10^6$ elementos debido a la sobrecarga por punteros de árbol rojo-negro ($\approx 32\text{--}48$ bytes por elemento).
+
+---
+
 ## Conclusión
 
-Usamos C++ debido a que cumple con las cuatro criterios que propusimos para un lenguaje eficiente y versátil, C++ cuenta con presencia en todas las plataformas y Competencias donde ofrece una de las mejores velocidades de ejecución y eficiencia energética entre los lenguajes permitidos. 
+Elegimos y recomendamos **C++** porque es el lenguaje que mejor equilibra **potencia, velocidad, expresividad y control de recursos**:
 
-La librería estándar STL de C++ es uno de los proporciona una amplia gama de estructuras de datos y algoritmos eficientes, lo que facilita la implementación de soluciones complejas sin necesidad de bibliotecas adicionales.
-Aunque la sintaxis de C++ puede ser más compleja en comparación con python, sigue siendo más concisa que la de Java por ejemplo. Su capacidad para manejar operaciones de entrada y salida de manera eficiente, evitaran tener un TLE (Time Limit Exceeded).
+1. Posee **soporte universal** en todas las competencias presenciales (ICPC, IOI) y jueces en línea.
+2. Su ejecución nativa sin *Garbage Collector* previene pérdidas de tiempo por TLE y picos de memoria innecesarios.
+3. Cuenta con la **STL** y extensiones avanzadas como **PBDS** (`ordered_set`, `gp_hash_table`), ahorrando cientos de líneas de código durante un concurso.
+4. Ofrece **Fast I/O**, intrínsecos de bits a nivel de CPU (`__builtin_popcount`), tipos nativos de 128 bits (`__int128`) y optimizaciones por pragmas.
+5. Es el estándar sobre el cual está construido nuestro [Notebook TRD](https://github.com/CPC-GALLOS/Notebook) y nuestra [Plantilla de Competencia](https://cpc-gallos.github.io/blog/Plantilla/).
 
-En resumen, la combinación de velocidad, amplia funcionalidad, y la capacidad de integración hace de C++ una elección muy fuerte y efectiva para distintas aplicaciones, desde programación competitiva hasta desarrollo de software a gran escala.
+La combinación de estas características permite al competidor concentrarse en lo más importante: **diseñar el algoritmo correcto y resolver el problema**.
 
+---
 
 ## Referencias
 
+- adamant. (2014). *C++ STL: Policy based data structures*. Recuperado de <https://codeforces.com/blog/entry/11080>
 - akhaleqh. (2024). *Rust vs C++ – Will Rust Replace C++ in Future*. Recuperado de <https://www.geeksforgeeks.org/rust-vs-c/>
-- Back, G. (2021).  *Fast I/O in Rust*. Recuperado de <https://users.rust-lang.org/t/fast-i-o-in-rust/61714/4>
+- Back, G. (2021). *Fast I/O in Rust*. Recuperado de <https://users.rust-lang.org/t/fast-i-o-in-rust/61714/4>
 - Behery, A. (2023). *Python VS C++ Time Complexity Analysis*. Recuperado de <https://www.freecodecamp.org/news/python-vs-c-plus-plus-time-complexity-analysis/>
 - CodingKnight. (2021). *Fast data input-output for competitive programming in Java 11*. Recuperado de <https://codeforces.com/blog/entry/97203>
 - conaticus. (2024). *Rust vs C++* [video]. Recuperado de <https://youtu.be/WBhTDoZxpCk?si=iBzTj5IK3P9aFYch>
 - Coursera. (2023). *Python vs. C++: Which to Learn and Where to Start*. Recuperado de <https://www.coursera.org/articles/python-vs-c>
+- CPC Gallos. (2024). *CPC Gallos Notebook - Team Reference Document (TRD)*. Recuperado de <https://github.com/CPC-GALLOS/Notebook>
 - Dave's Garage. (2021). *E01: What is the FASTEST Computer Language? 45 Languages Tested!* [video]. Recuperado de <https://youtu.be/tQtFdsEcK_s?si=LHBb6MYXniUwGGnB>
 - DevExplain. (2023). *Rust vs C++ / Which is Better?* [video]. Recuperado de <https://youtu.be/qhXu2Q_Fq5I?si=q_DTLlzgSeMmtXUg>
 - Ebtekar, A. (2019). *How to Compete in Rust*. Recuperado de <https://codeforces.com/blog/entry/67391?mobile=true>
 - fasterthanlime. (2023). *10 Reasons Not To Use Rust (The Whole Truth)* [video]. Recuperado de <https://youtu.be/ul9vyWuT8SU?si=pJNz_i3WzJPnM9Rv>
 - fasterthanlime. (2023). *C++ vs Rust: which is faster?* [video]. Recuperado de <https://youtu.be/VMpSYJ_7aYM?si=IjIDgD2bQrA6lLNw>
+- GCC. (s.f.). *128-bit Integers*. GNU Compiler Collection. Recuperado de <https://gcc.gnu.org/onlinedocs/gcc/128-bit-Integers.html>
+- GCC. (s.f.). *Built-in Functions Provided by GCC*. GNU Compiler Collection. Recuperado de <https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html>
+- GCC. (s.f.). *Function Specific Option Pragmas*. GNU Compiler Collection. Recuperado de <https://gcc.gnu.org/onlinedocs/gcc/Function-Specific-Option-Pragmas.html>
 - GeeksforGeeks. (2024). *C++ Programming Language*. Recuperado de <https://www.geeksforgeeks.org/c-plus-plus/>
 - Ghosh, K. (2020). *Ways for Fast Input / Output in Python*. Recuperado de <https://codeforces.com/blog/entry/83441>
 - ICPC. (2024). *2024 ICPC World Finals Rules - Astana*. Recuperado de <https://icpc.global/worldfinals/rules>
 - Jecky. (2024). *Rust vs C++: Top Differences*. Recuperado de <https://www.geeksforgeeks.org/rust-vs-cpp/>
 - JetBrains. (2020). *Kotlin for Competitive Programming. Interview with Nick Johnson, ICPC Participant* [video]. Recuperado de <https://youtu.be/eykFs9jBznc?si=SK9e-1ReuMp1MTZb>
+- KTH Royal Institute of Technology. (s.f.). *KACTL (KTH Algorithm Competition Template Library)*. Recuperado de <https://github.com/kth-competitive-programming/kactl>
 - Klunk, E. (2015). *Why does the Java programming language suck so bad?* [video]. Recuperado de <https://youtu.be/lBF1SOQ1-xw?si=8MVHRzVqBrouWbVe>
 - Kotlin. (2023). *Kotlin for competitive programming*. Recuperado de <https://kotlinlang.org/docs/competitive-programming.html>
-- Kumar,A. (2024). *Top 5 most energy efficient coding languages*. Recuperado de <https://wireunwired.com/top-5-most-energy-efficient-coding-languages/>
+- Kumar, A. (2024). *Top 5 most energy efficient coding languages*. Recuperado de <https://wireunwired.com/top-5-most-energy-efficient-coding-languages/>
+- Laaksonen, A. (2017). *Competitive Programmer’s Handbook*. Recuperado de <https://cses.fi/book/book.pdf>
 - Low Level Learning. (2022). *the TRUTH about C++ (is it worth your time?)* [video]. Recuperado de <https://youtu.be/q1ZmFc-sqNc?si=yzDhH3dhqDl5NSmJ>
 - Low Level Learning. (2023). *C is 50 Years Old. Should You Learn Rust?* [video]. Recuperado de <https://youtu.be/NtYHC1KNGoc?si=H7MBZAnGAPLraSOc>
 - Mahrsee, R. (2022). *Fast I/O in Java in Competitive Programming*. Recuperado de <https://www.geeksforgeeks.org/fast-io-in-java-in-competitive-programming/>
+- neal. (2018). *Blowing up unordered_map, and how to stop getting hacked on it*. Recuperado de <https://codeforces.com/blog/entry/62393>
 - No Boilerplate. (2022). *Rust is not a faster horse* [video]. Recuperado de <https://youtu.be/4YU_r70yGjQ?si=zw34i1CI0CEjaggS>
 - Pandey, U. (2022). *Java Generics to Code Efficiently in Competitive Programming*. Recuperado de <https://www.geeksforgeeks.org/java-generics-to-code-efficiently-in-competitive-programming/>
-- Pereiraa, R. et al. (2017). *Energy Efficiency across Programming Languages*. Recuperado de <https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf>
-- Pereiraa, R. et al. (2021). *Ranking Programming Languages by Energy Efficiency*. Recuperado de <https://www.smallake.kr/wp-content/uploads/2022/09/scp21.pdf>
+- Parra, A. (2024). *Plantilla*. CPC Gallos blog. Recuperado de <https://cpc-gallos.github.io/blog/Plantilla/>
+- Pereira, R. et al. (2017). *Energy Efficiency across Programming Languages*. Recuperado de <https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf>
+- Pereira, R. et al. (2021). *Ranking Programming Languages by Energy Efficiency*. Recuperado de <https://www.smallake.kr/wp-content/uploads/2022/09/scp21.pdf>
 - Plummer, D. (2024). *Primes report generated by davepl at 3/8/2024 03:21:28*. Recuperado de <https://plummerssoftwarellc.github.io/PrimeView/report?id=5740&hi=False&hf=False&hp=False&fi=&fp=&fa=&ff=&fb=&tp=False&sc=pp&sd=True>
 - Programming Memes. (2022). *Python vs C++ vs C# Speed Comparison* [video]. Recuperado de <https://youtu.be/u7fpOY29Gxc?si=ph3fiA6w0eVe8NYH>
-- Qi, B. & Chen, N. (s.f.). *Fast Input & Output*. Recuperado de <https://usaco.guide/general/fast-io?lang=cpp>
-- Qi, B. & Chen, N. (s.f.). *Fast Input & Output*. Recuperado de <https://usaco.guide/general/fast-io?lang=java>
-- Qi, B. & Chen, N. (s.f.). *Fast Input & Output*. Recuperado de <https://usaco.guide/general/fast-io?lang=py>
+- Qi, B. & Chen, N. (s.f.). *Fast Input & Output in C++*. USACO Guide. Recuperado de <https://usaco.guide/general/fast-io?lang=cpp>
+- Qi, B. & Chen, N. (s.f.). *Fast Input & Output in Java*. USACO Guide. Recuperado de <https://usaco.guide/general/fast-io?lang=java>
+- Qi, B. & Chen, N. (s.f.). *Fast Input & Output in Python*. USACO Guide. Recuperado de <https://usaco.guide/general/fast-io?lang=py>
 - Sanghvi, N. (2022). *Why C++ is best for Competitive Programming?*. Recuperado de <https://www.geeksforgeeks.org/why-cpp-is-best-for-competitive-programming/>
+- Slotin, S. (2022). *Algorithmica: Compiler Optimizations*. Recuperado de <https://algorithmica.org/en/>
 - Spheniscine. (2019). *Notes on using Kotlin for competitive programming*. Recuperado de <https://codeforces.com/blog/entry/71089>
+- Stroustrup, B. (s.f.). *Bjarne Stroustrup's Homepage*. Recuperado de <https://www.stroustrup.com/>
 - The builder. (2022). *Python vs C++ Speed Comparison* [video]. Recuperado de <https://www.youtube.com/watch?v=VioxsWYzoJk>
-- thekushalghosh. (2020). *Fast I/O for Competitive Programming in Python*. Recuperado de <https://www.geeksforgeeks.org/fast-i-o-for-competitive-programming-in-python/>
+- thekushalghosh. (2020). *Fast I/O for Competitive Programming in Python*. Recuperado de <https://www.geeksforgeeks.org/fast-io-for-competitive-programming-in-python/>
 - Tom Rocks Maths. (2019). *Why is Kotlin better than Java?* [video]. Recuperado de <https://youtu.be/4-2oRI4OrUg?si=obVRsyXSXowZNe_X>
+- Warren, H. S. (2012). *Hacker's Delight* (2nd Ed.). Addison-Wesley. Recuperado de <https://en.wikipedia.org/wiki/Hacker%27s_Delight>
 - Wikipedia Editors. (2024). *Criticism of Java*. Recuperado de <https://en.wikipedia.org/wiki/Criticism_of_Java>
+- Wikipedia Editors. (2024). *Introsort*. Recuperado de <https://en.wikipedia.org/wiki/Introsort>
+- yak_ex. (2011). *Fast I/O for Competitive Programming*. Recuperado de <https://codeforces.com/blog/entry/925>

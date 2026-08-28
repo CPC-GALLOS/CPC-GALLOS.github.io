@@ -30,6 +30,7 @@ image: https://1000marcas.net/wp-content/uploads/2020/02/YouTube-logo.png
 
 # Inglés
 
+- [JetBrains Academy](https://www.youtube.com/@JetBrainsAcademy) tiene videos acerca de IA y sus consecuencias 
 - [Reducible](https://www.youtube.com/@Reducible) Animaciones de conceptos de programación y algoritmos.
 - [Michael Sambol](https://www.youtube.com/@michaelsambol) Videos cortos acerca de estructura de datos y algoritmos.
 - [Back To Back SWE](https://www.youtube.com/@BackToBackSWE) Explicaciones de temas de programación y algoritmos.
