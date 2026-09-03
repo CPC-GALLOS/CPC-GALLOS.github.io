@@ -52,6 +52,7 @@ Parte del ecosistema Talent Land en Guadalajara, busca soluciones alineadas con 
 - [startglobal](https://www.startglobal.org/start-hack) hackaton donde puedes ir a europa
 - [Hakcaton 3B](https://www.instagram.com/p/DTlftVaDSWN/) cada año lo realizan en el primer semesttre del año en la CDMX
 - [hackthegoal](https://hackthegoal.cershi.org/) es un hackatón dirigido a estudiantes de licenciatura, maestría o doctorado de universidades en CDMX, Estado de México, Jalisco y Nuevo León, que busca soluciones innovadoras y aplicables para mejorar la movilidad. El evento ofrece un espacio creativo con apoyo de expertos, mentores y conferencistas para potenciar las propuestas.
+- [HackMTY](https://hackmty.com/) El hackatón estudiantil más grande de Latinoamérica, organizado por el capítulo estudiantil Tec ACM en el Tecnológico de Monterrey (en alianza con MLH). Evento de 36 horas enfocado en el desarrollo de prototipos tecnológicos, talleres y mentorías.
 - [Hack Puebla](https://hackpue.com/) Programación y emprendimiento donde estudiantes, profesionales y entusiastas de la tecnología se unen para crear soluciones innovadoras a los problemas más urgentes de la actualidad.Por parte del MLH
 - [MLH](https://mlh.io/seasons/2025/events) Mayor league hacking (MLH) es una organización que apoya a estudiantes mediante hackatones presenciales y digitales, ofreciendo recursos y comunidad para aprender, crear y desarrollarse en tecnología.
 - [CemexHacks](https://cemexhacks.com/) 

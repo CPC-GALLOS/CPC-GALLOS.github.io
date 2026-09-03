@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cursos Externos
 description: Presentaciones, videos con temas en orden acerca de la Programación competitiva
 date: 2024-06-29 19:01:00 +/-TTTT
@@ -61,7 +61,7 @@ Los Training Camps son eventos organizados en diversas universidades, tanto naci
 
 - [ITESM acm student chapter: Spring Camp](https://acmmty.com/Trainings/)
 - [TCMX: Training Camp Mexico](https://tcmx.icpcmexico.org/) y [ACM MTY](https://www.acmmty.com/tcmx/)
-- [Club de Algoritmia ESCOM IPN: entrenamiento en Programación Competitiva](https://algoritmiaescom.eakdemy.com/) realizan eventos de Invierno(enero/febrero) y verano (agosto/septiembre) de entrenamiento en Programación Competitiva
+- [Club de Algoritmia ESCOM IPN: VIII Verano de Entrenamiento en Programación Competitiva 2026](https://algoritmiaescom.eakdemy.com/verano2026/) (del 13 al 21 de agosto de 2026 en la ESCOM-IPN). Realizan eventos de Invierno (enero/febrero) y Verano (agosto) en modalidades presencial y virtual.
 - [Asociación Argentina de Programación Competitiva:Training Camp](https://www.pc-arg.com/tc-arg/)
 - [Training Camp Medillin](https://www.tcmedellin.com/)
 - [ICPC Global Training Camps](https://icpc.global/regionals/finder/ICPC-Camp) & [ICPC Foundation Training Camps](https://u.icpc.global/camps/)

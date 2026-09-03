@@ -30,26 +30,30 @@ En los concursos regionales, los lenguajes permitidos deben ser al menos los mis
 
 ### Fases del Concurso en México
 
-El ICPC en la región de México consta de distintas fechas que suelen ser en sábados con un horario de 11:00 a.m. - 4:00 p.m.
+El ICPC en la región de México se compone del **Gran Premio de México**, un conjunto de fechas clasificatorias coordinadas por la Dirección Regional. Se llevan a cabo en sábados con un horario de 11:00 a.m. a 4:00 p.m. (UTC-6) de forma presencial distribuida en las sedes participantes:
 
-- **1ª Fase:** Mayo
-- **2ª Fase:** Junio
-- **3ª Fase:** Agosto
-- **Repechaje:** Octubre
-- **Eliminatoria Regional:** Noviembre
+- **Fecha 0:** abril (concurso de práctica no clasificatorio en plataforma [BOCA](https://boca.icpcmexico.org))
+- **1ª Fecha:** abril (clasificatoria, plataforma [BOCA](https://boca.icpcmexico.org))
+- **2ª Fecha:** mayo  (clasificatoria, plataforma [BOCA](https://boca.icpcmexico.org))
+- **3ª Fecha:** agosto (clasificatoria, plataforma MOJ, en conjunto con la Primera Fase de la región Brasil)
+- **Repechaje:** septiembre (plataforma BOCA)
+- **Eliminatoria Regional (Final Mexicana):** Noviembre
 
-Los primeros tres concursos son fases clasificatorias, donde los equipos participantes acumularán puntos. Los 72 equipos con mayor puntuación en estas fases (con un máximo de dos equipos por institución educativa) clasificarán a la etapa siguiente. 
-
+Los primeros tres concursos son fases clasificatorias donde los equipos acumulan puntos según su posición (100, 150 y 200 puntos al primer lugar de cada fecha respectivamente). Los 72 equipos con mayor puntuación acumulada en estas fases (con un máximo de dos equipos por institución educativa) clasificarán a la Final Mexicana.
 
 ### Repechaje
 
-El concurso de **Repechaje** es la última oportunidad para que 36 equipos clasifiquen. Solo podrán participar aquellos equipos que no lograron clasificar en las fases anteriores, o que solo lograron clasificar a un equipo por institución. En este caso, solo **un equipo por institución** podrá avanzar.
+El concurso de **Repechaje** es la última oportunidad para que 36 equipos clasifiquen a la Final Mexicana. Solo podrán participar aquellos equipos que no lograron clasificar en las fases anteriores, o instituciones que solo lograron clasificar a un equipo (en cuyo caso, solo **un equipo adicional por institución** podrá avanzar).
+
+### Plataformas de Evaluación
+
+La plataforma principal para los concursos clasificatorios es **BOCA**, desarrollada en Brasil y ampliamente utilizada en Latinoamérica y campeonatos regionales. Para la tercera fecha clasificatoria se utiliza la plataforma **MOJ** en sincronía con la sede de Brasil. Además, se habilitan concursos **espejo** para cualquier persona que desee continuar practicando.
 
 ### Inscripción
 
-El registro para participar en el ICPC debe completarse a más tardar 7 días antes de la primera fecha del concurso en la página oficial del [ICPC](https://icpc.global/).
+El registro para participar en el ICPC debe completarse a más tardar 7 días antes de la primera fecha del concurso en la página oficial del [ICPC Global](https://icpc.global/).
 
-Más detalles sobre las fechas, reglas y los puntajes de las fases se pueden consultar [en el blog del ICPC México a traves del ITESO](https://blogs.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-granpremiomx2024/), si se busca una guia gráfica de como registrar un equipo en el ICPC, visita [esta nota por ANIEI](https://www.evernote.com/shard/s342/client/snv?isnewsnv=true&noteGuid=092545b4-ad68-4202-b973-7499a39fc4dd&noteKey=bddFGBx4Qx3N_4NFvkHsMRfEE5cE0fMg_poeW7BlKeUJoR5gDEYZV-_UJw&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs342%2Fsh%2F092545b4-ad68-4202-b973-7499a39fc4dd%2FbddFGBx4Qx3N_4NFvkHsMRfEE5cE0fMg_poeW7BlKeUJoR5gDEYZV-_UJw&title=ANIEI%2B-%2BPasos%2Bpara%2BREGISTRAR%2BSU%2BEQUIPO%2Ben%2Bel%2Bsite%2Bde%2BICPC%2B%2522Concurso%2Bde%2BProgramaci%25C3%25B3n%2BANIEI%2B2024%2522), aunque este sea para otro concurso, los pasos son simlares. Cualquier otro aviso o duda se puede resolver en el servidor de discord del [ICPC Región México](https://discord.gg/icpcmx)
+Más detalles sobre las fechas, reglas y los puntajes de las fases se pueden consultar [en la página oficial del ICPC México a través del ITESO](https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-gran-premio-de-mexico-2026/). Si buscas una guía gráfica de cómo registrar un equipo en el portal del ICPC, visita [esta nota por ANIEI](https://www.evernote.com/shard/s342/client/snv?isnewsnv=true&noteGuid=092545b4-ad68-4202-b973-7499a39fc4dd&noteKey=bddFGBx4Qx3N_4NFvkHsMRfEE5cE0fMg_poeW7BlKeUJoR5gDEYZV-_UJw&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs342%2Fsh%2F092545b4-ad68-4202-b973-7499a39fc4dd%2FbddFGBx4Qx3N_4NFvkHsMRfEE5cE0fMg_poeW7BlKeUJoR5gDEYZV-_UJw&title=ANIEI%2B-%2BPasos%2Bpara%2BREGISTRAR%2BSU%2BEQUIPO%2Ben%2Bel%2Bsite%2Bde%2BICPC%2B%2522Concurso%2Bde%2BProgramaci%25C3%25B3n%2BANIEI%2B2024%2522). Cualquier otro aviso o duda se puede resolver en el servidor de Discord del [ICPC Región México](https://discord.gg/icpcmx).
 
 ## Meta Hacker Cup
 
@@ -79,10 +83,11 @@ Más información en [facebook.com/codingcompetitions/hacker-cup](https://www.fa
 
 ![ANIEI Logo](/assets/img/posts/Concursos/ANIEI.png){: w="200" h="100"}
 
+La Asociación Nacional de Instituciones de Educación en Tecnologías de Información (ANIEI) realiza este concurso en alianza con ICPC Méxic. Este concurso está dirigido a estudiantes que cursen nivel medio superior, técnico superior, universitario o licenciatura en instituciones de la República Mexicana.
 
-La Asociación Nacional de Instituciones de Educación en Tecnologías de Información (ANIEI) realiza este concurso en alianza con ICPC México en el mes de octubre, teniendo lugar entre semena con la modalidad en linea y presencial, este concurso esta dirigido a estudiantes que esten cursando el nivel medio superior, técnico superior, universitario o licenciatura en instituciones educativas de la República Mexicana. 
+El registro se realiza a través del portal de ICPC y cuenta con una cuota de recuperación.
 
-El registro se realiza a travez del ICPC y para participar hay una cuota de registro de MXN $ 100.00 pesos mexicanos
+El registro se realiza a travez del ICPC y para participar hay una cuota de registro de aproximadamente $ 100.00 MXN
 
 Más información en [la convocatoria 2024](https://www.aniei.org.mx/eventos-aniei/congreso-nacional-e-internacional/concurso-de-programacion-2024/)
 
@@ -152,36 +157,38 @@ Más información en el instagram del [congreso de sistemas](https://www.instagr
 
 ![Coding Cup Sinaloa Logo](/assets/img/posts/Concursos/coding_cup_sinaloa.png){: w="200" h="100"}
 
-El torneo estatal de programación Coding Cup Sinaloa es realizado por la comunidad académica del Estado de Sinaloa para estudiantes de nivel básico, medio, medio superior y superior, públicas y privadas y a programadores profesionales (profesionistas) el cual cuenta también con una modalidad virtual (en línea).
+El torneo estatal de programación Coding Cup Sinaloa es realizado por la comunidad académica del Estado de Sinaloa para estudiantes de nivel básico, medio, medio superior y superior (públicas y privadas) y profesionistas. Cuenta con el respaldo de ICPC México dentro de su calendario.
 
-Del Formato del Concurso
+Del Formato del Concurso:
+- Cinco categorías: OMIP, OMIPS, OMI, ICPC, y LIBRE.
+- El concurso se lleva a cabo en línea en la plataforma **omegaUp**.
+- Los concursantes de cada categoría disponen de cuatro (4) horas como máximo para resolver problemas.
+- Se premia a los primeros 3 lugares de cada categoría.
+- Cuenta con concurso paralelo para participantes que no residan en Sinaloa.
 
-- Existirán cinco categorías: OMIP, OMIPS, OMI, ICPC, y LIBRE
-- El Concurso se llevará a cabo en línea en la plataforma OmegaUp.com
-- Los concursantes de cada categoría dispondrá de cuatro (4) horas como máximo para presentar soluciones a la lista de problemas dados.
-- Se premiará a los primeros 3 lugares de cada categoría.
-- Se tendra un concurso en paralelo con interesados que no recidan en Sinaloa
-
-Más información en [codingcupsinaloa.org](https://www.codingcupsinaloa.org/convocatoria/)
+Más información en [codingcupsinaloa.org](https://www.codingcupsinaloa.org/convocatoria/) y en el seguimiento del [Gran Premio de México](https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-gran-premio-de-mexico-2026/).
 
 ## Coding Cup TecNM/ITSUR
 
 ![Coding Cup ITSUR Logo](/assets/img/posts/Concursos/coding_cup_itsur.png){: w="200" h="100"}
 
+El concurso Coding Cup del Tecnológico Nacional de México (TecNM) es promovido por el Instituto Tecnológico Superior del Sur de Guanajuato (ITSUR) y respaldado por ICPC México, utilizando el formato oficial y la plataforma **BOCA**.
 
-El concurso Coding Cup del Tecnológico Nacional de México (TecNM) es un concurso de programación reconocido por ICPC México y por este motivo se utilizará la plataforma del ICPC para realizar el registro. Este concurso esta dirigido para estudiantes pertenecientes al TecNM en el estado de Guanajuato.
+Este concurso contempla 2 fechas:
+- **Coding CUP ITSUR Media Superior:** mayo
+- **Coding CUP TecNM:** septiembre
 
-Más información en el facebook de [Coding Cup ITSUR](https://www.facebook.com/CodingCupITSUR/) y en la [convocatoria 2024](https://surguanajuato.tecnm.mx/docs/noticias/Coding_Cup_TecNM_2024.pdf)
+Más información en el Facebook de [Coding Cup ITSUR](https://www.facebook.com/CodingCupITSUR/) y en el portal de [ICPC México / ITESO](https://eventos.iteso.mx/acm/1-primera-fase-granpremiomx/sobre-los-concursos-del-gran-premio-de-mexico-2026/).
 
 ## Code Rush (CAP)
 
 ![Code Rush CAP Logo](/assets/img/posts/Concursos/code_rush_CAP.png){: w="200" h="100"}
 
-El concurso code rush es un concurso abierto a estudiantes de cualquier universidad, con un costo de inscripción de $500 pesos, el concurso es unicamente de manera presencial en el Tecnológico de Monterrey Campus Puebla. 
+El concurso Code Rush es un certamen presencial organizado por el Club de Algoritmia Puebla (CAP) del Tecnológico de Monterrey Campus Puebla, abierto a estudiantes de nivel universitario en formato ICPC con plataforma BOCA.
 
-Los concursos suelen ser en febrero o abril.
+{: .prompt-warning}
 
-Más información en el instagram del [Club de Algoritmia Puebla](https://www.instagram.com/cap_tecpuebla_official/)
+Más información en el Instagram del [Club de Algoritmia Puebla](https://www.instagram.com/cap_tecpuebla_official/).
 
 ## TCS Code Vita
 
@@ -208,13 +215,28 @@ Está dividida en 3 categorías:
 
 Más información en [tcscodificadas.com](https://tcscodificadas.com/)
 
+## CODEFEM
+
+![CODEFEM Logo](/assets/img/posts/Concursos/CODEFEM.png){: w="200" h="100"}
+
+**CODEFEM** (Liga Femenina Mexicana de Programación Competitiva) es una iniciativa y competencia de programación dirigida a **mujeres**, respaldada por el **ICPC México** y el **ITESO**. Su propósito es crear un espacio seguro, incluyente y formativo donde mujeres aprendan, crezcan y compitan resolviendo desafíos algorítmicos.
+
+El concurso se realiza en modalidad **en línea** (usualmente en septiembre), con una duración de 5 horas continuas resolviendo problemas estilo ICPC a través de la plataforma **DomJudge**. La participación es abierta y flexible: se puede competir de forma individual o en equipos de hasta 3 integrantes (aunque únicamente los equipos de 3 personas de una misma institución que cumplan con la normativa oficial del ICPC son elegibles para la premiación oficial).
+
+Cuenta con tres categorías según el nivel académico:
+- **IOI:** Dirigida a estudiantes de nivel básico y medio superior (secundaria y preparatoria/bachillerato).
+- **ICPC:** Dirigida a estudiantes universitarias de pregrado que cumplan con los criterios de elegibilidad del ICPC.
+- **Masters:** Dirigida a egresadas, graduadas, estudiantes de posgrado, equipos interinstitucionales o clubes de algoritmia.
+
+Más información y convocatoria en [codefem2026.icpcmexico.org](https://codefem2026.icpcmexico.org/), registro en [ICPC Global](https://icpc.global/regionals/finder/MXCPL-2027) o a través de su comunidad en [Discord](https://discord.gg/EEmZF4w6Z) e [Instagram](https://www.instagram.com/codefem.mx).
+
 ## Concurso de Programación del IPN "Donald Knuth" (ESCOM)
 
 ![Donald Knuth Logo](/assets/img/posts/Concursos/Donald_Knuth.jpg){: w="200" h="100"}
 
-El Concurso Anual de Programación "Donald Knuth" es un concurso abierto para participantes de cualquier institución y en equipos con el formato de ICPC realizado por Club de Algoritmia ESCOM IPN.
+El Concurso Anual de Programación "Donald Knuth" es un concurso abierto para participantes de cualquier institución y en equipos con el formato del ICPC realizado por el Club de Algoritmia ESCOM IPN. Usualmente es la actividad de cierre del Verano de Entrenamiento.
 
-Para más información y convocatorias debes estar al pendiente de la [página de facebook: Algoritmia ESCOM](https://www.facebook.com/algoritmiaescom)
+Para más información y convocatorias puedes consultar el [sitio del VIII Verano de Entrenamiento 2026](https://algoritmiaescom.eakdemy.com/verano2026/) o la [página de Facebook de Algoritmia ESCOM](https://www.facebook.com/algoritmiaescom).
 
 ## Concurso de cinvestav TamCoder
 
@@ -357,7 +379,8 @@ Más información en [codingrush.itam.mx](https://codingrush.itam.mx/)
 
 - ANIEI. (2024). *19avo. CONCURSO NACIONAL DE PROGRAMACIÓN ANIEI 2024*. Recuperado de <https://www.aniei.org.mx/eventos-aniei/congreso-nacional-e-internacional/concurso-de-programacion-2024/>
 - Club de Programación Competitiva UAZ. (2024). *Concurso de Programación ICPC*. Recuperado de <https://www.progcompetitivauaz.club/>
-- Comunidad de Programación Competitiva del ITESO. (s.f.). *Blog ICPC ITESO*. Recuperado de <https://blogs.iteso.mx/acm/>
+- CODEFEM. (s.f.). *CODEFEM — Comunidad de programadoras*. Recuperado de <https://codefem2026.icpcmexico.org/>
+- Comunidad de Programación Competitiva del ITESO. (s.f.). *Blog ICPC ITESO*. Recuperado de <https://eventos.iteso.mx/acm/>
 - ICPC. (s.f.). *About ICPC*. Recuperado de<https://icpc.global/regionals/abouticpc>
 - Muhammad, S. *Compete, Code, Conquer: Your Ultimate Guide to the Meta Hacker Cup 2024*. Recuperado de <https://www.linkedin.com/pulse/compete-code-conquer-your-ultimate-guide-meta-hacker-cup-saqlain-k8wsf/>
 - UAM. (s.f.). *Concurso de Programación de la UAM "Luis Erick González Moreno"*. Recuperado de <https://academicos.azc.uam.mx/franz/acm/>
