@@ -1,4 +1,12 @@
-document.addEventListener("DOMContentLoaded", async () => {
+function onDomReady(fn) {
+  if (document.readyState !== 'loading') {
+    fn();
+  } else {
+    document.addEventListener('DOMContentLoaded', fn, { once: true });
+  }
+}
+
+onDomReady(async () => {
   const lists = document.querySelectorAll(".api-list");
   if (lists.length === 0) return;
 
@@ -32,7 +40,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           if (filterProvider && c.provider !== filterProvider) return false;
           if (filterProviderGroup && c.providerGroup !== filterProviderGroup) return false;
           if (filterExcludeProvider && c.provider === filterExcludeProvider) return false;
-          if (filterTag && (!c.tags || !c.tags.includes(filterTag))) return false;
+          if (filterTag && !c.tags?.includes(filterTag)) return false;
           return true;
         });
       }

@@ -66,7 +66,8 @@ __Tabla de Contenidos:__
       margin: 0 auto;
       overflow: hidden;
    }
-   #map-container object {
+   #map-container object,
+   #map-container svg {
       width: 100%;
       height: auto;
       display: block;
@@ -92,13 +93,16 @@ __Tabla de Contenidos:__
    }
    #tooltip {
       position: fixed;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.75);
       color: #eceff4;
-      padding: 5px;
-      border-radius: 3px;
-      font-size: 16px;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 500;
       pointer-events: none;
       display: none;
+      z-index: 1050;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
    }
 </style>
 

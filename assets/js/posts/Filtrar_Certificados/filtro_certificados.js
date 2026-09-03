@@ -61,33 +61,38 @@ function getSuggestedTags(certs, rawValue = "") {
   return allTags.filter((tag) => !SELECTED_TAGS.includes(tag) && tag.includes(typedToken)).slice(0, 18);
 }
 
+function matchesField(actual, expected) {
+  return !expected || normalizeFilterValue(actual) === normalizeFilterValue(expected);
+}
+
+function matchesSearchTerm(cert, term) {
+  if (!term) return true;
+  const haystack = `${cert.name} ${cert.description ?? ''}`.toLowerCase();
+  return haystack.includes(term);
+}
+
+function matchesActiveTags(cert, activeTags) {
+  if (activeTags.length === 0) return true;
+  const credentialTags = new Set((Array.isArray(cert.tags) ? cert.tags : []).map(normalizeTag));
+  return activeTags.some((tag) => credentialTags.has(tag));
+}
+
 function filterCertifications(certs, filters = {}) {
   const { search, domain, category, provider, providerGroup, type, selectedTags = [] } = filters;
   const term = search ? search.trim().toLowerCase() : null;
   const activeTags = selectedTags.map((tag) => normalizeTag(tag)).filter(Boolean);
 
   return certs.filter((c) => {
-    const itemDomain = c.domain || c.group || "";
-    const itemType = c.type || "program";
+    const itemDomain = c.domain || c.group || '';
+    const itemType = c.type || 'program';
 
-    if (domain && normalizeFilterValue(itemDomain) !== normalizeFilterValue(domain)) return false;
-    if (category && normalizeFilterValue(c.category) !== normalizeFilterValue(category)) return false;
-    if (provider && normalizeFilterValue(c.provider) !== normalizeFilterValue(provider)) return false;
-    if (providerGroup && normalizeFilterValue(c.providerGroup || "") !== normalizeFilterValue(providerGroup)) return false;
-    if (type && normalizeFilterValue(itemType) !== normalizeFilterValue(type)) return false;
-
-    if (term) {
-      const haystack = `${c.name} ${c.description ?? ""}`.toLowerCase();
-      if (!haystack.includes(term)) return false;
-    }
-
-    if (activeTags.length > 0) {
-      const credentialTags = (Array.isArray(c.tags) ? c.tags : []).map((tag) => normalizeTag(tag));
-      const matchesAny = activeTags.some((tag) => credentialTags.includes(tag));
-      if (!matchesAny) return false;
-    }
-
-    return true;
+    return matchesField(itemDomain, domain) &&
+      matchesField(c.category, category) &&
+      matchesField(c.provider, provider) &&
+      matchesField(c.providerGroup || '', providerGroup) &&
+      matchesField(itemType, type) &&
+      matchesSearchTerm(c, term) &&
+      matchesActiveTags(c, activeTags);
   });
 }
 
@@ -198,7 +203,7 @@ function renderSelectedTags() {
 
   els.selectedTags.querySelectorAll(".tag-chip-remove").forEach((button) => {
     button.addEventListener("click", () => {
-      removeSelectedTag(button.getAttribute("data-tag"));
+      removeSelectedTag(button.dataset.tag);
     });
   });
 }
@@ -234,32 +239,41 @@ function renderTagSuggestions(certs) {
   els.tagSuggestions.querySelectorAll("button").forEach((button) => {
     button.addEventListener("mousedown", (event) => {
       event.preventDefault();
-      addSelectedTag(button.getAttribute("data-tag"));
+      addSelectedTag(button.dataset.tag);
     });
   });
 }
 
+function renderDescription(description) {
+  if (!description) {
+    return '<div style="margin-bottom: 10px;"></div>';
+  }
+  return `
+    <details style="font-size: 0.9em; margin: 0 0 10px 0;">
+      <summary style="cursor: pointer; color: var(--link-color); font-weight: bold; margin-bottom: 5px; list-style: none; display: inline-block;">Ver descripción ▾</summary>
+      <div style="margin-top: 5px; line-height: 1.4;">${description}</div>
+    </details>
+  `;
+}
+
 function renderCard(item) {
-  const domainLabel = item.domain || item.group || "—";
-  const typeLabel = item.type || "program";
+  const typeLabel = item.type || 'program';
   const tags = (Array.isArray(item.tags) ? item.tags : [])
     .map((tag) => normalizeTag(tag))
     .filter(Boolean);
+
+  const categoryChip = item.category ? `<span class="chip cat-chip">${item.category}</span>` : '';
+  const tagsChips = tags.map((tag) => `<span class="chip tag-chip">${tag}</span>`).join('');
 
   return `
     <div class="custom_card">
       <h4 style="margin-top:0; margin-bottom: 5px;"><a href="${item.url}" target="_blank" rel="noopener">${item.name}</a></h4>
       <div style="font-size: 0.85em; margin-bottom: 8px; color: var(--text-muted-color); font-family: var(--font-family-monospace);">${item.provider}</div>
-      ${item.description ? `
-      <details style="font-size: 0.9em; margin: 0 0 10px 0;">
-        <summary style="cursor: pointer; color: var(--link-color); font-weight: bold; margin-bottom: 5px; list-style: none; display: inline-block;">Ver descripción ▾</summary>
-        <div style="margin-top: 5px; line-height: 1.4;">${item.description}</div>
-      </details>
-      ` : `<div style="margin-bottom: 10px;"></div>`}
+      ${renderDescription(item.description)}
       <div style="display:flex; flex-wrap:wrap; align-items: center; gap:6px; font-size: 0.8em; margin-top: auto; margin-bottom: 5px;">
-        ${item.category ? `<span class="chip cat-chip">${item.category}</span>` : ""}
+        ${categoryChip}
         <span class="chip type-chip">${typeLabel}</span>
-        ${tags.map((tag) => `<span class="chip tag-chip">${tag}</span>`).join("")}
+        ${tagsChips}
       </div>
     </div>
   `;
@@ -299,8 +313,10 @@ function syncFiltersToUrl() {
   }
 
   const query = params.toString();
-  const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash || ""}`;
-  window.history.replaceState({}, "", nextUrl);
+  const queryString = query ? ('?' + query) : '';
+  const hashString = window.location.hash || '';
+  const nextUrl = window.location.pathname + queryString + hashString;
+  window.history.replaceState({}, '', nextUrl);
 }
 
 function readFiltersFromUrl() {
@@ -349,18 +365,7 @@ function resetFilters() {
   applyFilters();
 }
 
-async function init() {
-  initElements();
-  try {
-      const res = await fetch("https://cpc-gallos.github.io/api/credentials/data.json");
-      const json = await res.json();
-      DATA = json.credentials || [];
-  } catch (error) {
-      console.error("Error al cargar los datos:", error);
-      els.grid.innerHTML = `<div style="text-align:center; padding: 40px; width: 100%; color: red;">Error al cargar los certificados.</div>`;
-      return;
-  }
-
+function setupFilters() {
   populateSelect(els.type, getTypes(DATA));
   refreshFilterOptions();
   const initialFilters = readFiltersFromUrl();
@@ -408,4 +413,22 @@ async function init() {
   applyFilters();
 }
 
-document.addEventListener('DOMContentLoaded', init);
+function init() {
+  initElements();
+  fetch("https://cpc-gallos.github.io/api/credentials/data.json")
+    .then((res) => res.json())
+    .then((json) => {
+      DATA = json.credentials || [];
+      setupFilters();
+    })
+    .catch((error) => {
+      console.error("Error al cargar los datos:", error);
+      els.grid.innerHTML = '<div style="text-align:center; padding: 40px; width: 100%; color: red;">Error al cargar los certificados.</div>';
+    });
+}
+
+if (document.readyState !== 'loading') {
+  init();
+} else {
+  document.addEventListener('DOMContentLoaded', init, { once: true });
+}

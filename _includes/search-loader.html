@@ -229,12 +229,85 @@
     }
   }
 
+  function onDomReady(fn) {
+    if (document.readyState !== 'loading') {
+      fn();
+    } else {
+      document.addEventListener('DOMContentLoaded', fn, { once: true });
+    }
+  }
+
+  function domReadyPromise() {
+    return new Promise((resolve) => onDomReady(resolve));
+  }
+
+  function waitForSimpleJekyllSearch() {
+    return new Promise((resolve) => {
+      if (typeof window.SimpleJekyllSearch === 'function') {
+        resolve(window.SimpleJekyllSearch);
+        return;
+      }
+
+      let timer = null;
+      let timeout = null;
+
+      const finish = (fn) => {
+        if (timer) clearInterval(timer);
+        if (timeout) clearTimeout(timeout);
+        resolve(fn);
+      };
+
+      timer = setInterval(() => {
+        if (typeof window.SimpleJekyllSearch === 'function') {
+          finish(window.SimpleJekyllSearch);
+        }
+      }, 25);
+
+      timeout = setTimeout(() => {
+        if (typeof window.SimpleJekyllSearch === 'function') {
+          finish(window.SimpleJekyllSearch);
+          return;
+        }
+        const fallbackScript = document.createElement('script');
+        fallbackScript.src = 'https://cdn.jsdelivr.net/npm/simple-jekyll-search@1/dest/simple-jekyll-search.min.js';
+        fallbackScript.onload = () => {
+          if (typeof window.SimpleJekyllSearch === 'function') {
+            finish(window.SimpleJekyllSearch);
+          }
+        };
+        fallbackScript.onerror = () => {
+          console.error('No se pudo cargar SimpleJekyllSearch desde CDN de respaldo.');
+          finish(null);
+        };
+        document.head.appendChild(fallbackScript);
+      }, 2500);
+    });
+  }
+
   function initSearch() {
     const searchUrl = '{{ "/assets/js/data/search.json" | relative_url }}';
 
-    fetch(searchUrl)
-      .then((res) => res.json())
-      .then((posts) => {
+    Promise.all([
+      fetch(searchUrl).then((res) => {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      }),
+      waitForSimpleJekyllSearch(),
+      domReadyPromise()
+    ])
+      .then(([posts, SimpleSearch]) => {
+        if (!SimpleSearch) {
+          console.error('SimpleJekyllSearch no esta disponible.');
+          return;
+        }
+
+        const searchInput = document.getElementById('search-input');
+        const resultsContainer = document.getElementById('search-results');
+
+        if (!searchInput || !resultsContainer) {
+          return;
+        }
+
         posts.forEach((item) => {
           if (item.description && item.description.trim()) {
             const desc = item.description.trim();
@@ -249,9 +322,9 @@
             .toLowerCase();
         });
 
-        SimpleJekyllSearch({
-          searchInput: document.getElementById('search-input'),
-          resultsContainer: document.getElementById('search-results'),
+        SimpleSearch({
+          searchInput: searchInput,
+          resultsContainer: resultsContainer,
           json: posts,
           searchResultTemplate: '{{ result_elem | strip_newlines }}',
           noResultsText: '{{ not_found }}',
@@ -387,5 +460,6 @@
   }
 
   initSearch();
-  initInPostHighlight();
+  onDomReady(initInPostHighlight);
 </script>
+
