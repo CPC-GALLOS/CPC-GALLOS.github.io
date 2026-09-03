@@ -1,4 +1,4 @@
-﻿---
+---
 title: Beneficios para Estudiantes
 description: Todo tipo de ofertas para estudiantes
 date: 2024-07-17 23:00:00 +/-TTTT
@@ -25,6 +25,11 @@ image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-univ
 * 🗣️ Los clubes de conversación del [CAADI](https://www.facebook.com/UAACAADI) tienen una cuota preferencial para estudiantes de **$131 MXN**, en lugar de **$608 MXN** para externos.
 * 💻 El correo institucional incluye acceso a [Microsoft 365](https://www.microsoft.com/microsoft-365) (Word, Excel, PowerPoint, Teams y 100 GB de almacenamiento en OneDrive).
 * 🌍 La UAA ofrece [cursos de idiomas](https://cursos.uaa.mx/index.php?m=l), incluyendo francés, inglés, alemán, japonés y coreano. Son **gratuitos para estudiantes de la UAA** que ya hayan acreditado el requisito de inglés. Para externos, el costo es de **$3,080 MXN por semestre**. Más información de idiomas y certificacioens de ellos, revisa el blog de idiomas: [Idiomas UAA](https://cpc-gallos.github.io/blog/Idiomas/).
+* ☁️ **Acceso a AWS Academy:** A través del Departamento de Sistemas Electrónicos de la UAA, profesores autorizados pueden darte acceso a cursos oficiales de [AWS Academy](https://aws.amazon.com/training/awsacademy/):
+  * **AWS Academy Cloud Operations [183945]:** con el profesor Bautista.
+  * **AWS Academy Cloud Security Foundations [182247]:** con el profesor Ocampo.
+  * **AWS Academy Cloud Foundations [159706]:** con el profesor Arturo Elías.
+
 ### Cloud
 
 - [Oracle Cloud (modo gratuito)](https://www.oracle.com/latam/cloud/free/) No es solo para estudiantes. Solo necesitas una tarjeta de débito o crédito para verificar tu identidad (no te cobran por el plan gratuito).
@@ -99,6 +104,20 @@ No es exclusivo para estudiantes. Requiere una tarjeta de crédito para verifica
 * 🤖 Amazon Bedrock y otros servicios de IA con pruebas o cuotas gratuitas (según el servicio).
 
 🎁 AWS combina servicios con **12 meses gratuitos**, servicios **Always Free** y pruebas gratuitas temporales para diferentes productos.
+
+* [AWS Student Rewards (AWS Builder Center)](https://builder.aws.com/student-rewards)
+
+Exclusivo para estudiantes de educación superior mediante verificación con **SheerID** (con correo institucional o credencial/comprobante de estudios). No requiere tarjeta de crédito para validar la condición de estudiante y ofrece recompensas valoradas en hasta **USD $579**:
+
+**Beneficios desbloqueables por etapas:**
+
+* 🎓 **12 meses de AWS Skill Builder Premium gratuito:** Se desbloquea al completar la verificación académica y llenar tu perfil de Builder Center (foto y biografía). Incluye acceso completo a más de 900 cursos digitales oficiales, laboratorios prácticos en consolas reales de AWS (*hands-on labs*) y rutas de preparación para certificaciones.
+* 💳 **USD $10 en créditos de AWS:** Al obtener 7 insignias (badges) dentro de la comunidad de Builder Center.
+* 💳 **USD $20 adicionales en créditos de AWS:** Al acumular 14 insignias (badges).
+* 🎟️ **Voucher del 100% para certificación AWS Foundational:** (Valorado en $100 USD, aplicable al examen *AWS Certified Cloud Practitioner*) al alcanzar 21 insignias mediante participación activa en la comunidad (publicación de artículos, comentarios y racha de actividad).
+
+> 💡 **Recomendación:** Crea tu cuenta de **AWS Builder ID** con tu correo personal (para conservarla después de graduarte) y en el paso de verificación de SheerID ingresa tus datos o correo universitario.
+{: .prompt-tip }
 
 * [Microsoft Azure Free Account](https://azure.microsoft.com/free/)
 

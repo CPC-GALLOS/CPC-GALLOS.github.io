@@ -235,15 +235,33 @@ Amazon ofrece estas insignias como parte de su entrenamiento gratuito de AWS con
 
 Puedes conseguir hasta __14 insignias__ a travez de [AWS Technology badges on credly](https://www.credly.com/organizations/amazon-web-services/collections/customer-learning-programs/badge_templates) algunas de las más importante son:
 
-<ul class="api-list" data-provider="Amazon Web Services"></ul>
+<ul class="api-list" data-ids="aws-cloud-essentials, aws-solutions-architect, aws-serverless, aws-networking-core, aws-migration-foundations"></ul>
 
 También Amazon ofrece cursos gratuitos para estudiantes a travez de [AWS Educate](https://www.awseducate.com/registration/s/registration-detail?language=en_US) donde puedes conseguir hasta __12 insignias__ a travez de [AWS Educate badges on credly](https://www.credly.com/organizations/amazon-web-services/collections/aws-educate-program/badge_templates)
 
-<ul class="api-list" data-provider="Amazon Web Services"></ul>
+<ul class="api-list" data-ids="aws-educate, aws-educate-getting-started-with-security, aws-educate-introduction-to-generative-ai, aws-educate-machine-learning-deepracer, aws-educate-machine-learning-foundations"></ul>
 
 Por úlitmo existe la opción de tomar una clase en vivo a travez de [AWS Training](https://www.aws.training/)
 
-<ul class="api-list" data-provider="Amazon Web Services"></ul>
+<ul class="api-list" data-ids="aws-skills-center-cloud-practitioner-foundations"></ul>
+
+#### AWS Microcredentials
+
+Amazon también ofrece el programa de [AWS Microcredentials](https://skillbuilder.aws/certification/microcredentials) en AWS Skill Builder. A diferencia de las evaluaciones teóricas tradicionales, son evaluaciones prácticas basadas en retos de resolución de problemas en consolas y entornos reales de AWS para demostrar competencias técnicas específicas (*Demonstrated*):
+
+<ul class="api-list" data-ids="aws-agentic-ai-demonstrated, aws-application-networking-demonstrated, aws-data-lakehouse-demonstrated, aws-data-streaming-demonstrated, aws-data-visualization-demonstrated, aws-incident-response-demonstrated, aws-mlops-demonstrated, aws-serverless-demonstrated"></ul>
+
+#### AWS Academy
+
+A través del programa [AWS Academy](https://aws.amazon.com/training/awsacademy/), Amazon colabora con instituciones de educación superior para ofrecer cursos oficiales de computación en la nube que incluyen laboratorios prácticos (*hands-on labs*). Al completar y aprobar estos cursos, los estudiantes obtienen insignias digitales verificables de **AWS Academy Graduate** en [Credly](https://www.credly.com/organizations/amazon-web-services/badges).
+
+> 🎓 **Para estudiantes de la UAA:** En la Universidad Autónoma de Aguascalientes, el Departamento de Sistemas Electrónicos cuenta con profesores acreditados que pueden darte de alta en cursos oficiales de AWS Academy, tales como:
+> - **AWS Academy Cloud Operations [183945]:** profesor Bautista.
+> - **AWS Academy Cloud Security Foundations [182247]:** profesor Ocampo.
+> - **AWS Academy Cloud Foundations [159706]:** profesor Arturo Elías.
+> 
+> Consulta más detalles en [Beneficios para Estudiantes](https://cpc-gallos.github.io/blog/Beneficios_Estudiantes/#uaa).
+{: .prompt-info }
 
 ### Insignias SASE de Cato Networks
 
