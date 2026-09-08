@@ -126,6 +126,70 @@ La riqueza de estructuras de datos listas para usar en tiempo de concurso es dec
 - **Manejo eficiente de bits:** `std::bitset` para operaciones a nivel de bit vectorizadas ($64\times$ más rápido que un arreglo booleano tradicional).
 - **Algoritmos integrados (`<algorithm>` y `<numeric>`):** `std::sort` ([Introsort](https://en.wikipedia.org/wiki/Introsort) en $O(N \log N)$), `std::lower_bound` / `std::upper_bound` (búsqueda binaria sobre rangos), `std::next_permutation`, `std::nth_element` (selección en $O(N)$), `std::gcd` / `std::lcm` e `std::iota`.
 
+### El Futuro de los Contenedores: `std::hive` (C++26)
+
+C++ se mantiene en constante evolución para responder a las exigencias de rendimiento modernas. Una de las adiciones más esperadas formalmente aceptadas para **C++26** bajo la cabecera `<hive>` es **`std::hive`** (propuesta [P0447](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p0447r15.html) por Matthew Bentley, surgida a partir de la reconocida biblioteca `plf::colony` ([Bentley, 2024](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p0447r15.html); [Dargo, 2026](https://daily.dev/posts/c-26-std-hive-umqdxdqhq); [Towards Dev, 2024](https://towardsdev.com/cpp26-std-hive-deep-dive-tutorial-5bdaa44f4d94)).
+
+#### El Dilema entre `std::vector` y `std::list`
+
+Históricamente, los desarrolladores de sistemas y competidores se enfrentaban a un compromiso forzado al gestionar colecciones dinámicas de elementos con vidas útiles impredecibles:
+
+- **`std::vector`**: Ofrece la mayor velocidad de recorrido lineal gracias a su bloque continuo de memoria contigua en caché (*cache locality*), indexación aleatoria en $O(1)$ y `push_back` en $O(1)$ amortizado. Sin embargo, borrar o insertar un elemento intermedio requiere desplazar todos los elementos posteriores ($O(N)$), y cualquier realocación de capacidad invalida absolutamente todos los punteros e iteradores existentes.
+- **`std::list`** (lista doblemente enlazada): Permite insertar o eliminar cualquier elemento en $O(1)$ sin mover datos y garantizando estabilidad permanente de iteradores y punteros. No obstante, acarrea una severa penalización de rendimiento por dispersión de memoria (*pointer chasing* que degrada la caché de la CPU) y una pesada sobrecarga de $\approx 16\text{--}24$ bytes de punteros por cada nodo individual.
+
+#### La Solución de `std::hive`: Lo Mejor de Ambos Mundos
+
+`std::hive` fue concebido como el punto intermedio idóneo entre ambos mundos:
+
+1. **Bloques contiguos segmentados:** Internamente asigna memoria en bloques continuos (*tiered contiguous blocks*). Al iterar sobre la estructura, los elementos se recorren de forma contigua aprovechando la jerarquía de caché L1/L2/L3.
+2. **Eliminación e Inserción en $O(1)$ sin desplazamientos:** Cuando se elimina un elemento con `erase()`, no se mueven los demás elementos ($O(1)$ en lugar del $O(N)$ de `vector`). En su lugar, se actualiza un campo de salto compacto (*run-length encoded skipfield*) que marca el espacio libre. Nuevas inserciones reutilizan estos huecos libres en $O(1)$ amortizado o asignan un nuevo bloque contiguo sin reubicar los bloques ya existentes.
+3. **Estabilidad absoluta de punteros e iteradores:** Dado que los bloques de memoria nunca se reubican al crecer el contenedor, los punteros e iteradores a los elementos no eliminados **nunca se invalidan**.
+4. **Recorrido eficiente:** Al iterar sobre `std::hive`, el iterador avanza secuencialmente por el bloque contiguo y salta de forma instantánea sobre las posiciones eliminadas usando el *skipfield*, logrando un desempeño de recorrido notablemente cercano al de `std::vector` y drásticamente superior a `std::list`.
+
+#### Comparativa de Contenedores
+
+| Característica / Operación | `std::vector` | `std::list` | `std::hive` (C++26) |
+| :--- | :--- | :--- | :--- |
+| **Inserción (Append)** | $O(1)$ amortizado | $O(1)$ | $O(1)$ amortizado |
+| **Eliminación arbitraria (`erase`)** | $O(N)$ (desplaza memoria) | $O(1)$ | $O(1)$ (marca y salta slot) |
+| **Estabilidad de punteros / iteradores** | Frágil (invalida al realocar/borrar) | Permanente | Permanente |
+| **Localidad de Caché (Recorrido)** | Óptima (100% contigua) | Muy baja (*pointer chasing*) | Alta (bloques contiguos) |
+| **Sobrecarga de memoria extra** | Nula (0 bytes por elemento) | Muy alta ($\approx 16\text{--}24$ B / nodo) | Mínima (bits de *skipfield*) |
+| **Acceso aleatorio por índice (`[i]`)** | $O(1)$ | No disponible ($O(N)$) | No disponible ($O(1)$ vía iterador/puntero) |
+
+#### Demostración Práctica en C++26
+
+```cpp
+#include <hive>
+#include <iostream>
+
+int main() {
+    std::hive<int> h;
+
+    // Inserción en O(1) amortizado
+    auto it1 = h.insert(10);
+    auto it2 = h.insert(20);
+    auto it3 = h.insert(30);
+
+    // Eliminación en O(1) sin desplazar memoria ni invalidar otros iteradores
+    h.erase(it2);
+
+    // it1 e it3 siguen siendo perfectamente válidos en O(1)
+    std::cout << "Elemento apuntado por it1: " << *it1 << '\n';
+
+    // Recorrido amigable con la memoria caché
+    std::cout << "Elementos activos en el hive: ";
+    for (int val : h) {
+        std::cout << val << ' '; // Salida: 10 30
+    }
+    std::cout << '\n';
+
+    return 0;
+}
+```
+
+> **Nota sobre adopción en competencias (ICPC / Codeforces):** Al ser una característica formalizada para el estándar **C++26**, tardará un tiempo considerable en estar disponible en los jueces en línea (como Codeforces o AtCoder) y en las finales de ICPC, debido a que las plataformas actualizan las versiones de sus compiladores (GCC/Clang) con años de margen para garantizar estabilidad y paridad. Sin embargo, conocer `std::hive` desde ahora resulta de gran valor conceptual: permite anticipar cómo C++ continúa perfeccionando el control de memoria y ofrece una alternativa de diseño superior para problemas complejos de simulación, gestión de partículas, barrido de eventos y grafos dinámicos en desarrollo de software de máximo rendimiento.
+
 ### Extensiones de GCC: Policy-Based Data Structures (PBDS)
 
 Uno de los secretos mejor guardados y más potentes del compilador GCC en C++ son las [Policy-Based Data Structures (PBDS)](https://codeforces.com/blog/entry/11080).
@@ -360,7 +424,7 @@ Elegimos y recomendamos **C++** porque es el lenguaje que mejor equilibra **pote
 
 1. Posee **soporte universal** en todas las competencias presenciales (ICPC, IOI) y jueces en línea.
 2. Su ejecución nativa sin *Garbage Collector* previene pérdidas de tiempo por TLE y picos de memoria innecesarios.
-3. Cuenta con la **STL** y extensiones avanzadas como **PBDS** (`ordered_set`, `gp_hash_table`), ahorrando cientos de líneas de código durante un concurso.
+3. Cuenta con la **STL** y extensiones avanzadas como **PBDS** (`ordered_set`, `gp_hash_table`), ahorrando cientos de líneas de código durante un concurso, además de una continua evolución en estándares modernos (como `std::hive` en C++26).
 4. Ofrece **Fast I/O**, intrínsecos de bits a nivel de CPU (`__builtin_popcount`), tipos nativos de 128 bits (`__int128`) y optimizaciones por pragmas.
 5. Es el estándar sobre el cual está construido nuestro [Notebook TRD](https://github.com/CPC-GALLOS/Notebook) y nuestra [Plantilla de Competencia](https://cpc-gallos.github.io/blog/Plantilla/).
 
@@ -374,10 +438,12 @@ La combinación de estas características permite al competidor concentrarse en 
 - akhaleqh. (2024). *Rust vs C++ – Will Rust Replace C++ in Future*. Recuperado de <https://www.geeksforgeeks.org/rust-vs-c/>
 - Back, G. (2021). *Fast I/O in Rust*. Recuperado de <https://users.rust-lang.org/t/fast-i-o-in-rust/61714/4>
 - Behery, A. (2023). *Python VS C++ Time Complexity Analysis*. Recuperado de <https://www.freecodecamp.org/news/python-vs-c-plus-plus-time-complexity-analysis/>
+- Bentley, M. (2024). *std::hive* (P0447R28). ISO/IEC JTC1/SC22/WG21. Recuperado de <https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p0447r15.html>
 - CodingKnight. (2021). *Fast data input-output for competitive programming in Java 11*. Recuperado de <https://codeforces.com/blog/entry/97203>
 - conaticus. (2024). *Rust vs C++* [video]. Recuperado de <https://youtu.be/WBhTDoZxpCk?si=iBzTj5IK3P9aFYch>
 - Coursera. (2023). *Python vs. C++: Which to Learn and Where to Start*. Recuperado de <https://www.coursera.org/articles/python-vs-c>
 - CPC Gallos. (2024). *CPC Gallos Notebook - Team Reference Document (TRD)*. Recuperado de <https://github.com/CPC-GALLOS/Notebook>
+- Dargo, S. (2026). *C++26: std::hive*. Recuperado de <https://daily.dev/posts/c-26-std-hive-umqdxdqhq>
 - Dave's Garage. (2021). *E01: What is the FASTEST Computer Language? 45 Languages Tested!* [video]. Recuperado de <https://youtu.be/tQtFdsEcK_s?si=LHBb6MYXniUwGGnB>
 - DevExplain. (2023). *Rust vs C++ / Which is Better?* [video]. Recuperado de <https://youtu.be/qhXu2Q_Fq5I?si=q_DTLlzgSeMmtXUg>
 - Ebtekar, A. (2019). *How to Compete in Rust*. Recuperado de <https://codeforces.com/blog/entry/67391?mobile=true>
@@ -415,6 +481,7 @@ La combinación de estas características permite al competidor concentrarse en 
 - Spheniscine. (2019). *Notes on using Kotlin for competitive programming*. Recuperado de <https://codeforces.com/blog/entry/71089>
 - Stroustrup, B. (s.f.). *Bjarne Stroustrup's Homepage*. Recuperado de <https://www.stroustrup.com/>
 - The builder. (2022). *Python vs C++ Speed Comparison* [video]. Recuperado de <https://www.youtube.com/watch?v=VioxsWYzoJk>
+- Towards Dev. (2024). *C++26: std::hive Deep-Dive Tutorial*. Recuperado de <https://towardsdev.com/cpp26-std-hive-deep-dive-tutorial-5bdaa44f4d94>
 - thekushalghosh. (2020). *Fast I/O for Competitive Programming in Python*. Recuperado de <https://www.geeksforgeeks.org/fast-io-for-competitive-programming-in-python/>
 - Tom Rocks Maths. (2019). *Why is Kotlin better than Java?* [video]. Recuperado de <https://youtu.be/4-2oRI4OrUg?si=obVRsyXSXowZNe_X>
 - Warren, H. S. (2012). *Hacker's Delight* (2nd Ed.). Addison-Wesley. Recuperado de <https://en.wikipedia.org/wiki/Hacker%27s_Delight>

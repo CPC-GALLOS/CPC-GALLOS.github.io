@@ -10,13 +10,8 @@ mermaid: false
 image: /assets/img/posts/Plantilla.png
 ---
 
-__Tabla de Contenidos:__
-* TOC
-{:toc} 
 
 # Plantilla Corta
-
-Para problemas sencillos, rondas rápidas o cuando se busca la mínima cantidad de líneas sin macros ni librerías adicionales:
 
 ```cpp
 #include <bits/stdc++.h>
@@ -27,7 +22,7 @@ void solve() {
 }
 
 int main() {
-    ios::sync_with_stdio(0); cin.tie(0);
+    cin.tie(0)->sync_with_stdio(0);
     int tc = 1;
     // cin >> tc;
     while (tc--) solve();
@@ -36,6 +31,10 @@ int main() {
 ```
 
 ---
+
+__Tabla de Contenidos:__
+* TOC
+{:toc} 
 
 # Plantilla Larga (Oficial de Competencia)
 
@@ -88,7 +87,7 @@ void solve() {
 }
 
 int main() {
-    ios::sync_with_stdio(0); cin.tie(0);
+    cin.tie(0)->sync_with_stdio(0);
     // freopen("in.txt", "r", stdin); freopen("out.txt", "w", stdout);
     int tc = 1;
     // cin >> tc;
@@ -295,7 +294,7 @@ void solve() {
 }
 
 int main() {
-    ios::sync_with_stdio(0); cin.tie(0);
+    cin.tie(0)->sync_with_stdio(0);
     // freopen("in.txt", "r", stdin); freopen("out.txt", "w", stdout);
     int tc = 1;
     // cin >> tc;
@@ -304,13 +303,16 @@ int main() {
 }
 ```
 
-### Mecánica de Fast I/O: `ios::sync_with_stdio(0); cin.tie(0);`
+### Mecánica de Fast I/O: `cin.tie(0)->sync_with_stdio(0);`
 
-1. **`ios::sync_with_stdio(0)`**: Desactiva la sincronización obligatoria entre los flujos estándar de C (`stdio`) y los de C++ (`iostream`). Al desactivarla, los flujos de C++ operan con búferes independientes mucho más grandes y eficientes ([cplusplus sync_with_stdio](https://cplusplus.com/reference/ios/ios_base/sync_with_stdio/); [yak_ex, 2011](https://codeforces.com/blog/entry/925)).
-   > Tras desactivar la sincronización, **no se deben mezclar** funciones de C (`printf`, `scanf`, `getchar`) con `std::cin` y `std::cout` en el mismo programa.
-   {: .prompt-danger }
+Anteriormente se solía escribir en dos sentencias separadas: `ios::sync_with_stdio(0); cin.tie(0);`. La sintaxis moderna y compacta `cin.tie(0)->sync_with_stdio(0);` (popularizada en referencias contemporáneas de programación competitiva como [Structdex](https://structdex.vercel.app/)) aprovecha dos propiedades fundamentales del estándar de C++:
 
-2. **`cin.tie(0)`**: Por defecto, `std::cin` está atado (*tied*) a `std::cout`, lo que significa que antes de cada operación de lectura `cin` vacía forzosamente el búfer de `cout`. Al pasarle `0` (o `nullptr`), se desacoplan ambos flujos y las lecturas masivas ocurren a la máxima velocidad posible ([Gorbachev, 2021](https://codeforces.com/blog/entry/90775); [Qi & Chen, Fast I/O](https://usaco.guide/general/fast-io?lang=cpp)).
+1. **`cin.tie(0)` desacopla los flujos y retorna el puntero previo:** En C++, `std::cin` está enlazado (*tied*) por defecto a `std::cout`, lo que significa que antes de cada operación de lectura `cin` vacía forzosamente el búfer de `cout` ([Gorbachev, 2021](https://codeforces.com/blog/entry/90775); [Qi & Chen, Fast I/O](https://usaco.guide/general/fast-io?lang=cpp)). Al llamar a `basic_ios::tie(0)` (o `nullptr`), se rompe este enlace para permitir lecturas continuas a máxima velocidad. Crucialmente, `tie()` **retorna el puntero al flujo previamente enlazado** (`std::ostream*`), el cual corresponde a `&std::cout`.
+2. **Invocación de métodos estáticos mediante `->`:** La función `sync_with_stdio` es un método estático (`static bool sync_with_stdio(bool sync = true);`) definido en la clase base `std::ios_base` (de la cual hereda `std::ostream`). Según el estándar ISO C++, llamar a un método estático mediante sintaxis de miembro/puntero (`p->metodo_estatico()`) es completamente válido: el compilador evalúa la expresión izquierda (`cin.tie(0)` realiza el desacople) y despacha la llamada estática sobre la clase.
+3. **Desactivación de sincronización con `stdio`:** `sync_with_stdio(0)` desactiva la sincronización obligatoria entre los flujos estándar de C (`stdio`) y los de C++ (`iostream`), permitiendo que C++ opere con búferes internos independientes mucho más grandes y eficientes ([cplusplus sync_with_stdio](https://cplusplus.com/reference/ios/ios_base/sync_with_stdio/); [yak_ex, 2011](https://codeforces.com/blog/entry/925)).
+
+> Tras desactivar la sincronización, **no se deben mezclar** funciones de C (`printf`, `scanf`, `getchar`) con `std::cin` y `std::cout` en el mismo programa, ya que la independencia de búferes puede desordenar entradas y salidas.
+{: .prompt-danger }
 
 ---
 
@@ -400,6 +402,7 @@ Para utilizar esta plantilla de forma automática al abrir cualquier problema, r
 - Slotin, S. (2022). *Flags and Targets*. Algorithmica. Recuperado de <https://en.algorithmica.org/hpc/compilation/flags/>
 - Slotin, S. (2022). *Situational Optimizations*. Algorithmica. Recuperado de <https://en.algorithmica.org/hpc/compilation/situational/>
 - Stone, D. (2012). *Why would I ever use push_back instead of emplace_back?*. Recuperado de <https://stackoverflow.com/questions/10890653/why-would-i-ever-use-push-back-instead-of-emplace-back/36919571#36919571>
+- Structdex. (s.f.). *C++ CP Reference & Snippets*. Recuperado de <https://structdex.vercel.app/>
 - Walfridsson, K. (2021). *Optimizations enabled by -ffast-math*. Recuperado de <https://kristerw.github.io/2021/10/19/fast-math/>
 - Wikipedia Editors. (2023). *Advanced Vector Extensions*. Recuperado de <https://en.wikipedia.org/wiki/Advanced_Vector_Extensions>
 - yak_ex. (2011). *Fast I/O for Competitive Programming*. Recuperado de <https://codeforces.com/blog/entry/925>

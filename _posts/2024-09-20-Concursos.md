@@ -188,7 +188,7 @@ El concurso Code Rush es un certamen presencial organizado por el Club de Algori
 
 {: .prompt-warning}
 
-Más información en el Instagram del [Club de Algoritmia Puebla](https://www.instagram.com/cap_tecpuebla_official/).
+Más información en el Instagram del [Club de Algoritmia Puebla](https://www.instagram.com/cap_tecpue/)
 
 ## TCS Code Vita
 

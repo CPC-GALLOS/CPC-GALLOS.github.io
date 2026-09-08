@@ -78,8 +78,10 @@ git pull # descargas los cambios actuales desde GitHub
 ## <i class="fa-solid fa-globe"></i> Compiladores en línea (Online)
 La ventaja de usar un IDE en línea es la disponibilidad en cualquier dispositivo, la desventaja evidentemente es que al no tener conexión a internet no puedes utilizarlo aparte de que en algunos deberás guardar tus códigos manualmente en algún otro medio o plataforma.
 
-- [USACO IDE](https://ide.usaco.guide/) es un IDE de colaboración en tiempo real creado por el USA Computing Olympiad (USACO)
+- [USACO IDE](https://ide.usaco.guide/) es un IDE de colaboración en tiempo real creado por el USA Computing Olympiad (USACO). **Recomendado por el Club**
+- [Omega Up](https://omegaup.com/grader/ephemeral/) es un IDE creado por el Omega Up.
 - [onlinegdb](https://www.onlinegdb.com/online_c++_compiler) este es el compilador en línea recomendado por el club, debido a que permite guardar los códigos al iniciar sesión junto con la compatibilidad completa con nuestra [plantilla de C++](https://cpc-gallos.github.io/blog/Plantilla/) 
+- [tio.run](https://tio.run/#cpp-gcc) Compilador con soporte para múltiples versiones de librerías y estándares de C++ y debug y asi.
 - [Programiz](https://www.programiz.com/cpp-programming/online-compiler/) es un compilador en línea para acompañar sus cursos de programación
 - [cpp.sh](https://cpp.sh/) la ventaja de este editor es poder comparar las diferencias entre distintos estándares de C++ y distintos niveles de optimización del compilador, lo único malo es que no permite directivas `#pragma` ni la librería `<bits/stdc++.h>`
 - [pythontutor](https://pythontutor.com/cpp.html#mode=edit) este es un muy buen debuger en línea ya que contiene representaciones gráficas para visualizar nuestros códigos y también permite el uso de la librería `<bits/stdc++.h>`, lo malo es que no tiene entrada de usuario (no permite `std::cin`), junto con otras [cosas incompatibles](https://docs.google.com/document/d/13_Bc-l2FKMgwPx4dZb0sv7eMfYMHhRVgBRShha8kgbU/edit)
