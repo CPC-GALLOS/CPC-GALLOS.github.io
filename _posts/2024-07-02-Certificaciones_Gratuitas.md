@@ -46,6 +46,7 @@ En general, las certificaciones de nivel __Foundations Associate__ y muchas de n
 
 ### En Aguascalientes
 
+* [UAA - Krach Institute for Tech Diplomacy (Próximamente)](https://www.uaa.mx/portal/noticias/uaa-anuncia-historica-alianza-internacional-comunidad-universitaria-accedera-a-certificaciones-globales-gratuitas/) Alianza internacional de la UAA con el Krach Institute for Tech Diplomacy (Purdue University) que ofrecerá 50,000 becas y 26 microcredenciales globales gratuitas en IA, semiconductores, ciberseguridad, computación cuántica, biotecnología y liderazgo tecnológico (con validez para créditos de Formación Humanista). *Aún no hay plataforma de acceso disponible, se habilitará próximamente mediante un sitio institucional.* Consulta los detalles en [Beneficios para Estudiantes UAA](https://cpc-gallos.github.io/blog/Beneficios_Estudiantes/#uaa).
 * [UPA - capacitate en python](https://upa.edu.mx/capacitate_en_python/) Capacitación de python donde te dan acceso a un curso de Huawei ICT y después realizas un examen en sus instalaciones para decidir si te dan un voucher al examen PCEP del Python Institute, ya van dos convocatorias por lo que podría haber más en un futuro.
 * [IEA/UPA mendix](https://www.google.com/search?q=Instituto+de+Educaci%C3%B3n+de+Aguascalientes+mendix) certificacion en mendix de siemens
 * [ICP Developer bootcamps](https://lu.ma/icp-developer-2024) cursos promocionados por el INCyTEA. El concepto de ICP se relaciona al blockchain, estos bootcamps son casi cada mes y solo duran solo una semana cada uno y al final para obtener tu certificado entregas y presentas un proyecto. Tienen varios tipos de bootcamps Motoko, Azle, ICP developer Javascript y Frontend Developer.
@@ -156,7 +157,7 @@ los mas importantes son:
 
 En si los certificados de coursera __no son gratis__, pero la mayoría de cursos tienen la opción de auditar de manera gratuita sin poder obtener el certificado, pero también tienen la opción para [solicitar ayuda económica](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=es) y obtener una beca de hasta el 100% para poder obtener tu certificado.
 
-> El certificado de Algorithms de Standford es la que más se relaciona con la programación competitiva, aunque si es algo larga ya que consta de 4 cursos, pero si tienes la oportunidad certifícate en este curso.
+> El certificado de [Algorithms de Stanford](https://www.coursera.org/specializations/algorithms) es el que más se relaciona con la programación competitiva, aunque es algo largo ya que consta de 4 cursos. Si tienes la oportunidad, certifícate en este curso; también el [Data Structures and Algorithms Specialization de UC San Diego](https://www.coursera.org/specializations/data-structures-algorithms) es muy importante.
 {: .prompt-tip }
 
 <ul class="api-list" data-tag="coursera"></ul>

@@ -29,6 +29,15 @@ image: https://www.shutterstock.com/image-vector/vector-set-diverse-college-univ
   * **AWS Academy Cloud Operations [183945]:** con el profesor Bautista.
   * **AWS Academy Cloud Security Foundations [182247]:** con el profesor Ocampo.
   * **AWS Academy Cloud Foundations [159706]:** con el profesor Arturo Elías.
+* 📚 **Biblioteca Digital y Recursos de Investigación:** Acceso gratuito a las suscripciones científicas y académicas de la universidad a través de la [Biblioteca Digital UAA (Listado Completo)](https://biblioteca.uaa.mx/index.php/biblioteca-digital/listado-completo). Si ingresas desde fuera de la red universitaria, solo inicia sesión con tus credenciales de alumno/institucionales en el [Proxy de la Biblioteca Digital](https://dibpxy.uaa.mx/login). Entre los recursos disponibles destacan:
+  * **[JoVE (Journal of Visualized Experiments)](https://dibpxy.uaa.mx/login?url=https://app.jove.com/):** Videorevista científica líder en el mundo con miles de demostraciones en video de experimentos de laboratorio, metodologías y conceptos científicos clave para estudiantes e investigadores en medicina, biología, biotecnología e ingeniería.
+  * **Bases de datos de alto impacto:** Acceso a colecciones y artículos arbitrados en plataformas como **IEEE Xplore**, **ACM Digital Library**, **EBSCO (Academic Search Ultimate y Business Source Complete)**, **ScienceDirect**, **Springer Link**, **BioOne**, entre otras.
+* 📜 **(Próximamente) Certificaciones Globales Gratuitas con Krach Institute for Tech Diplomacy:** A través de una [alianza internacional entre la UAA y el Krach Institute for Tech Diplomacy](https://www.uaa.mx/portal/noticias/uaa-anuncia-historica-alianza-internacional-comunidad-universitaria-accedera-a-certificaciones-globales-gratuitas/), la comunidad universitaria (estudiantes de licenciatura, posgrados, docentes y egresados) tendrá acceso gratuito a **50,000 becas** para cursar **26 microcredenciales con certificación global**:
+  * ⚠️ **Estado del acceso:** **Aún no hay plataforma o enlace de acceso directo disponible.** El registro se realizará mediante un sitio institucional oficial que la UAA publicará próximamente, por lo que recomendamos estar al pendiente de los comunicados universitarios.
+  * **Temas de vanguardia:** Inteligencia Artificial (IA), semiconductores, ciberseguridad, biotecnología, agrotecnología, computación cuántica, robótica, biología sintética y liderazgo estratégico, con contenidos desarrollados originalmente en colaboración con la **Universidad de Purdue**.
+  * **Formato y duración:** Modalidad flexible tipo Masterclass de **8 a 16 horas**, con examen interno y certificado verificable vinculable a **LinkedIn**.
+  * **Formación Humanista:** Estas certificaciones se incorporarán formalmente al catálogo oficial de materias y créditos de **Formación Humanista**.
+  * **Convocatoria e idioma:** La primera fase se impartirá en inglés y a partir de enero de 2027 estará disponible en modalidad bilingüe.
 
 ### Cloud
 
