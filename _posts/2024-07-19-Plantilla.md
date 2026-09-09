@@ -7,6 +7,7 @@ author: ArielParra
 tags: [recomendaciones, C++]
 pin: true
 mermaid: false
+math: true
 image: /assets/img/posts/Plantilla.png
 ---
 

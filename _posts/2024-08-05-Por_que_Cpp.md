@@ -7,6 +7,7 @@ author: ArielParra
 tags: [C++]
 pin: false
 mermaid: true
+math: true
 image: /assets/img/posts/Por_que_Cpp/cpp.png
 ---
 
