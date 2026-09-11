@@ -14,7 +14,11 @@ image: /assets/img/posts/Encueriza.jpg
 
 Las *Encuerizas* es el término con el que llamamos a nuestras competencias locales, que se llevan a cabo los viernes de cada quince días. Inspiradas en los concursos de plataformas como Codeforces, conocidos como gimnasios (*gyms*).
 
-Nuestro término de la palabra *Encueriza* tiene un significado profundo; sus orígenes datan de la Antigua Grecia, donde el gimnasio era un lugar de desarrollo físico y espiritual, y los atletas competían desnudos, simbolizando pureza y dedicación. Siguiendo ese espíritu, en nuestras *Encuerizas*, los competidores se enfrentan a los retos de la **programación competitiva** despojados de distracciones, temores o dudas, mostrando su auténtico potencial al desnudar mente y alma con cada desafío. 
+Nuestro término de la palabra *Encueriza* tiene un significado profundo; sus orígenes datan de la Antigua Grecia, donde el gimnasio (*gymnasion*, derivado de *gymnos*: desnudo) era un lugar de desarrollo físico y espiritual, y los atletas competían desnudos, simbolizando pureza y dedicación. Siguiendo ese espíritu, en nuestras *Encuerizas*, los competidores se enfrentan a los retos de la **programación competitiva** despojados de distracciones, temores o dudas, mostrando su auténtico potencial al desnudar mente y alma con cada desafío.
+
+Además, tratándose de nuestro club **GALLOS**, esta idea guarda un guiño filosófico: la célebre anécdota de Diógenes de Sinope frente a Platón. Cuentan que cuando Platón fue ovacionado por definir al ser humano como un "bípedo implume" (un animal de dos patas sin plumas), Diógenes el Cínico desplumó un **gallo**, lo llevó a la Academia y lo arrojó ante todos exclamando: *"¡He aquí el hombre de Platón!"*.
+
+De este modo, entre la desnudez atlética del gimnasio griego y el gallo encuerado de Diógenes, nuestras *Encuerizas* cobran su sentido: son el espacio donde cada gallo se despoja de las plumas de las excusas y demuestra su verdadero temple frente al código.
 
 
 ## Concurso de Programación del Congreso de Ciencias Exactas UAA 
@@ -29,7 +33,7 @@ Nuestro término de la palabra *Encueriza* tiene un significado profundo; sus or
 > Se intentara volver a usar el [grupo de Vjudge](https://vjudge.net/group/cpc-gallos#contests-anchor) ya que no es necesario poner la [cookie de codeforces](https://vjudge.net/article/2790) a mano y se puede enlazar la cuenta directamente
 {: .prompt-info }
 
-> TODO: Aun no empieza xd 
+- [Encueriza I UAA 2026](https://omegaup.com/arena/Encueriza-I-UAA-2026/startfresh/)
 
 ### Semestre Enero-Julio
 
