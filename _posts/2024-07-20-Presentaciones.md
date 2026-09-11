@@ -35,8 +35,8 @@ image: /assets/img/posts/Presentaciones.png
 - Jueves: Funciones
 
 **Semana 5**
-- Martes: Arreglos — Vector, String, Bitset, Funciones
-- Jueves: Big - O
+- Martes: [Arreglos — Vector, String, Bitset, Funciones](https://canva.link/6jqg0kci5aauu3w)
+- Jueves: Big - O [llamada con el Dember ](https://eduuaa-my.sharepoint.com/:v:/g/personal/al340350_edu_uaa_mx/IQDIWv-hsmh-QK5j1yqvEj9xAZKZDMBzPZXLK1nI5YoMBvY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Oh8bIX) y el [excalidraw](https://excalidraw.com/#json=_6busjez2mKdtkn8vfE81,33Y-atTsQipSdg8-HglHVg)
 
 **Semana 6**
 - Martes: Teoría de números I — divisibilidad, congruencia de módulo
@@ -81,13 +81,6 @@ image: /assets/img/posts/Presentaciones.png
 **Semana 16**
 - Martes: Motivación
 - Jueves: Despedida
-
-### Enlaces y Recursos 2026
-
-- [**Presentación / Introducción**](https://canva.link/u2q82kbtgtvrg4t)
-- [**Curso OmegaUp: Introducción a C++**](https://omegaup.com/course/introduccion_cpp/)
-- [**Data Types in C++**](https://canva.link/0up25adj71rp24j)
-- [**Operaciones Básicas**](https://canva.link/sc67zbqv1cl9v2y)
 
 
 ## Presentaciones 2025 (En inglés)

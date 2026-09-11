@@ -229,6 +229,8 @@ No es exclusivo para estudiantes. Puedes crear una cuenta gratuita. Para aprovec
     - Deezer Student: 3 meses gratis Luego, $59 MXN al mes.
     - Kaspersky:  Descuento del 60% en cualquiera de las soluciones.
 - [sharp3d](https://www.shapr3d.com/education) licencia 100% gratuita para renovar anualmente. Shapr3D es un software CAD con el motor Siemens Parasolid®, disponible en Windows, MacOS y iPadOS.
+- [Adobe Creative Cloud para estudiantes](https://www.adobe.com/education/students/creativecloud.html) acceso educativo a herramientas como Photoshop, Illustrator, Premiere Pro, After Effects y más, con descuento o licencia especial para estudiantes.
+- [Figma Education](https://www.figma.com/education/) acceso a la versión Pro de Figma para estudiantes y docentes mediante verificación académica, ideal para diseño, prototipado y colaboración en equipo.
 - [notion](https://www.notion.so/es/product/notion-for-education) plan Plus gratis al al presentar correo institucional.  
 - [canva premium](https://canva.com/edu-signup) canva premium al presentar correo institucional.
 - [QT](https://www.qt.io/qt-educational-license) licencia de 12 meses renovable al verificar que eres estudiante para sus softwares de Qt Design Studio Enterprise y Qt Device Creation Professional.
