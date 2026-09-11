@@ -72,16 +72,18 @@ No es exclusivo para estudiantes. Solo necesitas una cuenta de Google y, en la m
 
 * [Google Colab](https://colab.google/)
 
-No requiere tarjeta de crédito. Solo necesitas una cuenta de Google.
+No requiere tarjeta de crédito. Solo necesitas una cuenta de Google. Google Colab proporciona un entorno de máquina virtual (VM) hospedado en la nube para ejecutar código interactivo.
 
 **Incluye el plan gratuito:**
 
-* 📓 Notebooks de Jupyter en la nube.
-* ⚡ Acceso gratuito a GPU y TPU (disponibilidad variable).
-* 💾 Integración con Google Drive.
-* 🐍 Python con cientos de librerías preinstaladas para IA, ciencia de datos y aprendizaje automático.
-* 🤝 Compartir notebooks en tiempo real como Google Docs.
-* 🔗 Integración con GitHub y Kaggle.
+* 💻 Máquina Virtual (VM) en la nube con entorno de ejecución basado en Linux (Ubuntu).
+* 📓 Notebooks de Jupyter en la nube sin necesidad de configuración local.
+* ⚡ Acceso gratuito a aceleradores por hardware como GPU (NVIDIA T4 u otras según disponibilidad) y TPU.
+* 🧠 Memoria RAM (típicamente ~12-13 GB) y almacenamiento de disco efímero dedicados para la sesión.
+* 💾 Integración directa con Google Drive para persistir archivos y datasets.
+* 🐍 Entorno Python listo para usar con cientos de librerías preinstaladas para IA, ciencia de datos y aprendizaje automático (TensorFlow, PyTorch, OpenCV, Pandas, etc.).
+* 🤝 Compartir notebooks en tiempo real y colaborar con permisos al estilo Google Docs.
+* 🔗 Integración nativa con GitHub y Kaggle.
 
 
 * [Firebase Spark Plan](https://firebase.google.com/pricing)

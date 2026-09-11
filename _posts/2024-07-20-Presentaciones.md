@@ -83,6 +83,9 @@ image: /assets/img/posts/Presentaciones.png
 - Jueves: Despedida
 
 
+> El repositorio de las presentaciones 2024-2025 se encuentra en <https://github.com/CPC-GALLOS/Presentations>
+{: .prompt-tip }
+
 ## Presentaciones 2025 (En inglés)
 
 - [**Introduction**](https://cpc-gallos.github.io/Presentations/2025/0-Introduction.html), [pdf](https://cpc-gallos.github.io/Presentations/2025/0-Introduction.pdf)
@@ -137,9 +140,6 @@ image: /assets/img/posts/Presentaciones.png
     1. [Geometría Computacional](https://cpc-gallos.github.io/Presentations/2024/3_010-Geometria_Computacional.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/3_010-Geometria_Computacional.pdf)
 
 -  [Presentación de Cierre](https://cpc-gallos.github.io/Presentations/2024/4-Presentacion_Cierre.html), [pdf](https://cpc-gallos.github.io/Presentations/2024/4-Presentacion_Cierre.pdf)
-
-> El repositorio de estas presentaciones se encuentra en <https://github.com/CPC-GALLOS/Presentations>
-{: .prompt-tip }
 
 
 ## Presentaciones 2023
