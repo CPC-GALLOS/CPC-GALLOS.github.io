@@ -39,7 +39,7 @@ __Tabla de Contenidos:__
 
 # Plantilla Larga (Oficial de Competencia)
 
-A continuación presentamos la plantilla estándar y completa del club, la cual se encuentra disponible y versionada en el repositorio de GitHub [CPC-GALLOS/Plantilla](https://github.com/CPC-GALLOS/Plantilla). Está diseñada para maximizar la velocidad de escritura, evitar errores de compilación comunes y proporcionar estructuras de alto rendimiento alineadas con nuestro [ICPC Team Reference Document (Notebook TRD)](https://github.com/CPC-GALLOS/Notebook):
+A continuación presentamos la plantilla estándar y completa del club, la cual se encuentra disponible y versionada en el repositorio de GitHub [CPC-GALLOS/Plantilla](https://github.com/CPC-GALLOS/Template). Está diseñada para maximizar la velocidad de escritura, evitar errores de compilación comunes y proporcionar estructuras de alto rendimiento alineadas con nuestro [ICPC Team Reference Document (Notebook TRD)](https://github.com/CPC-GALLOS/Notebook):
 
 ```cpp
 // _autor_
@@ -97,7 +97,7 @@ int main() {
 }
 ```
 
-> La plantilla está disponible en el repositorio [CPC-GALLOS/Plantilla](https://github.com/CPC-GALLOS/Plantilla). ¡Recuerda sugerir tus mejoras a través de un Pull Request!
+> La plantilla está disponible en el repositorio [CPC-GALLOS/Plantilla](https://github.com/CPC-GALLOS/Template). ¡Recuerda sugerir tus mejoras a través de un Pull Request!
 
 ---
 
@@ -366,7 +366,7 @@ Para utilizar esta plantilla de forma automática al abrir cualquier problema, r
 - cplusplus. (s.f.). *std::vector::emplace_back*. Recuperado de <https://cplusplus.com/reference/vector/vector/emplace_back/>
 - cplusplus. (s.f.). *std::vector::push_back*. Recuperado de <https://cplusplus.com/reference/vector/vector/push_back/>
 - CPC Gallos. (2024). *CPC Gallos Notebook - Team Reference Document (TRD)*. Recuperado de <https://github.com/CPC-GALLOS/Notebook>
-- CPC Gallos. (2024). *Plantilla Oficial de Competencia*. Recuperado de <https://github.com/CPC-GALLOS/Plantilla>
+- CPC Gallos. (2024). *Plantilla Oficial de Competencia*. Recuperado de <https://github.com/CPC-GALLOS/Template>
 - cppreference. (s.f.). *std::basic_ostream<CharT,Traits>::flush*. Recuperado de <https://en.cppreference.com/w/cpp/io/basic_ostream/flush>
 - cppreference. (s.f.). *std::endl*. Recuperado de <https://en.cppreference.com/w/cpp/io/manip/endl>
 - cppreference. (s.f.). *std::ios_base::sync_with_stdio*. Recuperado de <https://en.cppreference.com/w/cpp/io/ios_base/sync_with_stdio>
