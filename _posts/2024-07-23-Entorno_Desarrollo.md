@@ -1,4 +1,4 @@
-﻿---
+---
 title: Entorno de Desarrollo
 description: Para la programación competitiva en C++
 date: 2024-07-23 7:00:00 +/-TTTT
@@ -14,8 +14,14 @@ __Tabla de Contenidos:__
 * TOC
 {:toc} 
 
-##  Conectar <i class="fa-brands fa-git-alt"></i> Git con <i class="fa-brands fa-github"></i> GitHub
 
+> No tenemos guías específicas de **Linux** porque varía según la distribución, pero usualmente tendrás menos problemas en sistemas operativos basados en Linux. Ante cualquier duda, puedes contactar a [{{ site.data.authors.ArielParra.name }}](<{{ site.data.authors.ArielParra.url }}>).
+{: .prompt-info }
+
+## Conectar <i class="fa-brands fa-git-alt"></i> Git con <i class="fa-brands fa-github"></i> GitHub
+
+> **Recomendamos** guardar todos tus proyectos y códigos en GitHub como portafolio de evidencias.
+{: .prompt-tip }
 
 1. Primero crearemos una cuenta de GitHub <https://github.com/signup> 
 1. Después creamos un repositorio (proyecto) en  <https://github.com/new>
@@ -58,8 +64,7 @@ git config --global user.email "correo@ejemplo.com"
 ssh-keygen -t ed25519 -C "correo@ejemplo.com"
 ```
 
-8. Copiamos los datos del archivo generado en Windows en la ruta: `C:\Users\%USERNAME%\.ssh\id_ed25519.pub`{: .filepath} (para windows tiene el icono de Microsoft publisher ![Microsoft publisher logo](https://upload.wikimedia.org/wikipedia/commons/f/fb/Microsoft_Office_Publisher_%282019-present%29.svg){: w="15" h="15" } y se puede abrir con el bloc de notas
-) , para los demás sistemas operativos suele estar en `~/.ssh/id_ed25519.pub`{: .filepath}  y lo conectamos con nuestra cuenta de GitHub a través de <https://github.com/settings/ssh/new>, dándole un nombre (puede ser el modelo de tu dispositivo) y pegando la los datos copiados (llave).
+8. Copiamos los datos del archivo generado en Windows en la ruta: `C:\Users\%USERNAME%\.ssh\id_ed25519.pub`{: .filepath} (para Windows tiene el icono de Microsoft Publisher ![Microsoft publisher logo](https://upload.wikimedia.org/wikipedia/commons/f/fb/Microsoft_Office_Publisher_%282019-present%29.svg){: w="15" h="15" } y se puede abrir con el bloc de notas), para los demás sistemas operativos suele estar en `~/.ssh/id_ed25519.pub`{: .filepath}, y lo conectamos con nuestra cuenta de GitHub a través de <https://github.com/settings/ssh/new>, dándole un nombre (puede ser el modelo de tu dispositivo) y pegando los datos copiados (llave).
 9. Por último descargamos nuestro repositorio, en una terminal navega hacia tu carpeta de destino, yo recomiendo la carpeta de Documentos (Documents) o Escritorio (Desktop).
 
 > Mucho ojo 👁️ en Windows, estas carpetas suelen estar bajo `C:\Users\%USERNAME%\One Drive\`{: .filepath}
@@ -68,7 +73,7 @@ ssh-keygen -t ed25519 -C "correo@ejemplo.com"
 git clone git@github.com:"Usuario de GitHub"/"Proyecto".git
 ```
 
-Una vez ya tengamos conectado nuestra cuenta y hallamos descargado el proyecto, los tres comandos principales de git que usaremos en la terminal son:
+Una vez ya tengamos conectada nuestra cuenta y hayamos descargado el proyecto, los tres comandos principales de git que usaremos en la terminal son:
 ```bash
 git commit -m "mensaje del commit" # cambios locales a "pushear"
 git push # pusheas los cambios junto con el commit hacia GitHub
@@ -89,7 +94,7 @@ La ventaja de usar un IDE en línea es la disponibilidad en cualquier dispositiv
 ## <i class="fa-solid fa-cloud"></i> IDEs en la nube (Cloud)
 
 - [Replit](https://replit.com/languages/cpp) es una plataforma para colaborar en tiempo real con código, la desventaja es que el plan gratuito solo te permite tener 3 proyectos públicos
-- [Google Colab](https://colab.research.google.com/) es un servició totalmente gratuito por parte de Google para usar [Jupyer Noteeboks](https://docs.jupyter.org/en/latest/#what-is-a-notebook), para ejecutar C++ tendremos que usar el comando `%%writefile` para escribir hacia archivos, como lo seria el archivo `in.txt` donde pondremos todas las entradas del programa (necesario para la función `freopen`) y el archivo `.cpp` el cual compilaremos con el comando `!g++` y ejecutaremos de esta manera `!./a.out` 
+- [Google Colab](https://colab.research.google.com/) es un servicio totalmente gratuito por parte de Google para usar [Jupyter Notebooks](https://docs.jupyter.org/en/latest/#what-is-a-notebook), para ejecutar C++ tendremos que usar el comando `%%writefile` para escribir hacia archivos, como lo sería el archivo `in.txt` donde pondremos todas las entradas del programa (necesario para la función `freopen`) y el archivo `.cpp` el cual compilaremos con el comando `!g++` y ejecutaremos de esta manera `!./a.out` 
 
 ![Google Colab ejemplo](/assets/img/posts/Entorno_Desarrollo/Google_Colab.png){: w="400" h="200"}
 
@@ -100,7 +105,7 @@ La ventaja de usar un IDE en línea es la disponibilidad en cualquier dispositiv
 > Recuerda que tienes acceso de forma gratuita a [GitHub Pro](https://education.github.com/discount_requests/application) por ser estudiante
 {: .prompt-tip }
 
-- [cs50.dev](https://cs50.dev/) es GitHub codespaces gratuito y sin limite de tiempo, hosteado por la universidad de Harvard para el acompañamiento de sus [cursos](https://cpc-gallos.github.io/blog/Filtrar_Certificados/?issuer=harvard), este es el editor en la nube recomendado por el club. 
+- [cs50.dev](https://cs50.dev/) es GitHub codespaces gratuito y sin limite de tiempo, hosteado por la universidad de Harvard para el acompañamiento de sus [cursos](https://cpc-gallos.github.io/blog/Filtrar_Certificados/?issuer=harvard), este es el editor en la nube **recomendado por el club**. 
 
 ![cs50.dev ejemplo](/assets/img/posts/Entorno_Desarrollo/cs50dev.png){: w="600" h="300"}
 
@@ -109,12 +114,21 @@ La ventaja de usar un IDE en línea es la disponibilidad en cualquier dispositiv
 
 ## VScode IDE 
 
-No confundir con [Visual Studio](https://visualstudio.microsoft.com/). VScode es el editor recomendado por el Club, esto debido principalmente por su amplio catalogo de extensiones. Para instalarlo podemos hacerlo desde su [página web](https://code.visualstudio.com/) o usando el gestor de paquetes 
+No confundir con [Visual Studio (el moradito)](https://visualstudio.microsoft.com/). VScode (el azulito) es el editor recomendado por el Club (quizas solamente [quitando lo de github copilot y cosas de IA](https://code.visualstudio.com/docs/agents/agent-troubleshooting/faq#_how-can-i-remove-copilot-from-vs-code)), esto debido principalmente por su amplio catalogo de extensiones.
+
+> **Nota:** A VS Code le falta el compilador de C++ integrado, por lo que es necesario instalar el compilador por separado y vincularlo al editor de código. Consulta cómo [instalar el compilador en Windows](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#instalar-el-compilador-en--windows) o [instalar el compilador en macOS](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#instalar-el-compilador-en--macos) (Para los que usan **linux** no se preocupen usualmente ya viene con el compilador preinstalado en su sistema). 
+{: .prompt-warning }
+
+Para instalarlo podemos hacerlo desde su [página web](https://code.visualstudio.com/) o usando el gestor de paquetes 
 
 - En <i class="fa-brands fa-microsoft"></i> Windows en ![powershell logo](https://nattia.com/wp-content/uploads/2024/04/Servicios-de-PowerShell.png){: w="15" h="15" } Powershell con el comando: 
 ```powershell
-winget install -e --id  Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
+winget update; winget install -e --id  Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
 ``` 
+
+> Recuerda que en **Windows**, las carpetas de **Escritorio**,**Descargas** y **Documentos** suelen estar bajo `C:\Users\%USERNAME%\One Drive\`{: .filepath}
+{: .prompt-warning }
+
 - En <i class="fa-brands fa-apple"></i> MacOs con el gestor de paquetes ![homebrew logo](https://brew.sh/assets/img/homebrew.svg){: w="10" h="10" } [homebrew](https://brew.sh/):
 ```zsh
 brew install --cask visual-studio-code
@@ -125,18 +139,20 @@ brew install --cask visual-studio-code
     pkg update && pkg install tur-repo code-server
     code-server # este es el comando para ejecutar el servidor de vscode
     ```
-    2. con el [escritorio nativo](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-escritorio-nativo) con los comandos:
+    2. con los [escritorios nativos](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-escritorios-nativos) con los comandos:
     ```bash
     pkg update && pkg install tur-repo code-oss
     ```
-- En <i class="fa-brands fa-apple"></i> iOS/iPadOS no se puede amenos que se use un [escritorio emulado](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-escritorio-emulado)
+- En <i class="fa-brands fa-apple"></i> iOS/iPadOS no se puede a menos que se use un [escritorio emulado](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-escritorio-emulado)
 
 ### Extensiones para VScode
 
 - ![C/C++ logo](https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/cpptools/1.21.2/1721683708278/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" } [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) esta es la extensión necesaria para poder correr código de C++ dentro de VScode
 - ![Error lens logo](https://usernamehw.gallerycdn.vsassets.io/extensions/usernamehw/errorlens/3.20.0/1719044874383/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[Error lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) esta extensión nos muestra los errores que va dando el IDE o el compilador.
-- ![Prettier logo](https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/10.4.0/1711025051911/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) esta extensión le da formato a nuestro código al presionar la combinación `shift + alt + F`
-- ![CPH logo](https://divyanshuagrawal.gallerycdn.vsassets.io/extensions/divyanshuagrawal/competitive-programming-helper/2024.7.1721655847/1721655861341/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[Competitive Programming Helper](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) esta es la extensión para poder, probar los códigos antes de publicar y también podremos subir directamente los códigos a codeforces de una manera muy rápida
+- ![CPH logo](https://divyanshuagrawal.gallerycdn.vsassets.io/extensions/divyanshuagrawal/competitive-programming-helper/2024.7.1721655847/1721655861341/Microsoft.VisualStudio.Services.Icons.Default){: w="15" h="15" }[Competitive Programming Helper](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) esta es la extensión para poder probar los códigos antes de publicar y también podremos subir directamente los códigos a Codeforces de una manera muy rápida.
+
+> **Tip:** Recuerda configurar VS Code para ejecutar casos de prueba locales y enviar soluciones directamente a Codeforces siguiendo la sección [Integrar Codeforces con VS Code](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#integrar-codeforces-con-vscode).
+{: .prompt-tip }
 
 #### Temas recomendados para VScode: 
 
@@ -145,7 +161,7 @@ brew install --cask visual-studio-code
 
 ### Integrar Codeforces con VScode  
 
-- Primero en  VScode tenemos que tener la extensión [Competitive Programming Helper (CPH)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) o la nueva extensión del club de la universidad de Purdue [Competitive Programmers Union (CPU)](https://marketplace.visualstudio.com/items?itemName=thomasqm.cpu)o tambien el [ICIE (with g++ in Linux)](https://marketplace.visualstudio.com/items?itemName=mikaelmello.icie)
+- Primero en  VScode tenemos que tener la extensión [Competitive Programming Helper (CPH)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper), la nueva extensión del club de la universidad de Purdue [Competitive Programmers Union (CPU)](https://marketplace.visualstudio.com/items?itemName=thomasqm.cpu), tambien el [ICIE (with g++ in Linux)](https://marketplace.visualstudio.com/items?itemName=mikaelmello.icie), o tambien [CPH NG](https://marketplace.visualstudio.com/items?itemName=langningchen.cph-ng) 
 - Tambien recomendamos alguna de estas extensiones para facilitar el analisis de BigO [LiveComplexity: Real-time Big-O Analysis](https://marketplace.visualstudio.com/items?itemName=livecomplexity.livecomplexity) o [BigO-me - Code Complexity Analyzer](https://marketplace.visualstudio.com/items?itemName=BigO-me.code-complexity-analyzer)
 - Después cambiaremos el lenguaje por defecto a C++ y agregaremos la ruta (ubicación) de la [plantilla del club](https://cpc-gallos.github.io/blog/Plantilla/) a la configuración de la extensión Competitive Programming Helper (CPH) en VScode
 
@@ -155,10 +171,10 @@ brew install --cask visual-studio-code
 
 - Para navegadores basados en <i class="fa-brands fa-chrome"></i> chromium (<i class="fa-brands fa-chrome"></i> Google Chrome, <i class="fa-brands fa-edge"></i> Microsft Edge, <i class="fa-brands fa-opera"></i> Opera, <i class="fa-brands fa-brave"></i> Brave, etc.): Agrega las extensiones: [competitive companion](https://chromewebstore.google.com/detail/competitive-companion/cjnmckjndlpiamhfimnnjmnckgghkjbl) y [CPH Submit](https://chromewebstore.google.com/detail/cph-submit/ekplnobooikgpdbobcciehbhcmlklgnc) 
 
-> CPH Submit puede no funcionar del todo bien en navegadores basados en chromium, por lo que pueden intentar descargar una [version más antigua](https://github.com/ArielParra/cph-submit-chromium) o usar firefox.
+> CPH Submit puede no funcionar del todo bien en navegadores basados en Chromium, por lo que pueden intentar descargar una [versión más antigua](https://github.com/ArielParra/cph-submit-chromium) o usar Firefox.
+{: .prompt-tip }
 
-{: prompt-tip}
-Para usarlas, ten tu sesión de codeforces activa y también ten abierto VScode, cuando abras un problema en codeforces haz click en la extensión de competitive companion (el circulo verde con una cruz), después cámbiate a VScode donde veras unas opciones donde eligieras cpp, y listo podrás pobrar y publicar tu código desde vscode. 
+Para usarlas, ten tu sesión de Codeforces activa y también ten abierto VScode, cuando abras un problema en Codeforces haz clic en la extensión de competitive companion (el círculo verde con una cruz), después cámbiate a VScode donde verás unas opciones donde elegirás cpp, y listo podrás probar y publicar tu código desde VS Code. 
 
 ## Instalar el compilador en <i class="fa-brands fa-microsoft"></i> Windows 
 
@@ -168,7 +184,7 @@ Para usarlas, ten tu sesión de codeforces activa y también ten abierto VScode,
 winget update ; winget install -e --id MSYS2.MSYS2
 ```
 
-- Ya instalado, abrimos la terminal de MSYS2 UCRT64 ![msys2 ucrt64 logo](https://www.msys2.org/docs/ucrt64.png){: w="15" h="15" } y ejecutamos el siguiente comando (acepta presionando `Enter` 2 veces):
+- Ya instalado, abrimos la terminal de **MSYS2 UCRT64** ![msys2 ucrt64 logo](https://www.msys2.org/docs/ucrt64.png){: w="15" h="15" }, copiamos (y pegamos con `SHIFT + INSERT`) y ejecutamos el siguiente comando (acepta presionando `Enter` 2 veces):
 
 ```powershell
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
@@ -180,7 +196,11 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 ![msys2 toolchain](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001-toolchain.png){: w="500" h="300" }
 
-- Ya terminada la instalación del compilador, procederemos a agregar el compilador al `path`. Para ello, buscamos alguna de estas palabras clave: "variables", "path", "variables del sistema" en el buscador de Windows <i class="fa fa-magnifying-glass"></i> y abriremos la aplicación con icono de una computadora con una palomita ![computadora con una palomita](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001_icono_path.png){: w="15" h="15" }, allí abriremos las variables y editaremos el path agregando la dirección: `C:\msys64\ucrt64\bin`. 
+- Ya terminada la instalación del compilador, procederemos a agregar el compilador al `path`. Para ello, buscamos alguna de estas palabras clave: "variables", **"path"**, "variables del sistema" en el buscador de Windows <i class="fa fa-magnifying-glass"></i> y abriremos la aplicación con icono de una computadora con una palomita ![computadora con una palomita](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001_icono_path.png){: w="15" h="15" }, allí abriremos las variables y editaremos el path agregando la dirección: `C:\msys64\ucrt64\bin`. (en la segunda ventana recuerda seleccionar la línea que dice **"Path"** antes de hacer clic en "Edit")
+
+```pwsh
+C:\msys64\ucrt64\bin
+```
 
 ![path de windows](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001_path.png){: w="500" h="300" }
 
@@ -189,25 +209,25 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 - Instalar la [extensión C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) en VScode.
 
-![Extención de C++](assets/img/posts/Entorno_Desarrollo/extencion_cpp.png)
+![Extensión de C++](/assets/img/posts/Entorno_Desarrollo/extencion_cpp.png)
 
-- Despues presionaremos `f1` para abrir el "command palette" y escribe "walk",   
+- Después presionaremos `f1` para abrir el "command palette" y escribe **"walk"**,   
 
-![Command Palette](assets/img/posts/Entorno_Desarrollo/command_palette.png)
+![Command Palette](/assets/img/posts/Entorno_Desarrollo/command_palette.png)
 
-- Entonces al darle `enter` a la opción **"Welcome: Open Walkthrough..."**, nos apareceran varias opciones de las cuales eligiremos la opción que mencione C/C++
+- Entonces al darle `enter` a la opción **"Welcome: Open Walkthrough..."**, nos aparecerán varias opciones de las cuales elegiremos la opción que mencione C/C++
 
-![Get Started cpp](assets/img/posts/Entorno_Desarrollo/Get_Started_cpp.png)
+![Get Started cpp](/assets/img/posts/Entorno_Desarrollo/Get_Started_cpp.png)
 
-- Al darle `enter` a esa opción nos aparecera este pantalla donde en la sección que dice **"Setup your C++ Environment"** deberemos darle click al boton azul que dice **"Select My Default Compiler"**, esto despliegara un menu en el command Pallette donde de nuevo deberemos elegir la opción que dice "use g++.exe"
+- Al darle `enter` a esa opción nos aparecerá esta pantalla donde en la sección que dice **"Setup your C++ Environment"** deberemos darle clic al botón azul que dice **"Select My Default Compiler"**, esto desplegará un menú en el Command Palette donde de nuevo deberemos elegir la opción que dice **"use g++.exe"**
 
-![Setup C++](assets/img/posts/Entorno_Desarrollo/select_compiler.png)
+![Setup C++](/assets/img/posts/Entorno_Desarrollo/select_compiler.png)
 
-- Esto causara que se abra el explorador de archivos de Windows donde deveremos navegar hacia la ruta `C:/msys64/ucrt64/bin` y elegir el programa `g++.exe`
+- Esto causará que se abra el explorador de archivos de Windows donde deberemos navegar hacia la ruta `C:/msys64/ucrt64/bin` y elegir el programa `g++.exe`
 
-![Explorador de archivos](assets/img/posts/Entorno_Desarrollo/file_explorer.png)
+![Explorador de archivos](/assets/img/posts/Entorno_Desarrollo/file_explorer.png)
 
-- Y listo. Con esto ya podremos compilar y ejecutar el código dentro de VScode dándole click al símbolo de reproducir <i class="fa fa-play"></i>  en la parte superior derecha del editor, si hubiera algún problema intentar instalar el compilador con el [segundo metodo](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#instalar-el-compilador-en-vscode-de-windows-opción-2) aquí abajo.
+- Y listo. Con esto ya podremos compilar y ejecutar el código dentro de VScode dándole clic al símbolo de reproducir <i class="fa fa-play"></i>  en la parte superior derecha del editor, si hubiera algún problema intentar instalar el compilador con el [segundo método](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#instalar-el-compilador-en-vscode-de-windows-opción-2) aquí abajo.
 
 
 ### Instalar el compilador en VScode de Windows (Opción 2) 
@@ -216,34 +236,29 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 ![configuración de la extensión C/C++](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001_cpp_settings.png){: w="500" h="300" }
 
-- Ahi buscamos la opción que diga "compiler path", la cual nos mandara nos manda al archivo [`settings.json`](https://code.visualstudio.com/docs/getstarted/settings#_settingsjson):
+- Ahí buscamos la opción que diga "compiler path", la cual nos manda al archivo [`settings.json`](https://code.visualstudio.com/docs/getstarted/settings#_settingsjson):
         
 ![imagen de settings.json](https://raw.githubusercontent.com/CPC-GALLOS/Presentations/main/2024/img/1_001_cpp_settings_json.png){: w="500" h="300" }
 
-- Agregaremos estas líneas a los corchetes internos, teniendo cuidado de no borrar otras configuraciones. 
+- Agregaremos estas líneas a los corchetes internos, teniendo cuidado de no borrar otras configuraciones si existieran (quitar los `{}` si es que existen o se quedaran sueltas). 
     ```json
-
-        "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin",
-        "C_Cpp.clang_format_path": "C:/msys64/ucrt64/bin",
-        "code-runner.executorMap": {
-            "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -g && $dir$fileNameWithoutExt"
-        }
-
+    {
+      "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin",
+      "C_Cpp.clang_format_path": "C:/msys64/ucrt64/bin"
+    }
     ```
 - Con esto ya podremos compilar y ejecutar el código dentro de VScode dándole click al símbolo de reproducir <i class="fa fa-play"></i>  en la parte superior derecha del editor
 
-> Aveces al abrir una carpeta o proyecto, el compilador no detectara la libreria de `<bits/stdc++.h>`, para solucionar esto, presionaremos `f1` para abrir el "command palette" y dentro de "C/C++: Edit Configurations (UI)" pondremos de nuevo el "Compiler Path", pero ahora incluyendo el compilador g++: `C:/msys64/ucrt64/bin/g++.exe`
+> **Ultima opción para solucionar cualquier error**: A veces al abrir una carpeta o proyecto, el compilador no detectará la librería de `<bits/stdc++.h>`, para solucionar esto, presionaremos `f1` para abrir el "command palette" y dentro de "C/C++: Edit Configurations (UI)" pondremos de nuevo el "Compiler Path", pero ahora incluyendo el compilador g++: `C:/msys64/ucrt64/bin/g++.exe`
 {: .prompt-tip }
-![C/C++ Config UI](assets/img/posts/Entorno_Desarrollo/C_Config_UI.png)
+![C/C++ Config UI](/assets/img/posts/Entorno_Desarrollo/C_Config_UI.png)
 
 ## Instalar el compilador en <i class="fa-brands fa-apple"></i> MacOS
 
-> Las Macs con chips M1,M2 o M3 usan la arquitectura ARM. Si ves el error `Bad CPU type in executable (os error 86)`, instala Rosetta con:
-    ```bash
-    softwareupdate --install-rosetta
-    ```
-{: .prompt-info }
-
+> Las Macs con chips M1, M2 o M3 usan la arquitectura ARM. Si ves el error `Bad CPU type in executable (os error 86)`, instala Rosetta con:
+> ```bash
+> softwareupdate --install-rosetta
+> ```
 {: .prompt-info }
 
 ### Con GNU gcc/g++
@@ -266,7 +281,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
     > si sale el mensaje `Error: --force-bottle passed but gcc has no bottle` sigue la opción 2 con [Macports](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#opción-2---para-macos--13-monterey-y-anteriores-con-macports) 
     {: .prompt-warning}
 
-1. luego quitamos el comilador g++ ligado a clang, para poder agregar el g++ ligado a GNU
+1. luego quitamos el compilador g++ ligado a clang, para poder agregar el g++ ligado a GNU
     ```zsh
     sudo rm /usr/local/bin/g++
     sudo ln -s $(ls /usr/local/bin/g++-*) /usr/local/bin/g++
@@ -289,7 +304,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
     sudo port selfupdate
     sudo port install gcc14
     ```
-1. luego quitamos el comilador g++ ligado a clang, para poder agregar el g++ ligado a GNU
+1. luego quitamos el compilador g++ ligado a clang, para poder agregar el g++ ligado a GNU
     ```zsh
     sudo rm /usr/local/bin/g++
     sudo ln -s $(ls /opt/local/bin/g++-*) /usr/local/bin/g++
@@ -318,7 +333,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 
 ## Entorno de desarrollo en móviles <i class="fa-brands fa-android"></i> <i class="fa-brands fa-apple"></i> 
 
-> En ambos casos recomendamos más el uso de [IDEs en la nube](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-ides-en-la-nube-cloud) en especial el de la página <https://cs50.dev/> el cual a travez de un navegador como safari, firefox o chromium puedes agregar un acceso directo a tus apliaciones.    
+> En ambos casos recomendamos más el uso de [IDEs en la nube](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#-ides-en-la-nube-cloud) en especial el de la página <https://cs50.dev/> el cual a través de un navegador como Safari, Firefox o Chromium puedes agregar un acceso directo a tus aplicaciones.    
 {: .prompt-tip }
 
 ![cs50.dev ejemplo](/assets/img/posts/Entorno_Desarrollo/cs50dev.png){: w="600" h="300"}
@@ -333,7 +348,7 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 {: .prompt-warning }
 
 
-Termux es la terminal nativa de Android, esta disponible en la PlayStore, pero suele estar desactualizada por lo que recomiendo descargarlo [directamente en GitHub](https://github.com/termux/termux-app) o a través de la tienda open-source [fdroid](https://f-droid.org/en/packages/com.termux/)
+Termux es la terminal nativa de Android, está disponible en la Play Store, pero suele estar desactualizada por lo que recomiendo descargarla [directamente en GitHub](https://github.com/termux/termux-app) o a través de la tienda open-source [F-Droid](https://f-droid.org/en/packages/com.termux/)
 
 Dentro de la terminal para poder instalar el compilador ejecutamos los siguientes comandos:
 ```bash
@@ -357,7 +372,7 @@ También recomiendo usar el explorador de archivos por defecto en Android "files
 
 ### <i class="fa-solid fa-desktop"></i> escritorios nativos
 
-Estos metodos son recomendado para dispositivos de gama alta o dispositivos recientes, y  para usuarios un poco más avanzados, donde para [code-oss (VScode del tur-repo en termux)](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#vscode-ide) tendrás que instalar [extensiones manualmente](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix).
+Estos métodos son recomendados para dispositivos de gama alta o recientes y para usuarios más avanzados, donde para [code-oss (VScode del tur-repo en termux)](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#vscode-ide) tendrás que instalar [extensiones manualmente](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix).
 
 - [farmerbb taskbar](https://github.com/farmerbb/Taskbar) similar a [samsung dex](https://www.samsung.com/es/apps/samsung-dex/) donde permite tener ventanas flotantes
     ![taskbar Desktop](https://play-lh.googleusercontent.com/wGPml0clBKL27Ee0kL0rz3frMQtnUfh_uePsyO2f3-OAzp7dK_JX5DYUJYkKEXgIPl8=w5120-h2880)
@@ -369,7 +384,7 @@ Estos metodos son recomendado para dispositivos de gama alta o dispositivos reci
 
 ## Entorno de desarrollo en <i class="fa-brands fa-apple"></i> iOS/iPadOS
 
-> Para un mejor desempeño al programar, recomiendo utilizar un teclado y/o mouse externo, ya sean por Bluetooth o por USB con un adaptador/dongle lighting o con un adaptador/dongle a USB C.
+> Para un mejor desempeño al programar, recomiendo utilizar un teclado y/o mouse externo, ya sean por Bluetooth o por USB con un adaptador/dongle Lightning o con un adaptador/dongle a USB C.
 {: .prompt-tip }
 
 ### <i class="fa-solid fa-terminal"></i>terminal emulada + <i class="fa-solid fa-laptop-code"></i> editor de código
@@ -382,7 +397,7 @@ Para descargar el compilador, dentro de ish ejecutaremos los siguientes comandos
 apk update && apk upgrade
 apk add build-base
 ```
-para compilar código es tan fácil como agregar los archivos `.cpp` a la carpeta `root` desde el [explorar de archivos de iOS (files)](https://apps.apple.com/mx/app/archivos/id1232058109) dentro de [la carpeta de iSH](https://github.com/ish-app/ish/wiki/View-iSH-files-in-Files-App) y ejecutarlos con `./a.out` 
+para compilar código es tan fácil como agregar los archivos `.cpp` a la carpeta `root` desde el [explorador de archivos de iOS (Files)](https://apps.apple.com/mx/app/archivos/id1232058109) dentro de [la carpeta de iSH](https://github.com/ish-app/ish/wiki/View-iSH-files-in-Files-App) y ejecutarlos con `./a.out` 
 ```bash
 g++ archivo.cpp
 ./a.out
@@ -397,7 +412,8 @@ Para el editor de código el club recomienda:
 
 ![Debian Desktop](https://mac.getutm.app/images/screens/debian-11-ldxe-arm64.png)
 
-> se puede llegar a un mejor rendimiento usando un tipo de para-virtualización con SPICE y JIT con TGC, pero ocupa un conociemiento más avanzado y en especial ocupa [más pasos](https://docs.getutm.app/installation/ios/).
+> Se puede llegar a un mejor rendimiento usando un tipo de paravirtualización con SPICE y JIT con TCG, pero requiere un conocimiento más avanzado y seguir [más pasos](https://docs.getutm.app/installation/ios/).
+{: .prompt-info }
 
 ## Referencias
 
