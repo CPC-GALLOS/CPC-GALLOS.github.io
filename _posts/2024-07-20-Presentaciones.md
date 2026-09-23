@@ -1,6 +1,6 @@
 ---
 title: Presentaciones
-description: Presentaciones impartidas en el club 
+description: Presentaciones, clases y sesiones impartidas en el club 
 date: 2024-07-20 9:00:00 +/-TTTT
 categories: [Club]
 author: ArielParra 
@@ -39,12 +39,12 @@ image: /assets/img/posts/Presentaciones.png
 - Jueves: Big - O [llamada con el Dember ](https://eduuaa-my.sharepoint.com/:v:/g/personal/al340350_edu_uaa_mx/IQDIWv-hsmh-QK5j1yqvEj9xAZKZDMBzPZXLK1nI5YoMBvY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Oh8bIX) y el [excalidraw](https://excalidraw.com/#json=_6busjez2mKdtkn8vfE81,33Y-atTsQipSdg8-HglHVg)
 
 **Semana 6**
-- Martes: Teoría de números I — divisibilidad, congruencia de módulo
-- Jueves: Combinatoria
+- Martes: [Quiz BigO](/assets/quizzes/quiz-BigO.html) · [VS Code](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#vscode-ide), Codeforces (perfil vinculado con UAA)
+- Jueves: Geometría I
 
 **Semana 7**
-- Martes: VS Code, Codeforces, Dudas
-- Jueves: Geometría I
+- Martes: Teoría de números I — divisibilidad, congruencia de módulo
+- Jueves: Combinatoria
 
 **Semana 8**
 - Martes: Recursividad

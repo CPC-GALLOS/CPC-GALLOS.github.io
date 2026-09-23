@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CPC Gallos - Quiz de complejidad (autoevaluable)</title>
+<style>
+  :root{ color-scheme: dark; }
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; background:#0f172a; color:#f1f5f9;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display:flex; flex-direction:column; align-items:center; padding:24px 16px 60px;
+  }
+  h1{font-size:1.5rem; margin:0 0 4px}
+  .sub{color:#94a3b8; margin:0 0 20px; text-align:center}
+  .wrap{width:100%; max-width:640px}
+  .progress-wrap{background:#1e293b; border-radius:999px; height:10px; overflow:hidden; margin-bottom:20px}
+  .progress-bar{background:#34d399; height:100%; transition:width .25s ease}
+  .card{background:#1e293b; border-radius:16px; padding:24px; margin-bottom:20px}
+  .qnum{color:#94a3b8; font-size:.9rem; margin-bottom:8px}
+  .pregunta{font-size:1.25rem; font-weight:700; margin:0 0 6px}
+  .contexto{color:#a5b4fc; margin:0 0 14px}
+  pre.code{
+    background:#0b1220; border-radius:12px; padding:14px; overflow-x:auto;
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.92rem;
+    line-height:1.5; margin:0 0 16px; white-space:pre;
+  }
+  .options{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+  @media (max-width:480px){ .options{grid-template-columns:1fr} }
+  .opt{
+    display:flex; align-items:center; gap:10px; text-align:left; border:2px solid transparent;
+    border-radius:12px; padding:14px; font-size:1rem; font-weight:600; cursor:pointer;
+    color:#fff;
+  }
+  .opt .icon{font-size:1.3rem; flex:0 0 auto}
+  .opt[data-k="a"]{background:#ef4444}
+  .opt[data-k="b"]{background:#3b82f6}
+  .opt[data-k="c"]{background:#eab308; color:#1e293b}
+  .opt[data-k="d"]{background:#22c55e}
+  .opt.selected{border-color:#fff; box-shadow:0 0 0 3px rgba(255,255,255,.25)}
+  .nav{display:flex; justify-content:space-between; gap:12px}
+  button.nav-btn{
+    flex:1; padding:14px; border:none; border-radius:12px; font-size:1rem; font-weight:700;
+    cursor:pointer; background:#6366f1; color:#fff;
+  }
+  button.nav-btn.secondary{background:#334155}
+  button.nav-btn:disabled{opacity:.35; cursor:not-allowed}
+  .start-card{background:#1e293b; border-radius:16px; padding:32px 24px; text-align:center}
+  .start-card button{margin-top:18px}
+  .review-item{background:#1e293b; border-radius:12px; padding:16px; margin-bottom:12px}
+  .review-item.ok{border-left:4px solid #22c55e}
+  .review-item.bad{border-left:4px solid #ef4444}
+  .review-head{display:flex; justify-content:space-between; gap:12px; font-weight:700; margin-bottom:6px}
+  .badge-ok{color:#4ade80}
+  .badge-bad{color:#f87171}
+  .review-ans{font-size:.92rem; color:#cbd5e1; margin:2px 0}
+  .review-exp{font-size:.88rem; color:#94a3b8; font-style:italic; margin-top:6px}
+  .score-big{font-size:3rem; font-weight:800; margin:8px 0}
+  .score-sub{color:#94a3b8; margin-bottom:20px}
+  [hidden]{display:none!important}
+</style>
+</head>
+<body>
+
+<h1>CPC Gallos</h1>
+<p class="sub">Quiz de complejidad &mdash; 57 preguntas, autoevaluable</p>
+
+<div class="wrap">
+
+  <div id="start" class="start-card">
+    <p>Vas a repasar las mismas 57 preguntas del quiz en vivo, a tu ritmo. Al final
+    ves cu&aacute;les tuviste bien o mal, con la explicaci&oacute;n de cada una.</p>
+    <button class="nav-btn" onclick="startQuiz()">Empezar</button>
+  </div>
+
+  <div id="quiz" hidden>
+    <div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
+    <div class="card">
+      <div class="qnum" id="qnum"></div>
+      <p class="pregunta" id="pregunta"></p>
+      <p class="contexto" id="contexto" hidden></p>
+      <pre class="code" id="code" hidden></pre>
+      <div class="options" id="options"></div>
+    </div>
+    <div class="nav">
+      <button class="nav-btn secondary" id="btnPrev" onclick="goPrev()">Anterior</button>
+      <button class="nav-btn" id="btnNext" onclick="goNext()">Siguiente</button>
+    </div>
+  </div>
+
+  <div id="results" hidden>
+    <div class="start-card">
+      <div class="score-sub">Tu resultado</div>
+      <div class="score-big" id="scoreBig"></div>
+      <div class="score-sub" id="scorePct"></div>
+      <button class="nav-btn" onclick="location.reload()">Reintentar</button>
+    </div>
+    <div id="reviewList" style="margin-top:20px"></div>
+  </div>
+
+</div>
+
+<script>
+const QUESTIONS = [{"numero": 1, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 0; i < n; i += 2)\n    sum += a[i];", "opciones": {"a": "O(1)", "b": "O(log n)", "c": "O(n)", "d": "O(n/2)"}, "respuesta": "c", "explicacion": "saltar de dos en dos divide entre una constante. O(n/2) no es una respuesta."}, {"numero": 2, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 0; i < n / 2; i++)\n    sum += a[i];", "opciones": {"a": "O(n)", "b": "O(n/2)", "c": "O(log n)", "d": "O(n²)"}, "respuesta": "a", "explicacion": ""}, {"numero": 3, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "int i = 0;\nwhile (i < n) {\n    sum += a[i];\n    i++;\n}", "opciones": {"a": "O(1)", "b": "O(log n)", "c": "O(n)", "d": "O(n²)"}, "respuesta": "c", "explicacion": "un while no es más caro que un for por ser while."}, {"numero": 4, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 0; i < n; i++) {\n    sum += a[i];\n    if (a[i] % 2 == 0) cnt++;\n    if (a[i] > mayor) mayor = a[i];\n    total += a[i] * a[i];\n}", "opciones": {"a": "O(n)", "b": "O(4n)", "c": "O(n²)", "d": "O(n log n)"}, "respuesta": "a", "explicacion": "el cuerpo es más caro, pero sigue siendo constante."}, {"numero": 5, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 0; i < n; i++)\n    for (int j = 0; j < n; j++)\n        for (int k = 0; k < n; k++)\n            for (int l = 0; l < n; l++)\n                cnt++;", "opciones": {"a": "O(4n)", "b": "O(n²)", "c": "O(n³)", "d": "O(n⁴)"}, "respuesta": "d", "explicacion": ""}, {"numero": 6, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 0; i < n; i++)\n    for (int j = i; j < n; j++)\n        cnt++;", "opciones": {"a": "O(n)", "b": "O(n log n)", "c": "O(n²)", "d": "O(n²/2)"}, "respuesta": "c", "explicacion": "Gauss: n + (n-1) + ... + 1 = n(n+1)/2."}, {"numero": 7, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 0; i < n; i++)\n    for (int j = 0; j < m; j++)\n        cnt++;\nfor (int i = 0; i < m; i++)\n    for (int j = 0; j < n; j++)\n        cnt++;", "opciones": {"a": "O(n + m)", "b": "O(nm)", "c": "O(2nm)", "d": "O(n²m²)"}, "respuesta": "b", "explicacion": "son secuenciales, se suman: nm + mn = 2nm."}, {"numero": 8, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 0; i < n; i++)\n    for (int j = 0; j < i; j++)\n        for (int k = 0; k < m; k++)\n            cnt++;", "opciones": {"a": "O(nm)", "b": "O(n² + m)", "c": "O(n²m)", "d": "O(n³m)"}, "respuesta": "c", "explicacion": ""}, {"numero": 9, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 0; i < n; i++) {\n    for (int j = 0; j < n; j++)\n        cnt++;\n    for (int j = 0; j < m; j++)\n        cnt++;\n}", "opciones": {"a": "O(nm)", "b": "O(n²m)", "c": "O(n²)", "d": "O(n² + nm)"}, "respuesta": "d", "explicacion": "los de adentro se suman entre ellos, y el de afuera multiplica esa suma."}, {"numero": 10, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 1; i <= n; i++)\n    for (int j = 1; j <= i; j++)\n        for (int k = 1; k <= j; k++)\n            cnt++;", "opciones": {"a": "O(n log n)", "b": "O(n²)", "c": "O(n³)", "d": "O(n³/6)"}, "respuesta": "c", "explicacion": ""}, {"numero": 11, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 1; i <= n; i *= 3)\n    cnt++;", "opciones": {"a": "O(n/3)", "b": "O(log n)", "c": "O(√n)", "d": "O(n)"}, "respuesta": "b", "explicacion": "la base es constante, no cambia el orden."}, {"numero": 12, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "int x = n;\nwhile (x > 0) {\n    cnt += x % 10;\n    x /= 10;\n}", "opciones": {"a": "O(1)", "b": "O(log n)", "c": "O(√n)", "d": "O(n)"}, "respuesta": "b", "explicacion": "cuenta los dígitos de n."}, {"numero": 13, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 1; i <= n; i *= 2)\n    for (int j = 1; j <= n / i; j++)\n        cnt++;", "opciones": {"a": "O(log n)", "b": "O(n)", "c": "O(n log n)", "d": "O(n²)"}, "respuesta": "b", "explicacion": "n + n/2 + n/4 + ... = 2n."}, {"numero": 14, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 1; i <= n; i *= 2)\n    for (int j = 1; j <= n; j *= 2)\n        cnt++;", "opciones": {"a": "O(log n)", "b": "O(log² n)", "c": "O(n log n)", "d": "O(n²)"}, "respuesta": "b", "explicacion": ""}, {"numero": 15, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 1; i <= n; i *= 2)\n    cnt++;\nfor (int i = 0; i < n; i++)\n    cnt++;", "opciones": {"a": "O(log n)", "b": "O(n)", "c": "O(n + log n)", "d": "O(n log n)"}, "respuesta": "b", "explicacion": "secuenciales se suman, y de una suma manda el mayor."}, {"numero": 16, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "bool primo = true;\nfor (int i = 2; i * i <= n; i++)\n    if (n % i == 0)\n        primo = false;", "opciones": {"a": "O(log n)", "b": "O(√n)", "c": "O(n)", "d": "O(n√n)"}, "respuesta": "b", "explicacion": ""}, {"numero": 17, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 1; i * i <= n; i++)\n    for (int j = 1; j * j <= n; j++)\n        cnt++;", "opciones": {"a": "O(√n)", "b": "O(n)", "c": "O(n√n)", "d": "O(n²)"}, "respuesta": "b", "explicacion": "√n × √n."}, {"numero": 18, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 1; i * i <= n; i++)\n    for (int j = 1; j <= i; j++)\n        cnt++;", "opciones": {"a": "O(√n)", "b": "O(n)", "c": "O(n log n)", "d": "O(n√n)"}, "respuesta": "b", "explicacion": "1 + 2 + ... + √n ≈ n/2."}, {"numero": 19, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 1; i <= n; i++)\n    for (int j = i; j <= n; j += i)\n        cnt++;", "opciones": {"a": "O(n)", "b": "O(n log n)", "c": "O(n√n)", "d": "O(n²)"}, "respuesta": "b", "explicacion": "armónica: n/1 + n/2 + n/3 + ... + n/n."}, {"numero": 20, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "int divisores(int x) {\n    int c = 0;\n    for (int i = 1; i * i <= x; i++)\n        if (x % i == 0) c += 2;\n    return c;\n}\n\nint main() {\n    for (int i = 1; i <= n; i++)\n        ans += divisores(i);\n    return 0;\n}", "opciones": {"a": "O(√n)", "b": "O(n)", "c": "O(n√n)", "d": "O(n²)"}, "respuesta": "c", "explicacion": ""}, {"numero": 21, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "int bits(int x) {\n    int c = 0;\n    while (x > 0) {\n        c += x % 2;\n        x /= 2;\n    }\n    return c;\n}\n\nint main() {\n    for (int i = 1; i <= n; i++)\n        ans += bits(i);\n    return 0;\n}", "opciones": {"a": "O(log n)", "b": "O(n)", "c": "O(n log n)", "d": "O(n²)"}, "respuesta": "c", "explicacion": ""}, {"numero": 22, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "int f(int k) {\n    int t = 0;\n    for (int i = 1; i * i <= k; i++) t++;\n    return t;\n}\n\nint g(int k) {\n    int t = 0;\n    for (int i = 0; i < k; i++) t += f(k);\n    return t;\n}\n\nint main() {\n    for (int i = 0; i < n; i++)\n        ans += g(n);\n    return 0;\n}", "opciones": {"a": "O(n√n)", "b": "O(n²)", "c": "O(n²√n)", "d": "O(n³)"}, "respuesta": "c", "explicacion": "tres ciclos, aunque en main solo se vea uno."}, {"numero": 23, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "long long total = 1;\nfor (int i = 0; i < n; i++)\n    total *= 2;\n\nfor (long long mask = 0; mask < total; mask++)\n    for (int i = 0; i < n; i++)\n        cnt++;", "opciones": {"a": "O(n²)", "b": "O(2^n)", "c": "O(n · 2^n)", "d": "O(n!)"}, "respuesta": "c", "explicacion": "recorrer todos los subconjuntos y mirar cada elemento."}, {"numero": 24, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "long long total = 1;\nfor (int i = 0; i < n; i++)\n    total *= 2;\n\nfor (long long mask = 0; mask < total; mask++) {\n    long long x = mask;\n    while (x > 0) {\n        cnt += x % 2;\n        x /= 2;\n    }\n}", "opciones": {"a": "O(2^n)", "b": "O(n · 2^n)", "c": "O(n log n)", "d": "O(2^n log 2^n)"}, "respuesta": "b", "explicacion": "el while da log(mask) vueltas, y mask llega a 2^n, así que son n."}, {"numero": 25, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "long long total = 1;\nfor (int i = 0; i < n; i++)\n    total *= 3;\n\nfor (long long i = 0; i < total; i++)\n    cnt++;", "opciones": {"a": "O(3n)", "b": "O(n³)", "c": "O(2^n)", "d": "O(3^n)"}, "respuesta": "d", "explicacion": ""}, {"numero": 26, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "long long total = 1;\nfor (int i = 0; i < n / 2; i++)\n    total *= 2;\n\nfor (long long i = 0; i < total; i++)\n    cnt++;", "opciones": {"a": "O(n/2)", "b": "O(2^(n/2))", "c": "O(2^n / 2)", "d": "O(2^n)"}, "respuesta": "b", "explicacion": "dividir el exponente entre 2 no es una constante: es la raíz de 2^n."}, {"numero": 27, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "long long total = 1;\nfor (int i = 1; i <= n; i++) {\n    total *= i;\n    for (long long j = 0; j < total; j++)\n        cnt++;\n}", "opciones": {"a": "O(n²)", "b": "O((n-1)!)", "c": "O(n!)", "d": "O(n · n!)"}, "respuesta": "c", "explicacion": "1! + 2! + ... + n!, y el último se come a todos los demás."}, {"numero": 28, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "long long total = 1;\nfor (int i = 0; i < n; i++)\n    total *= 2;\n\nfor (int i = 0; i < n; i++)\n    cnt++;", "opciones": {"a": "O(n)", "b": "O(n²)", "c": "O(2^n)", "d": "O(n · 2^n)"}, "respuesta": "a", "explicacion": "se calcula 2^n pero nunca se usa: el segundo ciclo va hasta n."}, {"numero": 29, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 0; i < n; i++) {\n    n = n - 1;\n    cnt++;\n}", "opciones": {"a": "O(1)", "b": "O(log n)", "c": "O(n)", "d": "O(n²)"}, "respuesta": "c", "explicacion": "i sube y n baja: se juntan a la mitad, n/2 vueltas."}, {"numero": 30, "pregunta": "¿Cuál es la complejidad?", "contexto": "", "code": "for (int i = 0; i < n; i++)\n    if (i % 2 == 0)\n        for (int j = 0; j < n; j++)\n            cnt++;\n    else\n        cnt++;", "opciones": {"a": "O(n)", "b": "O(n log n)", "c": "O(n²/2)", "d": "O(n²)"}, "respuesta": "d", "explicacion": "se toma la rama cara. El if cambia la constante, no el crecimiento."}, {"numero": 31, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 10", "code": "", "opciones": {"a": "O(n³)", "b": "O(2^n)", "c": "O(n!)", "d": "O(n^n)"}, "respuesta": "c", "explicacion": "3.6×10⁶ · d da 10¹⁰"}, {"numero": 32, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 20", "code": "", "opciones": {"a": "O(n²)", "b": "O(n³)", "c": "O(2^n)", "d": "O(n!)"}, "respuesta": "c", "explicacion": "10⁶ · d es astronómico"}, {"numero": 33, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 20", "code": "", "opciones": {"a": "O(2^n)", "b": "O(n · 2^n)", "c": "O(n² · 2^n)", "d": "O(n!)"}, "respuesta": "b", "explicacion": "2.1×10⁷ · c da 4.2×10⁸"}, {"numero": 34, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 1000", "code": "", "opciones": {"a": "O(n)", "b": "O(n²)", "c": "O(n³)", "d": "O(2^n)"}, "respuesta": "b", "explicacion": "10⁶"}, {"numero": 35, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 10^4", "code": "", "opciones": {"a": "O(n log n)", "b": "O(n²)", "c": "O(n² log n)", "d": "O(n³)"}, "respuesta": "b", "explicacion": "10⁸ al filo · c da 1.3×10⁹"}, {"numero": 36, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 10^5", "code": "", "opciones": {"a": "O(n)", "b": "O(n log n)", "c": "O(n √n)", "d": "O(n²)"}, "respuesta": "c", "explicacion": "3.2×10⁷ · d da 10¹⁰"}, {"numero": 37, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 10^6", "code": "", "opciones": {"a": "O(n)", "b": "O(n log n)", "c": "O(n √n)", "d": "O(n²)"}, "respuesta": "b", "explicacion": "2×10⁷ · c da 10⁹"}, {"numero": 38, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 10^7", "code": "", "opciones": {"a": "O(log n)", "b": "O(√n)", "c": "O(n)", "d": "O(n log n)"}, "respuesta": "c", "explicacion": "10⁷ · d da 2.3×10⁸"}, {"numero": 39, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 10^8", "code": "", "opciones": {"a": "O(√n)", "b": "O(n)", "c": "O(n log n)", "d": "O(n²)"}, "respuesta": "b", "explicacion": "10⁸, exactamente al filo"}, {"numero": 40, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 10^9", "code": "", "opciones": {"a": "O(log n)", "b": "O(√n)", "c": "O(n)", "d": "O(n log n)"}, "respuesta": "b", "explicacion": "3.2×10⁴ · c da 10 s"}, {"numero": 41, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 10^18", "code": "", "opciones": {"a": "O(log n)", "b": "O(√n)", "c": "O(n)", "d": "O(n log n)"}, "respuesta": "a", "explicacion": "60 operaciones · b ya da 10⁹"}, {"numero": 42, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 10^5, q ≤ 100", "code": "", "opciones": {"a": "O(q + n)", "b": "O(q log n)", "c": "O(qn)", "d": "O(qn log n)"}, "respuesta": "c", "explicacion": "10⁷ · d da 1.7×10⁸"}, {"numero": 43, "pregunta": "¿Qué complejidad entra?", "contexto": "1 s, n ≤ 100, m ≤ 10^4", "code": "", "opciones": {"a": "O(n + m)", "b": "O(nm)", "c": "O(nm²)", "d": "O(n²m²)"}, "respuesta": "b", "explicacion": "10⁶ · c da 10¹⁰"}, {"numero": 44, "pregunta": "¿Cuánto tarda?", "contexto": "O(n), n = 10^6", "code": "", "opciones": {"a": "0.01 s", "b": "0.1 s", "c": "1 s", "d": "10 s"}, "respuesta": "a", "explicacion": "10⁶"}, {"numero": 45, "pregunta": "¿Cuánto tarda?", "contexto": "O(n), n = 10^9", "code": "", "opciones": {"a": "0.1 s", "b": "1 s", "c": "10 s", "d": "100 s"}, "respuesta": "c", "explicacion": "10⁹ · TLE"}, {"numero": 46, "pregunta": "¿Cuánto tarda?", "contexto": "O(n²), n = 10^5", "code": "", "opciones": {"a": "1 s", "b": "10 s", "c": "100 s", "d": "1000 s"}, "respuesta": "c", "explicacion": "10¹⁰ · TLE"}, {"numero": 47, "pregunta": "¿Cuánto tarda?", "contexto": "O(n³), n = 500", "code": "", "opciones": {"a": "0.125 s", "b": "1.25 s", "c": "12.5 s", "d": "125 s"}, "respuesta": "b", "explicacion": "1.25×10⁸"}, {"numero": 48, "pregunta": "¿Cuánto tarda?", "contexto": "O(n log n), n = 10^6", "code": "", "opciones": {"a": "0.02 s", "b": "0.2 s", "c": "2 s", "d": "20 s"}, "respuesta": "b", "explicacion": "2×10⁷"}, {"numero": 49, "pregunta": "¿Cuánto tarda?", "contexto": "O(n √n), n = 10^5", "code": "", "opciones": {"a": "0.032 s", "b": "0.32 s", "c": "3.2 s", "d": "32 s"}, "respuesta": "b", "explicacion": "3.2×10⁷"}, {"numero": 50, "pregunta": "¿Cuánto tarda?", "contexto": "O(√n), n = 10^18", "code": "", "opciones": {"a": "instantáneo", "b": "1 s", "c": "10 s", "d": "100 s"}, "respuesta": "c", "explicacion": "10⁹ · TLE. La raíz también truena si n es suficientemente grande."}, {"numero": 51, "pregunta": "¿Cuánto tarda?", "contexto": "O(2^n), n = 20", "code": "", "opciones": {"a": "0.01 s", "b": "1 s", "c": "10 s", "d": "100 s"}, "respuesta": "a", "explicacion": "10⁶"}, {"numero": 52, "pregunta": "¿Cuánto tarda?", "contexto": "O(2^n), n = 30", "code": "", "opciones": {"a": "0.01 s", "b": "1 s", "c": "10 s", "d": "10,000 s"}, "respuesta": "c", "explicacion": "10⁹ · diez unidades más en el exponente son mil veces más lento."}, {"numero": 53, "pregunta": "¿Cuál no entra en 1 s?", "contexto": "", "code": "", "opciones": {"a": "O(n) n = 10^8", "b": "O(n²) n = 1000", "c": "O(n²) n = 10^4", "d": "O(n²) n = 10^6"}, "respuesta": "d", "explicacion": "10¹² · casi tres horas. a y c dan exactamente 10⁸ y pasan al filo."}, {"numero": 54, "pregunta": "¿Cuál no entra en 1 s?", "contexto": "", "code": "", "opciones": {"a": "O(n³) n = 100", "b": "O(n⁴) n = 100", "c": "O(n³) n = 1000", "d": "O(nm) n = 10^4, m = 10^4"}, "respuesta": "c", "explicacion": "10⁹ · b y d quedan al filo."}, {"numero": 55, "pregunta": "¿Cuál no entra en 1 s?", "contexto": "", "code": "", "opciones": {"a": "O(n log n) n = 10^7", "b": "O(n log n) n = 10^5", "c": "O(log n) n = 10^9", "d": "O(√n) n = 10^9"}, "respuesta": "a", "explicacion": "2.3×10⁸"}, {"numero": 56, "pregunta": "¿Cuál no entra en 1 s?", "contexto": "", "code": "", "opciones": {"a": "O(n² log n) n = 5000", "b": "O(nm) n = 10^5, m = 1000", "c": "O(n + m) n = 10^6, m = 10^7", "d": "O(q √n) q = 10^5, n = 10^6"}, "respuesta": "a", "explicacion": "3×10⁸"}, {"numero": 57, "pregunta": "¿Cuál sí entra en 1 s?", "contexto": "", "code": "", "opciones": {"a": "O(n √n) n = 10^6", "b": "O(2^n) n = 40", "c": "O(n!) n = 10", "d": "O(n!) n = 13"}, "respuesta": "c", "explicacion": "3.6×10⁶ · d da 62 s"}];
+const SHAPES = {
+  a:{icon:'▲'}, b:{icon:'◆'}, c:{icon:'●'}, d:{icon:'■'},
+};
+
+let current = 0;
+const answers = new Array(QUESTIONS.length).fill(null);
+
+function startQuiz(){
+  document.getElementById('start').hidden = true;
+  document.getElementById('quiz').hidden = false;
+  renderQuestion();
+}
+
+function escapeHtml(str){
+  return (str ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function renderQuestion(){
+  const q = QUESTIONS[current];
+  document.getElementById('progressBar').style.width = ((current)/QUESTIONS.length*100) + '%';
+  document.getElementById('qnum').textContent = 'Pregunta ' + (current+1) + '/' + QUESTIONS.length;
+  document.getElementById('pregunta').textContent = q.pregunta;
+
+  const ctxEl = document.getElementById('contexto');
+  if (q.contexto) { ctxEl.hidden = false; ctxEl.textContent = q.contexto; }
+  else { ctxEl.hidden = true; }
+
+  const codeEl = document.getElementById('code');
+  if (q.code) { codeEl.hidden = false; codeEl.textContent = q.code; }
+  else { codeEl.hidden = true; }
+
+  const opsEl = document.getElementById('options');
+  opsEl.innerHTML = ['a','b','c','d'].map(k => `
+    <button type="button" class="opt ${answers[current]===k ? 'selected' : ''}" data-k="${k}" onclick="selectOption('${k}')">
+      <span class="icon">${SHAPES[k].icon}</span><span>${escapeHtml(q.opciones[k])}</span>
+    </button>`).join('');
+
+  document.getElementById('btnPrev').disabled = current === 0;
+  document.getElementById('btnNext').textContent = current === QUESTIONS.length - 1 ? 'Ver resultados' : 'Siguiente';
+  document.getElementById('btnNext').disabled = answers[current] === null;
+}
+
+function selectOption(k){
+  answers[current] = k;
+  renderQuestion();
+}
+
+function goPrev(){
+  if (current > 0) { current--; renderQuestion(); }
+}
+
+function goNext(){
+  if (answers[current] === null) return;
+  if (current < QUESTIONS.length - 1) { current++; renderQuestion(); }
+  else { showResults(); }
+}
+
+function showResults(){
+  document.getElementById('quiz').hidden = true;
+  document.getElementById('results').hidden = false;
+
+  let correct = 0;
+  const items = QUESTIONS.map((q, i) => {
+    const mine = answers[i];
+    const ok = mine === q.respuesta;
+    if (ok) correct++;
+    return `
+      <div class="review-item ${ok ? 'ok' : 'bad'}">
+        <div class="review-head">
+          <span>Pregunta ${q.numero}</span>
+          <span class="${ok ? 'badge-ok' : 'badge-bad'}">${ok ? 'Correcta ✓' : 'Incorrecta ✗'}</span>
+        </div>
+        <div>${escapeHtml(q.pregunta)}${q.contexto ? ' &mdash; ' + escapeHtml(q.contexto) : ''}</div>
+        ${q.code ? `<pre class="code">${escapeHtml(q.code)}</pre>` : ''}
+        <div class="review-ans">Tu respuesta: <b>${mine ? escapeHtml(q.opciones[mine]) : '(sin responder)'}</b></div>
+        ${!ok ? `<div class="review-ans">Respuesta correcta: <b>${escapeHtml(q.opciones[q.respuesta])}</b></div>` : ''}
+        ${q.explicacion ? `<div class="review-exp">${escapeHtml(q.explicacion)}</div>` : ''}
+      </div>`;
+  }).join('');
+
+  document.getElementById('scoreBig').textContent = correct + ' / ' + QUESTIONS.length;
+  document.getElementById('scorePct').textContent = Math.round(correct/QUESTIONS.length*100) + '% de aciertos';
+  document.getElementById('reviewList').innerHTML = items;
+}
+</script>
+</body>
+</html>

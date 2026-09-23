@@ -71,6 +71,8 @@ Las especialidades se enfocan en profundizar en un área particular de una disci
 #### Diplomados  
 Un diplomado es un programa de educación continua de corta o mediana duración (aproximadamente de 80 a 150 horas), diseñado para actualizar, especializar o desarrollar habilidades prácticas en un área específica. A diferencia de una maestría, no otorga un grado académico, pero puede fortalecer el perfil profesional ante reclutadores.  Los **diplomas** suelen ser otorgados por universidades o empresas y, por lo general, tienen un costo. Personalmente, no los recomendaría a menos que tengan un valor reconocido en la industria o en la institución que los imparte, ya que en muchos casos son similares a ciertos certificados, sin aportar una ventaja significativa adicional.
 
+- Por ejemplo encontre este en linea [Diplomado en Seguridad de la Información por la UNAM FES ARAGON](https://siberiano.aragon.unam.mx/labsec/dsi_etc/)
+
 #### Maestrías
 
 Las maestrías permiten desarrollar conocimientos avanzados y pueden ser una excelente opción para quienes buscan especializarse aún más en su campo. En México, existen opciones nacionales e internacionales con oportunidades de financiamiento.

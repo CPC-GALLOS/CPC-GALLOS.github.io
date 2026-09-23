@@ -21,6 +21,7 @@ Un embajador (ambassador) es una persona que representa, habla por o anuncia a u
   - Acceso al Summit de Embajadores
   - Oportunidades en programas de liderazgo
   - Posibilidad de ser invitado al programa MVP (Most Valuable Profesional)... [Mas info](https://learn.microsoft.com/es-mx/training/student-hub/become-a-student-ambassador)
+- [Microsoft Copilot Student Ambassador](https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/copilot-student-ambassador) es el programa de Microsoft para promover Copilot entre estudiantes universitarios mediante storytelling creativo, creación de contenido y eventos en campus. Requiere ser estudiante de tiempo completo en una universidad afiliada de 4 años y usuario de Copilot, con dedicación aproximada de 3-5 horas semanales (capacitación, eventos y contenido). Ofrece compensación de hasta $1,500 al completar el programa (con posibles bonos extra), conexión con una red de más de 100 campus y contacto directo con el equipo de Copilot, además de influir en el desarrollo del producto mediante feedback. Las aplicaciones se gestionan por The Campus Agency vía [portal oficial](https://oncampusnation.com/job/microsoft-copilot-ambassador-fall-2026/) y abren en junio de 2026 con admisión continua.
 - [GitHub Campus Expert](https://education.github.com/campus_experts) es un programa para apoyar a los estudiantes que están construyendo comunidades en sus universidad con el objetivo es proporcionar a estos líderes las herramientas, la capacitación y el apoyo que necesitan para crear comunidades que ayuden a cerrar la brecha entre la industria y el mundo académico.
 - [IBM Z Student Ambassador](https://www.yourbigyear.com/ibm-zsystems-ambassador-program) es un programa teórico-practico para una de las habilidades menos conocidas que son los mainframes en especial los de IBM con el sistema operativo Z/OS, donde aprenderás sobre varias tecnologías como unix, redes, COBOL y más.
 - [IBM SkillsBuild Campus Ambassador](https://www.skillsbuildcsrbox.in/pages/campusemb.html) al hacer eventos y actividades de IBM SkillsBuild en tu campus recibiras una Carta de Recomendación (LOR) y un Certificado de Finalización de la pasantía. Además, proporciona exposición a problemas reales y experiencia práctica en gestión de programas, datos y equipos. Los embajadores tienen acceso a webinars mensuales con expertos en habilidades profesionales clave como liderazgo, comunicación, pensamiento crítico, y gestión de proyectos.
@@ -54,10 +55,11 @@ Un embajador (ambassador) es una persona que representa, habla por o anuncia a u
 - [GeeksforGeeks Campus Ambassador](https://www.geeksforgeeks.org/blogs/become-leader-of-coding-era-geeksforgeeks-campus-ambassador-program/)
 - [HackerEarth Campus Ambassador](https://www.hackerearth.com/campus-ambassador-program/)
 - [hackerrank Campus Crew](https://www.hackerrank.com/campuscrew)
-- [MLH fellowship](https://fellowship.mlh.io/) te pagan
+- [MLH Fellowship](https://fellowship.mlh.com/) (también en [fellowship.mlh.io](https://fellowship.mlh.io/)) es un programa de 12 semanas 100% remoto de [Major League Hacking](https://mlh.io/) donde colaboras en proyectos open source con mentores profesionales — con estipendio pagado, alternativa a internships tradicionales enfocada en experiencia práctica de software engineering
 - [LFX Mentorship](https://lfx.linuxfoundation.org/tools/mentorship/) te pagan por ser mentoriado
 - [Cerebras Ambassadors](https://www.cerebras.ai/ambassadors)
 - [AWS Student Builder Groups](https://builder.aws.com/community/student-builder-groups)
+- [1M1B Future Leaders / Youth Ambassadors](https://www.activate1m1b.org/) - Non-profit acreditada por la ONU (1 Million for 1 Billion) que forma a 800k+ jóvenes en AI y Green Skills con enfoque en Tier 3 y zonas rurales de India. Su programa *Future Leaders* y *Youth Ambassadors* culmina en el 1M1B Activate Impact Summit en la sede de la ONU en Nueva York/Ginebra. [Global Citizenship](https://www.activate1m1b.org/global-citizenship) | [1M1B at UN](https://www.activate1m1b.org/1m1b-at-the-united-nations)
 
 > TODO: agregar descripciones o algo asi xd
 
