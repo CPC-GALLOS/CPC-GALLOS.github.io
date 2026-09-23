@@ -184,6 +184,8 @@ Una de las mayores ventajas de estos certificados es que, al completarlos, obtie
 
 ### Insignias de Google Cloud
 
+- [Google Cloud Skills Boost Arcade](https://go.cloudskillsboost.google/arcade) — programa trimestral gratuito de Google Cloud en [Cloud Skills Boost](https://www.cloudskillsboost.google/) (ex Qwiklabs) donde completas labs y skill badges y acumulas puntos arcade. Ventaja principal: **premios digitales** (skill badges verificables) y **premios físicos** (mochilas, pines, etc.) canjeables por puntos, sin necesidad de tarjeta (solo cuenta Google), ideal para practicar y validar insignias de Google Cloud.
+
 <ul class="api-list" data-provider="Google"></ul>
 
 ### Insignia de Fortinet
