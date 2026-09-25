@@ -256,6 +256,22 @@ function renderDescription(description) {
   `;
 }
 
+let lightboxInstance = null;
+function refreshLightbox() {
+  if (typeof GLightbox !== 'undefined') {
+    if (lightboxInstance) {
+      try {
+        lightboxInstance.destroy();
+      } catch (e) {
+        // Ignorar error al destruir instancia previa
+      }
+    }
+    lightboxInstance = GLightbox({ selector: '.popup' });
+  } else {
+    window.addEventListener('load', () => refreshLightbox(), { once: true });
+  }
+}
+
 function renderCard(item) {
   const typeLabel = item.type || 'program';
   const tags = (Array.isArray(item.tags) ? item.tags : [])
@@ -265,8 +281,16 @@ function renderCard(item) {
   const categoryChip = item.category ? `<span class="chip cat-chip">${item.category}</span>` : '';
   const tagsChips = tags.map((tag) => `<span class="chip tag-chip">${tag}</span>`).join('');
 
+  const safeName = (item.name || '').replace(/"/g, '&quot;');
+  const imageHtml = (item.image && item.image.trim()) ? `
+    <a href="${item.image}" class="popup card-img-wrapper" title="${safeName}">
+      <img class="card-img" src="${item.image}" alt="${safeName}" loading="lazy" onerror="this.closest('.card-img-wrapper').remove();" />
+    </a>
+  ` : '';
+
   return `
     <div class="custom_card">
+      ${imageHtml}
       <h4 style="margin-top:0; margin-bottom: 5px;"><a href="${item.url}" target="_blank" rel="noopener">${item.name}</a></h4>
       <div style="font-size: 0.85em; margin-bottom: 8px; color: var(--text-muted-color); font-family: var(--font-family-monospace);">${item.provider}</div>
       ${renderDescription(item.description)}
@@ -353,6 +377,7 @@ function applyFilters() {
   }
 
   els.grid.innerHTML = results.map(renderCard).join("");
+  refreshLightbox();
 }
 
 function resetFilters() {

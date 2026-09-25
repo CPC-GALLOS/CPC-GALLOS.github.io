@@ -14,7 +14,7 @@ image: https://www.justinmind.com/wp-content/uploads/2025/02/header.png
 > Si deseas ver una lista detallada sobre los temas junto con becas, revisa este post: [Certificaciones Gratuitas](https://cpc-gallos.github.io/blog/Certificaciones_Gratuitas/). Si buscas ofertas en certificaciónes con costo, revisa este post: [Ofertas en Certificaciones](https://cpc-gallos.github.io/blog/Ofertas_Certificaciones/)
 {: .prompt-info }
 
-> Estamos actualizando esta lista a travez de nuestro [api](https://cpc-gallos.github.io/api/), TODO: falta hacer verificación manual de cada uno, adapatar las descripciones, agregar tags donde sea necesario, y ponerles imagenes representativas
+> Consulta y filtra certificaciones, programas y cursos profesionales actualizados continuamente desde nuestra [API](https://cpc-gallos.github.io/api/). Las tarjetas incluyen insignias digitales y diplomas oficiales ampliables en carrusel.
 
 <div class="custom_container max-width">
     <div class="custom_card max-width" id="filter-checks" style="padding: 20px;">
@@ -81,9 +81,33 @@ image: https://www.justinmind.com/wp-content/uploads/2025/02/header.png
     display: flex;
     flex-direction: column;
     gap: 6px;
-    flex: 1 1 200px;
-    min-width: 180px;
+    flex: 1 1 240px;
+    min-width: 220px;
     max-width: 100%;
+  }
+  .card-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: 100%;
+    background-color: var(--mask-bg);
+    border: 1px solid var(--sidebar-hover-bg);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  .card-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: 6px;
+    transition: transform 0.2s ease-in-out;
+  }
+  .card-img-wrapper:hover .card-img {
+    transform: scale(1.04);
   }
   .max-width{
     min-width: calc(100%)!important;
