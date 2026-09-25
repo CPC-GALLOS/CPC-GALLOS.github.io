@@ -70,8 +70,6 @@ No es exclusivo para estudiantes. Solo necesitas una cuenta de Google y, en la m
 
 🎁 **Además**, las cuentas nuevas reciben **USD $300 en créditos durante 90 días** para probar prácticamente todos los servicios de Google Cloud.
 
-* [Google Cloud Skills Boost Arcade](https://go.cloudskillsboost.google/arcade) — programa trimestral gratuito en [Cloud Skills Boost](https://www.cloudskillsboost.google/) donde completas labs y ganas **badges digitales** verificables y **premios físicos** (mochilas, pines, etc.) canjeables por puntos arcade; solo necesitas cuenta Google, sin tarjeta.
-
 * [Google Colab](https://colab.google/)
 
 No requiere tarjeta de crédito. Solo necesitas una cuenta de Google. Google Colab proporciona un entorno de máquina virtual (VM) hospedado en la nube para ejecutar código interactivo.
