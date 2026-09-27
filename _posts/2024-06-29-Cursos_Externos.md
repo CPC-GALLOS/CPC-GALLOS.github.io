@@ -86,6 +86,7 @@ Los Training Camps son eventos organizados en diversas universidades, tanto naci
 - [Club de Algoritmia ITESM CEM: apuntes de notion](https://beautiful-crater-9c5.notion.site/85a03e53d77a46f3b92ea6f1fe160959?v=18c7be1bd75f4d758960a42bb2b8447d)
 - [ICPC San Luis Potosí: presentaciones](https://icpcsanluis.github.io/curso/)
 - [CPC UADY: presentaciones](https://sites.google.com/view/cpcfmat-uady/entrenamientos/iniciaci%C3%B3n)
+- [CPC FI: CPCFI Classes](https://oscar-cabr.github.io/CPCFI-Classes/) Clases y materiales sobre temas del syllabus de programación competitiva de la Facultad de Ingeniería de la UNAM.
 
 
 ## Del Mundo

@@ -33,6 +33,7 @@ De este modo, entre la desnudez atlética del gimnasio griego y el gallo encuera
 > Se intentara volver a usar el [grupo de Vjudge](https://vjudge.net/group/cpc-gallos#contests-anchor) ya que no es necesario poner la [cookie de codeforces](https://vjudge.net/article/2790) a mano y se puede enlazar la cuenta directamente
 {: .prompt-info }
 
+- [UAA Encueriza 25-09-26](https://codeforces.com/group/b3gKGxWtjA/contest/719067) video de [Cómo crear un equipo en Codeforces](https://www.youtube.com/watch?v=iUbTKbtwZW8)
 - [Encueriza I UAA 2026](https://omegaup.com/arena/Encueriza-I-UAA-2026/startfresh/)
 
 ### Semestre Enero-Julio

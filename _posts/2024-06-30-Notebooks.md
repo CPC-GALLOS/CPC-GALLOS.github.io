@@ -55,6 +55,7 @@ A continuación recopilamos una lista de notebooks y referencias de destacados e
 - **[ICPC Team Notebook](https://cs.stanford.edu/group/acm/oldsite/SLPC/notebook.pdf):** Notebook de la Universidad de Stanford.
 - **[Luna's Magic Reference](https://github.com/Nisiyama-Suzune/LMR/blob/master/main.pdf):** Notebook de Nisiyama-Suzune.
 - **[Notebook UFPS - ICPC](https://github.com/ProgramacionCompetitivaUFPS/notebook):** Notebooks oficiales de la Universidad Francisco de Paula Santander en C++ y Java.
+- **[Reference ICPC (CPC FI)](https://github.com/Oscar-Cabr/Reference-ICPC/blob/main/complement.pdf):** Documento de referencia y notebook del Club de Programación Competitiva de la Facultad de Ingeniería de la UNAM (CPC FI / FractalTeam).
 - **[Yidne cheat sheet](https://cheatography.com/yidne/cheat-sheets/icpc-compitative-programming-cheat-sheet/):** Notas sintéticas tomadas del *Competitive Programmer’s Handbook* de Antti Laaksonen.
 - **[icpc_notebook](https://github.com/abdullah768/icpc_notebook/blob/master/Trie_NP_Hard_Notebook.pdf):** Notebook del equipo Trie_NP_Hard.
 

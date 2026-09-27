@@ -42,6 +42,16 @@ Es importante destacar que el puntaje es recomendado y no obligatorio. Puedes pa
 > **Recomendación para los contests**: Puedes previsualizar tu score con esta página <https://cfviz.netlify.app/virtual-rating-change>. Descarga [Coding Contest Reminder: CK](https://play.google.com/store/apps/details?id=com.shyptsolution.codingkaro) desde la Play Store para recibir recordatorios de concursos en cualquiera de estas plataformas. También puedes usar este calendario <https://competitiveprogramming.info/calendar> para ver todos los contest.
 {: .prompt-tip}
 
+## ¿Cómo crear un equipo en Codeforces?
+
+Para participar en competencias grupales o de formato ICPC, así como en las dinámicas y concursos organizados por nuestro club, es necesario registrar y gestionar tu equipo dentro de la plataforma.
+
+Puedes consultar el tutorial paso a paso disponible en nuestro canal de YouTube:
+
+- [Cómo crear un equipo en Codeforces](https://www.youtube.com/watch?v=iUbTKbtwZW8)
+
+{% include embed/youtube.html id='iUbTKbtwZW8' %}
+
 ## ¿Qué es Vjudge?
 
 Vjudge es un juez en línea no convencional. A diferencia de otros jueces, Vjudge recupera problemas de otras plataformas de competencia y simula las presentaciones a estas. Su objetivo es facilitar la organización de concursos cuando los datos de prueba no están disponibles.
@@ -54,10 +64,11 @@ Esta herramienta ha sido utilizada desde los inicios de nuestro club, ya que per
 > Al día de hoy se requiere agregar [cookies de codeforces](https://vjudge.net/article/2790) para poder participar en concursos que incluyan problemas de esta plataforma 
 {: .prompt-info }
 
-Recuerda visitar nuestros concursos locales (Encuerizas) enrevisando [este post](https://cpc-gallos.github.io/blog/Encuerizas/).
+Recuerda visitar nuestros concursos locales (Encuerizas) revisando [este post](https://cpc-gallos.github.io/blog/Encuerizas/).
 
 ## Referencias 
 
+- CPC-GALLOS. (2024). *Cómo crear un equipo en Codeforces* [video]. Recuperado de <https://www.youtube.com/watch?v=iUbTKbtwZW8>
 - Dua, S. (2022). *10 Best Tips to Get Started with Codeforces*. Recuperado de <https://www.geeksforgeeks.org/10-best-tips-to-get-started-with-codeforces/>
 - Guzun, S. (2022). *How to use Codeforces [GUIDE]*. Recuperado de <https://codeforces.com/blog/entry/99660>
 - Programación Competitiva UNAL. (s.f.). *Codeforces 101*. Recuperado de <https://sites.google.com/view/programacion-unal/blog/codeforces-101>
