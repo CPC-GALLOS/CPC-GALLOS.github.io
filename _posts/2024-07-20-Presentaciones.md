@@ -40,11 +40,11 @@ image: /assets/img/posts/Presentaciones.png
 
 **Semana 6**
 - Martes: [Quiz BigO](/assets/quizzes/quiz-BigO.html) · [VS Code](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#vscode-ide), Codeforces (perfil vinculado con UAA)
-- Jueves: Geometría I
+- Jueves: Geometría I — [Geometría Euclidiana (Harry Potter: Rectas y Puntos Notables)](https://cpc-gallos.github.io/Presentations/2026/Geometria_euclideana_Seleccion_de_casas_Harry_Potter_ie%20Rectas_y_Puntos%20Notables_The_shortlist.pdf), [Geometría Analítica (Little Bear's Story)](https://cpc-gallos.github.io/Presentations/2026/Geometria_analitica_Little-Bear-Story.pdf)
 
 **Semana 7**
-- Martes: Teoría de números I — divisibilidad, congruencia de módulo
-- Jueves: Combinatoria
+- Martes: Teoría de números — [Divisibilidad](https://cpc-gallos.github.io/Presentations/2026/NUMBER_THEORY_1-Divisibilidad_pettite.pdf), [Congruencia de módulo](https://cpc-gallos.github.io/Presentations/2026/NUMBER_THEORY_2-Modulos_pettite.pdf)
+- Jueves: [Combinatoria](https://cpc-gallos.github.io/Presentations/2026/COMBINATORICS.pdf)
 
 **Semana 8**
 - Martes: Recursividad
@@ -52,7 +52,7 @@ image: /assets/img/posts/Presentaciones.png
 
 **Semana 9**
 - Martes: Búsqueda Binaria
-- Jueves: Teoría de números II — cambio de base, Bits
+- Jueves: Bits
 
 **Semana 10**
 - Martes: Memorización prefix
@@ -82,8 +82,9 @@ image: /assets/img/posts/Presentaciones.png
 - Martes: Motivación
 - Jueves: Despedida
 
+- *Presentación extra* [Geometría que no se usa en programación (You booked the night train for a reason)](https://cpc-gallos.github.io/Presentations/2026/Geometria_que%20no_se_usa_en%20programacion_You_booked_the_night_train_for_a_reason.pdf)
 
-> El repositorio de las presentaciones 2024-2025 se encuentra en <https://github.com/CPC-GALLOS/Presentations>
+> El repositorio de las presentaciones (2024-2026) se encuentra en <https://github.com/CPC-GALLOS/Presentations> ([carpeta 2026 en GitHub](https://github.com/CPC-GALLOS/Presentations/tree/main/2026))
 {: .prompt-tip }
 
 ## Presentaciones 2025 (En inglés)
