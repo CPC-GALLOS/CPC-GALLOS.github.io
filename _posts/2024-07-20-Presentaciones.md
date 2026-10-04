@@ -47,8 +47,8 @@ image: /assets/img/posts/Presentaciones.png
 - Jueves: [Combinatoria](https://cpc-gallos.github.io/Presentations/2026/COMBINATORICS.pdf)
 
 **Semana 8**
-- Martes: Recursividad
-- Jueves: Sorting (con funciones lambda)
+- Martes: [Recursividad](https://canva.link/vru7dz775qj8rt0)
+- Jueves: [Sorting](https://canva.link/h0p5p7rkwww2bcz)
 
 **Semana 9**
 - Martes: Búsqueda Binaria
