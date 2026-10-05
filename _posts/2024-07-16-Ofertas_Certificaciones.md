@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ofertas en Certificaciones
 description: ofertas en vouchers de certificaciones
 date: 2024-07-16 21:30:00 +/-TTTT
@@ -29,7 +29,7 @@ add-to-calendar-button {
 {: .prompt-tip }
 
 En general para obtener vouchers gratis o descuentos en vouchers hay que estar atentos a las redes sociales de las compañías emisoras de estos, en general Microsoft es la que más oportunidades suele dar.
-- [GitHub Foundations Certification Exam o el Copilot Foundations ](https://education.github.com/experiences/foundations_certificate) gratis a travez de [Github Education Student pack](https://education.github.com/pack/join), si no estan disponlibles quizas sea [porque se acabaron para este periodo (enero/septiembre)](https://github.com/orgs/community/discussions/184439#discussioncomment-15625511) o si cambiaron algo revisa el [faq](https://learn.github.com/credentials)
+- [GitHub Foundations Certification Exam o GitHub Copilot](https://support.datacamp.com/hc/en-us/articles/41749666959767-GitHub-Foundations-Certification-Voucher-through-DataCamp) voucher al **100% de descuento** a través de [Github Education Student pack](https://education.github.com/pack/join). El proceso actual requiere activar los 3 meses gratis de DataCamp incluidos en el pack, vincular tu cuenta de GitHub de estudiante, completar la ruta de aprendizaje *GitHub Foundations* en DataCamp y esperar el código de descuento enviado por correo electrónico (puede demorar hasta 15 días hábiles). Consulta la [guía oficial de DataCamp](https://support.datacamp.com/hc/en-us/articles/41749666959767-GitHub-Foundations-Certification-Voucher-through-DataCamp) y el [FAQ de GitHub Credentials](https://learn.github.com/credentials).
 - [Get AWS AI and Cloud Certified with 50% off](https://www.pearsonvue.com/us/en/aws/aif2cloud.html) Use the promo code to get **50% off AWS Certified AI Practitioner**. Pass the AWS Certified AI Practitioner exam by September 30, and you’ll qualify for a **free** AWS **Certified Cloud Practitioner** exam any time before November 30, 2026. This is a limited time offer!
 - [AWS Get Certified Challenge](https://www.google.com/search?q=AWS%20Get%20Certified%20Challenge) **50% de descuento** en cualquier examen de nivel Foundational or Associate, con varios términos y condiciones.
 - [AWS Emerging Talent Community](https://www.reddit.com/r/AWSCertifications/comments/1iacrq2/earning_50_off_voucher_with_etc_detailed_post/) al registrarte en AWS Educate y conseguir ciertos puntos y pasar algunos examenes de prueba puedes obtener un descuento del **100% de descuento** en una certificación.
