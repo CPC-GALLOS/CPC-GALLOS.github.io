@@ -302,6 +302,163 @@ Más información en [las12uvas.es](https://las12uvas.es/2023/#/quees)
 
 [Descubre más sobre Advent of Code.](https://adventofcode.com/)
 
+## Eagle Code (CPUPAEP)
+
+![Eagle Code Logo](/assets/img/posts/Concursos/cpupaep.jpg){: w="200" h="100"}
+
+**Eagle Code** es un concurso de programación organizado por el Club de Programación de la UPAEP (CPUPAEP), en Puebla. Es **abierto a personas externas a la UPAEP**, así que no necesitas ser estudiante de esa universidad para participar. Se compite **en equipo**.
+
+**Fechas en los últimos años:**
+
+- **2025:** 29 de noviembre
+- **2024:** 23 de noviembre
+
+Más información en el Instagram del [Club de Programación UPAEP](https://www.instagram.com/cpupaep/)
+
+## Winter Coding Cup (ITMorelia)
+
+![Winter Coding Cup Logo](/assets/img/posts/Concursos/winter_coding_cup.jpg){: w="200" h="100"}
+
+La **Winter Coding Cup** es un concurso organizado por el club de algoritmia del Instituto Tecnológico de Morelia (ITMorelia). Se participa **en equipo** y se realiza a finales de año, en temporada de invierno.
+
+**Fechas en los últimos años:**
+
+- **2025:** 13 de diciembre
+
+Más información en el Instagram de [Algoritmia ITM](https://www.instagram.com/algoritmiaitm/)
+
+## Subregional de ICPC Caribe
+
+![ICPC Caribe Logo](/assets/img/posts/Concursos/icpc_caribe.png){: w="200" h="100"}
+
+Es la eliminatoria (subregional) del **ICPC en la región del Caribe**. Tiene formato ICPC: equipos de tres integrantes que resuelven problemas de algoritmia. Además de los equipos de la región, **se admiten equipos invitados** de otros países, que se registran mediante un formulario. Es una buena opción si quieres otra oportunidad de competir en formato ICPC fuera del calendario mexicano.
+
+Se realiza usualmente a **inicios de octubre**. Los concursos de años anteriores se pueden practicar en el juez [Matcom Online Grader](https://matcomgrader.com/).
+
+**Fechas en los últimos años:**
+
+- **2026:** 3 de octubre
+- **2025:** 4 de octubre
+- **2024:** 5 de octubre
+- **2023:** 23 de septiembre
+
+Para registrarte, consulta la [convocatoria de participación](https://www.icpccaribe.org/eliminatoria/convocatoria-para-participaci%C3%B3n) en la página de ICPC Caribe.
+
+## ICPC North America Qualifier (NAQ)
+
+![ICPC NAQ Logo](/assets/img/posts/Concursos/icpc_north_america.png){: w="500" h="300"}
+
+El **North America Qualifier (NAQ)** es un concurso de programación **en línea** (distribuido) que sirve como reemplazo de los concursos "clasificatorios" que normalmente organiza cada escuela antes de los regionales de ICPC en Norteamérica.
+
+**¿Cómo participar?**
+
+Si no formas parte de una región de ICPC en Norteamérica debes registrarte en la sede **"ICPC-Ineligible"**.
+
+**¿Dónde se compite?**
+
+Desde donde estés. Es un concurso en línea en el que todos coinciden en un mismo lugar virtual, pero la organización de dónde y cómo se juntan los equipos le corresponde a cada coach.
+
+**Fechas en los últimos años:**
+
+- **2026:** 3 de octubre
+- **2025:** 11 de octubre
+- **2024:** 5 de octubre
+- **2023:** 30 de septiembre
+
+Más información en [na.icpc.global/naq](https://na.icpc.global/naq/)
+
+## GCPC
+
+![GCPC Logo](/assets/img/posts/Concursos/cpulm.png){: w="200" h="100"}
+
+El **German Collegiate Programming Contest (GCPC)** es el concurso universitario de programación de Alemania, con formato ICPC. Los equipos de otros países pueden participar **"Out of competition"** (fuera de competencia), registrándose en el formulario del sitio web de la edición correspondiente. Participas y resuelves los mismos problemas, pero no entras en la clasificación oficial.
+
+> Alemania está muy adelantada en horario respecto a México, así que revisa la hora del concurso en tu zona antes de registrarte.
+{: .prompt-warning}
+
+Se realiza usualmente en **junio o julio**, en sábado.
+
+**Fechas en los últimos años:**
+
+- **2026:** 13 de junio
+- **2025:** 5 de julio
+- **2024:** 22 de junio
+- **2023:** 17 de junio
+
+Más información en [2026.gcpc.nwerc.eu](https://2026.gcpc.nwerc.eu/). Para ver ediciones anteriores, cambia el año en la dirección del sitio web.
+
+## M(IT)²
+
+![MIT Informatics Tournament Logo](/assets/img/posts/Concursos/mitit.jpg){: w="200" h="100"}
+
+El **M(IT)²** (MIT Informatics Tournament) es un torneo de programación organizado por estudiantes del **MIT** con modalidad en línea. Se divide en dos concursos al año: uno de **invierno** (Winter Contest) y uno de **primavera** (Spring Contest).
+
+**Spring Invitational 2026:**
+
+- **Ronda de clasificación 1:** 15 de marzo
+- **Ronda de clasificación 2:** 5 de abril
+- **Final presencial:** 2 y 3 de mayo
+
+**Concursos anteriores:**
+
+- **2025-2026:**
+    - [Winter Contest 2025-26](https://mitit.org/Contest/Archive/Results202526Winter) (7 de diciembre de 2025)
+- **2024-2025:**
+    - [Winter Contest 2025](https://mitit.org/Contest/Archive/Results2025Winter) (19 de enero de 2025)
+    - [Spring Contest 2025](https://mitit.org/Contest/Archive/Results2025Spring) (3 de mayo de 2025)
+- **2023-2024:**
+    - [Winter Contest 2024](https://mitit.org/Contest/Archive/Results2024Winter) (20 de enero de 2024)
+    - [Spring Invitational + Final 2024](https://mitit.org/Contest/Archive/Results2024Spring) (20 de abril y 11 de mayo de 2024)
+
+Más información en el [sitio oficial](https://mitit.org/) y en su [Instagram](https://www.instagram.com/mit_informatics_tournament/)
+
+## MFP (Maratón Femenina de Programación)
+
+![MFP Logo](/assets/img/posts/Concursos/mfp.png){: w="200" h="100"}
+
+La **Maratón Femenina de Programación (MFP)** es una competencia **exclusiva para mujeres y niñas de toda América Latina**. Nació como una iniciativa para reducir la brecha de género en tecnología. Las participantes resuelven problemas de algoritmia en un ambiente acogedor y colaborativo, y ya ha impactado a cientos de chicas y mujeres, creando redes de apoyo que van más allá de la competencia.
+
+Hay dos modalidades según tu nivel:
+
+- **Aprendices:** estudiantes de secundaria y nivel técnico.
+- **Competidoras:** estudiantes universitarias y de posgrado.
+
+Consta de una **primera fase en línea** y una **fase final presencial** en el Instituto de Computación de la Unicamp (Brasil).
+
+**Fechas en los últimos años:**
+
+- **2026:** primera fase el 23 de mayo; fase final el 1 y 2 de agosto
+- **2025:** primera fase el 26 de abril; fase final el 5 y 6 de julio
+- **2024:** primera fase el 13 de abril; fase final el 15 de junio
+
+Puedes practicar con los concursos anteriores en su [grupo público de Codeforces](https://codeforces.com/group/9CNwiex6Ir/contests).
+
+Más información en [mfp.ic.unicamp.br](https://mfp.ic.unicamp.br/) y en su [Instagram](https://www.instagram.com/mfp.sbc/)
+
+## Concurso interno BRUTE-UDESC
+
+![BRUTE UDESC Logo](/assets/img/posts/Concursos/brute.jpeg){: w="200" h="100"}
+
+**BRUTE** es el grupo de programación competitiva de la **UDESC** (Universidade do Estado de Santa Catarina), una universidad de **Brasil** en la ciudad de Joinville. Organiza las **"Internas"**, concursos con los que seleccionan y preparan estudiantes para la **Maratona SBC de Programação**, el torneo brasileño de programación. Generalmente se hacen **abiertas a cualquier persona**.
+
+**Detalles del concurso:**
+
+- La inscripción es **gratuita** y se hace con un formulario, hasta un par de días antes del concurso.
+- Los estudiantes de otras universidades usan el mismo formulario y pueden participar **en línea** o en persona en el campus de Joinville.
+- Los enunciados han estado disponibles en **inglés y portugués**.
+
+> Brasil tiene un horario distinto al de México. Verifica la hora al registrarte.
+{: .prompt-warning}
+
+**Fechas en los últimos años:**
+
+- **2026:** 20 de junio, edición "Internassauro" (inscripciones hasta el 18 de junio)
+- **2025:** 7 de junio, edición "O Poderoso Balão" (inscripciones hasta el 5 de junio)
+
+Los concursos anteriores están en los [gyms de Codeforces](https://codeforces.com/gyms?searchByNameOrIdQuery=udesc&searchByProblem=false), donde puedes practicarlos.
+
+Más información en [brute.joinville.udesc.br](https://brute.joinville.udesc.br/) y en su [Instagram](https://www.instagram.com/bruteudesc/)
+
 ## Concursos de nivel medio superior (bachillerato)
 
 ### IOI
