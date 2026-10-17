@@ -28,11 +28,11 @@ image: /assets/img/posts/Presentaciones.png
 
 **Semana 3**
 - Martes: [Operaciones básicas](https://canva.link/sc67zbqv1cl9v2y)
-- Jueves: Condicionales
+- Jueves: Condicionales (pizarron fisico, sin presentación)
 
 **Semana 4**
-- Martes: Ciclos y arreglos
-- Jueves: Funciones
+- Martes: Ciclos y arreglos (pizarron fisico, sin presentación)
+- Jueves: Funciones (pizarron fisico, sin presentación)
 
 **Semana 5**
 - Martes: [Arreglos — Vector, String, Bitset, Funciones](https://canva.link/6jqg0kci5aauu3w)
@@ -51,12 +51,12 @@ image: /assets/img/posts/Presentaciones.png
 - Jueves: [Sorting](https://canva.link/h0p5p7rkwww2bcz)
 
 **Semana 9**
-- Martes: Búsqueda Binaria
-- Jueves: Bits
+- Martes: [Búsqueda Binaria](https://canva.link/6dsdju0k1ctty20)
+- Jueves: [Memorización y prefix sum](https://canva.link/hp7l9cqg35uq7qy)
 
 **Semana 10**
-- Martes: Memorización prefix
-- Jueves: Two pointers, Sliding window
+- Martes: [Teoria de números II](https://canva.link/550q0dhy5p2yxvn)
+- Jueves: [Two pointers, Sliding window](https://cpc-gallos.github.io/Presentations/2026/Two_Pointers_Sliding_Window/) [canva](https://canva.link/kx2ddba1avpkmd1)
 
 **Semana 11**
 - Martes: Map
