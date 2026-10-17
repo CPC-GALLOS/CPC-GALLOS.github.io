@@ -226,10 +226,11 @@ No es exclusivo para estudiantes. Puedes crear una cuenta gratuita. Para aprovec
 - [FENIX](https://www.fenix.org.mx/beneficios-usuarios.html) la Federación Nacional de Identidades Mexicanas tiene de las ofertas más importantes en México
     - Springer Link: Acceso a millones de documentos científicos de revistas, libros, series, protocolos, obras de referencia, etc., para la comunidad académica y de investigación de las Instituciones de Educación Superior que han pagado una suscripción al servicio.
     - [Spotify](https://www.spotify.com/mx/student/) por solo $69 MXN al mes
-    - Autodesk: Software AutoCAD a estudiantes y educadores de forma gratuita. 
+    - [Autodesk](https://www.autodesk.com/education/edu-software/overview): Software AutoCAD y suite a estudiantes y educadores de forma gratuita. 
     - descuento para estudiantes en YouTube premium y YouTube music.
     - Deezer Student: 3 meses gratis Luego, $59 MXN al mes.
     - Kaspersky:  Descuento del 60% en cualquiera de las soluciones.
+- [Autodesk Education](https://www.autodesk.com/education/edu-software/overview) acceso educativo gratuito por 1 año (renovable mientras mantengas la condición académica) a licencias completas de software profesional de Autodesk, como AutoCAD, Revit, Inventor, Fusion 360, 3ds Max, Maya y Civil 3D, mediante verificación con SheerID.
 - [sharp3d](https://www.shapr3d.com/education) licencia 100% gratuita para renovar anualmente. Shapr3D es un software CAD con el motor Siemens Parasolid®, disponible en Windows, MacOS y iPadOS.
 - [Adobe Creative Cloud para estudiantes](https://www.adobe.com/education/students/creativecloud.html) acceso educativo a herramientas como Photoshop, Illustrator, Premiere Pro, After Effects y más, con descuento o licencia especial para estudiantes.
 - [Figma Education](https://www.figma.com/education/) acceso a la versión Pro de Figma para estudiantes y docentes mediante verificación académica, ideal para diseño, prototipado y colaboración en equipo.
@@ -242,7 +243,9 @@ No es exclusivo para estudiantes. Puedes crear una cuenta gratuita. Para aprovec
 ## Miscelaneos 
 
 - [Student Beans](https://www.studentbeans.com/mx) múltiples ofertas para estudiantes de diferentes marcas.
+  - **[FlixBus / Flix](https://www.studentbeans.com/student-discount/mx/flix___?source=most_popular_strip&offer=0-student-discount-flix___):** Descuento en boletos de autobús. Puedes aprovechar un **doble descuento**: al seleccionar tu viaje, quita la opción de boleto de "Adulto" y elige boleto de "Estudiante", y al momento de pagar añade el código promocional obtenido en Student Beans (de esta manera un viaje de Aguascalientes a CDMX puede costar tan solo **$150 MXN**).
 - [UniDays](https://www.myunidays.com/ES/es-ES) múltiples ofertas para estudiantes de diferentes marcas.
+- [Descuento Estudiante (Destu)](https://www.descuentoestudiante.com.mx/descuentos#mexico) plataforma con códigos promocionales, ofertas y cupones de descuento exclusivos para estudiantes universitarios en México y Latinoamérica.
 - [Apple](https://www.apple.com/mx-edu/store) descuentos en productos seleccionados de Apple a meses sin intereses. 
 - [Samsung](https://www.samsung.com/mx/students-offers/) descuentos en productos seleccionados de Samsung y 10% de descuento adicional en tu primera compra.
 - [Puma](https://mx.puma.com/descuento-estudiantes) Los estudiantes universitarios pueden recibir un 15% de descuento en la tienda oficial de Puma México.
