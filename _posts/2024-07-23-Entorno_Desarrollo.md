@@ -38,15 +38,21 @@ __Tabla de Contenidos:__
     ```bash
     pkg update && pkg install git
     ```
-    - En <i class="fa-brands fa-apple"></i> iOS/iPadOS con la terminal ![ish logo](https://ish.app/assets/icon.png){:  w="15" h="15" } [ish](https://ish.app/) y los comandos:
-    ```bash
-    apk update 
-    apk add git openssh
-    ssh-keygen -A
-    ```
+    - En <i class="fa-brands fa-apple"></i> iOS/iPadOS:
+        - ![a-Shell logo](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/1d/6b/301d6b52-6d27-6897-5acc-e8b01e1152f4/Placeholder.mill/400x400bb-75.webp){: w="15" h="15" } **[a-Shell](https://apps.apple.com/es/app/a-shell/id1473805438) (Recomendado)**: incluye `lg2` (libgit2) de forma nativa sin instalar paquetes adicionales y permite trabajar directamente sobre tus carpetas en la app ![Files logo](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/fb/9f/42fb9f8e-768b-4b7a-155b-660ed2d52fd0/Placeholder.mill/400x400bb-75.webp){: w="15" h="15" } [Archivos (Files)](https://apps.apple.com/mx/app/archivos/id1232058109). Se recomienda crear un alias de `lg2` hacia `git` ejecutando:
+        ```bash
+        echo 'alias git="lg2"' >> ~/Documents/.profile
+        source ~/Documents/.profile
+        ```
+        - ![ish logo](https://ish.app/assets/icon.png){:  w="15" h="15" } **[ish](https://ish.app/)**: con los comandos:
+        ```bash
+        apk update 
+        apk add git openssh
+        ssh-keygen -A
+        ```
 
-4. Si se esta en Windows, revisa qué este actualizado, si no  esta en la ultima versión, comprobamos que esta instalado el cliente de [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui).
-5. En una terminal creamos nuestro usuario local de git (es opcional que los datos sean iguales a los de GitHub) con los comandos:
+2. Si se esta en Windows, revisa qué este actualizado, si no  esta en la ultima versión, comprobamos que esta instalado el cliente de [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui).
+3. En una terminal creamos nuestro usuario local de git (es opcional que los datos sean iguales a los de GitHub) con los comandos:
 ``` bash
 git config --global user.name "Usuario"
 ```
@@ -54,18 +60,18 @@ git config --global user.name "Usuario"
 git config --global user.email "correo@ejemplo.com" 
 ```
 
-6. comprobamos nuestros datos con el comando:
+1. comprobamos nuestros datos con el comando:
 ```bash
  git config --list
  ```
 
-7. En la misma terminal creamos una llave pública de ssh:
+1. En la misma terminal creamos una llave pública de ssh:
 ```bash
 ssh-keygen -t ed25519 -C "correo@ejemplo.com"
 ```
 
-8. Copiamos los datos del archivo generado en Windows en la ruta: `C:\Users\%USERNAME%\.ssh\id_ed25519.pub`{: .filepath} (para Windows tiene el icono de Microsoft Publisher ![Microsoft publisher logo](https://upload.wikimedia.org/wikipedia/commons/f/fb/Microsoft_Office_Publisher_%282019-present%29.svg){: w="15" h="15" } y se puede abrir con el bloc de notas), para los demás sistemas operativos suele estar en `~/.ssh/id_ed25519.pub`{: .filepath}, y lo conectamos con nuestra cuenta de GitHub a través de <https://github.com/settings/ssh/new>, dándole un nombre (puede ser el modelo de tu dispositivo) y pegando los datos copiados (llave).
-9. Por último descargamos nuestro repositorio, en una terminal navega hacia tu carpeta de destino, yo recomiendo la carpeta de Documentos (Documents) o Escritorio (Desktop).
+1. Copiamos los datos del archivo generado en Windows en la ruta: `C:\Users\%USERNAME%\.ssh\id_ed25519.pub`{: .filepath} (para Windows tiene el icono de Microsoft Publisher ![Microsoft publisher logo](https://upload.wikimedia.org/wikipedia/commons/f/fb/Microsoft_Office_Publisher_%282019-present%29.svg){: w="15" h="15" } y se puede abrir con el bloc de notas), para los demás sistemas operativos suele estar en `~/.ssh/id_ed25519.pub`{: .filepath}, y lo conectamos con nuestra cuenta de GitHub a través de <https://github.com/settings/ssh/new>, dándole un nombre (puede ser el modelo de tu dispositivo) y pegando los datos copiados (llave).
+2. Por último descargamos nuestro repositorio, en una terminal navega hacia tu carpeta de destino, yo recomiendo la carpeta de Documentos (Documents) o Escritorio (Desktop).
 
 > Mucho ojo 👁️ en Windows, estas carpetas suelen estar bajo `C:\Users\%USERNAME%\One Drive\`{: .filepath}
 {: .prompt-warning }
@@ -190,7 +196,7 @@ winget update ; winget install -e --id MSYS2.MSYS2
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 ``` 
 
-> La descarga puede fallar en la redes institucionales (RIUAA en el caso de la UAA). Si ocurre un fallo, intenta de nuevo o prueba en otra red Wi-Fi.
+> La descarga puede fallar o trabarse en algunas redes institucionales. Si la terminal parece congelada o se traba, presiona `Enter` (Windows a veces pausa la consola si se hace clic dentro), o cancela con `Ctrl + C` y vuelve a ejecutar el comando para reanudar la descarga donde se quedó.
 {: .prompt-info }
 
 
@@ -389,7 +395,44 @@ Estos métodos son recomendados para dispositivos de gama alta o recientes y par
 
 ### <i class="fa-solid fa-terminal"></i>terminal emulada + <i class="fa-solid fa-laptop-code"></i> editor de código
 
-iOS no tiene una terminal nativa sin jailbreak, por lo qué la mejor opción es usar la terminal emulada:
+iOS no tiene una terminal nativa sin jailbreak, por lo qué la mejor opción es usar terminales como:
+
+#### a-Shell (Clang)
+
+- ![a-Shell logo](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/1d/6b/301d6b52-6d27-6897-5acc-e8b01e1152f4/Placeholder.mill/400x400bb-75.webp){: w="15" h="15" } [a-Shell](https://apps.apple.com/es/app/a-shell/id1473805438): es la opción **más recomendada** para iOS y iPadOS, ya que ofrece un contacto mucho más directo y fluido con las carpetas del sistema de iOS (a través de la app ![Files logo](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/fb/9f/42fb9f8e-768b-4b7a-155b-660ed2d52fd0/Placeholder.mill/400x400bb-75.webp){: w="15" h="15" } [Archivos](https://apps.apple.com/mx/app/archivos/id1232058109)). Como compila a WebAssembly en vez de emular una CPU x86 completa, su rendimiento y velocidad de compilación son notablemente superiores a iSH.
+
+Para instalar el compilador Clang en a-Shell, ejecutamos el siguiente comando:
+```bash
+pkg install llvm-22
+```
+
+> Asegúrate de usar la versión completa de [a-Shell](https://apps.apple.com/es/app/a-shell/id1473805438) y no *a-Shell mini*.
+{: .prompt-info }
+
+Como usa **Clang**, los pasos para configurarlo son similares a [macOS con Xcode](https://cpc-gallos.github.io/blog/Entorno_Desarrollo/#con-clang-xcode). Clang no incluye la librería `<bits/stdc++.h>` (necesaria para la [plantilla del club](https://cpc-gallos.github.io/blog/Plantilla/)), por lo que debemos descargarla y configurar los alias del compilador ejecutando los siguientes comandos dentro de a-Shell:
+
+```bash
+mkdir -p ~/Library/usr/include/c++/v1/bits
+echo '#define _GLIBCXX_HOSTED 1' | tee ~/Library/usr/include/c++/v1/bits/stdc++.h > /dev/null
+echo '#define _WASI_EMULATED_SIGNAL 1' | tee -a ~/Library/usr/include/c++/v1/bits/stdc++.h > /dev/null
+curl -sS https://raw.githubusercontent.com/gcc-mirror/gcc/master/libstdc%2B%2B-v3/include/precompiled/stdc%2B%2B.h | tee -a ~/Library/usr/include/c++/v1/bits/stdc++.h > /dev/null
+echo 'alias clang="clang++ -fno-exceptions"' | tee ~/Documents/.profile > /dev/null
+source ~/Documents/.profile
+```
+
+> Al igual que en macOS con Clang, recuerda **comentar** o **eliminar** las líneas `#pragma GCC optimize("Ofast,unroll-loops")` y `#pragma GCC target("avx2")` de la [plantilla de C++](https://cpc-gallos.github.io/blog/Plantilla/), debido a que no son compatibles con Clang y provocarán un error de compilación.
+{: .prompt-danger }
+
+Para compilar y ejecutar tus códigos en a-Shell:
+1. Puedes guardar o editar tus archivos `.cpp` dentro de la carpeta `a-Shell` desde la app ![Files logo](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/fb/9f/42fb9f8e-768b-4b7a-155b-660ed2d52fd0/Placeholder.mill/400x400bb-75.webp){: w="15" h="15" } [Archivos (Files)](https://apps.apple.com/mx/app/archivos/id1232058109) de iOS o con un editor de código.
+2. Compilas y ejecutas en la terminal con:
+```bash
+clang main.cpp
+./main
+```
+
+#### iSH (GCC)
+
 - ![ish logo](https://ish.app/assets/icon.png){:  w="15" h="15" } [ish](https://ish.app) con la que podremos compilar nuestros códigos de forma local.
 
 Para descargar el compilador, dentro de ish ejecutaremos los siguientes comandos:
@@ -397,20 +440,21 @@ Para descargar el compilador, dentro de ish ejecutaremos los siguientes comandos
 apk update && apk upgrade
 apk add build-base
 ```
-para compilar código es tan fácil como agregar los archivos `.cpp` a la carpeta `root` desde el [explorador de archivos de iOS (Files)](https://apps.apple.com/mx/app/archivos/id1232058109) dentro de [la carpeta de iSH](https://github.com/ish-app/ish/wiki/View-iSH-files-in-Files-App) y ejecutarlos con `./a.out` 
+para compilar código es tan fácil como agregar los archivos `.cpp` a la carpeta `root` desde el explorador de archivos de iOS ![Files logo](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/fb/9f/42fb9f8e-768b-4b7a-155b-660ed2d52fd0/Placeholder.mill/400x400bb-75.webp){: w="15" h="15" .normal } [Archivos (Files)](https://apps.apple.com/mx/app/archivos/id1232058109) dentro de [la carpeta de iSH](https://github.com/ish-app/ish/wiki/View-iSH-files-in-Files-App) y ejecutarlos con `./a.out` 
 ```bash
 g++ archivo.cpp
 ./a.out
 ```
 
-Para el editor de código el club recomienda:
+Para los editores de código el club recomienda:
 - ![koder logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKbHWmAPHctAdBnQybNwYpIq9ikzDs11yC8g&s){:  w="15" h="15" } [koder](https://koderapp.com/)
+- ![Textastic logo](https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/72/99/7c72991b-2f5d-8468-687f-795fac171061/Textastic_App_Icon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/256x256bb.png){: w="15" h="15" } [Textastic](https://apps.apple.com/us/app/textastic-code-editor/id1049254261)
 
 ### <i class="fa-solid fa-desktop"></i> escritorio emulado
 
-- Esto se hace a través de ![UTM logo](https://mac.getutm.app/siteicon.png){:  w="20" h="20" } [UTM SE](https://apps.apple.com/mx/app/utm-se-retro-pc-emulator/id1564628856) y es recomendado especialmente para iPads, ya que la aplicación corre algo lento debido a que es emulado, pero para un mejor rendimiento recomiendo usar [Debian 11 (LXDE)](https://mac.getutm.app/gallery/debian-11-ldxe) y para instalar VScode recomiendo seguir [esta guía oficial](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)
+- Esto se hace a través de ![UTM logo](https://getutm.app/assets/img/appicon.png){: w="20" h="20" } [UTM SE](https://apps.apple.com/mx/app/utm-se-retro-pc-emulator/id1564628856) y es recomendado especialmente para iPads, ya que la aplicación corre algo lento debido a que es emulado, pero para un mejor rendimiento recomiendo usar [Debian 11 (LXDE)](https://naveenrajm7.github.io/utm-gallery/vms/debian11.html) y para instalar VScode recomiendo seguir [esta guía oficial](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)
 
-![Debian Desktop](https://mac.getutm.app/images/screens/debian-11-ldxe-arm64.png)
+![Debian Desktop](/assets/img/posts/Entorno_Desarrollo/debian11.png)
 
 > Se puede llegar a un mejor rendimiento usando un tipo de paravirtualización con SPICE y JIT con TCG, pero requiere un conocimiento más avanzado y seguir [más pasos](https://docs.getutm.app/installation/ios/).
 {: .prompt-info }
@@ -420,5 +464,6 @@ Para el editor de código el club recomienda:
 - Coder. (s.f). *Termux*. Recuperado de <https://coder.com/docs/code-server/termux> 
 - GitHub. (s.f.). *About billing for GitHub Codespaces*. Recuperado de <https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces>
 - Moin, S. (2019). *How to include bits/stdc++.h header file on macOS*. Recuperado de <https://codeforces.com/blog/entry/70957>
+- Holzschuh, N. (s.f.). *a-Shell*. Recuperado de <https://github.com/holzschu/a-shell>
 - Replit. (s.f). *Build, deploy, and scale at any stage of growth*. Recuperado de <https://replit.com/pricing>
 - Visual Studio Code. (s.f.). *Installing MinGW to build C++ Code on Windows*. Recuperado de <https://www.youtube.com/watch?v=oC69vlWofJQ>
